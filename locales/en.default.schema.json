@@ -3004,6 +3004,9 @@
         "name": "Video"
       }
     },
+    "le_swiper": {
+      "name": "StudyActive - Slideshow"
+    },
     "slideshow": {
       "name": "Slideshow",
       "settings": {
