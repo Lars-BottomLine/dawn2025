@@ -2,7 +2,7 @@
 {{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
 
 <le_swiper-component>
-  SWIPER HERE
+  SWIPER HERE IT IZZZZ
 </le_swiper-component>
 
 
@@ -18,7 +18,7 @@
     {
       "type": "checkbox",
       "id": "auto_rotate",
-      "label": "t:sections.le_swiper.settings.auto_rotate.label",
+      "label": "t:sections.slideshow.settings.auto_rotate.label",
       "default": false
     },
     {
@@ -28,24 +28,24 @@
       "max": 9,
       "step": 2,
       "unit": "s",
-      "label": "t:sections.le_swiper.settings.change_slides_speed.label",
+      "label": "t:sections.slideshow.settings.change_slides_speed.label",
       "default": 5
     },
     {
       "type": "header",
-      "content": "t:sections.le_swiper.settings.mobile.content"
+      "content": "t:sections.slideshow.settings.mobile.content"
     },
   ],
   "blocks": [
     {
       "type": "slide",
-      "name": "t:sections.le_swiper.blocks.slide.name",
+      "name": "t:sections.slideshow.blocks.slide.name",
       "limit": 5,
       "settings": [
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:sections.le_swiper.blocks.slide.settings.image.label"
+          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
         },
         {
           "type": "range",
@@ -54,55 +54,55 @@
           "max": 100,
           "step": 10,
           "unit": "%",
-          "label": "t:sections.le_swiper.blocks.slide.settings.image_overlay_opacity.label",
+          "label": "t:sections.slideshow.blocks.slide.settings.image_overlay_opacity.label",
           "default": 0
         },
         {
           "type": "header",
-          "content": "t:sections.le_swiper.blocks.slide.settings.header_text.content"
+          "content": "t:sections.slideshow.blocks.slide.settings.header_text.content"
         },
         {
           "type": "inline_richtext",
           "id": "heading",
-          "default": "t:sections.le_swiper.blocks.slide.settings.heading.default",
-          "label": "t:sections.le_swiper.blocks.slide.settings.heading.label"
+          "default": "t:sections.slideshow.blocks.slide.settings.heading.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
         },
         {
           "type": "inline_richtext",
           "id": "subheading",
-          "default": "t:sections.le_swiper.blocks.slide.settings.subheading.default",
-          "label": "t:sections.le_swiper.blocks.slide.settings.subheading.label"
+          "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
         {
           "type": "header",
-          "content": "t:sections.le_swiper.blocks.slide.settings.header_button.content"
+          "content": "t:sections.slideshow.blocks.slide.settings.header_button.content"
         },
         {
           "type": "text",
           "id": "button_label",
-          "default": "t:sections.le_swiper.blocks.slide.settings.button_label.default",
-          "label": "t:sections.le_swiper.blocks.slide.settings.button_label.label",
-          "info": "t:sections.le_swiper.blocks.slide.settings.button_label.info"
+          "default": "t:sections.slideshow.blocks.slide.settings.button_label.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
+          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
         },
         {
           "type": "url",
           "id": "link",
-          "label": "t:sections.le_swiper.blocks.slide.settings.link.label"
+          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         },
         {
           "type": "checkbox",
           "id": "button_style_secondary",
-          "label": "t:sections.le_swiper.blocks.slide.settings.secondary_style.label",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
           "default": false
         },
         {
           "type": "header",
-          "content": "t:sections.le_swiper.blocks.slide.settings.header_layout.content"
+          "content": "t:sections.slideshow.blocks.slide.settings.header_layout.content"
         },
         {
           "type": "checkbox",
           "id": "show_text_box",
-          "label": "t:sections.le_swiper.blocks.slide.settings.show_text_box.label",
+          "label": "t:sections.slideshow.blocks.slide.settings.show_text_box.label",
           "default": true
         }
       ]
@@ -110,7 +110,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.le_swiper.presets.name",
+      "name": "t:sections.slideshow.presets.name",
       "blocks": [
         {
           "type": "slide"
