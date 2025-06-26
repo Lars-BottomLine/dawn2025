@@ -3011,7 +3011,7 @@
       }
     },
     "slideshow": {
-      "name": "Slideshow",
+      "name": "Slideshow (default)",
       "settings": {
         "layout": {
           "label": "Layout",
@@ -3170,7 +3170,7 @@
         }
       },
       "presets": {
-        "name": "Slideshow"
+        "name": "Slideshow - default"
       }
     },
     "collapsible_content": {
