@@ -273,9 +273,48 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "le_swiper_cEfnwi": {
+      "type": "le_swiper",
+      "blocks": {
+        "slide_fAazyy": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true
+          }
+        },
+        "slide_y66A8G": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_fAazyy",
+        "slide_y66A8G"
+      ],
+      "name": "t:sections.le_swiper.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5
+      }
     }
   },
   "order": [
+    "le_swiper_cEfnwi",
     "image_banner",
     "rich_text",
     "featured_collection",
