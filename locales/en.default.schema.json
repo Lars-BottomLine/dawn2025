@@ -3005,7 +3005,10 @@
       }
     },
     "le_swiper": {
-      "name": "StudyActive - Slideshow"
+      "name": "StudyActive - Slideshow",
+      "presets": {
+        "name": "StudyActive - Slideshow"
+      }
     },
     "slideshow": {
       "name": "Slideshow",
