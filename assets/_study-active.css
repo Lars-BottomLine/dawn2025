@@ -1,0 +1,32 @@
+body {
+  font-family: "Atkinson Hyperlegible Next", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --swiper-theme-color: cyan !important;
+  --swiper-pagination-bullet-inactive-color: grey !important;
+  --swiper-pagination-bullet-inactive-opacity: 0.75 !important;
+}
+
+.sa-swiper-wrapper .swiper-slide {
+  height: 50vh;
+  display: flex;
+  background-size: cover !important;
+  background-position: center;
+}
+.sa-swiper-wrapper .swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  width: 4rem;
+  height: 1rem;
+  border-radius: 0;
+  transform: skewX(45deg);
+}
+
+sticky-header header {
+  background: magenta !important;
+}
+
+/*# sourceMappingURL=_study-active.css.map */
