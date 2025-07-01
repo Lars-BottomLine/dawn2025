@@ -15,31 +15,38 @@
         "slide_fAazyy": {
           "type": "slide",
           "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "We are stronger <strong>together.</strong>",
-            "subheading": "Own the room. Inspire the crowd. <strong>Love your job.</strong>",
+            "image": "shopify://shop_images/study-active-hero-1.jpg",
+            "heading": "<p>We are stronger </p><p><strong>together.</strong></p>",
+            "subheading": "<p>Own the room.</p><p>Inspire the crowd.</p><p><strong>Love your job.</strong></p>",
             "button_label": "Find your path",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true
+            "link": ""
           }
         },
         "slide_y66A8G": {
           "type": "slide",
           "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true
+            "image": "shopify://shop_images/study-active-hero-2.jpg",
+            "heading": "<p>Want a career that </p><p><strong>changes lives?</strong></p>",
+            "subheading": "<p>Change lives through </p><p>wellness & fitness — </p><p>starting with yours.</p>",
+            "button_label": "Find your path",
+            "link": ""
+          }
+        },
+        "slide_MaAhy4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/study-active-hero-3.jpg",
+            "heading": "<p><strong>Fast-track</strong> your </p><p>career in fitness.</p>",
+            "subheading": "<p>Build you own path to </p><p>success with the UK’s </p><p>Top Personal </p><p>Training Provider</p>",
+            "button_label": "Find your path",
+            "link": ""
           }
         }
       },
       "block_order": [
         "slide_fAazyy",
-        "slide_y66A8G"
+        "slide_y66A8G",
+        "slide_MaAhy4"
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
