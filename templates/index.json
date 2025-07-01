@@ -53,6 +53,7 @@
         "slide_BEWYEg": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/iStock-2157381544.jpg",
             "image_overlay_opacity": 0,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -70,6 +71,7 @@
         "slide_pMV48g": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/iStock-506934457_ab8c723f-2d1b-412c-8fb3-2c843670d46a.jpg",
             "image_overlay_opacity": 0,
             "heading": "Image slide",
             "heading_size": "h1",
