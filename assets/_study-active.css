@@ -3,17 +3,70 @@
   --color-secondary: #39EAF6;
 }
 
+strong {
+  display: contents;
+}
+
+.sa-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sa-flex-justify-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 body {
-  font-family: "Atkinson Hyperlegible Next", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
+._text-h1 {
+  color: inherit;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 8.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.03; /* 87.55px */
+  margin: 0;
+  position: relative;
+  padding-left: 5.5rem;
+}
+._text-h1:before {
+  content: "";
+  display: block;
+  background: url("sa-decal.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3.5rem;
+  height: 8rem;
+  position: absolute;
+  top: -0.8rem;
+  left: 0;
+}
+
+._subheading {
+  color: inherit;
+  text-align: right;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.9rem; /* 122.5% */
+  margin: 0;
+}
+
 :root {
   --swiper-theme-color: cyan !important;
-  --swiper-pagination-bullet-inactive-color: grey !important;
-  --swiper-pagination-bullet-inactive-opacity: 0.75 !important;
+  --swiper-pagination-bullet-inactive-color: white !important;
+  --swiper-pagination-bullet-inactive-opacity: 0.5 !important;
 }
 
 .sa-swiper-wrapper .swiper-slide {
@@ -22,12 +75,28 @@ body {
   background-size: cover !important;
   background-position: center;
 }
+.sa-swiper-wrapper .swiper-slide .sa-swiper-content {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4.4rem 6rem;
+  color: white;
+  box-sizing: border-box;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(0, 38, 139, 0.1) 46.5%, rgba(0, 14, 51, 0.5) 84.11%);
+}
+.sa-swiper-wrapper .swiper-slide .sa-swiper-content .sa-button {
+  margin-top: 4.2rem;
+}
 .sa-swiper-wrapper .swiper-pagination-clickable .swiper-pagination-bullet {
   cursor: pointer;
   width: 4rem;
   height: 1rem;
   border-radius: 0;
   transform: skewX(45deg);
+  transition: transform 250ms, opacity 250ms, background-color 250ms;
+}
+.sa-swiper-wrapper .swiper-pagination-bullet-active {
+  transform: scale(1.1) skewX(45deg) !important;
 }
 
 @media (max-width: 1200px) {
@@ -81,14 +150,47 @@ header .header__icon--cart .icon {
 }
 
 .sa-button {
+  margin-left: 2rem;
+  text-decoration: none;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
   display: flex;
-  padding: 1.2rem 2.2rem;
+}
+.sa-button span {
+  display: flex;
+  padding: 1.3rem 2.2rem;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  align-self: stretch;
-  background: var(--color-primary);
-  box-shadow: 8px 8px 0px 0px #39EAF6;
+  color: white;
+  line-height: 1;
+  z-index: 10;
+  background-color: var(--color-primary);
+  transition: transform 250ms;
+}
+.sa-button.-no-wrap {
+  white-space: nowrap;
+}
+.sa-button:before {
+  content: "";
+  background-color: var(--color-secondary);
+  position: absolute;
+  top: 0.3rem;
+  right: -0.3rem;
+  bottom: -0.3rem;
+  left: 0.8rem;
+  z-index: 1;
+  transition: transform 250ms;
+}
+.sa-button.-hover-translate:hover span {
+  transform: translate(-0.2rem, -0.2rem);
+}
+.sa-button.-hover-translate:hover:before {
+  transform: translate(0.2rem, 0.2rem);
+}
+.sa-button.-medium span {
+  padding: 1.6rem 2.8rem;
+  font-size: 2.8rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
