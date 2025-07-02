@@ -1164,11 +1164,11 @@
         },
         "header_file_download": {
           "label": "The URL of the file to be downloaded",
-          "info": "Get the URL from the Shopify backend under Content -> Files"
+          "placeholder": "Get the URL from the Shopify backend under Content -> Files"
         },
         "header_file_download_title": {
           "label": "Button text",
-          "info": "The text for the download button"
+          "placeholder": "The text for the download button"
         }
       }
     },
