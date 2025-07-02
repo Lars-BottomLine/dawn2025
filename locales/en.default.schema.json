@@ -1163,11 +1163,11 @@
           "info": "A download button for a file will be added to the right side of the header (selectable in the options below)"
         },
         "header_file_download": {
-          "label": "The URL of the file to be downloaded",
+          "label": "Download Button: The URL of the file to be downloaded",
           "placeholder": "Get the URL from the Shopify backend under Content -> Files"
         },
         "header_file_download_title": {
-          "label": "Button text",
+          "label": "Download Button: Text",
           "placeholder": "The text for the download button"
         }
       }
