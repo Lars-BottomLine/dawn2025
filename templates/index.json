@@ -98,6 +98,7 @@
         "slide_BEWYEg",
         "slide_pMV48g"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -144,6 +145,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -155,6 +157,62 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "image_with_text_frcJE8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_x7FyyH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let us do the heavy lifting.",
+            "heading_size": "h1"
+          }
+        },
+        "caption_wEgVGy": {
+          "type": "caption",
+          "settings": {
+            "caption": "This is your moment to do something that really moves you.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_qhCnD8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With Study Active, you get everything you need to become a fully qualified fitness professional. Learn online, in your own time, with expert tutors by your side and real opportunities waiting at the finish line. We’ll guide you through every step, from your first login to guaranteed job interviews with top UK gyms. Bring your drive and passion, we’ve got the rest covered.</p><p><strong>The future won’t wait. </strong></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_CfYnY4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_x7FyyH",
+        "caption_wEgVGy",
+        "text_qhCnD8",
+        "button_CfYnY4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -388,6 +446,7 @@
     "le_swiper_cEfnwi",
     "slideshow_RVz4tt",
     "image_banner",
+    "image_with_text_frcJE8",
     "rich_text",
     "featured_collection",
     "collage",
