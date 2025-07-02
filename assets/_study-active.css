@@ -1,3 +1,8 @@
+:root {
+  --color-primary: #00268B;
+  --color-secondary: #39EAF6;
+}
+
 body {
   font-family: "Atkinson Hyperlegible Next", sans-serif;
   font-optical-sizing: auto;
@@ -12,7 +17,7 @@ body {
 }
 
 .sa-swiper-wrapper .swiper-slide {
-  height: 50vh;
+  height: 660px;
   display: flex;
   background-size: cover !important;
   background-position: center;
@@ -25,8 +30,65 @@ body {
   transform: skewX(45deg);
 }
 
-sticky-header header {
-  background: magenta !important;
+@media (max-width: 1200px) {
+  .sa-swiper-wrapper .swiper-slide {
+    height: 540px;
+  }
+}
+@media (max-width: 1024px) {
+  .sa-swiper-wrapper .swiper-slide {
+    height: 420px;
+  }
+}
+@media (max-width: 749px) {
+  .sa-swiper-wrapper .swiper-slide {
+    height: 370px;
+  }
+}
+header .header__heading a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+header .header__heading img {
+  height: 48px;
+  width: auto;
+  margin-top: -12px;
+}
+header .header__menu-item {
+  color: var(--color-primary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96%; /* 19.2px */
+  padding: 1.4rem 1.5rem 1rem;
+}
+header .header__icon .icon,
+header .modal__close-button .icon {
+  transition: transform 250ms;
+}
+header .header__search svg,
+header .header__icon--account svg {
+  color: var(--color-primary) !important;
+}
+header .header__search svg path,
+header .header__icon--account svg path {
+  stroke-width: 1 !important;
+  stroke: var(--color-primary) !important;
+}
+header .header__icon--cart .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.sa-button {
+  display: flex;
+  padding: 1.2rem 2.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  background: var(--color-primary);
+  box-shadow: 8px 8px 0px 0px #39EAF6;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
