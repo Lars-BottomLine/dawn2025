@@ -272,9 +272,9 @@
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
           {% if cart == empty %}
-            <span class="svg-wrapper">{{'icon-cart-empty.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">{{'sa-icon-shopping-cart-empty.svg' | inline_asset_content }}</span>
           {% else %}
-            <span class="svg-wrapper">{{'icon-cart.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">{{'sa-icon-shopping-cart-empty.svg' | inline_asset_content }}</span>
           {% endif %}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
@@ -589,6 +589,25 @@
       "default": true,
       "label": "t:sections.header.settings.enable_customer_avatar.label",
       "info": "t:sections.header.settings.enable_customer_avatar.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_header_file_download",
+      "default": true,
+      "label": "t:sections.header.settings.enable_header_file_download.label",
+      "info": "t:sections.header.settings.enable_header_file_download.info"
+    },
+    {
+      "type": "text",
+      "id": "header_file_download_title",
+      "label": "t:sections.header.settings.header_file_download_title.label",
+      "placeholder": "t:sections.header.settings.header_file_download_title.info"
+    },
+    {
+      "type": "text",
+      "id": "header_file_download",
+      "label": "t:sections.header.settings.header_file_download.label",
+      "placeholder": "t:sections.header.settings.header_file_download.info"
     },
     {
       "type": "header",

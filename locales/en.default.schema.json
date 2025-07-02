@@ -1157,6 +1157,18 @@
         "enable_customer_avatar": {
           "label": "Customer account avatar",
           "info": "Only visible when customers are signed in with Shop. [Manage customer accounts](/admin/settings/customer_accounts)"
+        },
+        "enable_header_file_download": {
+          "label": "Add a download button",
+          "info": "A download button for a file will be added to the right side of the header (selectable in the options below)"
+        },
+        "header_file_download": {
+          "label": "The URL of the file to be downloaded",
+          "info": "Get the URL from the Shopify backend under Content -> Files"
+        },
+        "header_file_download_title": {
+          "label": "Button text",
+          "info": "The text for the download button"
         }
       }
     },
