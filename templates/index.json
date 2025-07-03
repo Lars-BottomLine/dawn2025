@@ -173,8 +173,8 @@
           "type": "caption",
           "settings": {
             "caption": "This is your moment to do something that really moves you.",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_style": "subtitle",
+            "text_size": "small"
           }
         },
         "text_qhCnD8": {
