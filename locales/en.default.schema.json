@@ -3031,6 +3031,12 @@
         "name": "StudyActive - Slideshow"
       }
     },
+    "le_face2face": {
+      "name": "StudyActive - Face2Face",
+      "presets": {
+        "name": "StudyActive - Face2Face"
+      }
+    },
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
