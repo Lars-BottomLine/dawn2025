@@ -441,6 +441,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "le_face2face_6MbMfU": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_AjEcd8": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "slide_XEkNUV": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "slide_PMRxzT": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_AjEcd8",
+        "slide_XEkNUV",
+        "slide_PMRxzT"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "headline": "Slide",
+        "subheadline": "Slide"
+      }
     }
   },
   "order": [
@@ -448,6 +490,7 @@
     "slideshow_RVz4tt",
     "image_banner",
     "image_with_text_frcJE8",
+    "le_face2face_6MbMfU",
     "rich_text",
     "featured_collection",
     "collage",
