@@ -232,8 +232,9 @@
         "slide_XEkNUV": {
           "type": "slide",
           "settings": {
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
+            "image": "shopify://shop_images/woman-talking-to-camera.jpg",
+            "heading": "<p>Face-to-face workshops available</p>",
+            "subheading": "<p>Prefer in-person support? Join optional practical sessions to boost your confidence.</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -241,8 +242,9 @@
         "slide_PMRxzT": {
           "type": "slide",
           "settings": {
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
+            "image": "shopify://shop_images/tutor-doing-a-video-call.jpg",
+            "heading": "<p>Real tutor support, every step of the way</p>",
+            "subheading": "<p>Speak to experienced fitness professionals who are here to guide, motivate, and support your progress.</p>",
             "button_label": "Button label",
             "link": ""
           }
