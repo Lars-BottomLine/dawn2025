@@ -222,8 +222,9 @@
         "slide_AjEcd8": {
           "type": "slide",
           "settings": {
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
+            "image": "shopify://shop_images/man-sitting-with-laptop-cityscape.jpg",
+            "heading": "<p>Study anytime, anywhere</p>",
+            "subheading": "<p>Log in from mobile or desktop and learn when it suits you.</p>",
             "button_label": "Button label",
             "link": ""
           }
