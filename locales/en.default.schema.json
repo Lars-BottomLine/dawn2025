@@ -3037,6 +3037,13 @@
         "name": "StudyActive - Face2Face"
       }
     },
+    "le_imagentext": {
+      "name": "StudyActive - Image + Text",
+      "presets": {
+        "name": "StudyActive - Face2Face"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
