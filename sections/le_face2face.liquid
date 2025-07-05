@@ -1,10 +1,87 @@
 
-<div class="section-{{ section.id }}-padding">
-  <div class="page-width">
+<div class="section-{{ section.id }}-padding sa-section-face2face -decal-top -dct-primary -decal-bottom -dcb-primary">
+    <div class="page-width -section-content w-full">
 
-    Face2Face
+        <div class="pl-20 pt-8 pb-32">
 
-  </div>
+            <h2 class="!text-white">
+                {{ section.settings.headline }}
+            </h2>
+
+            <div class="_subtitle sa-col-secondary">
+                {{ section.settings.subheadline }}
+            </div>
+
+        </div>
+
+        <div class="f2f-entry-container">
+
+            {%- for block in section.blocks -%}
+
+                <div id="F2FEntry-{{ section.id }}-{{ forloop.index }}" class="f2f-entry">
+
+                    <div class="f2f-left">
+                        <div class="f2f-image">
+                            {%- if block.settings.image -%}
+
+                            {%- liquid
+                                assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+
+                                assign sizes = '100vw'
+                                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+                                assign fetch_priority = 'auto'
+                                if section.index == 1
+                                    assign fetch_priority = 'high'
+                                endif
+                            -%}
+
+                            {%- if forloop.first %}
+                                {{
+                                block.settings.image
+                                | image_url: width: 880
+                                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                }}
+                            {%- else -%}
+                                {{
+                                block.settings.image
+                                | image_url: width: 880
+                                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                                }}
+                            {%- endif -%}
+
+                        {%- else -%}
+                            {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                            {%- if placeholder_slide == 1 -%}
+                                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- else -%}
+                                {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- endif -%}
+                        {%- endif -%}
+                        </div>
+                    </div>
+
+                    <div class="f2f-right">
+
+                        <div class="f2f-text">
+
+                            <h3 class="!text-white ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+
+                            <div class="_subtitle-small sa-col-secondary">
+                                {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
 </div>
 
 {% javascript %}
@@ -38,8 +115,8 @@
   "blocks": [
     {
       "type": "slide",
-      "name": "t:sections.slideshow.blocks.slide.name",
-      "limit": 5,
+      "name": "Entry",
+      "limit": 10,
       "settings": [
         {
           "type": "image_picker",
@@ -61,22 +138,6 @@
           "id": "subheading",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
-        },
-        {
-          "type": "header",
-          "content": "t:sections.slideshow.blocks.slide.settings.header_button.content"
-        },
-        {
-          "type": "text",
-          "id": "button_label",
-          "default": "t:sections.slideshow.blocks.slide.settings.button_label.default",
-          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
-          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         }
       ]
     }
