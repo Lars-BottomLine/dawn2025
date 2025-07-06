@@ -9,37 +9,6 @@
     padding: 0 4rem;
   }
 }
-.content-for-layout section {
-  z-index: 1;
-}
-.content-for-layout section {
-  z-index: 2;
-}
-.content-for-layout section {
-  z-index: 3;
-}
-.content-for-layout section {
-  z-index: 4;
-}
-.content-for-layout section {
-  z-index: 5;
-}
-.content-for-layout section {
-  z-index: 6;
-}
-.content-for-layout section {
-  z-index: 7;
-}
-.content-for-layout section {
-  z-index: 8;
-}
-.content-for-layout section {
-  z-index: 9;
-}
-.content-for-layout section {
-  z-index: 10;
-}
-
 .sa-row {
   display: flex;
   justify-content: space-between;
@@ -283,26 +252,23 @@ h3,
 .shopify-section .-decal-bottom .page-width {
   position: relative;
 }
+.shopify-section .-decal-top {
+  margin-top: 13rem;
+}
 @media (min-width: 1460px) {
-  .shopify-section .-decal-top:before,
-  .shopify-section .-decal-bottom:before {
+  .shopify-section .-decal-top:before {
     transform: skewY(3.5deg);
   }
 }
 @media (min-width: 2200px) {
-  .shopify-section .-decal-top:before,
-  .shopify-section .-decal-bottom:before {
+  .shopify-section .-decal-top:before {
     transform: skewY(2.5deg);
   }
 }
 @media (min-width: 3200px) {
-  .shopify-section .-decal-top:before,
-  .shopify-section .-decal-bottom:before {
+  .shopify-section .-decal-top:before {
     transform: skewY(1.5deg);
   }
-}
-.shopify-section .-decal-top {
-  margin-top: 13rem;
 }
 .shopify-section .-decal-bottom {
   margin-bottom: 14rem;
@@ -313,6 +279,21 @@ h3,
 .shopify-section .-decal-bottom:after {
   top: auto;
   bottom: -7rem;
+}
+@media (min-width: 1460px) {
+  .shopify-section .-decal-bottom:after {
+    transform: skewY(3.5deg);
+  }
+}
+@media (min-width: 2200px) {
+  .shopify-section .-decal-bottom:after {
+    transform: skewY(2.5deg);
+  }
+}
+@media (min-width: 3200px) {
+  .shopify-section .-decal-bottom:after {
+    transform: skewY(1.5deg);
+  }
 }
 
 :root {
@@ -399,6 +380,17 @@ header .header__icon--account svg path {
 header .header__icon--cart .icon {
   width: 2.4rem;
   height: 2.4rem;
+}
+
+.sa-section-image-with-text {
+  position: relative;
+}
+.sa-section-image-with-text .page-width {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .image-with-text h2 {
