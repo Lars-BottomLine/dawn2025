@@ -397,6 +397,11 @@
         "padding_top": "Top",
         "padding_bottom": "Bottom"
       },
+      "margin": {
+        "section_padding_heading": "Margin",
+        "margin_top": "Top",
+        "margin_bottom": "Bottom"
+      },
       "spacing": "Spacing",
       "colors": {
         "label": "Color scheme",
