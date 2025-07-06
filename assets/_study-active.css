@@ -95,6 +95,12 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5, .subtitle {
   top: -0.8rem;
   left: 0;
 }
+._text-h1.-no-decal {
+  padding-left: 0;
+}
+._text-h1.-no-decal:before {
+  display: none;
+}
 
 p {
   font-size: 2.2rem;
@@ -129,6 +135,14 @@ h2:before,
   position: absolute;
   top: -1rem;
   left: -5rem;
+}
+h2.-no-decal,
+._text-h2.-no-decal {
+  padding-left: 0;
+}
+h2.-no-decal:before,
+._text-h2.-no-decal:before {
+  display: none;
 }
 
 h3,
@@ -384,6 +398,7 @@ header .header__icon--cart .icon {
 
 .sa-section-image-with-text {
   position: relative;
+  padding: 0;
 }
 .sa-section-image-with-text .page-width {
   position: absolute;
@@ -391,10 +406,29 @@ header .header__icon--cart .icon {
   right: 0;
   bottom: 0;
   left: 0;
+  display: flex;
+  padding: 0;
+  color: white;
+}
+.sa-section-image-with-text .page-width.image-with-text__content--top {
+  align-items: flex-start;
+}
+.sa-section-image-with-text .page-width.image-with-text__content--middle {
+  align-items: center;
+}
+.sa-section-image-with-text .page-width.image-with-text__content--bottom {
+  align-items: flex-end;
 }
 
+.image-with-text {
+  background-color: transparent;
+}
 .image-with-text h2 {
   position: relative;
+}
+.image-with-text .image-with-text__content {
+  background-color: transparent;
+  color: white;
 }
 .image-with-text .image-with-text__content > * + * {
   margin-top: 2.4rem;
@@ -416,7 +450,7 @@ header .header__icon--cart .icon {
 }
 @media screen and (min-width: 990px) {
   .image-with-text .image-with-text__content {
-    padding: 5rem 2rem 5rem 5rem;
+    padding: 8rem 12rem;
   }
 }
 
