@@ -254,6 +254,7 @@ h3,
 .shopify-section .-decal-top,
 .shopify-section .-decal-bottom {
   z-index: 1;
+  position: relative;
 }
 .shopify-section .-decal-top.-dcb-primary:after, .shopify-section .-decal-top.-dct-primary:before,
 .shopify-section .-decal-bottom.-dcb-primary:after,
@@ -558,6 +559,25 @@ header .header__icon--cart .icon {
 .sa-section-face2face .f2f-entry:nth-child(even) h3,
 .sa-section-face2face .f2f-entry:nth-child(even) ._subtitle-small {
   text-align: right;
+}
+
+.sa-section-whychoose .wc-entry-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 5rem;
+  column-gap: 10rem;
+  row-gap: 6.6rem;
+}
+.sa-section-whychoose .wc-entry-container .wc-right {
+  display: flex;
+  align-items: center;
+}
+.sa-section-whychoose .wc-entry-container .wc-entry {
+  display: flex;
+  gap: 2rem;
+}
+.sa-section-whychoose .wc-entry-container .wc-entry .wc-image {
+  width: 12rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */

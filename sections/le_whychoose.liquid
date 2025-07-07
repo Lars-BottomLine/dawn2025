@@ -1,8 +1,8 @@
 
-<div class="section-{{ section.id }}-padding sa-section-whychoose -decal-top -dct-primary -decal-bottom -dcb-primary">
+<div class="section-{{ section.id }}-padding sa-section-whychoose sa-bg-primary px-32 pb-32 -decal-top -dct-primary -decal-bottom -dcb-primary">
     <div class="page-width -section-content w-full">
 
-        <div class="pl-20 pt-8 pb-32">
+        <div class="pl-20 pt-8 pb-24">
 
             <h2 class="!text-white">
                 {{ section.settings.headline }}
@@ -14,16 +14,16 @@
 
         </div>
 
-        <div class="f2f-entry-container">
+        <div class="wc-entry-container">
 
             {%- for block in section.blocks -%}
 
-                <div id="F2FEntry-{{ section.id }}-{{ forloop.index }}" class="f2f-entry">
+                <div id="F2FEntry-{{ section.id }}-{{ forloop.index }}" class="wc-entry">
                     {% comment %}
                       ToDo: Optimize image sizes
                     {% endcomment %}
-                    <div class="f2f-left">
-                        <div class="f2f-image">
+                    <div class="wc-left">
+                        <div class="wc-image">
                             {%- if block.settings.image -%}
 
                             {%- liquid
@@ -63,11 +63,11 @@
                         </div>
                     </div>
 
-                    <div class="f2f-right">
+                    <div class="wc-right">
 
-                        <div class="f2f-text">
+                        <div class="wc-text">
 
-                            <h3 class="!text-white ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                            <h3 class="!text-white _subtitle !leading-none mb-2 !font-bold ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
 
                             <div class="_subtitle-small sa-col-secondary">
                                 {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
