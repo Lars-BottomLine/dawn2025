@@ -350,81 +350,56 @@
         "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs."
       }
     },
-    "image_with_text_GaETnE": {
-      "type": "image-with-text",
+    "collapsible_content_hE7cUy": {
+      "type": "collapsible-content",
       "blocks": {
-        "heading_4HcJb3": {
-          "type": "heading",
+        "collapsible_row_aRDaRx": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Alright, but what exactly do you do?",
+            "icon": "check_mark",
+            "row_content": "<p>Okay, hands up — who’s ever been mid-squat and thought “Hmm… is my knee meant to sound like a bowl of Rice Krispies?” Yeah, me too. And I’m not even the client — I’m the one dishing out the squatt...</p>",
+            "page": ""
           }
         },
-        "text_wTVC6w": {
-          "type": "text",
+        "collapsible_row_LLRkqa": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "heading": "Are your personal trainer courses internationally recognised?",
+            "icon": "check_mark",
+            "row_content": "<p>So, you love fitness. You’re the one your mates ask for gym tips, and you practically live in activewear (don’t worry, same here – I’ve accepted it as a lifestyle now). And now you’re thinking…</p>",
+            "page": ""
           }
         },
-        "button_MiX6GH": {
-          "type": "button",
+        "collapsible_row_brgiwn": {
+          "type": "collapsible_row",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "heading": "What courses do I need to complete to become a personal trainer?",
+            "icon": "check_mark",
+            "row_content": "<p>The wobbly truth behind the buzz… So, picture this. I’m in the gym, minding my own business, trying to look like I know what I’m doing (standard), when I clock someone standing on what can only b...</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "heading_4HcJb3",
-        "text_wTVC6w",
-        "button_MiX6GH"
+        "collapsible_row_aRDaRx",
+        "collapsible_row_LLRkqa",
+        "collapsible_row_brgiwn"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "caption": "",
+        "heading": "Frequently asked questions",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "row",
+        "container_color_scheme": "",
         "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -452,59 +427,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -560,68 +482,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collapsible_content_hE7cUy": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_aRDaRx": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_LLRkqa": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_brgiwn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_iBWDh6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_aRDaRx",
-        "collapsible_row_LLRkqa",
-        "collapsible_row_brgiwn",
-        "collapsible_row_iBWDh6"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -632,12 +492,8 @@
     "le_face2face_6MbMfU",
     "le_image_with_text_yP9WPy",
     "le_whychoose_qbgPdw",
-    "image_with_text_GaETnE",
-    "rich_text",
+    "collapsible_content_hE7cUy",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn",
-    "collapsible_content_hE7cUy"
+    "multicolumn"
   ]
 }
