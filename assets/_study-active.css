@@ -427,18 +427,45 @@ header .header__icon--cart .icon {
 .sa-section-image-with-text .page-width.image-with-text__content--bottom {
   align-items: flex-end;
 }
+.sa-section-image-with-text .iwt-background-shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 0;
+  color: white;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.3%, rgba(0, 0, 0, 0.3) 76.47%);
+}
+
+.image-with-text__media {
+  min-height: 780px !important;
+  background: linear-gradient(180deg, #39EAF6 0%, #00268B 100%);
+}
+@media (max-width: 540px) {
+  .image-with-text__media img {
+    display: none !important;
+  }
+}
 
 .image-with-text {
   background-color: transparent;
 }
-.image-with-text h2 {
-  position: relative;
-  font-style: italic;
-  font-weight: 700;
+.image-with-text .image-with-text__content--desktop-right > * {
+  margin-left: auto;
+  align-self: flex-end;
+  text-align: right;
 }
 .image-with-text .image-with-text__content {
   background-color: transparent;
   color: white;
+}
+.image-with-text .image-with-text__content h2 {
+  position: relative;
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(6.4rem, 5.902777778vw, 8.5rem);
 }
 .image-with-text .image-with-text__content > * + * {
   margin-top: 2.4rem;

@@ -66,6 +66,8 @@
     </div>
   </div>
 
+  <div class="iwt-background-shadow"></div>
+
   <div class="page-width image-with-text__content--{{ section.settings.desktop_content_position }}">
     <div class="image-with-text isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}">
@@ -82,7 +84,7 @@
                     class="image-with-text__heading inline-richtext _text-h1 italic -no-decal"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }}
+                    {{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                   </h2>
                 {%- when 'caption' -%}
                   <p
@@ -92,7 +94,7 @@
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class="image-with-text__text rte _subtitle-large {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="image-with-text__text rte _subtitle-large !mt-0 {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                   </div>
                 {%- when 'button' -%}
@@ -103,7 +105,7 @@
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="sa-button -medium -hover-translate !ml-0 !mt-14 {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="sa-button -medium -hover-translate !ml-0 !mt-20 {% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
                       <span>
