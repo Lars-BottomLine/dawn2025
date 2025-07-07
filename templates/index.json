@@ -261,8 +261,7 @@
         "heading_TbV3Rd": {
           "type": "heading",
           "settings": {
-            "heading": "“You are what you do, notwhat you say you’ll do.”",
-            "heading_size": "h1"
+            "heading": "<p>“You are what you do, not</p><p>what you say you’ll do.”</p>"
           }
         },
         "text_ndH6x4": {
