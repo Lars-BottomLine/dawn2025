@@ -302,6 +302,54 @@
         "margin_bottom": 0
       }
     },
+    "le_whychoose_qbgPdw": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_DCtddk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake.svg",
+            "heading": "<p>Guaranteed Interviews</p>",
+            "subheading": "<p>Benefit from our network of top UK gyms.</p>"
+          }
+        },
+        "slide_rJxCkV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-calendar.svg",
+            "heading": "<p>Flexible Study</p>",
+            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>"
+          }
+        },
+        "slide_YcHdNd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-hand-gives.svg",
+            "heading": "<p>Trusted Provider</p>",
+            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>"
+          }
+        },
+        "slide_AGUxxi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-twig.svg",
+            "heading": "<p>Growing career</p>",
+            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DCtddk",
+        "slide_rJxCkV",
+        "slide_YcHdNd",
+        "slide_AGUxxi"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "headline": "Why choose Study Active?",
+        "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs."
+      }
+    },
     "image_with_text_GaETnE": {
       "type": "image-with-text",
       "blocks": {
@@ -583,6 +631,7 @@
     "image_with_text_frcJE8",
     "le_face2face_6MbMfU",
     "le_image_with_text_yP9WPy",
+    "le_whychoose_qbgPdw",
     "image_with_text_GaETnE",
     "rich_text",
     "featured_collection",
