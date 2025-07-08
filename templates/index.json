@@ -44,12 +44,23 @@
             "button_label": "Find your path",
             "link": ""
           }
+        },
+        "slide_rqXwex": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "slide_fAazyy",
         "slide_y66A8G",
-        "slide_MaAhy4"
+        "slide_MaAhy4",
+        "slide_rqXwex"
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
@@ -128,7 +139,7 @@
             "image": "shopify://shop_images/399542cedc385997fb523203e2f94268394f286e.jpg",
             "heading": "<p>Julie Davis</p>",
             "subheading": "<p>Powerlifting World Championship Athlete</p>",
-            "text_content": "<p>Text</p>",
+            "text_content": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -139,7 +150,7 @@
             "image": "shopify://shop_images/7d90f49e6d22bb8165ae447992d054fce4030a61.jpg",
             "heading": "<p>Anne Nixon</p>",
             "subheading": "<p>Former CBBC Television Presenter</p>",
-            "text_content": "<p>Text</p>",
+            "text_content": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -150,7 +161,7 @@
             "image": "shopify://shop_images/4055f5aaa8ae2993e390dd2561cb797f1241daba.jpg",
             "heading": "<p>Michael Clegg</p>",
             "subheading": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
-            "text_content": "<p>Text</p>",
+            "text_content": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
             "button_label": "Button label",
             "link": ""
           }
