@@ -18,6 +18,7 @@
             "image": "shopify://shop_images/study-active-hero-1.jpg",
             "heading": "<p>We are stronger </p><p><strong>together.</strong></p>",
             "subheading": "<p>Own the room.</p><p>Inspire the crowd.</p><p><strong>Love your job.</strong></p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Find your path",
             "link": ""
           }
@@ -28,6 +29,7 @@
             "image": "shopify://shop_images/study-active-hero-2.jpg",
             "heading": "<p>Want a career that </p><p><strong>changes lives?</strong></p>",
             "subheading": "<p>Change lives through </p><p>wellness & fitness — </p><p>starting with yours.</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Find your path",
             "link": ""
           }
@@ -38,6 +40,7 @@
             "image": "shopify://shop_images/study-active-hero-3.jpg",
             "heading": "<p><strong>Fast-track</strong> your </p><p>career in fitness.</p>",
             "subheading": "<p>Build you own path to </p><p>success with the UK’s </p><p>Top Personal </p><p>Training Provider</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Find your path",
             "link": ""
           }
@@ -50,6 +53,7 @@
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
+        "slider_type": "hero",
         "auto_rotate": false,
         "change_slides_speed": 5
       }
@@ -63,6 +67,7 @@
             "image": "shopify://shop_images/group-doing-movement-therapy.jpg",
             "heading": "<p>Group Exercise Instructor</p>",
             "subheading": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Let's go",
             "link": ""
           }
@@ -73,6 +78,7 @@
             "image": "shopify://shop_images/women-doing-yoga-worrier-pose.jpg",
             "heading": "<p>Wellness and Fitness Coach</p>",
             "subheading": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Get fit",
             "link": ""
           }
@@ -83,6 +89,7 @@
             "image": "shopify://shop_images/woman-lifting-weight.jpg",
             "heading": "<p>Strength & Conditioning Coach</p>",
             "subheading": "<p>Help athletes improve performance through targeted, science-based training.</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Get Strong",
             "link": ""
           }
@@ -93,6 +100,7 @@
             "image": "shopify://shop_images/group-doing-movement-therapy.jpg",
             "heading": "<p>Image slide</p>",
             "subheading": "<p>Tell your brand's story through images</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -106,6 +114,7 @@
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
+        "slider_type": "job-card",
         "auto_rotate": false,
         "change_slides_speed": 5
       }
@@ -119,6 +128,7 @@
             "image": "shopify://shop_images/399542cedc385997fb523203e2f94268394f286e.jpg",
             "heading": "<p>Julie Davis</p>",
             "subheading": "<p>Powerlifting World Championship Athlete</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -129,6 +139,7 @@
             "image": "shopify://shop_images/7d90f49e6d22bb8165ae447992d054fce4030a61.jpg",
             "heading": "<p>Anne Nixon</p>",
             "subheading": "<p>Former CBBC Television Presenter</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -139,6 +150,7 @@
             "image": "shopify://shop_images/4055f5aaa8ae2993e390dd2561cb797f1241daba.jpg",
             "heading": "<p>Michael Clegg</p>",
             "subheading": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -149,6 +161,7 @@
             "image": "shopify://shop_images/399542cedc385997fb523203e2f94268394f286e.jpg",
             "heading": "<p>Image slide</p>",
             "subheading": "<p>Tell your brand's story through images</p>",
+            "text_content": "<p>Text</p>",
             "button_label": "Button label",
             "link": ""
           }
@@ -162,6 +175,7 @@
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
+        "slider_type": "testimonial",
         "auto_rotate": false,
         "change_slides_speed": 5
       }
