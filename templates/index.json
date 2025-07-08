@@ -54,8 +54,8 @@
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
         "slider_type": "hero",
-        "auto_rotate": false,
-        "change_slides_speed": 5
+        "auto_rotate": true,
+        "change_slides_speed": 3
       }
     },
     "le_swiper_wanmRJ": {
@@ -176,8 +176,8 @@
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
         "slider_type": "testimonial",
-        "auto_rotate": false,
-        "change_slides_speed": 5
+        "auto_rotate": true,
+        "change_slides_speed": 9
       }
     },
     "image_with_text_frcJE8": {
