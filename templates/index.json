@@ -187,7 +187,7 @@
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
         "slider_type": "testimonial",
-        "auto_rotate": true,
+        "auto_rotate": false,
         "change_slides_speed": 9
       }
     },
