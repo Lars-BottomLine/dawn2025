@@ -153,15 +153,15 @@
       "options": [
         {
           "value": "hero",
-          "label": "t:sections.slideshow.blocks.slide.settings.box_align.options__1.label"
+          "label": "Hero"
         },
         {
           "value": "job-card",
-          "label": "t:sections.slideshow.blocks.slide.settings.box_align.options__2.label"
+          "label": "Job Card"
         },
         {
           "value": "testimonial",
-          "label": "t:sections.slideshow.blocks.slide.settings.box_align.options__3.label"
+          "label": "Testimonial"
         }
       ]
     },
@@ -210,19 +210,29 @@
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
         {
+          "type": "richtext",
+          "id": "text",
+          "visible_if": "{{ section.settings.slider_type == testimonial }}"
+          "default": "Text",
+          "label": "Text"
+        },
+        {
           "type": "header",
+          "visible_if": "{{ section.settings.slider_type != testimonial }}"
           "content": "t:sections.slideshow.blocks.slide.settings.header_button.content"
         },
         {
           "type": "text",
           "id": "button_label",
           "default": "t:sections.slideshow.blocks.slide.settings.button_label.default",
+          "visible_if": "{{ section.settings.slider_type != testimonial }}"
           "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
           "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
         },
         {
           "type": "url",
           "id": "link",
+          "visible_if": "{{ section.settings.slider_type != testimonial }}"
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         }
       ]
