@@ -110,6 +110,62 @@
         "change_slides_speed": 5
       }
     },
+    "le_swiper_3fwFxr": {
+      "type": "le_swiper",
+      "blocks": {
+        "slide_7HzcH9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/399542cedc385997fb523203e2f94268394f286e.jpg",
+            "heading": "<p>Julie Davis</p>",
+            "subheading": "<p>Powerlifting World Championship Athlete</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "slide_EQpnYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/7d90f49e6d22bb8165ae447992d054fce4030a61.jpg",
+            "heading": "<p>Anne Nixon</p>",
+            "subheading": "<p>Former CBBC Television Presenter</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "slide_UeWiQT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4055f5aaa8ae2993e390dd2561cb797f1241daba.jpg",
+            "heading": "<p>Michael Clegg</p>",
+            "subheading": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "slide_jmaGXx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/399542cedc385997fb523203e2f94268394f286e.jpg",
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_7HzcH9",
+        "slide_EQpnYc",
+        "slide_UeWiQT",
+        "slide_jmaGXx"
+      ],
+      "name": "t:sections.le_swiper.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5
+      }
+    },
     "image_with_text_frcJE8": {
       "type": "image-with-text",
       "blocks": {
@@ -456,6 +512,7 @@
   "order": [
     "le_swiper_cEfnwi",
     "le_swiper_wanmRJ",
+    "le_swiper_3fwFxr",
     "image_with_text_frcJE8",
     "le_face2face_6MbMfU",
     "le_image_with_text_yP9WPy",
