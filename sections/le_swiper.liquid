@@ -211,28 +211,28 @@
         },
         {
           "type": "richtext",
-          "id": "text",
-          "visible_if": "{{ section.settings.slider_type == testimonial }}"
-          "default": "Text",
+          "id": "text_content",
+          "visible_if": "{{ section.settings.slider_type == 'testimonial' }}",
+          "default": "<p>Text</p>",
           "label": "Text"
         },
         {
           "type": "header",
-          "visible_if": "{{ section.settings.slider_type != testimonial }}"
+          "visible_if": "{{ section.settings.slider_type != 'testimonial' }}",
           "content": "t:sections.slideshow.blocks.slide.settings.header_button.content"
         },
         {
           "type": "text",
           "id": "button_label",
           "default": "t:sections.slideshow.blocks.slide.settings.button_label.default",
-          "visible_if": "{{ section.settings.slider_type != testimonial }}"
+          "visible_if": "{{ section.settings.slider_type != 'testimonial' }}",
           "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
           "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
         },
         {
           "type": "url",
           "id": "link",
-          "visible_if": "{{ section.settings.slider_type != testimonial }}"
+          "visible_if": "{{ section.settings.slider_type != 'testimonial' }}",
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         }
       ]
