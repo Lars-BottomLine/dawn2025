@@ -44,23 +44,12 @@
             "button_label": "Find your path",
             "link": ""
           }
-        },
-        "slide_rqXwex": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Button label",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "slide_fAazyy",
         "slide_y66A8G",
-        "slide_MaAhy4",
-        "slide_rqXwex"
+        "slide_MaAhy4"
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
@@ -68,6 +57,63 @@
         "slider_type": "hero",
         "auto_rotate": true,
         "change_slides_speed": 3
+      }
+    },
+    "image_with_text_frcJE8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_x7FyyH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let us do the heavy lifting.",
+            "heading_size": "h1"
+          }
+        },
+        "caption_wEgVGy": {
+          "type": "caption",
+          "settings": {
+            "caption": "This is your moment to do something that really moves you.",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "text_qhCnD8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With Study Active, you get everything you need to become a fully qualified fitness professional. Learn online, in your own time, with expert tutors by your side and real opportunities waiting at the finish line. We’ll guide you through every step, from your first login to guaranteed job interviews with top UK gyms. Bring your drive and passion, we’ve got the rest covered.</p><p><strong>The future won’t wait. </strong></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_CfYnY4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Let’s get started",
+            "button_link": "https://bottomline.agency",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_x7FyyH",
+        "caption_wEgVGy",
+        "text_qhCnD8",
+        "button_CfYnY4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/cattle-bell-weights.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "le_swiper_wanmRJ": {
@@ -128,8 +174,56 @@
       "settings": {
         "headline": "Find your calling",
         "slider_type": "job-card",
-        "auto_rotate": false,
-        "change_slides_speed": 5
+        "auto_rotate": true,
+        "change_slides_speed": 3
+      }
+    },
+    "le_whychoose_qbgPdw": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_DCtddk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake.svg",
+            "heading": "<p>Guaranteed Interviews</p>",
+            "subheading": "<p>Benefit from our network of top UK gyms.</p>"
+          }
+        },
+        "slide_rJxCkV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-calendar.svg",
+            "heading": "<p>Flexible Study</p>",
+            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>"
+          }
+        },
+        "slide_YcHdNd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-hand-gives.svg",
+            "heading": "<p>Trusted Provider</p>",
+            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>"
+          }
+        },
+        "slide_AGUxxi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-twig.svg",
+            "heading": "<p>Growing career</p>",
+            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DCtddk",
+        "slide_rJxCkV",
+        "slide_YcHdNd",
+        "slide_AGUxxi"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "headline": "Why choose Study Active?",
+        "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs."
       }
     },
     "le_swiper_3fwFxr": {
@@ -194,63 +288,6 @@
         "change_slides_speed": 9
       }
     },
-    "image_with_text_frcJE8": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_x7FyyH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Let us do the heavy lifting.",
-            "heading_size": "h1"
-          }
-        },
-        "caption_wEgVGy": {
-          "type": "caption",
-          "settings": {
-            "caption": "This is your moment to do something that really moves you.",
-            "text_style": "subtitle",
-            "text_size": "small"
-          }
-        },
-        "text_qhCnD8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With Study Active, you get everything you need to become a fully qualified fitness professional. Learn online, in your own time, with expert tutors by your side and real opportunities waiting at the finish line. We’ll guide you through every step, from your first login to guaranteed job interviews with top UK gyms. Bring your drive and passion, we’ve got the rest covered.</p><p><strong>The future won’t wait. </strong></p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_CfYnY4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Let’s get started",
-            "button_link": "https://bottomline.agency",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_x7FyyH",
-        "caption_wEgVGy",
-        "text_qhCnD8",
-        "button_CfYnY4"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/cattle-bell-weights.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "le_face2face_6MbMfU": {
       "type": "le_face2face",
       "blocks": {
@@ -258,7 +295,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/man-sitting-with-laptop-cityscape.jpg",
-            "heading": "<p>Study anytime, anywhere</p>",
+            "heading": "<p>Study anytime, <br/>anywhere</p>",
             "subheading": "<p>Log in from mobile or desktop and learn when it suits you.</p>"
           }
         },
@@ -274,15 +311,33 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/tutor-doing-a-video-call.jpg",
-            "heading": "<p>Real tutor support, every step of the way</p>",
+            "heading": "<p>Real tutor support, <br/>every step of the way</p>",
             "subheading": "<p>Speak to experienced fitness professionals who are here to guide, motivate, and support your progress.</p>"
+          }
+        },
+        "slide_LzraUC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cms-screenshot.png",
+            "heading": "<p>One place for <br/>everything</p>",
+            "subheading": "<p>Submit coursework and assessments directly through the LMS, simple and streamlined.</p>"
+          }
+        },
+        "slide_yBQnKE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-of-portrait-thumbnails.jpg",
+            "heading": "<p>Community <br/>coming soon</p>",
+            "subheading": "<p>Connect with peers, share tips, and grow together in our brand-new student community space.</p>"
           }
         }
       },
       "block_order": [
         "slide_AjEcd8",
         "slide_XEkNUV",
-        "slide_PMRxzT"
+        "slide_PMRxzT",
+        "slide_LzraUC",
+        "slide_yBQnKE"
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
@@ -334,55 +389,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": -140,
-        "margin_bottom": -140
-      }
-    },
-    "le_whychoose_qbgPdw": {
-      "type": "le_whychoose",
-      "blocks": {
-        "slide_DCtddk": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-handshake.svg",
-            "heading": "<p>Guaranteed Interviews</p>",
-            "subheading": "<p>Benefit from our network of top UK gyms.</p>"
-          }
-        },
-        "slide_rJxCkV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-calendar.svg",
-            "heading": "<p>Flexible Study</p>",
-            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>"
-          }
-        },
-        "slide_YcHdNd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-hand-gives.svg",
-            "heading": "<p>Trusted Provider</p>",
-            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>"
-          }
-        },
-        "slide_AGUxxi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-twig.svg",
-            "heading": "<p>Growing career</p>",
-            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_DCtddk",
-        "slide_rJxCkV",
-        "slide_YcHdNd",
-        "slide_AGUxxi"
-      ],
-      "name": "t:sections.le_whychoose.presets.name",
-      "settings": {
-        "headline": "Why choose Study Active?",
-        "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs."
+        "margin_bottom": 36
       }
     },
     "collapsible_content_hE7cUy": {
@@ -539,12 +546,12 @@
   },
   "order": [
     "le_swiper_cEfnwi",
-    "le_swiper_wanmRJ",
-    "le_swiper_3fwFxr",
     "image_with_text_frcJE8",
+    "le_swiper_wanmRJ",
+    "le_whychoose_qbgPdw",
+    "le_swiper_3fwFxr",
     "le_face2face_6MbMfU",
     "le_image_with_text_yP9WPy",
-    "le_whychoose_qbgPdw",
     "collapsible_content_hE7cUy",
     "featured_collection",
     "multicolumn",
