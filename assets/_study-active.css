@@ -162,6 +162,14 @@ h2.-no-decal:before,
 ._text-h2.-no-decal:before {
   display: none;
 }
+h2.-no-indent,
+._text-h2.-no-indent {
+  padding-left: 5rem;
+}
+h2.-no-indent:before,
+._text-h2.-no-indent:before {
+  left: 0;
+}
 
 h3,
 ._text-h3 {
@@ -210,6 +218,13 @@ h3,
   font-style: normal;
   font-weight: 400;
   line-height: 1.25; /* 27.5px */
+}
+
+._button-text {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25; /* 37.5px */
 }
 
 .sa-button {
@@ -276,32 +291,11 @@ h3,
   transform: skewY(5.5deg);
   display: inline-block;
 }
-.shopify-section .-decal-top,
-.shopify-section .-decal-bottom {
-  z-index: 1;
-  position: relative;
-}
-.shopify-section .-decal-top.-dcb-primary:after, .shopify-section .-decal-top.-dct-primary:before,
-.shopify-section .-decal-bottom.-dcb-primary:after,
-.shopify-section .-decal-bottom.-dct-primary:before {
-  background: var(--color-primary);
-}
-.shopify-section .-decal-top.-dcb-secondary:after, .shopify-section .-decal-top.-dct-secondary:before,
-.shopify-section .-decal-bottom.-dcb-secondary:after,
-.shopify-section .-decal-bottom.-dct-secondary:before {
-  background: var(--color-secondary);
-}
-.shopify-section .-decal-top.-dcb-tertiary:after, .shopify-section .-decal-top.-dct-tertiary:before,
-.shopify-section .-decal-bottom.-dcb-tertiary:after,
-.shopify-section .-decal-bottom.-dct-tertiary:before {
-  background: var(--color-tertiary);
-}
-.shopify-section .-decal-top .page-width,
-.shopify-section .-decal-bottom .page-width {
-  position: relative;
-}
 .shopify-section .-decal-top {
-  margin-top: 13rem;
+  margin-top: 14rem;
+}
+.shopify-section .-decal-top:before {
+  background: var(--color-primary);
 }
 @media (min-width: 1460px) {
   .shopify-section .-decal-top:before {
@@ -327,6 +321,7 @@ h3,
 .shopify-section .-decal-bottom:after {
   top: auto;
   bottom: -7rem;
+  background: var(--color-primary);
 }
 @media (min-width: 1460px) {
   .shopify-section .-decal-bottom:after {
@@ -342,6 +337,35 @@ h3,
   .shopify-section .-decal-bottom:after {
     transform: skewY(1.5deg);
   }
+}
+.shopify-section .-decal-top,
+.shopify-section .-decal-bottom {
+  z-index: 1;
+  position: relative;
+}
+.shopify-section .-decal-top.-dcb-secondary:after, .shopify-section .-decal-top.-dct-secondary:before,
+.shopify-section .-decal-bottom.-dcb-secondary:after,
+.shopify-section .-decal-bottom.-dct-secondary:before {
+  background: var(--color-secondary);
+}
+.shopify-section .-decal-top.-dcb-tertiary:after, .shopify-section .-decal-top.-dct-tertiary:before,
+.shopify-section .-decal-bottom.-dcb-tertiary:after,
+.shopify-section .-decal-bottom.-dct-tertiary:before {
+  background: var(--color-tertiary);
+}
+.shopify-section .-decal-top.-dcb-dark-blue:after, .shopify-section .-decal-top.-dct-dark-blue:before,
+.shopify-section .-decal-bottom.-dcb-dark-blue:after,
+.shopify-section .-decal-bottom.-dct-dark-blue:before {
+  background: var(--color-dark-blue);
+}
+.shopify-section .-decal-top.-dcb-light-blue:after, .shopify-section .-decal-top.-dct-light-blue:before,
+.shopify-section .-decal-bottom.-dcb-light-blue:after,
+.shopify-section .-decal-bottom.-dct-light-blue:before {
+  background: var(--color-light-blue);
+}
+.shopify-section .-decal-top .page-width,
+.shopify-section .-decal-bottom .page-width {
+  position: relative;
 }
 
 .image-with-text img {
@@ -412,7 +436,6 @@ h3,
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card,
 .sa-swiper-wrapper .sa-swiper-type-testimonial {
-  overflow: visible;
   padding-bottom: 8.6rem;
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card.swiper-horizontal > .swiper-pagination-bullets,
@@ -462,6 +485,11 @@ h3,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .sa-row {
   gap: 2.2rem;
 }
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-row:nth-child(2),
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-row:nth-child(2) {
+  flex: 1 1;
+  gap: 0;
+}
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide {
   height: auto;
@@ -488,9 +516,27 @@ h3,
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content {
   background: var(--color-dark-blue);
+  padding: 4rem 3rem 0;
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content:before {
   background: var(--color-dark-blue);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content .sa-blank-div {
+  height: 4rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content .sa-swiper-button {
+  margin-left: -3rem;
+  margin-right: -3rem;
+  width: auto;
+  padding: 2.3rem 3rem 2rem;
+  color: var(--color-secondary);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(57, 234, 246, 0.3);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content .sa-swiper-button .sa-button-icon {
+  width: 3rem;
 }
 
 @media (max-width: 1200px) {

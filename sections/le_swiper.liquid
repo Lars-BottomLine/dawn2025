@@ -32,157 +32,166 @@
     endif
 
     if iz_jobcard or iz_testimonial
-        assign button_open_tag = '<h3 class="!font-bold _subtitle text-white">'
+        assign button_open_tag = '<h3 class="!font-bold _subtitle !text-white">'
         assign button_close_tag = '</h3>'
     endif
 
 %}
 
-<div class="sa-swiper-wrapper page-width sa-bg-light-blue">
+<div class="section-{{ section.id }}-padding sa-section-swiper {% if iz_jobcard or iz_testimonial %} -decal-top -dct-light-blue -decal-bottom -dcb-light-blue sa-bg-light-blue {% endif %}">
+    <div class="sa-swiper-wrapper page-width">
 
-    {% if  section.settings.headline and section.settings.headline != '' %}
-    <h2 class="">
-        {{ section.settings.headline }}
-    </h2>
-    {% endif %}
+        {% if  section.settings.headline and section.settings.headline != '' %}
+        <h2 class="-no-indent !mb-16">
+            {{ section.settings.headline }}
+        </h2>
+        {% endif %}
 
-    <div id="swiper-{{ section.id }}" class="swiper sa-swiper sa-swiper-type-{{ section.settings.slider_type }}">
-        <div class="swiper-wrapper">
+        <div id="swiper-{{ section.id }}" class="swiper sa-swiper sa-swiper-type-{{ section.settings.slider_type }}">
+            <div class="swiper-wrapper">
 
-            {%- for block in section.blocks -%}
+                {%- for block in section.blocks -%}
 
-                <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                     class="swiper-slide media"
-                     role="group"
-                     aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                     aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                     tabindex="-1" >
+                    <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                         class="swiper-slide media"
+                         role="group"
+                         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                         tabindex="-1" >
 
-                    <div class="slideshow__media banner__media media">
-                        {%- if block.settings.image -%}
+                        <div class="slideshow__media banner__media media">
+                            {%- if block.settings.image -%}
 
-                            {%- liquid
-                                assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                                {%- liquid
+                                    assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
 
-                                assign sizes = '100vw'
-                                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                                    assign sizes = '100vw'
+                                    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 
-                                assign fetch_priority = 'auto'
-                                if section.index == 1
-                                    assign fetch_priority = 'high'
-                                endif
-                            -%}
-                            {%- if forloop.first %}
-                                {{
-                                block.settings.image
-                                | image_url: width: 3840
-                                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                }}
+                                    assign fetch_priority = 'auto'
+                                    if section.index == 1
+                                        assign fetch_priority = 'high'
+                                    endif
+                                -%}
+                                {%- if forloop.first %}
+                                    {{
+                                    block.settings.image
+                                    | image_url: width: 3840
+                                    | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                    }}
+                                {%- else -%}
+                                    {{
+                                    block.settings.image
+                                    | image_url: width: 3840
+                                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                                    }}
+                                {%- endif -%}
                             {%- else -%}
-                                {{
-                                block.settings.image
-                                | image_url: width: 3840
-                                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                }}
+                                {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                                {%- if placeholder_slide == 1 -%}
+                                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                                {%- else -%}
+                                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                {%- endif -%}
                             {%- endif -%}
-                        {%- else -%}
-                            {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-                            {%- if placeholder_slide == 1 -%}
-                                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-                            {%- else -%}
-                                {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                            {%- endif -%}
-                        {%- endif -%}
-                    </div>
+                        </div>
 
-                    <div class="sa-swiper-content">
-                        <div class="sa-row">
+                        <div class="sa-swiper-content">
+                            <div class="sa-row">
 
-                            <div class="">
-                                {{ button_open_tag }}
-                                    {{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                                {{ button_close_tag }}
+                                <div class="">
+                                    {{ button_open_tag }}
+                                        {{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                    {{ button_close_tag }}
+                                </div>
+
+                                {{ subheading_open_tag }}
+                                    {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                {{ subheading_close_tag }}
+
+                                {% if iz_testimonial %}
+                                <div class="_subtitle-small">
+                                    {{ block.settings.text_content | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                </div>
+                                {% endif %}
+
+
                             </div>
 
-                            {{ subheading_open_tag }}
-                                {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                            {{ subheading_close_tag }}
-
-                            {% if iz_testimonial %}
-                            <div class="_subtitle-small">
-                                {{ block.settings.text_content | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                            {% if iz_testimonial == false %}
+                            <div class="sa-row">
+                                <div class="sa-blank-div">&nbsp;</div>
+                                <a href="#" class="{% if iz_hero %} sa-button {% else %} sa-swiper-button {% endif %} -hover-translate -medium">
+                                    <span class="_button-text leading-none">
+                                        {{ block.settings.button_label }}
+                                    </span>
+                                    {% if iz_jobcard %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none" class="sa-button-icon">
+                                        <path d="M22.9873 17.2073H0.666504V13.5406H22.9873L12.7207 3.27394L15.3332 0.707275L29.9998 15.3739L15.3332 30.0406L12.7207 27.4739L22.9873 17.2073Z" fill="#39EAF6"/>
+                                    </svg>
+                                    {% endif %}
+                                </a>
                             </div>
                             {% endif %}
 
-
                         </div>
-
-                        {% if iz_testimonial == false %}
-                        <div class="sa-row">
-                            <div class="">&nbsp;</div>
-                            <a href="#" class="{% if iz_hero %} sa-button {% endif %} -hover-translate -medium">
-                                <span>Find your path</span>
-                            </a>
-                        </div>
-                        {% endif %}
 
                     </div>
 
-                </div>
+                {% endfor %}
 
-            {% endfor %}
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
 
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+
+        <script>
+
+            var swiper = new Swiper("#swiper-{{ section.id }}", {
+                spaceBetween: 30,
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                loop: true,
+
+                speed: 1000,
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                {%- if section.settings.auto_rotate -%}
+                autoplay: {
+                  delay: {{ section.settings.change_slides_speed }}000,
+                  disableOnInteraction: false,
+                },
+                {% else %}
+                autoplay: false,
+                {% endif %}
+
+                {% if iz_hero %}
+                effect: "fade",
+                {% endif %}
+
+                {% if iz_jobcard %}
+                slidesPerView: 3,
+                {% endif %}
+
+                {% if iz_testimonial %}
+                slidesPerView: 3,
+                {% endif %}
+
+            });
+
+        </script>
 
     </div>
-
-    <script>
-
-        var swiper = new Swiper("#swiper-{{ section.id }}", {
-            spaceBetween: 30,
-
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-
-            loop: true,
-
-            speed: 1000,
-
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-
-            {%- if section.settings.auto_rotate -%}
-            autoplay: {
-              delay: {{ section.settings.change_slides_speed }}000,
-              disableOnInteraction: false,
-            },
-            {% else %}
-            autoplay: false,
-            {% endif %}
-
-            {% if iz_hero %}
-            effect: "fade",
-            {% endif %}
-
-            {% if iz_jobcard %}
-            slidesPerView: 3,
-            {% endif %}
-
-            {% if iz_testimonial %}
-            slidesPerView: 3,
-            {% endif %}
-
-        });
-
-    </script>
-
 </div>
 
 {% javascript %}
