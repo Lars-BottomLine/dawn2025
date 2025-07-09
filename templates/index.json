@@ -284,8 +284,8 @@
       "settings": {
         "headline": "Graduate success stories",
         "slider_type": "testimonial",
-        "auto_rotate": false,
-        "change_slides_speed": 9
+        "auto_rotate": true,
+        "change_slides_speed": 3
       }
     },
     "le_face2face_6MbMfU": {
