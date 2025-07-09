@@ -64,6 +64,7 @@
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
+        "headline": "",
         "slider_type": "hero",
         "auto_rotate": true,
         "change_slides_speed": 3
@@ -125,6 +126,7 @@
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
+        "headline": "Find your calling",
         "slider_type": "job-card",
         "auto_rotate": false,
         "change_slides_speed": 5
@@ -186,6 +188,7 @@
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
+        "headline": "Graduate success stories",
         "slider_type": "testimonial",
         "auto_rotate": false,
         "change_slides_speed": 9
