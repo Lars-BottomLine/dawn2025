@@ -2,6 +2,8 @@
   --color-primary: #00268B;
   --color-secondary: #39EAF6;
   --color-tertiary: #EBF1FF;
+  --color-dark-blue: #000E33;
+  --color-light-blue: #EBF1FF;
 }
 
 @media screen and (min-width: 750px) {
@@ -26,24 +28,40 @@
   color: var(--color-primary);
 }
 
-.sa-col-secondary {
-  color: var(--color-secondary);
-}
-
-.sa-col-tertiary {
-  color: var(--color-tertiary);
-}
-
 .sa-bg-primary {
   background-color: var(--color-primary);
+}
+
+.sa-col-secondary {
+  color: var(--color-secondary);
 }
 
 .sa-bg-secondary {
   background-color: var(--color-secondary);
 }
 
+.sa-col-tertiary {
+  color: var(--color-tertiary);
+}
+
 .sa-bg-tertiary {
   background-color: var(--color-tertiary);
+}
+
+.sa-col-dark-blue {
+  color: var(--color-dark-blue);
+}
+
+.sa-bg-dark-blue {
+  background-color: var(--color-dark-blue);
+}
+
+.sa-col-light-blue {
+  color: var(--color-light-blue);
+}
+
+.sa-bg-light-blue {
+  background-color: var(--color-light-blue);
 }
 
 .-section-content {
@@ -178,6 +196,13 @@ h3,
   font-weight: 400;
   line-height: 1.25; /* 40px */
   letter-spacing: 0;
+}
+
+._subtitle-medium {
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%; /* 28.84px */
 }
 
 ._subtitle-small {
@@ -321,6 +346,7 @@ h3,
 
 .image-with-text img {
   object-fit: contain;
+  object-position: top;
 }
 .image-with-text h2 {
   position: relative;
@@ -383,6 +409,88 @@ h3,
 }
 .sa-swiper-wrapper .swiper-pagination-bullet-active {
   transform: scale(1.1) skewX(45deg) !important;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card,
+.sa-swiper-wrapper .sa-swiper-type-testimonial {
+  overflow: visible;
+  padding-bottom: 8.6rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card.swiper-horizontal > .swiper-pagination-bullets,
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-bullets.swiper-pagination-horizontal,
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-custom,
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-fraction,
+.sa-swiper-wrapper .sa-swiper-type-testimonial.swiper-horizontal > .swiper-pagination-bullets,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-bullets.swiper-pagination-horizontal,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-custom,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-fraction {
+  bottom: 5rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-bullet,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-bullet {
+  background: var(--color-primary);
+  opacity: 0.2;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-bullet-active,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-bullet-active {
+  background: var(--color-secondary);
+  opacity: 1;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .media > *:not(.zoom):not(.deferred-media__poster-button),
+.sa-swiper-wrapper .sa-swiper-type-testimonial .media > *:not(.zoom):not(.deferred-media__poster-button) {
+  position: relative;
+  height: 29rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide,
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-row,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-row {
+  flex-direction: column;
+  align-items: initial;
+  line-height: 1.03;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide h3,
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content h3,
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-row h3,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide h3,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-content h3,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-row h3 {
+  line-height: 1.03;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-row,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-row {
+  gap: 2.2rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide {
+  height: auto;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-content {
+  height: auto !important;
+  flex: 1 1;
+  justify-content: start;
+  background: var(--color-primary);
+  position: relative;
+  padding: 4rem 3rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content:before,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-content:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -1.6rem;
+  width: 100%;
+  height: 4rem;
+  background: var(--color-primary);
+  transform: skewY(4deg);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content {
+  background: var(--color-dark-blue);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-content:before {
+  background: var(--color-dark-blue);
 }
 
 @media (max-width: 1200px) {
@@ -469,6 +577,15 @@ header .header__icon--cart .icon {
   color: white;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.3%, rgba(0, 0, 0, 0.3) 76.47%);
 }
+.sa-section-image-with-text .image-with-text__media {
+  min-height: 780px !important;
+  background: linear-gradient(180deg, #39EAF6 0%, #00268B 100%);
+}
+@media (max-width: 540px) {
+  .sa-section-image-with-text .image-with-text__media img {
+    display: none !important;
+  }
+}
 .sa-section-image-with-text .sa-image-with-text .image-with-text__content--desktop-right > * {
   margin-left: auto;
   align-self: flex-end;
@@ -488,17 +605,7 @@ header .header__icon--cart .icon {
 }
 @media screen and (min-width: 990px) {
   .sa-section-image-with-text .sa-image-with-text .image-with-text__content {
-    padding: 8rem 12rem;
-  }
-}
-
-.image-with-text__media {
-  min-height: 780px !important;
-  background: linear-gradient(180deg, #39EAF6 0%, #00268B 100%);
-}
-@media (max-width: 540px) {
-  .image-with-text__media img {
-    display: none !important;
+    padding: 8rem 12rem 10rem;
   }
 }
 

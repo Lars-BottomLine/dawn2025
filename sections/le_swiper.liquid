@@ -1,9 +1,52 @@
 {{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 {{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
 
-<div class="sa-swiper-wrapper page-width">
+{%- liquid
 
-    <div class="swiper mySwiper">
+    assign button_open_tag = ''
+    assign button_close_tag = ''
+    assign subheading_open_tag = ''
+    assign subheading_close_tag = ''
+
+    assign iz_hero = false
+    if section.settings.slider_type == 'hero'
+        assign iz_hero = true
+        assign button_open_tag = '<h1 class="sa-title _text-h1 sa-flex-justify-end">'
+        assign button_close_tag = '</h1>'
+        assign subheading_open_tag = '<div class="_subheading sa-flex-justify-end">'
+        assign subheading_close_tag = '</div>'
+    endif
+
+    assign iz_jobcard = false
+    if section.settings.slider_type == 'job-card'
+        assign iz_jobcard = true
+        assign subheading_open_tag = '<div class="_subtitle-small">'
+        assign subheading_close_tag = '</div>'
+    endif
+
+    assign iz_testimonial = false
+    if section.settings.slider_type == 'testimonial'
+        assign iz_testimonial = true
+        assign subheading_open_tag = '<div class="_subtitle-medium sa-col-secondary">'
+        assign subheading_close_tag = '</div>'
+    endif
+
+    if iz_jobcard or iz_testimonial
+        assign button_open_tag = '<h3 class="!font-bold _subtitle text-white">'
+        assign button_close_tag = '</h3>'
+    endif
+
+%}
+
+<div class="sa-swiper-wrapper page-width sa-bg-light-blue">
+
+    {% if  section.settings.headline %}
+    <h2 class="">
+        {{ section.settings.headline }}
+    </h2>
+    {% endif %}
+
+    <div id="swiper-{{ section.id }}" class="swiper sa-swiper sa-swiper-type-{{ section.settings.slider_type }}">
         <div class="swiper-wrapper">
 
             {%- for block in section.blocks -%}
@@ -17,16 +60,6 @@
 
                     <div class="slideshow__media banner__media media">
                         {%- if block.settings.image -%}
-
-                            {% comment %}
-                              if section.settings.image_behavior == 'ambient'
-                                assign sizes = '120vw'
-                                assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
-                              else
-                                assign sizes = '100vw'
-                                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-                              endif
-                            {% endcomment %}
 
                             {%- liquid
                                 assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
@@ -63,30 +96,35 @@
                     </div>
 
                     <div class="sa-swiper-content">
-
                         <div class="sa-row">
 
                             <div class="">
-                                <h1 class="sa-title _text-h1 sa-flex-justify-end">
+                                {{ button_open_tag }}
                                     {{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                                </h1>
+                                {{ button_close_tag }}
                             </div>
 
-                            <div class="_subheading sa-flex-justify-end">
+                            {{ subheading_open_tag }}
                                 {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                            {{ subheading_close_tag }}
+
+                            {% if iz_testimonial %}
+                            <div class="_subtitle-small">
+                                {{ block.settings.text_content | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                             </div>
+                            {% endif %}
+
 
                         </div>
 
+                        {% if iz_testimonial == false %}
                         <div class="sa-row">
-
                             <div class="">&nbsp;</div>
-
-                            <a href="#" class="sa-button -hover-translate -medium">
+                            <a href="#" class="{% if iz_hero %} sa-button {% endif %} -hover-translate -medium">
                                 <span>Find your path</span>
                             </a>
-
                         </div>
+                        {% endif %}
 
                     </div>
 
@@ -98,13 +136,13 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
+
     </div>
 
     <script>
 
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper("#swiper-{{ section.id }}", {
             spaceBetween: 30,
-            effect: "fade",
 
             navigation: {
                 nextEl: ".swiper-button-next",
@@ -120,10 +158,26 @@
                 clickable: true,
             },
 
+            {%- if section.settings.auto_rotate -%}
             autoplay: {
-              delay: 5000,
+              delay: {{ section.settings.change_slides_speed }}000,
               disableOnInteraction: false,
-            }
+            },
+            {% else %}
+            autoplay: false,
+            {% endif %}
+
+            {% if iz_hero %}
+            effect: "fade",
+            {% endif %}
+
+            {% if iz_jobcard %}
+            slidesPerView: 3,
+            {% endif %}
+
+            {% if iz_testimonial %}
+            slidesPerView: 3,
+            {% endif %}
 
         });
 
@@ -146,6 +200,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "default": "t:sections.slideshow.blocks.slide.name",
+      "label": "t:sections.slideshow.blocks.slide.name"
+    },
     {
       "type": "select",
       "id": "slider_type",
