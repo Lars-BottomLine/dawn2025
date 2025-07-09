@@ -40,7 +40,7 @@
 
 <div class="sa-swiper-wrapper page-width sa-bg-light-blue">
 
-    {% if  section.settings.headline %}
+    {% if  section.settings.headline and section.settings.headline != '' %}
     <h2 class="">
         {{ section.settings.headline }}
     </h2>
@@ -203,8 +203,7 @@
     {
       "type": "text",
       "id": "headline",
-      "default": "t:sections.slideshow.blocks.slide.name",
-      "label": "t:sections.slideshow.blocks.slide.name"
+      "label": "Headline"
     },
     {
       "type": "select",
