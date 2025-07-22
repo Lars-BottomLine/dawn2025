@@ -3054,6 +3054,12 @@
         "name": "StudyActive - Title + Columns"
       }
     },
+    "le_accordion": {
+      "name": "StudyActive - Collapsible",
+      "presets": {
+        "name": "StudyActive - Collapsible"
+      }
+    },
 
     "slideshow": {
       "name": "Slideshow (default)",
