@@ -392,6 +392,42 @@
         "margin_bottom": 36
       }
     },
+    "le_whychoose_kjYUa7": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_YUd6QG": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Pay in Full</p>",
+            "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>"
+          }
+        },
+        "slide_VWEtxj": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Monthly Payments</p>",
+            "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>"
+          }
+        },
+        "slide_BDeL6f": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>0% Finance</p>",
+            "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_YUd6QG",
+        "slide_VWEtxj",
+        "slide_BDeL6f"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "headline": "Flexible payment options",
+        "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you."
+      }
+    },
     "collapsible_content_hE7cUy": {
       "type": "collapsible-content",
       "blocks": {
@@ -552,6 +588,7 @@
     "le_swiper_3fwFxr",
     "le_face2face_6MbMfU",
     "le_image_with_text_yP9WPy",
+    "le_whychoose_kjYUa7",
     "collapsible_content_hE7cUy",
     "featured_collection",
     "multicolumn",
