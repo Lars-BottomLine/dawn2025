@@ -3049,9 +3049,9 @@
       }
     },
     "le_whychoose": {
-      "name": "StudyActive - Why Choose",
+      "name": "StudyActive - Title + Columns",
       "presets": {
-        "name": "StudyActive - Why Choose"
+        "name": "StudyActive - Title + Columns"
       }
     },
 

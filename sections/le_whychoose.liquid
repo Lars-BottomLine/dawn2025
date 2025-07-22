@@ -102,6 +102,25 @@
   },
   "settings": [
     {
+      "type": "select",
+      "id": "template_type",
+      "label": "Template",
+      "options": [
+        {
+          "value": "blue",
+          "label": "Dark Blue 2 col"
+        },
+        {
+          "value": "light1",
+          "label": "Light Blue 3 col"
+        },
+        {
+          "value": "light2",
+          "label": "Light Blue 3 col + Link"
+        }
+      ]
+    },
+    {
       "type": "text",
       "id": "headline",
       "default": "t:sections.slideshow.blocks.slide.name",
@@ -138,8 +157,21 @@
         {
           "type": "richtext",
           "id": "subheading",
+          "visible_if": "{{ section.settings.slider_type != 'light2' }}",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "visible_if": "{{ section.settings.slider_type == 'light2' }}",
+          "label": "Button: Label"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "visible_if": "{{ section.settings.slider_type == 'light2' }}",
+          "label": "Button: URL"
         }
       ]
     }
