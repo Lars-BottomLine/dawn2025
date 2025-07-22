@@ -59,13 +59,13 @@
 <div class="sa-section-whychoose -template-{{ section.settings.template_type }} section-{{ section.id }}-padding section-{{ section.id }}-margin px-32 pb-32 {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
-        <div class="pl-20 pt-8 pb-24">
+        <div class="pl-20 pt-8 pb-{% if iz_blue %}24{% else %}16{% endif %}">
 
-            <h2 class="!text-white">
+            <h2>
                 {{ section.settings.headline }}
             </h2>
 
-            <div class="_subtitle sa-col-secondary">
+            <div class="_subtitle">
                 {{ section.settings.subheadline }}
             </div>
 
@@ -137,11 +137,13 @@
 
                         <div class="wc-text">
 
-                            <h3 class="!text-white _subtitle !leading-none mb-2 !font-bold ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                            <h3 class="_subtitle !leading-none mb-2 ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
 
-                            <div class="_subtitle-small sa-col-secondary">
-                                {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                            {%- if block.settings.subheading != '' -%}
+                            <div class="_subtitle-small">
+                                '{{ block.settings.subheading }}'
                             </div>
+                            {%- endif -%}
 
                         </div>
 
@@ -152,6 +154,14 @@
             {% endfor %}
 
         </div>
+
+        {%- if section.settings.template_type == 'light2' -%}
+            <div class="sa-button-container flex">
+                <a href="{{ section.settings.button_url }}" class="sa-button -medium mt-32 !mx-auto -hover-translate">
+                    <span>{{ section.settings.button_label }}</span>
+                </a>
+            </div>
+        {% endif %}
 
     </div>
 </div>
