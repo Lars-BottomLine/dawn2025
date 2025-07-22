@@ -431,6 +431,45 @@
         "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you."
       }
     },
+    "le_whychoose_kQprwk": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_3awE46": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake.svg",
+            "heading": "<p>Interview guarantee </p>",
+            "subheading": ""
+          }
+        },
+        "slide_mTap7F": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-article_person.svg",
+            "heading": "<p>CV writing support</p>",
+            "subheading": ""
+          }
+        },
+        "slide_9FaJRF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/symbol-explore.svg",
+            "heading": "<p>Career guidance</p>",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3awE46",
+        "slide_mTap7F",
+        "slide_9FaJRF"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "headline": "Guaranteed job interview promise",
+        "subheadline": "We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees."
+      }
+    },
     "collapsible_content_hE7cUy": {
       "type": "collapsible-content",
       "blocks": {
@@ -592,6 +631,7 @@
     "le_face2face_6MbMfU",
     "le_image_with_text_yP9WPy",
     "le_whychoose_kjYUa7",
+    "le_whychoose_kQprwk",
     "collapsible_content_hE7cUy",
     "featured_collection",
     "multicolumn",
