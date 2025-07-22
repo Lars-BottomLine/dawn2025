@@ -157,20 +157,20 @@
         {
           "type": "richtext",
           "id": "subheading",
-          "visible_if": "{{ section.settings.slider_type != 'light2' }}",
+          "visible_if": "{{ section.settings.template_type != 'light2' }}",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
         {
           "type": "text",
           "id": "button_label",
-          "visible_if": "{{ section.settings.slider_type == 'light2' }}",
+          "visible_if": "{{ section.settings.template_type == 'light2' }}",
           "label": "Button: Label"
         },
         {
           "type": "url",
           "id": "button_url",
-          "visible_if": "{{ section.settings.slider_type == 'light2' }}",
+          "visible_if": "{{ section.settings.template_type == 'light2' }}",
           "label": "Button: URL"
         }
       ]
