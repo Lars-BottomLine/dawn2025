@@ -389,7 +389,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": -140,
-        "margin_bottom": 36
+        "margin_bottom": -140
       }
     },
     "le_whychoose_kjYUa7": {
@@ -398,6 +398,7 @@
         "slide_YUd6QG": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/symbol-credit_score.svg",
             "heading": "<p>Pay in Full</p>",
             "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>"
           }
@@ -405,6 +406,7 @@
         "slide_VWEtxj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/symbol-calendar_today.svg",
             "heading": "<p>Monthly Payments</p>",
             "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>"
           }
@@ -412,6 +414,7 @@
         "slide_BDeL6f": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/symbol-shield.svg",
             "heading": "<p>0% Finance</p>",
             "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>"
           }
