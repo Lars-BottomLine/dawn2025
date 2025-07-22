@@ -191,18 +191,6 @@
       ]
     },
     {
-      "type": "checkbox",
-      "id": "decal_top",
-      "label": "Skewed on top",
-      "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "decal_bottom",
-      "label": "Skewed on bottom",
-      "default": false
-    },
-    {
       "type": "text",
       "id": "headline",
       "default": "t:sections.slideshow.blocks.slide.name",
@@ -225,6 +213,23 @@
       "id": "button_url",
       "visible_if": "{{ section.settings.template_type == 'light2' }}",
       "label": "Button: URL"
+    },
+
+    {
+      "type": "header",
+      "content": "Border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
     },
 
     {
