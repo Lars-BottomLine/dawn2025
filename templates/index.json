@@ -223,6 +223,8 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "blue",
+        "decal_top": true,
+        "decal_bottom": true,
         "headline": "Why choose Study Active?",
         "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs.",
         "button_label": "",
@@ -431,6 +433,8 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "light1",
+        "decal_top": true,
+        "decal_bottom": false,
         "headline": "Flexible payment options",
         "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.",
         "button_label": "",
@@ -473,6 +477,8 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "light2",
+        "decal_top": false,
+        "decal_bottom": true,
         "headline": "Guaranteed job interview promise",
         "subheadline": "We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.",
         "button_label": "Learn more",
