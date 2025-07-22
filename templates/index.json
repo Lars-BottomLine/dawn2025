@@ -186,9 +186,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-handshake.svg",
             "heading": "<p>Guaranteed Interviews</p>",
-            "subheading": "<p>Benefit from our network of top UK gyms.</p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>Benefit from our network of top UK gyms.</p>"
           }
         },
         "slide_rJxCkV": {
@@ -196,9 +194,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-calendar.svg",
             "heading": "<p>Flexible Study</p>",
-            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>"
           }
         },
         "slide_YcHdNd": {
@@ -206,9 +202,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-hand-gives.svg",
             "heading": "<p>Trusted Provider</p>",
-            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>"
           }
         },
         "slide_AGUxxi": {
@@ -216,9 +210,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-twig.svg",
             "heading": "<p>Growing career</p>",
-            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>"
           }
         }
       },
@@ -232,7 +224,9 @@
       "settings": {
         "template_type": "blue",
         "headline": "Why choose Study Active?",
-        "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs."
+        "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs.",
+        "button_label": "",
+        "button_url": ""
       }
     },
     "le_swiper_3fwFxr": {
@@ -409,9 +403,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-credit_score.svg",
             "heading": "<p>Pay in Full</p>",
-            "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>"
           }
         },
         "slide_VWEtxj": {
@@ -419,9 +411,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-calendar_today.svg",
             "heading": "<p>Monthly Payments</p>",
-            "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>"
           }
         },
         "slide_BDeL6f": {
@@ -429,9 +419,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-shield.svg",
             "heading": "<p>0% Finance</p>",
-            "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>",
-            "button_label": "",
-            "button_url": ""
+            "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>"
           }
         }
       },
@@ -444,7 +432,9 @@
       "settings": {
         "template_type": "light1",
         "headline": "Flexible payment options",
-        "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you."
+        "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.",
+        "button_label": "",
+        "button_url": ""
       }
     },
     "le_whychoose_kQprwk": {
@@ -455,9 +445,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-handshake.svg",
             "heading": "<p>Interview guarantee </p>",
-            "subheading": "",
-            "button_label": "",
-            "button_url": ""
+            "subheading": ""
           }
         },
         "slide_mTap7F": {
@@ -465,9 +453,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-article_person.svg",
             "heading": "<p>CV writing support</p>",
-            "subheading": "",
-            "button_label": "",
-            "button_url": ""
+            "subheading": ""
           }
         },
         "slide_9FaJRF": {
@@ -475,9 +461,7 @@
           "settings": {
             "image": "shopify://shop_images/symbol-explore.svg",
             "heading": "<p>Career guidance</p>",
-            "subheading": "",
-            "button_label": "",
-            "button_url": ""
+            "subheading": ""
           }
         }
       },
@@ -490,7 +474,9 @@
       "settings": {
         "template_type": "light2",
         "headline": "Guaranteed job interview promise",
-        "subheadline": "We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees."
+        "subheadline": "We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.",
+        "button_label": "Learn more",
+        "button_url": "https://bottomline.agency"
       }
     },
     "collapsible_content_hE7cUy": {
