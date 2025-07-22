@@ -139,9 +139,9 @@
 
                             <h3 class="_subtitle !leading-none mb-2 ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
 
-                            {%- if block.settings.subheading != '' -%}
+                            {%- if block.settings.subheading != blank -%}
                             <div class="_subtitle-small">
-                                '{{ block.settings.subheading }}'
+                                {{ block.settings.subheading }}
                             </div>
                             {%- endif -%}
 
