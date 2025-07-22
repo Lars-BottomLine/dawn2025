@@ -724,6 +724,12 @@ header .header__icon--cart .icon {
   text-align: right;
 }
 
+.sa-section-whychoose.-template-blue {
+  background: var(--color-primary);
+}
+.sa-section-whychoose.-template-light1, .sa-section-whychoose.-template-light2 {
+  background: var(--color-light-blue);
+}
 .sa-section-whychoose .wc-entry-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

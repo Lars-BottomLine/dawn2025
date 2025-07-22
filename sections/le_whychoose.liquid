@@ -1,5 +1,40 @@
+{%- liquid
 
-<div class="section-{{ section.id }}-padding sa-section-whychoose sa-bg-primary px-32 pb-32 -decal-top -dct-primary -decal-bottom -dcb-primary">
+    assign iz_blue = false
+    assign iz_light1 = false
+    assign iz_light2 = false
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+    
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    if section.settings.template_type == 'blue'
+        assign iz_blue = true
+        assign section_classes = section_classes | append: ' sa-bg-primary -dct-primary -dcb-primary '
+    endif
+
+    if section.settings.template_type == 'light1'
+        assign iz_light1 = true
+        assign section_classes = section_classes | append: ' sa-bg-light-blue -dct-light-blue -dcb-light-blue '
+    endif
+
+    if section.settings.template_type == 'light2'
+        assign iz_light2 = true
+        assign section_classes = section_classes | append: ' sa-bg-light-blue -dct-light-blue -dcb-light-blue '
+    endif
+
+%}
+
+<div class="sa-section-whychoose -template-{{ section.settings.template_type }} section-{{ section.id }}-padding px-32 pb-32 {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
         <div class="pl-20 pt-8 pb-24">
@@ -24,9 +59,17 @@
                     {% endcomment %}
                     <div class="wc-left">
                         <div class="wc-image">
+
                             {%- if block.settings.image -%}
 
                             {%- liquid
+
+                                assign img_extension = block.settings.image | split: '.' | last | downcase
+                                assign iz_svg = false
+                                if img_extension == 'svg'
+                                    assign iz_svg = true
+                                endif
+
                                 assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
 
                                 assign sizes = '100vw'
@@ -36,20 +79,25 @@
                                 if section.index == 1
                                     assign fetch_priority = 'high'
                                 endif
+
                             -%}
 
-                            {%- if forloop.first %}
-                                {{
-                                block.settings.image
-                                | image_url: width: 880
-                                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                }}
+                            {%- if iz_svg %}
+                                <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
                             {%- else -%}
-                                {{
-                                block.settings.image
-                                | image_url: width: 880
-                                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                }}
+                                {%- if forloop.first %}
+                                    {{
+                                    block.settings.image
+                                    | image_url: width: 880
+                                    | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                    }}
+                                {%- else -%}
+                                    {{
+                                    block.settings.image
+                                    | image_url: width: 880
+                                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                                    }}
+                                {%- endif -%}
                             {%- endif -%}
 
                         {%- else -%}
@@ -119,6 +167,18 @@
           "label": "Light Blue 3 col + Link"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false",
     },
     {
       "type": "text",
