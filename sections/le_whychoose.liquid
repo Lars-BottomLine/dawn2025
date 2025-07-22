@@ -131,6 +131,18 @@
       "id": "subheadline",
       "default": "t:sections.slideshow.blocks.slide.name",
       "label": "t:sections.slideshow.blocks.slide.name"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "visible_if": "{{ section.settings.template_type == 'light2' }}",
+      "label": "Button: Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "visible_if": "{{ section.settings.template_type == 'light2' }}",
+      "label": "Button: URL"
     }
   ],
   "blocks": [
@@ -160,18 +172,6 @@
           "visible_if": "{{ section.settings.template_type != 'light2' }}",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label",
-          "visible_if": "{{ section.settings.template_type == 'light2' }}",
-          "label": "Button: Label"
-        },
-        {
-          "type": "url",
-          "id": "button_url",
-          "visible_if": "{{ section.settings.template_type == 'light2' }}",
-          "label": "Button: URL"
         }
       ]
     }
