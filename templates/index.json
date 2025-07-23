@@ -547,8 +547,8 @@
       "settings": {
         "template_type": "blue",
         "headline": "Frequently asked questions",
-        "decal_top": false,
-        "decal_bottom": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
