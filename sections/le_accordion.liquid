@@ -49,14 +49,16 @@
 {%- endstyle -%}
 
 {% javascript %}
-    var lea = new LeAccordion({debug:true});
+    var lea = new LeAccordion({
+        debug: false
+    });
     lea.init();
 {% endjavascript %}
 
 
 <div class="sa-section-accordion -template-{{ section.settings.template_type }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
-            px-32 pb-32
+            md:px-32 md:pb-32
             {{ section_classes }}">
     <div class="page-width -section-content -narrow-section">
 
@@ -211,7 +213,7 @@
     ],
     "presets": [
         {
-            "name": "t:sections.collapsible_content.presets.name",
+            "name": "t:sections.le_accordion.presets.name",
             "blocks": [
                 {
                     "type": "accordion_row"
