@@ -876,6 +876,7 @@ header .header__icon--cart .icon {
 
 .sa-section-accordion h2 {
   color: inherit;
+  margin-bottom: 3rem;
 }
 .sa-section-accordion .le-acc-entry {
   margin-top: 1rem;
@@ -903,6 +904,50 @@ header .header__icon--cart .icon {
 }
 .sa-section-accordion .le-acc-content {
   padding: 1rem 3rem 3rem;
+}
+
+.footer-block:first-child {
+  width: 37rem;
+}
+.footer-block:first-child p {
+  color: var(--color-secondary);
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2; /* 33.6px */
+}
+
+.footer-block--menu {
+  width: auto;
+}
+
+.footer-block--contact {
+  width: 30rem !important;
+}
+
+.footer-block__details-content h3 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+.footer-block__details-content .footer-block__row {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.6rem; /* 180% */
+}
+.footer-block__details-content a.list-menu__item--active,
+.footer-block__details-content a.list-menu__item--link {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.6rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */

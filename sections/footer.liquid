@@ -28,7 +28,8 @@
 {%- endstyle -%}
 
 <footer class="sa-section-footer footer color-{{ section.settings.color_scheme }} gradient
-               section-{{ section.id }}-padding section-{{ section.id }}-margin ">
+               section-{{ section.id }}-padding section-{{ section.id }}-margin
+               sa-bg-primary text-white">
   {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
@@ -69,7 +70,7 @@
           >
             {%- for block in section.blocks -%}
               <div
-                class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %} {% if block.type == 'contact' %} footer-block--contact{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -77,7 +78,7 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+                  <h3 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h3>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -124,7 +125,7 @@
                         </div>
                       {%- endif -%}
                       {%- if settings.brand_headline != blank -%}
-                        <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
+                        <h3 class="footer-block__heading rte">{{ settings.brand_headline }}</h3>
                       {%- endif -%}
                       {%- if settings.brand_description != blank -%}
                         <div class="rte">{{ settings.brand_description }}</div>
@@ -154,6 +155,62 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+                  {%- when 'contact' -%}
+                    <div class="footer-block__details-content rte">
+
+                      {% if block.settings.phone != blank %}
+                        <div class="footer-block__row">
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+                            <path d="M16.95 18.3154C14.8667 18.3154 12.8083 17.8613 10.775 16.9529C8.74167 16.0446 6.89167 14.7571 5.225 13.0904C3.55833 11.4238 2.27083 9.57376 1.3625 7.54043C0.454167 5.5071 0 3.44876 0 1.36543C0 1.06543 0.1 0.81543 0.3 0.61543C0.5 0.41543 0.75 0.31543 1.05 0.31543H5.1C5.33333 0.31543 5.54167 0.394596 5.725 0.55293C5.90833 0.711263 6.01667 0.898763 6.05 1.11543L6.7 4.61543C6.73333 4.8821 6.725 5.1071 6.675 5.29043C6.625 5.47376 6.53333 5.6321 6.4 5.76543L3.975 8.21543C4.30833 8.8321 4.70417 9.42793 5.1625 10.0029C5.62083 10.5779 6.125 11.1321 6.675 11.6654C7.19167 12.1821 7.73333 12.6613 8.3 13.1029C8.86667 13.5446 9.46667 13.9488 10.1 14.3154L12.45 11.9654C12.6 11.8154 12.7958 11.7029 13.0375 11.6279C13.2792 11.5529 13.5167 11.5321 13.75 11.5654L17.2 12.2654C17.4333 12.3321 17.625 12.4529 17.775 12.6279C17.925 12.8029 18 12.9988 18 13.2154V17.2654C18 17.5654 17.9 17.8154 17.7 18.0154C17.5 18.2154 17.25 18.3154 16.95 18.3154ZM3.025 6.31543L4.675 4.66543L4.25 2.31543H2.025C2.10833 2.99876 2.225 3.67376 2.375 4.34043C2.525 5.0071 2.74167 5.66543 3.025 6.31543ZM11.975 15.2654C12.625 15.5488 13.2875 15.7738 13.9625 15.9404C14.6375 16.1071 15.3167 16.2154 16 16.2654V14.0654L13.65 13.5904L11.975 15.2654Z" fill="white"/>
+                          </svg>
+
+                          <span>
+                            {{ block.settings.phone }}
+                          </span>
+
+                        </div>
+                      {% endif %}
+
+                      {% if block.settings.email != blank %}
+                        <div class="footer-block__row">
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <mask id="mask0_8509_2979" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                              <rect y="0.31543" width="24" height="24" fill="#D9D9D9"/>
+                            </mask>
+                            <g mask="url(#mask0_8509_2979)">
+                              <path d="M4 20.3154C3.45 20.3154 2.97917 20.1196 2.5875 19.7279C2.19583 19.3363 2 18.8654 2 18.3154V6.31543C2 5.76543 2.19583 5.2946 2.5875 4.90293C2.97917 4.51126 3.45 4.31543 4 4.31543H20C20.55 4.31543 21.0208 4.51126 21.4125 4.90293C21.8042 5.2946 22 5.76543 22 6.31543V18.3154C22 18.8654 21.8042 19.3363 21.4125 19.7279C21.0208 20.1196 20.55 20.3154 20 20.3154H4ZM12 13.3154L4 8.31543V18.3154H20V8.31543L12 13.3154ZM12 11.3154L20 6.31543H4L12 11.3154ZM4 8.31543V6.31543V18.3154V8.31543Z" fill="white"/>
+                            </g>
+                          </svg>
+
+                          <span>
+                            {{ block.settings.email }}
+                          </span>
+
+                        </div>
+                      {% endif %}
+
+                      {% if block.settings.location != blank %}
+                        <div class="footer-block__row">
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <mask id="mask0_8509_2976" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+                              <rect y="0.31543" width="24" height="24" fill="#D9D9D9"/>
+                            </mask>
+                            <g mask="url(#mask0_8509_2976)">
+                              <path d="M12 22.3154C10.2333 22.3154 8.79167 22.0363 7.675 21.4779C6.55833 20.9196 6 20.1988 6 19.3154C6 18.9154 6.12083 18.5446 6.3625 18.2029C6.60417 17.8613 6.94167 17.5654 7.375 17.3154L8.95 18.7904C8.8 18.8571 8.6375 18.9321 8.4625 19.0154C8.2875 19.0988 8.15 19.1988 8.05 19.3154C8.26667 19.5821 8.76667 19.8154 9.55 20.0154C10.3333 20.2154 11.15 20.3154 12 20.3154C12.85 20.3154 13.6708 20.2154 14.4625 20.0154C15.2542 19.8154 15.7583 19.5821 15.975 19.3154C15.8583 19.1821 15.7083 19.0738 15.525 18.9904C15.3417 18.9071 15.1667 18.8321 15 18.7654L16.55 17.2654C17.0167 17.5321 17.375 17.8363 17.625 18.1779C17.875 18.5196 18 18.8988 18 19.3154C18 20.1988 17.4417 20.9196 16.325 21.4779C15.2083 22.0363 13.7667 22.3154 12 22.3154ZM12.025 16.8154C13.675 15.5988 14.9167 14.3779 15.75 13.1529C16.5833 11.9279 17 10.6988 17 9.46543C17 7.76543 16.4583 6.4821 15.375 5.61543C14.2917 4.74876 13.1667 4.31543 12 4.31543C10.8333 4.31543 9.70833 4.74876 8.625 5.61543C7.54167 6.4821 7 7.76543 7 9.46543C7 10.5821 7.40833 11.7446 8.225 12.9529C9.04167 14.1613 10.3083 15.4488 12.025 16.8154ZM12 19.3154C9.65 17.5821 7.89583 15.8988 6.7375 14.2654C5.57917 12.6321 5 11.0321 5 9.46543C5 8.2821 5.2125 7.2446 5.6375 6.35293C6.0625 5.46126 6.60833 4.71543 7.275 4.11543C7.94167 3.51543 8.69167 3.06543 9.525 2.76543C10.3583 2.46543 11.1833 2.31543 12 2.31543C12.8167 2.31543 13.6417 2.46543 14.475 2.76543C15.3083 3.06543 16.0583 3.51543 16.725 4.11543C17.3917 4.71543 17.9375 5.46126 18.3625 6.35293C18.7875 7.2446 19 8.2821 19 9.46543C19 11.0321 18.4208 12.6321 17.2625 14.2654C16.1042 15.8988 14.35 17.5821 12 19.3154ZM12 11.3154C12.55 11.3154 13.0208 11.1196 13.4125 10.7279C13.8042 10.3363 14 9.86543 14 9.31543C14 8.76543 13.8042 8.2946 13.4125 7.90293C13.0208 7.51126 12.55 7.31543 12 7.31543C11.45 7.31543 10.9792 7.51126 10.5875 7.90293C10.1958 8.2946 10 8.76543 10 9.31543C10 9.86543 10.1958 10.3363 10.5875 10.7279C10.9792 11.1196 11.45 11.3154 12 11.3154Z" fill="white"/>
+                            </g>
+                          </svg>
+
+                          <span>
+                            {{ block.settings.location }}
+                          </span>
+
+                        </div>
+                      {% endif %}
+
+                    </div>
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -169,7 +226,7 @@
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
-                <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
+                <h3 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h3>
               {%- endif -%}
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
@@ -263,7 +320,7 @@
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
               <div>
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                <h3 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h3>
                 {%- render 'country-localization', localPosition: 'FooterCountry' -%}
               </div>
             {%- endform -%}
@@ -274,9 +331,9 @@
           <localization-form>
             {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
               <div>
-                <h2 class="caption-large text-body" id="FooterLanguageLabel">
+                <h3 class="caption-large text-body" id="FooterLanguageLabel">
                   {{ 'localization.language_label' | t }}
-                </h2>
+                </h3>
                 {%- render 'language-localization', localPosition: 'FooterLanguage' -%}
               </div>
             {%- endform -%}
