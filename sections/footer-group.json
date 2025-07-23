@@ -25,14 +25,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Courses",
-            "menu": "footer"
+            "menu": "footer-courses"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Support",
-            "menu": "footer"
+            "menu": "footer-support"
           }
         },
         "footer-2": {
