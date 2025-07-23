@@ -504,7 +504,14 @@
           "type": "accordion_row",
           "settings": {
             "heading": "Alright, but what exactly do you do?",
-            "row_content": ""
+            "row_content": "<p>Study Active has active relationships with UK gyms such as The Gym Group, Nuffield and Everyone Active. This ensures that our training is fit for purpose and further our Graduates benefit from employment opportunities.</p>"
+          }
+        },
+        "accordion_row_rfbkQp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Study Active has active relationships with UK gyms such as The Gym Group, Nuffield and Everyone Active. This ensures that our training is fit for purpose and further our Graduates benefit from employment opportunities.</p>"
           }
         },
         "accordion_row_JpmikV": {
@@ -538,6 +545,7 @@
       },
       "block_order": [
         "accordion_row_6Tb6P8",
+        "accordion_row_rfbkQp",
         "accordion_row_JpmikV",
         "accordion_row_edxWH8",
         "accordion_row_hqddz4",
