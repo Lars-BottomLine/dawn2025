@@ -1,8 +1,12 @@
+{{ 'le_accordion.js' | asset_url | script_tag }}
+
 {%- liquid
 
     assign decal_top = false
     assign decal_bottom = false
     assign section_classes = ''
+
+    assign iz_blue = false
 
     if section.settings.decal_top
         assign decal_top = true
@@ -12,6 +16,11 @@
     if section.settings.decal_bottom
         assign decal_bottom = true
         assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    if section.settings.template_type == 'blue'
+        assign iz_blue = true
+        assign section_classes = section_classes | append: ' sa-bg-primary text-white -dct-primary -dcb-primary '
     endif
 
 %}
@@ -39,12 +48,47 @@
     }
 {%- endstyle -%}
 
+{% javascript %}
+    var lea = new LeAccordion({debug:true});
+    lea.init();
+{% endjavascript %}
+
+
 <div class="sa-section-accordion -template-{{ section.settings.template_type }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             px-32 pb-32
             {{ section_classes }}">
-    <div class="page-width -section-content w-full">
-        Accordion
+    <div class="page-width -section-content -narrow-section">
+
+        {% if  section.settings.headline != blank %}
+        <h2 class="-no-indent">
+            {{ section.settings.headline }}
+        </h2>
+        {% endif %}
+
+        <div class="le-accordion">
+            {%- for block in section.blocks -%}
+
+                <div class="le-acc-entry -with-arrow">
+                    <div class="le-acc-header">
+
+                        <span class="_text-normal">
+                            {{ block.settings.heading }}
+                        </span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                            <path d="M9.21191 16.0566L9.21191 0.83789L11.7119 0.83789L11.7119 16.0566L18.7119 9.05664L20.4619 10.8379L10.4619 20.8379L0.461914 10.8379L2.21191 9.05664L9.21191 16.0566Z" fill="white"/>
+                        </svg>
+
+                    </div>
+                    <div class="le-acc-content">
+                        {{ block.settings.row_content }}
+                    </div>
+                </div>
+
+            {% endfor %}
+        </div>
+
     </div>
 </div>
 
@@ -73,8 +117,8 @@
         {
             "type": "text",
             "id": "headline",
-            "default": "t:sections.slideshow.blocks.slide.name",
-            "label": "t:sections.slideshow.blocks.slide.name"
+            "default": "Headline",
+            "label": "Headline"
         },
 
         {
