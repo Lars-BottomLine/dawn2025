@@ -907,7 +907,8 @@ header .header__icon--cart .icon {
 }
 
 .footer-block:first-child {
-  width: 37rem;
+  width: 37rem !important;
+  padding-right: 4rem;
 }
 .footer-block:first-child p {
   color: var(--color-secondary);
@@ -918,7 +919,7 @@ header .header__icon--cart .icon {
 }
 
 .footer-block--menu {
-  width: auto;
+  width: auto !important;
 }
 
 .footer-block--contact {
