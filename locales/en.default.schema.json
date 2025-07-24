@@ -3064,6 +3064,12 @@
         "name": "StudyActive - Collapsible"
       }
     },
+    "le_image-slider": {
+      "name": "StudyActive - Image Slider",
+      "presets": {
+        "name": "StudyActive - Image Slider"
+      }
+    },
 
     "slideshow": {
       "name": "Slideshow (default)",
