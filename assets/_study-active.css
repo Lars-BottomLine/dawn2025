@@ -1023,4 +1023,40 @@ header .header__icon--cart .icon {
   line-height: 3.6rem;
 }
 
+.sa-section-image-slider .swiper-container {
+  width: 100%;
+  height: auto;
+}
+.sa-section-image-slider .slideshow__media.banner__media {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.sa-section-image-slider .swiper-slide {
+  overflow: hidden;
+  height: 110px;
+  width: 235px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.sa-section-image-slider .swiper-slide img {
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  object-fit: contain !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
+  margin: auto !important;
+}
+.sa-section-image-slider .swiper-free-mode > .swiper-wrapper {
+  transition-timing-function: linear;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=_study-active.css.map */

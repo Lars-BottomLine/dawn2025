@@ -11,13 +11,13 @@
                 {%- for block in section.blocks -%}
 
                     <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                         class="swiper-slide media"
+                         class="swiper-slide medi"
                          role="group"
                          aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
                          aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
                          tabindex="-1" >
 
-                        <div class="slideshow__media banner__media media">
+                        <div class="slideshow__mdia baner__media mda">
                             {%- if block.settings.image -%}
 
                                 {%- liquid
@@ -61,6 +61,40 @@
             </div>
 
         </div>
+
+        <script>
+            var swiper = new Swiper("#swiper-{{ section.id }}", {
+                speed: 10000,
+                direction: "horizontal",
+                loop: true,
+                slidesPerView: 3,
+                freeMode: true,
+                zoom: false,
+                keyboard: true,
+                pagination: false,
+                navigation: false,
+                spaceBetween: 50,
+
+                autoplay: {
+                    delay: 0
+                },
+
+                breakpoints: {
+                    765: {
+                        slidesPerView: 1
+                    },
+                    1000: {
+                        slidesPerView: 3
+                    },
+                    1200: {
+                        slidesPerView: 4
+                    }
+                },
+
+
+            });
+
+        </script>
 
     </div>
 </div>
