@@ -52,6 +52,13 @@
   -%}
     {%- unless only_empty_brand -%}
       <div class="footer__content-top page-width">
+
+        {%- if section.image -%}
+        <img src="{{ block.settings.image | image_url: width: 760 }}"
+             alt="{{ block.settings.image.alt | escape }}"
+        />
+        {% endif %}
+
         {%- if section.blocks.size > 0 -%}
           {%- liquid
             if section.blocks.size == 9
@@ -209,6 +216,8 @@
 
                         </div>
                       {% endif %}
+
+                      {%- render 'social-icons', class: 'footer__list-social' -%}
 
                     </div>
                 {%- endcase -%}
@@ -521,6 +530,13 @@
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
     },
+
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+
     {
       "type": "header",
       "content": "t:sections.footer.settings.header__1.content",

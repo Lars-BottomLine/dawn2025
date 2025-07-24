@@ -923,13 +923,15 @@ header .header__icon--cart .icon {
 }
 
 .footer-block--contact {
-  width: 30rem !important;
+  max-width: 32rem !important;
 }
 
-.footer-block__details-content h3 {
+h3.footer-block__heading {
   font-size: 2rem;
   line-height: 2.4rem;
+  margin: 0;
 }
+
 .footer-block__details-content .footer-block__row {
   color: white;
   display: flex;
@@ -949,6 +951,25 @@ header .header__icon--cart .icon {
   font-size: 2rem;
   font-weight: 400;
   line-height: 3.6rem;
+}
+.footer-block__details-content .list-social__link {
+  padding: 0 2.2rem 0 0;
+  transition: transform 250ms;
+}
+.footer-block__details-content .list-social__link:hover {
+  transform: scale(1.05);
+}
+.footer-block__details-content .list-social {
+  justify-content: flex-start;
+  padding-left: 0;
+  padding-top: 1.2rem;
+}
+.footer-block__details-content .list-social .svg-wrapper {
+  width: auto;
+  height: auto;
+}
+.footer-block__details-content .list-social svg {
+  height: 3.3rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
