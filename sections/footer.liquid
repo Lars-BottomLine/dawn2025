@@ -53,10 +53,19 @@
     {%- unless only_empty_brand -%}
       <div class="footer__content-top page-width">
 
-        {%- if section.image -%}
-        <img src="{{ block.settings.image | image_url: width: 760 }}"
-             alt="{{ block.settings.image.alt | escape }}"
-        />
+        {%-
+
+        # SECTION: LOGO
+        # -------------------------------------------------------------- -%}
+        {%- if section.settings.image -%}
+
+          <div class="footer__logo-wrapper w-full">
+            <img src="{{ section.settings.image | image_url: width: 300 }}"
+                 class="footer__logo"
+                 alt="{{ section.settings.image.alt | escape }}"
+            />
+          </div>
+
         {% endif %}
 
         {%- if section.blocks.size > 0 -%}
@@ -226,6 +235,10 @@
           </div>
         {%- endif -%}
 
+        {%-
+
+        # SECTION: NEWSLETTER
+        # -------------------------------------------------------------- -%}
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
@@ -313,18 +326,25 @@
             {%- render 'social-icons', class: 'footer__list-social' -%}
           {%- endif -%}
         </div>
+
+        <div class="footer__hr"></div>
+
       </div>
     {%- endunless -%}
   {%- endif -%}
 
   <div
-    class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="footer__content-bottom page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
   >
-    <div class="footer__content-bottom-wrapper page-width">
+    <div class="footer__content-bottom-wrapper">
       <div class="footer__column footer__localization isolate">
+        {%-
+
+        # SECTION: COUNTRY SELECTOR
+        # -------------------------------------------------------------- -%}
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
@@ -335,7 +355,10 @@
             {%- endform -%}
           </localization-form>
         {%- endif -%}
+        {%-
 
+        # SECTION: LANGUAGE SELECTOR
+        # -------------------------------------------------------------- -%}
         {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
           <localization-form>
             {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
@@ -350,6 +373,10 @@
         {%- endif -%}
       </div>
       <div class="footer__column footer__column--info">
+        {%-
+
+        # SECTION: PAYMENT
+        # -------------------------------------------------------------- -%}
         {%- if section.settings.payment_enable -%}
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
@@ -364,12 +391,15 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
-      <div class="footer__copyright caption">
+    <div class="footer__content-bottom-wrapper{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+      {%-
+
+      # SECTION: COPYRIGHT
+      # -------------------------------------------------------------- -%}
+      <div class="footer__copyright caption flex justify-between text-white w-full">
         <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+          >&copy; {{ 'now' | date: '%Y' }} {{ 'Study Active' | link_to: routes.root_url -}}. All rights reserved.
         </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
@@ -384,6 +414,7 @@
           </ul>
         {%- endif -%}
       </div>
+
     </div>
   </div>
 </footer>
