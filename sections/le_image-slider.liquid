@@ -3,7 +3,7 @@
 
 
 <div class="section-{{ section.id }}-padding sa-section-image-slider">
-    <div class="sa-slider-wrapper page-width">
+    <div class="sa-slider-wrapper page-widt">
 
         <div id="swiper-{{ section.id }}" class="swiper sa-slider">
             <div class="swiper-wrapper">
@@ -17,7 +17,7 @@
                          aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
                          tabindex="-1" >
 
-                        <div class="slideshow__mdia baner__media mda">
+                        <div class="slideshow__image baner__media mda flex inline-flex">
                             {%- if block.settings.image -%}
 
                                 {%- liquid
@@ -67,7 +67,7 @@
                 speed: 10000,
                 direction: "horizontal",
                 loop: true,
-                slidesPerView: 3,
+                slidesPerView: 'auto',
                 freeMode: true,
                 zoom: false,
                 keyboard: true,
@@ -79,20 +79,21 @@
                     delay: 0
                 },
 
-                breakpoints: {
-                    765: {
-                        slidesPerView: 1
-                    },
-                    1000: {
-                        slidesPerView: 3
-                    },
-                    1200: {
-                        slidesPerView: 4
-                    }
-                },
-
+                // breakpoints: {
+                //     765: {
+                //         slidesPerView: 1
+                //     },
+                //     1000: {
+                //         slidesPerView: 3
+                //     },
+                //     1200: {
+                //         slidesPerView: 4
+                //     }
+                // },
 
             });
+
+            // TODO: start on resize if not enough space to show all items
 
         </script>
 

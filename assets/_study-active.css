@@ -1027,6 +1027,9 @@ header .header__icon--cart .icon {
   width: 100%;
   height: auto;
 }
+.sa-section-image-slider .slideshow__image {
+  max-height: 100%;
+}
 .sa-section-image-slider .slideshow__media.banner__media {
   background: transparent;
   display: flex;
@@ -1052,11 +1055,11 @@ header .header__icon--cart .icon {
   object-fit: contain !important;
   max-height: 100% !important;
   max-width: 100% !important;
-  margin: auto !important;
 }
 .sa-section-image-slider .swiper-free-mode > .swiper-wrapper {
   transition-timing-function: linear;
   margin: 0 auto;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
