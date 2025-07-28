@@ -59,6 +59,24 @@
         "change_slides_speed": 3
       }
     },
+    "featured_blog_G4RNcK": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "post_limit": 4,
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_frcJE8": {
       "type": "image-with-text",
       "blocks": {
@@ -555,24 +573,6 @@
         "margin_bottom": 0
       }
     },
-    "featured_blog_G4RNcK": {
-      "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
-      "settings": {
-        "blog": "news",
-        "post_limit": 4,
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "le_image_slider_hFiT68": {
       "type": "le_image-slider",
       "blocks": {
@@ -627,6 +627,7 @@
   },
   "order": [
     "le_swiper_cEfnwi",
+    "featured_blog_G4RNcK",
     "image_with_text_frcJE8",
     "le_swiper_wanmRJ",
     "le_whychoose_qbgPdw",
@@ -636,7 +637,6 @@
     "le_whychoose_kjYUa7",
     "le_whychoose_kQprwk",
     "le_accordion_KPY7JN",
-    "featured_blog_G4RNcK",
     "le_image_slider_hFiT68"
   ]
 }
