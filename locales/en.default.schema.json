@@ -3070,6 +3070,12 @@
         "name": "StudyActive - Image Slider"
       }
     },
+    "le_featured-blog": {
+      "name": "StudyActive - Blog Slider",
+      "presets": {
+        "name": "StudyActive - Blog Slider"
+      }
+    },
 
     "slideshow": {
       "name": "Slideshow (default)",
