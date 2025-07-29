@@ -533,6 +533,69 @@ h3,
 .sa-swiper-wrapper .swiper-button-wrapper .sa-button:first-child.-hover-translate:hover span {
   transform: translate(-1.2rem, -0.2rem);
 }
+.sa-section-image-with-text {
+  max-height: 1000px;
+  overflow: hidden;
+}
+.sa-section-image-with-text .image-with-text__content--middle {
+  justify-content: flex-end;
+}
+@media screen and (min-width: 2000px) {
+  .sa-section-image-with-text .image-with-text__media--adapt {
+    padding-bottom: 50% !important;
+  }
+}
+.sa-section-image-with-text .image-with-text__newsletter-form {
+  color: var(--color-primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px; /* 171.875% */
+}
+.sa-section-image-with-text .image-with-text__newsletter-form h2 {
+  color: var(--color-primary);
+  font-size: 4rem !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 1.2 !important; /* 120% */
+  letter-spacing: -0.4px;
+  margin-bottom: 4rem;
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ {
+  position: relative;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 68rem;
+  padding: 4rem 10rem;
+  background: var(--color-light-blue);
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ .form-join-us {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.5rem; /* 171.875% */
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ label {
+  display: none !important;
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ input[type=text] {
+  width: 100% !important;
+  background-color: white !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ input[type=text]._has_error {
+  border: #F37C7B 1px solid !important;
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ input[type=submit] {
+  cursor: pointer;
+}
+.sa-section-image-with-text .image-with-text__newsletter-form form#_form_1_ .sa-button {
+  margin: 4rem 0 0 0 !important;
+}
+
 .image-with-text img {
   object-fit: contain;
   object-position: top;
