@@ -1146,9 +1146,9 @@ header .header__icon--cart .icon {
   content: "";
   position: absolute;
   right: 0;
-  bottom: -1.4rem;
+  bottom: -2.4rem;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   background: var(--color-light-blue);
   transform: skewY(4deg);
 }
