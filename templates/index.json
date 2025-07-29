@@ -638,6 +638,25 @@
         "margin_bottom": 0
       }
     },
+    "le_image_with_text_HaCjqD": {
+      "type": "le_image-with-text",
+      "name": "t:sections.le_imagentext.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/gym-trainer-explaining.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
     "le_image_slider_hFiT68": {
       "type": "le_image-slider",
       "blocks": {
@@ -702,6 +721,7 @@
     "le_whychoose_kQprwk",
     "le_featured_blog_phLeqa",
     "le_accordion_KPY7JN",
+    "le_image_with_text_HaCjqD",
     "le_image_slider_hFiT68"
   ]
 }
