@@ -390,34 +390,34 @@ h3,
 .shopify-section .-decal-bottom .page-width {
   position: relative;
 }
-.shopify-section .-decal-top.-dct-secondary:after {
+.shopify-section .-decal-top.-dct-secondary:before {
   background: var(--color-secondary);
 }
-.shopify-section .-decal-bottom.-dcb-secondary:before {
+.shopify-section .-decal-bottom.-dcb-secondary:after {
   background: var(--color-secondary);
 }
-.shopify-section .-decal-top.-dct-tertiary:after {
+.shopify-section .-decal-top.-dct-tertiary:before {
   background: var(--color-tertiary);
 }
-.shopify-section .-decal-bottom.-dcb-tertiary:before {
+.shopify-section .-decal-bottom.-dcb-tertiary:after {
   background: var(--color-tertiary);
 }
-.shopify-section .-decal-top.-dct-dark-blue:after {
+.shopify-section .-decal-top.-dct-dark-blue:before {
   background: var(--color-dark-blue);
 }
-.shopify-section .-decal-bottom.-dcb-dark-blue:before {
+.shopify-section .-decal-bottom.-dcb-dark-blue:after {
   background: var(--color-dark-blue);
 }
-.shopify-section .-decal-top.-dct-light-blue:after {
+.shopify-section .-decal-top.-dct-light-blue:before {
   background: var(--color-light-blue);
 }
-.shopify-section .-decal-bottom.-dcb-light-blue:before {
+.shopify-section .-decal-bottom.-dcb-light-blue:after {
   background: var(--color-light-blue);
 }
-.shopify-section .-decal-top.-dct-white:after {
+.shopify-section .-decal-top.-dct-white:before {
   background: var(--color-white);
 }
-.shopify-section .-decal-bottom.-dcb-white:before {
+.shopify-section .-decal-bottom.-dcb-white:after {
   background: var(--color-white);
 }
 
