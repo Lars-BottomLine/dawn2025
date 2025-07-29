@@ -82,7 +82,7 @@
 
 .pillar-divider::after {
   content: "|";
-  margin: 0 0.8rem 0 1rem;
+  margin: 0 0.8rem;
 }
 
 .pillar-divider:last-of-type::after {
@@ -446,7 +446,7 @@ h3,
   overflow: hidden;
   transition: max-height 250ms;
   margin-top: 4px;
-  max-height: 45px;
+  max-height: 75px;
 }
 .le-accordion .le-acc-entry:first-child {
   margin-top: 0px;

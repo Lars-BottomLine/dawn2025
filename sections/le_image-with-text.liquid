@@ -97,6 +97,10 @@
                   <div class="image-with-text__text rte _subtitle-large !mt-0 {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                   </div>
+                {%- when 'newsletter_form' -%}
+                  <div class="image-with-text__newsletter-form" {{ block.shopify_attributes }}>
+                    {% render 'le_newsletter-form' %}
+                  </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a
@@ -120,6 +124,7 @@
 
       </div>
     </div>
+
   </div>
 </div>
 
@@ -338,6 +343,19 @@
       "settings": [
         {
           "type": "richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "newsletter_form",
+      "name": "Newsletter Signup Form",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
           "id": "heading",
           "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
