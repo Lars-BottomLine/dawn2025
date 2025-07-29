@@ -59,23 +59,6 @@
         "change_slides_speed": 3
       }
     },
-    "le_featured_blog_phLeqa": {
-      "type": "le_featured-blog",
-      "name": "t:sections.le_featured-blog.presets.name",
-      "settings": {
-        "blog": "news",
-        "post_limit": 6,
-        "heading": "Tips, trends and training advice",
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "image_with_text_frcJE8": {
       "type": "image-with-text",
       "blocks": {
@@ -514,6 +497,25 @@
         "margin_bottom": 0
       }
     },
+    "le_featured_blog_phLeqa": {
+      "type": "le_featured-blog",
+      "name": "t:sections.le_featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "post_limit": 6,
+        "heading": "Tips, trends and training advice",
+        "show_view_all": false,
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_accordion_KPY7JN": {
       "type": "le_accordion",
       "blocks": {
@@ -626,7 +628,6 @@
   },
   "order": [
     "le_swiper_cEfnwi",
-    "le_featured_blog_phLeqa",
     "image_with_text_frcJE8",
     "le_swiper_wanmRJ",
     "le_whychoose_qbgPdw",
@@ -635,6 +636,7 @@
     "le_image_with_text_yP9WPy",
     "le_whychoose_kjYUa7",
     "le_whychoose_kQprwk",
+    "le_featured_blog_phLeqa",
     "le_accordion_KPY7JN",
     "le_image_slider_hFiT68"
   ]
