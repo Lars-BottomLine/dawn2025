@@ -80,6 +80,15 @@
   max-width: 90rem;
 }
 
+.pillar-divider::after {
+  content: "|";
+  margin: 0 0.8rem 0 1rem;
+}
+
+.pillar-divider:last-of-type::after {
+  display: none;
+}
+
 :root {
   --font-heading-family: "Atkinson Hyperlegible Next", sans-serif;
 }
@@ -268,6 +277,11 @@ h3,
   font-style: normal;
   font-weight: 700;
   line-height: 1.25; /* 37.5px */
+}
+
+.caption-with-letter-spacing {
+  font-size: 1.4rem;
+  letter-spacing: 0;
 }
 
 .sa-button {
@@ -463,6 +477,62 @@ h3,
   transform: rotate(45deg);
 }
 
+.sa-swiper-wrapper .swiper-pagination {
+  position: relative;
+  bottom: 0 !important;
+  top: 0 !important;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.sa-swiper-wrapper .swiper-pagination .swiper-pagination-bullet {
+  cursor: pointer;
+  width: 4rem;
+  height: 1rem;
+  border-radius: 0;
+  transform: skewX(45deg);
+  transition: transform 250ms, opacity 250ms, background-color 250ms;
+  background: var(--color-primary);
+  opacity: 0.2;
+}
+.sa-swiper-wrapper .swiper-pagination .swiper-pagination-bullet:hover {
+  transform: scale(1.1) skewX(45deg) !important;
+}
+.sa-swiper-wrapper .swiper-pagination .swiper-pagination-bullet-active {
+  transform: scale(1.1) skewX(45deg) !important;
+  background: var(--color-secondary) !important;
+  opacity: 1 !important;
+}
+.sa-swiper-wrapper .swiper-button-wrapper {
+  margin-top: 0.8rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button {
+  margin-left: -0.5rem;
+  cursor: pointer;
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button span {
+  padding: 1.2rem 1.6rem;
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button.-hover-translate:hover:before {
+  transform: translate(1.2rem, 0.2rem);
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button.-hover-translate:hover span {
+  transform: translate(0.8rem, -0.2rem);
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button:first-child {
+  margin-left: 0;
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button:first-child.-hover-translate:hover:before {
+  transform: translate(-0.8rem, 0.2rem);
+}
+.sa-swiper-wrapper .swiper-button-wrapper .sa-button:first-child.-hover-translate:hover span {
+  transform: translate(-1.2rem, -0.2rem);
+}
 .image-with-text img {
   object-fit: contain;
   object-position: top;
@@ -518,47 +588,12 @@ h3,
 .sa-swiper-wrapper .swiper-slide .sa-swiper-content .sa-button {
   margin-top: 4.2rem;
 }
-.sa-swiper-wrapper .swiper-pagination-clickable .swiper-pagination-bullet {
-  cursor: pointer;
-  width: 4rem;
-  height: 1rem;
-  border-radius: 0;
-  transform: skewX(45deg);
-  transition: transform 250ms, opacity 250ms, background-color 250ms;
+.sa-swiper-wrapper .sa-swiper-type-hero .swiper-pagination {
+  margin-top: -4.4rem;
 }
-.sa-swiper-wrapper .swiper-pagination-bullet-active {
-  transform: scale(1.1) skewX(45deg) !important;
-}
-.sa-swiper-wrapper .sa-swiper-type-featured,
-.sa-swiper-wrapper .sa-swiper-type-job-card,
-.sa-swiper-wrapper .sa-swiper-type-testimonial {
-  padding-bottom: 8.6rem;
-}
-.sa-swiper-wrapper .sa-swiper-type-featured.swiper-horizontal > .swiper-pagination-bullets,
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-pagination-bullets.swiper-pagination-horizontal,
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-pagination-custom,
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-pagination-fraction,
-.sa-swiper-wrapper .sa-swiper-type-job-card.swiper-horizontal > .swiper-pagination-bullets,
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-bullets.swiper-pagination-horizontal,
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-custom,
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-fraction,
-.sa-swiper-wrapper .sa-swiper-type-testimonial.swiper-horizontal > .swiper-pagination-bullets,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-bullets.swiper-pagination-horizontal,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-custom,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-fraction {
-  bottom: 5rem;
-}
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-pagination-bullet,
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-bullet,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-bullet {
-  background: var(--color-primary);
-  opacity: 0.2;
-}
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-pagination-bullet-active,
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-pagination-bullet-active,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-pagination-bullet-active {
-  background: var(--color-secondary);
-  opacity: 1;
+.sa-swiper-wrapper .sa-swiper-type-hero .swiper-pagination .swiper-pagination-bullet {
+  background: white;
+  opacity: 0.5;
 }
 .sa-swiper-wrapper .sa-swiper-type-featured .media > *:not(.zoom):not(.deferred-media__poster-button),
 .sa-swiper-wrapper .sa-swiper-type-job-card .media > *:not(.zoom):not(.deferred-media__poster-button),
