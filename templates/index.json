@@ -640,6 +640,17 @@
     },
     "le_image_with_text_HaCjqD": {
       "type": "le_image-with-text",
+      "blocks": {
+        "newsletter_form_9VfPF6": {
+          "type": "newsletter_form",
+          "settings": {
+            "heading": "Want to stay informed about everything fitness?"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_form_9VfPF6"
+      ],
       "name": "t:sections.le_imagentext.presets.name",
       "settings": {
         "image": "shopify://shop_images/gym-trainer-explaining.jpg",
