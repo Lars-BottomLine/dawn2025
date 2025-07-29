@@ -502,7 +502,7 @@
       "name": "t:sections.le_featured-blog.presets.name",
       "settings": {
         "blog": "news",
-        "post_limit": 6,
+        "post_limit": 7,
         "heading": "Tips, trends and training advice",
         "show_view_all": false,
         "show_image": true,
