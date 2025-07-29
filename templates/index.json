@@ -543,15 +543,36 @@
         "accordion_row_hqddz4": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What previous experience do I need to become a personal trainer?",
             "row_content": "<p>There isn't an official prerequisite, but it is highly recommended that an aspiring professional fitness instructor or PT has gained some experience in a gym.<br/><br/>Our students may opt to gain some paid or unpaid gym-based instructing experience whilst studying (this is not mandatory but could be incredibly useful when aiming to get into the industry) while, others, may choose to begin working in a gym as an instructor upon course completion.<br/><br/>There is no real hard and fast rule, and everyone is different. The main thing is that you as an individual feel comfortable in your knowledge and are equipped with the right tools and frame of mind, before starting work as a gym instructor. If you want to progress in the fitness industry, you can opt to take the additional fitness courses, we offer to advance your knowledge, if you're unsure you can ask your personal support tutor.</p>"
           }
         },
         "accordion_row_UiBdYC": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How long does it take to complete one of your personal trainer courses?",
             "row_content": "<p>The time taken to complete our personal trainer course is largely up to you. Some people can 'fast track' in as little as weeks and complete the gym instructor & PT course while others may need to part-time study over several months.<br/><br/>There is no set answer for how long it will take you, this can depend on the amount of hours to study you are able to commit to, and any existing fitness knowledge you have that might give you an edge to complete practical assessments and finish the online lessons quicker.<br/><br/>Generally, the majority of our students are studying part-time and gain their qualifications within 3-6 months. Do note, taking on additional fitness courses such as Nutrition to their package, will increase the amount of study time required to complete the courses.</p>"
+          }
+        },
+        "accordion_row_QdRFBE": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Becoming a personal trainer: Do I need experience in the health or fitness industry?",
+            "row_content": "<p>The only entry requirements to join Study Active and take our gym instructor course is an active interest in fitness, fitness instruction, health and a positive attitude to learning.<br/><br/>Through one of many courses, you will learn all there is to know to become a fitness instructor, and gain the skills needed to help clients exercise and achieve their goals as a full time trainer.<br/><br/>While having prior experience in personal training is not a mandatory part of the qualification you will be taking (many of our students already have some form of experience under their belt), it is recommended that you get as much exposure to the health & fitness sector as possible to push your development and give you that extra edge when applying for interviews.</p>"
+          }
+        },
+        "accordion_row_Pn9yFG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How much can I earn as a personal trainer?",
+            "row_content": "<p>This really does depend on many different factors.<br/><br/>Some key factors that you should consider as your career embarks are the area, demographic, services you offer, the specialisms you've mastered, and the experience you have and so forth.<br/><br/>A newly qualified PT or gym instructor may charge around £20-25 p/h in certain locations, while a more established PT may start charging between £35-50 p/h. Those who are nationally renowned or elite PTs can charge upwards of £60-80 p/h (this is something that can take time and will not happen overnight!).<br/><br/>Do note, that these figures are based on self-employed income, you will not find a gym paying the above figures as a salary. These are the amounts that PTs will charge their clients on a self-employed basis. If you want to increase your potential as a personal trainer, it is worth considering some of our more advanced courses that can help you take on more specialised clients such as athletes or those suffering from health conditions.</p>"
+          }
+        },
+        "accordion_row_BMzgAg": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long has Study Active been offering personal training courses?",
+            "row_content": "<p>Study Active started delivering personal training courses back in 2012 making us one of the longest-operating fitness training providers in the UK. Since then, the company has grown considerably to where it is today and we have given many students the personal trainer qualifications needed to break into the UK fitness industry. We recently won the 2023 UKActive Education Provider of the Year award and were rated at the very highest CIMSPA rank ''Enhancing'' by CIMPSA (a summary can be found as follows, the provider are seen to be offering the highest quality provision to its learners), so you can be sure you are in good hands.<br/><br/>From entry level qualifications to more specialised courses, you can check out what we offer and get your career moving!</p>"
           }
         }
       },
@@ -560,7 +581,10 @@
         "accordion_row_JpmikV",
         "accordion_row_edxWH8",
         "accordion_row_hqddz4",
-        "accordion_row_UiBdYC"
+        "accordion_row_UiBdYC",
+        "accordion_row_QdRFBE",
+        "accordion_row_Pn9yFG",
+        "accordion_row_BMzgAg"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
