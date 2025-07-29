@@ -574,6 +574,41 @@
             "heading": "How long has Study Active been offering personal training courses?",
             "row_content": "<p>Study Active started delivering personal training courses back in 2012 making us one of the longest-operating fitness training providers in the UK. Since then, the company has grown considerably to where it is today and we have given many students the personal trainer qualifications needed to break into the UK fitness industry. We recently won the 2023 UKActive Education Provider of the Year award and were rated at the very highest CIMSPA rank ''Enhancing'' by CIMPSA (a summary can be found as follows, the provider are seen to be offering the highest quality provision to its learners), so you can be sure you are in good hands.<br/><br/>From entry level qualifications to more specialised courses, you can check out what we offer and get your career moving!</p>"
           }
+        },
+        "accordion_row_jbUFmd": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do you provide personal training courses near me?",
+            "row_content": "<p>While we have a physical location, Study Active has students from all across the UK.<br/><br/>We provide the very best remote study via e-learning, digital resources, webinars, skype tutorials etc. Students can access our course material from all over the UK without needing to attend a physical location.<br/><br/>However, we recommend that students visit our base in Hertfordshire for their gym-based practical input & assessments. Alternatively, you can record your practical assessment in a nearby gym and send us your video. Those living around Hertfordshire, London and the surrounding areas may find it easier to come into the Study Active base for their practical assessments.<br/><br/>Our blended digital approach will give you much more flexibility in your fitness training and you won't have to miss any face to face tuition due to any other home, work or family commitments in your life. You set the training dates and study time and then you can get the qualifications needed to enter the industry.</p>"
+          }
+        },
+        "accordion_row_VRBAGA": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I work as a PT in any gym with this personal training qualification?",
+            "row_content": "<p>Our PT course is awarded by Active IQ, regulated by Ofqual and endorsed by CIMSPA.<br/><br/>Within the UK, you will not find a more recognised PT qualification. You will be guaranteed interviews at any nationwide health club or gym as most gyms at home and abroad will accept our qualifications.<br/><br/>Some newly qualified PT's will look to become employed as a Level 2 Gym Instructor within a gym (on a salary) while they take on private clients from the same location. Other PTs or fitness instructors may decide to operate their PT business from a gym they have established a relationship with.<br/><br/>Usually being a personal trainer or fitness instructor is a self-employed position, so personal trainers will usually have to pay the gym rental fees to train their clients. So this is something that will need to be factored in when taking on clients and better understanding your business costs.</p>"
+          }
+        },
+        "accordion_row_8npw9d": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Are your personal training courses online?",
+            "row_content": "<p>Our nationally recognised online courses are delivered via blended learning.<br/><br/>Most of our courses can be studied online using the wealth of digital resources we have provided. However, your online learning will be supplemented by remote support from an expert tutor who will teach and instruct you via webinars, Zoom (or similar), mobile tutorials or email contact.<br/><br/>For your practical assessment, you can either come into our study base in Hertfordshire or choose to record a video of your practical assessments which can then be sent to us.<br/><br/>Some of the courses we offer may involve some face-to-face training, so do read the course details, if you are unsure and would prefer mainly online-based learning.</p>"
+          }
+        },
+        "accordion_row_ThDaTa": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I study part-time to become a personal trainer?",
+            "row_content": "<p>All our blended style courses can be studied part or full time. Whether you choose to study full or part-time is completely up to you. Choosing full time study will help you get the skills you need to become a fully qualified fitness instructor much faster if you can allocate enough time each week.<br/><br/>Those who study for 40 hours a week, will likely be able to complete more practical courses and lessons within a few weeks, while, those doing 10 hours a week, may take a few months to complete their chosen gym instructor course. We understand that finding time to learn can sometimes be difficult, so it is completely up to individual students to set their own pace and use all the tools we have provided to qualify as a fitness instructor or PT.<br/><br/>If you have started a course and are finding it difficult to manage your time, do get in touch, one of our team or expert tutors may be able to help you.</p>"
+          }
+        },
+        "accordion_row_eye6td": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What governing boards are your personal training courses accredited by?",
+            "row_content": "<p>Our PT qualifications are awarded by the most prestigious fitness awarding body, Active IQ. All of our courses are regulated by Ofqual and Study Active is a CIMSPA-endorsed training provider. Study Active are also a UK Active member and have close associations with the RSPH, Association for Nutrition and the National Register of Personal Trainer (NRPT).<br/><br/>If you have any other questions about our practical courses or about us, please feel free to reach out to find out more.</p>"
+          }
         }
       },
       "block_order": [
@@ -584,7 +619,12 @@
         "accordion_row_UiBdYC",
         "accordion_row_QdRFBE",
         "accordion_row_Pn9yFG",
-        "accordion_row_BMzgAg"
+        "accordion_row_BMzgAg",
+        "accordion_row_jbUFmd",
+        "accordion_row_VRBAGA",
+        "accordion_row_8npw9d",
+        "accordion_row_ThDaTa",
+        "accordion_row_eye6td"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
