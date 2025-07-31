@@ -62,7 +62,7 @@
         {% # HEADING
            # ---------------------------------------------------- %}
         {%- unless section.settings.heading == blank -%}
-            <div class="mb-6">
+            <div class="fb-header mb-6">
                 <h2
                         class="-no-indent {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                         {% if settings.animations_reveal_on_scroll %}
@@ -178,7 +178,17 @@
                     prevEl: ".sa-swiper-button-prev",
                 },
 
-                slidesPerView: 3,
+                slidesPerView: 1,
+
+                breakpoints: {
+                    530: {
+                        slidesPerView: 2
+                    },
+                    // when window width is >= 640px
+                    900: {
+                        slidesPerView: 3
+                    }
+                }
 
             });
 

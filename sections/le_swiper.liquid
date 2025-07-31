@@ -42,7 +42,7 @@
     <div class="sa-swiper-wrapper page-width">
 
         {% if  section.settings.headline and section.settings.headline != '' %}
-        <h2 class="-no-indent !mb-16">
+        <h2 class="-no-indent !mb-16 mb-16">
             {{ section.settings.headline }}
         </h2>
         {% endif %}
@@ -183,10 +183,7 @@
                 },
 
                 {%- if section.settings.auto_rotate -%}
-                autoplay: {
-                  delay: {{ section.settings.change_slides_speed }}000,
-                  disableOnInteraction: false,
-                },
+
                 {% else %}
                 autoplay: false,
                 {% endif %}
@@ -195,12 +192,18 @@
                 effect: "fade",
                 {% endif %}
 
-                {% if iz_jobcard %}
-                slidesPerView: 3,
-                {% endif %}
+                {% if iz_jobcard or iz_testimonial %}
+                slidesPerView: 1,
 
-                {% if iz_testimonial %}
-                slidesPerView: 3,
+                breakpoints: {
+                    530: {
+                        slidesPerView: 2
+                    },
+                    // when window width is >= 640px
+                    900: {
+                        slidesPerView: 3
+                    }
+                }
                 {% endif %}
 
             });
