@@ -27,9 +27,19 @@
   if section.index == 1
     assign fetch_priority = 'high'
   endif
+
+  assign haz_newsletter = false
+  for block in section.blocks
+    if block.type == 'newsletter_form'
+      assign haz_newsletter = true
+    endif
+  endfor
 -%}
 
-<div class="section-{{ section.id }}-padding section-{{ section.id }}-margin sa-section-image-with-text color-{{ section.settings.section_color_scheme }}">
+<div class="sa-section-image-with-text
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            color-{{ section.settings.section_color_scheme }}
+            {% if haz_newsletter %} -haz-newsletter {% endif %} ">
 
   <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
     <div

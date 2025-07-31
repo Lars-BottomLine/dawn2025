@@ -183,7 +183,10 @@
                 },
 
                 {%- if section.settings.auto_rotate -%}
-
+                autoplay: {
+                  delay: {{ section.settings.change_slides_speed }}000,
+                  disableOnInteraction: false,
+                },
                 {% else %}
                 autoplay: false,
                 {% endif %}
