@@ -717,7 +717,14 @@
         "slide_dxBYFL"
       ],
       "name": "t:sections.le_image-slider.presets.name",
-      "settings": {}
+      "settings": {
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
