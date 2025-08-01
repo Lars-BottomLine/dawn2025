@@ -1,0 +1,272 @@
+{%- liquid
+
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+    # ---------------------------------
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-textcolsandbkgr
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            {{ section_classes }}">
+    TEXT COLS AND BACKGROUNDS
+
+    <div class="page-width">
+
+        <div class="flex flex-col">
+
+            {%- for block in section.blocks -%}
+                <div class="tab-row">
+                    {{ block.type }}
+                </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_swiper.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row-heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "t:sections.footer.blocks.link_list.settings.heading.default",
+          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_type",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "div",
+              "label": "DIV"
+            }
+          ],
+          "default": "h1",
+          "label": "Heading type"
+        }
+      ]
+    },
+    {
+      "type": "row2col",
+      "name": "2 text columns",
+      "settings": [
+
+        {
+          "type": "header",
+          "content": "Left Text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text1",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "text1_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "medium",
+              "label": "Medium"
+            }
+          ],
+          "default": "medium",
+          "label": "Text size"
+        },
+
+        {
+          "type": "header",
+          "content": "Right Text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text2",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "text2_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "medium",
+              "label": "Medium"
+            }
+          ],
+          "default": "medium",
+          "label": "Text size"
+        }
+      ]
+    },
+
+    {
+      "type": "row-button",
+      "name": "Button",
+      "settings": [
+
+        {
+          "type": "text",
+          "id": "text",
+          "default": "t:sections.footer.blocks.link_list.settings.heading.default",
+          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "options": [
+            {
+              "value": "left",
+              "label": "Button Left"
+            },
+            {
+              "value": "right",
+              "label": "Button Right"
+            },
+            {
+              "value": "internal",
+              "label": "Internal (cyan with arrow)"
+            }
+          ],
+          "default": "left",
+          "label": "Button type"
+        }
+
+      ]
+    }
+
+  ]
+}
+
+{% endschema %}
