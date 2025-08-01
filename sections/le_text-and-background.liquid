@@ -44,6 +44,7 @@
 <div class="sa-section-textcolsandbkgr
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             {{ section_classes }}">
+
     TEXT COLS AND BACKGROUNDS
 
     <div class="page-width">
@@ -52,7 +53,8 @@
 
             {%- for block in section.blocks -%}
                 <div class="tab-row">
-                    {{ block.type }}
+                    {{ block.type }}<br>
+                    {{ block.name }}
                 </div>
             {% endfor %}
 
