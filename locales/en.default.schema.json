@@ -3077,6 +3077,13 @@
       }
     },
 
+    "le_tab": {
+      "name": "StudyActive - Text cols & Background",
+      "presets": {
+        "name": "StudyActive - Text cols & Background"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
