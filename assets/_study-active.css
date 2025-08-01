@@ -340,26 +340,41 @@ h3,
 .sa-button.-no-wrap {
   white-space: nowrap;
 }
+.sa-button.-medium span {
+  padding: 1.6rem 2.8rem;
+  font-size: 2.8rem;
+}
 .sa-button:before {
   content: "";
   background-color: var(--color-secondary);
   position: absolute;
-  top: 0.3rem;
+  top: 0.8rem;
   right: -0.3rem;
   bottom: -0.3rem;
   left: 0.8rem;
   z-index: 1;
   transition: transform 250ms;
 }
+.sa-button.-hover-grow span, .sa-button.-hover-grow:before {
+  transition: all 250ms;
+}
+.sa-button.-hover-grow:hover span {
+  margin-right: -0.3rem;
+  margin-top: -0.3rem;
+  margin-bottom: -0.3rem;
+  padding: 1.6rem 2.35rem;
+}
+.sa-button.-hover-grow:hover:before {
+  bottom: -0.3rem;
+}
+.sa-button.-hover-grow.-medium:hover span {
+  padding: 1.9rem 2.95rem;
+}
 .sa-button.-hover-translate:hover span {
   transform: translate(-0.2rem, -0.2rem);
 }
 .sa-button.-hover-translate:hover:before {
   transform: translate(0.2rem, 0.2rem);
-}
-.sa-button.-medium span {
-  padding: 1.6rem 2.8rem;
-  font-size: 2.8rem;
 }
 .sa-button[aria-disabled=true] {
   opacity: 0.75;
@@ -737,7 +752,7 @@ h3,
 }
 @media screen and (max-width: 989px) {
   .image-with-text .sa-button {
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
   }
 }
 
