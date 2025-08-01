@@ -36,9 +36,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "le_text_and_background_HM4k8F": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_AyyBMN": {
+          "type": "row-heading",
+          "settings": {
+            "text": "Quick links",
+            "heading_type": "h1"
+          }
+        },
+        "row2col_xHtH7d": {
+          "type": "row2col",
+          "settings": {
+            "text1": "",
+            "text1_size": "medium",
+            "text2": "",
+            "text2_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_AyyBMN",
+        "row2col_xHtH7d"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
+    "le_text_and_background_HM4k8F",
     "banner",
     "product-grid"
   ]
