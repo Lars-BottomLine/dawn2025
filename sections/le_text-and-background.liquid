@@ -21,23 +21,23 @@
 
 {%- style -%}
     .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-        margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
     }
 
     @media screen and (min-width: 750px) {
-        .section-{{ section.id }}-padding {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
-        .section-{{ section.id }}-margin {
-            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-            margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
-        }
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
     }
 {%- endstyle -%}
 
@@ -45,11 +45,51 @@
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             {{ section_classes }}">
 
-    TEXT COLS AND BACKGROUNDS
+    {% # BACKGROUND: IMAGE
+       # ---------------------------------------- %}
+    <div class="tab-background image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
+        <div
+                class="image-with-text__media global-media-settings background-transparent
+                    {% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
+        >
+            {% # IMAGE SET, DEFINE SIZES  %}
+            {%- if section.settings.image != blank -%}
+                {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                    {%- assign widths = '1284, 1800' -%}
+                    {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                        (min-width: 900px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                    {%- endcapture -%}
+                {%- else -%}
+                    {%- assign widths = '1200, 1500' -%}
+                    {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+                {%- endif -%}
+                {{
+                section.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                }}
 
-    <div class="page-width">
+                {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+            {%- else -%}
+                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+        </div>
+    </div>
 
-        <div class="flex flex-col">
+
+    {% # BACKGROUND: SHADOW
+       # ---------------------------------------- %}
+    <div class="tab-shadow"></div>
+
+    {% # FOREGROUND: CONTENT
+       # ---------------------------------------- %}
+    <div class="page-width tab-foreground">
+
+        <div class="tab-content flex flex-col">
 
             {%- for block in section.blocks -%}
                 <div class="tab-row">
@@ -74,6 +114,11 @@
   },
 
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
     {
       "type": "checkbox",
       "id": "decal_top",
@@ -185,7 +230,7 @@
           "content": "Left Text"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "text1",
           "label": "Text"
         },

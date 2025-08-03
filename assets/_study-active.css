@@ -1604,4 +1604,29 @@ header .header__icon--cart .icon {
   }
 }
 
+.sa-section-textcolsandbkgr {
+  position: relative;
+  padding: 9rem 9rem 12rem;
+}
+.sa-section-textcolsandbkgr .tab-foreground {
+  position: relative;
+}
+.sa-section-textcolsandbkgr .tab-shadow {
+  position: absolute;
+  top: 0;
+  right: -10%;
+  bottom: -16% px;
+  left: 0;
+  width: auto;
+  height: auto;
+  background: radial-gradient(114.67% 56.19% at 21.54% 24.32%, rgba(0, 38, 139, 0) 0%, rgba(0, 38, 139, 0.8) 100%), lightgray 50%/cover no-repeat;
+}
+.sa-section-textcolsandbkgr .tab-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 /*# sourceMappingURL=_study-active.css.map */
