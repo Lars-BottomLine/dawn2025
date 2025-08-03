@@ -22,16 +22,24 @@
         "row2col_xHtH7d": {
           "type": "row2col",
           "settings": {
-            "text1": "",
-            "text1_size": "medium",
-            "text2": "",
-            "text2_size": "medium"
+            "text1": "Becoming a Wellness personal trainer means leading a healthy life, living on your own terms, and helping others change their lives for the better.",
+            "text1_size": "small",
+            "text2": "This is your chance to build a career with purpose, freedom, and real impact.<strong>Ready to begin?</strong>",
+            "text2_size": "small"
+          }
+        },
+        "row_button_qpqPCW": {
+          "type": "row-button",
+          "settings": {
+            "text": "Here's how:",
+            "button_type": "internal"
           }
         }
       },
       "block_order": [
         "row_heading_AyyBMN",
-        "row2col_xHtH7d"
+        "row2col_xHtH7d",
+        "row_button_qpqPCW"
       ],
       "name": "t:sections.le_tab.presets.name",
       "settings": {
