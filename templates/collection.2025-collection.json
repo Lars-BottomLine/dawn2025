@@ -121,7 +121,7 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "headline": "Step 3: Start learning",
+        "headline": "<p>Step 3: Start learning</p>",
         "subheadline": "Slide"
       }
     }

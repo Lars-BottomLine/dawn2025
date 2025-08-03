@@ -350,7 +350,7 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "headline": "Flexible learning, built for life",
+        "headline": "<p>Flexible learning, built for life</p>",
         "subheadline": "Our cutting-edge Learning Management System (LMS) gives you everything you need to succeed — on your terms."
       }
     },
