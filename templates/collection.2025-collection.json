@@ -80,11 +80,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "le_face2face_3bMwwU": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_MDpdcB": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>At Study Active, you’re in control.</p>",
+            "subheading": "<p>Our easy-to-use online platform gives you <br/>24/7 access to videos, study tools, and<br/> progress trackers, so you can learn<br/> whenever it suits you.</p>"
+          }
+        },
+        "slide_4PWQL7": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Life is busy, so our courses are built to fit around your schedule.</p>",
+            "subheading": "<p>No deadlines, no pressure... just flexible learning at your own pace.</p>"
+          }
+        },
+        "slide_dDeJty": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>And you're not on your own. </p>",
+            "subheading": "<p>Our tutors and support team are always here if you need help...</p><p>Real people, ready to guide you.</p>"
+          }
+        },
+        "slide_GJ3iKn": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Prefer to do your tests in person?</p>",
+            "subheading": "<p>We’ve got assessment centres across the UK, so you can choose what works best.</p><p>From the moment you start to the day<br/> you qualify, we’re here to support you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MDpdcB",
+        "slide_4PWQL7",
+        "slide_dDeJty",
+        "slide_GJ3iKn"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "headline": "Step 3: Start learning",
+        "subheadline": "Slide"
+      }
     }
   },
   "order": [
     "le_text_and_background_HM4k8F",
     "banner",
-    "product-grid"
+    "product-grid",
+    "le_face2face_3bMwwU"
   ]
 }
