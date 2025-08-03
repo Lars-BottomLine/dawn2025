@@ -15,7 +15,7 @@
         "row_heading_AyyBMN": {
           "type": "row-heading",
           "settings": {
-            "text": "A better life for you and your clients.",
+            "text": "<p>A better life for you </p><p><strong>and your clients.</strong></p>",
             "heading_type": "h1"
           }
         },
