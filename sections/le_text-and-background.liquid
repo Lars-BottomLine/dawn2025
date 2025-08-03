@@ -48,25 +48,14 @@
     {% # BACKGROUND: IMAGE
        # ---------------------------------------- %}
     <div class="tab-background image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
-        <div
-                class="image-with-text__media global-media-settings background-transparent
-                    {% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
-        >
+        <div class="tab-image media">
             {% # IMAGE SET, DEFINE SIZES  %}
             {%- if section.settings.image != blank -%}
-                {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
-                    {%- assign widths = '1284, 1800' -%}
-                    {%- capture sizes -%}
-                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
-                        (min-width: 900px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
-                    {%- endcapture -%}
-                {%- else -%}
-                    {%- assign widths = '1200, 1500' -%}
-                    {%- capture sizes -%}
-                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                        (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                    {%- endcapture -%}
-                {%- endif -%}
+                {%- assign widths = '1200, 1500' -%}
+                {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
                 {{
                 section.settings.image
                 | image_url: width: 1500
@@ -92,9 +81,41 @@
         <div class="tab-content flex flex-col">
 
             {%- for block in section.blocks -%}
-                <div class="tab-row">
-                    {{ block.type }}<br>
-                    {{ block.name }}
+                <div class="tab-row -type-{{ block.type }}">
+
+                    {% case block.type %}
+
+                      {% # ROW: HEADING %}
+                      {%- when 'row-heading' -%}
+                        {% if block.settings.text %}
+                        <{{ block.settings.heading_type }} class="-no-decal">{{ block.settings.text }}</{{ block.settings.heading_type }}>
+                        {% endif %}
+
+                      {% # ROW: 2 COLUMNS %}
+                      {%- when 'row2col' -%}
+
+                        {% if block.settings.text1 %}
+                          <div class="tab-col tab-col--left">
+                              {{ block.settings.text1 }}
+                          </div>
+                        {% endif %}
+
+                        {% if block.settings.text2 %}
+                          <div class="tab-col tab-col--right">
+                            {{ block.settings.text2 }}
+                          </div>
+                        {% endif %}
+
+                      {% # ROW: BUTTON %}
+                      {%- when 'row-button' -%}
+                        {% if block.settings.text %}
+                          <div class="sa-button-wrapper -button-type-{{ block.settings.button_type }}">
+                            <a class="sa-button" href="{{ block.settings.button_link }}">
+                              <span>{{ block.settings.text }}</span>
+                            </a>
+                          </div>
+                        {% endif %}
+                    {% endcase%}
                 </div>
             {% endfor %}
 
@@ -194,7 +215,7 @@
       "name": "Heading",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
           "default": "t:sections.footer.blocks.link_list.settings.heading.default",
           "label": "t:sections.footer.blocks.link_list.settings.heading.label"
@@ -250,6 +271,10 @@
             {
               "value": "medium",
               "label": "Medium"
+            },
+            {
+              "value": "medium-plus",
+              "label": "Medium Plus"
             }
           ],
           "default": "medium",
@@ -276,6 +301,10 @@
             {
               "value": "medium",
               "label": "Medium"
+            },
+            {
+              "value": "medium-plus",
+              "label": "Medium Plus"
             }
           ],
           "default": "medium",
