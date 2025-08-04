@@ -56,7 +56,13 @@
         "headline": "",
         "slider_type": "hero",
         "auto_rotate": true,
-        "change_slides_speed": 3
+        "change_slides_speed": 3,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "image_with_text_frcJE8": {
@@ -175,7 +181,13 @@
         "headline": "Find your calling",
         "slider_type": "job-card",
         "auto_rotate": true,
-        "change_slides_speed": 3
+        "change_slides_speed": 3,
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "le_whychoose_qbgPdw": {
@@ -294,7 +306,13 @@
         "headline": "Graduate success stories",
         "slider_type": "testimonial",
         "auto_rotate": true,
-        "change_slides_speed": 3
+        "change_slides_speed": 3,
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "le_face2face_6MbMfU": {
@@ -350,8 +368,15 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
+        "section_type": "blue_background",
         "headline": "<p>Flexible learning, built for life</p>",
-        "subheadline": "Our cutting-edge Learning Management System (LMS) gives you everything you need to succeed — on your terms."
+        "subheadline": "Our cutting-edge Learning Management System (LMS) gives you everything you need to succeed — on your terms.",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "le_image_with_text_yP9WPy": {
