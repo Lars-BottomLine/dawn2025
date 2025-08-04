@@ -53,6 +53,68 @@
         "margin_bottom": 0
       }
     },
+    "le_steps_MWDAGF": {
+      "type": "le_steps",
+      "blocks": {
+        "step_imKfq6": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step 1: Set your goal",
+            "text": "Know where you’re starting and where you want to go. We’ll help you map it out.",
+            "button_text": "Go to Step 1",
+            "button_link": ""
+          }
+        },
+        "step_TX9Jhb": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Step 2: Choose your course or bundle",
+            "text": "Pick the training option that fits your lifestyle, ambitions, timeline, and passion.",
+            "button_text": "Go to Step 2",
+            "button_link": ""
+          }
+        },
+        "step_jkHfbr": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Step 3: Start learning",
+            "text": "Study online at your own pace with expert support whenever you need it.",
+            "button_text": "Go to Step 3",
+            "button_link": ""
+          }
+        },
+        "step_Ky9XH7": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Step 4: Start earning",
+            "text": "Complete your course, unlock guaranteed interviews, and start your career as a wellness personal trainer.",
+            "button_text": "Go to Step 4",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_imKfq6",
+        "step_TX9Jhb",
+        "step_jkHfbr",
+        "step_Ky9XH7"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "heading": "Step into success",
+        "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -121,13 +183,21 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
+        "section_type": "blue_background",
         "headline": "<p>Step 3: Start learning</p>",
-        "subheadline": "Slide"
+        "subheadline": "Slide",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "le_text_and_background_HM4k8F",
+    "le_steps_MWDAGF",
     "banner",
     "product-grid",
     "le_face2face_3bMwwU"
