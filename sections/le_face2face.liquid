@@ -41,7 +41,8 @@
     }
 {%- endstyle -%}
 
-<div class="sa-section-face2face -type-{{ section.settings.section_type }}
+<div class="sa-section-face2face
+            -type-{{ section.settings.section_type }} sa-bg-{{ section.settings.section_bkgr }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             -dcb-primary -dct-primary
             {{ section_classes }}">
@@ -184,6 +185,7 @@
       ],
       "default": "skewed"
     },
+
     {
       "type": "richtext",
       "id": "headline",
