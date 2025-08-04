@@ -419,9 +419,6 @@ h3,
   transform: skewY(5.5deg);
   display: inline-block;
 }
-.shopify-section .-decal-top {
-  margin-top: 14rem;
-}
 .shopify-section .-decal-top:before {
   background: var(--color-primary);
 }
@@ -439,9 +436,6 @@ h3,
   .shopify-section .-decal-top:before {
     transform: skewY(1.5deg);
   }
-}
-.shopify-section .-decal-bottom {
-  margin-bottom: 14rem;
 }
 .shopify-section .-decal-bottom .page-width {
   z-index: 1;
@@ -1734,10 +1728,10 @@ header .header__icon--cart .icon {
   color: var(--color-light-blue);
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 9.8rem;
+  max-height: 9rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
-  max-height: 9.2rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
