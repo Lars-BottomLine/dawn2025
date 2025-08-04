@@ -156,8 +156,8 @@
         "subheadline": "",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -212,8 +212,8 @@
         "subheadline": "",
         "decal_top": true,
         "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
