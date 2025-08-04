@@ -23,9 +23,9 @@
           "type": "row2col",
           "settings": {
             "text1": "<p>Becoming a Wellness personal trainer means leading a healthy life, living on your own terms, and helping others change their lives for the better.</p>",
-            "text1_size": "small",
+            "text1_size": "medium",
             "text2": "<p>This is your chance to build a career with purpose, freedom, and real impact.</p><p><strong>Ready to begin?</strong></p>",
-            "text2_size": "small"
+            "text2_size": "medium"
           }
         },
         "row_button_qpqPCW": {
