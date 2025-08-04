@@ -3084,6 +3084,13 @@
       }
     },
 
+    "le_steps": {
+      "name": "StudyActive - Steps",
+      "presets": {
+        "name": "StudyActive - Steps"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
