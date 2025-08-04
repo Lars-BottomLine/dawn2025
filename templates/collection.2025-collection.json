@@ -162,6 +162,62 @@
         "margin_bottom": 0
       }
     },
+    "le_face2face_AznrtC": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_nkq3na": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cms-screenshot.png",
+            "heading": "<p>At Study Active, you’re in control.</p>",
+            "subheading": "<p>Our easy-to-use online platform gives you <br/>24/7 access to videos, study tools, and<br/> progress trackers, so you can learn<br/> whenever it suits you.</p>"
+          }
+        },
+        "slide_gpAFXg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/man-sitting-in-a-park-with-a-laptop-drinking.jpg",
+            "heading": "<p>Life is busy, so our courses are built to fit around your schedule.</p>",
+            "subheading": "<p>No deadlines, no pressure... just flexible learning at your own pace.</p>"
+          }
+        },
+        "slide_h4HgXw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/tutor-doing-a-video-call.jpg",
+            "heading": "<p>And you're not on your own. </p>",
+            "subheading": "<p>Our tutors and support team are always here if you need help...</p><p>Real people, ready to guide you.</p>"
+          }
+        },
+        "slide_VmdRxH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-of-people-working-out-in-a-gym.png",
+            "heading": "<p>Prefer to do your tests in person?</p>",
+            "subheading": "<p>We’ve got assessment centres across the UK, so you can choose what works best.</p><p>From the moment you start to the day<br/> you qualify, we’re here to support you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nkq3na",
+        "slide_gpAFXg",
+        "slide_h4HgXw",
+        "slide_VmdRxH"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "light-blue",
+        "section_type": "medium",
+        "headline": "<p>Step 3: Start learning</p>",
+        "subheadline": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -195,6 +251,7 @@
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
     "le_face2face_3bMwwU",
+    "le_face2face_AznrtC",
     "banner",
     "product-grid"
   ]
