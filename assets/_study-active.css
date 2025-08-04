@@ -1659,6 +1659,17 @@ header .header__icon--cart .icon {
   font-weight: 400;
   line-height: 1.25; /* 35px */
 }
+.sa-section-textcolsandbkgr .tab-row.-type-row-button {
+  padding-bottom: 7rem;
+}
+.sa-section-textcolsandbkgr .tab-row.-type-row-button span {
+  color: var(--color-secondary);
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05; /* 37.8px */
+  letter-spacing: -0.045rem;
+}
 .sa-section-textcolsandbkgr .tab-foreground {
   position: relative;
 }

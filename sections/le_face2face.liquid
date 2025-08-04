@@ -47,10 +47,10 @@
             {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
-        <div class="f2f-header pl-20 pt-8 pb-32">
+        <div class="f2f-header pl-20 pb-32">
 
             <h2 class="!text-white">
-                {{ section.settings.headline }}
+                {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
             </h2>
 
             <div class="_subtitle sa-col-secondary">

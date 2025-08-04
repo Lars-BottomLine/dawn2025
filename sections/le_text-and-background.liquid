@@ -21,23 +21,23 @@
 
 {%- style -%}
     .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
     }
 
     @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-    .section-{{ section.id }}-margin {
-    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-    margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
-    }
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+      .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+      }
     }
 {%- endstyle -%}
 
@@ -70,7 +70,6 @@
             {%- endif -%}
         </div>
     </div>
-
 
     {% # BACKGROUND: SHADOW
        # ---------------------------------------- %}
@@ -111,11 +110,25 @@
                       {% # ROW: BUTTON %}
                       {%- when 'row-button' -%}
                         {% if block.settings.text %}
+                          {% if block.settings.button_type == 'internal' %}
+                            <div class="tab-button-internal flex items-center gap-8">
+
+                              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M13.125 22.8281L13.125 -7.3763e-07L16.875 -5.73712e-07L16.875 22.8281L27.375 12.3281L30 15L15 30L-6.55671e-07 15L2.625 12.3281L13.125 22.8281Z" fill="#39EAF6"/>
+                              </svg>
+
+                              <span>
+                                {{ block.settings.text }}
+                              </span>
+
+                            </div>
+                          {% else %}
                           <div class="sa-button-wrapper -button-type-{{ block.settings.button_type }}">
                             <a class="sa-button" href="{{ block.settings.button_link }}">
                               <span>{{ block.settings.text }}</span>
                             </a>
                           </div>
+                          {% endif %}
                         {% endif %}
                     {% endcase%}
                 </div>
