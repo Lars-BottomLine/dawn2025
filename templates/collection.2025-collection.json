@@ -115,6 +115,52 @@
         "margin_bottom": 0
       }
     },
+    "le_face2face_3bMwwU": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_MDpdcB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-of-women-doing-yoga.jpg",
+            "heading": "<p>Stepping it up in wellness:</p>",
+            "subheading": "<p>Deepen your impact with courses designed to support the whole person. <br/>Coach your clients to better understand mental health, or offer specialist<br/>support for long-term conditions.</p><ul><li>AIQ Level 3 Diploma in Wellness Coaching</li><li>Level 2 Award in Mental Health Awareness</li><li>Level 3 Award in Supporting Clients with Long-Term Conditions</li></ul>"
+          }
+        },
+        "slide_4PWQL7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/male-and-femal-at-office-table.jpg",
+            "heading": "<p>The nutrition route:</p>",
+            "subheading": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>"
+          }
+        },
+        "slide_dDeJty": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/two-women-in-gym-greeting.jpg",
+            "heading": "<p>Specialise in women’s wellness:</p>",
+            "subheading": "<p>Equip yourself with the knowledge and empathy to better serve women  at<br/> every life stage. These courses cover everything from pre- and postnatal <br/>care to menopause interventions—empowering you to     provide personalised,<br/> evidence-based support for women’s evolving health needs.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MDpdcB",
+        "slide_4PWQL7",
+        "slide_dDeJty"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_type": "white_background",
+        "headline": "<p>Course Bundles & Specialisations</p>",
+        "subheadline": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -142,64 +188,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "le_face2face_3bMwwU": {
-      "type": "le_face2face",
-      "blocks": {
-        "slide_MDpdcB": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>At Study Active, you’re in control.</p>",
-            "subheading": "<p>Our easy-to-use online platform gives you <br/>24/7 access to videos, study tools, and<br/> progress trackers, so you can learn<br/> whenever it suits you.</p>"
-          }
-        },
-        "slide_4PWQL7": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>Life is busy, so our courses are built to fit around your schedule.</p>",
-            "subheading": "<p>No deadlines, no pressure... just flexible learning at your own pace.</p>"
-          }
-        },
-        "slide_dDeJty": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>And you're not on your own. </p>",
-            "subheading": "<p>Our tutors and support team are always here if you need help...</p><p>Real people, ready to guide you.</p>"
-          }
-        },
-        "slide_GJ3iKn": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>Prefer to do your tests in person?</p>",
-            "subheading": "<p>We’ve got assessment centres across the UK, so you can choose what works best.</p><p>From the moment you start to the day<br/> you qualify, we’re here to support you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_MDpdcB",
-        "slide_4PWQL7",
-        "slide_dDeJty",
-        "slide_GJ3iKn"
-      ],
-      "name": "t:sections.le_face2face.presets.name",
-      "settings": {
-        "section_type": "blue_background",
-        "headline": "<p>Step 3: Start learning</p>",
-        "subheadline": "Slide",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
+    "le_face2face_3bMwwU",
     "banner",
-    "product-grid",
-    "le_face2face_3bMwwU"
+    "product-grid"
   ]
 }
