@@ -1722,7 +1722,7 @@ header .header__icon--cart .icon {
   gap: 0.5rem;
 }
 .sa-section-steps .st-content .st-step {
-  padding: 4rem;
+  padding: 3rem 4rem;
   display: flex;
   align-items: center;
   gap: 4rem;
