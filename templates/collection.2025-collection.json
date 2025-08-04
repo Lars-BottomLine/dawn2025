@@ -107,11 +107,11 @@
       "settings": {
         "heading": "Step into success",
         "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
