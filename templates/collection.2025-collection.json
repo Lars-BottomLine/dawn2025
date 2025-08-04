@@ -208,7 +208,7 @@
       "settings": {
         "section_bkgr": "light-blue",
         "section_type": "medium",
-        "headline": "<p>Step 3: Start learning</p>",
+        "headline": "<p><strong>Step 3:</strong> Start learning</p>",
         "subheadline": "",
         "decal_top": true,
         "decal_bottom": true,
