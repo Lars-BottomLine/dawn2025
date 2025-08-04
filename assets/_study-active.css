@@ -1618,15 +1618,15 @@ header .header__icon--cart .icon {
 .sa-section-textcolsandbkgr .tab-row {
   color: white;
 }
-.sa-section-textcolsandbkgr .tab-row.-type-heading h1 {
+.sa-section-textcolsandbkgr .tab-row.-type-row-heading h1 {
   font-size: 7.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 1.05; /* 77.7px */
   letter-spacing: -0.925px;
 }
-.sa-section-textcolsandbkgr .tab-row.-type-heading h1 b,
-.sa-section-textcolsandbkgr .tab-row.-type-heading h1 strong {
+.sa-section-textcolsandbkgr .tab-row.-type-row-heading h1 b,
+.sa-section-textcolsandbkgr .tab-row.-type-row-heading h1 strong {
   color: #39EAF6;
 }
 .sa-section-textcolsandbkgr .tab-row.-type-row2col {
@@ -1639,18 +1639,18 @@ header .header__icon--cart .icon {
   width: 100%;
   font-weight: 400;
 }
-.sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-small {
+.sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-size-small, .sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-size-small p {
   font-size: 2.2rem;
   font-style: normal;
   line-height: 1.25; /* 27.5px */
 }
-.sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-medium {
+.sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-size-medium, .sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-size-medium p {
   font-size: 2.6rem;
   font-style: normal;
   line-height: 1.3; /* 33.8px */
   letter-spacing: -0.026rem;
 }
-.sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-medium-plus {
+.sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-size-medium-plus, .sa-section-textcolsandbkgr .tab-row.-type-row2col .tab-col.-text-size-medium-plus p {
   font-size: 2.8rem;
   font-weight: 400;
   line-height: 1.25; /* 35px */

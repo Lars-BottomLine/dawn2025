@@ -43,11 +43,13 @@
 
 <div class="sa-section-textcolsandbkgr
             section-{{ section.id }}-padding section-{{ section.id }}-margin
-            {{ section_classes }}">
+            {{ section_classes }}
+            sa-bg-primary
+">
 
     {% # BACKGROUND: IMAGE
        # ---------------------------------------- %}
-    <div class="tab-background image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
+    <div class="tab-background page-width image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
         <div class="tab-image media">
             {% # IMAGE SET, DEFINE SIZES  %}
             {%- if section.settings.image != blank -%}
@@ -72,7 +74,7 @@
 
     {% # BACKGROUND: SHADOW
        # ---------------------------------------- %}
-    <div class="tab-shadow"></div>
+    <div class="tab-shadow page-width "></div>
 
     {% # FOREGROUND: CONTENT
        # ---------------------------------------- %}
@@ -88,20 +90,20 @@
                       {% # ROW: HEADING %}
                       {%- when 'row-heading' -%}
                         {% if block.settings.text %}
-                        <{{ block.settings.heading_type }} class="-no-decal">{{ block.settings.text }}</{{ block.settings.heading_type }}>
+                        <{{ block.settings.heading_type }} class="-no-decal">{{ block.settings.text  | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</{{ block.settings.heading_type }}>
                         {% endif %}
 
                       {% # ROW: 2 COLUMNS %}
                       {%- when 'row2col' -%}
 
                         {% if block.settings.text1 %}
-                          <div class="tab-col tab-col--left">
+                          <div class="tab-col tab-col--left -text-size-{{ block.settings.text1_size }}">
                               {{ block.settings.text1 }}
                           </div>
                         {% endif %}
 
                         {% if block.settings.text2 %}
-                          <div class="tab-col tab-col--right">
+                          <div class="tab-col tab-col--right -text-size-{{ block.settings.text2_size }}">
                             {{ block.settings.text2 }}
                           </div>
                         {% endif %}
