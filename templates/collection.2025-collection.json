@@ -150,7 +150,8 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "section_type": "white_background",
+        "section_bkgr": "white",
+        "section_type": "medium",
         "headline": "<p>Course Bundles & Specialisations</p>",
         "subheadline": "",
         "decal_top": false,
