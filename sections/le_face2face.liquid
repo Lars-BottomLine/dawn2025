@@ -146,23 +146,43 @@
   "settings": [
     {
       "type": "select",
-      "id": "section_type",
-      "label": "Type",
+      "id": "section_bkgr",
+      "label": "Background Color",
       "options": [
         {
-          "value": "blue_background",
-          "label": "Blue Background"
+          "value": "primary",
+          "label": "Blue (primary)"
         },
         {
-          "value": "light_background",
-          "label": "Light Background"
+          "value": "light-blue",
+          "label": "Light Blue"
         },
         {
-          "value": "white_background",
-          "label": "White Background"
+          "value": "white",
+          "label": "White"
         }
       ],
-      "default": "blue_background"
+      "default": "primary"
+    },
+    {
+      "type": "select",
+      "id": "section_type",
+      "label": "Image Type",
+      "options": [
+        {
+          "value": "skewed",
+          "label": "Skewed"
+        },
+        {
+          "value": "medium",
+          "label": "Square Medium"
+        },
+        {
+          "value": "small",
+          "label": "Square Small"
+        }
+      ],
+      "default": "skewed"
     },
     {
       "type": "richtext",
