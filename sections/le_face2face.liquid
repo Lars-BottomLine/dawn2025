@@ -42,7 +42,7 @@
 {%- endstyle -%}
 
 <div class="sa-section-face2face
-            -type-{{ section.settings.section_type }} sa-bg-{{ section.settings.section_bkgr }}
+            -img-type-{{ section.settings.section_type }} sa-bg-{{ section.settings.section_bkgr }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             -dcb-primary -dct-primary
             {{ section_classes }}">
@@ -50,11 +50,11 @@
 
         <div class="f2f-header pl-20 pb-32">
 
-            <h2 class="!text-white">
+            <h2 class="">
                 {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
             </h2>
 
-            <div class="_subtitle sa-col-secondary">
+            <div class="_subtitle">
                 {{ section.settings.subheadline }}
             </div>
 
@@ -111,10 +111,10 @@
 
                         <div class="f2f-text">
 
-                            <h3 class="!text-white ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                            <h3 class="">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
 
-                            <div class="_subtitle-small sa-col-secondary">
-                                {{ block.settings.subheading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                            <div class="_subtitle-small">
+                                {{ block.settings.subheading }}
                             </div>
 
                         </div>
