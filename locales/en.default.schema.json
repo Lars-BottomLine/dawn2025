@@ -3091,10 +3091,10 @@
       }
     },
 
-    "le_product-thumb": {
-      "name": "StudyActive - Product Thumb",
+    "le_featured": {
+      "name": "StudyActive - Featured Product",
       "presets": {
-        "name": "StudyActive - Product Thumb"
+        "name": "StudyActive - Featured Product"
       }
     },
 

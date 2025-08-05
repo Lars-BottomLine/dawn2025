@@ -97,7 +97,7 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
-  <section class="sa-section-productthumb
+  <section class="sa-section-featuredproduct
                   {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}
                   -template-{{ section.settings.template_type }}
                   section-{{ section.id }}-padding section-{{ section.id }}-margin
@@ -530,7 +530,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.featured-product.name",
+  "name": "t:sections.le_featured.name",
   "tag": "section",
   "class": "section section-featured-product",
   "disabled_on": {
@@ -1572,7 +1572,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.featured-product.presets.name",
+      "name": "t:sections.le_featured.presets.name",
       "blocks": [
         {
           "type": "text",
