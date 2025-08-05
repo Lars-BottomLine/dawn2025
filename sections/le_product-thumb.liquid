@@ -17,6 +17,13 @@
     endif
     # ---------------------------------
 
+
+    assign product = section.settings.product
+    assign placeholder = false
+    if product == null
+        assign placeholder = true
+    endif
+
 %}
 
 {%- style -%}
@@ -49,19 +56,29 @@
     <div class="page-width">
 
         {% if section.settings.heading %}
-            <div class="pt-header">
+        <div class="pt-header">
 
-                {% # HEADING %}
-                {% if section.settings.heading %}
-                    <h{{ section.settings.heading_type }} class="_text-h2" >
-                        {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                    </h{{ section.settings.heading_type }}>
-                {% endif %}
-
-            </div>
+            {% # HEADING %}
+            {% if section.settings.heading %}
+            <{{ section.settings.heading_type }} class="" >
+            {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+        </{{ section.settings.heading_type }}>
         {% endif %}
 
     </div>
+
+    {{ section.id }}
+
+    {{ placeholder }}
+    {{ product }}
+    {{ section.settings.product }}
+
+    {% if product %}
+        Title: {{ product.id }}
+    {% endif %}
+    {% endif %}
+
+</div>
 
 </div>
 
@@ -79,7 +96,7 @@
       "type": "richtext",
       "id": "heading",
       "default": "<p>Heading</p>",
-      "label": "t:sections.le_swiper.settings.heading.label"
+      "label": "Heading"
     },
     {
       "type": "select",
@@ -125,7 +142,7 @@
 
     {
       "type": "product",
-      "id": "Product",
+      "id": "product",
       "label": "Product"
     },
 
