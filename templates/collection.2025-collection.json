@@ -131,6 +131,76 @@
         "margin_bottom": 0
       }
     },
+    "featured_product_w3H73T": {
+      "type": "featured-product",
+      "blocks": {
+        "text_bRzkU8": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_43FP4X": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_8rm883": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_jeLFHE": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_fEKVaw": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_JL7BJA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_bp6AfP": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_bRzkU8",
+        "title_43FP4X",
+        "price_8rm883",
+        "variant_picker_jeLFHE",
+        "quantity_selector_fEKVaw",
+        "buy_buttons_JL7BJA",
+        "share_bp6AfP"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "le_face2face_3bMwwU": {
       "type": "le_face2face",
       "blocks": {
@@ -267,6 +337,7 @@
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
     "le_product_thumb_V7Mqbd",
+    "featured_product_w3H73T",
     "le_face2face_3bMwwU",
     "le_face2face_AznrtC",
     "banner",
