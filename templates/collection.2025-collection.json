@@ -115,58 +115,65 @@
         "margin_bottom": 0
       }
     },
-    "le_product_thumb_V7Mqbd": {
-      "type": "le_product-thumb",
+    "le_featured_thGade": {
+      "type": "le_featured",
       "blocks": {
-        "title_nHkm4d": {
+        "title_JAPNmX": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "variant_picker_n6ErHk": {
+        "price_zxmcHa": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_6kGjfa": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
-        "price_VcKLNH": {
-          "type": "price",
-          "settings": {}
-        },
-        "buy_buttons_LzqCTn": {
+        "buy_buttons_AFRAaC": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
+        },
+        "share_F6a7yG": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
-        "title_nHkm4d",
-        "variant_picker_n6ErHk",
-        "price_VcKLNH",
-        "buy_buttons_LzqCTn"
+        "title_JAPNmX",
+        "price_zxmcHa",
+        "variant_picker_6kGjfa",
+        "buy_buttons_AFRAaC",
+        "share_F6a7yG"
       ],
-      "name": "t:sections.le_product-thumb.presets.name",
+      "name": "t:sections.le_featured.presets.name",
       "settings": {
         "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
-        "heading": "<p>Your First Step to Becoming a Wellness Personal Trainer:</p>",
-        "heading_type": "div",
+        "heading": "<p>Heading</p>",
+        "heading_type": "h2",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "decal_top": true,
         "decal_bottom": true,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 200,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -362,7 +369,7 @@
   "order": [
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
-    "le_product_thumb_V7Mqbd",
+    "le_featured_thGade",
     "featured_product_w3H73T",
     "le_face2face_3bMwwU",
     "le_face2face_AznrtC",
