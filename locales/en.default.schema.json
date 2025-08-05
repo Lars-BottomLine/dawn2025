@@ -3091,6 +3091,13 @@
       }
     },
 
+    "le_product-thumb": {
+      "name": "StudyActive - Product Thumb",
+      "presets": {
+        "name": "StudyActive - Product Thumb"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
