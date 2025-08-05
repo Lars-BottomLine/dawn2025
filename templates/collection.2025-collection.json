@@ -117,17 +117,56 @@
     },
     "le_product_thumb_V7Mqbd": {
       "type": "le_product-thumb",
+      "blocks": {
+        "title_nHkm4d": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "variant_picker_n6ErHk": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "price_VcKLNH": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_LzqCTn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_nHkm4d",
+        "variant_picker_n6ErHk",
+        "price_VcKLNH",
+        "buy_buttons_LzqCTn"
+      ],
       "name": "t:sections.le_product-thumb.presets.name",
       "settings": {
+        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
         "heading": "<p>Your First Step to Becoming a Wellness Personal Trainer:</p>",
         "heading_type": "div",
-        "template_type": "image_large",
-        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
-        "decal_top": false,
-        "decal_bottom": false,
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": 200,
         "margin_bottom": 0
       }
     },
