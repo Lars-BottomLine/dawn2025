@@ -3098,6 +3098,13 @@
       }
     },
 
+    "le_le_callout": {
+      "name": "StudyActive - Callout",
+      "presets": {
+        "name": "StudyActive - Callout"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
