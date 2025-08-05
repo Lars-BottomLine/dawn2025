@@ -134,13 +134,6 @@
     "featured_product_w3H73T": {
       "type": "featured-product",
       "blocks": {
-        "text_bRzkU8": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_43FP4X": {
           "type": "title",
           "settings": {
@@ -158,10 +151,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_fEKVaw": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons_JL7BJA": {
           "type": "buy_buttons",
           "settings": {
@@ -177,11 +166,9 @@
         }
       },
       "block_order": [
-        "text_bRzkU8",
         "title_43FP4X",
         "price_8rm883",
         "variant_picker_jeLFHE",
-        "quantity_selector_fEKVaw",
         "buy_buttons_JL7BJA",
         "share_bp6AfP"
       ],
@@ -190,11 +177,11 @@
         "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
         "color_scheme": "",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "large",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
