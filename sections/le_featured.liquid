@@ -103,6 +103,7 @@
                   {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}
                   -template-{{ section.settings.template_type }}
                   section-{{ section.id }}-padding section-{{ section.id }}-margin
+                  sa-col-primary
                   {{ section_classes }}">
     <div class="page-width {% if section.settings.secondary_background %} isolate{% endif %}">
 
@@ -521,6 +522,8 @@
                   {% render 'icon-with-text', block: block %}
               {%- endcase -%}
             {%- endfor -%}
+
+            {% # VIEW MORE LINK %}
             <a
               {% if product == blank %}
                 role="link" aria-disabled="true"
