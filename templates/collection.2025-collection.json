@@ -420,6 +420,70 @@
         "margin_bottom": 0
       }
     },
+    "le_text_and_background_RnPrid": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_iMBjEY": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>Your new career  </p><p><strong>starts here</strong></p>",
+            "heading_type": "h1"
+          }
+        },
+        "row2col_wUg8j7": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>You’ve seen the steps, the courses, the specialisations, and the real opportunities waiting for you. Now it’s time to make it happen. </p>",
+            "text1_size": "medium",
+            "text2": "",
+            "text2_size": "medium"
+          }
+        },
+        "row2col_Q7dRGR": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>Becoming a Wellness Personal Trainer isn’t just about getting qualified. It’s about creating a life that works for you. A life that’s flexible, fulfilling, and built around helping others feel stronger and live better.  </p>",
+            "text1_size": "small",
+            "text2": "<p>With Study Active, you’ll be supported from day one, studying on your own terms with expert tutors and industry-recognised qualifications. When you're ready, we’ll connect you with guaranteed interviews at leading gyms so you can turn your training into a real career. </p>",
+            "text2_size": "small"
+          }
+        },
+        "row2col_yqDDpb": {
+          "type": "row2col",
+          "settings": {
+            "text1": "",
+            "text1_size": "medium",
+            "text2": "<p><strong>This is your moment. Let’s take the first step together.</strong></p>",
+            "text2_size": "small"
+          }
+        },
+        "row_button_Nw8jTg": {
+          "type": "row-button",
+          "settings": {
+            "text": "See courses & bundles",
+            "button_type": "right",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_iMBjEY",
+        "row2col_wUg8j7",
+        "row2col_Q7dRGR",
+        "row2col_yqDDpb",
+        "row_button_Nw8jTg"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/trainer-in-gym-helping-woman.jpg",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -452,6 +516,7 @@
     "le_face2face_AznrtC",
     "multicolumn_9fLMCE",
     "le_accordion_BBeCm7",
+    "le_text_and_background_RnPrid",
     "product-grid"
   ]
 }
