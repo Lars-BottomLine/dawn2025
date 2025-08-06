@@ -106,7 +106,7 @@
       "name": "t:sections.le_steps.presets.name",
       "settings": {
         "template_type": "light-blue",
-        "heading": "<p>Step into success</p>",
+        "heading": "<p><strong>Step into success</strong></p>",
         "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
         "decal_top": true,
         "decal_bottom": true,
