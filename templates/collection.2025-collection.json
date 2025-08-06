@@ -162,7 +162,7 @@
         "heading": "<p>Heading</p>",
         "heading_type": "h2",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "auto",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "media_position": "left",
