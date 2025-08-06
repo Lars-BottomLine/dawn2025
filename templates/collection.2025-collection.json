@@ -105,7 +105,8 @@
       ],
       "name": "t:sections.le_steps.presets.name",
       "settings": {
-        "heading": "Step into success",
+        "template_type": "light-blue",
+        "heading": "<p>Step into success</p>",
         "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
         "decal_top": true,
         "decal_bottom": true,
@@ -119,7 +120,8 @@
       "type": "le_steps",
       "name": "t:sections.le_steps.presets.name",
       "settings": {
-        "heading": "Step 1: Set your goal",
+        "template_type": "white",
+        "heading": "<p><strong>Step 1:</strong> Set your goal</p>",
         "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a<br/> personal trainer. Then explore our courses to find the one that aligns best with your<br/> vision and get specialised to take your wellness game to the next level.</p>",
         "decal_top": false,
         "decal_bottom": false,
