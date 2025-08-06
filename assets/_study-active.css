@@ -1827,6 +1827,9 @@ header .header__icon--cart .icon {
 .sa-section-steps .st-header {
   padding: 0 0 6rem 5rem;
 }
+.sa-section-steps .st-header .image-with-text__heading {
+  color: inherit !important;
+}
 .sa-section-steps .st-content {
   display: flex;
   flex-direction: column;
@@ -1865,6 +1868,9 @@ header .header__icon--cart .icon {
 }
 .sa-section-featuredproduct .fp-heading {
   padding-left: 5rem;
+}
+.sa-section-featuredproduct .featured-product.product--auto h2 {
+  font-weight: 400;
 }
 .sa-section-featuredproduct .featured-product.product--auto .slider-buttons {
   display: none;

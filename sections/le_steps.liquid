@@ -15,6 +15,15 @@
         assign decal_bottom = true
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
+
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.template_type
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.template_type
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.template_type
+    if section.settings.template_type == 'white' or section.settings.template_type == 'light-blue'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    else
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
     # ---------------------------------
 
 %}
@@ -43,9 +52,6 @@
 
 <div class="sa-section-steps
             section-{{ section.id }}-padding section-{{ section.id }}-margin
-            sa-bg-light-blue
-            sa-col-primary
-            -dct-light-blue -dcb-light-blue
             {{ section_classes }}">
     <div class="page-width">
 
@@ -69,7 +75,7 @@
         </div>
         {% endif %}
 
-        <div class="st-content">
+        <div class="st-content sa-col-primary">
         {%- for block in section.blocks -%}
             <div class="st-step">
 
@@ -113,10 +119,31 @@
   "settings": [
 
     {
-      "type": "text",
+      "type": "select",
+      "id": "template_type",
+      "label": "Section Template",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "light-blue"
+    },
+
+    {
+      "type": "richtext",
       "id": "heading",
       "label": "Heading",
-      "default": "Step into success"
+      "default": "<p>Step into success</p>"
     },
     {
       "type": "richtext",
