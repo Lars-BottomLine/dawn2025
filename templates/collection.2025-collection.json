@@ -194,63 +194,6 @@
         "margin_bottom": 0
       }
     },
-    "featured_product_w3H73T": {
-      "type": "featured-product",
-      "blocks": {
-        "title_43FP4X": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_8rm883": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_jeLFHE": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown",
-            "swatch_shape": "circle"
-          }
-        },
-        "buy_buttons_JL7BJA": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_bp6AfP": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "title_43FP4X",
-        "price_8rm883",
-        "variant_picker_jeLFHE",
-        "buy_buttons_JL7BJA",
-        "share_bp6AfP"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "large",
-        "constrain_to_viewport": true,
-        "media_fit": "cover",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "le_face2face_3bMwwU": {
       "type": "le_face2face",
       "blocks": {
@@ -296,6 +239,27 @@
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
+      }
+    },
+    "le_callout_yyXgcX": {
+      "type": "le_callout",
+      "name": "t:sections.le_callout.presets.name",
+      "settings": {
+        "heading": "Heading",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
       }
     },
     "le_face2face_AznrtC": {
@@ -354,12 +318,48 @@
         "margin_bottom": 0
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
+    "multicolumn_9fLMCE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ppV3r3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Once you’re qualified, we don’t leave you hanging. As one of the UK’s top-rated training providers, we’ve built partnerships with leading gyms across the country — including The Gym Group, Virgin Active, and more.</p><p>That means every learner gets access to guaranteed job interviews, giving you a clear <br/>pathway into paid work. Whether you want to go employed or self-employed, we’ll help <br/>you hit the ground running.</p><p>You’ll also get ongoing career support, free business start-up resources, and 20 CPD <br/>units to expand your skills and boost your earning potential.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eDTUht": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Want a career that pays well, fits around your life, and doesn’t require a university<br/> degree? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding<br/> jobs that keep you active, fulfilled, and in control of your time.</p><p>These roles are in high demand - and for good reason. You get to help others improve<br/> their health and confidence while building a career that works on your terms.</p><p>Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ppV3r3",
+        "column_eDTUht"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "scheme-1"
+        "title": "<strong>Step 4:</strong> Start earning",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-grid": {
@@ -388,10 +388,11 @@
     "le_steps_MWDAGF",
     "le_steps_3hMnC8",
     "le_featured_thGade",
-    "featured_product_w3H73T",
     "le_face2face_3bMwwU",
-    "le_face2face_AznrtC",
+    "le_callout_yyXgcX",
     "banner",
+    "le_face2face_AznrtC",
+    "multicolumn_9fLMCE",
     "product-grid"
   ]
 }
