@@ -115,6 +115,20 @@
         "margin_bottom": 0
       }
     },
+    "le_steps_3hMnC8": {
+      "type": "le_steps",
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "heading": "Step 1: Set your goal",
+        "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a<br/> personal trainer. Then explore our courses to find the one that aligns best with your<br/> vision and get specialised to take your wellness game to the next level.</p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_featured_thGade": {
       "type": "le_featured",
       "blocks": {
@@ -370,6 +384,7 @@
   "order": [
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
+    "le_steps_3hMnC8",
     "le_featured_thGade",
     "featured_product_w3H73T",
     "le_face2face_3bMwwU",
