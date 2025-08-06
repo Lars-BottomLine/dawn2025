@@ -1861,5 +1861,22 @@ header .header__icon--cart .icon {
   padding: 4rem 4rem 3rem;
   color: white;
 }
+.sa-section-featuredproduct:not(.product--no-media) > .product__info-wrapper {
+  padding: 0 7rem;
+}
+@media screen and (min-width: 990px) {
+  .sa-section-featuredproduct .featured-product {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .sa-section-featuredproduct .featured-product.product--medium:not(.product--no-media) .product__media-wrapper, .sa-section-featuredproduct .featured-product.product--small:not(.product--no-media) .product__info-wrapper {
+    max-width: 65%;
+    width: calc(65% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+  .sa-section-featuredproduct .featured-product.product--medium:not(.product--no-media) .product__info-wrapper, .sa-section-featuredproduct .featured-product.product--small:not(.product--no-media) .product__media-wrapper {
+    max-width: 35%;
+    width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
 
 /*# sourceMappingURL=_study-active.css.map */
