@@ -362,6 +362,64 @@
         "padding_bottom": 36
       }
     },
+    "le_accordion_BBeCm7": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_Jtdtp7": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Wellness Coach",
+            "row_content": ""
+          }
+        },
+        "accordion_row_gJz7kM": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Pre & Postnatal Fitness and Nutrition Specialist",
+            "row_content": ""
+          }
+        },
+        "accordion_row_aPg9Rd": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "3. Menopause Wellness Specialist ",
+            "row_content": ""
+          }
+        },
+        "accordion_row_jzNV7x": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "4. Nutrition Coach / Consultant",
+            "row_content": ""
+          }
+        },
+        "accordion_row_izTykj": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "5. Health & Behaviour Change Coach",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_Jtdtp7",
+        "accordion_row_gJz7kM",
+        "accordion_row_aPg9Rd",
+        "accordion_row_jzNV7x",
+        "accordion_row_izTykj"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Headline",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -393,6 +451,7 @@
     "banner",
     "le_face2face_AznrtC",
     "multicolumn_9fLMCE",
+    "le_accordion_BBeCm7",
     "product-grid"
   ]
 }
