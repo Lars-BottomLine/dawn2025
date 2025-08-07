@@ -1885,8 +1885,12 @@ header .header__icon--cart .icon {
 .sa-section-featuredproduct .featured-product.product--auto .slider-buttons {
   display: none;
 }
-.sa-section-featuredproduct .featured-product.product--auto media-gallery,
+.sa-section-featuredproduct .featured-product.product--auto slider-component {
+  width: 100% !important;
+}
 .sa-section-featuredproduct .featured-product.product--auto slider,
+.sa-section-featuredproduct .featured-product.product--auto media-gallery,
+.sa-section-featuredproduct .featured-product.product--auto slider-component,
 .sa-section-featuredproduct .featured-product.product--auto .product__media-list,
 .sa-section-featuredproduct .featured-product.product--auto .product__media-item {
   height: 100%;

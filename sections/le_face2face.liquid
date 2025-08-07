@@ -50,7 +50,12 @@
 
         <div class="f2f-header pl-20 pb-32">
 
-            <h2 class="">
+            <h2 class="f2f-heading">
+                {%- if section.settings.heading_image -%}
+                    <div class="f2f-heading-image">
+                        {{ section.settings.heading_image }}
+                    </div>
+                {%- endif -%}
                 {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
             </h2>
 
@@ -165,6 +170,25 @@
       ],
       "default": "primary"
     },
+
+    {
+      "type": "image_picker",
+      "id": "heading_image",
+      "label": "Heading Image Prefix"
+    },
+    {
+      "type": "richtext",
+      "id": "headline",
+      "default": "<p>Headline</p>",
+      "label": "Headline"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheadline",
+      "default": "<p>Text</p>",
+      "label": "Text"
+    },
+
     {
       "type": "select",
       "id": "section_type",
@@ -184,19 +208,6 @@
         }
       ],
       "default": "skewed"
-    },
-
-    {
-      "type": "richtext",
-      "id": "headline",
-      "default": "t:sections.slideshow.blocks.slide.name",
-      "label": "t:sections.slideshow.blocks.slide.name"
-    },
-    {
-      "type": "inline_richtext",
-      "id": "subheadline",
-      "default": "t:sections.slideshow.blocks.slide.name",
-      "label": "t:sections.slideshow.blocks.slide.name"
     },
 
     {
