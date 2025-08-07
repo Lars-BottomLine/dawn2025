@@ -230,9 +230,10 @@
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
         "section_bkgr": "white",
-        "section_type": "medium",
+        "heading_image": "shopify://shop_images/featured_seasonal_and_gifts.svg",
         "headline": "<p>Course Bundles & Specialisations</p>",
         "subheadline": "",
+        "section_type": "medium",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 0,
@@ -307,9 +308,9 @@
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
         "section_bkgr": "light-blue",
-        "section_type": "medium",
         "headline": "<p><strong>Step 3:</strong> Start learning</p>",
         "subheadline": "",
+        "section_type": "medium",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
