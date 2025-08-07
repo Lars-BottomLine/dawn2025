@@ -60,12 +60,39 @@
             </div>
         {% endif %}
 
+        {%- for block in section.blocks -%}
+
+            {{ block.type }}
+
+            {% if block.type == 'button' %}
+            <div class="sa-button">
+
+                {%- if block.settings.image -%}
+                    <div class="co-image">
+                        {{ block.settings.image
+                        | image_url:
+                        width: 44
+                        | image_tag:
+                        alt: block.settings.image.alt
+                        }}
+                    </div>
+                {%- endif -%}
+
+                <span>
+                    {{ block.settings.title }}
+                </span>
+
+            </div>
+            {% endif %}
+
+        {% endfor %}
+
     </div>
 </div>
 
 {% schema %}
 {
-  "name": "t:sections.le_swiper.name",
+  "name": "t:sections.le_callout.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -74,10 +101,16 @@
   "settings": [
 
     {
-      "type": "text",
+      "type": "richtext",
       "id": "heading",
       "default": "<p>Heading</p>",
       "label": "t:sections.le_swiper.settings.heading.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Text</p>",
+      "label": "Text"
     },
 
     {
@@ -150,7 +183,7 @@
   "blocks": [
     {
       "type": "button",
-      "name": "t:sections.footer.blocks.link_list.name",
+      "name": "Button",
       "settings": [
         {
           "type": "text",
@@ -162,6 +195,11 @@
           "type": "text",
           "id": "link",
           "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mage",
+          "label": "Image"
         }
       ]
     }

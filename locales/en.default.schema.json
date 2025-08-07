@@ -3098,7 +3098,7 @@
       }
     },
 
-    "le_le_callout": {
+    "le_callout": {
       "name": "StudyActive - Callout",
       "presets": {
         "name": "StudyActive - Callout"
