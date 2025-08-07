@@ -244,9 +244,23 @@
     },
     "le_callout_yyXgcX": {
       "type": "le_callout",
+      "blocks": {
+        "button_Pighxc": {
+          "type": "button",
+          "settings": {
+            "title": "Fill out this form and we’ll get in touch.",
+            "link": "https://bottomline.agency",
+            "mage": "shopify://shop_images/article_shortcut.svg"
+          }
+        }
+      },
+      "block_order": [
+        "button_Pighxc"
+      ],
       "name": "t:sections.le_callout.presets.name",
       "settings": {
-        "heading": "Heading",
+        "heading": "<p>Heading</p>",
+        "text": "<p>Text</p>",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
