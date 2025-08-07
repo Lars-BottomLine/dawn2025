@@ -259,8 +259,8 @@
       ],
       "name": "t:sections.le_callout.presets.name",
       "settings": {
-        "heading": "<p>Heading</p>",
-        "text": "<p>Text</p>",
+        "heading": "<p>Your path to success can be as unique as you are.</p>",
+        "text": "<p>Got any questions and want to talk to one of our fitness success advisers?</p>",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
