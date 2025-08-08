@@ -250,7 +250,7 @@
           "settings": {
             "title": "Fill out this form and we’ll get in touch.",
             "link": "https://bottomline.agency",
-            "mage": "shopify://shop_images/article_shortcut.svg"
+            "image": "shopify://shop_images/article_shortcut.svg"
           }
         }
       },

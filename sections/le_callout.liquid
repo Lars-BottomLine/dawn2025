@@ -47,47 +47,57 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        {% if section.settings.heading %}
-            <div class="co-heading" >
-                {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-            </div>
-        {% endif %}
+        <div class="co-content">
 
-        {% # TEXT %}
-        {% if section.settings.text %}
-            <div class="co-text">
-                {{ section.settings.text }}
-            </div>
-        {% endif %}
+            {% if section.settings.heading %}
+                <h2 class="co-heading -no-decal sa-color-inherit" >
+                    {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </h2>
+            {% endif %}
 
-        {%- for block in section.blocks -%}
+            {% # TEXT %}
+            {% if section.settings.text %}
+                <div class="co-text">
+                    {{ section.settings.text }}
+                </div>
+            {% endif %}
 
-            {{ block.type }}
+            {% if section.blocks %}
+            <div class="co-button-wrapper">
 
-            {% if block.type == 'button' %}
-            <div class="sa-button">
+                {%- for block in section.blocks -%}
 
-                {%- if block.settings.image -%}
-                    <div class="co-image">
-                        {{ block.settings.image
-                        | image_url:
-                        width: 44
-                        | image_tag:
-                        alt: block.settings.image.alt
-                        }}
+                    {% if block.type == 'button' %}
+                    <div class="sa-button -medium -invert -hover-grow">
+
+                        <span>
+
+                            {%- if block.settings.image -%}
+                                <div class="co-image">
+                                {{ block.settings.image
+                                | image_url:
+                                width: 44
+                                | image_tag:
+                                alt: block.settings.image.alt
+                                }}
+                            </div>
+                            {%- endif -%}
+
+                            {{ block.settings.title }}
+                        </span>
+
                     </div>
-                {%- endif -%}
+                    {% endif %}
 
-                <span>
-                    {{ block.settings.title }}
-                </span>
+                {% endfor %}
 
             </div>
             {% endif %}
 
-        {% endfor %}
+        </div>
 
     </div>
+
 </div>
 
 {% schema %}
@@ -198,7 +208,7 @@
         },
         {
           "type": "image_picker",
-          "id": "mage",
+          "id": "image",
           "label": "Image"
         }
       ]
