@@ -7,6 +7,7 @@
     assign section_classes = ''
 
     assign iz_blue = false
+    assign iz_white = false
 
     if section.settings.decal_top
         assign decal_top = true
@@ -22,6 +23,13 @@
         assign iz_blue = true
         assign section_classes = section_classes | append: ' sa-bg-primary text-white -dct-primary -dcb-primary '
     endif
+
+    if section.settings.template_type == 'white'
+        assign iz_white = true
+        assign section_classes = section_classes | append: ' sa-bg-white sa-col-primary -dct-white -dcb-white '
+    endif
+
+    assign section_classes = section_classes | append: ' -width-' | append: section.settings.accordion_width
 
 %}
 
@@ -42,8 +50,8 @@
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
         .section-{{ section.id }}-margin {
-    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
-    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
         }
     }
 {%- endstyle -%}
@@ -60,10 +68,10 @@
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             md:px-32 md:pb-32
             {{ section_classes }}">
-    <div class="page-width -section-content -narrow-section">
+    <div class="page-width -section-content {% if section.settings.accordion_width == 'narrow' %} -narrow-section {% endif %}">
 
         {% if  section.settings.headline != blank %}
-        <h2 class="-no-indent">
+        <h2 class="-no-indent -{{ section.settings.heading_size }}">
             {{ section.settings.headline }}
         </h2>
         {% endif %}
@@ -113,6 +121,10 @@
                 {
                     "value": "blue",
                     "label": "Dark Blue"
+                },
+              {
+                    "value": "white",
+                    "label": "White"
                 }
             ]
         },
@@ -122,6 +134,43 @@
             "default": "Headline",
             "label": "Headline"
         },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "Large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium",
+        "label": "Heading size"
+      },
+
+      {
+        "type": "select",
+        "id": "accordion_width",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full width"
+          },
+          {
+            "value": "narrow",
+            "label": "Narrow width"
+          }
+        ],
+        "default": "narrow",
+        "label": "Accordion width"
+      },
 
         {
             "type": "header",

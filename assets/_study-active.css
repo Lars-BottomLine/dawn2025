@@ -956,6 +956,13 @@ h3,
 .multicolumn slider-component {
   padding: 0 5rem;
 }
+.multicolumn h2.title {
+  line-height: 1.05;
+  letter-spacing: -0.05rem;
+}
+.multicolumn .grid--2-col-desktop .grid__item {
+  width: min-content;
+}
 .multicolumn .multicolumn-card__info {
   padding: 0;
 }
@@ -1291,7 +1298,7 @@ header .header__icon--cart .icon {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
 }
 .sa-section-face2face .f2f-entry {
   display: flex;
@@ -1577,6 +1584,9 @@ header .header__icon--cart .icon {
   }
 }
 
+.sa-section-accordion.-width-full .le-accordion {
+  width: 100%;
+}
 .sa-section-accordion h2 {
   color: inherit;
   margin-bottom: 3rem;
