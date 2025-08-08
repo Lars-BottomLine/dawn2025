@@ -269,14 +269,6 @@
         "margin_bottom": 0
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "scheme-1"
-      }
-    },
     "le_face2face_AznrtC": {
       "type": "le_face2face",
       "blocks": {
@@ -349,7 +341,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Want a career that pays well, fits around your life, and doesn’t require a university<br/> degree? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding<br/> jobs that keep you active, fulfilled, and in control of your time.</p><p>These roles are in high demand - and for good reason. You get to help others improve<br/> their health and confidence while building a career that works on your terms.</p><p>Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
+            "text": "<p>Want a career that pays well, fits around your life, and doesn’t require a university degree? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding jobs that keep you active, fulfilled, and in control of your time.</p><p>These roles are in high demand - and for good reason. You get to help others improve<br/> their health and confidence while building a career that works on your terms.</p><p>Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
             "link_label": "",
             "link": ""
           }
@@ -362,7 +354,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "<strong>Step 4:</strong> Start earning",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "",
@@ -503,7 +495,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "columns_mobile": "2",
         "color_scheme": "",
         "image_ratio": "adapt",
@@ -518,6 +510,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
     }
   },
   "order": [
@@ -527,11 +529,11 @@
     "le_featured_thGade",
     "le_face2face_3bMwwU",
     "le_callout_yyXgcX",
-    "banner",
     "le_face2face_AznrtC",
     "multicolumn_9fLMCE",
     "le_accordion_BBeCm7",
     "le_text_and_background_RnPrid",
-    "product-grid"
+    "product-grid",
+    "banner"
   ]
 }
