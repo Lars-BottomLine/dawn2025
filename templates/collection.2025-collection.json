@@ -125,82 +125,7 @@
         "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a personal trainer. Then explore our courses to find the one that aligns best with your vision and get specialised to take your wellness game to the next level.</p>",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_featured_kDCW6W": {
-      "type": "le_featured",
-      "blocks": {
-        "text_DeRJiV": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_zncpHh": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "price_mQCHHB": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_BFeLRY": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_qR8XTL": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_BKCkzn": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_aLqdnG": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_DeRJiV",
-        "title_zncpHh",
-        "price_mQCHHB",
-        "variant_picker_BFeLRY",
-        "quantity_selector_qR8XTL",
-        "buy_buttons_BKCkzn",
-        "share_aLqdnG"
-      ],
-      "name": "t:sections.le_featured.presets.name",
-      "settings": {
-        "product": "l2-nutrition-performance-and-healthy-eating-course",
-        "heading": "<p>Heading</p>",
-        "heading_type": "h2",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -603,7 +528,6 @@
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
     "le_steps_3hMnC8",
-    "le_featured_kDCW6W",
     "le_featured_thGade",
     "le_face2face_3bMwwU",
     "le_callout_yyXgcX",
