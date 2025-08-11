@@ -67,6 +67,7 @@
 
 <div class="section-main-collection-product-grid
             section-{{ section.id }}-padding section-{{ section.id }}-margin
+            -dct-white -dcb-white
             {{ section_classes }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
