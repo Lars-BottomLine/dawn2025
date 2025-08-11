@@ -33,6 +33,7 @@
           "settings": {
             "text": "Here's how:",
             "button_type": "internal",
+            "inverted": true,
             "button_link": ""
           }
         }
@@ -45,6 +46,7 @@
       "name": "t:sections.le_tab.presets.name",
       "settings": {
         "image": "shopify://shop_images/yoga-pose-2-women.jpg",
+        "stretch_image": true,
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 0,
@@ -422,11 +424,11 @@
         "heading_size": "medium",
         "accordion_width": "full",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": -140
       }
     },
     "le_text_and_background_RnPrid": {
@@ -471,6 +473,7 @@
           "settings": {
             "text": "See courses & bundles",
             "button_type": "right",
+            "inverted": true,
             "button_link": ""
           }
         }
@@ -485,6 +488,7 @@
       "name": "t:sections.le_tab.presets.name",
       "settings": {
         "image": "shopify://shop_images/trainer-in-gym-helping-woman.jpg",
+        "stretch_image": true,
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -509,8 +513,12 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
+        "decal_top": true,
+        "decal_bottom": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": -140,
+        "margin_bottom": 0
       }
     },
     "banner": {
