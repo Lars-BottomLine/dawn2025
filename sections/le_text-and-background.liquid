@@ -17,6 +17,9 @@
     endif
     # ---------------------------------
 
+    if section.settings.stretch_image
+        assign section_classes = section_classes | append: ' -stretch-bkgr '
+    endif
 %}
 
 {%- style -%}
@@ -124,7 +127,8 @@
                             </div>
                           {% else %}
                           <div class="sa-button-wrapper -button-type-{{ block.settings.button_type }}">
-                            <a class="sa-button" href="{{ block.settings.button_link }}">
+                            <a class="sa-button -medium -hover-grow
+                                      {% if block.settings.inverted %} -invert {% endif %}" href="{{ block.settings.button_link }}">
                               <span>{{ block.settings.text }}</span>
                             </a>
                           </div>
@@ -155,6 +159,12 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+    {
+      "type": "checkbox",
+      "id": "stretch_image",
+      "label": "Stretch background image to full width",
+      "default": true
+    },
 
     {
       "type": "header",
@@ -181,7 +191,7 @@
       "type": "range",
       "id": "padding_top",
       "min": 0,
-      "max": 200,
+      "max": 320,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
@@ -191,7 +201,7 @@
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
-      "max": 200,
+      "max": 320,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
@@ -358,6 +368,12 @@
           ],
           "default": "left",
           "label": "Button type"
+        },
+        {
+          "type": "checkbox",
+          "id": "inverted",
+          "default": true,
+          "label": "Invert the button color"
         },
         {
           "type": "text",

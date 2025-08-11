@@ -76,7 +76,7 @@
         </h2>
         {% endif %}
 
-        <div class="le-accordion">
+        <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %}">
             {%- for block in section.blocks -%}
 
                 <div class="le-acc-entry -with-arrow">
