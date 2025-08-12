@@ -1130,6 +1130,21 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .produc
   background: var(--color-primary);
 }
 
+.le_collection-bundle-grid .bg-content {
+  padding: 0 5rem;
+}
+.le_collection-bundle-grid .bg-header {
+  margin-bottom: 5rem;
+}
+.le_collection-bundle-grid .bg-header .bg-title {
+  margin-bottom: 4rem;
+  color: inherit;
+}
+.le_collection-bundle-grid .bg-header .bg-text {
+  margin-bottom: 5rem;
+  color: inherit;
+}
+
 :root {
   --swiper-theme-color: cyan !important;
   --swiper-pagination-bullet-inactive-color: white !important;
