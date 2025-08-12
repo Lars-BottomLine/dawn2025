@@ -120,7 +120,7 @@
     },
     "le_steps_3hMnC8": {
       "type": "le_steps",
-      "name": "t:sections.le_steps.presets.name",
+      "name": "Step 1: Set your goal",
       "settings": {
         "template_type": "white",
         "heading": "<p><strong>Step 1:</strong> Set your goal</p>",
@@ -175,7 +175,7 @@
         "buy_buttons_AFRAaC",
         "share_F6a7yG"
       ],
-      "name": "t:sections.le_featured.presets.name",
+      "name": "Your First Step to Becoming...",
       "settings": {
         "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
         "heading": "<p>Your First Step to Becoming a Wellness Personal Trainer:</p>",
@@ -229,7 +229,7 @@
         "slide_4PWQL7",
         "slide_dDeJty"
       ],
-      "name": "t:sections.le_face2face.presets.name",
+      "name": "Course Bundles & Specialisations",
       "settings": {
         "section_bkgr": "white",
         "heading_image": "shopify://shop_images/featured_seasonal_and_gifts.svg",
@@ -259,7 +259,7 @@
       "block_order": [
         "button_Pighxc"
       ],
-      "name": "t:sections.le_callout.presets.name",
+      "name": "Form Callout",
       "settings": {
         "heading": "<p>Your path to success can be as unique as you are.</p>",
         "text": "<p>Got any questions and want to talk to one of our fitness success advisers?</p>",
@@ -273,21 +273,12 @@
     },
     "le_collection_bundle_grid_TzawhT": {
       "type": "le_collection-bundle-grid",
-      "name": "t:sections.le_collection-bundle-grid.presets.name",
+      "name": "Step 2: Choose your bundle",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
         "columns_mobile": "2",
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
+        "section_bkgr": "primary",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
@@ -338,7 +329,7 @@
         "slide_h4HgXw",
         "slide_VmdRxH"
       ],
-      "name": "t:sections.le_face2face.presets.name",
+      "name": "Step 3: Start learning",
       "settings": {
         "section_bkgr": "light-blue",
         "headline": "<p><strong>Step 3:</strong> Start learning</p>",
@@ -378,7 +369,7 @@
         "column_ppV3r3",
         "column_eDTUht"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Step 4: Start earning",
       "settings": {
         "title": "<strong>Step 4:</strong> Start earning",
         "heading_size": "h0",
@@ -442,7 +433,7 @@
         "accordion_row_jzNV7x",
         "accordion_row_izTykj"
       ],
-      "name": "t:sections.le_accordion.presets.name",
+      "name": "Job options",
       "settings": {
         "template_type": "white",
         "headline": "Check out some of the top job options below",
@@ -510,7 +501,7 @@
         "row2col_yqDDpb",
         "row_button_Nw8jTg"
       ],
-      "name": "t:sections.le_tab.presets.name",
+      "name": "Your new career starts here",
       "settings": {
         "image": "shopify://shop_images/trainer-in-gym-helping-woman.jpg",
         "stretch_image": true,
@@ -524,6 +515,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "name": "Browse all courses",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
