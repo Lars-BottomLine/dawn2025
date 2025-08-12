@@ -271,6 +271,31 @@
         "margin_bottom": 0
       }
     },
+    "le_collection_bundle_grid_TzawhT": {
+      "type": "le_collection-bundle-grid",
+      "name": "t:sections.le_collection-bundle-grid.presets.name",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_face2face_AznrtC": {
       "type": "le_face2face",
       "blocks": {
@@ -539,6 +564,7 @@
     "le_featured_thGade",
     "le_face2face_3bMwwU",
     "le_callout_yyXgcX",
+    "le_collection_bundle_grid_TzawhT",
     "le_face2face_AznrtC",
     "multicolumn_9fLMCE",
     "le_accordion_BBeCm7",
