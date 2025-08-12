@@ -3105,6 +3105,13 @@
       }
     },
 
+    "le_collection-bundle-grid": {
+      "name": "StudyActive - Bundle Grid",
+      "presets": {
+        "name": "StudyActive - Bundle Grid"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
