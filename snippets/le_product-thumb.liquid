@@ -93,92 +93,101 @@
                             {{ product.metafields.custom.short_description | metafield_tag }}
                         </div>
 
-
-                        {% # VARIANT PICKER (done)
-                           # ----------------------- %}
-                        {% render 'le_product-variant-picker',
-                                product: product,
-
-                                swatch_shape: 'none',
-                                picker_type: 'dropdown',
-                                shopify_attributes: shopify_attributes,
-
-                                product_form_id: product_form_id
-                        %}
-
                     </div>
 
                     <div class="pt-footer">
 
-                        {% # BUY BUTTONS
-                           # ----------------------- %}
-                        {%- render 'le_buy-buttons',
-                                block: block,
-                                product: product,
-                                product_form_id: product_form_id,
-                                section_id: section_id
-                        -%}
+                        <div class="ptf-top">
 
-                        {% comment %}
-                        {% if request.page_type == 'collection' %}
-                            {% if product.variants.size > 1 %}
-                                <div class="product-variant-dropdown">
-                                    <form action="/cart/add" method="post" >
-                                        <select name="id" class="product-variant-select">
-                                            {% for variant in product.variants %}
-                                                {% if variant.available %}
-                                                    <option value="{{ variant.id }}">{{ variant.title }}</option>
-                                                {% else %}
-                                                    <option disabled="disabled">{{ variant.title }} - Sold Out</option>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </select>
-                                        <input type="submit" value="Buy now" class="product-variant-submit-button" />
-                                    </form>
-                                </div>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if product.has_only_default_variant %}
-                            <form method="post" action="/cart/add">
-                                <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                                <input type="submit" value="Buy now" class="product-variant-submit-button" />
-                            </form>
-                        {% endif %}
-                        {% endcomment %}
-
-                        {% # PRICE (done?)
-                           # ----------------------- %}
-                        <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
-                            {%- render 'price',
+                            {% # VARIANT PICKER (done)
+                               # ----------------------- %}
+                            {% render 'le_product-variant-picker',
                                     product: product,
-                                    placeholder: placeholder,
-                                    use_variant: true,
-                                    show_badges: true,
-                                    price_class: 'price--large'
-                            -%}
+
+                                    swatch_shape: 'none',
+                                    picker_type: 'dropdown',
+                                    shopify_attributes: shopify_attributes,
+
+                                    product_form_id: product_form_id
+                            %}
+
                         </div>
-                        {%- if product.quantity_price_breaks_configured? -%}
-                            <div class="volume-pricing-note" id="Volume-Note-{{ section_id }}">
-                                <span>{{ 'products.product.volume_pricing.note' | t }}</span>
+
+                        <div class="ptf-bottom">
+
+                            {% # BUY BUTTONS
+                               # ----------------------- %}
+                            {%- render 'le_buy-buttons',
+                                    block: block,
+                                    product: product,
+                                    product_form_id: product_form_id,
+                                    section_id: section_id
+                            -%}
+
+                            {% comment %}
+                            {% if request.page_type == 'collection' %}
+                                {% if product.variants.size > 1 %}
+                                    <div class="product-variant-dropdown">
+                                        <form action="/cart/add" method="post" >
+                                            <select name="id" class="product-variant-select">
+                                                {% for variant in product.variants %}
+                                                    {% if variant.available %}
+                                                        <option value="{{ variant.id }}">{{ variant.title }}</option>
+                                                    {% else %}
+                                                        <option disabled="disabled">{{ variant.title }} - Sold Out</option>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </select>
+                                            <input type="submit" value="Buy now" class="product-variant-submit-button" />
+                                        </form>
+                                    </div>
+                                {% endif %}
+                            {% endif %}
+
+                            {% if product.has_only_default_variant %}
+                                <form method="post" action="/cart/add">
+                                    <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                                    <input type="submit" value="Buy now" class="product-variant-submit-button" />
+                                </form>
+                            {% endif %}
+                            {% endcomment %}
+
+                            {% # PRICE (done?)
+                               # ----------------------- %}
+                            <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
+                                {%- render 'price',
+                                        product: product,
+                                        placeholder: placeholder,
+                                        use_variant: true,
+                                        show_badges: true,
+                                        price_class: 'price--large'
+                                -%}
                             </div>
-                        {%- endif -%}
-                        {% comment %}
-                        {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
-                            <div class="product__tax caption rte">
-                                {%- if cart.duties_included and cart.taxes_included -%}
-                                    {{ 'products.product.duties_and_taxes_included' | t }}
-                                {%- elsif cart.taxes_included -%}
-                                    {{ 'products.product.taxes_included' | t }}
-                                {%- elsif cart.duties_included -%}
-                                    {{ 'products.product.duties_included' | t }}
-                                {%- endif -%}
-                                {%- if shop.shipping_policy.body != blank -%}
-                                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                                {%- endif -%}
-                            </div>
-                        {%- endif -%}
-                        {% endcomment %}
+
+                            {%- if product.quantity_price_breaks_configured? -%}
+                                <div class="volume-pricing-note" id="Volume-Note-{{ section_id }}">
+                                    <span>{{ 'products.product.volume_pricing.note' | t }}</span>
+                                </div>
+                            {%- endif -%}
+
+                            {% comment %}
+                            {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                                <div class="product__tax caption rte">
+                                    {%- if cart.duties_included and cart.taxes_included -%}
+                                        {{ 'products.product.duties_and_taxes_included' | t }}
+                                    {%- elsif cart.taxes_included -%}
+                                        {{ 'products.product.taxes_included' | t }}
+                                    {%- elsif cart.duties_included -%}
+                                        {{ 'products.product.duties_included' | t }}
+                                    {%- endif -%}
+                                    {%- if shop.shipping_policy.body != blank -%}
+                                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                                    {%- endif -%}
+                                </div>
+                            {%- endif -%}
+                            {% endcomment %}
+
+                        </div>
 
                     </div>
 

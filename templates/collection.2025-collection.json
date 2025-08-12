@@ -63,7 +63,7 @@
           "settings": {
             "number": "1",
             "title": "Step 1: Set your goal",
-            "text": "Know where you’re starting and where you want to go. We’ll help you map it out.",
+            "text": "Know where you’re starting and where you want to go. We’ll help you map it out.",
             "button_text": "Go to Step 1",
             "button_link": ""
           }
@@ -212,7 +212,7 @@
           "settings": {
             "image": "shopify://shop_images/male-and-femal-at-office-table.jpg",
             "heading": "<p>The nutrition route:</p>",
-            "subheading": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>"
+            "subheading": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>"
           }
         },
         "slide_dDeJty": {
@@ -409,7 +409,7 @@
         "accordion_row_aPg9Rd": {
           "type": "accordion_row",
           "settings": {
-            "heading": "3. Menopause Wellness Specialist ",
+            "heading": "3. Menopause Wellness Specialist ",
             "row_content": ""
           }
         },
@@ -462,7 +462,7 @@
         "row2col_wUg8j7": {
           "type": "row2col",
           "settings": {
-            "text1": "<p>You’ve seen the steps, the courses, the specialisations, and the real opportunities waiting for you. Now it’s time to make it happen. </p>",
+            "text1": "<p>You’ve seen the steps, the courses, the specialisations, and the real opportunities waiting for you. Now it’s time to make it happen. </p>",
             "text1_size": "medium",
             "text2": "",
             "text2_size": "medium"
