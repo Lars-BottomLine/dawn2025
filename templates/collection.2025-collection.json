@@ -65,7 +65,7 @@
             "title": "Step 1: Set your goal",
             "text": "Know where you’re starting and where you want to go. We’ll help you map it out.",
             "button_text": "Go to Step 1",
-            "button_link": "anchor-step2"
+            "button_link": "anchor-step1"
           }
         },
         "step_TX9Jhb": {
@@ -75,7 +75,7 @@
             "title": "Step 2: Choose your course or bundle",
             "text": "Pick the training option that fits your lifestyle, ambitions, timeline, and passion.",
             "button_text": "Go to Step 2",
-            "button_link": ""
+            "button_link": "anchor-step2"
           }
         },
         "step_jkHfbr": {
@@ -85,7 +85,7 @@
             "title": "Step 3: Start learning",
             "text": "Study online at your own pace with expert support whenever you need it.",
             "button_text": "Go to Step 3",
-            "button_link": ""
+            "button_link": "anchor-step3"
           }
         },
         "step_Ky9XH7": {
@@ -95,7 +95,7 @@
             "title": "Step 4: Start earning",
             "text": "Complete your course, unlock guaranteed interviews, and start your career as a wellness personal trainer.",
             "button_text": "Go to Step 4",
-            "button_link": ""
+            "button_link": "anchor-step4"
           }
         }
       },
@@ -110,6 +110,7 @@
         "template_type": "light-blue",
         "heading": "<p><strong>Step into success</strong></p>",
         "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
+        "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
@@ -125,6 +126,7 @@
         "template_type": "white",
         "heading": "<p><strong>Step 1:</strong> Set your goal</p>",
         "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a personal trainer. Then explore our courses to find the one that aligns best with your vision and get specialised to take your wellness game to the next level.</p>",
+        "custom_class_names": "anchor-step1",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 0,
@@ -236,6 +238,7 @@
         "headline": "<p>Course Bundles & Specialisations</p>",
         "subheadline": "",
         "section_type": "medium",
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 0,
@@ -338,6 +341,7 @@
         "headline": "<p><strong>Step 3:</strong> Start learning</p>",
         "subheadline": "",
         "section_type": "medium",
+        "custom_class_names": "anchor-step3",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
@@ -386,6 +390,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "custom_class_names": "anchor-step4",
         "padding_top": 0,
         "padding_bottom": 100
       }
