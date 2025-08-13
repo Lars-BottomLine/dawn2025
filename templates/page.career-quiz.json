@@ -69,10 +69,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "le_steps_HFeybg": {
+      "type": "le_steps",
+      "blocks": {
+        "step_7VAHbk": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step",
+            "text": "Text",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_gTcTe9": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step",
+            "text": "Text",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_7VAHbk",
+        "step_gTcTe9"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "template_type": "light-blue",
+        "heading": "<p>Step into success</p>",
+        "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "custom_liquid_HQRByQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n   <strong>TEST</strong> test\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "multicolumn_j9egaE"
+    "multicolumn_j9egaE",
+    "le_steps_HFeybg",
+    "custom_liquid_HQRByQ"
   ]
 }
