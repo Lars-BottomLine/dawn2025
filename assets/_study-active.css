@@ -394,6 +394,15 @@ h3,
   font-size: 2.8rem;
   font-weight: 700;
 }
+.sa-button.-disabled {
+  pointer-events: none;
+}
+.sa-button.-disabled span {
+  background-color: #4b4b4b;
+}
+.sa-button.-disabled:before {
+  background-color: #cccccc;
+}
 .sa-button:before {
   content: "";
   background-color: var(--color-secondary);
@@ -742,6 +751,31 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   .sa-swiper-wrapper > h2:before {
     left: 3rem;
   }
+}
+
+.price {
+  color: inherit !important;
+}
+
+.le_price.price--on-sale .price__sale {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.le_price.price--on-sale .price__sale .price-item.price-item--regular,
+.le_price.price--on-sale .price__sale .price-save-percentage {
+  color: var(--color-secondary) !important;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0;
+}
+.le_price.price--on-sale .price__sale .price-item.price-item--sale {
+  margin: 0;
+  font-size: 3.6rem;
+  color: white;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .shopify-section.shopify-section-group-footer-group {

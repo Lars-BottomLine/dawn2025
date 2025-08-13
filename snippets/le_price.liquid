@@ -47,12 +47,15 @@
   endif
 
 -%}
+
 {% comment %}<div class="">
     HIER {{ target.price }} - {{ target.compare_at_price }} - {{ compare_at_price }} - {{ price }} - {{ product.quantity_price_breaks_configured }}
 </div>{% endcomment %}
+
 {%- unless target == null and placeholder == null -%}
   <div
     class="
+      le_price
       price
       {%- if price_class %} {{ price_class }}{% endif -%}
       {%- if available == false %} price--sold-out{% endif -%}
@@ -78,14 +81,14 @@
           {%- if show_compare_at_price and compare_at_price -%}
             {%- unless product.price_varies == false and product.compare_at_price_varies %}
               <span class="visually-hidden visually-hidden--inline">
-                AA {{- 'products.product.price.regular_price' | t -}}
+                {{- 'products.product.price.regular_price' | t -}}
               </span>
               <span>
                 <s class="price-item price-item--regular variant-item__old-price">
                   {% if settings.currency_code_enabled %}
-                  BB  {{ compare_at_price | money_with_currency }}
+                   {{ compare_at_price | money_with_currency }}
                   {% else %}
-                  CC  {{ compare_at_price | money }}
+                   {{ compare_at_price | money }}
                   {% endif %}
                 </s>
               </span>
@@ -94,16 +97,18 @@
 
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
-           DD {{-
+           {{-
               'products.product.volume_pricing.price_range'
               | t: minimum: money_price_min, maximum: money_price_max
             -}}
           </span>
         {%- else -%}
+
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
-            EE {{ money_price }}
+            {{ money_price }}
           </span>
+
         {%- endif -%}
       </div>
       {%
@@ -111,26 +116,34 @@
       # PRICE: SALE
       # ---------------------------- %}
       <div class="price__sale">
+
+        {% # PREVIOUS PRICE (regular_price in this context) %}
         {%- unless product.price_varies == false and product.compare_at_price_varies %}
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-          <span>
             <s class="price-item price-item--regular">
-              {% if settings.currency_code_enabled %}
-                {{ compare_at_price | money_with_currency }}
-              {% else %}
-                {{ compare_at_price | money }}
-              {% endif %}
+              {{ compare_at_price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'}}
             </s>
-          </span>
+
         {%- endunless -%}
+
+        {% # PRICE TO PAY (sale_price in this context) %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
         <span class="price-item price-item--sale price-item--last">
           {{ money_price }}
         </span>
+
+        {% # SAVING PERCENTAGE %}
+        {% assign target_price = target.price | divided_by: 100 %}
+        {% assign saving_percentage = target.compare_at_price | divided_by: target_price | minus: 100 %}
+        <div class="price-save-percentage">
+            Save <span>{{ saving_percentage }}</span>%
+        </div>
       </div>
+
       {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
         {% render 'unit-price', price: product.selected_or_first_available_variant.unit_price, measurement: product.selected_or_first_available_variant.unit_price_measurement %}
       {%- endif -%}
+
     </div>
     {%
 
@@ -138,9 +151,11 @@
     # BADGES
     # ---------------------------- %}
     {%- if show_badges -%}
+      {% comment %}
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
         {{ 'products.product.on_sale' | t }}
       </span>
+      {% endcomment %}
 
       <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
         {{ 'products.product.sold_out' | t }}

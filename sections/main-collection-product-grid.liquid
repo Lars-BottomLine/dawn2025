@@ -255,18 +255,20 @@
                     {% assign thumb_id = section.id | append: forloop.index %}
 
                     {% render 'le_product-thumb',
-                            section_id: thumb_id,
-                            product: product,
+                        section_id: thumb_id,
+                        product: product,
 
-                            shopify_attributes: '',
+                        shopify_attributes: '',
 
-                            secondary_background: 'section.settings.secondary_background',
-                            template_type: 'section.settings.template_type',
-                            media_size: 'section.settings.media_size',
-                            media_position: 'section.settings.media_position',
-                            settings_product: 'section.settings.product',
-                            section_blocks: 'section.blocks',
-                            constrain_to_viewport: 'section.settings.constrain_to_viewport'
+                        secondary_background: 'section.settings.secondary_background',
+                        template_type: 'section.settings.template_type',
+                        media_size: 'section.settings.media_size',
+                        media_position: 'section.settings.media_position',
+                        settings_product: 'section.settings.product',
+                        section_blocks: 'section.blocks',
+                        constrain_to_viewport: 'section.settings.constrain_to_viewport',
+
+                        loopindex: forloop.index
                     %}
 
   {% comment %}
@@ -296,8 +298,6 @@
                       </form>
                     {% endif %}
   {% endcomment %}
-
-
 
                   </li>
                   {%- assign skip_card_product_styles = true -%}

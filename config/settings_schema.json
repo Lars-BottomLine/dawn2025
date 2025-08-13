@@ -1469,7 +1469,7 @@
         "type": "text",
         "id": "custom_class_names",
         "label": "t:settings_schema.custom_classes.settings.class_names.label",
-        "default": ""
+        "default": ".test_class"
       }
     ]
   }
