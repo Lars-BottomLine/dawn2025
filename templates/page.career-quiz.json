@@ -9,11 +9,53 @@
  */
 {
   "sections": {
+    "1755086670ac734305": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d325510_Cw6wYG": {
+          "type": "ai_gen_block_d325510",
+          "settings": {
+            "before_image": "shopify://shop_images/sad.webp",
+            "after_image": "shopify://shop_images/happy.webp",
+            "aspect_ratio": 60,
+            "border_radius": 8,
+            "handle_size": 40,
+            "handle_color": "#39eaf5",
+            "handle_border_color": "#00268a",
+            "arrow_color": "#00268a",
+            "divider_color": "#ffffff",
+            "show_labels": true,
+            "before_label": "Before",
+            "after_label": "After",
+            "label_font_size": 14,
+            "label_background_color": "#00268a",
+            "label_text_color": "#ffffff",
+            "label_position_x": 10,
+            "label_position_y": 10
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d325510_Cw6wYG"
+      ],
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "custom_liquid_HQRByQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<div data-tf-live=\"01K2HMJNKXF4VDNSE608H5T8DM\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn_j9egaE": {
@@ -111,16 +153,6 @@
         "margin_bottom": 0
       }
     },
-    "custom_liquid_HQRByQ": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n<div data-tf-live=\"01K2HMJNKXF4VDNSE608H5T8DM\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script></div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "le_callout_giQRGA": {
       "type": "le_callout",
       "blocks": {
@@ -146,10 +178,55 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "rich_text_7r7exL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BTWxXc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_KUACbb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_QjQQim": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BTWxXc",
+        "text_KUACbb",
+        "button_QjQQim"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
+    "1755086670ac734305",
+    "rich_text_7r7exL",
     "custom_liquid_HQRByQ",
     "multicolumn_j9egaE",
     "le_steps_HFeybg",
