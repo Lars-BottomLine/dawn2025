@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "175508816307fb053e": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -27,7 +31,7 @@
             "after_image": "shopify://shop_images/happy.webp",
             "aspect_ratio": 60,
             "border_radius": 8,
-            "handle_size": 40,
+            "handle_size": 32,
             "handle_color": "#39eaf5",
             "handle_border_color": "#00268a",
             "arrow_color": "#00268a",
@@ -38,7 +42,7 @@
             "label_font_size": 14,
             "label_background_color": "#00268a",
             "label_text_color": "#ffffff",
-            "label_position_x": 10,
+            "label_position_x": 9,
             "label_position_y": 10
           },
           "blocks": {}
@@ -213,6 +217,7 @@
     }
   },
   "order": [
+    "175508816307fb053e",
     "main",
     "1755086670ac734305",
     "rich_text_7r7exL",
