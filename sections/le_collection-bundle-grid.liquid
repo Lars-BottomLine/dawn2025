@@ -60,7 +60,8 @@
 <div class="le_collection-bundle-grid
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             sa-bg-{{ section.settings.section_bkgr }}
-            {{ section_classes }}">
+            {{ section_classes }}
+            {{ section.settings.custom_class_names }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
 
       {% if section.settings.title != blank or section.settings.text != blank %}
@@ -247,6 +248,17 @@
         }
       ],
       "default": "primary"
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
     },
 
     {
