@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "1755086670ac734305": {
       "type": "_blocks",
       "blocks": {
@@ -41,11 +49,35 @@
       ],
       "settings": {}
     },
-    "main": {
-      "type": "main-page",
+    "rich_text_7r7exL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BTWxXc": {
+          "type": "heading",
+          "settings": {
+            "heading": "You're on the brink of changing your life",
+            "heading_size": "h1"
+          }
+        },
+        "text_KUACbb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take our quick career quiz to discover the fitness path that fits your lifestyle, passions and goals. It only takes a minute and could shape the rest of your career.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BTWxXc",
+        "text_KUACbb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "custom_liquid_HQRByQ": {
@@ -177,49 +209,6 @@
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
-      }
-    },
-    "rich_text_7r7exL": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_BTWxXc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_KUACbb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_QjQQim": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BTWxXc",
-        "text_KUACbb",
-        "button_QjQQim"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
