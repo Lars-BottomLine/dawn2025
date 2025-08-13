@@ -115,7 +115,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\">\n   <strong>TEST</strong> test\n</div>",
+        "custom_liquid": "<div class=\"page-width\">\n<div data-tf-live=\"01K2HMJNKXF4VDNSE608H5T8DM\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -150,9 +150,9 @@
   },
   "order": [
     "main",
+    "custom_liquid_HQRByQ",
     "multicolumn_j9egaE",
     "le_steps_HFeybg",
-    "custom_liquid_HQRByQ",
     "le_callout_giQRGA"
   ]
 }
