@@ -120,12 +120,39 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "le_callout_giQRGA": {
+      "type": "le_callout",
+      "blocks": {
+        "button_RtHqRc": {
+          "type": "button",
+          "settings": {
+            "title": "Click Me",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_RtHqRc"
+      ],
+      "name": "t:sections.le_callout.presets.name",
+      "settings": {
+        "heading": "<p>Heading</p>",
+        "text": "<p>Text</p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "multicolumn_j9egaE",
     "le_steps_HFeybg",
-    "custom_liquid_HQRByQ"
+    "custom_liquid_HQRByQ",
+    "le_callout_giQRGA"
   ]
 }

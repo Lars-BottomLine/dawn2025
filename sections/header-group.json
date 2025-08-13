@@ -11,6 +11,41 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "1755084133c5eab34c": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d88b1aa_MkxT9n": {
+          "type": "ai_gen_block_d88b1aa",
+          "settings": {
+            "before_image": "shopify://shop_images/sad.webp",
+            "after_image": "shopify://shop_images/happy.webp",
+            "aspect_ratio": 60,
+            "border_radius": 8,
+            "handle_size": 50,
+            "handle_color": "#39eaf5",
+            "handle_border_color": "#00268a",
+            "handle_border_width": 2,
+            "handle_icon_color": "#00268a",
+            "divider_width": 3,
+            "divider_color": "#ffffff",
+            "show_labels": true,
+            "before_label": "Before",
+            "after_label": "After",
+            "label_font_size": 14,
+            "label_background_color": "#00268a",
+            "label_text_color": "#ffffff",
+            "label_opacity": 80,
+            "label_position_x": 11,
+            "label_position_y": 10
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d88b1aa_MkxT9n"
+      ],
+      "settings": {}
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -60,6 +95,7 @@
     }
   },
   "order": [
+    "1755084133c5eab34c",
     "announcement-bar",
     "header"
   ]
