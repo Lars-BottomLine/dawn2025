@@ -275,15 +275,13 @@
       "type": "le_collection-bundle-grid",
       "name": "Step 2: Choose your bundle",
       "settings": {
-        "title": "<p><strong>Step 2: </strong>Choose your course or bundle</p>",
-        "text": "<p>Pick the training option that fits your lifestyle, ambitions, timeline, and passion.</p>",
-        "products_per_page": 20,
         "title": "<p><strong>Step 2: </strong>Choose your course or bundle</p>",
         "text": "<p>Pick the training option that fits your lifestyle, ambitions, timeline, and passion.</p>",
         "products_per_page": 36,
         "columns_desktop": 3,
         "columns_mobile": "2",
         "section_bkgr": "primary",
+        "custom_class_names": ".anchor-step2",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 20,
@@ -412,7 +410,7 @@
         "accordion_row_aPg9Rd": {
           "type": "accordion_row",
           "settings": {
-            "heading": "3. Menopause Wellness Specialist ",
+            "heading": "3. Menopause Wellness Specialist",
             "row_content": ""
           }
         },
