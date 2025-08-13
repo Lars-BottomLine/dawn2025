@@ -322,6 +322,17 @@
         }
       }
     },
+
+    "custom_classes": {
+      "name": "Custom Classes",
+      "settings": {
+        "paragraph": "Add a custom class to a section or block",
+        "class_names": {
+          "label": "Class names with dots and at least one space between them"
+        }
+      }
+    },
+
     "cart": {
       "name": "Cart",
       "settings": {

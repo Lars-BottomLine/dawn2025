@@ -1457,5 +1457,20 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "t:settings_schema.custom_classes.name",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "t:settings_schema.custom_classes.settings.paragraph"
+      },
+      {
+        "type": "text",
+        "id": "custom_class_names",
+        "label": "t:settings_schema.custom_classes.settings.class_names.label",
+        "default": ""
+      }
+    ]
   }
 ]
