@@ -60,8 +60,7 @@
 <div class="le_collection-bundle-grid
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             sa-bg-{{ section.settings.section_bkgr }}
-            {{ section_classes }}
-            {{ settings.custom_class_names }}">
+            {{ section_classes }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
 
       {% if section.settings.title != blank or section.settings.text != blank %}
