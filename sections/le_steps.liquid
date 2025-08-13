@@ -52,7 +52,8 @@
 
 <div class="sa-section-steps
             section-{{ section.id }}-padding section-{{ section.id }}-margin
-            {{ section_classes }}">
+            {{ section_classes }}
+            {{ section.settings.custom_class_names }}">
     <div class="page-width">
 
         {% if section.settings.heading or section.settings.text %}
@@ -94,7 +95,7 @@
                 </div>
 
                 <div class="st-button">
-                    <div class="sa-button">
+                    <div class="sa-button -hover-grow" data-target="{{ block.settings.button_link }}">
                         <span>{{ block.settings.button_text }}</span>
                     </div>
                 </div>
@@ -105,6 +106,34 @@
         </div>
 
     </div>
+
+    <script>
+        if (!(typeof window.steps_initLinks === "function")) {
+
+            function steps_initLinks() {
+                var links = document.querySelectorAll('.st-button .sa-button');
+                for (var i = 0; i < links.length; i++) {
+                    var link = links[i];
+                    link.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        var target = document.querySelector('.' + this.getAttribute('data-target'));
+                        if (target) {
+                            target.scrollIntoView({
+                                behavior: 'smooth'
+                            })
+                        }
+                    })
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function () {
+                    steps_initLinks();
+                }, 250);
+            });
+
+        }
+    </script>
 
 </div>
 
@@ -150,6 +179,17 @@
       "id": "text",
       "label": "Text",
       "default": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>"
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
     },
 
     {
@@ -252,7 +292,7 @@
         {
           "type": "text",
           "id": "button_link",
-          "label": "Target"
+          "label": "Target class ('Custom class' option in the section settings)"
         }
       ]
     },

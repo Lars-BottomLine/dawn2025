@@ -45,7 +45,8 @@
             -img-type-{{ section.settings.section_type }} sa-bg-{{ section.settings.section_bkgr }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
             -dcb-{{ section.settings.section_bkgr }} -dct-{{ section.settings.section_bkgr }}
-            {{ section_classes }}">
+            {{ section_classes }}
+            {{ section.settings.custom_class_names }}">
     <div class="page-width -section-content w-full">
 
         <div class="f2f-header pl-20 pb-32">
@@ -213,6 +214,17 @@
         }
       ],
       "default": "skewed"
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
     },
 
     {
