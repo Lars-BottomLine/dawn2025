@@ -119,11 +119,10 @@
 
         {% # PREVIOUS PRICE (regular_price in this context) %}
         {%- unless product.price_varies == false and product.compare_at_price_varies %}
-          <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-            <s class="price-item price-item--regular">
-              {{ compare_at_price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'}}
-            </s>
-
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+        <s class="price-item price-item--regular">
+          {{ compare_at_price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.' }}
+        </s>
         {%- endunless -%}
 
         {% # PRICE TO PAY (sale_price in this context) %}

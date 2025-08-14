@@ -40,8 +40,8 @@
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
     }
 
     @media screen and (min-width: 750px) {

@@ -34,8 +34,8 @@
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-        margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
     }
 
     @media screen and (min-width: 750px) {
@@ -45,7 +45,7 @@
         }
         .section-{{ section.id }}-margin {
             margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-            margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
         }
     }
 {%- endstyle -%}
@@ -80,24 +80,28 @@
         {%- for block in section.blocks -%}
             <div class="st-step">
 
-                <div class="st-number">
+                <div class="st-left st-number">
                     {{ block.settings.number }}
                 </div>
 
-                <div class="flex gap-4 flex-col">
-                    <div class="st-title _text-p !font-bold">
-                        {{ block.settings.title }}
+                <div class="st-right">
+
+                    <div class="flex gap-4 flex-col">
+                        <div class="st-title _text-p !font-bold">
+                            {{ block.settings.title }}
+                        </div>
+
+                        <div class="st-text text-small">
+                            {{ block.settings.text }}
+                        </div>
                     </div>
 
-                    <div class="st-text text-small">
-                        {{ block.settings.text }}
+                    <div class="st-button">
+                        <div class="sa-button -hover-grow" data-target="{{ block.settings.button_link }}">
+                            <span>{{ block.settings.button_text }}</span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="st-button">
-                    <div class="sa-button -hover-grow" data-target="{{ block.settings.button_link }}">
-                        <span>{{ block.settings.button_text }}</span>
-                    </div>
                 </div>
 
             </div>
@@ -106,6 +110,7 @@
         </div>
 
     </div>
+
 
     <script>
         if (!(typeof window.steps_initLinks === "function")) {
