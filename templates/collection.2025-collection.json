@@ -555,6 +555,64 @@
         "show_collection_image": true,
         "color_scheme": "scheme-1"
       }
+    },
+    "le_image_slider_yLkKTG": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_DyjVnX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-cimspa.png"
+          }
+        },
+        "slide_nXiRgy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-rsph.png"
+          }
+        },
+        "slide_a7qPGC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-uk-active.png"
+          }
+        },
+        "slide_m6rGDg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-active-iq.png"
+          }
+        },
+        "slide_gkVLNK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-association-for-nutrition.png"
+          }
+        },
+        "slide_wJLrLm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-the-gym-group.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DyjVnX",
+        "slide_nXiRgy",
+        "slide_a7qPGC",
+        "slide_m6rGDg",
+        "slide_gkVLNK",
+        "slide_wJLrLm"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -570,6 +628,7 @@
     "le_accordion_BBeCm7",
     "le_text_and_background_RnPrid",
     "product-grid",
-    "banner"
+    "banner",
+    "le_image_slider_yLkKTG"
   ]
 }
