@@ -120,6 +120,7 @@ body {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  letter-spacing: 0;
 }
 
 strong {
@@ -1101,6 +1102,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 .multicolumn slider-component {
   padding: 0 5rem;
 }
+.multicolumn .multicolumn-list {
+  gap: 4rem;
+}
 .multicolumn h2.title {
   line-height: 1.05;
   letter-spacing: -0.05rem;
@@ -1241,7 +1245,7 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 }
 
 .sa-swiper-wrapper .swiper-slide {
-  height: 660px;
+  height: 69rem;
   display: flex;
   background-size: cover !important;
   background-position: center;
@@ -1332,6 +1336,55 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   height: 4rem;
   background: var(--color-primary);
   transform: skewY(4deg);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide {
+  background: transparent;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside,
+.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside {
+  margin: 1.5rem;
+  transition: transform 250ms;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside .slideshow__media,
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside .slideshow__media,
+.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside .slideshow__media,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside .sa-swiper-content {
+  width: calc(100% - 3rem);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside:hover,
+.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside:hover,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside:hover {
+  transform: scale(1.025);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside {
+  transition: transform 250ms;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover {
+  transform: scale(1.025);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card.sa-swiper,
+.sa-swiper-wrapper .sa-swiper-type-featured.sa-swiper,
+.sa-swiper-wrapper .sa-swiper-type-testimonial.sa-swiper {
+  margin-left: -1.5rem !important;
+  margin-right: -1.5rem !important;
+  margin-top: -1.5rem !important;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-wrapper,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-wrapper,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-wrapper {
+  margin-bottom: -1.5rem;
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card {
   border: red;
@@ -2228,6 +2281,10 @@ header .header__icon--cart .icon {
 .sa-section-steps .st-header .image-with-text__heading {
   color: inherit !important;
   font-weight: 400 !important;
+  margin-bottom: 3rem;
+}
+.sa-section-steps .st-header.-no-blocks {
+  padding-bottom: 0;
 }
 .sa-section-steps .st-content {
   display: flex;
@@ -2265,9 +2322,6 @@ header .header__icon--cart .icon {
   .sa-section-steps .st-header .st-header-text,
   .sa-section-steps .st-header .st-header-text p {
     font-size: 2.2rem;
-  }
-  .sa-section-steps .st-header.-no-blocks {
-    padding-bottom: 0;
   }
   .sa-section-steps .st-content {
     gap: 1.6rem;
@@ -2456,6 +2510,11 @@ header .header__icon--cart .icon {
 .sa-section-callout h2 {
   margin: 0 0 3rem;
   font-weight: 400;
+  font-family: "Atkinson Hyperlegible";
+  letter-spacing: 0;
+}
+.sa-section-callout .co-heading {
+  margin: 0 0 2.1rem;
 }
 .sa-section-callout .co-text {
   margin-bottom: 3rem;

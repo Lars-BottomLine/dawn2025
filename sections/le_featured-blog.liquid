@@ -86,7 +86,7 @@
             </div>
         {%- endunless -%}
 
-        <div id="swiper-{{ section.id }}" class="swiper sa-swiper-type-featured {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div id="swiper-{{ section.id }}" class="swiper sa-swiper sa-swiper-type-featured {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <div class="swiper-wrapper">
                 {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
                     {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
@@ -103,17 +103,17 @@
                                 style="--animation-order: {{ forloop.index }};"
                             {% endif %}
                         >
-
-                            {% render 'le_article-card',
-                                blog: section.settings.blog,
-                                article: article,
-                                media_aspect_ratio: 1.66,
-                                show_image: section.settings.show_image,
-                                show_date: section.settings.show_date,
-                                show_author: section.settings.show_author,
-                                show_excerpt: true
-                            %}
-
+                            <div class="sa-swiper-inside">
+                                {% render 'le_article-card',
+                                    blog: section.settings.blog,
+                                    article: article,
+                                    media_aspect_ratio: 1.66,
+                                    show_image: section.settings.show_image,
+                                    show_date: section.settings.show_date,
+                                    show_author: section.settings.show_author,
+                                    show_excerpt: true
+                                %}
+                            </div>
                         </div>
 
                     {% endfor %}
@@ -162,7 +162,7 @@
         <script>
             // TODO: differentiate between autorotate and autoplay
             var swiper = new Swiper("#swiper-{{ section.id }}", {
-                spaceBetween: 20,
+                spaceBetween: 0,
 
                 loop: true,
 
