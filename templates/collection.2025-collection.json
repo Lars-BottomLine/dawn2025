@@ -127,7 +127,7 @@
         "heading": "<p><strong>Step 1:</strong> Set your goal</p>",
         "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a personal trainer. Then explore our courses to find the one that aligns best with your vision and get specialised to take your wellness game to the next level.</p>",
         "custom_class_names": "anchor-step1",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 40,
@@ -515,8 +515,8 @@
         "stretch_image": true,
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 92,
-        "padding_bottom": 40,
+        "padding_top": 132,
+        "padding_bottom": 80,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -555,6 +555,64 @@
         "show_collection_image": true,
         "color_scheme": "scheme-1"
       }
+    },
+    "le_image_slider_yLkKTG": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_DyjVnX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-cimspa.png"
+          }
+        },
+        "slide_nXiRgy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-rsph.png"
+          }
+        },
+        "slide_a7qPGC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-uk-active.png"
+          }
+        },
+        "slide_m6rGDg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-active-iq.png"
+          }
+        },
+        "slide_gkVLNK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-association-for-nutrition.png"
+          }
+        },
+        "slide_wJLrLm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-the-gym-group.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DyjVnX",
+        "slide_nXiRgy",
+        "slide_a7qPGC",
+        "slide_m6rGDg",
+        "slide_gkVLNK",
+        "slide_wJLrLm"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -16
+      }
     }
   },
   "order": [
@@ -570,6 +628,7 @@
     "le_accordion_BBeCm7",
     "le_text_and_background_RnPrid",
     "product-grid",
-    "banner"
+    "banner",
+    "le_image_slider_yLkKTG"
   ]
 }
