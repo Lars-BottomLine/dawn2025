@@ -1197,6 +1197,42 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   margin-bottom: 5rem;
   color: inherit;
 }
+@media (max-width: 800px) {
+  .le_collection-bundle-grid .colloctions .bg-content {
+    padding: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .le_collection-bundle-grid .grid__item {
+    width: 100%;
+    max-width: 40rem;
+    overflow: hidden;
+    margin: auto;
+  }
+}
+@media (max-width: 749px) {
+  .le_collection-bundle-grid .slider.slider--mobile {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 989px) {
+  .le_collection-bundle-grid .bg-content {
+    padding: 0;
+  }
+  .le_collection-bundle-grid .bg-title {
+    font-size: 3rem;
+    line-height: 1.05;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+  .le_collection-bundle-grid .bg-header {
+    margin-bottom: 3rem;
+  }
+  .le_collection-bundle-grid .bg-header .bg-text {
+    margin-bottom: 3rem;
+  }
+}
 
 :root {
   --swiper-theme-color: cyan !important;
@@ -1606,9 +1642,11 @@ header .header__icon--cart .icon {
   max-width: 56.6rem;
   height: 32rem;
 }
-.sa-section-face2face.-img-type-medium .f2f-image,
-.sa-section-face2face.-img-type-medium .f2f-image img {
-  transform: skewY(0deg);
+@media (min-width: 989px) {
+  .sa-section-face2face.-img-type-medium .f2f-image,
+  .sa-section-face2face.-img-type-medium .f2f-image img {
+    transform: skewY(0deg);
+  }
 }
 .sa-section-face2face.-img-type-medium .f2f-text {
   display: flex;
@@ -1657,16 +1695,39 @@ header .header__icon--cart .icon {
   .sa-section-face2face .f2f-header {
     padding: 2rem 0 2rem 0 !important;
   }
+  .sa-section-face2face .f2f-heading {
+    font-size: 2.2rem !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .sa-section-face2face .f2f-heading .f2f-heading-image {
+    flex: 0 0 3.7rem;
+  }
   .sa-section-face2face .f2f-entry-container {
     padding-bottom: 0;
+  }
+  .sa-section-face2face .f2f-entry-container .f2f-image {
+    height: 23rem !important;
+  }
+  .sa-section-face2face .f2f-right {
+    padding-bottom: 5rem !important;
+  }
+  .sa-section-face2face .f2f-entry {
+    gap: 2rem;
+  }
+  .sa-section-face2face ._subtitle-small li {
+    font-size: 1.5rem;
+    line-height: 1.13;
   }
 }
 @media (max-width: 500px) {
   .sa-section-face2face .f2f-entry {
     max-width: 100%;
   }
-  .sa-section-face2face .f2f-image {
-    height: 16rem;
+  .sa-section-face2face .f2f-entry-container .f2f-image {
+    height: 17rem !important;
   }
 }
 
@@ -2150,7 +2211,7 @@ header .header__icon--cart .icon {
     bottom: 0;
     left: 0;
     width: auto;
-    height: 2rem;
+    height: 9rem;
     background: linear-gradient(180deg, rgba(0, 38, 139, 0) 0%, #00268B 100%);
   }
   .sa-section-textcolsandbkgr .tab-shadow {
@@ -2198,17 +2259,27 @@ header .header__icon--cart .icon {
   gap: 4rem;
 }
 @media (max-width: 640px) {
+  .sa-section-steps .st-header {
+    padding: 0 0 4rem 0;
+  }
+  .sa-section-steps .st-header .st-header-text,
+  .sa-section-steps .st-header .st-header-text p {
+    font-size: 2.2rem;
+  }
+  .sa-section-steps .st-header.-no-blocks {
+    padding-bottom: 0;
+  }
   .sa-section-steps .st-content {
     gap: 1.6rem;
   }
   .sa-section-steps .st-content .st-step {
     max-width: 100%;
-    padding: 2rem;
-    gap: 2rem;
+    padding: 2rem 2rem 2rem 1.4rem;
+    gap: 1.4rem;
     box-shadow: none;
   }
   .sa-section-steps .st-content .st-step .st-number {
-    font-size: 8rem;
+    font-size: 7rem;
   }
   .sa-section-steps .st-content .st-step .st-right {
     flex-direction: column;
@@ -2373,6 +2444,13 @@ header .header__icon--cart .icon {
   .sa-section-featuredproduct .metafield-rich_text_field p {
     font-size: 2.2rem;
   }
+  .sa-section-featuredproduct .fp-heading {
+    padding-left: 0;
+  }
+  .sa-section-featuredproduct .fp-heading h3 {
+    font-size: 2.2rem;
+    line-height: 1.25;
+  }
 }
 
 .sa-section-callout h2 {
@@ -2412,6 +2490,34 @@ header .header__icon--cart .icon {
 }
 .sa-section-callout .co-content .co-image {
   margin-right: 1rem;
+}
+@media (max-width: 640px) {
+  .sa-section-callout {
+    padding: 0 2rem;
+  }
+  .sa-section-callout .co-content {
+    padding: 1.5rem 2rem 2.5rem;
+  }
+  .sa-section-callout h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 2rem;
+    line-height: 1.05;
+  }
+  .sa-section-callout .co-text {
+    text-align: center;
+    margin: 0px 0 2rem;
+  }
+  .sa-section-callout .sa-button {
+    margin: 0 auto;
+  }
+  .sa-section-callout .sa-button span {
+    padding: 1rem 1.4rem;
+    font-size: 2rem;
+  }
+  .sa-section-callout .sa-button .co-button-text {
+    white-space: normal;
+  }
 }
 
 /*# sourceMappingURL=_study-active.css.map */
