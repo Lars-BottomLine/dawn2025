@@ -630,6 +630,16 @@
         "margin_top": 0,
         "margin_bottom": -16
       }
+    },
+    "custom_liquid_TJGTd3": {
+      "type": "custom-liquid",
+      "name": "Trust Pilot iFrame",
+      "settings": {
+        "custom_liquid": "<script>\n        (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};\n            a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];\n            f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');\n            tp('register', 'TNVoeXVhQeOZTGR5');\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -647,6 +657,7 @@
     "le_text_and_background_RnPrid",
     "product-grid",
     "banner",
-    "le_image_slider_yLkKTG"
+    "le_image_slider_yLkKTG",
+    "custom_liquid_TJGTd3"
   ]
 }
