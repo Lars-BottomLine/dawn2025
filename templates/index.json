@@ -405,7 +405,7 @@
         "slide_LzraUC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/cms-screenshot.png",
+            "image": "shopify://shop_images/LMS.gif",
             "heading": "<p>One place for <br/>everything</p>",
             "subheading": "<p>Submit coursework and assessments directly through the LMS, simple and streamlined.</p>"
           }
