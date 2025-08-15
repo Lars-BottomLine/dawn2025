@@ -131,7 +131,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/cattle-bell-weights.png",
+        "image": "shopify://shop_images/cattle-bell-weights-cropped.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
