@@ -448,11 +448,11 @@
         "heading_size": "medium",
         "accordion_width": "full",
         "decal_top": false,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": -140
+        "margin_bottom": 0
       }
     },
     "le_speech_bubble_cc7R7b": {
