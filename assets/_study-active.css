@@ -846,6 +846,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 .footer__content-top .footer-block--contact a {
   color: white;
 }
+.footer__content-top .footer-block--contact a:hover {
+  text-decoration: underline;
+}
 .footer__content-top .footer-block--contact .footer-block__row {
   color: white;
   display: flex;
@@ -1129,7 +1132,7 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 }
 .multicolumn .multicolumn-card__info p {
   font-size: 1.8rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 .multicolumn .multicolumn-card__info p:last-child {
   margin-bottom: 0;
@@ -1158,6 +1161,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   line-height: 1.05;
   color: var(--color-primary);
 }
+.section-main-collection-product-grid .pg-filter-wrapper {
+  gap: 0.6rem;
+}
 .section-main-collection-product-grid .pg-filter-description,
 .section-main-collection-product-grid .pg-tag {
   font-size: 1.8rem;
@@ -1167,7 +1173,7 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 }
 .section-main-collection-product-grid .pg-tag {
   position: relative;
-  padding: 0.9rem 2rem;
+  padding: 0.9rem 1.4rem;
   cursor: pointer;
 }
 .section-main-collection-product-grid .pg-tag span {
@@ -1463,14 +1469,10 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
     height: 588px;
   }
 }
-header .header__heading a {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-header .header__heading img {
-  height: 48px;
-  width: auto;
-  margin-top: -12px;
+header.header .header__heading-logo-wrapper img {
+  width: 12.5rem;
+  height: auto;
+  margin-top: -1.6rem;
 }
 header .header__menu-item {
   color: var(--color-primary);
@@ -2602,6 +2604,9 @@ header .header__icon--cart .icon {
 .sa-section-callout .co-content .co-image {
   margin-right: 1rem;
 }
+.sa-section-callout .co-content .co-image img {
+  width: 3.4rem;
+}
 @media (max-width: 640px) {
   .sa-section-callout {
     padding: 0 2rem;
@@ -2634,13 +2639,13 @@ header .header__icon--cart .icon {
 .sa-section-speechbubble .sb-content {
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-bottom: 8rem;
 }
 .sa-section-speechbubble .sb-content .sb-bubble {
   display: flex;
   color: var(--color-primary);
   background: var(--color-light-blue);
   position: relative;
-  margin-bottom: 8rem;
 }
 .sa-section-speechbubble .sb-content .sb-bubble .sb-left {
   flex: 0 0 31%;
