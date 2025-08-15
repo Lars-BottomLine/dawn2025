@@ -12,6 +12,17 @@
     "le_swiper_cEfnwi": {
       "type": "le_swiper",
       "blocks": {
+        "slide_amcH9C": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pilates-course.png",
+            "heading": "<p>Pilates - <strong>where movement meets mindfullness</strong>.</p>",
+            "subheading": "<p>Move with purpose. <strong>Teach with passion.</strong></p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Find your path",
+            "link": ""
+          }
+        },
         "slide_fAazyy": {
           "type": "slide",
           "settings": {
@@ -47,6 +58,7 @@
         }
       },
       "block_order": [
+        "slide_amcH9C",
         "slide_fAazyy",
         "slide_y66A8G",
         "slide_MaAhy4"
