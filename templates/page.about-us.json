@@ -193,6 +193,22 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "le_speech_bubble_jLWHeV": {
+      "type": "le_speech-bubble",
+      "name": "t:sections.le_speechbubble.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/hannah.png",
+        "heading": "",
+        "message": "",
+        "author": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -200,6 +216,7 @@
     "le_text_and_background_H96qr4",
     "image_with_text_YFiYkq",
     "multicolumn_dT8Ec8",
-    "le_image_with_text_winJhh"
+    "le_image_with_text_winJhh",
+    "le_speech_bubble_jLWHeV"
   ]
 }
