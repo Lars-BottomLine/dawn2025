@@ -402,7 +402,8 @@
           "type": "accordion_row",
           "settings": {
             "heading": "1. Wellness Coach",
-            "row_content": "<p><strong>Salary: </strong>£25,000–£45,000+</p><p><strong>Description:<br/></strong>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook:<br/></strong>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year.</p>"
+            "row_content": "<p><strong>Salary: </strong>£25,000–£45,000+</p><p><strong>Description:<br/></strong>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook:<br/></strong>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year.</p>",
+            "image": "shopify://shop_images/women-doing-yoga-worrier-pose.jpg"
           }
         },
         "accordion_row_gJz7kM": {
@@ -630,16 +631,6 @@
         "margin_top": 0,
         "margin_bottom": -16
       }
-    },
-    "custom_liquid_TJGTd3": {
-      "type": "custom-liquid",
-      "name": "Trust Pilot iFrame",
-      "settings": {
-        "custom_liquid": "<script>\n        (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};\n            a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];\n            f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');\n            tp('register', 'TNVoeXVhQeOZTGR5');\n</script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -657,7 +648,6 @@
     "le_text_and_background_RnPrid",
     "product-grid",
     "banner",
-    "le_image_slider_yLkKTG",
-    "custom_liquid_TJGTd3"
+    "le_image_slider_yLkKTG"
   ]
 }
