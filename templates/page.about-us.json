@@ -16,9 +16,95 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "le_text_and_background_H96qr4": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_hG6yfm": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>Meet the Study Active Team</p>",
+            "heading_type": "h1"
+          }
+        },
+        "row2col_xQRjJB": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p></p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p></p><p>Get to know the team that’s helping shape the next generation of fitness professionals.</p>",
+            "text1_size": "medium",
+            "text2": "",
+            "text2_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_hG6yfm",
+        "row2col_xQRjJB"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/high-five.webp",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "image_with_text_YFiYkq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fVhEgc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_beApqz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_K6wT4M": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fVhEgc",
+        "text_beApqz",
+        "button_K6wT4M"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/about-study-active.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "le_text_and_background_H96qr4",
+    "image_with_text_YFiYkq"
   ]
 }
