@@ -61,12 +61,65 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "le_accordion_XXkJgY": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_azWBrq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "The Wellness Personal Trainer Path",
+            "row_content": "<p>Want to help people feel better, live longer, and move with confidence? The Wellness Personal Trainer Pathway focuses on holistic health and long-term wellbeing. </p><p>As a wellness-focused coach, you'll support clients physically, mentally, and emotionally. You'll work often with those managing stress, lifestyle changes, or long-term health conditions. </p><p>It’s a deeply fulfilling route for those who care about meaningful, lasting change. Potential roles include wellness coach, lifestyle trainer, or specialist PTs in mental health and behavioural change. This is ideal for empathetic people who want to coach others towards balance, confidence, and vitality.</p>"
+          }
+        },
+        "accordion_row_qw6idr": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_ix3FMi": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_YGptwd": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_azWBrq",
+        "accordion_row_qw6idr",
+        "accordion_row_ix3FMi",
+        "accordion_row_YGptwd"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Learn more about your path",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "175508816307fb053e",
     "main",
     "rich_text_7r7exL",
-    "custom_liquid_HQRByQ"
+    "custom_liquid_HQRByQ",
+    "le_accordion_XXkJgY"
   ]
 }
