@@ -401,14 +401,15 @@
         "accordion_row_Jtdtp7": {
           "type": "accordion_row",
           "settings": {
+            "image": "shopify://shop_images/women-doing-yoga-worrier-pose.jpg",
             "heading": "1. Wellness Coach",
-            "row_content": "<p><strong>Salary: </strong>£25,000–£45,000+</p><p><strong>Description:<br/></strong>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook:<br/></strong>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year.</p>",
-            "image": "shopify://shop_images/women-doing-yoga-worrier-pose.jpg"
+            "row_content": "<p><strong>Salary: </strong>£25,000–£45,000+</p><p><strong>Description:<br/></strong>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook:<br/></strong>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year.</p>"
           }
         },
         "accordion_row_gJz7kM": {
           "type": "accordion_row",
           "settings": {
+            "image": "shopify://shop_images/pregnant-woman-exercising-with-trainer.jpg",
             "heading": "2. Pre & Postnatal Fitness and Nutrition Specialist",
             "row_content": "<p><strong>Salary: </strong>£30,000–£50,000+</p><p><strong>Description:</strong><br/>These specialists support pregnant and postpartum clients with safe, tailored exercise and nutrition plans. Roles are often freelance or clinic-based, with increasing collaboration in maternity care and private wellness centres.</p><p><strong>Growth Outlook:<br/></strong>High growth due to rising awareness of maternal health and increased demand for specialised fitness professionals in this space.</p>"
           }
@@ -416,8 +417,9 @@
         "accordion_row_aPg9Rd": {
           "type": "accordion_row",
           "settings": {
+            "image": "shopify://shop_images/two-women-in-gym.jpg",
             "heading": "3. Menopause Wellness Specialist",
-            "row_content": ""
+            "row_content": "<p><strong>Salary: </strong>£28,000–£50,000+</p><p><strong>Description:<br/></strong>Professionals in this area support clients navigating menopause with lifestyle advice, movement plans, and nutrition strategies. Work includes one-on-one coaching, workshops, or working within corporate or clinical wellness teams.</p><p><strong>Growth Outlook:</strong><br/>Strong and increasing, as menopause support becomes a major focus in health and workplace policies.</p>"
           }
         },
         "accordion_row_jzNV7x": {
