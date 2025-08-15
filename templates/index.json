@@ -125,6 +125,38 @@
     "le_swiper_wanmRJ": {
       "type": "le_swiper",
       "blocks": {
+        "slide_EARkB6": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Button label",
+            "link": ""
+          }
+        },
+        "slide_6b9AYM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pilates-instructor.webp",
+            "heading": "<p>Pilates Instructor</p>",
+            "subheading": "<p>Help people move better, feel stronger, and reconnect with their bodies.</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Get balanced",
+            "link": ""
+          }
+        },
+        "slide_zhVUtt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/wellness-instructor.webp",
+            "heading": "<p>Personal Trainer</p>",
+            "subheading": "<p>Design tailored fitness programmes and provide one-on-one coaching to help clients reach their goals.</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Get moving",
+            "link": ""
+          }
+        },
         "slide_rnxKKc": {
           "type": "slide",
           "settings": {
@@ -161,16 +193,19 @@
         "slide_maeRdP": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/group-doing-movement-therapy.jpg",
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
+            "image": "shopify://shop_images/sports-massage-therapist.webp",
+            "heading": "<p>Sports Massage Therapist</p>",
+            "subheading": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
             "text_content": "<p>Text</p>",
-            "button_label": "Button label",
+            "button_label": "Let's help",
             "link": ""
           }
         }
       },
       "block_order": [
+        "slide_EARkB6",
+        "slide_6b9AYM",
+        "slide_zhVUtt",
         "slide_rnxKKc",
         "slide_UCdfUG",
         "slide_pccUEh",
@@ -368,9 +403,11 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "section_type": "blue_background",
+        "section_bkgr": "primary",
         "headline": "<p>Flexible learning, built for life</p>",
         "subheadline": "Our cutting-edge Learning Management System (LMS) gives you everything you need to succeed — on your terms.",
+        "section_type": "blue_background",
+        "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
@@ -655,6 +692,8 @@
       "settings": {
         "template_type": "blue",
         "headline": "Frequently asked questions",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
