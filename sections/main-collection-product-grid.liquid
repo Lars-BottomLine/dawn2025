@@ -17,6 +17,8 @@
   endif
   # ---------------------------------
 
+    assign section_selector = '#shopify-section-' | append: section.id
+
 %}
 
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
@@ -313,9 +315,84 @@
       </div>
     </div>
   {%- endpaginate -%}
+
   {% if section.settings.image_shape == 'arch' %}
     {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
+
+    <script>
+        // only enter here if we have not added the js before in another section
+        if (!(typeof window.pg_initFilter === "function")) {
+
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function () {
+                    pg_initFilter();
+                }, 250);
+            });
+
+            function pg_initFilter() {
+                const debug = false;
+
+                if (debug) console.log('pg_initFilter', '{{ product.id }}', '{{ section.id }}');
+
+                document.querySelectorAll('{{ section_selector }} .pg-filter-wrapper .pg-tag.-filter').forEach( prod_filter => {
+                    prod_filter.addEventListener('click', function (e) {
+                        e.preventDefault();
+
+                        const tag_slug = prod_filter.getAttribute('data-tag-slug');
+                        const tag_name = prod_filter.querySelector('span').innerText;
+                        const iz_selected = prod_filter.classList.contains('-selected');
+
+                        if (debug) console.log('prod_filter clicked', prod_filter, tag_slug, tag_name);
+
+                        // already selected
+                        if (iz_selected || tag_slug == 'show-all') {
+                            pg_unselectAllFilters();
+                            pg_showAllThumbs();
+                            pg_selectFilter( 'show-all');
+
+                        // do the actual filtering
+                        } else {
+                            pg_unselectAllFilters();
+                            pg_selectFilter( tag_slug );
+
+                            // FILTER BY TAG / hide thumbs that don't match the tag
+                            document.querySelectorAll('{{ section_selector }} product-thumb').forEach(thumb => {
+                                const product_tags = thumb.getAttribute('data-product-tags');
+                                const product_id = thumb.getAttribute('data-product-id');
+
+                                if (product_tags.indexOf(tag_slug) > -1) {
+                                    thumb.parentElement.classList.remove('hidden');
+                                } else {
+                                    thumb.parentElement.classList.add('hidden');
+                                }
+                            });
+                        }
+
+                    });
+                });
+            }
+
+            function pg_selectFilter( filter_slug ) {
+                document.querySelector('{{ section_selector }} .pg-filter-wrapper .pg-tag.-filter[data-tag-slug="'+filter_slug+'"]').classList.add('-selected');
+            }
+
+            // show all thumbs
+            function pg_showAllThumbs() {
+                document.querySelectorAll('{{ section_selector }} product-thumb').forEach(thumb => {
+                    thumb.parentElement.classList.remove('hidden');
+                })
+            }
+
+            // deselect all other filters
+            function pg_unselectAllFilters() {
+                document.querySelectorAll('{{ section_selector }} .pg-filter-wrapper .pg-tag.-filter').forEach( filter_ele => {
+                    filter_ele.classList.remove('-selected');
+                })
+            }
+        }
+    </script>
+
 </div>
 
 {% schema %}
