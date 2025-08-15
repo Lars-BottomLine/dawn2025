@@ -455,6 +455,23 @@
         "margin_bottom": -140
       }
     },
+    "le_speech_bubble_cc7R7b": {
+      "type": "le_speech-bubble",
+      "name": "t:sections.le_speechbubble.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/woman-in-gym.jpg",
+        "heading": "<p><strong>Case Study:</strong></p><p>From Learner to Earning</p>",
+        "icon": "shopify://shop_images/speech-bubble-with-person.svg",
+        "message": "\"I’d been working part-time in retail and training at my local gym when I decided to take the leap. I did the Level 3 course with Study Active and bundled it with the wellness specialisation. Within a month of finishing, I had two job offers, one of them was through my guaranteed interview at The Gym Group. Now I’ve got a growing list of clients and I’m doing something that actually makes a difference.\"",
+        "author": "Jordan W., Qualified Wellness Personal Trainer",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_text_and_background_RnPrid": {
       "type": "le_text-and-background",
       "blocks": {
@@ -626,6 +643,7 @@
     "le_face2face_AznrtC",
     "multicolumn_9fLMCE",
     "le_accordion_BBeCm7",
+    "le_speech_bubble_cc7R7b",
     "le_text_and_background_RnPrid",
     "product-grid",
     "banner",
