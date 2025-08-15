@@ -92,14 +92,18 @@
 
                         </div>
                         <div class="le-acc-content">
+                            {% if block.settings.image %}
                             <div class="lac-left">
-                                {{ block.settings.image
-                                    | image_url: width: 550
-                                    | image_tag:
-                                    loading: 'lazy',
-                                    widths: '300, 550, 800'
-                                }}
+                                <div class="lac-image">
+                                    {{ block.settings.image
+                                        | image_url: width: 550
+                                        | image_tag:
+                                        loading: 'lazy',
+                                        widths: '300, 550, 800'
+                                    }}
+                                </div>
                             </div>
+                            {% endif %}
                             <div class="lac-right">
                                 {{ block.settings.row_content }}
                             </div>
@@ -258,6 +262,11 @@
             "name": "t:sections.collapsible_content.blocks.collapsible_row.name",
             "settings": [
                 {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image"
+                },
+                {
                     "type": "text",
                     "id": "heading",
                     "default": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.default",
@@ -267,11 +276,6 @@
                     "type": "richtext",
                     "id": "row_content",
                     "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
-                },
-                {
-                  "type": "image_picker",
-                  "id": "image",
-                  "label": "Image"
                 }
             ]
         }
