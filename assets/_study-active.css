@@ -1101,7 +1101,8 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 }
 @media screen and (min-width: 990px) {
   .image-with-text .image-with-text__content {
-    padding: 5rem 2rem 5rem 5rem;
+    padding: 0 2rem 5rem 5rem;
+    overflow: visible;
   }
 }
 @media screen and (max-width: 989px) {
@@ -1472,7 +1473,7 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 header.header .header__heading-logo-wrapper img {
   width: 12.5rem;
   height: auto;
-  margin-top: -1.6rem;
+  margin-top: -1.4rem;
 }
 header .header__menu-item {
   color: var(--color-primary);
@@ -1564,6 +1565,21 @@ header .header__icon--cart .icon {
   .sa-section-image-with-text .sa-image-with-text .image-with-text__content {
     padding: 8rem 12rem 10rem;
   }
+}
+.sa-section-image-with-text.-haz-newsletter .image-with-text__media-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.sa-section-image-with-text.-haz-newsletter .image-with-text__media {
+  padding: 0 !important;
+  min-height: 100% !important;
+}
+.sa-section-image-with-text.-haz-newsletter .page-width.image-with-text__content--middle {
+  padding: 15rem 0 15rem;
+  position: relative;
 }
 .sa-section-image-with-text.-haz-newsletter .image-with-text__content {
   padding: 3rem;
