@@ -238,7 +238,7 @@
         "headline": "<p>Course Bundles & Specialisations</p>",
         "subheadline": "",
         "section_type": "medium",
-        "custom_class_names": "",
+        "custom_class_names": "-small-text",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 0,
