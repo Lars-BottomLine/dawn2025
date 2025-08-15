@@ -843,6 +843,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 .footer__content-top .footer-block--contact {
   max-width: 32rem !important;
 }
+.footer__content-top .footer-block--contact a {
+  color: white;
+}
 .footer__content-top .footer-block--contact .footer-block__row {
   color: white;
   display: flex;
