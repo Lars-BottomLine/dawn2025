@@ -1085,10 +1085,10 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   margin-top: 2.4rem;
 }
 .image-with-text .image-with-text__media-item {
-  flex: 1 1 42.5%;
+  flex: 1 1 44.5%;
 }
 .image-with-text .image-with-text__text-item {
-  flex: 1 1 57.5%;
+  flex: 1 1 55.5%;
 }
 .image-with-text .image-with-text__grid--reverse {
   display: flex;
@@ -1102,7 +1102,7 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 @media screen and (min-width: 990px) {
   .image-with-text .image-with-text__content {
     padding: 0 2rem 5rem 5rem;
-    overflow: visible;
+    overflow: visible !important;
   }
 }
 @media screen and (max-width: 989px) {
@@ -1341,7 +1341,6 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   flex: 1 1;
   justify-content: start;
   background: var(--color-primary);
-  position: relative;
   padding: 4rem 3rem;
 }
 .sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-content:before,
@@ -1350,7 +1349,7 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   content: "";
   position: absolute;
   right: 0;
-  top: -1.6rem;
+  top: 27.4rem;
   width: 100%;
   height: 4rem;
   background: var(--color-primary);
@@ -1360,38 +1359,66 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide {
   background: transparent;
-}
-.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside,
-.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside {
-  margin: 1.5rem;
-  transition: transform 250ms;
-  height: 100% !important;
-  display: flex;
-  flex-direction: column;
-}
-.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside .slideshow__media,
-.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside .sa-swiper-content,
-.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside .slideshow__media,
-.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside .sa-swiper-content,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside .slideshow__media,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside .sa-swiper-content {
-  width: calc(100% - 3rem);
-}
-.sa-swiper-wrapper .sa-swiper-type-job-card .sa-swiper-inside:hover,
-.sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-inside:hover,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .sa-swiper-inside:hover {
-  transform: scale(1.025);
+  position: relative;
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside,
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside {
+  margin: 1.5rem;
+  transition: transform 250ms, background-color 250ms, box-shadow 250ms;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 3rem);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside .slideshow__media,
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside .sa-swiper-content:before,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside .slideshow__media,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside .sa-swiper-content:before,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside .slideshow__media,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside .sa-swiper-content:before {
+  transition: background-color 250ms;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside a.sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside a.sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside a.sa-swiper-button svg {
   transition: transform 250ms;
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside a.sa-swiper-button:after,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside a.sa-swiper-button:after,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside a.sa-swiper-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 255, 255, 0.3);
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover,
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover {
-  transform: scale(1.025);
+  transform: translateY(-1rem);
+  box-shadow: 0 3px 6px 0 var(--color-dark-blue);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-content,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover .sa-swiper-content {
+  background-color: var(--color-primary);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-content .sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-content .sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover .sa-swiper-content .sa-swiper-button svg {
+  transform: translateX(1rem);
+}
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-content:before,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-content:before,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover .sa-swiper-content:before {
+  background-color: var(--color-primary);
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card.sa-swiper,
 .sa-swiper-wrapper .sa-swiper-type-featured.sa-swiper,
@@ -2092,11 +2119,11 @@ header .header__icon--cart .icon {
   color: var(--color-primary);
 }
 .sa-section-lefeaturedblog .sa-swiper-wrapper .card.article-card {
-  background: var(--color-light-blue);
+  background: var(--color-light-blue) !important;
 }
 .sa-section-lefeaturedblog .sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-content,
 .sa-section-lefeaturedblog .sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-content:before {
-  background: var(--color-light-blue);
+  background: var(--color-light-blue) !important;
 }
 .sa-section-lefeaturedblog .sa-swiper-wrapper .sa-swiper-type-featured .sa-swiper-content:before {
   display: none;
