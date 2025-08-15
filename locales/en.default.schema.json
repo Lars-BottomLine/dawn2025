@@ -3123,6 +3123,14 @@
       }
     },
 
+    "le_speechbubble": {
+      "name": "StudyActive - Speech Bubble",
+      "presets": {
+        "name": "StudyActive - Speech Bubble"
+      }
+    },
+
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
