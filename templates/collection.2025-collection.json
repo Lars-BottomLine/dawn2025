@@ -433,8 +433,9 @@
         "accordion_row_izTykj": {
           "type": "accordion_row",
           "settings": {
+            "image": "shopify://shop_images/workout-high-five.jpg",
             "heading": "5. Health & Behaviour Change Coach",
-            "row_content": ""
+            "row_content": "<p><strong>Salary:</strong> £26,000–£42,000+</p><p><strong>Description:<br/></strong>These coaches help clients manage chronic conditions and mental health challenges through motivational strategies, active listening, and tailored wellness plans. Often found in NHS programmes, local councils, or wellbeing charities.  </p><p><strong>Growth Outlook:</strong><br/>Rapidly expanding, especially in public health and social care settings focused on preventative care.</p>"
           }
         }
       },
