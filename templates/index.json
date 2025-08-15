@@ -125,27 +125,6 @@
     "le_swiper_wanmRJ": {
       "type": "le_swiper",
       "blocks": {
-        "slide_EARkB6": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Button label",
-            "link": ""
-          }
-        },
-        "slide_6b9AYM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pilates-instructor.webp",
-            "heading": "<p>Pilates Instructor</p>",
-            "subheading": "<p>Help people move better, feel stronger, and reconnect with their bodies.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Get balanced",
-            "link": ""
-          }
-        },
         "slide_zhVUtt": {
           "type": "slide",
           "settings": {
@@ -157,6 +136,17 @@
             "link": ""
           }
         },
+        "slide_EARkB6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fitness-influencer.webp",
+            "heading": "<p>Fitness Influencer</p>",
+            "subheading": "<p>Help people all over the world stay fit, from anywhere you want.</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Influence others",
+            "link": ""
+          }
+        },
         "slide_rnxKKc": {
           "type": "slide",
           "settings": {
@@ -165,6 +155,17 @@
             "subheading": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
             "text_content": "<p>Text</p>",
             "button_label": "Let's go",
+            "link": ""
+          }
+        },
+        "slide_6b9AYM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pilates-instructor_5a7afca3-b4d6-47df-8b46-864f68c66dfa.webp",
+            "heading": "<p>Pilates Instructor</p>",
+            "subheading": "<p>Help people move better, feel stronger, and reconnect with their bodies.</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Get balanced",
             "link": ""
           }
         },
@@ -186,7 +187,7 @@
             "heading": "<p>Strength & Conditioning Coach</p>",
             "subheading": "<p>Help athletes improve performance through targeted, science-based training.</p>",
             "text_content": "<p>Text</p>",
-            "button_label": "Get Strong",
+            "button_label": "Get strong",
             "link": ""
           }
         },
@@ -203,10 +204,10 @@
         }
       },
       "block_order": [
-        "slide_EARkB6",
-        "slide_6b9AYM",
         "slide_zhVUtt",
+        "slide_EARkB6",
         "slide_rnxKKc",
+        "slide_6b9AYM",
         "slide_UCdfUG",
         "slide_pccUEh",
         "slide_maeRdP"
