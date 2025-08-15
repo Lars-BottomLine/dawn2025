@@ -66,39 +66,50 @@
 
 <div class="sa-section-accordion -template-{{ section.settings.template_type }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
-            md:px-32 md:pb-32
             {{ section_classes }}">
     <div class="page-width -section-content {% if section.settings.accordion_width == 'narrow' %} -narrow-section {% endif %}">
+        <div class="ac-content">
 
-        {% if  section.settings.headline != blank %}
-        <h2 class="-no-indent -{{ section.settings.heading_size }}">
-            {{ section.settings.headline }}
-        </h2>
-        {% endif %}
+            {% if  section.settings.headline != blank %}
+            <h2 class="-no-indent -{{ section.settings.heading_size }}">
+                {{ section.settings.headline }}
+            </h2>
+            {% endif %}
 
-        <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %}">
-            {%- for block in section.blocks -%}
+            <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %}">
+                {%- for block in section.blocks -%}
 
-                <div class="le-acc-entry -with-arrow">
-                    <div class="le-acc-header">
+                    <div class="le-acc-entry -with-arrow">
+                        <div class="le-acc-header">
 
-                        <span class="_text-normal">
-                            {{ block.settings.heading }}
-                        </span>
+                            <span class="_text-normal">
+                                {{ block.settings.heading }}
+                            </span>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
-                            <path d="M9.21191 16.0566L9.21191 0.83789L11.7119 0.83789L11.7119 16.0566L18.7119 9.05664L20.4619 10.8379L10.4619 20.8379L0.461914 10.8379L2.21191 9.05664L9.21191 16.0566Z" fill="white"/>
-                        </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                <path d="M9.21191 16.0566L9.21191 0.83789L11.7119 0.83789L11.7119 16.0566L18.7119 9.05664L20.4619 10.8379L10.4619 20.8379L0.461914 10.8379L2.21191 9.05664L9.21191 16.0566Z" fill="white"/>
+                            </svg>
 
+                        </div>
+                        <div class="le-acc-content">
+                            <div class="lac-left">
+                                {{ block.settings.image
+                                    | image_url: width: 550
+                                    | image_tag:
+                                    loading: 'lazy',
+                                    widths: '300, 550, 800'
+                                }}
+                            </div>
+                            <div class="lac-right">
+                                {{ block.settings.row_content }}
+                            </div>
+                        </div>
                     </div>
-                    <div class="le-acc-content">
-                        {{ block.settings.row_content }}
-                    </div>
-                </div>
 
-            {% endfor %}
+                {% endfor %}
+            </div>
+
         </div>
-
     </div>
 </div>
 
@@ -256,6 +267,11 @@
                     "type": "richtext",
                     "id": "row_content",
                     "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
+                },
+                {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image"
                 }
             ]
         }

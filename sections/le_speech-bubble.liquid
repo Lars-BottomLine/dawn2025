@@ -48,61 +48,71 @@
 
         <div class="sb-content">
 
-            {% # LEFT
-               # --------------------- %}
-            {% if section.settings.image %}
-            <div class="sb-left">
-                <div class="sb-image">
-                        <img src="{{ section.settings.image.url }}" alt="{{ section.settings.image.alt }}" />
+            <div class="sb-bubble">
+
+                <div class="sb-arrow"></div>
+
+                {% # LEFT
+                   # --------------------- %}
+                {% if section.settings.image %}
+                <div class="sb-left">
+                    <div class="sb-image">
+                        {{ section.settings.image
+                            | image_url: width: 550
+                            | image_tag:
+                            loading: 'lazy',
+                            widths: '300, 550, 800, 1100'
+                        }}
+                    </div>
+
                 </div>
-            </div>
-            {% endif %}
+                {% endif %}
 
-            {% # RIGHT
-               # --------------------- %}
-            <div class="sb-right">
+                {% # RIGHT
+                   # --------------------- %}
+                <div class="sb-right">
 
-                {% if section.settings.heading or section.settings.icon %}
-                <div class="sb-header">
+                    {% if section.settings.heading or section.settings.icon %}
+                    <div class="sb-header">
 
-                    {% # ICON %}
-                    {% if section.settings.icon %}
-                        <div class="sb-image">
-                            <img src="{{ section.settings.icon.url }}" alt="{{ section.settings.icon.alt }}" />
+                        {% # ICON %}
+                        {% if section.settings.icon %}
+                            <div class="sb-icon">
+                                {{ section.settings.icon | media_tag }}
+                            </div>
+                        {% endif %}
+
+                        {% # MESSAGE %}
+                        {% if section.settings.heading %}
+                        <div class="sb-title _text-h3" >
+                            {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                        </div>
+                        {% endif %}
+
+                    </div>
+                    {% endif %}
+
+
+                    {% # MESSAGE %}
+                    {% if section.settings.message %}
+                        <div class="sb-message _copy-l">
+                            {{ section.settings.message }}
                         </div>
                     {% endif %}
 
-                    {% # MESSAGE %}
-                    {% if section.settings.heading %}
-                    <div class="_text-h3" >
-                        {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                    </div>
+                    {% # AUTHOR %}
+                    {% if section.settings.author %}
+                        <div class="sb-author _copy-xl">
+                            {{ section.settings.author }}
+                        </div>
                     {% endif %}
 
                 </div>
-                {% endif %}
-
-
-                {% # MESSAGE %}
-                {% if section.settings.message %}
-                    <div class="sb-message">
-                        {{ section.settings.message }}
-                    </div>
-                {% endif %}
-
-                {% # AUTHOR %}
-                {% if section.settings.author %}
-                    <div class="sb-author">
-                        {{ section.settings.author }}
-                    </div>
-                {% endif %}
 
             </div>
 
         </div>
-
     </div>
-
 </div>
 
 {% schema %}

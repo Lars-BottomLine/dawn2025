@@ -331,6 +331,7 @@ h3,
   }
 }
 
+._copy-xl,
 ._subtitle-medium {
   font-size: 2.8rem;
   font-style: normal;
@@ -338,6 +339,11 @@ h3,
   line-height: 103%; /* 28.84px */
 }
 
+._copy-xl {
+  line-height: 1.25;
+}
+
+._copy-l,
 ._subtitle-small {
   font-size: 2.2rem;
   font-style: normal;
@@ -1098,6 +1104,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   }
 }
 
+.multicolumn .title-wrapper-with-link {
+  margin-bottom: 4rem;
+}
 .multicolumn .multicolumn__title,
 .multicolumn slider-component {
   padding: 0 5rem;
@@ -1723,7 +1732,7 @@ header .header__icon--cart .icon {
   line-height: 1.25;
 }
 .sa-section-face2face.-img-type-medium.-small-text .f2f-heading {
-  margin-bottom: inherit;
+  margin-bottom: 2.5rem;
 }
 .sa-section-face2face.-img-type-medium.-small-text .f2f-header h2 {
   font-size: 3.6rem;
@@ -1932,6 +1941,10 @@ header .header__icon--cart .icon {
   }
 }
 
+.sa-section-accordion .ac-content {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .sa-section-accordion h2 {
   color: inherit;
   margin-bottom: 3rem;
@@ -2590,6 +2603,85 @@ header .header__icon--cart .icon {
   .sa-section-callout .sa-button .co-button-text {
     white-space: normal;
   }
+}
+
+.sa-section-speechbubble .sb-content {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.sa-section-speechbubble .sb-content .sb-bubble {
+  display: flex;
+  color: var(--color-primary);
+  background: var(--color-light-blue);
+  position: relative;
+  margin-bottom: 8rem;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-left {
+  flex: 0 0 31%;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-left .sb-image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-left .sb-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-right {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 8rem;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-right .sb-icon {
+  flex: 0 0 5.5rem;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-right .sb-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-right .sb-title {
+  color: inherit;
+  font-weight: 400;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-right .sb-message {
+  font-style: italic;
+}
+.sa-section-speechbubble .sb-content .sb-bubble:before {
+  content: "";
+  position: absolute;
+  right: -0.85rem;
+  bottom: -0.85rem;
+  width: 100%;
+  height: 100%;
+  background: var(--color-primary);
+  z-index: -1;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-arrow {
+  position: absolute;
+  right: 8rem;
+  bottom: -7rem;
+  display: inline-block;
+  width: 9rem;
+  height: 7rem;
+  border-top: 7rem solid var(--color-light-blue);
+  border-right: 9rem solid transparent;
+}
+.sa-section-speechbubble .sb-content .sb-bubble .sb-arrow:before {
+  content: "";
+  position: absolute;
+  right: -9.85rem;
+  bottom: -0.425rem;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-top: 7rem solid var(--color-primary);
+  border-right: 9rem solid transparent;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
