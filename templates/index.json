@@ -55,13 +55,25 @@
             "button_label": "Find your path",
             "link": ""
           }
+        },
+        "slide_864j9V": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sports-massage-careers.webp",
+            "heading": "<p>A calling that <strong>heals</strong></p>",
+            "subheading": "<p>Turn setbacks into comebacks. Train to <strong>help others rise again.</strong></p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "Find your path",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "slide_amcH9C",
         "slide_fAazyy",
         "slide_y66A8G",
-        "slide_MaAhy4"
+        "slide_MaAhy4",
+        "slide_864j9V"
       ],
       "name": "t:sections.le_swiper.presets.name",
       "settings": {
