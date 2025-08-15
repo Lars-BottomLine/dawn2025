@@ -1974,6 +1974,30 @@ header .header__icon--cart .icon {
   flex: 0 0 2.1rem;
   transition: transform 250ms;
 }
+.sa-section-accordion .le-acc-entry .le-acc-content {
+  display: flex;
+  gap: 3rem;
+}
+.sa-section-accordion .le-acc-entry .le-acc-content .lac-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1 0 33%;
+}
+.sa-section-accordion .le-acc-entry .le-acc-content .lac-left .lac-image {
+  height: 37rem;
+  transform: skewY(4deg);
+}
+.sa-section-accordion .le-acc-entry .le-acc-content .lac-left .lac-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 112%;
+  transform: skewY(-4deg);
+  margin-top: -4%;
+}
+.sa-section-accordion .le-acc-entry .le-acc-content .lac-right p {
+  margin-bottom: 2.5rem;
+}
 .sa-section-accordion .le-acc-entry.-open {
   background-color: var(--color-primary-lighter);
   border-left-width: 1rem;
