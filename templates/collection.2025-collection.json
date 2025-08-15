@@ -491,7 +491,7 @@
           "type": "row2col",
           "settings": {
             "text1": "<p>You’ve seen the steps, the courses, the specialisations, and the real opportunities waiting for you. Now it’s time to make it happen. </p>",
-            "text1_size": "medium",
+            "text1_size": "medium-plus",
             "text2": "",
             "text2_size": "medium"
           }
