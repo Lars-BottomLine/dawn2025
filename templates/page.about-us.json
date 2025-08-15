@@ -87,7 +87,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/about-study-active.png",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
@@ -100,11 +100,106 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_dT8Ec8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4azgr4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/about-study-active.png",
+            "title": "Mee",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g6aaeA": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4azgr4",
+        "column_g6aaeA"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Meet the Team",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "custom_class_names": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "le_image_with_text_winJhh": {
+      "type": "le_image-with-text",
+      "blocks": {
+        "heading_3PQEnz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Image with text</p>"
+          }
+        },
+        "text_gPV7U8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_q67rBR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3PQEnz",
+        "text_gPV7U8",
+        "button_q67rBR"
+      ],
+      "name": "t:sections.le_imagentext.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/about-study-active.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "le_text_and_background_H96qr4",
-    "image_with_text_YFiYkq"
+    "image_with_text_YFiYkq",
+    "multicolumn_dT8Ec8",
+    "le_image_with_text_winJhh"
   ]
 }
