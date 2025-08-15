@@ -1382,9 +1382,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside .sa-swiper-content:before {
   transition: background-color 250ms;
 }
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside a.sa-swiper-button svg,
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside a.sa-swiper-button svg,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside a.sa-swiper-button svg {
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside .sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside .sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside .sa-swiper-button svg {
   transition: transform 250ms;
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside a.sa-swiper-button:after,
@@ -1397,7 +1397,6 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: rgba(0, 255, 255, 0.3);
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover,
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover,
@@ -1405,15 +1404,15 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   transform: translateY(-1rem);
   box-shadow: 0 3px 6px 0 var(--color-dark-blue);
 }
+.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-button svg,
+.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover .sa-swiper-button svg {
+  transform: translateX(1rem);
+}
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-content,
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-content,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover .sa-swiper-content {
   background-color: var(--color-primary);
-}
-.sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-content .sa-swiper-button svg,
-.sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-content .sa-swiper-button svg,
-.sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-slide .sa-swiper-inside:hover .sa-swiper-content .sa-swiper-button svg {
-  transform: translateX(1rem);
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card .swiper-slide .sa-swiper-inside:hover .sa-swiper-content:before,
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-slide .sa-swiper-inside:hover .sa-swiper-content:before,
@@ -1431,6 +1430,9 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 .sa-swiper-wrapper .sa-swiper-type-featured .swiper-wrapper,
 .sa-swiper-wrapper .sa-swiper-type-testimonial .swiper-wrapper {
   margin-bottom: -1.5rem;
+}
+.sa-swiper-wrapper .sa-swiper-type-featured img {
+  transform: none !important;
 }
 .sa-swiper-wrapper .sa-swiper-type-job-card {
   border: red;
