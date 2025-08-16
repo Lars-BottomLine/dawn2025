@@ -90,12 +90,12 @@
         "subheadline": "",
         "button_label": "",
         "button_url": "",
-        "decal_top": false,
-        "decal_bottom": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": -20
       }
     },
     "le_face2face_VrtNcd": {
