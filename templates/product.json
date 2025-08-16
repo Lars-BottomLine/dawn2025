@@ -34,6 +34,7 @@
         "slide_TBGenX": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/woman-in-gym.jpg",
             "heading": "<p>Who Is This Course For?</p>",
             "subheading": "<p>This diploma is ideal for aspiring fitness professionals – whether you’re an exercise enthusiast looking to go pro, or someone seeking a career change into personal training. It’s designed for beginners and those who want all-in-one training to become a Gym Instructor and Personal Trainer.</p>"
           }
@@ -44,26 +45,19 @@
             "heading": "<p>Entry Requirements: No prior qualifications required.</p>",
             "subheading": "<p>You must be 16+ years old, with a basic level of fitness and a passion for health and exercise. No experience? No problem – the course includes the foundational Level 2 Gym Instructing certification to get you up to speed.  </p>"
           }
-        },
-        "slide_eNJrFn": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p>Image slide</p>",
-            "subheading": "<p>Tell your brand's story through images</p>"
-          }
         }
       },
       "block_order": [
         "slide_TBGenX",
-        "slide_cYQJxH",
-        "slide_eNJrFn"
+        "slide_cYQJxH"
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "section_bkgr": "primary",
+        "section_bkgr": "white",
+        "heading_image": "shopify://shop_images/man-sitting-in-a-park-with-a-laptop-drinking.jpg",
         "headline": "<p>Headline</p>",
         "subheadline": "Text",
-        "section_type": "skewed",
+        "section_type": "medium",
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
