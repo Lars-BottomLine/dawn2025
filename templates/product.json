@@ -28,6 +28,51 @@
         "padding_bottom": 28
       }
     },
+    "le_whychoose_qp9Pwy": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_P6Bt4F": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Qualify as a  Personal Trainer</p>",
+            "subheading": "<p>Gain internationally-recognized Level 2 Gym Instructor and Level 3 Personal Trainer and Nutrition certifications (Active IQ).</p>"
+          }
+        },
+        "slide_7pJfWx": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Turn Passion  into Career</p>",
+            "subheading": "<p>Acquire the skills to instruct gym classes, design tailored workout programs and meals, and coach your clients to success.</p>"
+          }
+        },
+        "slide_ex46zq": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Flexible Online  Learning</p>",
+            "subheading": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_P6Bt4F",
+        "slide_7pJfWx",
+        "slide_ex46zq"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "template_type": "light1",
+        "headline": "Slide",
+        "subheadline": "Slide",
+        "button_label": "",
+        "button_url": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_face2face_VrtNcd": {
       "type": "le_face2face",
       "blocks": {
@@ -432,6 +477,7 @@
   },
   "order": [
     "related-products",
+    "le_whychoose_qp9Pwy",
     "le_face2face_VrtNcd",
     "le_featured_feVwEr",
     "le_accordion_MKtPFH",
