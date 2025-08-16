@@ -31,68 +31,56 @@
     "le_featured_feVwEr": {
       "type": "le_featured",
       "blocks": {
-        "text_88yPFb": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_hUMc6P": {
           "type": "title",
           "settings": {
             "heading_size": "h2"
           }
         },
-        "price_QXjPCW": {
-          "type": "price",
-          "settings": {}
-        },
         "variant_picker_bA46EQ": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_wtUmRz": {
-          "type": "quantity_selector",
+        "price_QXjPCW": {
+          "type": "price",
           "settings": {}
         },
         "buy_buttons_rjgcgr": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
         "share_mVFcWW": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "text_88yPFb",
         "title_hUMc6P",
-        "price_QXjPCW",
         "variant_picker_bA46EQ",
-        "quantity_selector_wtUmRz",
+        "price_QXjPCW",
         "buy_buttons_rjgcgr",
         "share_mVFcWW"
       ],
       "name": "t:sections.le_featured.presets.name",
       "settings": {
-        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
+        "product": "{{ product }}",
         "heading": "<p>Heading</p>",
-        "heading_type": "h2",
+        "heading_type": "h3",
         "secondary_background": false,
         "media_size": "auto",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "decal_top": false,
