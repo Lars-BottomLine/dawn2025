@@ -77,34 +77,18 @@
             {% endif %}
 
             <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %}">
+
+                {% # DYNAMIC METAOBJECT LIST GIVEN %}
                 {% if section.settings.accordion_entries != blank %}
-                    <div class="sa-col-primary sa-bg-white p-8">
-                        HAZZZZ<br>
-
-                        accordion_entry_test
-
-                        <span>ENTRIES accordion_entry_test - {{ section.settings.accordion_entry_test }}</span><br>
-                        <span>VALUES accordion_entry_test - {{ section.settings.accordion_entry_test.value }}</span><br>
-
-
-                        <span>ENTRIES {{ section.settings.accordion_entries }}</span><br>
-                        <span>VALUES {{ section.settings.accordion_entries.values }}</span><br>
-
-                        <span>VALUES COUNT {{ section.settings.accordion_entries.values_count }}</span><br>
-
-                        {%- for entry in section.settings.accordion_entries.values -%}
-                            <span>ENTRY</span><br>
-                            {{ entry }}
-                            {{ entry.title }}
-                            {{ entry.accordion_entry }}
-                            {{ entry.accordion_entry.title }}
-                            {% render 'le_accordion-entry',
-                                    ae_title: entry.title,
-                                    ae_text: entry.text,
-                                    ae_image: entry.image
-                            %}
-                        {% endfor %}
-                    </div>
+                    {%- for entry in section.settings.accordion_entries -%}
+                        {% render 'le_accordion-entry',
+                                ae_title: entry.title,
+                                ae_text: entry.text,
+                                ae_image: entry.image
+                        %}
+                    {% endfor %}
+                    
+                {% # IF NO DYNAMIC METAOBJECT LIST - USE ROW ENTRIES OF SECTION %}
                 {% else %}
                     {%- for block in section.blocks -%}
                         {% render 'le_accordion-entry',
