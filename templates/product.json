@@ -51,12 +51,36 @@
             "heading": "<p>Flexible Online  Learning</p>",
             "subheading": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>"
           }
+        },
+        "slide_rpBMNM": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Expert Tutor  Support</p>",
+            "subheading": "<p>Get unlimited guidance from experienced fitness tutors and enjoy free lifetime career advice after graduating.</p>"
+          }
+        },
+        "slide_hMzbGd": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Guaranteed  Job Interview</p>",
+            "subheading": "<p>Tell your brand's story through images</p>"
+          }
+        },
+        "slide_kJMKYM": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>"
+          }
         }
       },
       "block_order": [
         "slide_P6Bt4F",
         "slide_7pJfWx",
-        "slide_ex46zq"
+        "slide_ex46zq",
+        "slide_rpBMNM",
+        "slide_hMzbGd",
+        "slide_kJMKYM"
       ],
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
