@@ -452,7 +452,7 @@
         "row2col_UaqpLq": {
           "type": "row2col",
           "settings": {
-            "text1": "<p>Still have questions or need more info? Request a Free Course Brochure and one of our career advisors will be in touch.</p>",
+            "text1": "<p>Still have questions or need more info? <a href=\"https://bottomline.agency\" target=\"_blank\" title=\"https://bottomline.agency\">Request a Free Course Brochure</a> and one of our career advisors will be in touch.</p>",
             "text1_size": "small",
             "text2": "",
             "text2_size": "medium"
