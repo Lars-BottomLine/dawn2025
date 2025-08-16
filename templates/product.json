@@ -62,6 +62,7 @@
         "slide_hMzbGd": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
             "heading": "<p>Guaranteed  Job Interview</p>",
             "subheading": "<p>Kickstart your fitness career – we guarantee an interview with leading gym chains nationwide upon qualification. </p>"
           }
