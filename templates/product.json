@@ -194,6 +194,7 @@
         "headline": "Headline",
         "heading_size": "medium",
         "accordion_width": "narrow",
+        "accordion_entries": "{{ product.metafields.custom.faq_accordion.value }}",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
