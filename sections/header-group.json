@@ -13,6 +13,7 @@
   "sections": {
     "1755084133c5eab34c": {
       "type": "_blocks",
+      "disabled": true,
       "settings": {}
     },
     "announcement-bar": {
