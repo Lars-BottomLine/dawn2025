@@ -86,8 +86,8 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "light1",
-        "headline": "Slide",
-        "subheadline": "Slide",
+        "headline": "Key benefits",
+        "subheadline": "",
         "button_label": "",
         "button_url": "",
         "decal_top": false,
