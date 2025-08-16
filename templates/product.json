@@ -9,6 +9,82 @@
  */
 {
   "sections": {
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "le_accordion_MKtPFH": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_R3taKc": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_BdptQC": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_CA8FBm": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_YGrXaa": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_R3taKc",
+        "accordion_row_BdptQC",
+        "accordion_row_CA8FBm",
+        "accordion_row_YGrXaa"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Headline",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "accordion_entries": [
+          "how-long-does-it-take-to-complete-one-of-your-personal-trainer-courses",
+          "alright-but-what-exactly-do-you-do",
+          "what-courses-do-i-need-to-complete-to-become-a-personal-trainer"
+        ],
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "margin_top": 0,
+        "margin_bottom": -140
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -126,84 +202,8 @@
         "image_zoom": "lightbox",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 12
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "le_accordion_MKtPFH": {
-      "type": "le_accordion",
-      "blocks": {
-        "accordion_row_R3taKc": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
-          }
-        },
-        "accordion_row_BdptQC": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
-          }
-        },
-        "accordion_row_CA8FBm": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
-          }
-        },
-        "accordion_row_YGrXaa": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
-          }
-        }
-      },
-      "block_order": [
-        "accordion_row_R3taKc",
-        "accordion_row_BdptQC",
-        "accordion_row_CA8FBm",
-        "accordion_row_YGrXaa"
-      ],
-      "name": "t:sections.le_accordion.presets.name",
-      "settings": {
-        "template_type": "blue",
-        "headline": "Headline",
-        "heading_size": "medium",
-        "accordion_width": "narrow",
-        "accordion_entries": [
-          "how-long-does-it-take-to-complete-one-of-your-personal-trainer-courses",
-          "alright-but-what-exactly-do-you-do",
-          "what-courses-do-i-need-to-complete-to-become-a-personal-trainer"
-        ],
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
-        "padding_bottom": 60,
-        "margin_top": 0,
-        "margin_bottom": -140
       }
     },
     "le_text_and_background_bCGWLK": {
@@ -332,9 +332,9 @@
     }
   },
   "order": [
-    "main",
     "related-products",
     "le_accordion_MKtPFH",
+    "main",
     "le_text_and_background_bCGWLK",
     "le_image_slider_HqMxxi"
   ]
