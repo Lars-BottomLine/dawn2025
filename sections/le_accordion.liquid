@@ -77,40 +77,36 @@
             {% endif %}
 
             <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %}">
-                {%- for block in section.blocks -%}
+                {% if section.settings.accordion_entries != blank %}
+                    <div class="sa-col-primary sa-bg-white p-8">
+                        HAZZZZ<br>
 
-                    <div class="le-acc-entry -with-arrow">
-                        <div class="le-acc-header">
+                        <span>ENTRIES {{ section.settings.accordion_entries }}</span><br>
 
-                            <span class="_text-normal">
-                                {{ block.settings.heading }}
-                            </span>
+                        <span>VALUE {{ section.settings.accordion_entries.value }}</span><br>
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
-                                <path d="M9.21191 16.0566L9.21191 0.83789L11.7119 0.83789L11.7119 16.0566L18.7119 9.05664L20.4619 10.8379L10.4619 20.8379L0.461914 10.8379L2.21191 9.05664L9.21191 16.0566Z" fill="white"/>
-                            </svg>
-
-                        </div>
-                        <div class="le-acc-content">
-                            {% if block.settings.image %}
-                            <div class="lac-left">
-                                <div class="lac-image">
-                                    {{ block.settings.image
-                                        | image_url: width: 550
-                                        | image_tag:
-                                        loading: 'lazy',
-                                        widths: '300, 550, 800'
-                                    }}
-                                </div>
-                            </div>
-                            {% endif %}
-                            <div class="lac-right">
-                                {{ block.settings.row_content }}
-                            </div>
-                        </div>
+                        {%- for entry in section.settings.accordion_entries.value -%}
+                            <span>ENTRY</span><br>
+                            {{ entry }}
+                            {{ entry.title }}
+                            {{ entry.accordion_entry }}
+                            {{ entry.accordion_entry.title }}
+                            {% render 'le_accordion-entry',
+                                    ae_title: entry.title,
+                                    ae_text: entry.text,
+                                    ae_image: entry.image
+                            %}
+                        {% endfor %}
                     </div>
-
-                {% endfor %}
+                {% else %}
+                    {%- for block in section.blocks -%}
+                        {% render 'le_accordion-entry',
+                                ae_title: block.settings.heading,
+                                ae_text: block.settings.row_content,
+                                ae_image: block.settings.image
+                        %}
+                    {% endfor %}
+                {% endif %}
             </div>
 
         </div>
