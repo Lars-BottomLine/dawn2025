@@ -81,11 +81,18 @@
                     <div class="sa-col-primary sa-bg-white p-8">
                         HAZZZZ<br>
 
+                        accordion_entry_test
+
+                        <span>ENTRIES accordion_entry_test - {{ section.settings.accordion_entry_test }}</span><br>
+                        <span>VALUES accordion_entry_test - {{ section.settings.accordion_entry_test.value }}</span><br>
+
+
                         <span>ENTRIES {{ section.settings.accordion_entries }}</span><br>
+                        <span>VALUES {{ section.settings.accordion_entries.values }}</span><br>
 
-                        <span>VALUE {{ section.settings.accordion_entries.value }}</span><br>
+                        <span>VALUES COUNT {{ section.settings.accordion_entries.values_count }}</span><br>
 
-                        {%- for entry in section.settings.accordion_entries.value -%}
+                        {%- for entry in section.settings.accordion_entries.values -%}
                             <span>ENTRY</span><br>
                             {{ entry }}
                             {{ entry.title }}
@@ -194,6 +201,13 @@
         "type": "metaobject_list",
         "id": "accordion_entries",
         "label": "Accordion entries",
+        "metaobject_type": "accordion_entry"
+      },
+
+      {
+        "type": "metaobject",
+        "id": "accordion_entry_test",
+        "label": "Accordion TEST",
         "metaobject_type": "accordion_entry"
       },
 
