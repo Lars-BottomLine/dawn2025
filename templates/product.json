@@ -28,6 +28,52 @@
         "padding_bottom": 28
       }
     },
+    "le_text_and_background_EMUKt4": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_cLtRfk": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>Pro PT: CIMSPA Level 3<br/>Diploma in Gym Instructing<br/>& Personal Training</p>",
+            "heading_type": "h1"
+          }
+        },
+        "row2col_miCkLg": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>Fast-Track Your Career as a Certified Personal Trainer. Become fully qualified with CIMSPA-endorsed credentials.</p>",
+            "text1_size": "medium",
+            "text2": "",
+            "text2_size": "medium"
+          }
+        },
+        "row_button_p6yfCY": {
+          "type": "row-button",
+          "settings": {
+            "text": "Quick links",
+            "button_type": "left",
+            "inverted": true,
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_cLtRfk",
+        "row2col_miCkLg",
+        "row_button_p6yfCY"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/woman-weight-lifting-with-trainer.jpg",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_whychoose_qp9Pwy": {
       "type": "le_whychoose",
       "blocks": {
@@ -502,6 +548,7 @@
   },
   "order": [
     "related-products",
+    "le_text_and_background_EMUKt4",
     "le_whychoose_qp9Pwy",
     "le_face2face_VrtNcd",
     "le_featured_feVwEr",
