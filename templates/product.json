@@ -50,7 +50,7 @@
         "row_button_p6yfCY": {
           "type": "row-button",
           "settings": {
-            "text": "Quick links",
+            "text": "Enrol Now",
             "button_type": "left",
             "inverted": true,
             "button_link": ""
@@ -69,7 +69,7 @@
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 100,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -139,8 +139,8 @@
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
-        "padding_bottom": 40,
-        "margin_top": 0,
+        "padding_bottom": 20,
+        "margin_top": -140,
         "margin_bottom": -20
       }
     },
