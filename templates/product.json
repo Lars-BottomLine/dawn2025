@@ -194,10 +194,10 @@
         "headline": "Headline",
         "heading_size": "medium",
         "accordion_width": "narrow",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
-        "padding_bottom": 72,
+        "padding_bottom": 60,
         "margin_top": 0,
         "margin_bottom": -140
       }
