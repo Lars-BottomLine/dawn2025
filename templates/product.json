@@ -28,6 +28,81 @@
         "padding_bottom": 28
       }
     },
+    "le_featured_feVwEr": {
+      "type": "le_featured",
+      "blocks": {
+        "text_88yPFb": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_hUMc6P": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_QXjPCW": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_bA46EQ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_wtUmRz": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_rjgcgr": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_mVFcWW": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_88yPFb",
+        "title_hUMc6P",
+        "price_QXjPCW",
+        "variant_picker_bA46EQ",
+        "quantity_selector_wtUmRz",
+        "buy_buttons_rjgcgr",
+        "share_mVFcWW"
+      ],
+      "name": "t:sections.le_featured.presets.name",
+      "settings": {
+        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
+        "heading": "<p>Heading</p>",
+        "heading_type": "h2",
+        "secondary_background": false,
+        "media_size": "auto",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_accordion_MKtPFH": {
       "type": "le_accordion",
       "blocks": {
@@ -73,7 +148,6 @@
         "heading_size": "medium",
         "accordion_width": "narrow",
         "accordion_entries": "{{ product.metafields.custom.faq_accordion.value }}",
-        "accordion_entry_test": "what-courses-do-i-need-to-complete-to-become-a-personal-trainer",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
@@ -330,6 +404,7 @@
   },
   "order": [
     "related-products",
+    "le_featured_feVwEr",
     "le_accordion_MKtPFH",
     "main",
     "le_text_and_background_bCGWLK",
