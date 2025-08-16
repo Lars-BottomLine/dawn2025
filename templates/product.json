@@ -194,7 +194,10 @@
         "headline": "Headline",
         "heading_size": "medium",
         "accordion_width": "narrow",
-        "accordion_entries": "{{ product.metafields.custom.faq_accordion.value }}",
+        "accordion_entries": [
+          "how-long-does-it-take-to-complete-one-of-your-personal-trainer-courses",
+          "alright-but-what-exactly-do-you-do"
+        ],
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
