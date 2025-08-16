@@ -42,6 +42,7 @@
         "slide_cYQJxH": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/man-sitting-in-a-park-with-a-laptop-drinking.jpg",
             "heading": "<p>Entry Requirements: No prior qualifications required.</p>",
             "subheading": "<p>You must be 16+ years old, with a basic level of fitness and a passion for health and exercise. No experience? No problem – the course includes the foundational Level 2 Gym Instructing certification to get you up to speed.  </p>"
           }
@@ -54,9 +55,8 @@
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
         "section_bkgr": "white",
-        "heading_image": "shopify://shop_images/man-sitting-in-a-park-with-a-laptop-drinking.jpg",
-        "headline": "<p>Headline</p>",
-        "subheadline": "Text",
+        "headline": "<p>Suitability & Prerequisites </p>",
+        "subheadline": "",
         "section_type": "medium",
         "custom_class_names": "",
         "decal_top": false,
