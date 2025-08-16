@@ -28,6 +28,51 @@
         "padding_bottom": 28
       }
     },
+    "le_face2face_VrtNcd": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_TBGenX": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Who Is This Course For?</p>",
+            "subheading": "<p>This diploma is ideal for aspiring fitness professionals – whether you’re an exercise enthusiast looking to go pro, or someone seeking a career change into personal training. It’s designed for beginners and those who want all-in-one training to become a Gym Instructor and Personal Trainer.</p>"
+          }
+        },
+        "slide_cYQJxH": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Entry Requirements: No prior qualifications required.</p>",
+            "subheading": "<p>You must be 16+ years old, with a basic level of fitness and a passion for health and exercise. No experience? No problem – the course includes the foundational Level 2 Gym Instructing certification to get you up to speed.  </p>"
+          }
+        },
+        "slide_eNJrFn": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Image slide</p>",
+            "subheading": "<p>Tell your brand's story through images</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TBGenX",
+        "slide_cYQJxH",
+        "slide_eNJrFn"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "primary",
+        "headline": "<p>Headline</p>",
+        "subheadline": "Text",
+        "section_type": "skewed",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_featured_feVwEr": {
       "type": "le_featured",
       "blocks": {
@@ -73,7 +118,7 @@
       "name": "t:sections.le_featured.presets.name",
       "settings": {
         "product": "{{ product }}",
-        "heading": "<p>Heading</p>",
+        "heading": "<p>Pricing & Payment Options </p>",
         "heading_type": "h3",
         "secondary_background": false,
         "media_size": "auto",
@@ -393,6 +438,7 @@
   },
   "order": [
     "related-products",
+    "le_face2face_VrtNcd",
     "le_featured_feVwEr",
     "le_accordion_MKtPFH",
     "main",
