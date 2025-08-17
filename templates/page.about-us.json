@@ -118,7 +118,7 @@
       "settings": {
         "section_bkgr": "primary",
         "headline": "<p>Meet our leaders</p>",
-        "subheadline": "Our mission is to empower future fitness professionals with flexible, high-quality training that leads to real careers, lasting impact, and healthier communities.",
+        "subheadline": "We empower future fitness professionals with flexible, high-quality training that leads to real careers, lasting impact, and healthier communities.",
         "section_type": "skewed",
         "custom_class_names": "",
         "decal_top": false,
@@ -331,7 +331,7 @@
       "settings": {
         "template_type": "blue",
         "headline": "Our Vision & Mission",
-        "subheadline": "Our",
+        "subheadline": "At Study Active, our mission guides everything we do. Here’s what we stand for and how we support our learners every step of the way.",
         "button_label": "",
         "button_url": "",
         "decal_top": false,
