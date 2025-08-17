@@ -55,7 +55,7 @@
              # ---------------------- %}
             {% if section.settings.headline %}
             <div class="f2f-heading">
-                <{{ section.settings.heading_type }} class=" {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                <{{ section.settings.heading_type }} class="f2f-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
                     {%- if section.settings.heading_image -%}
                     <div class="f2f-heading-image">
                         {{ section.settings.heading_image
@@ -128,9 +128,15 @@
 
                         <div class="f2f-text">
 
-                            <h3 class="">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                            {% # HEADING
+                               # ---------------------- %}
+                            {% if block.settings.heading %}
+                            <{{ section.settings.entry_heading_type }} class="f2fe-heading -no-decal -h-text-{{ section.settings.entry_heading_size }}">
+                                {{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                            </{{ section.settings.entry_heading_type }}>
+                            {% endif %}
 
-                            <div class="_subtitle-small">
+                            <div class="f2fe-text -e-text-{{ section.settings.entry_text_size }}">
                                 {{ block.settings.subheading }}
                             </div>
 
@@ -273,6 +279,84 @@
       ],
       "default": "skewed"
     },
+
+    {
+      "type": "header",
+      "content": "Entry font settings"
+    },
+    {
+      "type": "select",
+      "id": "entry_heading_type",
+      "options": [
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        },
+        {
+          "value": "div",
+          "label": "DIV"
+        }
+      ],
+      "default": "h3",
+      "label": "Heading type"
+    },
+    {
+      "type": "select",
+      "id": "entry_heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal",
+      "label": "Heading font size"
+    },
+    {
+      "type": "select",
+      "id": "entry_text_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal",
+      "label": "Entry font size"
+    },
+
 
     {
       "type": "header",
