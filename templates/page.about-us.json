@@ -97,8 +97,13 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "multicolumn_dT8Ec8": {
@@ -209,6 +214,60 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "le_accordion_CmKicY": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_jTfpKP": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/hannah.png",
+            "heading": "Rebecca Ireland - Lead Tutor",
+            "row_content": "<p><em>Both my career and lifestyle gives me the opportunity to for full my passion for fitness daily.<br/>Originally partaking in group fitness classes, I soon become qualified as a fitness professional teaching Group Ex classes and Personal Training. I have progressed my career over the last 14 years striving to share my knowledge and love for fitness in supporting others and am honoured to now be the lead tutor assessor at Study Active.</em></p><p><em>In my spare time I keep myself fit and healthy<br/>by competing in Ultra Challenges, playing netball, weight training and running<br/>outdoors in the beautiful countryside with my 2 energetic boys. </em></p>"
+          }
+        },
+        "accordion_row_yQXrjT": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_AC8arY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_DJRkjb": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_jTfpKP",
+        "accordion_row_yQXrjT",
+        "accordion_row_AC8arY",
+        "accordion_row_DJRkjb"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Headline",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "accordion_entries": [],
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -217,6 +276,7 @@
     "image_with_text_YFiYkq",
     "multicolumn_dT8Ec8",
     "le_image_with_text_winJhh",
-    "le_speech_bubble_jLWHeV"
+    "le_speech_bubble_jLWHeV",
+    "le_accordion_CmKicY"
   ]
 }
