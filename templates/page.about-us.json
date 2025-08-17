@@ -9,6 +9,50 @@
  */
 {
   "sections": {
+    "image_with_text_bEUW7j": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pCREEi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get to know the Study Active team",
+            "heading_size": "h0"
+          }
+        },
+        "text_qGAk8Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pCREEi",
+        "text_qGAk8Q"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/about-study-active.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -16,68 +60,6 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "multicolumn_dT8Ec8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_4azgr4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/about-study-active.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_g6aaeA": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p></p><p>Get to know the team that’s helping shape the next generation of fitness professionals.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_4azgr4",
-        "column_g6aaeA"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Meet the Team",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "custom_class_names": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "le_speech_bubble_jLWHeV": {
-      "type": "le_speech-bubble",
-      "name": "t:sections.le_speechbubble.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Carly.png",
-        "heading": "<p>Carly Wallace - Managing Director</p>",
-        "message": "Carly Wallace leads Study Active with a unique blend of commercial and fitness industry expertise. With experience in business development at organisations like Les Mills and Premier Training, she later transitioned into senior eCommerce roles for major global brands. Carly now brings her digital, marketing, and operational knowledge back to the fitness world, driving growth and delivering a first-class learner experience.",
-        "author": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     },
     "le_face2face_FLEiKm": {
@@ -121,7 +103,7 @@
         "section_type": "skewed",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 36,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -276,9 +258,66 @@
         "heading_size": "medium",
         "accordion_width": "full",
         "accordion_entries": [],
-        "decal_top": true,
-        "decal_bottom": false,
+        "decal_top": false,
+        "decal_bottom": true,
         "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_whychoose_BMNVD3": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_nyXy9B": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/19.png",
+            "heading": "<p>OUR MISSION</p>",
+            "subheading": "<p>Our mission is to deliver high-quality inclusive education within the health and fitness industry, empowering learners for success in their lives and careers.</p><p></p><p></p><p></p>"
+          }
+        },
+        "slide_XaR4Ki": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/22.png",
+            "heading": "<p>WHAT WE DO</p>",
+            "subheading": "<p>We provide high-quality inclusive education for the fitness industry. Our programmes are designed to support learners beyond qualification, ensuring they are empowered for success in their chosen career pathway.<br/></p>"
+          }
+        },
+        "slide_3DrcMH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/21.png",
+            "heading": "<p>HOW WE DO IT</p>",
+            "subheading": "<p>Our delivery model combines online learning with optional face-to-face events, catering to diverse learning styles. We foster an interactive community of fitness professionals who are supported by industry expertise.</p>"
+          }
+        },
+        "slide_8rVqpq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/23.png",
+            "heading": "<p>WHY WE DO IT</p>",
+            "subheading": "<p>Our goal is to deliver educational excellence for individuals who aspire to build successful and sustainable careers in the health and fitness sector.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nyXy9B",
+        "slide_XaR4Ki",
+        "slide_3DrcMH",
+        "slide_8rVqpq"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Our Vision & Mission",
+        "subheadline": "Our",
+        "button_label": "",
+        "button_url": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 48,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -286,10 +325,10 @@
     }
   },
   "order": [
+    "image_with_text_bEUW7j",
     "main",
-    "multicolumn_dT8Ec8",
-    "le_speech_bubble_jLWHeV",
     "le_face2face_FLEiKm",
-    "le_accordion_CmKicY"
+    "le_accordion_CmKicY",
+    "le_whychoose_BMNVD3"
   ]
 }
