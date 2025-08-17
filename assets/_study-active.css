@@ -1853,6 +1853,10 @@ header .header__icon--cart .icon {
   }
 }
 
+.sa-section-whychoose h1, .sa-section-whychoose h2, .sa-section-whychoose h3, .sa-section-whychoose h4, .sa-section-whychoose h5, .sa-section-whychoose h6, .sa-section-whychoose div {
+  color: inherit;
+  font-style: normal;
+}
 .sa-section-whychoose .wc-entry-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1874,9 +1878,6 @@ header .header__icon--cart .icon {
 .sa-section-whychoose .wc-entry-container h3:last-child {
   margin-bottom: 0 !important;
 }
-.sa-section-whychoose.-template-blue {
-  background: var(--color-primary);
-}
 .sa-section-whychoose.-template-blue .-section-content {
   max-width: 120.5rem;
 }
@@ -1892,17 +1893,14 @@ header .header__icon--cart .icon {
 .sa-section-whychoose.-template-blue .-section-content .wc-text ._subtitle-small {
   color: var(--color-secondary);
 }
-.sa-section-whychoose.-template-light1, .sa-section-whychoose.-template-light2 {
-  background: var(--color-light-blue);
-}
 .sa-section-whychoose.-template-light1 .wc-entry-container, .sa-section-whychoose.-template-light2 .wc-entry-container {
   grid-template-columns: repeat(3, 1fr);
 }
 .sa-section-whychoose.-template-light1 .-section-content ._subtitle, .sa-section-whychoose.-template-light2 .-section-content ._subtitle {
-  color: var(--color-primary);
+  color: inherit;
 }
 .sa-section-whychoose.-template-light1 .wc-text, .sa-section-whychoose.-template-light2 .wc-text {
-  color: var(--color-primary);
+  color: inherit;
   text-align: center;
 }
 .sa-section-whychoose.-template-light1 .wc-text h3._subtitle, .sa-section-whychoose.-template-light2 .wc-text h3._subtitle {
@@ -2492,19 +2490,29 @@ header .header__icon--cart .icon {
   }
 }
 
-.sa-section-featuredproduct div.fp-heading {
-  font-size: 3.6rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.05; /* 37.8px */
-}
 .sa-section-featuredproduct .fp-heading {
   padding-left: 5rem;
   margin-bottom: 4rem;
 }
-.sa-section-featuredproduct .fp-heading h3 {
-  font-weight: 400;
+.sa-section-featuredproduct .fp-heading h1, .sa-section-featuredproduct .fp-heading h2, .sa-section-featuredproduct .fp-heading h3, .sa-section-featuredproduct .fp-heading h4, .sa-section-featuredproduct .fp-heading h5, .sa-section-featuredproduct .fp-heading h6, .sa-section-featuredproduct .fp-heading div {
   color: inherit;
+  font-style: normal;
+}
+.sa-section-featuredproduct .fp-heading .-h-text-small {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.05;
+}
+.sa-section-featuredproduct .fp-heading .-h-text-normal {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.05;
+}
+.sa-section-featuredproduct .fp-heading .-h-text-large {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.05rem;
 }
 .sa-section-featuredproduct .product-media-container {
   border: none;

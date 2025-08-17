@@ -1,8 +1,8 @@
 {%- liquid
 
-    assign iz_blue = false
-    assign iz_light1 = false
-    assign iz_light2 = false
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
     assign decal_top = false
     assign decal_bottom = false
     assign section_classes = ''
@@ -11,25 +11,47 @@
         assign decal_top = true
         assign section_classes = section_classes | append: ' -decal-top '
     endif
-    
+
     if section.settings.decal_bottom
         assign decal_bottom = true
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
 
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white'
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary'
+    endif
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+
+    # ---------------------------------
+    # ---------------------------------
+    assign iz_blue = false
+    assign iz_light1 = false
+    assign iz_light2 = false
+
     if section.settings.template_type == 'blue'
         assign iz_blue = true
-        assign section_classes = section_classes | append: ' sa-bg-primary -dct-primary -dcb-primary '
     endif
 
     if section.settings.template_type == 'light1'
         assign iz_light1 = true
-        assign section_classes = section_classes | append: ' sa-bg-light-blue -dct-light-blue -dcb-light-blue '
     endif
 
     if section.settings.template_type == 'light2'
         assign iz_light2 = true
-        assign section_classes = section_classes | append: ' sa-bg-light-blue -dct-light-blue -dcb-light-blue '
     endif
 
 %}
@@ -56,14 +78,21 @@
     }
 {%- endstyle -%}
 
-<div class="sa-section-whychoose -template-{{ section.settings.template_type }} section-{{ section.id }}-padding section-{{ section.id }}-margin pb-32 {{ section_classes }}">
+<div class="sa-section-whychoose
+            -template-{{ section.settings.template_type }}
+             section-{{ section.id }}-padding section-{{ section.id }}-margin
+             {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
         <div class="wc-header pl-20 pb-{% if iz_blue %}24{% else %}16{% endif %}">
 
-            <h2>
-                {{ section.settings.headline }}
-            </h2>
+            {% if section.settings.headline %}
+            <div class="wc-heading">
+                <{{ section.settings.heading_type }} class=" {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                    {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </{{ section.settings.heading_type }}>
+            </div>
+            {% endif %}
 
             <div class="_subtitle">
                 {{ section.settings.subheadline }}
@@ -181,6 +210,7 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
     {
       "type": "select",
       "id": "template_type",
@@ -201,11 +231,84 @@
       ]
     },
     {
+        "type": "select",
+        "id": "section_bkgr",
+        "label": "Background Color",
+        "options": [
+          {
+            "value": "primary",
+            "label": "Blue (primary)"
+          },
+          {
+            "value": "light-blue",
+            "label": "Light Blue"
+          },
+          {
+            "value": "white",
+            "label": "White"
+          }
+        ],
+        "default": "primary"
+      },
+
+    {
       "type": "text",
       "id": "headline",
       "default": "t:sections.slideshow.blocks.slide.name",
       "label": "t:sections.slideshow.blocks.slide.name"
     },
+    {
+        "type": "select",
+        "id": "heading_type",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "div",
+            "label": "DIV"
+          }
+        ],
+        "default": "h2",
+        "label": "Heading type"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "normal",
+            "label": "Normal"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "normal",
+        "label": "Heading font size"
+      },
+      {
+        "type": "checkbox",
+        "id": "no_decal",
+        "default": false,
+        "label": "No decals on 'Heading'"
+      },
+
+
     {
       "type": "inline_richtext",
       "id": "subheadline",
@@ -225,9 +328,20 @@
       "label": "Button: URL"
     },
 
+
+    {
+        "type": "header",
+        "content": "Custom classes"
+      },
+      {
+        "type": "text",
+        "id": "custom_class_names",
+        "label": "t:settings_schema.custom_classes.settings.class_names.label",
+        "placeholder": ".test_class"
+      },
     {
       "type": "header",
-      "content": "Border"
+      "content": "Skewed border"
     },
     {
       "type": "checkbox",
@@ -319,6 +433,19 @@
           "visible_if": "{{ section.settings.template_type != 'light2' }}",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "visible_if": "{{ section.settings.template_type != 'light2' }}",
+          "default": "Enrol Now",
+          "label": "Button: Text"
+        },
+        {
+          "type": "text",
+          "id": "button_url",
+          "visible_if": "{{ section.settings.template_type != 'light2' }}",
+          "label": "Button: URL"
         }
       ]
     }
