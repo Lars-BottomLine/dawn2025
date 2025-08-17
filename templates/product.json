@@ -83,28 +83,36 @@
           "type": "slide",
           "settings": {
             "heading": "<p>Qualify as a  Personal Trainer</p>",
-            "subheading": "<p>Gain internationally-recognized Level 2 Gym Instructor and Level 3 Personal Trainer and Nutrition certifications (Active IQ).</p>"
+            "subheading": "<p>Gain internationally-recognized Level 2 Gym Instructor and Level 3 Personal Trainer and Nutrition certifications (Active IQ).</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_7pJfWx": {
           "type": "slide",
           "settings": {
             "heading": "<p>Turn Passion  into Career</p>",
-            "subheading": "<p>Acquire the skills to instruct gym classes, design tailored workout programs and meals, and coach your clients to success.</p>"
+            "subheading": "<p>Acquire the skills to instruct gym classes, design tailored workout programs and meals, and coach your clients to success.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_ex46zq": {
           "type": "slide",
           "settings": {
             "heading": "<p>Flexible Online  Learning</p>",
-            "subheading": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>"
+            "subheading": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_rpBMNM": {
           "type": "slide",
           "settings": {
             "heading": "<p>Expert Tutor  Support</p>",
-            "subheading": "<p>Get unlimited guidance from experienced fitness tutors and enjoy free lifetime career advice after graduating.</p>"
+            "subheading": "<p>Get unlimited guidance from experienced fitness tutors and enjoy free lifetime career advice after graduating.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_hMzbGd": {
@@ -112,14 +120,18 @@
           "settings": {
             "image": "shopify://shop_images/symbol-handshake-blue.svg",
             "heading": "<p>Guaranteed  Job Interview</p>",
-            "subheading": "<p>Kickstart your fitness career – we guarantee an interview with leading gym chains nationwide upon qualification. </p>"
+            "subheading": "<p>Kickstart your fitness career – we guarantee an interview with leading gym chains nationwide upon qualification. </p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_kJMKYM": {
           "type": "slide",
           "settings": {
             "heading": "<p>0% Interest Finance  option available</p>",
-            "subheading": "<p>Enrol Now</p>"
+            "subheading": "",
+            "button_text": "Enrol Now",
+            "button_url": "https://"
           }
         }
       },
@@ -134,10 +146,15 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "light1",
+        "section_bkgr": "primary",
         "headline": "Key benefits",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "",
         "button_label": "",
         "button_url": "",
+        "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
@@ -174,6 +191,9 @@
       "settings": {
         "section_bkgr": "white",
         "headline": "<p>Suitability & Prerequisites </p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "",
         "section_type": "medium",
         "custom_class_names": "",
