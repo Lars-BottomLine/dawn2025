@@ -82,6 +82,7 @@
         "slide_P6Bt4F": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/icon-workspace_premium.svg",
             "heading": "<p>Qualify as a  Personal Trainer</p>",
             "subheading": "<p>Gain internationally-recognized Level 2 Gym Instructor and Level 3 Personal Trainer and Nutrition certifications (Active IQ).</p>",
             "button_text": "Enrol Now",
@@ -91,6 +92,7 @@
         "slide_7pJfWx": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/icon-bookmark_heart.svg",
             "heading": "<p>Turn Passion  into Career</p>",
             "subheading": "<p>Acquire the skills to instruct gym classes, design tailored workout programs and meals, and coach your clients to success.</p>",
             "button_text": "Enrol Now",
@@ -100,6 +102,7 @@
         "slide_ex46zq": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/icon-globe_book.svg",
             "heading": "<p>Flexible Online  Learning</p>",
             "subheading": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>",
             "button_text": "Enrol Now",
@@ -109,6 +112,7 @@
         "slide_rpBMNM": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/icon-school.svg",
             "heading": "<p>Expert Tutor  Support</p>",
             "subheading": "<p>Get unlimited guidance from experienced fitness tutors and enjoy free lifetime career advice after graduating.</p>",
             "button_text": "Enrol Now",
@@ -128,10 +132,11 @@
         "slide_kJMKYM": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/icon-account_balance.svg",
             "heading": "<p>0% Interest Finance  option available</p>",
             "subheading": "",
             "button_text": "Enrol Now",
-            "button_url": "https://"
+            "button_url": "https://bottomline.agency"
           }
         }
       },
@@ -145,8 +150,8 @@
       ],
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
-        "template_type": "light1",
-        "section_bkgr": "primary",
+        "template_type": "threecol-compact",
+        "section_bkgr": "light-blue",
         "headline": "Key benefits",
         "heading_type": "h2",
         "heading_size": "normal",
