@@ -56,7 +56,7 @@
         "heading_KhtiV6": {
           "type": "heading",
           "settings": {
-            "heading": "Help us help you",
+            "heading": "A team dedicated to your success",
             "heading_size": "h1"
           }
         },
@@ -278,7 +278,7 @@
         "accordion_width": "full",
         "accordion_entries": [],
         "decal_top": false,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
