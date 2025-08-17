@@ -111,7 +111,7 @@
          # ---------------------- %}
       {% if section.settings.heading %}
       <div class="fp-heading">
-          <{{ section.settings.heading_type }} class=" -no-decal">
+          <{{ section.settings.heading_type }} class=" {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
             {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
           </{{ section.settings.heading_type }}>
       </div>
@@ -1442,6 +1442,32 @@
       ],
       "default": "h2",
       "label": "Heading type"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal",
+      "label": "Heading font size"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_decal",
+      "default": false,
+      "label": "No decals on 'Heading'"
     },
 
     {
