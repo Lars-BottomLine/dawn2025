@@ -42,6 +42,7 @@
     assign iz_threecol = false
     assign iz_threecol-notext = false
     assign iz_threecol-compact = false
+    assign not_threecol-compact = true
 
     if section.settings.template_type == 'twocol'
         assign iz_twocol = true
@@ -57,6 +58,7 @@
 
     if section.settings.template_type == 'threecol-compact'
         assign iz_threecol-compact = true
+        assign not_threecol-compact = false
     endif
 
 %}
@@ -113,7 +115,9 @@
                     {% comment %}
                       ToDo: Optimize image sizes
                     {% endcomment %}
+
                     <div class="wc-left">
+
                         <div class="wc-image">
 
                             {%- if block.settings.image -%}
@@ -166,6 +170,11 @@
                         {%- endif -%}
 
                         </div>
+
+                        {% if block.settings.heading and iz_threecol-compact %}
+                            <h3 class="wc-entry-title _subtitle !leading-none ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                        {% endif %}
+
                     </div>
 
                     <div class="wc-right">
@@ -173,7 +182,9 @@
                         {% if block.settings.heading != blank or block.settings.subheading != blank %}
                         <div class="wc-text">
 
-                            <h3 class="_subtitle !leading-none mb-2 ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                            {% if block.settings.heading and not_threecol-compact %}
+                            <h3 class="wc-entry-title _subtitle !leading-none mb-2 ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                            {% endif %}
 
                             {%- if block.settings.subheading != blank -%}
                             <div class="_subtitle-small">
@@ -184,10 +195,10 @@
                         </div>
                         {%- endif -%}
 
-                        {%- if section.settings.button_url != blank -%}
+                        {%- if block.settings.button_url != blank -%}
                             <div class="sa-button-container flex">
-                                <a href="{{ section.settings.button_url }}" class="sa-button -medium mt-32 !mx-auto -hover-grow">
-                                    <span>{{ section.settings.button_label }}</span>
+                                <a href="{{ block.settings.button_url }}" class="sa-button -medium !mx-auto -hover-grow">
+                                    <span>{{ block.settings.button_text }}</span>
                                 </a>
                             </div>
                         {% endif %}
