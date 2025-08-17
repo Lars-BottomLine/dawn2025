@@ -221,26 +221,76 @@
         "accordion_row_jTfpKP": {
           "type": "accordion_row",
           "settings": {
-            "image": "shopify://shop_images/hannah.png",
-            "heading": "Rebecca Ireland - Lead Tutor",
-            "row_content": "<p><em>Both my career and lifestyle gives me the opportunity to for full my passion for fitness daily.<br/>Originally partaking in group fitness classes, I soon become qualified as a fitness professional teaching Group Ex classes and Personal Training. I have progressed my career over the last 14 years striving to share my knowledge and love for fitness in supporting others and am honoured to now be the lead tutor assessor at Study Active.</em></p><p><em>In my spare time I keep myself fit and healthy<br/>by competing in Ultra Challenges, playing netball, weight training and running<br/>outdoors in the beautiful countryside with my 2 energetic boys. </em></p>"
+            "image": "shopify://shop_images/Ali.png",
+            "heading": "Ali Gower - Customer Experience Manager",
+            "row_content": "<p>Ali Gower has worked in the fitness and healthcare sectors since 2002. With experience in tutoring, assessing, and senior leadership roles, she now focuses on improving operations and service delivery. Ali brings a strategic mindset and a passion for enhancing every aspect of the learner experience.</p>"
           }
         },
         "accordion_row_yQXrjT": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "image": "shopify://shop_images/Ben.png",
+            "heading": "Ben Pratt - Content Expert",
+            "row_content": "<p>Ben Pratt is an international educator and consultant with over 20 years of experience in fitness, nutrition, and wellness education. Holding an MSc in Holistic Nutrition and a BSc in Sports Science, Ben has authored accredited programmes in personal training and nutrition and contributed to professional standards used across Europe. He is the founder of Fit 2 Succeed and works with leading providers to deliver evidence-based education and e-learning.</p>"
           }
         },
         "accordion_row_AC8arY": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "image": "shopify://shop_images/Cara.png",
+            "heading": "Cara Standley - Tutor & Assessor",
+            "row_content": "<p>Cara Standley has worked in fitness education since the 1990s and spent a decade delivering UK-accredited qualifications in the Middle East. She specialises in upskilling professionals through courses in pre and postnatal fitness and menopause support. Cara is particularly passionate about mentoring new tutors and raising the standard of education in the industry.</p>"
+          }
+        },
+        "accordion_row_FrzGan": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Charlie.png",
+            "heading": "Charlie Reynolds - Tutor & Assessor",
+            "row_content": "<p>Charlie Reynolds brings over 13 years of experience in the fitness industry, with a background in education, business development, and public sector partnerships. She has worked with awarding bodies and local authorities, including the NHS, to develop impactful health and wellbeing initiatives. Charlie remains active in the sector through her coaching business and as a valued tutor and assessor.</p><p></p>"
           }
         },
         "accordion_row_DJRkjb": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/high-five.webp",
+            "heading": "Chris Walsh - Tutor & Assessor",
+            "row_content": "<p>Chris Walsh has over two decades of experience in personal training and fitness instruction. As a tutor and assessor, he combines technical knowledge with a calm, supportive teaching style. Chris has a passion for movement, mindset, and helping learners achieve both personal and professional success.</p>"
+          }
+        },
+        "accordion_row_Xaiekr": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Claire.png",
+            "heading": "Claire McMenamin - Careers Advisor",
+            "row_content": "<p>Claire McMenamin has over 30 years of experience in education and training. With a background in course development, learning facilitation, and employee development, she has worked with universities, housing associations, and major corporations. Claire is passionate about helping learners find the right pathway into fitness and achieve their career goals.</p>"
+          }
+        },
+        "accordion_row_wJKkm3": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Colin.png",
+            "heading": "Colin Archer - Tutor & Assessor",
+            "row_content": "<p>Colin Archer is a qualified assessor with years of personal training experience. He supports learners through gym instructing and PT assessments, providing expert coaching and mentoring to help them build safe, effective programmes and launch successful careers.</p>"
+          }
+        },
+        "accordion_row_arDdMm": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Dawn.png",
+            "heading": "Dawn Fairey - Lead Pilates Educator",
+            "row_content": "<p><strong>Dawn Fairey, Cert Ed</strong><br/><em>Lead Pilates Educator</em><br/>Dawn Fairey is a highly experienced Pilates educator with over 40 years in the fitness industry. Beginning her journey in contemporary dance, Dawn brings a deep understanding of movement, flow, and precision to her Pilates teaching. She has trained and assessed thousands of aspiring instructors across the UK and continues to lead inclusive community-based classes. Her work is grounded in real-world experience and shaped by mentors such as Michael King and Pam Howard MBE. As a freelance tutor, assessor, and quality assurer, she delivers qualifications at Levels 2 and 3 and plays an active role in shaping national fitness standards.</p>"
+          }
+        },
+        "accordion_row_gUn67K": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Elise.png",
+            "heading": "Elise Bowles - Careers Advisor",
+            "row_content": "<p>Elise Bowles is a learner-focused advisor with a background in customer experience, enrolment, and support. Formerly with Active IQ, she brings in-depth knowledge of qualification frameworks and student journeys. At Study Active, Elise helps new learners explore their options, start their training, and stay supported throughout. She is also a qualified Rebound Fit instructor and advocates for accessible, enjoyable fitness.</p>"
+          }
+        },
+        "accordion_row_b9UMzE": {
           "type": "accordion_row",
           "settings": {
             "heading": "Collapsible row",
@@ -252,14 +302,20 @@
         "accordion_row_jTfpKP",
         "accordion_row_yQXrjT",
         "accordion_row_AC8arY",
-        "accordion_row_DJRkjb"
+        "accordion_row_FrzGan",
+        "accordion_row_DJRkjb",
+        "accordion_row_Xaiekr",
+        "accordion_row_wJKkm3",
+        "accordion_row_arDdMm",
+        "accordion_row_gUn67K",
+        "accordion_row_b9UMzE"
       ],
       "name": "t:sections.le_accordion.presets.name",
       "settings": {
         "template_type": "blue",
         "headline": "Headline",
         "heading_size": "medium",
-        "accordion_width": "narrow",
+        "accordion_width": "full",
         "accordion_entries": [],
         "decal_top": true,
         "decal_bottom": true,
