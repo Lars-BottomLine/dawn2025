@@ -38,20 +38,25 @@
 
     # ---------------------------------
     # ---------------------------------
-    assign iz_blue = false
-    assign iz_light1 = false
-    assign iz_light2 = false
+    assign iz_twocol = false
+    assign iz_threecol = false
+    assign iz_threecol-notext = false
+    assign iz_threecol-compact = false
 
-    if section.settings.template_type == 'blue'
-        assign iz_blue = true
+    if section.settings.template_type == 'twocol'
+        assign iz_twocol = true
     endif
 
-    if section.settings.template_type == 'light1'
-        assign iz_light1 = true
+    if section.settings.template_type == 'threecol'
+        assign iz_threecol = true
     endif
 
-    if section.settings.template_type == 'light2'
-        assign iz_light2 = true
+    if section.settings.template_type == 'threecol-notext'
+        assign iz_threecol-notext = true
+    endif
+
+    if section.settings.template_type == 'threecol-compact'
+        assign iz_threecol-compact = true
     endif
 
 %}
@@ -84,7 +89,7 @@
              {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
-        <div class="wc-header pl-20 pb-{% if iz_blue %}24{% else %}16{% endif %}">
+        <div class="wc-header pl-20 pb-{% if iz_twocol %}24{% else %}16{% endif %}">
 
             {% if section.settings.headline %}
             <div class="wc-heading">
@@ -159,11 +164,13 @@
                                 {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                             {%- endif -%}
                         {%- endif -%}
+
                         </div>
                     </div>
 
                     <div class="wc-right">
 
+                        {% if block.settings.heading != blank or block.settings.subheading != blank %}
                         <div class="wc-text">
 
                             <h3 class="_subtitle !leading-none mb-2 ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
@@ -175,6 +182,15 @@
                             {%- endif -%}
 
                         </div>
+                        {%- endif -%}
+
+                        {%- if section.settings.button_url != blank -%}
+                            <div class="sa-button-container flex">
+                                <a href="{{ section.settings.button_url }}" class="sa-button -medium mt-32 !mx-auto -hover-grow">
+                                    <span>{{ section.settings.button_label }}</span>
+                                </a>
+                            </div>
+                        {% endif %}
 
                     </div>
 
@@ -184,7 +200,7 @@
 
         </div>
 
-        {%- if section.settings.template_type == 'light2' -%}
+        {%- if section.settings.button_url != blank -%}
             <div class="sa-button-container flex">
                 <a href="{{ section.settings.button_url }}" class="sa-button -medium mt-32 !mx-auto -hover-grow">
                     <span>{{ section.settings.button_label }}</span>
@@ -217,16 +233,20 @@
       "label": "Template",
       "options": [
         {
-          "value": "blue",
-          "label": "Dark Blue 2 col"
+          "value": "twocol",
+          "label": "2 col"
         },
         {
-          "value": "light1",
-          "label": "Light Blue 3 col"
+          "value": "threecol",
+          "label": "3 col"
         },
         {
-          "value": "light2",
-          "label": "Light Blue 3 col + Link"
+          "value": "threecol-notext",
+          "label": "3 col (no text)"
+        },
+        {
+          "value": "threecol-compact",
+          "label": "3 col (compact)"
         }
       ]
     },
@@ -318,13 +338,11 @@
     {
       "type": "text",
       "id": "button_label",
-      "visible_if": "{{ section.settings.template_type == 'light2' }}",
       "label": "Button: Label"
     },
     {
       "type": "url",
       "id": "button_url",
-      "visible_if": "{{ section.settings.template_type == 'light2' }}",
       "label": "Button: URL"
     },
 
@@ -430,21 +448,18 @@
         {
           "type": "richtext",
           "id": "subheading",
-          "visible_if": "{{ section.settings.template_type != 'light2' }}",
           "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
         {
           "type": "text",
           "id": "button_text",
-          "visible_if": "{{ section.settings.template_type != 'light2' }}",
           "default": "Enrol Now",
           "label": "Button: Text"
         },
         {
           "type": "text",
           "id": "button_url",
-          "visible_if": "{{ section.settings.template_type != 'light2' }}",
           "label": "Button: URL"
         }
       ]
