@@ -438,7 +438,7 @@
           "type": "row2col",
           "settings": {
             "text1": "<p>Don’t wait – take the first step toward becoming a qualified personal trainer.</p>",
-            "text1_size": "medium",
+            "text1_size": "medium-plus",
             "text2": "",
             "text2_size": "medium"
           }
