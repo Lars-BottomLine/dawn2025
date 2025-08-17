@@ -9,42 +9,30 @@
  */
 {
   "sections": {
-    "image_with_text_bEUW7j": {
-      "type": "image-with-text",
+    "le_swiper_q8B9k8": {
+      "type": "le_swiper",
       "blocks": {
-        "heading_pCREEi": {
-          "type": "heading",
+        "slide_6y4CwA": {
+          "type": "slide",
           "settings": {
-            "heading": "Get to know the Study Active team",
-            "heading_size": "h0"
-          }
-        },
-        "text_qGAk8Q": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>",
-            "text_style": "body"
+            "image": "shopify://shop_images/about-study-active.png",
+            "heading": "<p>Welcome to Study Active</p>",
+            "subheading": "<p>We're here for you</p>",
+            "text_content": "<p>Text</p>",
+            "button_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_pCREEi",
-        "text_qGAk8Q"
+        "slide_6y4CwA"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.le_swiper.presets.name",
       "settings": {
-        "image": "shopify://shop_images/about-study-active.png",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "zoom-in",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "custom_class_names": "",
+        "headline": "",
+        "slider_type": "hero",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -60,6 +48,37 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_fiJnpp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KhtiV6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Help us help you",
+            "heading_size": "h1"
+          }
+        },
+        "text_XbPLYH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p></p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p></p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KhtiV6",
+        "text_XbPLYH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "le_face2face_FLEiKm": {
@@ -325,8 +344,9 @@
     }
   },
   "order": [
-    "image_with_text_bEUW7j",
+    "le_swiper_q8B9k8",
     "main",
+    "rich_text_fiJnpp",
     "le_face2face_FLEiKm",
     "le_accordion_CmKicY",
     "le_whychoose_BMNVD3"
