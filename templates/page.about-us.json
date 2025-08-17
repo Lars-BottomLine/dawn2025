@@ -11,99 +11,11 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "name": "About Us",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "le_text_and_background_H96qr4": {
-      "type": "le_text-and-background",
-      "blocks": {
-        "row_heading_hG6yfm": {
-          "type": "row-heading",
-          "settings": {
-            "text": "<p>Meet the Study Active Team</p>",
-            "heading_type": "h1"
-          }
-        },
-        "row2col_xQRjJB": {
-          "type": "row2col",
-          "settings": {
-            "text1": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p></p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p></p><p>Get to know the team that’s helping shape the next generation of fitness professionals.</p>",
-            "text1_size": "medium",
-            "text2": "",
-            "text2_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "row_heading_hG6yfm",
-        "row2col_xQRjJB"
-      ],
-      "name": "t:sections.le_tab.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/high-five.webp",
-        "stretch_image": true,
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "image_with_text_YFiYkq": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_fVhEgc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_beApqz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_K6wT4M": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fVhEgc",
-        "text_beApqz",
-        "button_K6wT4M"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/about-study-active.png",
-        "height": "medium",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     },
     "multicolumn_dT8Ec8": {
@@ -123,7 +35,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p></p><p>Get to know the team that’s helping shape the next generation of fitness professionals.</p>",
             "link_label": "",
             "link": ""
           }
@@ -150,53 +62,6 @@
         "custom_class_names": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "le_image_with_text_winJhh": {
-      "type": "le_image-with-text",
-      "blocks": {
-        "heading_3PQEnz": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Image with text</p>"
-          }
-        },
-        "text_gPV7U8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_q67rBR": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_3PQEnz",
-        "text_gPV7U8",
-        "button_q67rBR"
-      ],
-      "name": "t:sections.le_imagentext.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/about-study-active.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     },
     "le_speech_bubble_jLWHeV": {
@@ -293,8 +158,49 @@
         "accordion_row_b9UMzE": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "image": "shopify://shop_images/Heather.png",
+            "heading": "Heather Walker - Lead Internal Verifier & Tutor",
+            "row_content": "<p>Heather Walker brings her background as a gymnast, dancer, and international pole sports athlete to her role as Lead IV. She is an experienced tutor, group instructor, and PT who ensures that all assessment practices meet awarding body standards and deliver consistency and quality.</p>"
+          }
+        },
+        "accordion_row_qPXD9q": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Jess.png",
+            "heading": "Jessica Hall - Careers Advisor",
+            "row_content": "<p>Jessica Hall supports aspiring fitness professionals through the early stages of their journey. With a background in coaching, instruction, and sales, she is skilled at motivating and guiding learners with empathy and encouragement. Jessica is passionate about helping individuals build confidence and take clear, empowered steps toward their career goals.</p>"
+          }
+        },
+        "accordion_row_Gk7wJP": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Louise.png",
+            "heading": "Louise Henderson - Senior Tutor & Assessor",
+            "row_content": "<p>Louise Henderson brings nearly 25 years of experience to her role as Senior Tutor and Assessor. Starting as a gym instructor and class leader, she moved into PT, tutoring, and internal verification. Louise continues to work as a self-employed trainer and yoga teacher, bringing real-world insights into every session she delivers.</p>"
+          }
+        },
+        "accordion_row_NpX67P": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Natalie.png",
+            "heading": "Natalie Bond - Tutor & Assessor",
+            "row_content": "<p>Natalie Bond is a tutor, assessor, and business owner with 12 years in the fitness industry. She specialises in group exercise and brings a strong focus on coaching, mentoring, and behaviour change. Natalie combines hands-on instruction with a deep understanding of personal development and business gr</p>"
+          }
+        },
+        "accordion_row_cbTXjR": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Rebecca.png",
+            "heading": "Rebecca Ireland - Lead Tutor & Assessor",
+            "row_content": "<p>Rebecca Ireland has spent 14 years in the fitness industry, working across personal training and group exercise. Her passion lies in helping others find confidence through movement. As Lead Tutor and Assessor at Study Active, she supports students through every stage of their learning. In her spare time, Rebecca competes in Ultra Challenges and enjoys weight training and running with her two sons.</p>"
+          }
+        },
+        "accordion_row_nHRYGL": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Tammy.png",
+            "heading": "Tammy Bowles - Customer & Student Support",
+            "row_content": "<p>Tammy Bowles ensures learners feel supported and confident throughout their journey. With prior experience at an awarding body, she brings strong organisational skills and a deep understanding of fitness education. Tammy is a qualified Rebound Fit instructor and is currently expanding her expertise through further study.</p>"
           }
         }
       },
@@ -308,12 +214,17 @@
         "accordion_row_wJKkm3",
         "accordion_row_arDdMm",
         "accordion_row_gUn67K",
-        "accordion_row_b9UMzE"
+        "accordion_row_b9UMzE",
+        "accordion_row_qPXD9q",
+        "accordion_row_Gk7wJP",
+        "accordion_row_NpX67P",
+        "accordion_row_cbTXjR",
+        "accordion_row_nHRYGL"
       ],
       "name": "t:sections.le_accordion.presets.name",
       "settings": {
         "template_type": "blue",
-        "headline": "Headline",
+        "headline": "Meet the Study Active Team",
         "heading_size": "medium",
         "accordion_width": "full",
         "accordion_entries": [],
@@ -328,10 +239,7 @@
   },
   "order": [
     "main",
-    "le_text_and_background_H96qr4",
-    "image_with_text_YFiYkq",
     "multicolumn_dT8Ec8",
-    "le_image_with_text_winJhh",
     "le_speech_bubble_jLWHeV",
     "le_accordion_CmKicY"
   ]
