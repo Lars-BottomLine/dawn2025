@@ -92,7 +92,7 @@
                       {% # ROW: HEADING %}
                       {%- when 'row-heading' -%}
                         {% if block.settings.text %}
-                        <{{ block.settings.heading_type }} class="-no-decal">{{ block.settings.text  | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</{{ block.settings.heading_type }}>
+                        <{{ block.settings.heading_type }} class="-no-decal -h-text-{{ block.settings.heading_size }}">{{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</{{ block.settings.heading_type }}>
                         {% endif %}
 
                       {% # ROW: 2 COLUMNS %}
@@ -132,6 +132,13 @@
                               <span>{{ block.settings.text }}</span>
                             </a>
                           </div>
+
+                          {% if block.settings.subtext %}
+                          <div class="sa-button-subtext">
+                              {{ block.settings.subtext }}
+                          </div>
+                          {% endif %}
+
                           {% endif %}
                         {% endif %}
                     {% endcase%}
@@ -268,6 +275,26 @@
           ],
           "default": "h1",
           "label": "Heading type"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "normal",
+              "label": "Normal"
+            },
+            {
+              "value": "large",
+              "label": "Large"
+            }
+          ],
+          "default": "normal",
+          "label": "Heading font size"
         }
       ]
     },
@@ -379,8 +406,12 @@
           "type": "text",
           "id": "button_link",
           "label": "Target Class"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext",
+          "label": "Text"
         }
-
       ]
     }
   ],
