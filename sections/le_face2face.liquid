@@ -51,19 +51,25 @@
 
         <div class="f2f-header pl-20 pb-32">
 
-            <h2 class="f2f-heading">
-                {%- if section.settings.heading_image -%}
+            {% # HEADING
+             # ---------------------- %}
+            {% if section.settings.headline %}
+            <div class="f2f-heading">
+                <{{ section.settings.heading_type }} class=" {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                    {%- if section.settings.heading_image -%}
                     <div class="f2f-heading-image">
                         {{ section.settings.heading_image
-                            | image_url:
-                                width: 44
-                            | image_tag:
-                                alt: section.settings.heading_image.alt
+                            | image_url: width: 44
+                            | image_tag: alt: section.settings.heading_image.alt
                         }}
                     </div>
-                {%- endif -%}
-                {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-            </h2>
+                    {%- endif -%}
+                    {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </{{ section.settings.heading_type }}>
+            </div>
+            {% endif %}
+
+
 
             <div class="_subtitle">
                 {{ section.settings.subheadline }}
@@ -188,6 +194,58 @@
       "default": "<p>Headline</p>",
       "label": "Headline"
     },
+    {
+      "type": "select",
+      "id": "heading_type",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "div",
+          "label": "DIV"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading type"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal",
+      "label": "Heading font size"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_decal",
+      "default": false,
+      "label": "No decals on 'Heading'"
+    },
+
+
     {
       "type": "inline_richtext",
       "id": "subheadline",
