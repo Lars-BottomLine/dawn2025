@@ -35,7 +35,8 @@
           "type": "row-heading",
           "settings": {
             "text": "<p>Pro PT: CIMSPA Level 3<br/>Diploma in Gym Instructing<br/>& Personal Training</p>",
-            "heading_type": "h1"
+            "heading_type": "h1",
+            "heading_size": "normal"
           }
         },
         "row2col_miCkLg": {
@@ -53,7 +54,8 @@
             "text": "Enrol Now",
             "button_type": "left",
             "inverted": true,
-            "button_link": ""
+            "button_link": "",
+            "subtext": "<p>CIMSPA & Active IQ Accredited | 0% Interest Finance</p>"
           }
         }
       },
@@ -428,7 +430,8 @@
           "type": "row-heading",
           "settings": {
             "text": "<p>Ready to transform<br/>your passion for fitness<br/><strong>into a rewarding career? </strong></p>",
-            "heading_type": "h2"
+            "heading_type": "h2",
+            "heading_size": "normal"
           }
         },
         "row2col_Mb3Tmc": {
@@ -464,7 +467,8 @@
             "text": "Enroll Now",
             "button_type": "left",
             "inverted": true,
-            "button_link": ""
+            "button_link": "",
+            "subtext": ""
           }
         }
       },
