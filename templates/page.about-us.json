@@ -25,7 +25,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/about-study-active.png",
-            "title": "Mee",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -34,7 +34,7 @@
         "column_g6aaeA": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "",
             "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p></p><p>Get to know the team that’s helping shape the next generation of fitness professionals.</p>",
             "link_label": "",
             "link": ""
@@ -51,11 +51,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
+        "column_alignment": "left",
+        "background_style": "none",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -68,13 +68,61 @@
       "type": "le_speech-bubble",
       "name": "t:sections.le_speechbubble.presets.name",
       "settings": {
-        "image": "shopify://shop_images/hannah.png",
-        "heading": "",
-        "message": "",
+        "image": "shopify://shop_images/Carly.png",
+        "heading": "<p>Carly Wallace - Managing Director</p>",
+        "message": "Carly Wallace leads Study Active with a unique blend of commercial and fitness industry expertise. With experience in business development at organisations like Les Mills and Premier Training, she later transitioned into senior eCommerce roles for major global brands. Carly now brings her digital, marketing, and operational knowledge back to the fitness world, driving growth and delivering a first-class learner experience.",
         "author": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_FLEiKm": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_YUapYT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Carly.png",
+            "heading": "<p>Carly Wallace - Managing Director</p>",
+            "subheading": "<p>Carly Wallace leads Study Active with a unique blend of commercial and fitness industry expertise. With experience in business development at organisations like Les Mills and Premier Training, she later transitioned into senior eCommerce roles for major global brands. Carly now brings her digital, marketing, and operational knowledge back to the fitness world, driving growth and delivering a first-class learner experience.</p>"
+          }
+        },
+        "slide_dMbgNi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Charlie_2.png",
+            "heading": "<p>Julian Berriman - Director of Education</p>",
+            "subheading": "<p>Julian Berriman has over 30 years of experience in fitness education, curriculum design, and workforce development. At Study Active, he leads the design of industry-recognised qualifications that give learners the confidence and skills to succeed in real-world fitness careers. Julian also chairs EuropeActive’s Professional Standards Committee, where he helps shape international education frameworks. He is a practising osteopath and personal trainer, blending academic insight with hands-on expertise. A lifelong gym-goer and golf enthusiast, Julian brings energy, rigour, and passion to everything he does.</p>"
+          }
+        },
+        "slide_ryk6pz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Debra.png",
+            "heading": "<p>Debra Stuart - CEO</p>",
+            "subheading": "<p>Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national standards. She is a Chartered Director and Fellow of the Institute of Directors.As the former CEO of Premier Global and Treasurer of ukactive, she has been instrumental in driving quality assurance and innovation in fitness education. Now as CEO of Study Active, Debra continues her mission to raise standards by promoting accessible, evidence-based education and supporting learners to build confident, career-ready futures.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_YUapYT",
+        "slide_dMbgNi",
+        "slide_ryk6pz"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "primary",
+        "headline": "<p>Meet our leaders</p>",
+        "subheadline": "Our mission is to empower future fitness professionals with flexible, high-quality training that leads to real careers, lasting impact, and healthier communities.",
+        "section_type": "skewed",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 36,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -229,7 +277,7 @@
         "accordion_width": "full",
         "accordion_entries": [],
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -241,6 +289,7 @@
     "main",
     "multicolumn_dT8Ec8",
     "le_speech_bubble_jLWHeV",
+    "le_face2face_FLEiKm",
     "le_accordion_CmKicY"
   ]
 }
