@@ -113,7 +113,7 @@
         "template_type": "blue",
         "headline": "Learn more about your path",
         "heading_size": "medium",
-        "accordion_width": "narrow",
+        "accordion_width": "full",
         "accordion_entries": [],
         "decal_top": true,
         "decal_bottom": true,
