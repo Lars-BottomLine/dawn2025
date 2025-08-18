@@ -122,6 +122,21 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "le_speech_bubble_BY8FJV": {
+      "type": "le_speech-bubble",
+      "name": "t:sections.le_speechbubble.presets.name",
+      "settings": {
+        "heading": "",
+        "message": "\"When I first started looking into fitness, I had no idea which path was right for me. Study Active made it so easy to explore my options, and the support I received helped me find the career direction that truly fits me. I’m so grateful for the guidance, it’s completely changed my future!\"",
+        "author": "— Hannah P, Study Active Graduate",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -129,6 +144,7 @@
     "main",
     "rich_text_7r7exL",
     "custom_liquid_HQRByQ",
-    "le_accordion_XXkJgY"
+    "le_accordion_XXkJgY",
+    "le_speech_bubble_BY8FJV"
   ]
 }
