@@ -213,6 +213,65 @@
         "margin_bottom": 0
       }
     },
+    "le_face2face_BAkmFM": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_jkyeJW": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Flexible Blended Learning</p>",
+            "subheading": "<p>Learn through a combination of <strong>online study</strong> and <strong>practical experience</strong>.</p><p>The course is delivered via our interactive e-learning platform, which includes engaging video lessons, interactive quizzes, and digital manuals.</p><p>You can <strong>study at your own pace</strong> – some students fast-track in ~2 months, while others spread learning over 6-12 months. </p>"
+          }
+        },
+        "slide_Jm6HcM": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Interactive Content & Support</p>",
+            "subheading": "<p>Your journey is supported by live <strong>webinars and online workshops</strong> led by expert tutors.</p><p>You’ll have one-on-one tutorial support via phone/Zoom and email whenever you need it.</p><p>Our state-of-the-art Learning Management System keeps track of your progress and is accessible 24/7, so you can train whenever it suits you. </p>"
+          }
+        },
+        "slide_yLkQzU": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>Hands-On Practice</p>",
+            "subheading": "<p>To build real skills, the diploma includes practical components.</p><p>Attend optional in-gym practical workshops for hands-on training, or submit video assessments from your own gym – whichever works best for you.</p><p>You’ll learn to conduct client consultations, demonstrate exercises, and lead training sessions confidently. </p>"
+          }
+        },
+        "slide_MEdtPX": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p>What You’ll Learn</p>",
+            "subheading": "<p>The curriculum covers <strong>11 modules</strong> spanning all essential fitness topics.</p><p>You’ll dive into <strong>Anatomy & Exercise Physiology, Nutrition and Weight Management, Client Programming & Coaching, Advanced Training Techniques, and Professional Conduct & Business Skills for personal trainers.</strong></p><p>By the end, you’ll not only <strong>master personal training techniques</strong>, but also know how to motivate clients and even manage your own PT business. (All course materials align with CIMSPA and Active IQ standards.) </p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_jkyeJW",
+        "slide_Jm6HcM",
+        "slide_yLkQzU",
+        "slide_MEdtPX"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "primary",
+        "headline": "<p>Learning Experience </p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "Text",
+        "section_type": "skewed",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_featured_feVwEr": {
       "type": "le_featured",
       "blocks": {
@@ -585,6 +644,7 @@
     "le_text_and_background_EMUKt4",
     "le_whychoose_qp9Pwy",
     "le_face2face_VrtNcd",
+    "le_face2face_BAkmFM",
     "le_featured_feVwEr",
     "le_accordion_MKtPFH",
     "main",
