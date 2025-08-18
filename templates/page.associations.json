@@ -182,23 +182,14 @@
         "text_YccVCL": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>We give all Study Active learners <strong>guaranteed job interviews</strong> upon completion of their course. These relationships help us align our training with real-world industry needs and give you a direct path from qualification to employment.</p>",
             "text_style": "body"
-          }
-        },
-        "button_8CF6wP": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_KiEFBc",
-        "text_YccVCL",
-        "button_8CF6wP"
+        "text_YccVCL"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -221,6 +212,64 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "le_image_slider_WKjHBk": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_FcDmNg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/everlastgym.jpg"
+          }
+        },
+        "slide_KGx7Hc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ModeClub_LogoF.png"
+          }
+        },
+        "slide_9GQztc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/The_Gym_Group.webp"
+          }
+        },
+        "slide_X9rMTw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pure_gym_logo.png"
+          }
+        },
+        "slide_m6zA8n": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personaltraining.png"
+          }
+        },
+        "slide_zUyDDE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/everyone-active-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FcDmNg",
+        "slide_KGx7Hc",
+        "slide_9GQztc",
+        "slide_X9rMTw",
+        "slide_m6zA8n",
+        "slide_zUyDDE"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -228,6 +277,7 @@
     "image_banner_MMRCXB",
     "le_whychoose_nUNAqd",
     "image_with_text_Krg7EP",
-    "image_with_text_UApzce"
+    "image_with_text_UApzce",
+    "le_image_slider_WKjHBk"
   ]
 }
