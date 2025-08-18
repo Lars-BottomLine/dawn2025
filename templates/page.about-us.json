@@ -118,8 +118,14 @@
       "settings": {
         "section_bkgr": "primary",
         "headline": "<p>Meet our leaders</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "We empower future fitness professionals with flexible, high-quality training that leads to real careers, lasting impact, and healthier communities.",
         "section_type": "skewed",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
@@ -293,7 +299,9 @@
           "settings": {
             "image": "shopify://shop_images/19.png",
             "heading": "<p>OUR MISSION</p>",
-            "subheading": "<p>Our mission is to deliver high-quality inclusive education within the health and fitness industry, empowering learners for success in their lives and careers.</p><p></p><p></p><p></p>"
+            "subheading": "<p>Our mission is to deliver high-quality inclusive education within the health and fitness industry, empowering learners for success in their lives and careers.</p><p></p><p></p><p></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_XaR4Ki": {
@@ -301,7 +309,9 @@
           "settings": {
             "image": "shopify://shop_images/22.png",
             "heading": "<p>WHAT WE DO</p>",
-            "subheading": "<p>We provide high-quality inclusive education for the fitness industry. Our programmes are designed to support learners beyond qualification, ensuring they are empowered for success in their chosen career pathway.<br/></p>"
+            "subheading": "<p>We provide high-quality inclusive education for the fitness industry. Our programmes are designed to support learners beyond qualification, ensuring they are empowered for success in their chosen career pathway.<br/></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_3DrcMH": {
@@ -309,7 +319,9 @@
           "settings": {
             "image": "shopify://shop_images/21.png",
             "heading": "<p>HOW WE DO IT</p>",
-            "subheading": "<p>Our delivery model combines online learning with optional face-to-face events, catering to diverse learning styles. We foster an interactive community of fitness professionals who are supported by industry expertise.</p>"
+            "subheading": "<p>Our delivery model combines online learning with optional face-to-face events, catering to diverse learning styles. We foster an interactive community of fitness professionals who are supported by industry expertise.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_8rVqpq": {
@@ -317,7 +329,9 @@
           "settings": {
             "image": "shopify://shop_images/23.png",
             "heading": "<p>WHY WE DO IT</p>",
-            "subheading": "<p>Our goal is to deliver educational excellence for individuals who aspire to build successful and sustainable careers in the health and fitness sector.<br/></p>"
+            "subheading": "<p>Our goal is to deliver educational excellence for individuals who aspire to build successful and sustainable careers in the health and fitness sector.<br/></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         }
       },
@@ -330,10 +344,15 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "blue",
+        "section_bkgr": "primary",
         "headline": "Our Vision & Mission",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "At Study Active, our mission guides everything we do. Here’s what we stand for and how we support our learners every step of the way.",
         "button_label": "",
         "button_url": "",
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 48,

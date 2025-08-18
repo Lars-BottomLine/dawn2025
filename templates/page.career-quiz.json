@@ -68,37 +68,45 @@
         "accordion_row_azWBrq": {
           "type": "accordion_row",
           "settings": {
-            "heading": "The Wellness Personal Trainer Path",
+            "heading": "Wellness & Health",
             "row_content": "<p>Want to help people feel better, live longer, and move with confidence? The Wellness Personal Trainer Pathway focuses on holistic health and long-term wellbeing. </p><p>As a wellness-focused coach, you'll support clients physically, mentally, and emotionally. You'll work often with those managing stress, lifestyle changes, or long-term health conditions. </p><p>It’s a deeply fulfilling route for those who care about meaningful, lasting change. Potential roles include wellness coach, lifestyle trainer, or specialist PTs in mental health and behavioural change. This is ideal for empathetic people who want to coach others towards balance, confidence, and vitality.</p>"
+          }
+        },
+        "accordion_row_WUTa8V": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Therapy",
+            "row_content": "<p>Want to help people recover faster, reduce pain, and move freely again? The Therapy Specialist Pathway focuses on sports massage therapy and hands-on care. </p><p>As a sports massage therapist, you’ll work with clients of all backgrounds. whether they are athletes improving performance or everyday people seeking relief from aches and injuries. </p><p>Your skills will support rehabilitation, mobility, and overall wellbeing, making a real difference in people’s daily lives. </p><p>Potential roles include working in gyms, clinics, sports teams, or building your own practice. This pathway is perfect for those who are empathetic, practical, and passionate about helping others feel and perform their best.</p>"
           }
         },
         "accordion_row_qw6idr": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
-          }
-        },
-        "accordion_row_ix3FMi": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Collapsible row",
+            "heading": "Strength & Conditioning",
             "row_content": ""
           }
         },
         "accordion_row_YGptwd": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
+            "heading": "Group Exercise",
+            "row_content": "<p>Love the buzz of a room full of energy? The Group Exercise Pathway is all about leading motivating, high-energy classes that bring people together. </p><p>As a group exercise instructor, you’ll inspire confidence, build community, and create sessions that are as fun as they are effective. </p><p>From strength and conditioning to dance fitness or Pilates, you’ll develop the skills to design and deliver safe, engaging workouts for groups of all sizes and abilities. </p><p>Potential roles include teaching in gyms, studios, community centres, or even running your own classes. This pathway is perfect for energetic, outgoing people who thrive on connecting with others and making fitness social, fun, and accessible.</p>"
+          }
+        },
+        "accordion_row_X8if4G": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Pilates",
+            "row_content": "<p>Want to help people move with strength, control, and grace? The Pilates Pathway focuses on building core stability, improving posture, and enhancing overall body awareness. </p><p>As a Pilates instructor, you’ll guide clients through mindful movement that supports recovery, prevents injury, and promotes lifelong mobility. You’ll often work with individuals looking to improve balance, flexibility, or manage conditions like back pain. It’s an inspiring route for those who value precision, focus, and empowering others to reconnect with their bodies. </p><p>Potential roles include Pilates instructor in gyms, studios, or wellness centres, or even running your own classes. This pathway is ideal for patient, encouraging people who want to help others build confidence from the inside out.</p>"
           }
         }
       },
       "block_order": [
         "accordion_row_azWBrq",
+        "accordion_row_WUTa8V",
         "accordion_row_qw6idr",
-        "accordion_row_ix3FMi",
-        "accordion_row_YGptwd"
+        "accordion_row_YGptwd",
+        "accordion_row_X8if4G"
       ],
       "name": "t:sections.le_accordion.presets.name",
       "settings": {
@@ -106,6 +114,7 @@
         "headline": "Learn more about your path",
         "heading_size": "medium",
         "accordion_width": "narrow",
+        "accordion_entries": [],
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
