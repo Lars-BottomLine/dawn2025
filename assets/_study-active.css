@@ -1659,6 +1659,7 @@ header .header__icon--cart .icon {
 .sa-section-face2face .f2f-entry .f2f-image {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 .sa-section-face2face .f2f-entry .f2f-image img {
   max-width: 100%;
