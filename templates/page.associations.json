@@ -286,23 +286,11 @@
           "settings": {
             "text": "<p>Whether you want to know more about our awarding bodies or how our gym partnerships can help you land your first role, we’re here to help.</p><p></p><p>📩 Email: <a>info@studyactive.co.uk</a><br/><br/>📞 Call: <a href=\"tel:0122 391 2122\" title=\"tel:0122 391 2122\">0122 391 2122</a><br/></p>"
           }
-        },
-        "button_krnfzJ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_gV39kL",
-        "text_fJDky7",
-        "button_krnfzJ"
+        "text_fJDky7"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
