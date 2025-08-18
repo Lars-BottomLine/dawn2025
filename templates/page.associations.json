@@ -168,12 +168,66 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "image_with_text_UApzce": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KiEFBc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Gym Partnerships",
+            "heading_size": "h1"
+          }
+        },
+        "text_YccVCL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8CF6wP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KiEFBc",
+        "text_YccVCL",
+        "button_8CF6wP"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/woman-weight-lifting-with-trainer.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_MMRCXB",
     "le_whychoose_nUNAqd",
-    "image_with_text_Krg7EP"
+    "image_with_text_Krg7EP",
+    "image_with_text_UApzce"
   ]
 }
