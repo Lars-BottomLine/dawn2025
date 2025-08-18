@@ -116,7 +116,7 @@
       ],
       "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "section_bkgr": "primary",
+        "section_bkgr": "white",
         "headline": "<p>Meet our leaders</p>",
         "heading_type": "h2",
         "heading_size": "normal",
@@ -278,7 +278,7 @@
       ],
       "name": "t:sections.le_accordion.presets.name",
       "settings": {
-        "template_type": "blue",
+        "template_type": "white",
         "headline": "Meet the Study Active Team",
         "heading_size": "medium",
         "accordion_width": "full",
