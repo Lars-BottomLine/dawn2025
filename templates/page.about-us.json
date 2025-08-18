@@ -447,7 +447,7 @@
         "heading_BmGCXJ": {
           "type": "heading",
           "settings": {
-            "heading": "Associations and Partners",
+            "heading": "Our Industry Partnerships",
             "heading_size": "h1"
           }
         },
@@ -460,7 +460,7 @@
         "button_XWd9Nh": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Find out more about our parternships",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
