@@ -1666,43 +1666,6 @@ header .header__icon--cart .icon {
   height: 100%;
   object-fit: cover;
 }
-.sa-section-face2face .f2f-entry {
-  gap: 8rem;
-  margin-bottom: 4rem;
-}
-.sa-section-face2face .f2f-entry .f2f-left,
-.sa-section-face2face .f2f-entry .f2f-right {
-  width: 50%;
-  display: flex;
-  padding: 0;
-}
-.sa-section-face2face.-col-type-narrow .f2f-entry {
-  gap: 2rem;
-}
-.sa-section-face2face.-col-type-narrow .f2f-entry .f2f-left,
-.sa-section-face2face.-col-type-narrow .f2f-entry .f2f-right {
-  max-width: 44rem;
-}
-.sa-section-face2face.-col-type-medium .f2f-entry {
-  margin-bottom: 5rem;
-}
-.sa-section-face2face.-col-type-medium .f2f-entry .f2f-left,
-.sa-section-face2face.-col-type-medium .f2f-entry .f2f-right {
-  max-width: 52rem;
-}
-.sa-section-face2face.-col-type-wide .f2f-entry {
-  gap: 4rem;
-}
-.sa-section-face2face.-col-type-wide .f2f-entry .f2f-left,
-.sa-section-face2face.-col-type-wide .f2f-entry .f2f-right {
-  max-width: 58rem;
-}
-.sa-section-face2face.-col-type-asymmetric .f2f-entry .f2f-left {
-  max-width: 30rem;
-}
-.sa-section-face2face.-col-type-asymmetric .f2f-entry .f2f-right {
-  max-width: 56rem;
-}
 .sa-section-face2face .f2f-entry .f2fe-heading {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -1747,12 +1710,15 @@ header .header__icon--cart .icon {
 .sa-section-face2face.sa-bg-primary .f2fe-heading {
   color: white !important;
 }
-.sa-section-face2face.sa-bg-primary .f2fe-text {
-  color: var(--color-secondary);
+.sa-section-face2face.sa-bg-primary .f2fe-text,
+.sa-section-face2face.sa-bg-primary .f2fe-text p {
+  color: var(--color-secondary) !important;
 }
 .sa-section-face2face.sa-bg-primary .f2fe-text b,
-.sa-section-face2face.sa-bg-primary .f2fe-text strong {
-  color: white;
+.sa-section-face2face.sa-bg-primary .f2fe-text strong,
+.sa-section-face2face.sa-bg-primary .f2fe-text p b,
+.sa-section-face2face.sa-bg-primary .f2fe-text p strong {
+  color: white !important;
 }
 .sa-section-face2face.sa-bg-white .f2f-headline,
 .sa-section-face2face.sa-bg-white .f2fe-heading,
@@ -1760,6 +1726,9 @@ header .header__icon--cart .icon {
 .sa-section-face2face.sa-bg-light-blue .f2fe-heading,
 .sa-section-face2face.sa-bg-light-blue .f2fe-text {
   color: var(--color-primary) !important;
+}
+.sa-section-face2face.-img-shadow-light .f2f-left, .sa-section-face2face.-img-shadow-normal .f2f-left {
+  margin-bottom: 1.3rem;
 }
 .sa-section-face2face.-img-shadow-light .f2f-image {
   width: 100%;
@@ -1824,6 +1793,15 @@ header .header__icon--cart .icon {
   height: 115%;
   margin-top: -4%;
 }
+.sa-section-face2face.-img-type-skewed .f2f-entry:nth-child(odd) {
+  margin-top: 3.2rem;
+}
+.sa-section-face2face.-img-type-skewed .f2f-entry:nth-child(odd) .f2f-image {
+  margin-top: -1.5rem;
+}
+.sa-section-face2face.-img-type-skewed .f2f-entry:nth-child(even) .f2f-text {
+  margin-top: -2.5rem;
+}
 .sa-section-face2face.-img-size-small .f2f-image {
   max-width: 43rem;
   height: 23rem;
@@ -1880,6 +1858,52 @@ header .header__icon--cart .icon {
 }
 .sa-section-face2face.img-type-medium .f2f-text h3 {
   margin: 0 0 2rem 0;
+}
+.sa-section-face2face .f2f-entry {
+  gap: 8rem;
+  margin-bottom: 4rem;
+}
+.sa-section-face2face .f2f-entry .f2f-left,
+.sa-section-face2face .f2f-entry .f2f-right {
+  width: 50%;
+  display: flex;
+  padding: 0;
+}
+.sa-section-face2face.-col-type-narrow .f2f-entry {
+  gap: 2rem;
+}
+.sa-section-face2face.-col-type-narrow .f2f-entry .f2f-left,
+.sa-section-face2face.-col-type-narrow .f2f-entry .f2f-right {
+  max-width: 44rem;
+}
+.sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(even) .f2f-text {
+  padding-right: 2rem;
+}
+.sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(odd) .f2f-image {
+  margin-left: -1rem;
+}
+.sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(odd) .f2f-text {
+  padding-left: 2rem;
+}
+.sa-section-face2face.-col-type-medium .f2f-entry {
+  margin-bottom: 5rem;
+}
+.sa-section-face2face.-col-type-medium .f2f-entry .f2f-left,
+.sa-section-face2face.-col-type-medium .f2f-entry .f2f-right {
+  max-width: 52rem;
+}
+.sa-section-face2face.-col-type-wide .f2f-entry {
+  gap: 4rem;
+}
+.sa-section-face2face.-col-type-wide .f2f-entry .f2f-left,
+.sa-section-face2face.-col-type-wide .f2f-entry .f2f-right {
+  max-width: 58rem;
+}
+.sa-section-face2face.-col-type-asymmetric .f2f-entry .f2f-left {
+  max-width: 30rem;
+}
+.sa-section-face2face.-col-type-asymmetric .f2f-entry .f2f-right {
+  max-width: 56rem;
 }
 @media (max-width: 820px) {
   .sa-section-face2face .f2f-entry-container {
