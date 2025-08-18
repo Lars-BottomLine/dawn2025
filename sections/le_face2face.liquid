@@ -66,15 +66,18 @@
 {%- endstyle -%}
 
 <div class="sa-section-face2face
-            -img-type-{{ section.settings.image_type }}
+            -col-type-{{ section.settings.column_type }}
             -txt-align-{{ section.settings.text_align }}
-            -img_shadow-{{ section.settings.image_shadow }}
+            -img-shadow-{{ section.settings.image_shadow }}
+            -img-type-{{ section.settings.image_type }}
+            -img-size-{{ section.settings.image_size }}
             {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
-        <div class="f2f-header pl-20 pb-32">
+        {% if section.settings.headline or section.settings.subheadline %}
+        <div class="f2f-header pl-20 mb-20">
 
-            {% # HEADING
+            {% # HEADLINE
              # ---------------------- %}
             {% if section.settings.headline %}
             <div class="f2f-heading">
@@ -92,6 +95,8 @@
             </div>
             {% endif %}
 
+            {% # SUBHEADLINE
+               # ---------------------- %}
             {% if section.settings.subheadline %}
             <div class="f2f-subheading">
                 {{ section.settings.subheadline }}
@@ -99,6 +104,7 @@
             {% endif %}
 
         </div>
+        {% endif %}
 
         <div class="f2f-entry-container">
 
@@ -282,7 +288,30 @@
       "label": "Text"
     },
 
-
+    {
+      "type": "select",
+      "id": "column_type",
+      "label": "Column Type",
+      "options": [
+        {
+          "value": "narrow",
+          "label": "Equal width narrow"
+        },
+        {
+          "value": "medium",
+          "label": "Equal width medium"
+        },
+        {
+          "value": "wide",
+          "label": "Equal width wide"
+        },
+        {
+          "value": "asymmetric",
+          "label": "Asymmetric"
+        }
+      ],
+      "default": "medium"
+    },
 
     {
       "type": "header",
@@ -318,15 +347,19 @@
           "label": "Small"
         },
         {
-          "value": "normal",
-          "label": "Normal"
+          "value": "medium",
+          "label": "Medium"
         },
         {
-          "value": "large",
-          "label": "Large"
+          "value": "mediumplus",
+          "label": "Medium Plus"
+        },
+        {
+          "value": "narrowauto",
+          "label": "Narrow / Auto height"
         }
       ],
-      "default": "normal"
+      "default": "medium"
     },
     {
       "type": "select",
@@ -334,12 +367,16 @@
       "label": "Type",
       "options": [
         {
-          "value": "normal",
-          "label": "Normal"
-        },
-        {
           "value": "skewed",
           "label": "Skewed"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
         }
       ],
       "default": "normal"
