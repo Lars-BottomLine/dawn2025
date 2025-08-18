@@ -1,5 +1,6 @@
 {%- liquid
 
+    # ---------------------------------
     # DECALS
     # ---------------------------------
     assign decal_top = false
@@ -15,7 +16,30 @@
         assign decal_bottom = true
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
+
     # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white'
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary'
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin'
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding'
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
 
 %}
 
@@ -25,7 +49,7 @@
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-                margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
         margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
     }
 
@@ -42,11 +66,10 @@
 {%- endstyle -%}
 
 <div class="sa-section-face2face
-            -img-type-{{ section.settings.section_type }} sa-bg-{{ section.settings.section_bkgr }}
-            section-{{ section.id }}-padding section-{{ section.id }}-margin
-            -dcb-{{ section.settings.section_bkgr }} -dct-{{ section.settings.section_bkgr }}
-            {{ section_classes }}
-            {{ section.settings.custom_class_names }}">
+            -img-type-{{ section.settings.image_type }}
+            -txt-align-{{ section.settings.text_align }}
+            -img_shadow-{{ section.settings.image_shadow }}
+            {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
         <div class="f2f-header pl-20 pb-32">
@@ -69,11 +92,11 @@
             </div>
             {% endif %}
 
-
-
-            <div class="_subtitle">
+            {% if section.settings.subheadline %}
+            <div class="f2f-subheading">
                 {{ section.settings.subheadline }}
             </div>
+            {% endi %}
 
         </div>
 
@@ -259,26 +282,69 @@
       "label": "Text"
     },
 
+
+
+    {
+      "type": "header",
+      "content": "Entry image settings"
+    },
     {
       "type": "select",
-      "id": "section_type",
-      "label": "Image Type",
+      "id": "image_shadow",
+      "label": "Shadow Type",
       "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "light",
+          "label": "Light"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        }
+      ],
+      "default": "light"
+    },
+    {
+      "type": "select",
+      "id": "image_size",
+      "label": "Size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "select",
+      "id": "image_type",
+      "label": "Type",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
         {
           "value": "skewed",
           "label": "Skewed"
-        },
-        {
-          "value": "medium",
-          "label": "Square Medium"
-        },
-        {
-          "value": "small",
-          "label": "Square Small"
         }
       ],
-      "default": "skewed"
+      "default": "normal"
     },
+
 
     {
       "type": "header",
@@ -355,6 +421,35 @@
       ],
       "default": "normal",
       "label": "Entry font size"
+    },
+
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text align",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "inside",
+          "label": "To the inside"
+        },
+        {
+          "value": "outside",
+          "label": "To the outside"
+        }
+      ],
+      "default": "inside"
     },
 
 
