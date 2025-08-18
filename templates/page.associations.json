@@ -124,11 +124,56 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "image_with_text_Krg7EP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wHDpqG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Proud to Be Rated “Enhancing” by CIMSPA",
+            "heading_size": "h1"
+          }
+        },
+        "text_fX6kce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Study Active is proud to have been awarded “Enhancing” status by CIMSPA – the highest possible quality rating a fitness education provider can achieve. This prestigious trust mark recognises our commitment to delivering truly outstanding education, following a rigorous quality assurance inspection by CIMSPA’s expert auditors. As a learner, you can have complete confidence that our courses meet the highest national standards. Unlike basic endorsement alone, CIMSPA’s new quality framework gives a clear picture of a provider’s performance. With Study Active rated “Enhancing,” you’re choosing excellence at every stage of your fitness education journey.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wHDpqG",
+        "text_fX6kce"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CIMSPA_Quality_Assurance_Logo_3-star_Enhancing_NAVY_1200x_ee85d701-682d-49f7-be63-5a41e362ab05.webp",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_MMRCXB",
-    "le_whychoose_nUNAqd"
+    "le_whychoose_nUNAqd",
+    "image_with_text_Krg7EP"
   ]
 }
