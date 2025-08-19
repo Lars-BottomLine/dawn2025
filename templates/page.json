@@ -237,7 +237,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "See current partner gyms",
-            "button_link_1": "https://x1nyix-uh.myshopify.com/pages/associations-and-partners",
+            "button_link_1": "shopify://pages/associations-and-partners",
             "button_style_secondary_1": false,
             "button_label_2": "Book a careers call",
             "button_link_2": "",
