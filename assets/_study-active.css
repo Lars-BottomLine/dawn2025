@@ -1619,7 +1619,7 @@ header .header__icon--cart .icon {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 .sa-section-face2face .f2f-heading .f2f-heading-image {
   width: 4.4rem;
@@ -1710,13 +1710,16 @@ header .header__icon--cart .icon {
   color: white !important;
 }
 .sa-section-face2face.sa-bg-primary .f2fe-text,
-.sa-section-face2face.sa-bg-primary .f2fe-text p {
+.sa-section-face2face.sa-bg-primary .f2fe-text p,
+.sa-section-face2face.sa-bg-primary .f2f-subheading {
   color: var(--color-secondary) !important;
 }
 .sa-section-face2face.sa-bg-primary .f2fe-text b,
 .sa-section-face2face.sa-bg-primary .f2fe-text strong,
 .sa-section-face2face.sa-bg-primary .f2fe-text p b,
-.sa-section-face2face.sa-bg-primary .f2fe-text p strong {
+.sa-section-face2face.sa-bg-primary .f2fe-text p strong,
+.sa-section-face2face.sa-bg-primary .f2f-subheading b,
+.sa-section-face2face.sa-bg-primary .f2f-subheading strong {
   color: white !important;
 }
 .sa-section-face2face.sa-bg-white .f2f-headline,
@@ -1803,7 +1806,7 @@ header .header__icon--cart .icon {
 }
 .sa-section-face2face.-img-size-small .f2f-image {
   max-width: 43rem;
-  height: 23rem;
+  height: 21rem;
 }
 .sa-section-face2face.-img-size-medium .f2f-image {
   max-width: 52rem;
@@ -1893,6 +1896,7 @@ header .header__icon--cart .icon {
   padding: 0;
 }
 .sa-section-face2face.-col-type-narrow .f2f-entry-container {
+  padding-top: 8rem;
   gap: 4rem;
 }
 .sa-section-face2face.-col-type-narrow .f2f-entry {
@@ -1911,12 +1915,16 @@ header .header__icon--cart .icon {
 .sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(odd) .f2f-text {
   padding-left: 2rem;
 }
+.sa-section-face2face.-col-type-medium .f2f-entry-container {
+  padding-top: 5rem;
+}
 .sa-section-face2face.-col-type-medium .f2f-entry .f2f-left,
 .sa-section-face2face.-col-type-medium .f2f-entry .f2f-right {
   max-width: 52rem;
 }
 .sa-section-face2face.-col-type-wide .f2f-entry-container {
   gap: 4rem;
+  padding-top: 3rem;
 }
 .sa-section-face2face.-col-type-wide .f2f-entry {
   gap: 4rem;
@@ -1925,10 +1933,8 @@ header .header__icon--cart .icon {
 .sa-section-face2face.-col-type-wide .f2f-entry .f2f-right {
   max-width: 58rem;
 }
-.sa-section-face2face.-col-type-asymmetric .f2f-header {
-  margin-bottom: 8rem;
-}
 .sa-section-face2face.-col-type-asymmetric .f2f-entry-container {
+  padding-top: 4rem;
   gap: 8rem;
 }
 .sa-section-face2face.-col-type-asymmetric .f2f-entry .f2f-left {
@@ -1936,6 +1942,9 @@ header .header__icon--cart .icon {
 }
 .sa-section-face2face.-col-type-asymmetric .f2f-entry .f2f-right {
   max-width: 56rem;
+}
+.sa-section-face2face.-col-type-wide .f2f-heading.-with-image {
+  margin-bottom: -2rem;
 }
 @media (max-width: 820px) {
   .sa-section-face2face .f2f-entry-container {

@@ -76,13 +76,13 @@
     <div class="page-width -section-content w-full">
 
         {% if section.settings.headline or section.settings.subheadline %}
-        <div class="f2f-header pl-20 mb-20">
+        <div class="f2f-header pl-20">
 
             {% # HEADLINE
              # ---------------------- %}
             {% if section.settings.headline %}
-            <div class="f2f-heading">
-                <{{ section.settings.heading_type }} class="f2f-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+            <div class="f2f-heading {% if section.settings.heading_image %} -with-image {% endif %}">
+                <{{ section.settings.heading_type }} class="f2f-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-size-{{ section.settings.heading_size }}">
                     {%- if section.settings.heading_image -%}
                     <div class="f2f-heading-image">
                         {{ section.settings.heading_image
