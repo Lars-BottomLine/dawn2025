@@ -16,7 +16,8 @@
           "type": "row-heading",
           "settings": {
             "text": "<p>A better life for you </p><p><strong>and your clients.</strong></p>",
-            "heading_type": "h1"
+            "heading_type": "h1",
+            "heading_size": "normal"
           }
         },
         "row2col_xHtH7d": {
@@ -34,7 +35,8 @@
             "text": "Here's how:",
             "button_type": "internal",
             "inverted": true,
-            "button_link": ""
+            "button_link": "",
+            "subtext": ""
           }
         }
       },
@@ -182,6 +184,8 @@
         "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
         "heading": "<p>Your First Step to Becoming a Wellness Personal Trainer:</p>",
         "heading_type": "h3",
+        "heading_size": "normal",
+        "no_decal": false,
         "secondary_background": false,
         "media_size": "auto",
         "constrain_to_viewport": true,
@@ -236,7 +240,18 @@
         "section_bkgr": "white",
         "heading_image": "shopify://shop_images/featured_seasonal_and_gifts.svg",
         "headline": "<p>Course Bundles & Specialisations</p>",
+        "heading_type": "h2",
+        "heading_size": "small",
+        "no_decal": true,
         "subheadline": "",
+        "column_type": "wide",
+        "image_shadow": "normal",
+        "image_size": "mediumplus",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "small",
+        "text_align": "left",
         "custom_class_names": "-small-text",
         "decal_top": false,
         "decal_bottom": false,
@@ -338,7 +353,18 @@
       "settings": {
         "section_bkgr": "light-blue",
         "headline": "<p><strong>Step 3:</strong> Start learning</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "",
+        "column_type": "medium",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "inside",
         "custom_class_names": "anchor-step3",
         "decal_top": true,
         "decal_bottom": true,
@@ -450,6 +476,7 @@
         "headline": "Check out some of the top job options below",
         "heading_size": "medium",
         "accordion_width": "full",
+        "accordion_entries": [],
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 0,
@@ -482,7 +509,8 @@
           "type": "row-heading",
           "settings": {
             "text": "<p>Your new career  </p><p><strong>starts here</strong></p>",
-            "heading_type": "h1"
+            "heading_type": "h1",
+            "heading_size": "normal"
           }
         },
         "row2col_wUg8j7": {
@@ -518,7 +546,8 @@
             "text": "See courses & bundles",
             "button_type": "right",
             "inverted": true,
-            "button_link": ""
+            "button_link": "",
+            "subtext": ""
           }
         }
       },
