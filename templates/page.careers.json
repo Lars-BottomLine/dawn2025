@@ -1,0 +1,282 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "le_text_and_background_CPGWjN": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_kpt4Le": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>From learning to earning</p>",
+            "heading_type": "h1",
+            "heading_size": "normal"
+          }
+        },
+        "row2col_rwpz6e": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>You’ve got the skills. We’ll help you turn them into a career. </p>",
+            "text1_size": "medium",
+            "text2": "<p>Our careers support is built around three pillars: <strong>interview guarantee, CV writing support, and ongoing guidance. </strong></p>",
+            "text2_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_kpt4Le",
+        "row2col_rwpz6e"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/personal_trainers_at_gym.jpg",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_iQiHTF": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_H6c9xp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personal_trainer_interview.webp",
+            "heading": "<p>Interview Guarantee</p>",
+            "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more). <br/></li><li>If we can’t arrange an interview after reasonable attempts, we’ll refund your course fees. <strong>We're that confident. </strong></li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
+          }
+        },
+        "slide_4bKYMQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
+            "heading": "<p>CV & Application Support</p>",
+            "subheading": "<p>Stand out for the right reasons. Our team helps you present your skills clearly and professionally.</p><p><strong>What’s included</strong></p><ul><li>CV audit and rewrite suggestions tailored to your pathway </li></ul><p></p><ul><li>Cover-letter templates and examples</li><li>LinkedIn polish: profile headline, about section, and skills </li><li>Job application support (keywords, short answers, selection criteria)</li></ul>"
+          }
+        },
+        "slide_XqbA79": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/high_five_fitness.webp",
+            "heading": "<p>Career Guidance (before and after you qualify)</p>",
+            "subheading": "<p>Plan the route that suits your goals – employment, freelance, or a blend.</p><p><strong>You’ll get</strong></p><ul><li>One-to-one career call to map your next 90 days </li></ul><p></p><ul><li>Role pathways: gym-based, studio, self-employed, mobile, online </li></ul><p></p><ul><li>Pricing and packages guidance (if going self-employed) CPD recommendations to specialise and progress Introductions to local networks and employer events (where available)</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_H6c9xp",
+        "slide_4bKYMQ",
+        "slide_XqbA79"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "light-blue",
+        "headline": "<p>Your next step starts here</p>",
+        "heading_type": "h2",
+        "heading_size": "large",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_steps_7BPkEU": {
+      "type": "le_steps",
+      "blocks": {
+        "step_PXTJ7R": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Book your careers call",
+            "text": "We'll sit down with you to discuss your career goals.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_4jf4N4": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "CV & LinkedIn tune-up",
+            "text": "We'll help polish and position you so you stand out.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_CRkjbf": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Interview set-up",
+            "text": "We'll arrange your guaranteed interview(s) with gyms.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_tM98Xb": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Ongoing support",
+            "text": "We'll provide feedback, next steps, and further training options.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_PXTJ7R",
+        "step_4jf4N4",
+        "step_CRkjbf",
+        "step_tM98Xb"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "template_type": "white",
+        "heading": "<p>What to expect after you qualify</p>",
+        "text": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_accordion_CkhytX": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_adRxnz": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I choose the employer?",
+            "row_content": "<p>We’ll prioritise partners near you and roles that fit your qualification.</p>"
+          }
+        },
+        "accordion_row_CHhpQc": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What if I want to go self-employed?",
+            "row_content": "<p>We’ll help with pricing, packages, marketing basics, and insurance.</p>"
+          }
+        },
+        "accordion_row_n3bkxF": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to get an interview?",
+            "row_content": "<p>Typically 2–4 weeks after completion, depending on location and season.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_adRxnz",
+        "accordion_row_CHhpQc",
+        "accordion_row_n3bkxF"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Frequently asked questions",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "accordion_entries": [],
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "image_banner_GzGMki": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FTBz73": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get started?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WG3THF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_n7nrY7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See current partner gyms",
+            "button_link_1": "shopify://pages/associations-and-partners",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a careers call",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBz73",
+        "text_WG3THF",
+        "buttons_n7nrY7"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "le_text_and_background_CPGWjN",
+    "le_face2face_iQiHTF",
+    "le_steps_7BPkEU",
+    "le_accordion_CkhytX",
+    "image_banner_GzGMki"
+  ]
+}
