@@ -263,7 +263,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-handshake.svg",
             "heading": "<p>Guaranteed Interviews</p>",
-            "subheading": "<p>Benefit from our network of top UK gyms.</p>"
+            "subheading": "<p>Benefit from our network of top UK gyms.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_rJxCkV": {
@@ -271,7 +273,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-calendar.svg",
             "heading": "<p>Flexible Study</p>",
-            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>"
+            "subheading": "<p>Study on your own time, from anywhere, around your schedule.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_YcHdNd": {
@@ -279,7 +283,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-hand-gives.svg",
             "heading": "<p>Trusted Provider</p>",
-            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>"
+            "subheading": "<p>An industry leader trusted by 1000s since 2012.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_AGUxxi": {
@@ -287,7 +293,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-twig.svg",
             "heading": "<p>Growing career</p>",
-            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>"
+            "subheading": "<p>Jobs in a growing industry with top satisfaction.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         }
       },
@@ -300,10 +308,15 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "blue",
+        "section_bkgr": "primary",
         "headline": "Why choose Study Active?",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "Join thousands of successful graduates who transformed their careers with our award-winning training programs.",
         "button_label": "",
         "button_url": "",
+        "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
@@ -435,8 +448,18 @@
       "settings": {
         "section_bkgr": "primary",
         "headline": "<p>Flexible learning, built for life</p>",
+        "heading_type": "h2",
+        "heading_size": "large",
+        "no_decal": false,
         "subheadline": "Our cutting-edge Learning Management System (LMS) gives you everything you need to succeed — on your terms.",
-        "section_type": "blue_background",
+        "column_type": "narrow",
+        "image_shadow": "light",
+        "image_size": "small",
+        "image_type": "skewed",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "inside",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
@@ -501,7 +524,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-credit_score.svg",
             "heading": "<p>Pay in Full</p>",
-            "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>"
+            "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_VWEtxj": {
@@ -509,7 +534,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-calendar_today.svg",
             "heading": "<p>Monthly Payments</p>",
-            "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>"
+            "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_BDeL6f": {
@@ -517,7 +544,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-shield.svg",
             "heading": "<p>0% Finance</p>",
-            "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>"
+            "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         }
       },
@@ -529,10 +558,15 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "light1",
+        "section_bkgr": "primary",
         "headline": "Flexible payment options",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.",
         "button_label": "",
         "button_url": "",
+        "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 0,
@@ -549,7 +583,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-handshake-blue.svg",
             "heading": "<p>Interview guarantee </p>",
-            "subheading": ""
+            "subheading": "",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_mTap7F": {
@@ -557,7 +593,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-article_person.svg",
             "heading": "<p>CV writing support</p>",
-            "subheading": ""
+            "subheading": "",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         },
         "slide_9FaJRF": {
@@ -565,7 +603,9 @@
           "settings": {
             "image": "shopify://shop_images/symbol-explore.svg",
             "heading": "<p>Career guidance</p>",
-            "subheading": ""
+            "subheading": "",
+            "button_text": "Enrol Now",
+            "button_url": ""
           }
         }
       },
@@ -577,10 +617,15 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "light2",
+        "section_bkgr": "primary",
         "headline": "Guaranteed job interview promise",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
         "subheadline": "We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.",
         "button_label": "Learn more",
         "button_url": "https://bottomline.agency",
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 0,
@@ -724,6 +769,7 @@
         "headline": "Frequently asked questions",
         "heading_size": "medium",
         "accordion_width": "narrow",
+        "accordion_entries": [],
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
