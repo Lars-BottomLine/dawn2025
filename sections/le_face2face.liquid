@@ -68,6 +68,7 @@
 <div class="sa-section-face2face
             -col-type-{{ section.settings.column_type }}
             -txt-align-{{ section.settings.text_align }}
+            -h-size-{{ section.settings.heading_size }}
             -img-shadow-{{ section.settings.image_shadow }}
             -img-type-{{ section.settings.image_type }}
             -img-size-{{ section.settings.image_size }}
@@ -266,11 +267,15 @@
           "label": "Normal"
         },
         {
+          "value": "normal-bold",
+          "label": "Normal Bold"
+        },
+        {
           "value": "large",
           "label": "Large"
         }
       ],
-      "default": "normal",
+      "default": "large",
       "label": "Heading font size"
     },
     {
