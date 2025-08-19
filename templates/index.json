@@ -616,7 +616,7 @@
       ],
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
-        "template_type": "threecol",
+        "template_type": "threecol-notext",
         "section_bkgr": "light-blue",
         "headline": "Guaranteed job interview promise",
         "heading_type": "h2",
