@@ -220,35 +220,51 @@
     "le_profile_GQeTHR": {
       "type": "le_profile",
       "blocks": {
+        "title_BEXrfA": {
+          "type": "title",
+          "settings": {
+            "title": "Julian Berriman"
+          }
+        },
         "text_zXXR68": {
           "type": "text",
           "settings": {
             "text": "<p><em>Osteopath & Sports Massage Therapist</em></p><p>I qualified with my BSc in Osteopathy in 2005 and have been practising as a registered osteopath ever since.</p><p>My passion is helping people move better, feel better, and live without pain, and now I’m here to guide you on that same path for your clients.</p>"
           }
         },
+        "title_C37yPE": {
+          "type": "title",
+          "settings": {
+            "title": "Let’s Connect"
+          }
+        },
         "text_nTBLHR": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>I’m always happy to answer questions, share advice, or just chat about your goals in the fitness industry, so don’t hesitate to reach out.</p>"
           }
         },
         "social_YGVa78": {
           "type": "social",
           "settings": {
-            "title": "",
-            "url": ""
+            "title": "julian.berriman@email.com",
+            "url": "mailto:julian.berriman@email.com",
+            "image": "shopify://shop_images/icon-email-blue.png"
           }
         },
         "social_8EPLwg": {
           "type": "social",
           "settings": {
-            "title": "",
-            "url": ""
+            "title": "julian.berriman@email.com",
+            "url": "https://www.linkedin.com/in/julian-berriman-62379418/",
+            "image": "shopify://shop_images/logo-linkedin-blue.png"
           }
         }
       },
       "block_order": [
+        "title_BEXrfA",
         "text_zXXR68",
+        "title_C37yPE",
         "text_nTBLHR",
         "social_YGVa78",
         "social_8EPLwg"
