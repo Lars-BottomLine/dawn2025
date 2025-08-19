@@ -359,7 +359,7 @@
         "testimonial_mK8a7h": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/michael-clegg.jpg",
+            "image": "shopify://shop_images/Michael_Clegg.jpg",
             "quote": "<p><em>“The course content was engaging and the flexible structure allowed me to study around my full-time job. The tutors were incredibly supportive and knowledgeable every step of the way.”</em></p>",
             "author": "<p><strong>Michael Clegg, </strong>Former Premier League Footballer & PT Graduate </p>"
           }
@@ -367,7 +367,7 @@
         "testimonial_R3PBFK": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/michael-clegg.jpg",
+            "image": "shopify://shop_images/Michael_Clegg.jpg",
             "quote": "<p>“Study Active has been outstanding from start to finish. I was able to qualify as a PT while juggling work and family, thanks to their exceptional support and easy-to-follow learning platform. I can’t recommend them enough!”</p>",
             "author": "<p><strong>Anne Nixon, </strong>TV Presenter & Certified Personal Trainer </p>"
           }
