@@ -65,18 +65,18 @@
     }
 {%- endstyle -%}
 
-<div class="sa-section-profile
-            {{ section_classes }}">
+<div class="sa-section-testimonials
+           {{ section_classes }}">
     <div class="page-width">
 
-        {% if section.settings.heading or section.settings.text %}
-        <div class="pro-header">
+        {% if section.settings.heading %}
+        <div class="tm-header">
 
             {% # HEADING
                # ---------------------- %}
             {% if section.settings.heading %}
-            <div class="pro-heading">
-                <{{ section.settings.heading_type }} class="pro-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+            <div class="tm-heading">
+                <{{ section.settings.heading_type }} class="tm-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
                     {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                 </{{ section.settings.heading_type }}>
             </div>
@@ -85,76 +85,12 @@
         </div>
         {% endif %}
 
-        <div class="pro-wrapper">
-
-            {% if section.settings.image != blank %}
-            <div class="pro-left">
-                <div class="pro-image">
-                    {{ section.settings.image
-                        | image_url: width: 750
-                        | image_tag: alt: section.settings.image.alt }}
-                </div>
-            </div>
-            {% endif %}
-
-            <div class="pro-right">
-                <div class="">
-
-                {%- for block in section.blocks -%}
-                    {%- case block.type -%}
-
-                        {% # BLOCK: TITLE %}
-                        {%- when 'title' -%}
-                            {% if block.settings.title != blank %}
-                            <div class="pro-title">
-                                {{ block.settings.title }}
-                            </div>
-                            {% endif %}
-
-                        {% # BLOCK: TEXT %}
-                        {%- when 'text' -%}
-                            {% if block.settings.text != blank %}
-                                <div class="pro-text">
-                                    {{ block.settings.text }}
-                                </div>
-                            {% endif %}
-
-                        {% # BLOCK: SOCIAL %}
-                        {%- when 'social' -%}
-                            {% if block.settings.title != blank %}
-                                <div class="pro-social flex flex-column justify-start items-center gap-4">
-                                    {% if block.settings.image != blank %}
-                                    <div class="pro-social-image">
-                                        {{ block.settings.image | media_tag }}
-                                    </div>
-                                    {% endif %}
-                                    {% if block.settings.url != blank %}
-                                    <a href="{{ block.settings.url }}" target="_blank">
-                                        {{ block.settings.title }}
-                                    </a>
-                                    {% else %}
-                                    <span>
-                                        {{ block.settings.title }}
-                                    </span>
-                                    {% endif %}
-                                </div>
-                            {% endif %}
-
-                    {% endcase %}
-                {% endfor %}
-
-                </div>
-            </div>
-
-        </div>
-
     </div>
 </div>
 
-
 {% schema %}
 {
-  "name": "t:sections.le_profile.name",
+  "name": "t:sections.le_testimonials.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -241,12 +177,6 @@
     },
 
     {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Profile image"
-    },
-
-    {
       "type": "header",
       "content": "Custom classes"
     },
@@ -256,7 +186,6 @@
       "label": "t:settings_schema.custom_classes.settings.class_names.label",
       "placeholder": ".test_class"
     },
-
 
     {
       "type": "header",
@@ -325,70 +254,44 @@
       "default": 0
     }
   ],
-
   "blocks": [
     {
-      "type": "title",
-      "name": "Title",
+      "type": "testimonial",
+      "name": "Testimonial",
       "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "Text",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "label": "Text"
-        }
-      ]
-    },
-    {
-      "type": "social",
-      "name": "Social Link",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "URL"
-        },
         {
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "Quote"
+        },
+        {
+          "type": "richtext",
+          "id": "author",
+          "label": "Author"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.le_profile.presets.name",
-      "settings": {
-        "heading": "Profile Section"
-      },
+      "name": "t:sections.le_testimonials.presets.name",
       "blocks": [
         {
-          "type": "text"
+          "type": "testimonial"
         },
         {
-          "type": "text"
+          "type": "testimonial"
         },
         {
-          "type": "social"
+          "type": "testimonial"
         },
         {
-          "type": "social"
+          "type": "testimonial"
         }
       ]
     }

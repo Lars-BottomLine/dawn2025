@@ -3141,6 +3141,13 @@
       }
     },
 
+    "le_testimonials": {
+      "name": "StudyActive - Testimonials",
+      "presets": {
+        "name": "StudyActive - Testimonials"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
