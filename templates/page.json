@@ -56,7 +56,7 @@
           "settings": {
             "image": "shopify://shop_images/personal_trainer_interview.webp",
             "heading": "<h2>Interview Guarantee</h2>",
-            "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more).</li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
+            "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more). <br/></li><li>If we can’t arrange an interview after reasonable attempts, we’ll refund your course fees. <strong>We're that confident. </strong></li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
           }
         },
         "slide_4bKYMQ": {
@@ -114,7 +114,7 @@
           "settings": {
             "number": "1",
             "title": "Book your careers call",
-            "text": "Set goals and choose your route.",
+            "text": "We'll sit down with you to discuss your career goals.",
             "button_text": "",
             "button_link": ""
           }
@@ -124,7 +124,7 @@
           "settings": {
             "number": "2",
             "title": "CV & LinkedIn tune-up",
-            "text": "We'll help polish and position your profile.",
+            "text": "We'll help polish and position you so you stand out.",
             "button_text": "",
             "button_link": ""
           }
@@ -134,7 +134,17 @@
           "settings": {
             "number": "3",
             "title": "Interview set-up",
-            "text": "We'll arrange your guaranteed interview(s).",
+            "text": "We'll arrange your guaranteed interview(s) with gyms.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_tM98Xb": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Ongoing support",
+            "text": "We'll provide feedback, next steps, and further training options.",
             "button_text": "",
             "button_link": ""
           }
@@ -143,7 +153,8 @@
       "block_order": [
         "step_PXTJ7R",
         "step_4jf4N4",
-        "step_CRkjbf"
+        "step_CRkjbf",
+        "step_tM98Xb"
       ],
       "name": "t:sections.le_steps.presets.name",
       "settings": {
@@ -158,12 +169,58 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "le_accordion_CkhytX": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_adRxnz": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I choose the employer?",
+            "row_content": "<p>We’ll prioritise partners near you and roles that fit your qualification.</p>"
+          }
+        },
+        "accordion_row_CHhpQc": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What if I want to go self-employed?",
+            "row_content": "<p>We’ll help with pricing, packages, marketing basics, and insurance.</p>"
+          }
+        },
+        "accordion_row_n3bkxF": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to get an interview?",
+            "row_content": "<p>Typically 2–4 weeks after completion, depending on location and season.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_adRxnz",
+        "accordion_row_CHhpQc",
+        "accordion_row_n3bkxF"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Frequently asked questions",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "accordion_entries": [],
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "rich_text_DNjdEJ",
     "le_face2face_iQiHTF",
-    "le_steps_7BPkEU"
+    "le_steps_7BPkEU",
+    "le_accordion_CkhytX"
   ]
 }
