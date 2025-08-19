@@ -1,14 +1,169 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "name": "Careers",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_DNjdEJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YXkGFC": {
+          "type": "heading",
+          "settings": {
+            "heading": "From classroom to career",
+            "heading_size": "h1"
+          }
+        },
+        "text_UrJyM4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ve got the skills. We’ll help you turn them into a career. </p><p>Our careers support is built around three pillars: <strong>interview guarantee, CV writing support, and ongoing guidance. </strong></p><p>So you’re never on your own once you qualify.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YXkGFC",
+        "text_UrJyM4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "le_face2face_iQiHTF": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_H6c9xp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personal_trainer_interview.webp",
+            "heading": "<h2>Interview Guarantee</h2>",
+            "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more).</li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
+          }
+        },
+        "slide_4bKYMQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
+            "heading": "<h2>CV & Application Support</h2>",
+            "subheading": "<p>Stand out for the right reasons. Our team helps you present your skills clearly and professionally.</p><p><strong>What’s included</strong></p><ul><li>CV audit and rewrite suggestions tailored to your pathway </li></ul><p></p><ul><li>Cover-letter templates and examples</li><li>LinkedIn polish: profile headline, about section, and skills </li><li>Job application support (keywords, short answers, selection criteria)</li></ul>"
+          }
+        },
+        "slide_XqbA79": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/high_five_fitness.webp",
+            "heading": "<h2>Career Guidance (before and after you qualify)</h2>",
+            "subheading": "<p>Plan the route that suits your goals – employment, freelance, or a blend.</p><p><strong>You’ll get</strong></p><ul><li>One-to-one career call to map your next 90 days </li></ul><p></p><ul><li>Role pathways: gym-based, studio, self-employed, mobile, online </li></ul><p></p><ul><li>Pricing and packages guidance (if going self-employed) CPD recommendations to specialise and progress Introductions to local networks and employer events (where available)</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_H6c9xp",
+        "slide_4bKYMQ",
+        "slide_XqbA79"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "light-blue",
+        "headline": "<p>Your next step starts here</p>",
+        "heading_type": "h2",
+        "heading_size": "large",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "inside",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_steps_7BPkEU": {
+      "type": "le_steps",
+      "blocks": {
+        "step_PXTJ7R": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Book your careers call",
+            "text": "Set goals and choose your route.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_4jf4N4": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "CV & LinkedIn tune-up",
+            "text": "We'll help polish and position your profile.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_CRkjbf": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Interview set-up",
+            "text": "We'll arrange your guaranteed interview(s).",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_PXTJ7R",
+        "step_4jf4N4",
+        "step_CRkjbf"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "template_type": "white",
+        "heading": "<p>What to expect after you qualify</p>",
+        "text": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_DNjdEJ",
+    "le_face2face_iQiHTF",
+    "le_steps_7BPkEU"
   ]
 }
