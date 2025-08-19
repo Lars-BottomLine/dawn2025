@@ -333,7 +333,7 @@
         "section_bkgr": "primary",
         "headline": "<p>Learning Experience </p>",
         "heading_type": "h2",
-        "heading_size": "normal",
+        "heading_size": "normal-bold",
         "no_decal": false,
         "subheadline": "",
         "column_type": "asymmetric",
