@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "name": "Careers",
       "settings": {
         "padding_top": 28,
@@ -214,6 +215,54 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "image_banner_GzGMki": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FTBz73": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get started?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WG3THF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_n7nrY7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See current partner gyms",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a careers call",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBz73",
+        "text_WG3THF",
+        "buttons_n7nrY7"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -221,6 +270,7 @@
     "rich_text_DNjdEJ",
     "le_face2face_iQiHTF",
     "le_steps_7BPkEU",
-    "le_accordion_CkhytX"
+    "le_accordion_CkhytX",
+    "image_banner_GzGMki"
   ]
 }
