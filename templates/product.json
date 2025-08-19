@@ -331,7 +331,7 @@
         "product": "{{ product }}",
         "heading": "<p>Pricing & Payment Options </p>",
         "heading_type": "h2",
-        "heading_size": "normal",
+        "heading_size": "large",
         "no_decal": false,
         "secondary_background": false,
         "media_size": "auto",
