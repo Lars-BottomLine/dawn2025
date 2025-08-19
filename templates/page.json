@@ -62,7 +62,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/personal_trainer_interview.webp",
-            "heading": "<h2>Interview Guarantee</h2>",
+            "heading": "<p>Interview Guarantee</p>",
             "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more). <br/></li><li>If we can’t arrange an interview after reasonable attempts, we’ll refund your course fees. <strong>We're that confident. </strong></li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
           }
         },
@@ -70,7 +70,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
-            "heading": "<h2>CV & Application Support</h2>",
+            "heading": "<p>CV & Application Support</p>",
             "subheading": "<p>Stand out for the right reasons. Our team helps you present your skills clearly and professionally.</p><p><strong>What’s included</strong></p><ul><li>CV audit and rewrite suggestions tailored to your pathway </li></ul><p></p><ul><li>Cover-letter templates and examples</li><li>LinkedIn polish: profile headline, about section, and skills </li><li>Job application support (keywords, short answers, selection criteria)</li></ul>"
           }
         },
@@ -78,7 +78,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/high_five_fitness.webp",
-            "heading": "<h2>Career Guidance (before and after you qualify)</h2>",
+            "heading": "<p>Career Guidance (before and after you qualify)</p>",
             "subheading": "<p>Plan the route that suits your goals – employment, freelance, or a blend.</p><p><strong>You’ll get</strong></p><ul><li>One-to-one career call to map your next 90 days </li></ul><p></p><ul><li>Role pathways: gym-based, studio, self-employed, mobile, online </li></ul><p></p><ul><li>Pricing and packages guidance (if going self-employed) CPD recommendations to specialise and progress Introductions to local networks and employer events (where available)</li></ul>"
           }
         }
