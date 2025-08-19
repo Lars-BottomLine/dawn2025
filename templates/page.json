@@ -18,35 +18,41 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_DNjdEJ": {
-      "type": "rich-text",
+    "le_text_and_background_CPGWjN": {
+      "type": "le_text-and-background",
       "blocks": {
-        "heading_YXkGFC": {
-          "type": "heading",
+        "row_heading_kpt4Le": {
+          "type": "row-heading",
           "settings": {
-            "heading": "From classroom to career",
-            "heading_size": "h1"
+            "text": "<p>From learning to earning</p>",
+            "heading_type": "h1",
+            "heading_size": "normal"
           }
         },
-        "text_UrJyM4": {
-          "type": "text",
+        "row2col_rwpz6e": {
+          "type": "row2col",
           "settings": {
-            "text": "<p>You’ve got the skills. We’ll help you turn them into a career. </p><p>Our careers support is built around three pillars: <strong>interview guarantee, CV writing support, and ongoing guidance. </strong></p><p>So you’re never on your own once you qualify.</p>"
+            "text1": "<p>You’ve got the skills. We’ll help you turn them into a career. </p>",
+            "text1_size": "medium",
+            "text2": "<p>Our careers support is built around three pillars: <strong>interview guarantee, CV writing support, and ongoing guidance. </strong></p>",
+            "text2_size": "medium"
           }
         }
       },
       "block_order": [
-        "heading_YXkGFC",
-        "text_UrJyM4"
+        "row_heading_kpt4Le",
+        "row2col_rwpz6e"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.le_tab.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
+        "image": "shopify://shop_images/personal_trainers_at_gym.jpg",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "le_face2face_iQiHTF": {
@@ -99,7 +105,7 @@
         "entry_text_size": "normal",
         "text_align": "left",
         "custom_class_names": "",
-        "decal_top": true,
+        "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -267,7 +273,7 @@
   },
   "order": [
     "main",
-    "rich_text_DNjdEJ",
+    "le_text_and_background_CPGWjN",
     "le_face2face_iQiHTF",
     "le_steps_7BPkEU",
     "le_accordion_CkhytX",
