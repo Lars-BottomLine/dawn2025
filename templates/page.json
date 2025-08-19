@@ -97,7 +97,7 @@
         "entry_heading_type": "h3",
         "entry_heading_size": "normal",
         "entry_text_size": "normal",
-        "text_align": "inside",
+        "text_align": "left",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
