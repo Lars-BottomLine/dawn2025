@@ -3047,10 +3047,14 @@
     },
     "le_swiper": {
       "name": "StudyActive - Slideshow",
+      "heading": {
+        "label": "Heading"
+      },
       "presets": {
         "name": "StudyActive - Slideshow"
       }
     },
+
     "le_face2face": {
       "name": "StudyActive - Face2Face",
       "presets": {
