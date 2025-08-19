@@ -307,7 +307,7 @@
       ],
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
-        "template_type": "blue",
+        "template_type": "twocol",
         "section_bkgr": "primary",
         "headline": "Why choose Study Active?",
         "heading_type": "h2",
