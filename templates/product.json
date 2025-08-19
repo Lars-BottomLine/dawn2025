@@ -217,6 +217,59 @@
         "margin_bottom": -56
       }
     },
+    "le_profile_GQeTHR": {
+      "type": "le_profile",
+      "blocks": {
+        "text_zXXR68": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Osteopath & Sports Massage Therapist</em></p><p>I qualified with my BSc in Osteopathy in 2005 and have been practising as a registered osteopath ever since.</p><p>My passion is helping people move better, feel better, and live without pain, and now I’m here to guide you on that same path for your clients.</p>"
+          }
+        },
+        "text_nTBLHR": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "social_YGVa78": {
+          "type": "social",
+          "settings": {
+            "title": "",
+            "url": ""
+          }
+        },
+        "social_8EPLwg": {
+          "type": "social",
+          "settings": {
+            "title": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_zXXR68",
+        "text_nTBLHR",
+        "social_YGVa78",
+        "social_8EPLwg"
+      ],
+      "name": "t:sections.le_profile.presets.name",
+      "settings": {
+        "heading": "Meet Your Teacher",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "section_bkgr": "light-blue",
+        "image": "shopify://shop_images/Julian_Berriman_Portrait.jpg",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_face2face_BAkmFM": {
       "type": "le_face2face",
       "blocks": {
@@ -656,6 +709,7 @@
     "le_text_and_background_EMUKt4",
     "le_whychoose_qp9Pwy",
     "le_face2face_VrtNcd",
+    "le_profile_GQeTHR",
     "le_face2face_BAkmFM",
     "le_featured_feVwEr",
     "le_accordion_MKtPFH",
