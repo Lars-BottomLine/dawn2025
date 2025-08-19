@@ -241,7 +241,7 @@
         "heading_image": "shopify://shop_images/featured_seasonal_and_gifts.svg",
         "headline": "<p>Course Bundles & Specialisations</p>",
         "heading_type": "h2",
-        "heading_size": "small",
+        "heading_size": "normal",
         "no_decal": true,
         "subheadline": "",
         "column_type": "wide",
