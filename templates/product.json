@@ -353,6 +353,60 @@
         "margin_bottom": 0
       }
     },
+    "le_testimonials_6bfDG8": {
+      "type": "le_testimonials",
+      "blocks": {
+        "testimonial_mK8a7h": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "",
+            "author": ""
+          }
+        },
+        "testimonial_R3PBFK": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "",
+            "author": ""
+          }
+        },
+        "testimonial_tFVT4V": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "",
+            "author": ""
+          }
+        },
+        "testimonial_6hh3ia": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_mK8a7h",
+        "testimonial_R3PBFK",
+        "testimonial_tFVT4V",
+        "testimonial_6hh3ia"
+      ],
+      "name": "t:sections.le_testimonials.presets.name",
+      "settings": {
+        "heading": "Testimonials / Reviews ",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "section_bkgr": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_featured_feVwEr": {
       "type": "le_featured",
       "blocks": {
@@ -727,6 +781,7 @@
     "le_face2face_VrtNcd",
     "le_profile_GQeTHR",
     "le_face2face_BAkmFM",
+    "le_testimonials_6bfDG8",
     "le_featured_feVwEr",
     "le_accordion_MKtPFH",
     "main",
