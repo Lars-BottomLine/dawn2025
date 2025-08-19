@@ -91,17 +91,17 @@
              {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
-        <div class="wc-header pl-20 pb-{% if iz_twocol %}24{% else %}16{% endif %}">
+        <div class="wc-header pl-20">
 
             {% if section.settings.headline %}
             <div class="wc-heading">
-                <{{ section.settings.heading_type }} class=" {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                <{{ section.settings.heading_type }} class="wc-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
                     {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                 </{{ section.settings.heading_type }}>
             </div>
             {% endif %}
 
-            <div class="_subtitle">
+            <div class="wc-subheadline _subtitle">
                 {{ section.settings.subheadline }}
             </div>
 

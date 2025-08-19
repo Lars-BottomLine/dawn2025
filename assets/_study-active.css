@@ -1909,9 +1909,6 @@ header .header__icon--cart .icon {
 .sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(even) .f2f-text {
   padding-right: 2rem;
 }
-.sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(odd) .f2f-image {
-  margin-left: -1rem;
-}
 .sa-section-face2face.-col-type-narrow .f2f-entry:nth-child(odd) .f2f-text {
   padding-left: 2rem;
 }
@@ -2004,10 +2001,16 @@ header .header__icon--cart .icon {
   }
 }
 
-.sa-section-whychoose .wc-heading h1, .sa-section-whychoose .wc-heading h2, .sa-section-whychoose .wc-heading h3, .sa-section-whychoose .wc-heading h4, .sa-section-whychoose .wc-heading h5, .sa-section-whychoose .wc-heading h6, .sa-section-whychoose .wc-heading div {
+.sa-section-whychoose .wc-header h1, .sa-section-whychoose .wc-header h2, .sa-section-whychoose .wc-header h3, .sa-section-whychoose .wc-header h4, .sa-section-whychoose .wc-header h5, .sa-section-whychoose .wc-header h6, .sa-section-whychoose .wc-header div {
   color: inherit;
   font-style: normal;
   margin: 0;
+}
+.sa-section-whychoose .wc-header .wc-headline {
+  margin-bottom: 4rem;
+}
+.sa-section-whychoose .wc-header .wc-subheadline {
+  margin-bottom: 3rem;
 }
 .sa-section-whychoose .wc-entry-container {
   display: grid;
@@ -2058,10 +2061,16 @@ header .header__icon--cart .icon {
 .sa-section-whychoose.-template-threecol .wc-text .wc-entry-title, .sa-section-whychoose.-template-threecol-notext .wc-text .wc-entry-title, .sa-section-whychoose.-template-threecol-compact .wc-text .wc-entry-title {
   margin-bottom: 2rem;
 }
-.sa-section-whychoose.-template-threecol .wc-text .wc-subtitle p, .sa-section-whychoose.-template-threecol-notext .wc-text .wc-subtitle p, .sa-section-whychoose.-template-threecol-compact .wc-text .wc-subtitle p {
+.sa-section-whychoose.-template-threecol .wc-text .wc-subtitle p,
+.sa-section-whychoose.-template-threecol .wc-text ._subtitle-small p, .sa-section-whychoose.-template-threecol-notext .wc-text .wc-subtitle p,
+.sa-section-whychoose.-template-threecol-notext .wc-text ._subtitle-small p, .sa-section-whychoose.-template-threecol-compact .wc-text .wc-subtitle p,
+.sa-section-whychoose.-template-threecol-compact .wc-text ._subtitle-small p {
   margin-bottom: 2rem;
 }
-.sa-section-whychoose.-template-threecol .wc-text .wc-subtitle p:last-child, .sa-section-whychoose.-template-threecol-notext .wc-text .wc-subtitle p:last-child, .sa-section-whychoose.-template-threecol-compact .wc-text .wc-subtitle p:last-child {
+.sa-section-whychoose.-template-threecol .wc-text .wc-subtitle p:last-child,
+.sa-section-whychoose.-template-threecol .wc-text ._subtitle-small p:last-child, .sa-section-whychoose.-template-threecol-notext .wc-text .wc-subtitle p:last-child,
+.sa-section-whychoose.-template-threecol-notext .wc-text ._subtitle-small p:last-child, .sa-section-whychoose.-template-threecol-compact .wc-text .wc-subtitle p:last-child,
+.sa-section-whychoose.-template-threecol-compact .wc-text ._subtitle-small p:last-child {
   margin-bottom: 0;
 }
 .sa-section-whychoose.-template-threecol .wc-entry, .sa-section-whychoose.-template-threecol-notext .wc-entry, .sa-section-whychoose.-template-threecol-compact .wc-entry {
@@ -2070,6 +2079,9 @@ header .header__icon--cart .icon {
 }
 .sa-section-whychoose.-template-twocol .wc-text .wc-entry-title, .sa-section-whychoose.-template-threecol .wc-text .wc-entry-title {
   font-weight: bold !important;
+}
+.sa-section-whychoose.-template-twocol .wc-headline, .sa-section-whychoose.-template-threecol .wc-headline {
+  margin-bottom: 2.1rem;
 }
 .sa-section-whychoose.-template-threecol-compact .wc-entry-container {
   row-gap: 4rem;
@@ -2683,7 +2695,9 @@ header .header__icon--cart .icon {
 
 .sa-section-featuredproduct .fp-heading {
   padding-left: 5rem;
-  margin-bottom: 4rem;
+}
+.sa-section-featuredproduct .fp-heading .fp-headline {
+  margin-bottom: 3.2rem;
 }
 .sa-section-featuredproduct .fp-heading h1, .sa-section-featuredproduct .fp-heading h2, .sa-section-featuredproduct .fp-heading h3, .sa-section-featuredproduct .fp-heading h4, .sa-section-featuredproduct .fp-heading h5, .sa-section-featuredproduct .fp-heading h6, .sa-section-featuredproduct .fp-heading div {
   color: inherit;
