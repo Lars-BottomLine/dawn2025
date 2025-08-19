@@ -3130,6 +3130,12 @@
       }
     },
 
+    "le_profile": {
+      "name": "StudyActive - Profile",
+      "presets": {
+        "name": "StudyActive - Profile"
+      }
+    },
 
     "slideshow": {
       "name": "Slideshow (default)",
