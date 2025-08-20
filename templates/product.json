@@ -379,12 +379,30 @@
             "quote": "<p>“The practical workshops and the online resources were top-notch. I felt confident and well-prepared for my exams and now I’m running my own personal training business!”</p>",
             "author": "<p><strong>Jamie L., </strong>Study Active  Graduate </p>"
           }
+        },
+        "testimonial_ABMdtW": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Michael_Clegg.jpg",
+            "quote": "<p>“The practical workshops and the online resources were top-notch. I felt confident and well-prepared for my exams and now I’m running my own personal training business!”</p>",
+            "author": "<p><strong>Jamie L., </strong>Study Active  Graduate </p>"
+          }
+        },
+        "testimonial_ByKGGd": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Michael_Clegg.jpg",
+            "quote": "<p>“The practical workshops and the online resources were top-notch. I felt confident and well-prepared for my exams and now I’m running my own personal training business!”</p>",
+            "author": "<p><strong>Jamie L., </strong>Study Active  Graduate </p>"
+          }
         }
       },
       "block_order": [
         "testimonial_mK8a7h",
         "testimonial_R3PBFK",
-        "testimonial_tFVT4V"
+        "testimonial_tFVT4V",
+        "testimonial_ABMdtW",
+        "testimonial_ByKGGd"
       ],
       "name": "t:sections.le_testimonials.presets.name",
       "settings": {
