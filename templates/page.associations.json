@@ -81,7 +81,7 @@
         "slide_9VdbMq": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/CIMSPA-Logo-Navy-RGB-2.webp",
+            "image": "shopify://shop_images/cismpa-transparent.png",
             "heading": "<p>CIMPSA</p>",
             "subheading": "<p>CIMSPA is the professional development body for the UK’s sport and physical activity sector, recognizing Study Active training throughout the UK.</p>",
             "button_text": "Enrol Now",
@@ -109,7 +109,7 @@
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
         "template_type": "twocol",
-        "section_bkgr": "white",
+        "section_bkgr": "primary",
         "headline": "Accreditation Matters",
         "heading_type": "h2",
         "heading_size": "normal",
