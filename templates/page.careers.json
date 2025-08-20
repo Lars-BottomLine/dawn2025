@@ -97,6 +97,7 @@
         "no_decal": false,
         "subheadline": "",
         "column_type": "medium",
+        "entry_align": "top",
         "image_shadow": "light",
         "image_size": "medium",
         "image_type": "normal",
