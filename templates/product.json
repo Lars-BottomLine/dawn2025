@@ -34,7 +34,7 @@
         "row_heading_cLtRfk": {
           "type": "row-heading",
           "settings": {
-            "text": "<p>Pro PT: CIMSPA Level 3<br/>Diploma in Gym Instructing<br/>& Personal Training</p>",
+            "text": "<p>{{ product.title }}</p>",
             "heading_type": "h1",
             "heading_size": "normal"
           }
