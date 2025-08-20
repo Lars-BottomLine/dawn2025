@@ -1,0 +1,316 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "About Us",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_MMRCXB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AThRr3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Associations and Partners",
+            "heading_size": "h1"
+          }
+        },
+        "text_HPrhxW": {
+          "type": "text",
+          "settings": {
+            "text": "At Study Active, our partnerships with leading awarding bodies, industry regulators and major gym chains are at the heart of what we do. They ensure that our courses meet the highest professional standards and give our learners a clear route into employment.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AThRr3",
+        "text_HPrhxW"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/london.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "ambient",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "left",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "le_whychoose_nUNAqd": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_hHknHt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/active-iq-logo-about-us.webp",
+            "heading": "<p>Study Active</p>",
+            "subheading": "<p>We partner with Active IQ because they are one of the UK's leading awarding organisations recognised and regulated by Ofqual within the Active Leisure sector.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        },
+        "slide_TTz7XH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ukactive_Member.avif",
+            "heading": "<p>UK Active</p>",
+            "subheading": "<p>UK Active supports its members by offering services and facilitating partnerships within the UK fitness industry, aiming to improve public health through physical activity.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        },
+        "slide_9VdbMq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cismpa-transparent.png",
+            "heading": "<p>CIMPSA</p>",
+            "subheading": "<p>CIMSPA is the professional development body for the UK’s sport and physical activity sector, recognizing Study Active training throughout the UK.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        },
+        "slide_7e66XB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PD-Approval-Logo.webp",
+            "heading": "<p>PD:Approval</p>",
+            "subheading": "<p>PD Approval is an independent quality assurance service within the fitness education sector, endorsing Study Active for its high standard of service.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_hHknHt",
+        "slide_TTz7XH",
+        "slide_9VdbMq",
+        "slide_7e66XB"
+      ],
+      "custom_css": [],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "template_type": "twocol",
+        "section_bkgr": "primary",
+        "headline": "Accreditation Matters",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "When you choose a course, accreditation is key. It tells employers, gyms and clients that your qualification meets national industry standards and is recognised across the UK and internationally. Our qualifications are:",
+        "button_label": "",
+        "button_url": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "image_with_text_Krg7EP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wHDpqG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Proud to Be Rated “Enhancing” by CIMSPA",
+            "heading_size": "h1"
+          }
+        },
+        "text_fX6kce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Study Active is proud to have been awarded “Enhancing” status by CIMSPA – the highest possible quality rating a fitness education provider can achieve. This prestigious trust mark recognises our commitment to delivering truly outstanding education, following a rigorous quality assurance inspection by CIMSPA’s expert auditors. As a learner, you can have complete confidence that our courses meet the highest national standards. Unlike basic endorsement alone, CIMSPA’s new quality framework gives a clear picture of a provider’s performance. With Study Active rated “Enhancing,” you’re choosing excellence at every stage of your fitness education journey.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wHDpqG",
+        "text_fX6kce"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CIMSPA_Quality_Assurance_Logo_3-star_Enhancing_NAVY_1200x_ee85d701-682d-49f7-be63-5a41e362ab05.webp",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 48,
+        "margin_bottom": 44
+      }
+    },
+    "image_with_text_UApzce": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KiEFBc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Gym Partnerships",
+            "heading_size": "h1"
+          }
+        },
+        "text_YccVCL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We give all Study Active learners <strong>guaranteed job interviews</strong> upon completion of their course. These relationships help us align our training with real-world industry needs and give you a direct path from qualification to employment.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KiEFBc",
+        "text_YccVCL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/woman-weight-lifting-with-trainer.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -24
+      }
+    },
+    "le_image_slider_WKjHBk": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_FcDmNg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/everlastgym.jpg"
+          }
+        },
+        "slide_KGx7Hc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ModeClub_LogoF.png"
+          }
+        },
+        "slide_9GQztc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/The_Gym_Group.webp"
+          }
+        },
+        "slide_X9rMTw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pure_gym_logo.png"
+          }
+        },
+        "slide_m6zA8n": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personaltraining.png"
+          }
+        },
+        "slide_zUyDDE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/everyone-active-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FcDmNg",
+        "slide_KGx7Hc",
+        "slide_9GQztc",
+        "slide_X9rMTw",
+        "slide_m6zA8n",
+        "slide_zUyDDE"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 60,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_wFfcf3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gV39kL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Questions? Contact us",
+            "heading_size": "h1"
+          }
+        },
+        "text_fJDky7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you want to know more about our awarding bodies or how our gym partnerships can help you land your first role, we’re here to help.<br/></p><p>📩 Email: <a>info@studyactive.co.uk</a><br/><br/>📞 Call: <a href=\"tel:0122 391 2122\" title=\"tel:0122 391 2122\">0122 391 2122</a><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gV39kL",
+        "text_fJDky7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_MMRCXB",
+    "le_whychoose_nUNAqd",
+    "image_with_text_Krg7EP",
+    "image_with_text_UApzce",
+    "le_image_slider_WKjHBk",
+    "rich_text_wFfcf3"
+  ]
+}
