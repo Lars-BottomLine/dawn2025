@@ -68,7 +68,7 @@
         }
     }
 {%- endstyle -%}
-stuff
+
 {%- paginate blog.articles by 6 -%}
     <div class="sa-section-mainblog
                 {{ section_classes }}">
@@ -175,6 +175,26 @@ stuff
       "label": "No decals on 'Heading'"
     },
 
+    {
+      "type": "select",
+      "id": "section_bkgr",
+      "label": "Background Color",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "white"
+    },
 
     {
       "type": "select",

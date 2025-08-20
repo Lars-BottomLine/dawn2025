@@ -3155,6 +3155,13 @@
       }
     },
 
+    "le_mainarticle": {
+      "name": "StudyActive - Blog Article",
+      "presets": {
+        "name": "StudyActive - Blog Article"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {
