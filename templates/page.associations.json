@@ -166,8 +166,8 @@
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "margin_top": 48,
+        "margin_bottom": 44
       }
     },
     "image_with_text_UApzce": {
@@ -211,7 +211,7 @@
         "padding_top": 40,
         "padding_bottom": 0,
         "margin_top": 0,
-        "margin_bottom": -100
+        "margin_bottom": -24
       }
     },
     "le_image_slider_WKjHBk": {
