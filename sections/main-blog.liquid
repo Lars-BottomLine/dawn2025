@@ -2,59 +2,123 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
+{%- liquid
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white'
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary'
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin'
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding'
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+%}
+
 {%- style -%}
-  .section-{{ section.id }}-padding {
+    .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-  }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+    }
 {%- endstyle -%}
-
+stuff
 {%- paginate blog.articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ blog.title | escape }}
-    </h1>
+    <div class="sa-section-mainblog
+                {{ section_classes }}">
 
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in blog.articles -%}
-        <div
-          class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
+        <div class="page-width">
+
+
+            <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+                {{ blog.title | escape }}
+            </h1>
+
+            <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+                {%- for article in blog.articles -%}
+                    <div
+                            class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                            {% if settings.animations_reveal_on_scroll %}
+                                data-cascade
+                                style="--animation-order: {{ forloop.index }};"
+                            {% endif %}
+                    >
+                        {%- render 'article-card',
+                                article: article,
+                                media_height: section.settings.image_height,
+                                media_aspect_ratio: article.image.aspect_ratio,
+                                show_image: section.settings.show_image,
+                                show_date: section.settings.show_date,
+                                show_author: section.settings.show_author,
+                                show_excerpt: true
+                        -%}
+                    </div>
+                {%- endfor -%}
+            </div>
+
+            {%- if paginate.pages > 1 -%}
+                {%- render 'pagination', paginate: paginate -%}
+            {%- endif -%}
+
         </div>
-      {%- endfor -%}
-    </div>
 
-    {%- if paginate.pages > 1 -%}
-      {%- render 'pagination', paginate: paginate -%}
-    {%- endif -%}
-  </div>
+    </div>
 {%- endpaginate -%}
 
 {% schema %}
 {
-  "name": "t:sections.main-blog.name",
+  "name": "t:sections.le_mainblog.name",
   "tag": "section",
   "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
   "settings": [
     {
       "type": "select",
