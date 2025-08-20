@@ -258,7 +258,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/gym.webp",
+        "image": "shopify://shop_images/gym_mats.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
