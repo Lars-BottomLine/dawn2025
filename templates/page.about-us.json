@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/study-active-group-shot.webp",
             "heading": "<p>Welcome to Study Active</p>",
-            "subheading": "<p>We're here for you</p>",
+            "subheading": "<h3>We're here for you</h3>",
             "text_content": "<p>Text</p>",
             "button_label": "",
             "link": ""
@@ -123,6 +123,7 @@
         "no_decal": false,
         "subheadline": "We empower future fitness professionals with flexible, high-quality training that leads to real careers, lasting impact, and healthier communities.",
         "column_type": "medium",
+        "entry_align": "center",
         "image_shadow": "light",
         "image_size": "medium",
         "image_type": "normal",
