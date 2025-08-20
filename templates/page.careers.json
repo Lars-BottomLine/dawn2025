@@ -63,7 +63,7 @@
           "settings": {
             "image": "shopify://shop_images/personal_trainer_interview.webp",
             "heading": "<p>Interview Guarantee</p>",
-            "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more). <br/></li><li>If we can’t arrange an interview after reasonable attempts, we’ll refund your course fees. <strong>We're that confident. </strong></li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
+            "subheading": "<p>We work with leading UK gym chains and reputable employers to make sure your first opportunities are within reach.</p><p><strong>How it works</strong></p><ul><li>Complete your qualification and final assessment.</li></ul><p></p><ul><li>We match you with partner gyms and employers in your area.</li></ul><p></p><ul><li>You receive <strong>at least one guaranteed interview</strong> (often more). </li></ul><p></p><ul><li>If we can’t arrange an interview after reasonable attempts, we’ll refund your course fees. <strong>We're that confident. </strong></li></ul><p></p><p><strong>We'll also help you with:</strong></p><ul><li>Introductions to hiring managers </li><li>Interview scheduling and prep tips</li><li>Feedback after interviews so you know your next move</li></ul>"
           }
         },
         "slide_4bKYMQ": {
@@ -97,6 +97,7 @@
         "no_decal": false,
         "subheadline": "",
         "column_type": "medium",
+        "entry_align": "top",
         "image_shadow": "light",
         "image_size": "medium",
         "image_type": "normal",
