@@ -31,7 +31,7 @@
             "subheading": "<p>Change lives through </p><p>wellness & fitness — </p><p>starting with yours.</p>",
             "text_content": "<p>Text</p>",
             "button_label": "Find your path",
-            "link": ""
+            "link": "shopify://collections/wellness-personal-trainer"
           }
         },
         "slide_amcH9C": {
@@ -453,6 +453,7 @@
         "no_decal": false,
         "subheadline": "Our cutting-edge Learning Management System (LMS) gives you everything you need to succeed — on your terms.",
         "column_type": "narrow",
+        "entry_align": "center",
         "image_shadow": "light",
         "image_size": "small",
         "image_type": "skewed",
