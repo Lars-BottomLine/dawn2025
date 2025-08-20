@@ -2469,6 +2469,9 @@ header .header__icon--cart .icon {
 .sa-section-textcolsandbkgr .tab-row {
   color: white;
 }
+.sa-section-textcolsandbkgr .tab-row.-type-row-heading {
+  max-width: 75rem;
+}
 .sa-section-textcolsandbkgr .tab-row.-type-row-heading .-h-text-large {
   font-size: 7.4rem;
   font-weight: 700;
