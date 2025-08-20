@@ -3091,17 +3091,53 @@ header .header__icon--cart .icon {
 }
 
 .sa-section-testimonials .tm-container {
-  padding: 0 5rem;
+  padding: 0 10rem;
+}
+.sa-section-testimonials .tm-headline {
+  margin-bottom: 0;
 }
 .sa-section-testimonials .tm-header {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
+}
+.sa-section-testimonials .swiper .swiper-slide {
+  width: 44rem;
+  height: auto;
+}
+.sa-section-testimonials .swiper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 23rem;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(270deg, #EBF1FF 0%, rgba(235, 241, 255, 0) 100%);
+}
+.sa-section-testimonials .sa-swiper-button-prev,
+.sa-section-testimonials .sa-swiper-button-next {
+  position: absolute;
+  top: 50%;
+}
+.sa-section-testimonials .sa-swiper-button-prev svg path,
+.sa-section-testimonials .sa-swiper-button-next svg path {
+  fill: var(--color-primary);
+}
+.sa-section-testimonials .sa-swiper-button-prev {
+  left: 9rem;
+}
+.sa-section-testimonials .sa-swiper-button-next {
+  right: 9rem;
 }
 .sa-section-testimonials .tm-testimonial {
+  display: flex;
   margin-top: 6rem;
   margin-bottom: 4rem;
   margin-right: 0.5rem;
+  height: calc(100% - 10rem);
 }
 .sa-section-testimonials .tm-testimonial .tm-bubble {
+  display: flex;
+  flex-direction: column;
   padding: 4rem;
   background: var(--color-primary);
   box-shadow: 0.4rem 0.4rem 0 0 var(--color-secondary);
@@ -3129,10 +3165,12 @@ header .header__icon--cart .icon {
 }
 .sa-section-testimonials .tm-testimonial .tm-image {
   width: 11rem;
+  height: 12rem;
   margin: -9.5rem auto 2rem auto;
   transform: skewY(3deg);
   overflow: hidden;
   display: grid;
+  box-shadow: 0.4rem 0.4rem 0 0 var(--color-secondary);
 }
 .sa-section-testimonials .tm-testimonial .tm-image img {
   transform: skewY(-3deg);
@@ -3143,10 +3181,13 @@ header .header__icon--cart .icon {
 }
 .sa-section-testimonials .tm-testimonial .tm-content {
   display: flex;
+  flex-grow: 1;
   justify-content: space-between;
   flex-direction: column;
+  gap: 2rem;
 }
-.sa-section-testimonials .tm-testimonial .tm-quote {
+.sa-section-testimonials .tm-testimonial .tm-quote,
+.sa-section-testimonials .tm-testimonial .tm-quote p {
   color: var(--color-secondary);
   font-size: 1.8rem;
   line-height: 1.25;

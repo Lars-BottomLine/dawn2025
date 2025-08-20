@@ -152,8 +152,63 @@
                 </div>
             </div>
 
+            {% # BUTTONS
+               # ---------------------- %}
+            <div class="sa-swiper-button-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path d="M7.179 16.5L17.4457 26.7667L14.8332 29.3333L0.166504 14.6667L14.8332 0L17.4457 2.56667L7.179 12.8333H29.4998V16.5H7.179Z" fill="white"/>
+                </svg>
+            </div>
+            <div class="sa-swiper-button-next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                  <path d="M22.8208 16.5H0.5V12.8333H22.8208L12.5542 2.56667L15.1667 0L29.8333 14.6667L15.1667 29.3333L12.5542 26.7667L22.8208 16.5Z" fill="white"/>
+                </svg>
+            </div>
+
         </div>
-    </div>
+
+        <script>
+            // TODO: differentiate between autorotate and autoplay
+            var swiper = new Swiper("#swiper-{{ section.id }}", {
+                spaceBetween: 20,
+
+                navigation: {
+                    nextEl: ".sa-swiper-button-next",
+                    prevEl: ".sa-swiper-button-prev",
+                },
+
+                loop: true,
+
+                speed: 1000,
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                autoplay: false,
+
+                slidesPerView: 'auto'
+
+            });
+            // autoplay: {
+            //     delay: 1000,
+            //         disableOnInteraction: false,
+            // },
+            // slidesPerView: 1,
+            //
+            //     breakpoints: {
+            //     530: {
+            //         slidesPerView: 2
+            //     },
+            //     // when window width is >= 640px
+            //     900: {
+            //         slidesPerView: 3
+            //     }
+            // }
+        </script>
+
+    </div> {% # /PAGE WIDTH %}
 </div>
 
 {% schema %}
