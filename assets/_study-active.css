@@ -1696,7 +1696,10 @@ header .header__icon--cart .icon {
   color: inherit;
 }
 .sa-section-face2face .f2f-entry .f2fe-text p:empty {
-  display: initial;
+  display: inline-block;
+}
+.sa-section-face2face .f2f-entry .f2fe-text ul + p:empty {
+  display: none !important;
 }
 .sa-section-face2face .f2f-entry .f2fe-text ul {
   margin-bottom: 2rem;
