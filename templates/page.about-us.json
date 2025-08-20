@@ -63,7 +63,7 @@
         "text_XbPLYH": {
           "type": "text",
           "settings": {
-            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p></p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p></p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>"
+            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>"
           }
         }
       },
@@ -75,7 +75,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
