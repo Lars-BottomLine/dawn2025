@@ -72,6 +72,7 @@
             -img-shadow-{{ section.settings.image_shadow }}
             -img-type-{{ section.settings.image_type }}
             -img-size-{{ section.settings.image_size }}
+            -entry-align-{{ section.settings.entry_align }}
             {{ section_classes }}">
     <div class="page-width -section-content w-full">
 
@@ -294,6 +295,10 @@
     },
 
     {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
       "type": "select",
       "id": "column_type",
       "label": "Column Type",
@@ -316,6 +321,26 @@
         }
       ],
       "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "entry_align",
+      "label": "Content alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "End"
+        }
+      ],
+      "default": "center"
     },
 
     {

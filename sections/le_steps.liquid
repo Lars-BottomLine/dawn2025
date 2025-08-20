@@ -101,11 +101,13 @@
                         </div>
                     </div>
 
+                    {% if block.settings.button_text %}
                     <div class="st-button">
                         <div class="sa-button -hover-grow" data-target="{{ block.settings.button_link }}">
                             <span>{{ block.settings.button_text }}</span>
                         </div>
                     </div>
+                    {% endif %}
 
                 </div>
 
