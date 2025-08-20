@@ -28,6 +28,8 @@
     endif
 %}
 
+{% assign uze_modal = false %}
+
 {% if first_call_on_page %}
 <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
@@ -217,7 +219,9 @@
             </div>
         </div>
 
-        {% render 'product-media-modal', product: product, variant_images: variant_images %}
+        {% if uze_modal %}
+            {% render 'product-media-modal', product: product, variant_images: variant_images %}
+        {% endif %}
 
     </div>
 
@@ -377,7 +381,9 @@
     <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
     {% comment %}{% if product.media.size > 0 %}{% endcomment %}
+        {% if uze_modal %}
         <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
+        {% endif %}
         <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
     {% comment %}{% endif %}{% endcomment %}
 
