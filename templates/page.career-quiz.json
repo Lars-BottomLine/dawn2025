@@ -68,8 +68,15 @@
         "accordion_row_azWBrq": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Wellness & Health",
+            "heading": "Wellness",
             "row_content": "<p>Want to help people feel better, live longer, and move with confidence? The Wellness Personal Trainer Pathway focuses on holistic health and long-term wellbeing. </p><p>As a wellness-focused coach, you'll support clients physically, mentally, and emotionally. You'll work often with those managing stress, lifestyle changes, or long-term health conditions. </p><p>It’s a deeply fulfilling route for those who care about meaningful, lasting change. Potential roles include wellness coach, lifestyle trainer, or specialist PTs in mental health and behavioural change. This is ideal for empathetic people who want to coach others towards balance, confidence, and vitality.</p>"
+          }
+        },
+        "accordion_row_P7WDgY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Fitness",
+            "row_content": ""
           }
         },
         "accordion_row_WUTa8V": {
@@ -82,7 +89,7 @@
         "accordion_row_qw6idr": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Strength & Conditioning",
+            "heading": "Strength",
             "row_content": "<p>Want to help athletes and clients push their limits and perform at their peak? The Strength & Conditioning Pathway focuses on advanced training techniques to build power, speed, and endurance. </p><p>As a strength and conditioning coach, you’ll design evidence-based programmes that improve performance, prevent injury, and support long-term athletic development. </p><p>You might work with competitive athletes, sports teams, or clients who want to train with the same discipline and focus as professionals. </p><p>Potential roles include S&C coach in gyms, clubs, or sporting organisations, as well as opportunities to freelance or consult. This pathway is ideal for driven, analytical people who love science-backed training and seeing measurable progress.</p>"
           }
         },
@@ -103,6 +110,7 @@
       },
       "block_order": [
         "accordion_row_azWBrq",
+        "accordion_row_P7WDgY",
         "accordion_row_WUTa8V",
         "accordion_row_qw6idr",
         "accordion_row_YGptwd",
@@ -116,7 +124,7 @@
         "accordion_width": "full",
         "accordion_entries": [],
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -125,6 +133,7 @@
     },
     "le_speech_bubble_BY8FJV": {
       "type": "le_speech-bubble",
+      "disabled": true,
       "name": "t:sections.le_speechbubble.presets.name",
       "settings": {
         "heading": "",

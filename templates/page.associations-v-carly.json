@@ -18,156 +18,279 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_MMRCXB": {
-      "type": "image-banner",
+    "le_text_and_background_XdbYyL": {
+      "type": "le_text-and-background",
       "blocks": {
-        "heading_AThRr3": {
-          "type": "heading",
+        "row_heading_bfzBKP": {
+          "type": "row-heading",
           "settings": {
-            "heading": "Associations and Partners",
-            "heading_size": "h1"
+            "text": "<p>Associations <strong>and Partners</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "normal"
           }
         },
-        "text_HPrhxW": {
-          "type": "text",
+        "row2col_KLkTY7": {
+          "type": "row2col",
           "settings": {
-            "text": "At Study Active, our partnerships with leading awarding bodies, industry regulators and major gym chains are at the heart of what we do. They ensure that our courses meet the highest professional standards and give our learners a clear route into employment.",
-            "text_style": "body"
+            "text1": "<p>At Study Active, our partnerships with leading awarding bodies, industry regulators and major gym chains are at the heart of what we do. </p><p></p>",
+            "text1_size": "medium",
+            "text2": "<p>They ensure that our courses meet the highest professional standards and give our learners a clear route into employment.</p>",
+            "text2_size": "medium"
           }
         }
       },
       "block_order": [
-        "heading_AThRr3",
-        "text_HPrhxW"
+        "row_heading_bfzBKP",
+        "row2col_KLkTY7"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:sections.le_tab.presets.name",
       "settings": {
-        "image": "shopify://shop_images/london.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "ambient",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "left",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "le_whychoose_nUNAqd": {
-      "type": "le_whychoose",
-      "blocks": {
-        "slide_hHknHt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/active-iq-logo-about-us.webp",
-            "heading": "<p>Study Active</p>",
-            "subheading": "<p>We partner with Active IQ because they are one of the UK's leading awarding organisations recognised and regulated by Ofqual within the Active Leisure sector.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_TTz7XH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ukactive_Member.avif",
-            "heading": "<p>UK Active</p>",
-            "subheading": "<p>UK Active supports its members by offering services and facilitating partnerships within the UK fitness industry, aiming to improve public health through physical activity.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_9VdbMq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/cismpa-transparent.png",
-            "heading": "<p>CIMPSA</p>",
-            "subheading": "<p>CIMSPA is the professional development body for the UK’s sport and physical activity sector, recognizing Study Active training throughout the UK.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_7e66XB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/PD-Approval-Logo.webp",
-            "heading": "<p>PD:Approval</p>",
-            "subheading": "<p>PD Approval is an independent quality assurance service within the fitness education sector, endorsing Study Active for its high standard of service.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_hHknHt",
-        "slide_TTz7XH",
-        "slide_9VdbMq",
-        "slide_7e66XB"
-      ],
-      "custom_css": [],
-      "name": "t:sections.le_whychoose.presets.name",
-      "settings": {
-        "template_type": "twocol",
-        "section_bkgr": "primary",
-        "headline": "Accreditation Matters",
-        "heading_type": "h2",
-        "heading_size": "normal",
-        "no_decal": false,
-        "subheadline": "When you choose a course, accreditation is key. It tells employers, gyms and clients that your qualification meets national industry standards and is recognised across the UK and internationally. Our qualifications are:",
-        "button_label": "",
-        "button_url": "",
-        "custom_class_names": "",
+        "image": "shopify://shop_images/london_782f2be3-15d6-4b44-abef-8e2fb0c63673.webp",
+        "stretch_image": true,
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "image_with_text_Krg7EP": {
-      "type": "image-with-text",
+    "le_face2face_JJ8WEA": {
+      "type": "le_face2face",
       "blocks": {
-        "heading_wHDpqG": {
-          "type": "heading",
+        "slide_C6YAr6": {
+          "type": "slide",
           "settings": {
-            "heading": "Proud to Be Rated “Enhancing” by CIMSPA",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/cimspa-logo.webp",
+            "heading": "<p>CIMSPA</p>",
+            "subheading": "<p>CIMSPA is the professional development body for the UK’s sport and physical activity sector, recognising Study Active training throughout the UK. Study Active are one of the few providers in the UK to achieve 'Enhancing' status.</p>"
           }
         },
-        "text_fX6kce": {
-          "type": "text",
+        "slide_R6mB4D": {
+          "type": "slide",
           "settings": {
-            "text": "<p>Study Active is proud to have been awarded “Enhancing” status by CIMSPA – the highest possible quality rating a fitness education provider can achieve. This prestigious trust mark recognises our commitment to delivering truly outstanding education, following a rigorous quality assurance inspection by CIMSPA’s expert auditors. As a learner, you can have complete confidence that our courses meet the highest national standards. Unlike basic endorsement alone, CIMSPA’s new quality framework gives a clear picture of a provider’s performance. With Study Active rated “Enhancing,” you’re choosing excellence at every stage of your fitness education journey.</p>",
-            "text_style": "body"
+            "image": "shopify://shop_images/active-iq-logo-about-us-page.jpg",
+            "heading": "<p>Active IQ</p>",
+            "subheading": "<p>We partner with Active IQ because they are one of the UK's leading awarding organisations recognised and regulated by Ofqual within the Active Leisure sector.</p>"
+          }
+        },
+        "slide_j4pPe3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_14.png",
+            "heading": "<p>UK Active</p>",
+            "subheading": "<p>UK Active supports its members by offering services and facilitating partnerships within the UK fitness industry, aiming to improve public health through physical activity. Study Active are a proud member of UK Active.</p>"
+          }
+        },
+        "slide_PepAA6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png",
+            "heading": "<p>Royal Society For Public Health</p>",
+            "subheading": "<p>RSPH is a leading awarding body for vocational health-related qualifications in the UK, recognized by Ofqual and Qualifications Wales. Study Active are an approved RSPH Training Provider.</p>"
           }
         }
       },
       "block_order": [
-        "heading_wHDpqG",
-        "text_fX6kce"
+        "slide_C6YAr6",
+        "slide_R6mB4D",
+        "slide_j4pPe3",
+        "slide_PepAA6"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.le_face2face.presets.name",
       "settings": {
-        "image": "shopify://shop_images/CIMSPA_Quality_Assurance_Logo_3-star_Enhancing_NAVY_1200x_ee85d701-682d-49f7-be63-5a41e362ab05.webp",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_bkgr": "white",
+        "headline": "<p>Accreditation and Standards</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -132,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_iJkbiJ": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_wzEAgF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_16.png",
+            "heading": "<p>MedFit Education</p>",
+            "subheading": "<p>MedFit Education, often referred to as the MedFit Education Foundation (MFEF),is a non-profit organisation focused on providing continuing education for fitness and allied healthcare professionals. </p>"
+          }
+        },
+        "slide_A3LaJg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_17.png",
+            "heading": "<p>Mcdonald Method</p>",
+            "subheading": "<p>The McDonald Method is a coaching and education platform created by Ben McDonald that blends fitness, boxing, movement, and personal development into accessible learning experiences. Its mission is to help people move better, breathe better, and connect more authentically—whether they are athletes, coaches, or everyday individuals.</p>"
+          }
+        },
+        "slide_weyzBb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_18.png",
+            "heading": "<p>Boxercise</p>",
+            "subheading": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>"
+          }
+        },
+        "slide_tpYd7f": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png",
+            "heading": "<p>Royal Society For Public Health</p>",
+            "subheading": "<p>RSPH is a leading awarding body for vocational health-related qualifications in the UK, recognized by Ofqual and Qualifications Wales. Study Active are an approved RSPH Training Provider.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wzEAgF",
+        "slide_A3LaJg",
+        "slide_weyzBb",
+        "slide_tpYd7f"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Education Partners</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -132,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_pwDDFB": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_nxE8gq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_19.png",
+            "heading": "<p>Your Personal Training</p>",
+            "subheading": "<p>YPT provides personal training jobs<em> </em>in London, Manchester, Cardiff, Scotland, Belfast and throughout the UK.</p>"
+          }
+        },
+        "slide_cckgaG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_20.png",
+            "heading": "<p>CoverMe Fitness</p>",
+            "subheading": "<p>CoverMe is an app that empowers personal trainers, group fitness instructors, and other fitness professionals by enabling them to take control of when and where they work—teach more, earn more, and stress less. Through CoverMe, instructors create a dynamic profile showcasing their credentials, insurance, and teaching videos, which fitness venues can access to offer work opportunities </p>"
+          }
+        },
+        "slide_9JMmHQ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_18.png",
+            "heading": "<p>Boxercise</p>",
+            "subheading": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>"
+          }
+        },
+        "slide_P7FrQx": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png",
+            "heading": "<p>Royal Society For Public Health</p>",
+            "subheading": "<p>RSPH is a leading awarding body for vocational health-related qualifications in the UK, recognized by Ofqual and Qualifications Wales. Study Active are an approved RSPH Training Provider.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nxE8gq",
+        "slide_cckgaG",
+        "slide_9JMmHQ",
+        "slide_P7FrQx"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Recruitment Partners</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 40,
-        "margin_top": 48,
-        "margin_bottom": 44
+        "margin_top": 20,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_waBTCd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ygqiDY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gyms and Leisure Clubs",
+            "heading_size": "h1"
+          }
+        },
+        "text_6qbFEL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Study Active partners with gyms and leisure clubs nationwide to deliver staff training, create employment opportunities for our graduates through guaranteed job interviews, and host training and assessment days. We collaborate with a growing network of providers across the country, and some of our valued partners are listed below.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ygqiDY",
+        "text_6qbFEL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_with_text_UApzce": {
@@ -192,11 +315,12 @@
         "heading_KiEFBc",
         "text_YccVCL"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/woman-weight-lifting-with-trainer.jpg",
-        "height": "medium",
-        "desktop_image_width": "medium",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -247,6 +371,12 @@
             "image": "shopify://shop_images/personaltraining.png"
           }
         },
+        "slide_JLAQY7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/parkwood-leisure-logo.png"
+          }
+        },
         "slide_zUyDDE": {
           "type": "slide",
           "settings": {
@@ -260,16 +390,17 @@
         "slide_9GQztc",
         "slide_X9rMTw",
         "slide_m6zA8n",
+        "slide_JLAQY7",
         "slide_zUyDDE"
       ],
       "name": "t:sections.le_image-slider.presets.name",
       "settings": {
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 60,
-        "margin_bottom": 0
+        "padding_top": 92,
+        "padding_bottom": 88,
+        "margin_top": -104,
+        "margin_bottom": -72
       }
     },
     "rich_text_wFfcf3": {
@@ -293,12 +424,13 @@
         "heading_gV39kL",
         "text_fJDky7"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -306,9 +438,11 @@
   },
   "order": [
     "main",
-    "image_banner_MMRCXB",
-    "le_whychoose_nUNAqd",
-    "image_with_text_Krg7EP",
+    "le_text_and_background_XdbYyL",
+    "le_face2face_JJ8WEA",
+    "le_face2face_iJkbiJ",
+    "le_face2face_pwDDFB",
+    "rich_text_waBTCd",
     "image_with_text_UApzce",
     "le_image_slider_WKjHBk",
     "rich_text_wFfcf3"
