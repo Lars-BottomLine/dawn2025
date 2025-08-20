@@ -51,7 +51,7 @@
         "row_button_p6yfCY": {
           "type": "row-button",
           "settings": {
-            "text": "Enrol Now",
+            "text": "Add to cart",
             "button_type": "left",
             "inverted": true,
             "button_link": "",
@@ -703,7 +703,7 @@
         "row_button_R6e6B9": {
           "type": "row-button",
           "settings": {
-            "text": "Enroll Now",
+            "text": "Add to cart",
             "button_type": "left",
             "inverted": true,
             "button_link": "",
