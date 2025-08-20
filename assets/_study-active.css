@@ -820,6 +820,13 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
   line-height: 2.4rem;
   margin-bottom: 0.75rem;
 }
+.footer__content-top a {
+  color: white;
+  transition: color 200ms;
+}
+.footer__content-top a:hover {
+  color: var(--color-secondary) !important;
+}
 .footer__content-top .footer__logo {
   max-width: 30rem;
 }
@@ -848,12 +855,6 @@ product-thumb .product__info-wrapper .product__info-container .pt-footer .ptf-bo
 }
 .footer__content-top .footer-block--contact {
   max-width: 32rem !important;
-}
-.footer__content-top .footer-block--contact a {
-  color: white;
-}
-.footer__content-top .footer-block--contact a:hover {
-  text-decoration: underline;
 }
 .footer__content-top .footer-block--contact .footer-block__row {
   color: white;
@@ -2665,6 +2666,7 @@ header .header__icon--cart .icon {
   align-items: center;
   gap: 4rem;
   max-width: 90rem;
+  width: 100%;
   background: #FFF;
   box-shadow: 0 4px 4px 0 rgba(0, 38, 139, 0.2);
 }
@@ -2681,6 +2683,20 @@ header .header__icon--cart .icon {
   display: flex;
   align-items: center;
   gap: 4rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.sa-section-steps.-step-width-narrow .st-content .st-step {
+  max-width: 55rem;
+}
+.sa-section-steps.-step-width-normal .st-content .st-step {
+  max-width: 70rem;
+}
+.sa-section-steps.-step-width-wide .st-content .st-step {
+  max-width: 90rem;
+}
+.sa-section-steps.sa-bg-white .st-content .st-step {
+  border-top: 1px solid #f0eef6;
 }
 @media (max-width: 640px) {
   .sa-section-steps .st-header {

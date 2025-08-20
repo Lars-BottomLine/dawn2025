@@ -3148,6 +3148,13 @@
       }
     },
 
+    "le_main-blog": {
+      "name": "StudyActive - Blogs Overview",
+      "presets": {
+        "name": "StudyActive - Blogs Overview"
+      }
+    },
+
     "slideshow": {
       "name": "Slideshow (default)",
       "settings": {

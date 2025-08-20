@@ -56,6 +56,7 @@
 
 <div class="sa-section-steps
             section-{{ section.id }}-padding section-{{ section.id }}-margin
+            -step-width-{{ section.settings.step_width }}
             {{ section_classes }}
             {{ section.settings.custom_class_names }}">
     <div class="page-width">
@@ -101,7 +102,7 @@
                         </div>
                     </div>
 
-                    {% if block.settings.button_text %}
+                    {% if block.settings.button_text != blank %}
                     <div class="st-button">
                         <div class="sa-button -hover-grow" data-target="{{ block.settings.button_link }}">
                             <span>{{ block.settings.button_text }}</span>
@@ -179,6 +180,27 @@
         }
       ],
       "default": "light-blue"
+    },
+
+    {
+      "type": "select",
+      "id": "step_width",
+      "label": "Max. width",
+      "options": [
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        }
+      ],
+      "default": "wide"
     },
 
     {
