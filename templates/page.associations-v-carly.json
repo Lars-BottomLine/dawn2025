@@ -262,6 +262,60 @@
         "margin_bottom": 0
       }
     },
+    "le_accordion_z9qYir": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_VRJ38V": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/5b7a571-675-af07-c53f-5c73cddfc65_18af200b-42ff-4b6b-9c2d-31700823653a.webp",
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_bXLJLJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_8WNHGE": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_FciTNm": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_VRJ38V",
+        "accordion_row_bXLJLJ",
+        "accordion_row_8WNHGE",
+        "accordion_row_FciTNm"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Headline",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "accordion_entries": [],
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "rich_text_waBTCd": {
       "type": "rich-text",
       "blocks": {
@@ -442,6 +496,7 @@
     "le_face2face_JJ8WEA",
     "le_face2face_iJkbiJ",
     "le_face2face_pwDDFB",
+    "le_accordion_z9qYir",
     "rich_text_waBTCd",
     "image_with_text_UApzce",
     "le_image_slider_WKjHBk",
