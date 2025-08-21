@@ -723,7 +723,7 @@
       "name": "t:sections.le_tab.presets.name",
       "settings": {
         "image": "shopify://shop_images/trainer-in-gym-helping-woman.jpg",
-        "stretch_image": false,
+        "stretch_image": true,
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 120,
