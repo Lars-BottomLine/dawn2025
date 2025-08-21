@@ -1,0 +1,123 @@
+{% comment %}
+  Renders an entry for the key benefit section
+
+  Accepts:
+  - kb_id: { string }
+  - kb_icon: { Image }
+  - kb_title: { string )
+  - kb_text: { string }
+  - kb_button_url: { string }
+  - kb_button_label: { string }
+  - kb_izthreecolcompact: { boolean }
+
+  Usage:
+  {% render 'le_key-benefit', kb_title: "Hello", kb_text: "This is interesting', kb_image: kb_icon, kb_id: 'uaoue' %}
+{% endcomment %}
+
+{% assign iz_threecol-compact = true %}
+{% assign not_threecol-compact = false %}
+
+{% if kb_izthreecolcompact %}
+    {% assign iz_threecol-compact = true %}
+    {% assign not_threecol-compact = false %}
+{% endif %}
+
+<div id="F2FEntry-{{ kb_id }}" class="wc-entry">
+    {% comment %}
+      ToDo: Optimize image sizes
+    {% endcomment %}
+
+    <div class="wc-left">
+
+        <div class="wc-image">
+
+            {%- if kb_icon -%}
+
+                {%- liquid
+
+                    assign img_extension = kb_icon | split: '.' | last | downcase
+                    assign iz_svg = false
+                    if img_extension == 'svg'
+                        assign iz_svg = true
+                    endif
+
+                    assign height = kb_icon.width | divided_by: kb_icon.aspect_ratio | round
+
+                    assign sizes = '100vw'
+                    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+                    assign fetch_priority = 'auto'
+                    if section.index == 1
+                        assign fetch_priority = 'high'
+                    endif
+
+                -%}
+
+                {%- if iz_svg %}
+                    <img src="{{ kb_icon | image_url }}" alt="{{ kb_icon.alt }}">
+                {%- else -%}
+                    {%- if forloop.first %}
+                        {{
+                        kb_icon
+                        | image_url: width: 880
+                        | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                    {%- else -%}
+                        {{
+                        kb_icon
+                        | image_url: width: 880
+                        | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                        }}
+                    {%- endif -%}
+                {%- endif -%}
+
+            {%- else -%}
+                {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                {%- if placeholder_slide == 1 -%}
+                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- else -%}
+                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            {%- endif -%}
+
+        </div>
+
+        {% if kb_title and iz_threecol-compact %}
+            <h3 class="wc-entry-title _subtitle !leading-none ">{{ kb_title | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+        {% endif %}
+
+    </div>
+
+    <div class="wc-right">
+
+        {% if kb_title != blank or kb_text != blank %}
+            <div class="wc-text">
+
+                {% if kb_title and not_threecol-compact %}
+                    <h3 class="wc-entry-title _subtitle !leading-none mb-2 ">{{ kb_title | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
+                {% endif %}
+
+                {%- if kb_text != blank -%}
+                    <div class="_subtitle-small">
+                        {% if kb_text.type != blank %}
+                            {{ kb_text | metafield_tag }}
+                        {% else %}
+                            {{ kb_text }}
+                        {% endif %}
+                    </div>
+                {%- endif -%}
+
+            </div>
+        {%- endif -%}
+
+        {%- if kb_button_url != blank and kb_button_label -%}
+            <div class="sa-button-container flex">
+                <a href="{{ kb_button_url }}" class="sa-button -medium !mx-auto -hover-grow">
+                    <span>{{ kb_button_label }}</span>
+                </a>
+            </div>
+        {% endif %}
+
+    </div>
+
+</div>

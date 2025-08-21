@@ -108,112 +108,37 @@
         </div>
 
         <div class="wc-entry-container">
+            {% assign section_id = section.id | append: '-' | append: forloop.index %}
 
+            {% # USING THE PRODUCT METAOBJECTS %}
             {% if section.settings.key_benefits != blank %}
-            Hazzzz
+
+                {%- for entry in section.settings.key_benefits -%}
+                    {% render 'le_key-benefit',
+                        kb_id: section_id,
+                        kb_title: entry.title,
+                        kb_text: entry.text,
+                        kb_icon: entry.icon,
+                        kb_button_label: entry.button_label,
+                        kb_button_url: entry.button_url,
+                        kb_izthreecolcompact: iz_threecol-compact %}
+                {% endfor %}
+
+            {% # USING THE TEMPLATE DATA %}
             {% else %}
-            Naaaat hazz
+
+                {%- for block in section.blocks -%}
+                    {% render 'le_key-benefit',
+                            kb_id: section_id,
+                            kb_title: block.settings.heading,
+                            kb_text: block.settings.subheading,
+                            kb_icon: block.settings.image,
+                            kb_button_label: block.settings.button_text,
+                            kb_button_url: block.settings.button_url,
+                            kb_izthreecolcompact: iz_threecol-compact %}
+                {% endfor %}
+
             {% endif %}
-            
-            {%- for block in section.blocks -%}
-
-                <div id="F2FEntry-{{ section.id }}-{{ forloop.index }}" class="wc-entry">
-                    {% comment %}
-                      ToDo: Optimize image sizes
-                    {% endcomment %}
-
-                    <div class="wc-left">
-
-                        <div class="wc-image">
-
-                            {%- if block.settings.image -%}
-
-                            {%- liquid
-
-                                assign img_extension = block.settings.image | split: '.' | last | downcase
-                                assign iz_svg = false
-                                if img_extension == 'svg'
-                                    assign iz_svg = true
-                                endif
-
-                                assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
-
-                                assign sizes = '100vw'
-                                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-
-                                assign fetch_priority = 'auto'
-                                if section.index == 1
-                                    assign fetch_priority = 'high'
-                                endif
-
-                            -%}
-
-                            {%- if iz_svg %}
-                                <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
-                            {%- else -%}
-                                {%- if forloop.first %}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 880
-                                    | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                    }}
-                                {%- else -%}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 880
-                                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                    }}
-                                {%- endif -%}
-                            {%- endif -%}
-
-                        {%- else -%}
-                            {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-                            {%- if placeholder_slide == 1 -%}
-                                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-                            {%- else -%}
-                                {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                            {%- endif -%}
-                        {%- endif -%}
-
-                        </div>
-
-                        {% if block.settings.heading and iz_threecol-compact %}
-                            <h3 class="wc-entry-title _subtitle !leading-none ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
-                        {% endif %}
-
-                    </div>
-
-                    <div class="wc-right">
-
-                        {% if block.settings.heading != blank or block.settings.subheading != blank %}
-                        <div class="wc-text">
-
-                            {% if block.settings.heading and not_threecol-compact %}
-                            <h3 class="wc-entry-title _subtitle !leading-none mb-2 ">{{ block.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</h3>
-                            {% endif %}
-
-                            {%- if block.settings.subheading != blank -%}
-                            <div class="_subtitle-small">
-                                {{ block.settings.subheading }}
-                            </div>
-                            {%- endif -%}
-
-                        </div>
-                        {%- endif -%}
-
-                        {%- if block.settings.button_url != blank -%}
-                            <div class="sa-button-container flex">
-                                <a href="{{ block.settings.button_url }}" class="sa-button -medium !mx-auto -hover-grow">
-                                    <span>{{ block.settings.button_text }}</span>
-                                </a>
-                            </div>
-                        {% endif %}
-
-                    </div>
-
-                </div>
-
-            {% endfor %}
 
         </div>
 
@@ -370,9 +295,9 @@
     },
     {
       "type": "metaobject_list",
-      "id": "key_benefits",
-      "label": "Key Benefits",
-      "metaobject_type": "product_key_benefit"
+      "id": "suitability_prerequisites",
+      "label": "Suitability & Prerequisites",
+      "metaobject_type": "product_suitability_prerequisites"
     },
 
     {
