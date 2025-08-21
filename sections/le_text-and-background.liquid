@@ -55,16 +55,22 @@
     <div class="tab-background page-width image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
         <div class="tab-image media">
             {% # IMAGE SET, DEFINE SIZES  %}
-            {%- if section.settings.image != blank -%}
+            {% assign img = section.settings.image | default: product.metafields.custom.hero_image | default: blank %}
+            {%- if img != blank -%}
                 {%- assign widths = '1200, 1500' -%}
                 {%- capture sizes -%}
+                    {% comment %}
+                    ToDo: check the resulting image size, should be big enough but not too big...
+                    {% endcomment %}
                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                     (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
-                {{
-                section.settings.image
-                | image_url: width: 1500
-                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                {{ img
+                    | image_url: width: 1500
+                    | image_tag:
+                        sizes: sizes,
+                        widths: widths,
+                        fetchpriority: fetch_priority
                 }}
 
                 {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
@@ -164,7 +170,8 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:sections.image-with-text.settings.image.label"
+      "label": "t:sections.image-with-text.settings.image.label",
+      "info": "If this image is set, it will override the product image!"
     },
     {
       "type": "checkbox",
