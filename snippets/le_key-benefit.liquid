@@ -4,6 +4,9 @@
   Accepts:
   - kb_id: { string }
   - kb_icon: { Image }
+  - kb_forloop_first: { boolean }
+  - kb_section_index: { number }
+  - kb_forloop_index: { number },
   - kb_title: { string )
   - kb_text: { string }
   - kb_button_url: { string }
@@ -47,7 +50,7 @@
                     assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 
                     assign fetch_priority = 'auto'
-                    if section.index == 1
+                    if kb_section_index == 1
                         assign fetch_priority = 'high'
                     endif
 
@@ -56,7 +59,7 @@
                 {%- if iz_svg %}
                     <img src="{{ kb_icon | image_url }}" alt="{{ kb_icon.alt }}">
                 {%- else -%}
-                    {%- if forloop.first %}
+                    {%- if kb_forloop_first %}
                         {{
                         kb_icon
                         | image_url: width: 880
@@ -72,7 +75,7 @@
                 {%- endif -%}
 
             {%- else -%}
-                {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                {%- assign placeholder_slide = kb_forloop_index | modulo: 2 -%}
                 {%- if placeholder_slide == 1 -%}
                     {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
                 {%- else -%}

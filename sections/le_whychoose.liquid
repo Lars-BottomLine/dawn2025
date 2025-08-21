@@ -117,6 +117,9 @@
                     {% render 'le_key-benefit',
                         kb_id: section_id,
                         kb_title: entry.title,
+                        kb_forloop_first: forloop.first,
+                        kb_section_index: section.index,
+                        kb_forloop_index: forloop.index,
                         kb_text: entry.text,
                         kb_icon: entry.icon,
                         kb_button_label: entry.button_label,
@@ -131,6 +134,9 @@
                     {% render 'le_key-benefit',
                             kb_id: section_id,
                             kb_title: block.settings.heading,
+                            kb_forloop_first: forloop.first,
+                            kb_section_index: section.index,
+                            kb_forloop_index: forloop.index,
                             kb_text: block.settings.subheading,
                             kb_icon: block.settings.image,
                             kb_button_label: block.settings.button_text,
@@ -295,9 +301,9 @@
     },
     {
       "type": "metaobject_list",
-      "id": "suitability_prerequisites",
-      "label": "Suitability & Prerequisites",
-      "metaobject_type": "product_suitability_prerequisites"
+      "id": "key_benefits",
+      "label": "Key Benefits",
+      "metaobject_type": "product_key_benefit"
     },
 
     {
