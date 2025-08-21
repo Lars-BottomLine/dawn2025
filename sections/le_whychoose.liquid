@@ -109,6 +109,12 @@
 
         <div class="wc-entry-container">
 
+            {% if section.settings.key_benefits != blank %}
+            Hazzzz
+            {% else %}
+            Naaaat hazz
+            {% endif %}
+            
             {%- for block in section.blocks -%}
 
                 <div id="F2FEntry-{{ section.id }}-{{ forloop.index }}" class="wc-entry">
@@ -357,6 +363,17 @@
       "label": "Button: URL"
     },
 
+
+    {
+      "type": "header",
+      "content": "t:settings_schema.le_basics.source.header"
+    },
+    {
+      "type": "metaobject_list",
+      "id": "key_benefits",
+      "label": "Key Benefits",
+      "metaobject_type": "product_key_benefit"
+    },
 
     {
         "type": "header",

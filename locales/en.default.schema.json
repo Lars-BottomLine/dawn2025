@@ -3055,6 +3055,12 @@
       }
     },
 
+    "le_basics": {
+      "source": {
+        "header": "If a source is selected, the rows won't be used."
+      }
+    },
+
     "le_face2face": {
       "name": "StudyActive - Face2Face",
       "presets": {
