@@ -59,11 +59,12 @@
         <div class="product-content
                     {% if product.media.size > 0 or settings_product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
 
-            {% # LEFT SIDE: MEDIA
+            {% # TOP: MEDIA
                # ---------------------- %}
             <div class="product__media-wrapper">
                 {%- unless placeholder -%}
                     {% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}
+                    <a class="pt-image-link" href="{{ product.url }}"></a>
                 {%- else -%}
                     <div class="product__media-item">
                         <div
@@ -76,7 +77,7 @@
                 {%- endunless -%}
             </div>
 
-            {% # RIGHT SIDE: INFO
+            {% # BOTTOM: INFO
                # ---------------------- %}
             <div class="product__info-wrapper
                         sa-bg-dark-blue sa-col-white
@@ -89,7 +90,7 @@
                 >
                     {%- assign product_form_id = 'product-form-' | append: section_id -%}
 
-                    <div class="pt-content">
+                    <a class="pt-content" href="{{ product.url }}">
 
                         {% # TITLE (done)
                            # ----------------------- %}
@@ -106,7 +107,7 @@
                             {{ product.metafields.custom.short_description | metafield_tag }}
                         </div>
 
-                    </div>
+                    </a>
 
                     <div class="pt-footer">
 
