@@ -110,6 +110,7 @@
       "name": "t:sections.le_steps.presets.name",
       "settings": {
         "template_type": "light-blue",
+        "step_width": "wide",
         "heading": "<p><strong>Step into success</strong></p>",
         "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
         "custom_class_names": "",
@@ -126,6 +127,7 @@
       "name": "Step 1: Set your goal",
       "settings": {
         "template_type": "white",
+        "step_width": "wide",
         "heading": "<p><strong>Step 1:</strong> Set your goal</p>",
         "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a personal trainer. Then explore our courses to find the one that aligns best with your vision and get specialised to take your wellness game to the next level.</p>",
         "custom_class_names": "anchor-step1",
@@ -238,13 +240,13 @@
       "name": "Course Bundles & Specialisations",
       "settings": {
         "section_bkgr": "white",
-        "heading_image": "shopify://shop_images/featured_seasonal_and_gifts.svg",
         "headline": "<p>Course Bundles & Specialisations</p>",
         "heading_type": "h2",
         "heading_size": "normal",
-        "no_decal": true,
+        "no_decal": false,
         "subheadline": "",
         "column_type": "wide",
+        "entry_align": "center",
         "image_shadow": "normal",
         "image_size": "mediumplus",
         "image_type": "normal",
@@ -358,6 +360,7 @@
         "no_decal": false,
         "subheadline": "",
         "column_type": "wide",
+        "entry_align": "center",
         "image_shadow": "normal",
         "image_size": "mediumplus",
         "image_type": "normal",
@@ -478,15 +481,16 @@
         "accordion_width": "full",
         "accordion_entries": [],
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 20,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": -180
       }
     },
     "le_speech_bubble_cc7R7b": {
       "type": "le_speech-bubble",
+      "disabled": true,
       "name": "t:sections.le_speechbubble.presets.name",
       "settings": {
         "image": "shopify://shop_images/woman-in-gym.jpg",
@@ -660,7 +664,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
-        "margin_bottom": -16
+        "margin_bottom": 8
       }
     }
   },
