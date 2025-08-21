@@ -530,7 +530,7 @@
       "name": "t:sections.le_accordion.presets.name",
       "settings": {
         "template_type": "blue",
-        "headline": "Headline",
+        "headline": "Frequently asked questions",
         "heading_size": "medium",
         "accordion_width": "narrow",
         "accordion_entries": "{{ product.metafields.custom.faq_accordion.value }}",
