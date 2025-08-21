@@ -338,7 +338,7 @@
         "heading_size": "normal-bold",
         "no_decal": false,
         "subheadline": "",
-        "suitability_prerequisites": [],
+        "suitability_prerequisites": "{{ product.metafields.custom.learning_experience.value }}",
         "column_type": "asymmetric",
         "entry_align": "center",
         "image_shadow": "none",
