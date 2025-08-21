@@ -66,7 +66,7 @@
       ],
       "name": "t:sections.le_tab.presets.name",
       "settings": {
-        "image": "{{ product.featured_image }}",
+        "image": "shopify://shop_images/woman-in-gym.jpg",
         "stretch_image": true,
         "decal_top": false,
         "decal_bottom": false,
