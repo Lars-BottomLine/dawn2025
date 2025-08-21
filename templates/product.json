@@ -158,6 +158,7 @@
         "subheadline": "",
         "button_label": "",
         "button_url": "",
+        "key_benefits": "{{ product.metafields.custom.key_benefits.value }}",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
