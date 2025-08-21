@@ -129,7 +129,7 @@
       "custom_css": [],
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
-        "template_type": "threecol-notext",
+        "template_type": "threecol-compact",
         "section_bkgr": "light-blue",
         "headline": "Meet Our Leaders",
         "heading_type": "h2",
@@ -254,7 +254,7 @@
       ],
       "name": "t:sections.le_whychoose.presets.name",
       "settings": {
-        "template_type": "threecol-notext",
+        "template_type": "threecol-compact",
         "section_bkgr": "white",
         "headline": "Meet The Team",
         "heading_type": "h2",
