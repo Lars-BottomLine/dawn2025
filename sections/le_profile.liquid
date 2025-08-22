@@ -74,18 +74,25 @@
             assign image = product.metafields.custom.profile_image
         endif
     endif
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
 %}
 
-    {% if content_for_header contains "previewBarInjector.init();" %}
-        <div class="" style="position: fixed; top: 0; left: 0; z-index: 1000;background: darkorange; color: white; padding: 0.5rem 2rem;font-weight: bold;font-size: 2rem;">
-            Preview mode
-        </div>
-    {% elsif content_for_header contains "Shopify.designMode" %}
-        <div class="" style="position: fixed; top: 0; left: 0; z-index: 1000;background: darkorange; color: white; padding: 0.5rem 2rem;font-weight: bold;font-size: 2rem;">
-            Customizer
-        </div>
-    {% else %}
-    {% endif %}
 
 <div class="sa-section-profile
             {{ section_classes }}">
@@ -122,7 +129,7 @@
             <div class="pro-right">
                 <div class="">
 
-                {% if use_product_data %}
+                {% if use_product_data and mode_live %}
 
                     {% for entry in product.metafields.custom.profile_info.value %}
 
