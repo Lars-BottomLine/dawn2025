@@ -59,6 +59,13 @@
         assign mode_preview = false
         assign mode_customizer = true
     endif
+
+
+
+    assign use_product_data = false
+    if section.settings.use_product_data
+        assign use_product_data = true
+    endif
 %}
 
 {%- style -%}
@@ -109,61 +116,34 @@
                  class="swiper sa-swiper sa-swiper-type-{{ section.settings.slider_type }}">
                 <div class="swiper-wrapper">
 
-                {%- for block in section.blocks -%}
+                    {% assign section_id = section.id | append: '-' | append: forloop.index %}
 
-                    <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                         class="swiper-slide medi"
-                         role="group"
-                         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                         tabindex="-1" >
+                    {% if use_product_data and mode_live %}
+                        {% for entry in product.metafields.custom.testimonials.value %}
+                            {% render 'le_testimonial',
+                                    tm_id: section_id,
+                                    tm_forloop_index: forloop.index,
+                                    tm_forloop_length: forloop.length,
 
-                        {%- case block.type -%}
+                                    tm_block_type: 'testimonial',
+                                    tm_quote: entry.quote,
+                                    tm_author: entry.author
+                            %}
+                        {% endfor %}
+                    {% else %}
+                        {%- for block in section.blocks -%}
+                            {% render 'le_testimonial',
+                                    tm_id: section_id,
+                                    tm_forloop_index: forloop.index,
+                                    tm_forloop_length: forloop.length,
 
-                        {% # BLOCK: TESTIMONIAL %}
-                        {%- when 'testimonial' -%}
-                            <div class="tm-testimonial">
+                                    tm_block_type: block.type,
+                                    tm_quote: block.settings.quote,
+                                    tm_author: block.settings.author
+                            %}
+                        {% endfor %}
+                    {% endif %}
 
-                                <div class="tm-bubble">
-
-                                    <div class="tm-sb-arrow"></div>
-
-                                    {% # IMAGE %}
-                                    {% if block.settings.image %}
-                                    <div class="tm-image">
-                                        {{ block.settings.image
-                                            | image_url: width: 200
-                                            | image_tag }}
-                                    </div>
-                                    {% endif %}
-
-                                    <div class="tm-content">
-
-                                        {% # QUOTE %}
-                                        {% if block.settings.quote != blank %}
-                                        <div class="tm-quote">
-                                            {{ block.settings.quote }}
-                                        </div>
-                                        {% endif %}
-
-                                        {% # AUTHOR %}
-                                        {% if block.settings.author != blank %}
-                                        <div class="tm-author">
-                                            {{ block.settings.author }}
-                                        </div>
-                                        {% endif %}
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        {% endcase %}
-
-                    </div>
-
-                {% endfor %}
                 </div>
             </div>
 
