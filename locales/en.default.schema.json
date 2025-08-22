@@ -3057,7 +3057,8 @@
 
     "le_basics": {
       "source": {
-        "header": "If a source is selected, the rows won't be used."
+        "header": "Dynamic Data Source",
+        "info": "If a source is selected here, the template's rows / images won't be used."
       }
     },
 

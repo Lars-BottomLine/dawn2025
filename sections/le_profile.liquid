@@ -65,6 +65,10 @@
     }
 {%- endstyle -%}
 
+{% liquid
+    # use_product_data
+%}
+
 <div class="sa-section-profile
             {{ section_classes }}">
     <div class="page-width">
@@ -166,7 +170,7 @@
       "type": "text",
       "id": "heading",
       "default": "<p>Heading</p>",
-      "label": "t:sections.le_swiper.settings.heading.label"
+      "label": "t:sections.le_swiper.heading.label"
     },
     {
       "type": "select",
@@ -244,6 +248,17 @@
       "type": "image_picker",
       "id": "image",
       "label": "Profile image"
+    },
+
+    {
+      "type": "header",
+      "content": "t:settings_schema.le_basics.source.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_product_data",
+      "label": "Use the product data (will ignore any row and image settings in this section)",
+      "default": false
     },
 
     {
