@@ -76,6 +76,17 @@
     endif
 %}
 
+    {% if content_for_header contains "previewBarInjector.init();" %}
+        <div class="" style="position: fixed; top: 0; left: 0; z-index: 1000;background: darkorange; color: white; padding: 0.5rem 2rem;font-weight: bold;font-size: 2rem;">
+            Preview mode
+        </div>
+    {% elsif content_for_header contains "Shopify.designMode" %}
+        <div class="" style="position: fixed; top: 0; left: 0; z-index: 1000;background: darkorange; color: white; padding: 0.5rem 2rem;font-weight: bold;font-size: 2rem;">
+            Customizer
+        </div>
+    {% else %}
+    {% endif %}
+
 <div class="sa-section-profile
             {{ section_classes }}">
     <div class="page-width">
