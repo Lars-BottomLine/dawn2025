@@ -533,6 +533,7 @@
         "headline": "Frequently asked questions",
         "heading_size": "medium",
         "accordion_width": "narrow",
+        "accordion_height": "small",
         "accordion_entries": "{{ product.metafields.custom.faq_accordion.value }}",
         "decal_top": true,
         "decal_bottom": true,
