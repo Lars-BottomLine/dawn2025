@@ -66,7 +66,12 @@
 {%- endstyle -%}
 
 {% liquid
-    # use_product_data
+    assign image = section.settings.image
+    assign use_product_data = false
+    if section.settings.use_product_data
+        assign use_product_data = true
+        assign image = product.metafields.custom.profile_image
+    endif
 %}
 
 <div class="sa-section-profile
@@ -91,12 +96,12 @@
 
         <div class="pro-wrapper pro-container">
 
-            {% if section.settings.image != blank %}
+            {% if image != blank %}
             <div class="pro-left">
                 <div class="pro-image">
-                    {{ section.settings.image
+                    {{ image
                         | image_url: width: 750
-                        | image_tag: alt: section.settings.image.alt }}
+                        | image_tag: alt: image.alt }}
                 </div>
             </div>
             {% endif %}
@@ -104,48 +109,25 @@
             <div class="pro-right">
                 <div class="">
 
-                {%- for block in section.blocks -%}
-                    {%- case block.type -%}
+                {% if use_product_data %}
 
-                        {% # BLOCK: TITLE %}
-                        {%- when 'title' -%}
-                            {% if block.settings.title != blank %}
-                            <div class="pro-title">
-                                {{ block.settings.title }}
-                            </div>
-                            {% endif %}
+                    {{ product.metafields.custom.profile_image }}
+                    {% for entry in product.metafields.custom.profile_info %}
+                        {{ entry }}
+                    {% endfor %}
 
-                        {% # BLOCK: TEXT %}
-                        {%- when 'text' -%}
-                            {% if block.settings.text != blank %}
-                                <div class="pro-text">
-                                    {{ block.settings.text }}
-                                </div>
-                            {% endif %}
-
-                        {% # BLOCK: SOCIAL %}
-                        {%- when 'social' -%}
-                            {% if block.settings.title != blank %}
-                                <div class="pro-social flex flex-column justify-start items-center gap-4">
-                                    {% if block.settings.image != blank %}
-                                    <div class="pro-social-image">
-                                        {{ block.settings.image | media_tag }}
-                                    </div>
-                                    {% endif %}
-                                    {% if block.settings.url != blank %}
-                                    <a href="{{ block.settings.url }}" target="_blank">
-                                        {{ block.settings.title }}
-                                    </a>
-                                    {% else %}
-                                    <span>
-                                        {{ block.settings.title }}
-                                    </span>
-                                    {% endif %}
-                                </div>
-                            {% endif %}
-
-                    {% endcase %}
-                {% endfor %}
+                {% else %}
+                    {%- for block in section.blocks -%}
+                        {% render 'le_profile-info',
+                            pi_type: block.type,
+                            pi_title: block.settings.title,
+                            pi_text: block.settings.text,
+                            pi_image: block.settings.image,
+                            pi_link_url: block.settings.url,
+                            pi_link_title: block.settings.title
+                        %}
+                    {% endfor %}
+                {% endif %}
 
                 </div>
             </div>
@@ -257,7 +239,7 @@
     {
       "type": "checkbox",
       "id": "use_product_data",
-      "label": "Use the product data (will ignore any row and image settings in this section)",
+      "label": "Use the product data (ignore any row/image settings in this section)",
       "default": false
     },
 

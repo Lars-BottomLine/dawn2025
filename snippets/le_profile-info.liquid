@@ -1,0 +1,55 @@
+{% comment %}
+  Renders an entry for the face2face section
+
+  Accepts:
+  - pi_type: { string }
+  - pi_title: { string }
+  - pi_text: { string }
+  - pi_image: { image }
+  - pi_link_title: { string }
+  - pi_link_url: { string
+
+  Usage:
+  {% render 'le_key-benefit', pi_type: "Hello", kb_text: "This is interesting', kb_image: kb_icon, kb_id: 'uaoue' %}
+{% endcomment %}
+
+{%- case pi_type -%}
+
+    {% # BLOCK: TITLE %}
+    {%- when 'title' -%}
+        {% if pi_title != blank %}
+            <div class="pro-title">
+                {{ pi_title }}
+            </div>
+        {% endif %}
+
+        {% # BLOCK: TEXT %}
+    {%- when 'text' -%}
+        {% if pi_text != blank %}
+            <div class="pro-text">
+                {{ pi_text }}
+            </div>
+        {% endif %}
+
+        {% # BLOCK: SOCIAL %}
+    {%- when 'social' -%}
+        {% if pi_link_title != blank %}
+            <div class="pro-social flex flex-column justify-start items-center gap-4">
+                {% if pi_image != blank %}
+                    <div class="pro-social-image">
+                        {{ pi_image | media_tag }}
+                    </div>
+                {% endif %}
+                {% if pi_link_url != blank %}
+                    <a href="{{ pi_link_url }}" target="_blank">
+                        {{ pi_link_title }}
+                    </a>
+                {% else %}
+                    <span>
+                        {{ pi_link_title }}
+                    </span>
+                {% endif %}
+            </div>
+        {% endif %}
+
+{% endcase %}
