@@ -1,6 +1,7 @@
 :root {
   --color-white: #FFFFFF;
   --color-primary: #00268B;
+  --color-primary-rgb: 0, 38, 139;
   --color-secondary: #39EAF6;
   --color-dark-blue: #000E33;
   --color-light-blue: #EBF1FF;
@@ -2329,6 +2330,58 @@ header .header__icon--cart .icon {
 }
 .sa-section-accordion .le-acc-entry.-open .le-acc-header svg {
   transform: rotate(180deg);
+}
+.sa-section-accordion.-acc-height-small .le-accordion.-haz-height-limit {
+  max-height: 42rem;
+}
+.sa-section-accordion.-acc-height-medium .le-accordion.-haz-height-limit {
+  max-height: 50rem;
+}
+.sa-section-accordion.-acc-height-large .le-accordion.-haz-height-limit {
+  max-height: 60rem;
+}
+.sa-section-accordion .le-accordion {
+  position: relative;
+  max-height: 200vh;
+  transition: max-height 450ms;
+}
+.sa-section-accordion .le-accordion.-haz-height-limit {
+  overflow: hidden;
+}
+.sa-section-accordion .le-accordion.-haz-height-limit:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 6rem;
+  background: linear-gradient(180deg, transparent 0%, rgba(var(--color-primary-rgb), 0.8) 75%, var(--color-primary) 96%);
+}
+.sa-section-accordion .le-accordion.-haz-height-limit .le-acc-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.sa-section-accordion .le-accordion.-haz-height-limit .le-acc-arrow:after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-right: 0.35rem solid var(--color-secondary);
+  border-bottom: 0.35rem solid var(--color-secondary);
+  transform: rotate(45deg);
+  margin-bottom: 1.25rem;
+  transition: transform 250ms;
+}
+.sa-section-accordion .le-accordion.-haz-height-limit .le-acc-arrow:hover:after {
+  transform: rotate(45deg) scale(1.25);
 }
 @media (max-width: 640px) {
   .sa-section-accordion .le-accordion {

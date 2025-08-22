@@ -74,7 +74,11 @@
             {% endif %}
 
             <div class="f2fe-text -e-text-{{ ff_text_size }}">
-                {{ ff_subheading }}
+                {% if ff_subheading.type != blank %}
+                    {{ ff_subheading | metafield_tag }}
+                {% else %}
+                    {{ ff_subheading }}
+                {% endif %}
             </div>
 
         </div>

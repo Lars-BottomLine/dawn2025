@@ -31,6 +31,10 @@
 
     assign section_classes = section_classes | append: ' -width-' | append: section.settings.accordion_width
 
+    assign iz_height_limit = false
+    if section.settings.accordion_height != 'none'
+        assign iz_height_limit = true
+    endif
 %}
 
 
@@ -64,19 +68,21 @@
 {% endjavascript %}
 
 
-<div class="sa-section-accordion -template-{{ section.settings.template_type }}
+<div class="sa-section-accordion section-{{ section.id }}
+            -template-{{ section.settings.template_type }}
             section-{{ section.id }}-padding section-{{ section.id }}-margin
+            -acc-height-{{ section.settings.accordion_height }}
             {{ section_classes }}">
     <div class="page-width -section-content {% if section.settings.accordion_width == 'narrow' %} -narrow-section {% endif %}">
         <div class="ac-content">
 
             {% if  section.settings.headline != blank %}
-            <h2 class="-no-indent -{{ section.settings.heading_size }}">
+            <h2 class="-no-indent -h-size-{{ section.settings.heading_size }}">
                 {{ section.settings.headline }}
             </h2>
             {% endif %}
 
-            <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %}">
+            <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %} {% if iz_height_limit %} -haz-height-limit {% endif %}">
 
                 {% # DYNAMIC METAOBJECT LIST GIVEN %}
                 {% if section.settings.accordion_entries != blank %}
@@ -98,11 +104,25 @@
                         %}
                     {% endfor %}
                 {% endif %}
+
+                {% if iz_height_limit %}
+                <div class="le-acc-arrow"></div>
+                {% endif %}
             </div>
 
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (document.querySelector('.section-{{ section.id }} .le-acc-arrow')) {
+            document.querySelector('.section-{{ section.id }} .le-acc-arrow').addEventListener('click', function () {
+                document.querySelector('.section-{{ section.id }} .le-accordion').classList.remove('-haz-height-limit');
+            })
+        }
+    });
+</script>
 
 
 {% schema %}
@@ -172,6 +192,30 @@
         ],
         "default": "narrow",
         "label": "Accordion width"
+      },
+      {
+        "type": "select",
+        "id": "accordion_height",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium",
+        "label": "Accordion height limit"
       },
 
 
