@@ -16,18 +16,24 @@
 {%- case pi_type -%}
 
     {% # BLOCK: TITLE %}
-    {%- when 'title' -%}
+    {%- when 'title' or 'text' or 'title_text' -%}
         {% if pi_title != blank %}
             <div class="pro-title">
-                {{ pi_title }}
+                {% if pi_title.type != blank %}
+                    {{ pi_title | metafield_tag }}
+                {% else %}
+                    {{ pi_title }}
+                {% endif %}
             </div>
         {% endif %}
 
-        {% # BLOCK: TEXT %}
-    {%- when 'text' -%}
         {% if pi_text != blank %}
             <div class="pro-text">
-                {{ pi_text }}
+                {% if pi_text.type != blank %}
+                    {{ pi_text | metafield_tag }}
+                {% else %}
+                    {{ pi_text }}
+                {% endif %}
             </div>
         {% endif %}
 

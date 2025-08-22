@@ -70,7 +70,9 @@
     assign use_product_data = false
     if section.settings.use_product_data
         assign use_product_data = true
-        assign image = product.metafields.custom.profile_image
+        if product.metafields.custom.profile_image
+            assign image = product.metafields.custom.profile_image
+        endif
     endif
 %}
 
@@ -111,9 +113,22 @@
 
                 {% if use_product_data %}
 
-                    {{ product.metafields.custom.profile_image }}
-                    {% for entry in product.metafields.custom.profile_info %}
-                        {{ entry }}
+                    {% for entry in product.metafields.custom.profile_info.value %}
+
+                        {% liquid
+                            assign block_type = 'title_text'
+                            if entry.link_url != blank or entry.link_label != blank or entry.icon
+                                assign block_type = 'social'
+                            endif
+                        %}
+                        {% render 'le_profile-info',
+                                pi_type: block_type,
+                                pi_title: entry.title,
+                                pi_text: entry.text,
+                                pi_image: entry.icon,
+                                pi_link_url: entry.link_url,
+                                pi_link_title: entry.link_label
+                        %}
                     {% endfor %}
 
                 {% else %}
