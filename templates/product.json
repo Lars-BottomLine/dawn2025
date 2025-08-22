@@ -416,6 +416,7 @@
         "heading_size": "normal",
         "no_decal": false,
         "section_bkgr": "light-blue",
+        "use_product_data": false,
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
