@@ -279,6 +279,7 @@
         "no_decal": false,
         "section_bkgr": "light-blue",
         "image": "shopify://shop_images/Julian_Berriman_Portrait_small_7f13f7ad-597f-4ca5-96ad-4450ce911ba3.webp",
+        "use_product_data": true,
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
