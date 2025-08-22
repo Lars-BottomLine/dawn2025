@@ -44,6 +44,21 @@
     # ---------------------------------
     assign section_classes = section_classes | append: section.settings.custom_class_names
 
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
 %}
 
 {%- style -%}
@@ -297,6 +312,17 @@
         }
       ],
       "default": "primary"
+    },
+
+    {
+      "type": "header",
+      "content": "t:settings_schema.le_basics.source.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_product_data",
+      "label": "t:settings_schema.le_basics.source.label",
+      "default": false
     },
 
     {

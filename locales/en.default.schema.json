@@ -3058,7 +3058,8 @@
     "le_basics": {
       "source": {
         "header": "Dynamic Data Source",
-        "info": "If a source is selected here, the template's rows / images won't be used."
+        "info": "If a source is selected here, the template's rows / images won't be used.",
+        "label": "Use the product data (ignore any row/image settings in this section)"
       }
     },
 
