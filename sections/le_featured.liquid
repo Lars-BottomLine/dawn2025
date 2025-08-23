@@ -1,5 +1,6 @@
 {%- liquid
 
+    # ---------------------------------
     # DECALS
     # ---------------------------------
     assign decal_top = false
@@ -16,8 +17,20 @@
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
 
-    assign section_classes = section_classes | append: ' -dcb-white -dct-white '
     # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' -dcb-white -dct-white '
 
     assign product = section.settings.product
     if product == null
@@ -33,7 +46,7 @@
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-                margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
         margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
     }
 
@@ -102,7 +115,6 @@
   <section class="sa-section-featuredproduct
                   {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}
                   -template-{{ section.settings.template_type }}
-                  section-{{ section.id }}-padding section-{{ section.id }}-margin
                   sa-col-primary
                   {{ section_classes }}">
     <div class="page-width {% if section.settings.secondary_background %} isolate{% endif %}">
@@ -1575,6 +1587,20 @@
       "default": false,
       "label": "t:sections.featured-product.settings.enable_video_looping.label"
     },
+
+
+
+      {
+        "type": "header",
+        "content": "Custom classes"
+      },
+      {
+        "type": "text",
+        "id": "custom_class_names",
+        "label": "t:settings_schema.custom_classes.settings.class_names.label",
+        "placeholder": ".test_class"
+      },
+
 
     {
       "type": "header",
