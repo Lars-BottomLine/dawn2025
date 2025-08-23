@@ -54,7 +54,7 @@
             "text": "Add to cart",
             "button_type": "left",
             "inverted": true,
-            "button_link": "",
+            "button_link": "#scroll-to_anchor-featured",
             "subtext": "<p>CIMSPA & Active IQ Accredited | 0% Interest Finance</p>"
           }
         }
@@ -485,7 +485,7 @@
         "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
-        "custom_class_names": ".anchor-featured",
+        "custom_class_names": "anchor-featured",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
