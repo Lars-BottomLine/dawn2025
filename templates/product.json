@@ -673,7 +673,7 @@
         "row_heading_YLkGNj": {
           "type": "row-heading",
           "settings": {
-            "text": "<p>Ready to transform<br/>your passion for fitness<br/><strong>into a rewarding career? </strong></p>",
+            "text": "{{ product.metafields.custom.bottom_section_title | metafield_tag }}",
             "heading_type": "h2",
             "heading_size": "normal"
           }
@@ -681,7 +681,7 @@
         "row2col_Mb3Tmc": {
           "type": "row2col",
           "settings": {
-            "text1": "<p>Don’t wait – take the first step toward becoming a qualified personal trainer.</p>",
+            "text1": "{{ product.metafields.custom.bottom_section_subtitle | metafield_tag }}",
             "text1_size": "medium-plus",
             "text2": "",
             "text2_size": "medium"
@@ -690,16 +690,7 @@
         "row2col_HCm8Nk": {
           "type": "row2col",
           "settings": {
-            "text1": "<p>Enroll now to secure your spot in the Pro PT: CIMSPA Level 3 Diploma in Gym Instructing & Personal Training and start your journey!</p>",
-            "text1_size": "small",
-            "text2": "",
-            "text2_size": "medium"
-          }
-        },
-        "row2col_UaqpLq": {
-          "type": "row2col",
-          "settings": {
-            "text1": "<p>Still have questions or need more info? <a href=\"https://bottomline.agency\" target=\"_blank\" title=\"https://bottomline.agency\">Request a Free Course Brochure</a> and one of our career advisors will be in touch.</p>",
+            "text1": "<p></p>{{ product.metafields.custom.bottom_section_text | metafield_tag }}",
             "text1_size": "small",
             "text2": "",
             "text2_size": "medium"
@@ -711,7 +702,7 @@
             "text": "Add to cart",
             "button_type": "left",
             "inverted": true,
-            "button_link": "",
+            "button_link": "#scroll-to-anchor-featured",
             "subtext": ""
           }
         }
@@ -720,7 +711,6 @@
         "row_heading_YLkGNj",
         "row2col_Mb3Tmc",
         "row2col_HCm8Nk",
-        "row2col_UaqpLq",
         "row_button_R6e6B9"
       ],
       "name": "t:sections.le_tab.presets.name",
