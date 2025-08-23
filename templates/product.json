@@ -705,7 +705,7 @@
             "text": "Add to cart",
             "button_type": "left",
             "inverted": true,
-            "button_link": "#scroll-to-anchor-featured",
+            "button_link": "#scroll-to_anchor-featured",
             "subtext": ""
           }
         }
