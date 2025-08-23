@@ -1,5 +1,6 @@
 {%- liquid
 
+    # ---------------------------------
     # DECALS
     # ---------------------------------
     assign decal_top = false
@@ -15,11 +16,54 @@
         assign decal_bottom = true
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
-    # ---------------------------------
 
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
     if section.settings.stretch_image
         assign section_classes = section_classes | append: ' -stretch-bkgr '
     endif
+
 %}
 
 {%- style -%}
@@ -45,9 +89,7 @@
 {%- endstyle -%}
 
 <div class="sa-section-textcolsandbkgr
-            section-{{ section.id }}-padding section-{{ section.id }}-margin
             {{ section_classes }}
-            sa-bg-primary
 ">
 
     {% # BACKGROUND: IMAGE
@@ -167,6 +209,11 @@
   },
 
   "settings": [
+
+    {
+      "type": "header",
+      "content": "Background"
+    },
     {
       "type": "image_picker",
       "id": "image",
@@ -178,6 +225,38 @@
       "id": "stretch_image",
       "label": "Stretch background image to full width",
       "default": true
+    },
+
+    {
+      "type": "select",
+      "id": "section_bkgr",
+      "label": "Background Color",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "primary"
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
     },
 
     {
