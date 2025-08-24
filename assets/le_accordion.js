@@ -1,6 +1,10 @@
 /**
  * (P) 2019-2025 Lars Ermert
- *
+ * v2.3.1 - 25.08.24:
+ *    - added events when opening and closing an entry
+ *    - added a wrapper class for all the entries
+ * v2.2 - 25.07.23:
+ *    - minor tweaks, documentation
  * v2.1 - 25.06.27:
  *    - cleaner debug output
  *    - more descriptive variables
@@ -10,17 +14,19 @@
  *    HTML Structure:
  *    --------------------
  *    <div class="le-accordion">
+ *      <div class="le-acc-entries">
  *
- *      <div class="le-acc-entry -with-arrow">
- *        <div class="le-acc-header">TITLE 1</div>
- *        <div class="le-acc-content">CONTENT 1</div>
+ *        <div class="le-acc-entry -with-arrow">
+ *          <div class="le-acc-header">TITLE 1</div>
+ *          <div class="le-acc-content">CONTENT 1</div>
+ *        </div>
+ *
+ *        <div class="le-acc-entry -with-arrow">
+ *          <div class="le-acc-header">TITLE 2</div>
+ *          <div class="le-acc-content">CONTENT 2</div>
+ *        </div>
+ *
  *      </div>
- *
- *      <div class="le-acc-entry -with-arrow">
- *        <div class="le-acc-header">TITLE 2</div>
- *        <div class="le-acc-content">CONTENT 2</div>
- *      </div>
- *
  *    </div>
  */
 
@@ -52,6 +58,7 @@ class LeAccordion {
         }
 
         this.options.selector = {
+            wrapper_class: '.' + this.options.wrapper_class,
             entry_class: '.' + this.options.entry_class,
             header_class: '.' + this.options.header_class,
             header: '.'+this.options.wrapper_class+' .'+this.options.header_class
@@ -99,15 +106,28 @@ class LeAccordion {
                 if (!izOpen) {
                     parent_ele.classList.add('-open');
                     target_ele.classList.add('_primary-bkgr');
+                    this.emitEvent(target_ele, 'accordion-entry-open');
                 } else {
                     parent_ele.classList.remove('-open');
                     target_ele.classList.remove('_primary-bkgr');
+                    this.emitEvent(target_ele, 'accordion-entry-close');
                 }
 
 // apply the changes
                 this._setMaxHeight();
             });
         });
+    }
+
+    emitEvent(element, event_type) {
+        if (element === null) {
+            console.log('LeAccordion > emitEvent: element is null');
+            return;
+        }
+        const accordion_ele = element.closest('.'+this.options.wrapper_class);
+        if (accordion_ele) {
+            accordion_ele.dispatchEvent(new CustomEvent(event_type,{ detail: {target_entry: element }}));
+        }
     }
 
     init() {
@@ -128,6 +148,14 @@ class LeAccordion {
 
         this._setMaxHeight();
 
+
+        const accordion_ele = document.querySelector( this.options.selector.wrapper_class );
+         if (accordion_ele) {
+             this.emitEvent( accordion_ele, 'accordion-initialized' );
+             setTimeout(() => {
+                 accordion_ele.classList.add('-initialized');
+             }, 250)
+         }
     }
 
 

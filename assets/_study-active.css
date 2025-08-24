@@ -2343,6 +2343,8 @@ header .header__icon--cart .icon {
 .sa-section-accordion .le-accordion {
   position: relative;
   max-height: 200vh;
+}
+.sa-section-accordion .le-accordion.-initialized {
   transition: max-height 450ms;
 }
 .sa-section-accordion .le-accordion.-haz-height-limit {
