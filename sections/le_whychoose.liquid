@@ -114,7 +114,7 @@
             {% if section.settings.key_benefits != blank %}
 
                 {%- for entry in section.settings.key_benefits -%}
-                    {% render 'le_key-benefit',
+                    {% render 'le_whychoose-entry',
                         kb_id: section_id,
                         kb_title: entry.title,
                         kb_forloop_first: forloop.first,
@@ -131,7 +131,7 @@
             {% else %}
 
                 {%- for block in section.blocks -%}
-                    {% render 'le_key-benefit',
+                    {% render 'le_whychoose-entry',
                             kb_id: section_id,
                             kb_title: block.settings.heading,
                             kb_forloop_first: forloop.first,
