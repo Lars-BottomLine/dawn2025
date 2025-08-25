@@ -130,12 +130,7 @@
                     var link = links[i];
                     link.addEventListener('click', function (e) {
                         e.preventDefault();
-                        var target = document.querySelector('.' + this.getAttribute('data-target'));
-                        if (target) {
-                            target.scrollIntoView({
-                                behavior: 'smooth'
-                            })
-                        }
+                        scrollToTargetAdjusted( document.querySelector('.' + this.getAttribute('data-target')) );
                     })
                 }
             }

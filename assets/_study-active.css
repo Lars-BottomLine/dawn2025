@@ -2401,7 +2401,6 @@ header .header__icon--cart .icon {
 }
 
 .sa-section-image-slider .swiper-container {
-  width: 100%;
   height: auto;
 }
 .sa-section-image-slider .slideshow__image {
@@ -3288,10 +3287,10 @@ header .header__icon--cart .icon {
 }
 .sa-section-testimonials .tm-testimonial {
   display: flex;
-  margin-top: 6rem;
+  margin-top: 0;
   margin-bottom: 4rem;
   margin-right: 0.5rem;
-  height: calc(100% - 10rem);
+  height: calc(100% - 4rem);
 }
 .sa-section-testimonials .tm-testimonial .tm-bubble {
   display: flex;

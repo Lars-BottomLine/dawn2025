@@ -175,7 +175,7 @@
                             </div>
                           {% else %}
                           <div class="sa-button-wrapper -button-type-{{ block.settings.button_type }}">
-                            <a class="sa-button -medium -hover-grow
+                            <a class="sa-button -medium -hover-grow _sa-internal-link
                                       {% if block.settings.inverted %} -invert {% endif %}" href="{{ block.settings.button_link }}">
                               <span>{{ block.settings.text }}</span>
                             </a>
@@ -198,49 +198,6 @@
     </div>
 
 </div>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const buttons = document.querySelectorAll('.sa-section-{{ section.id }} .-type-row-button .sa-button');
-        if (buttons.length > 0) {
-            buttons.forEach(button => {
-                button.addEventListener('click', function (e) {
-                    const scroll_to = getScrollToClass(button);
-                    if (scroll_to !== false) {
-                        e.preventDefault();
-                        scrollToTargetAdjusted( document.querySelector('.' + scroll_to), 50 );
-                    }
-                });
-            })
-        }
-    });
-
-    if (!(typeof window.getScrollToClass === "function")) {
-
-        function getScrollToClass(ele) {
-            const link = ele.getAttribute('href');
-            const hashlink = link.replace(/.*#/, '').replace('scroll-to_', '');
-            if (hashlink === '') {
-                return false;
-            }
-            return hashlink;
-        }
-    }
-
-    if (!(typeof window.scrollToTargetAdjusted === "function")) {
-        function scrollToTargetAdjusted( element, headerOffset ){
-            var elementPosition = element.getBoundingClientRect().top;
-            var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: "smooth"
-            });
-        }
-
-    }
-
-</script>
 
 {% schema %}
 {

@@ -150,9 +150,11 @@
     // remove the open button if accordion content is not taller than the limit
     document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-initialized', function (e) {
         setTimeout( () => {
+            const security_margin = 10;
             const accordion = e.detail.target_entry;
             const entries_wrapper = accordion.querySelector('.le-acc-entries');
-            if (accordion.offsetHeight < entries_wrapper.clientHeight) {
+            // console.log('ACCORDION: INITIALIZED', accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
+            if (accordion.offsetHeight >= ( entries_wrapper.clientHeight - security_margin) ) {
                 openAccordion( accordion );
             }
         }, 500);
