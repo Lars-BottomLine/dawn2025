@@ -338,7 +338,7 @@
         "section_bkgr": "primary",
         "headline": "<p>Learning Experience </p>",
         "heading_type": "h2",
-        "heading_size": "normal-bold",
+        "heading_size": "large",
         "no_decal": false,
         "subheadline": "",
         "suitability_prerequisites": "{{ product.metafields.custom.learning_experience.value }}",
