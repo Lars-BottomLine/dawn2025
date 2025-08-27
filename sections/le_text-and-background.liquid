@@ -64,7 +64,8 @@
         assign section_classes = section_classes | append: ' -stretch-bkgr '
     endif
 
-    assign section_classes = section_classes | append: ' -mobile-view-' | append: section.settings.mobile_view
+    assign section_classes = section_classes | append: ' -mobile-text-' | append: section.settings.mobile_text
+    assign section_classes = section_classes | append: ' -mobile-image-' | append: section.settings.mobile_image
 
 %}
 
@@ -250,11 +251,31 @@
       "default": "primary"
     },
 
+    {
+      "type": "header",
+      "content": "Mobile View"
+    },
+    {
+      "type": "select",
+      "id": "mobile_image",
+      "label": "Mobile Image",
+      "options": [
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
 
     {
       "type": "select",
-      "id": "mobile_view",
-      "label": "Mobile View",
+      "id": "mobile_text",
+      "label": "Mobile Text",
       "options": [
         {
           "value": "default",

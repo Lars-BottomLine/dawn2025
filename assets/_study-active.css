@@ -2819,10 +2819,12 @@ header .header__icon--cart .icon {
   .sa-section-textcolsandbkgr .tab-shadow {
     display: none;
   }
-  .sa-section-textcolsandbkgr.-mobile-view-smalltext .-h-text {
+  .sa-section-textcolsandbkgr.-mobile-view-smalltext .-h-text,
+  .sa-section-textcolsandbkgr.-mobile-view-smalltext .-h-text p {
     font-size: 2.8rem !important;
   }
-  .sa-section-textcolsandbkgr.-mobile-view-smalltext .-e-text {
+  .sa-section-textcolsandbkgr.-mobile-view-smalltext .-e-text,
+  .sa-section-textcolsandbkgr.-mobile-view-smalltext .-e-text p {
     font-size: 1.8rem !important;
   }
 }
