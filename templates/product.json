@@ -693,7 +693,7 @@
         "row2col_HCm8Nk": {
           "type": "row2col",
           "settings": {
-            "text1": "<p></p>{{ product.metafields.custom.bottom_section_text | metafield_tag }}",
+            "text1": "{{ product.metafields.custom.bottom_section_text | metafield_tag }}",
             "text1_size": "small",
             "text2": "",
             "text2_size": "medium"
