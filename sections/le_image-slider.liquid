@@ -52,54 +52,55 @@
         <div id="swiper-{{ section.id }}" class="swiper sa-slider">
             <div class="swiper-wrapper">
 
+                {% for i in (1..2) %}
                 {%- for block in section.blocks -%}
+                    {% assign offset = i | times: forloop.length %}
 
-                    <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                         class="swiper-slide medi"
+                    <div id="Slide-{{ section.id }}-{{ forloop.index | plus: i }}"
+                         class="swiper-slide"
                          role="group"
                          aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
                          aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
                          tabindex="-1" >
 
-                        <div class="slideshow__image baner__media mda flex inline-flex">
-                            {%- if block.settings.image -%}
+                        {%- if block.settings.image -%}
 
-                                {%- liquid
-                                    assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                            {%- liquid
+                                assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
 
-                                    assign sizes = '100vw'
-                                    assign widths = '375, 550, 750'
+                                assign sizes = '100vw'
+                                assign widths = '375, 550, 750'
 
-                                    assign fetch_priority = 'auto'
-                                    if section.index == 1
-                                        assign fetch_priority = 'high'
-                                    endif
-                                -%}
-                                {%- if forloop.first %}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 800
-                                    | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                    }}
-                                {%- else -%}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 800
-                                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                    }}
-                                {%- endif -%}
+                                assign fetch_priority = 'auto'
+                                if section.index == 1
+                                    assign fetch_priority = 'high'
+                                endif
+                            -%}
+                            {%- if forloop.first %}
+                                {{
+                                block.settings.image
+                                | image_url: width: 800
+                                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                }}
                             {%- else -%}
-                                {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-                                {%- if placeholder_slide == 1 -%}
-                                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-                                {%- else -%}
-                                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                                {%- endif -%}
+                                {{
+                                block.settings.image
+                                | image_url: width: 800
+                                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                                }}
                             {%- endif -%}
-                        </div>
+                        {%- else -%}
+                            {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                            {%- if placeholder_slide == 1 -%}
+                                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- else -%}
+                                {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- endif -%}
+                        {%- endif -%}
 
                     </div>
 
+                {% endfor %}
                 {% endfor %}
 
             </div>
@@ -107,34 +108,52 @@
         </div>
 
         <script>
-            var swiper = new Swiper("#swiper-{{ section.id }}", {
-                speed: 10000,
-                direction: "horizontal",
-                loop: true,
-                slidesPerView: 'auto',
-                freeMode: true,
-                zoom: false,
-                keyboard: true,
-                pagination: false,
-                navigation: false,
-                spaceBetween: 50,
+            document.addEventListener("DOMContentLoaded", function () {
+                var swiper = new Swiper("#swiper-{{ section.id }}", {
+                    direction: 'horizontal',
+                    loop: true,
+                    slidesPerView: 'auto',
 
-                autoplay: {
-                    delay: 0
-                },
+                    speed: 2000,
+                    autoplay: {
+                        delay: 0
+                    },
+                    spaceBetween: 42,
 
-                // breakpoints: {
-                //     765: {
-                //         slidesPerView: 1
-                //     },
-                //     1000: {
-                //         slidesPerView: 3
-                //     },
-                //     1200: {
-                //         slidesPerView: 4
-                //     }
-                // },
+                    // speed: 1000,
+                    // direction: "horizontal",
+                    //
+                    // loop: true,
+                    //
+                    // slidesPerView: 'auto',
+                    //
+                    // freeMode: true,
+                    //
+                    // zoom: false,
+                    // keyboard: false,
+                    // pagination: false,
+                    // navigation: false,
+                    //
+                    // spaceBetween: 42,
+                    //
+                    // autoplay: {
+                    //     delay: 0
+                    // },
 
+
+                    // breakpoints: {
+                    //     765: {
+                    //         slidesPerView: 1
+                    //     },
+                    //     1000: {
+                    //         slidesPerView: 3
+                    //     },
+                    //     1200: {
+                    //         slidesPerView: 4
+                    //     }
+                    // },
+
+                });
             });
 
             // TODO: start on resize if not enough space to show all items
@@ -142,6 +161,7 @@
         </script>
 
     </div>
+
 </div>
 
 

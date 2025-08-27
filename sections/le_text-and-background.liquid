@@ -64,6 +64,8 @@
         assign section_classes = section_classes | append: ' -stretch-bkgr '
     endif
 
+    assign section_classes = section_classes | append: ' -mobile-view-' | append: section.settings.mobile_view
+
 %}
 
 {%- style -%}
@@ -140,20 +142,20 @@
                       {% # ROW: HEADING %}
                       {%- when 'row-heading' -%}
                         {% if block.settings.text %}
-                        <{{ block.settings.heading_type }} class="-no-decal -h-text-{{ block.settings.heading_size }}">{{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</{{ block.settings.heading_type }}>
+                        <{{ block.settings.heading_type }} class="-no-decal -h-text -h-text-{{ block.settings.heading_size }}">{{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</{{ block.settings.heading_type }}>
                         {% endif %}
 
                       {% # ROW: 2 COLUMNS %}
                       {%- when 'row2col' -%}
 
                         {% if block.settings.text1 %}
-                          <div class="tab-col tab-col--left -text-size-{{ block.settings.text1_size }}">
+                          <div class="tab-col tab-col--left -e-text -text-size-{{ block.settings.text1_size }} {% if block.settings.text1 == blank %} -blank {% endif %}">
                               {{ block.settings.text1 }}
                           </div>
                         {% endif %}
 
                         {% if block.settings.text2 %}
-                          <div class="tab-col tab-col--right -text-size-{{ block.settings.text2_size }}">
+                          <div class="tab-col tab-col--right -e-text -text-size-{{ block.settings.text2_size }} {% if block.settings.text2 == blank %} -blank {% endif %}">
                             {{ block.settings.text2 }}
                           </div>
                         {% endif %}
@@ -246,6 +248,24 @@
         }
       ],
       "default": "primary"
+    },
+
+
+    {
+      "type": "select",
+      "id": "mobile_view",
+      "label": "Mobile View",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "smalltext",
+          "label": "Smaller Text"
+        }
+      ],
+      "default": "default"
     },
 
     {
