@@ -12,17 +12,23 @@
     "global": {
 
       "heading": {
-        "text": {
-          "label": "Text"
-        },
-        "type": {
-          "label": "Tag Type"
-        },
-        "size": {
-          "label": "Font Size"
-        },
-        "no_decal": {
-          "label": "No decal"
+        "text": "Text",
+        "type": "Tag Type",
+        "size": "Font Size",
+        "no_decal": "No decal",
+        "icon": "Icon",
+      },
+
+      "button": {
+        "header": "Button",
+        "text": "text",
+        "url": "url",
+        "icon": "icon",
+        "style": {
+          "label": "Style",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "plain": "Plain"
         }
       },
 
@@ -59,6 +65,19 @@
 
     }
   },
+
+  "lesections": {
+    "hero": {
+      "name": "Hero",
+      "blocks": {
+        "slide": {
+          "name": "Slider",
+          "image": "Image"
+        }
+      }
+    }
+  },
+
   "settings_schema": {
     "global": {
       "settings": {

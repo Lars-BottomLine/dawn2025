@@ -3337,12 +3337,12 @@ h3:before,
 .sa-section-callout h2:before {
   content: "";
   display: block;
-  background-size: contain;
   background: url("sa-decal.svg") no-repeat center;
+  background-size: contain;
   width: 3.8rem;
   height: 8rem;
   position: absolute;
-  top: -8rem;
+  top: -9.6rem;
   left: 0;
 }
 
@@ -3527,6 +3527,10 @@ h3,
 .caption-with-letter-spacing {
   font-size: 1.4rem;
   letter-spacing: 0;
+}
+
+.sa-section-textcolsandbkgr .tab-shadow:after {
+  background: radial-gradient(103.21% 106.11% at 50% 12.43%, rgba(0, 38, 139, 0.16) 0%, rgba(0, 38, 139, 0.8) 100%), linear-gradient(180deg, rgba(0, 38, 139, 0.1) 46.5%, rgba(0, 14, 51, 0.5) 84.11%), rgba(211, 211, 211, 0) 50%/cover no-repeat !important;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
