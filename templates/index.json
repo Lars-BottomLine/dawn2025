@@ -26,8 +26,7 @@
             "text_strong_accented": false,
             "button_text": "Click me!",
             "button_url": "https://bottomline.agency",
-            "button_style": "secondary",
-            "button_icon": "shopify://shop_images/Study_Active_Icons_3.png",
+            "button_style": "plain",
             "button_size": "medium"
           }
         },
