@@ -3415,6 +3415,11 @@ h3,
   }
 }
 
+.-strong-accented b,
+.-strong-accented strong {
+  color: var(--color-secondary);
+}
+
 .caption-with-letter-spacing {
   font-size: 1.4rem;
   letter-spacing: 0;
@@ -3577,9 +3582,10 @@ h3,
 }
 .v2-section-hero .slide-foreground .slide-content {
   padding-bottom: 4rem;
+  gap: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  align-items: self-start;
 }
 
 /*# sourceMappingURL=_study-active.css.map */

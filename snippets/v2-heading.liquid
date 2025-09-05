@@ -17,18 +17,26 @@
 
 {% liquid
     assign classes_str = ''
+    # custom classes
     if classes != blank
         assign classes_str = classes_str | append: classes | append: ' '
     endif
-    if heading_strong_accented
+    # accented color for strong
+    if data.heading_strong_accented
         assign classes_str = classes_str | append: ' -strong-accented '
     endif
+    # no decals
+    if data.heading_no_decal
+        assign classes_str = classes_str | append: ' -no-decal '
+    endif
+    # font-size
+    assign classes_str = classes_str | append: ' _font-' | append: data.heading_size
 
 %}
 {% # todo: check icon size %}
 
 {% if data.heading_text != blank %}
-<{{ data.heading_type }} class="v2-heading {% if data.heading_no_decal %} -no-decal {% endif %} _font-{{ data.heading_size }}">
+<{{ data.heading_type }} class="v2-heading {{ classes_str }}">
 
     {%- if data.heading_icon -%}
         <div class="v2-heading-icon">

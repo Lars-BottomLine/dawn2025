@@ -1,0 +1,38 @@
+{% comment %}
+  Renders a text with all the default configuration options we use
+
+  Accepts:
+  - data: {
+            text: { string }
+            text_size: { string }
+            text_strong_accent: { bool }
+  }
+  - classes: { string }
+
+  Usage:
+  {% render 'v2-text', data: data %}
+{% endcomment %}
+
+{% liquid
+    assign classes_str = ''
+    # custom classes
+    if classes != blank
+        assign classes_str = classes_str | append: classes | append: ' '
+    endif
+    # accented color for strong
+    if data.text_strong_accented
+        assign classes_str = classes_str | append: ' -strong-accented '
+    endif
+    # font-size
+    assign classes_str = classes_str | append: ' _font-' | append: data.text_size
+
+%}
+{% # todo: check icon size %}
+
+{% if data.text != blank %}
+    <div class="v2-text {{ classes_str }}">
+
+    {{ data.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+
+    </div>
+{% endif %}
