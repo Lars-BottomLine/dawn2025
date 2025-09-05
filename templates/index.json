@@ -29,11 +29,11 @@
         "slide_zLMkrC": {
           "type": "slide",
           "settings": {
-            "heading_text": "<p>Title</p>",
+            "heading_text": "",
             "heading_type": "h1",
             "heading_size": "medium",
             "heading_no_decal": false,
-            "text": "<p>Text</p>",
+            "text": "",
             "button_text": "",
             "button_url": "",
             "button_style": "primary"
