@@ -12,7 +12,8 @@
     "global": {
 
       "heading": {
-        "text": "Text",
+        "header": "Heading",
+        "text": "Content",
         "type": "Tag Type",
         "size": "Font Size",
         "no_decal": "No decal",
@@ -24,7 +25,8 @@
       },
 
       "text": {
-        "label": "Text",
+        "header": "Text",
+        "label": "Content",
         "size": "Size",
         "strong_accented": {
           "label": "Strong color different",
@@ -34,7 +36,7 @@
 
       "button": {
         "header": "Button",
-        "text": "text",
+        "text": "Label",
         "url": "url",
         "icon": "icon",
         "style": {
