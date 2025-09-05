@@ -62,17 +62,25 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        <{{ section.settings.heading_type }} class=" {% if section.settings.heading_no_decal %} -no-decal {% endif %} -h-size-{{ section.settings.heading_size }}">
-            {%- if section.settings.heading_icon -%}
-                <div class="f2f-heading-image">
-                    {{ section.settings.heading_icon
-                    | image_url: width: 44
-                    | image_tag: alt: section.settings.heading_icon.alt
-                    }}
-                </div>
-            {%- endif -%}
-            {{ section.settings.heading_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-        </{{ section.settings.heading_type }}>
+        {%- for block in section.blocks -%}
+
+            <div class="p-8 sa-bg-primary sa-col-white m-8 mt-40">
+
+                <{{ block.settings.heading_type }} class=" {% if block.settings.heading_no_decal %} -no-decal {% endif %} _font-{{ block.settings.heading_size }}">
+                    {%- if block.settings.heading_icon -%}
+                        <div class="f2f-heading-image">
+                            {{ block.settings.heading_icon
+                            | image_url: width: 44
+                            | image_tag: alt: block.settings.heading_icon.alt
+                            }}
+                        </div>
+                    {%- endif -%}
+                    {{ block.settings.heading_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </{{ block.settings.heading_type }}>
+
+            </div>
+
+        {%- endfor -%}
 
     </div>
 </div>
@@ -137,7 +145,7 @@
       "max": 200,
       "step": 4,
       "unit": "px",
-      "label": "t:lebase.global.margin.top",
+      "label": "t:lebase.global.margin.label_top",
       "default": 0
     },
     {
@@ -147,7 +155,7 @@
       "max": 200,
       "step": 4,
       "unit": "px",
-      "label": "t:lebase.global.margin.bottom",
+      "label": "t:lebase.global.margin.label_bottom",
       "default": 0
     }
 
@@ -171,13 +179,12 @@
         {
             "type": "text",
             "id": "heading_text",
-            "default": "<p>Title</p>",
-            "label": "t:lebase.global.heading.text.label"
+            "label": "t:lebase.global.heading.text"
         },
         {
             "type": "select",
             "id": "heading_type",
-            "label": "t:lebase.global.heading.type.label",
+            "label": "t:lebase.global.heading.type",
             "default": "h1",
             "options": [
                 {
@@ -201,35 +208,34 @@
         {
             "type": "select",
             "id": "heading_size",
-            "default": "medium",
-            "label": "t:lebase.global.heading.size.label",
+            "default": "h1",
+            "label": "t:lebase.global.heading.size",
             "options": [
-                {
-                "value": "small",
-                "label": "Small"
-                },
-                {
-                "value": "medium",
-                "label": "Medium"
-                },
-                {
-                "value": "large",
-                "label": "Large"
-                }
+                {"value": "inherit", "label": "Inherit"},
+                {"value": "hero", "label": "Hero"},
+                {"value": "h1", "label": "H1"},
+                {"value": "h2", "label": "H2"},
+                {"value": "h3", "label": "H3"},
+                {"value": "copy-xl", "label": "Copy XL"},
+                {"value": "copy-l", "label": "Copy L"},
+                {"value": "copy-m", "label": "Copy M"}
             ]
         },
         {
             "type": "checkbox",
             "id": "heading_no_decal",
             "default": false,
-            "label": "t:lebase.global.heading.no_decal.label"
+            "label": "t:lebase.global.heading.no_decal"
         },
 
 
         {
+          "type": "header",
+          "content": "Text"
+        },
+        {
           "type": "richtext",
           "id": "text",
-          "default": "<p>Text</p>",
           "label": "Text"
         },
 

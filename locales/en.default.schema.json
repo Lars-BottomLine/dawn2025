@@ -70,7 +70,7 @@
     "hero": {
       "name": "v2 - Hero",
       "presets": {
-        "name": "Hero"
+        "name": "v2 - Hero"
       },
       "blocks": {
         "slide": {
