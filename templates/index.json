@@ -54,6 +54,47 @@
         "margin_bottom": 0
       }
     },
+    "le_text_and_background_gtyQwb": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_c4UhwE": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>Quick links</p>",
+            "heading_type": "h2",
+            "heading_size": "large"
+          }
+        },
+        "row2col_y7Rqn7": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>ouoaeuu</p>",
+            "text1_size": "medium",
+            "text2": "<p>eueoaueu</p>",
+            "text2_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_c4UhwE",
+        "row2col_y7Rqn7"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/gym_workout.webp",
+        "stretch_image": true,
+        "section_bkgr": "primary",
+        "mobile_image": "medium",
+        "mobile_text": "default",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_swiper_cEfnwi": {
       "type": "le_swiper",
       "blocks": {
@@ -920,6 +961,7 @@
   },
   "order": [
     "v2_hero_jk6W8B",
+    "le_text_and_background_gtyQwb",
     "le_swiper_cEfnwi",
     "image_with_text_frcJE8",
     "le_swiper_wanmRJ",
