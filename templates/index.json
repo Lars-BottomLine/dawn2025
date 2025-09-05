@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/personal_trainer_interview.webp",
-            "heading_text": "Title",
+            "heading_text": "<p>Your Hub for <br/><strong>Learning, Support, <br/>and Career Growth</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
