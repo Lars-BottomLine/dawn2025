@@ -1,0 +1,296 @@
+{% # TODO: only load js when we have slides %}
+{{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
+
+{%- liquid
+
+    assign section_classes = ''
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+
+<div class="v2-section-hero
+            {{ section_classes }}">
+    <div class="page-width">
+
+        <{{ section.settings.heading_type }} class=" {% if section.settings.heading_no_decal %} -no-decal {% endif %} -h-size-{{ section.settings.heading_size }}">
+            {%- if section.settings.heading_icon -%}
+                <div class="f2f-heading-image">
+                    {{ section.settings.heading_icon
+                    | image_url: width: 44
+                    | image_tag: alt: section.settings.heading_icon.alt
+                    }}
+                </div>
+            {%- endif -%}
+            {{ section.settings.heading_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+        </{{ section.settings.heading_type }}>
+
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "t:lesections.hero.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.custom_classes.header"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:lebase.global.custom_classes.label",
+      "placeholder": ".test_class"
+    },
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.padding.header"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.padding.label_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.padding.label_bottom",
+      "default": 40
+    },
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.margin.header"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.margin.top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.margin.bottom",
+      "default": 0
+    }
+
+  ],
+
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "limit": 37,
+      "settings": [
+
+
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+
+
+        {
+            "type": "text",
+            "id": "heading_text",
+            "default": "<p>Title</p>",
+            "label": "t:lebase.global.heading.text.label"
+        },
+        {
+            "type": "select",
+            "id": "heading_type",
+            "label": "t:lebase.global.heading.type.label",
+            "default": "h1",
+            "options": [
+                {
+                    "value": "h1",
+                    "label": "H1"
+                },
+                {
+                    "value": "h2",
+                    "label": "H2"
+                },
+                {
+                    "value": "h3",
+                    "label": "H3"
+                },
+                {
+                    "value": "div",
+                    "label": "DIV"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "heading_size",
+            "default": "medium",
+            "label": "t:lebase.global.heading.size.label",
+            "options": [
+                {
+                "value": "small",
+                "label": "Small"
+                },
+                {
+                "value": "medium",
+                "label": "Medium"
+                },
+                {
+                "value": "large",
+                "label": "Large"
+                }
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "heading_no_decal",
+            "default": false,
+            "label": "t:lebase.global.heading.no_decal.label"
+        },
+
+
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Text</p>",
+          "label": "Text"
+        },
+
+
+        {
+          "type": "header",
+          "content": "t:lebase.global.button.header"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "t:lebase.global.button.text"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "t:lebase.global.button.url"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "default": "primary",
+          "label": "t:lebase.global.button.style.label",
+          "options": [
+            {
+              "value": "primary",
+              "label": "t:lebase.global.button.style.primary"
+            },
+            {
+              "value": "secondary",
+              "label": "t:lebase.global.button.style.secondary"
+            },
+            {
+              "value": "plain",
+              "label": "t:lebase.global.button.style.plain"
+            }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "button_icon",
+          "label": "t:lebase.global.button.icon"
+        }
+
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "t:lesections.hero.name",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+
+}
+{% endschema %}
