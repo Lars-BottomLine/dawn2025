@@ -1,0 +1,45 @@
+{% comment %}
+  Renders a heading with all the default configuration options we use
+
+  Accepts:
+  - data: {
+            heading_type: { string }
+            heading_no_decal: { bool }
+            heading_icon: { image }
+            heading_text: { string }
+  }
+  - classes: { string }
+  - icon_size: { number }
+
+  Usage:
+  {% render 'v2-heading', data: data %}
+{% endcomment %}
+
+{% liquid
+    assign classes_str = ''
+    if classes != blank
+        assign classes_str = classes_str | append: classes | append: ' '
+    endif
+    if heading_strong_accented
+        assign classes_str = classes_str | append: ' -strong-accented '
+    endif
+
+%}
+{% # todo: check icon size %}
+
+{% if data.heading_text != blank %}
+<{{ data.heading_type }} class="v2-heading {% if data.heading_no_decal %} -no-decal {% endif %} _font-{{ data.heading_size }}">
+
+    {%- if data.heading_icon -%}
+        <div class="v2-heading-icon">
+            {{ data.heading_icon
+            | image_url: width: 44
+            | image_tag: alt: data.heading_icon.alt
+            }}
+        </div>
+    {%- endif -%}
+
+    {{ data.heading_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+
+</{{ data.heading_type }}>
+{% endif %}

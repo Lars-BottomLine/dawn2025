@@ -10,7 +10,7 @@
     # PADDING + MARGIN
     # ---------------------------------
     assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
-    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+    #assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
 
     # ---------------------------------
     # CUSTOM CLASSES
@@ -33,6 +33,12 @@
         assign mode_customizer = true
     endif
 
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    if section.settings.full_width
+        assign section_classes = section_classes | append: ' -full-width '
+    endif
 %}
 
 {%- style -%}
@@ -48,7 +54,8 @@
     @media screen and (min-width: 750px) {
         .section-{{ section.id }}-padding {
             padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
+            {% # SPECIAL: for this section we add an extra 130px because the design wants it (lets see if it holds) %}
+            padding-bottom: {{ section.settings.padding_bottom | plus: 130 }}px;
         }
         .section-{{ section.id }}-margin {
             margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
@@ -60,27 +67,65 @@
 
 <div class="v2-section-hero
             {{ section_classes }}">
-    <div class="page-width">
+    <div class="">
 
         {%- for block in section.blocks -%}
 
-            <div class="p-8 sa-bg-primary sa-col-white m-8 mt-40">
+            <div class="hero-slide page-width sa-col-white">
 
-                <{{ block.settings.heading_type }} class=" {% if block.settings.heading_no_decal %} -no-decal {% endif %} _font-{{ block.settings.heading_size }}">
-                    {%- if block.settings.heading_icon -%}
-                        <div class="f2f-heading-image">
-                            {{ block.settings.heading_icon
-                            | image_url: width: 44
-                            | image_tag: alt: block.settings.heading_icon.alt
+                {% # BACKGROUND: IMAGE
+                   # ---------------------------------------- %}
+                <div class="slide-background">
+                    <div class="slide-image media">
+                        {% # IMAGE SET, DEFINE SIZES  %}
+                        {% assign img = block.settings.image | default: product.metafields.custom.hero_image | default: blank %}
+                        {%- if img != blank -%}
+                            {%- assign widths = '1200, 1500' -%}
+                            {%- capture sizes -%}
+                                {% comment %}
+                                ToDo: check the resulting image size, should be big enough but not too big...
+                                {% endcomment %}
+                                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                            {%- endcapture -%}
+                            {{ img
+                            | image_url: width: 1500
+                            | image_tag:
+                            sizes: sizes,
+                            widths: widths,
+                            fetchpriority: fetch_priority
                             }}
-                        </div>
-                    {%- endif -%}
-                    {{ block.settings.heading_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                </{{ block.settings.heading_type }}>
 
-            </div>
+                            {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+                        {%- else -%}
+                            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                        {%- endif -%}
+                    </div>
+                </div>
 
-        {%- endfor -%}
+
+                {% # BACKGROUND: SHADOW
+                   # ---------------------------------------- %}
+                <div class="slide-shadow"></div>
+
+
+                {% # FOREGROUND: CONTENT
+                   # ---------------------------------------- %}
+                <div class="slide-foreground page-width section-{{ section.id }}-padding '">
+                    <div class="slide-content -extra-padding-x">
+
+                        {% render 'v2-heading', data: block.settings %}
+
+                        {% render 'v2-button', data: block.settings, classes: "" %}
+
+
+
+                    </div>
+                </div>
+
+            </div> {% # /hero-slide %}
+
+        {% endfor %}
 
     </div>
 </div>
@@ -95,6 +140,17 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+    {
+      "type": "header",
+      "content": "Full Width"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Stretch background image to full width",
+      "default": true
+    },
 
     {
       "type": "header",
@@ -223,6 +279,13 @@
         },
         {
             "type": "checkbox",
+            "id": "heading_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.heading.strong_accented.label",
+            "info": "t:lebase.global.heading.strong_accented.info"
+        },
+        {
+            "type": "checkbox",
             "id": "heading_no_decal",
             "default": false,
             "label": "t:lebase.global.heading.no_decal"
@@ -236,8 +299,34 @@
         {
           "type": "richtext",
           "id": "text",
-          "label": "Text"
+          "label": "t:lebase.global.text.label"
         },
+        {
+          "type": "select",
+          "id": "text_size",
+          "default": "copy-l",
+          "label": "t:lebase.global.text.size",
+          "options": [
+            {"value": "inherit", "label": "Inherit"},
+            {"value": "hero", "label": "Hero"},
+            {"value": "h1", "label": "H1"},
+            {"value": "h2", "label": "H2"},
+            {"value": "h3", "label": "H3"},
+            {"value": "copy-xl", "label": "Copy XL"},
+            {"value": "copy-l", "label": "Copy L"},
+            {"value": "copy-m", "label": "Copy M"}
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "text_strong_accented",
+          "default": false,
+          "label": "t:lebase.global.text.strong_accented",
+          "info": "t:lebase.global.text.strong_accented.info"
+        },
+
+
+
 
 
         {
@@ -278,6 +367,22 @@
           "type": "image_picker",
           "id": "button_icon",
           "label": "t:lebase.global.button.icon"
+        },
+        {
+          "type": "select",
+          "id": "button_size",
+          "default": "small",
+          "label": "t:lebase.global.button.size.label",
+          "options": [
+            {
+              "value": "small",
+              "label": "t:lebase.global.button.size.small"
+            },
+            {
+              "value": "medium",
+              "label": "t:lebase.global.button.size.medium"
+            }
+          ]
         }
 
       ]

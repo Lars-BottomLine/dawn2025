@@ -17,6 +17,19 @@
         "size": "Font Size",
         "no_decal": "No decal",
         "icon": "Icon",
+        "strong_accented": {
+          "label": "Strong color different",
+          "info": "If this is checked, the color of bold text will be different"
+        }
+      },
+
+      "text": {
+        "label": "Text",
+        "size": "Size",
+        "strong_accented": {
+          "label": "Strong color different",
+          "info": "If this is checked, the color of bold text will be different"
+        }
       },
 
       "button": {
@@ -29,6 +42,12 @@
           "primary": "Primary",
           "secondary": "Secondary",
           "plain": "Plain"
+        },
+        "size": {
+          "label": "Size",
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
         }
       },
 
