@@ -68,7 +68,10 @@
 
   "lesections": {
     "hero": {
-      "name": "Hero",
+      "name": "v2 - Hero",
+      "presets": {
+        "name": "Hero"
+      },
       "blocks": {
         "slide": {
           "name": "Slider",
