@@ -18,13 +18,17 @@
             "image": "shopify://shop_images/personal_trainer_interview.webp",
             "heading_text": "Title",
             "heading_type": "h1",
-            "heading_size": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "<p>We <strong>and our partners</strong>, including Shopify, use cookies and other technologies to personalize your <strong>experience</strong>, show you ads, and perform analytics, and we will not use cookies or other technologies for these purposes <em>unless</em> you accept them. Learn more in our<a href=\"https://x1nyix-uh.myshopify.com/policies/privacy-policy\" target=\"_blank\">Privacy Policy</a></p>",
+            "text_size": "copy-l",
+            "text_strong_accented": true,
             "button_text": "Click me!",
             "button_url": "https://bottomline.agency",
             "button_style": "secondary",
-            "button_icon": "shopify://shop_images/Study_Active_Icons_3.png"
+            "button_icon": "shopify://shop_images/Study_Active_Icons_3.png",
+            "button_size": "medium"
           }
         },
         "slide_zLMkrC": {
@@ -33,11 +37,15 @@
             "heading_text": "",
             "heading_type": "h1",
             "heading_size": "medium",
+            "heading_strong_accented": false,
             "heading_no_decal": false,
             "text": "",
+            "text_size": "copy-l",
+            "text_strong_accented": false,
             "button_text": "",
             "button_url": "",
-            "button_style": "primary"
+            "button_style": "primary",
+            "button_size": "small"
           }
         }
       },
@@ -47,9 +55,10 @@
       ],
       "name": "t:lesections.hero.presets.name",
       "settings": {
+        "full_width": true,
         "custom_class_names": "",
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
