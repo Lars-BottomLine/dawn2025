@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/personal_trainer_interview.webp",
+            "slide_type": "onecol",
             "heading_text": "<p>Your Hub for <br/><strong>Learning, Support, <br/>and Career Growth</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
@@ -24,27 +25,29 @@
             "text": "<p><strong>Access everything you need</strong> as a Study Active student – from resources to career guidance – <strong>all in one place</strong>.</p>",
             "text_size": "copy-xl",
             "text_strong_accented": false,
-            "button_text": "Click me!",
+            "button_text": "",
             "button_url": "https://bottomline.agency",
-            "button_style": "plain",
+            "button_style": "primary",
             "button_size": "medium"
           }
         },
         "slide_zLMkrC": {
           "type": "slide",
           "settings": {
-            "heading_text": "",
+            "image": "shopify://shop_images/study-active-hero-1.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p>We are stronger together.</p>",
             "heading_type": "h1",
-            "heading_size": "medium",
+            "heading_size": "hero",
             "heading_strong_accented": false,
             "heading_no_decal": false,
-            "text": "",
-            "text_size": "copy-l",
+            "text": "<p>Own the room.<br/>Inspire the crowd.<br/><strong>Love your job.</strong></p>",
+            "text_size": "h2",
             "text_strong_accented": false,
-            "button_text": "",
-            "button_url": "",
+            "button_text": "Find your path",
+            "button_url": "shopify://blogs/news",
             "button_style": "primary",
-            "button_size": "small"
+            "button_size": "medium"
           }
         }
       },
