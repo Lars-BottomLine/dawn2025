@@ -25,7 +25,7 @@
             "text": "<p><strong>Access everything you need</strong> as a Study Active student – from resources to career guidance – <strong>all in one place</strong>.</p>",
             "text_size": "copy-xl",
             "text_strong_accented": false,
-            "button_text": "",
+            "button_text": "Log into LMS",
             "button_url": "https://bottomline.agency",
             "button_style": "primary",
             "button_size": "medium"
