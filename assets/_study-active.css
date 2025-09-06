@@ -3332,12 +3332,12 @@ h3.-no-decal:before,
   line-height: 1.25;
 }
 
-.hero,
+._font-hero,
 ._font-h0 {
   font-size: 7.4rem;
 }
 @media (max-width: 989px) {
-  .hero,
+  ._font-hero,
   ._font-h0 {
     font-size: 4.4rem;
   }
@@ -3346,7 +3346,7 @@ h3.-no-decal:before,
 h1,
 ._font-h1 {
   font-size: 4.4rem;
-  margin-top: 8.9rem;
+  margin-top: 9.6rem;
 }
 h1:before,
 ._font-h1:before {
@@ -3420,6 +3420,10 @@ h3,
   color: var(--color-secondary);
 }
 
+a {
+  color: var(--color-secondary);
+}
+
 .caption-with-letter-spacing {
   font-size: 1.4rem;
   letter-spacing: 0;
@@ -3481,6 +3485,9 @@ h3,
 }
 .v2-button.-style-secondary:before {
   background-color: var(--color-dark-blue);
+}
+.v2-button.-style-plain span {
+  padding: 0 !important;
 }
 .v2-button.-hover-grow {
   cursor: pointer;
@@ -3582,10 +3589,23 @@ h3,
 }
 .v2-section-hero .slide-foreground .slide-content {
   padding-bottom: 4rem;
-  gap: 3rem;
   display: flex;
   flex-direction: column;
   align-items: self-start;
+  gap: 3rem;
+}
+.v2-section-hero .slide-foreground .slide-content .slide-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 3rem;
+}
+.v2-section-hero .slide-content.-type-onecol .slide-texts {
+  max-width: 88.5rem;
+}
+.v2-section-hero .slide-content.-type-twocol .slide-texts {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
