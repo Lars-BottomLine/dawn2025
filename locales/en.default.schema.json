@@ -28,6 +28,7 @@
         "header": "Text",
         "label": "Content",
         "size": "Size",
+        "no_decal": "No decal",
         "strong_accented": {
           "label": "Strong color different",
           "info": "If this is checked, the color of bold text will be different"

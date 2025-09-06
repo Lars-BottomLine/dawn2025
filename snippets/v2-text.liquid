@@ -23,6 +23,10 @@
     if data.text_strong_accented
         assign classes_str = classes_str | append: ' -strong-accented '
     endif
+    # no decals
+    if data.text_no_decal
+        assign classes_str = classes_str | append: ' -no-decal '
+    endif
     # font-size
     assign classes_str = classes_str | append: ' _font-' | append: data.text_size
 

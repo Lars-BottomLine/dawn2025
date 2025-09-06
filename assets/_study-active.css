@@ -3424,6 +3424,10 @@ a {
   color: var(--color-secondary);
 }
 
+.v2-text {
+  font-weight: normal;
+}
+
 .caption-with-letter-spacing {
   font-size: 1.4rem;
   letter-spacing: 0;
