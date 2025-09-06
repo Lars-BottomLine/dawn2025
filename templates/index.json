@@ -51,15 +51,36 @@
             "button_style": "primary",
             "button_size": "medium"
           }
+        },
+        "slide_yMtA4W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pilates_job.webp",
+            "slide_type": "onecol",
+            "heading_text": "<p>Get your free<br/><strong>Study Active brochure</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>This is your moment to <strong>turn passion into purpose</strong>. Learn online at your pace, get expert support and land guaranteed interviews when you qualify. <strong>You bring the drive, we’ll handle the rest.</strong></p>",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small"
+          }
         }
       },
       "block_order": [
         "slide_zzLjTp",
-        "slide_zLMkrC"
+        "slide_zLMkrC",
+        "slide_yMtA4W"
       ],
       "name": "t:lesections.hero.presets.name",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "custom_class_names": "",
         "padding_top": 40,
         "padding_bottom": 0,
