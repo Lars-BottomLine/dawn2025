@@ -7,6 +7,19 @@
     assign section_classes = ''
 
     # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    #assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    #assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
     # PADDING + MARGIN
     # ---------------------------------
     assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
@@ -151,6 +164,26 @@
       "id": "full_width",
       "label": "Stretch background image to full width",
       "default": false
+    },
+    {
+      "type": "select",
+      "id": "bkgr_color",
+      "label": "t:lebase.global.bkgr_color.label",
+      "default": "primary",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:lebase.global.bkgr_color.primary"
+        },
+        {
+          "value": "light-blue",
+          "label": "t:lebase.global.bkgr_color.lLight-blue"
+        },
+        {
+          "value": "white",
+          "label": "t:lebase.global.bkgr_color.white"
+        }
+      ]
     },
 
     {
