@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify://shop_images/study-active-hero-1.jpg",
             "slide_type": "twocol",
-            "heading_text": "<p>We are stronger together.</p>",
+            "heading_text": "<p>We are stronger<br/>together.</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": false,
