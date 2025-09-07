@@ -58,8 +58,6 @@
         assign no_slides = false
         assign haz_slides = true
     endif
-    assign section_classes = section_classes | append: ' -full-width '
-    assign not_full_width = false
 %}
 
 {% # TODO: only load js when we have slides %}
@@ -228,6 +226,10 @@
                 },
                 {% else %}
                 autoplay: false,
+                {% endif %}
+
+                {%- if section.settings.slider_effect == 'fade' -%}
+                effect: "fade",
                 {% endif %}
 
                 slidesPerView: 1
