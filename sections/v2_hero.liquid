@@ -221,8 +221,8 @@
 
                 {%- if section.settings.slider_autoplay -%}
                 autoplay: {
-                    delay: {{ section.settings.slide_autospeed }}000,
-                    disableOnInteraction: true,
+                    delay: {{ section.settings.slide_autospeed }},
+                    disableOnInteraction: true
                 },
                 {% else %}
                 autoplay: false,
