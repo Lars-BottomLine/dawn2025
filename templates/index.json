@@ -81,6 +81,10 @@
       "name": "t:lesections.hero.presets.name",
       "settings": {
         "full_width": false,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": true,
+        "slide_autospeed": 5000,
         "custom_class_names": "",
         "padding_top": 40,
         "padding_bottom": 0,
