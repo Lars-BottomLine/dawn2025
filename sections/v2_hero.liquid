@@ -1,7 +1,3 @@
-{% # TODO: only load js when we have slides %}
-{{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-{{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
-
 {%- liquid
 
     assign section_classes = ''
@@ -9,13 +5,13 @@
     # ---------------------------------
     # BACKGROUND + DECAL - colors
     # ---------------------------------
-    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
-    #assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
-    #assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
-    if section.settings.section_bkgr == 'primary'
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    #assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    #assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
         assign section_classes = section_classes | append: ' sa-col-white '
     endif
-    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
         assign section_classes = section_classes | append: ' sa-col-primary '
     endif
 
@@ -49,15 +45,35 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
+    # FULL WIDTH
+    assign not_full_width = true
     if section.settings.full_width
         assign section_classes = section_classes | append: ' -full-width '
+        assign not_full_width = false
     endif
-
+    # HAZ SLIDES
+    assign no_slides = true
+    assign haz_slides = false
+    if section.blocks.size > 1
+        assign no_slides = false
+        assign haz_slides = true
+    endif
+    assign section_classes = section_classes | append: ' -full-width '
+    assign not_full_width = false
 %}
+
+{% # TODO: only load js when we have slides %}
+{{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{% if haz_slides %}
+    {{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
+{% endif %}
 
 {%- style -%}
     .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-padding-bottom {
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
@@ -70,6 +86,9 @@
             padding-top: {{ section.settings.padding_top }}px;
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
+        .section-{{ section.id }}-padding-bottom {
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
         .section-{{ section.id }}-margin {
             margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
             margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
@@ -80,66 +99,143 @@
 
 <div class="v2-section-hero
             {{ section_classes }}">
-    <div class="">
+    <div class="{% if not_full_width %} page-width {% endif %} {% if haz_slides %} -haz-slides {% endif %}">
 
-        {%- for block in section.blocks -%}
+        <div id="v2-swiper-{{ section.id }}" class="v2-swiper">
 
-            <div class="hero-slide page-width sa-col-white">
+            {% # SLIDES
+               # ---------------------- %}
+            <div class="swiper-wrapper">
 
-                {% # BACKGROUND: IMAGE
-                   # ---------------------------------------- %}
-                <div class="slide-background">
-                    <div class="slide-image media">
-                        {% # IMAGE SET, DEFINE SIZES  %}
-                        {% assign img = block.settings.image | default: product.metafields.custom.hero_image | default: blank %}
-                        {%- if img != blank -%}
-                            {%- assign widths = '1200, 1500' -%}
-                            {%- capture sizes -%}
-                                {% comment %}
-                                ToDo: check the resulting image size, should be big enough but not too big...
-                                {% endcomment %}
-                                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                                (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                            {%- endcapture -%}
-                            {{ img
-                            | image_url: width: 1500
-                            | image_tag:
-                            sizes: sizes,
-                            widths: widths,
-                            fetchpriority: fetch_priority
-                            }}
+            {%- for block in section.blocks -%}
 
-                            {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
-                        {%- else -%}
-                            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                        {%- endif -%}
-                    </div>
-                </div>
+                <div class="swiper-slide hero-slide page-width sa-col-white">
 
+                    {% # BACKGROUND: IMAGE
+                       # ---------------------------------------- %}
+                    <div class="slide-background">
+                        <div class="slide-image media">
+                            {% # IMAGE SET, DEFINE SIZES  %}
+                            {% assign img = block.settings.image | default: product.metafields.custom.hero_image | default: blank %}
+                            {%- if img != blank -%}
+                                {%- assign widths = '1200, 1500' -%}
+                                {%- capture sizes -%}
+                                    {% comment %}
+                                    ToDo: check the resulting image size, should be big enough but not too big...
+                                    {% endcomment %}
+                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                    (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+                                {{ img
+                                | image_url: width: 1500
+                                | image_tag:
+                                sizes: sizes,
+                                widths: widths,
+                                fetchpriority: fetch_priority
+                                }}
 
-                {% # BACKGROUND: SHADOW
-                   # ---------------------------------------- %}
-                <div class="slide-shadow"></div>
-
-
-                {% # FOREGROUND: CONTENT
-                   # ---------------------------------------- %}
-                <div class="slide-foreground page-width section-{{ section.id }}-padding">
-                    <div class="slide-content -extra-padding-x -type-{{ block.settings.slide_type }}">
-
-                        <div class="slide-texts">
-                            {% render 'v2-heading', data: block.settings, classes: "" %}
-                            {% render 'v2-text', data: block.settings, classes: "" %}
+                                {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+                            {%- else -%}
+                                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- endif -%}
                         </div>
+                    </div>
 
-                        {% render 'v2-button', data: block.settings, classes: "" %}
+
+                    {% # BACKGROUND: SHADOW
+                       # ---------------------------------------- %}
+                    <div class="slide-shadow"></div>
+
+
+                    {% # FOREGROUND: CONTENT
+                       # ---------------------------------------- %}
+                    <div class="slide-foreground page-width section-{{ section.id }}-padding">
+                        <div class="slide-content -extra-padding-x -type-{{ block.settings.slide_type }}">
+
+                            <div class="slide-texts">
+                                {% render 'v2-heading', data: block.settings, classes: "" %}
+                                {% render 'v2-text', data: block.settings, classes: "" %}
+                            </div>
+
+                            {% render 'v2-button', data: block.settings, classes: "" %}
+
+                        </div>
+                    </div>
+
+                </div> {% # /hero-slide %}
+
+            {% endfor %}
+
+            </div>
+
+            {% # PAGINATION
+                   # ---------------------- %}
+            <div class="swiper-pagination section-{{ section.id }}-padding-bottom">
+                <div class="page-width ">
+                    <div class="sp-content -extra-padding-x">
 
                     </div>
                 </div>
+            </div>
 
-            </div> {% # /hero-slide %}
+            {% # BUTTONS
+                   # ---------------------- %}
+            {% comment %}
+            <div class="swiper-button-wrapper">
+                <div class="sa-swiper-button-prev sa-button -hover-translate">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                          <path d="M7.179 16.5L17.4457 26.7667L14.8332 29.3333L0.166504 14.6667L14.8332 0L17.4457 2.56667L7.179 12.8333H29.4998V16.5H7.179Z" fill="white"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="sa-swiper-button-next sa-button -hover-translate">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                          <path d="M22.8208 16.5H0.5V12.8333H22.8208L12.5542 2.56667L15.1667 0L29.8333 14.6667L15.1667 29.3333L12.5542 26.7667L22.8208 16.5Z" fill="white"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            {% endcomment %}
 
-        {% endfor %}
+        </div>
+
+        {% if haz_slides %}
+        <script>
+            // TODO: differentiate between autorotate and autoplay
+            var swiper = new Swiper("#v2-swiper-{{ section.id }}", {
+                spaceBetween: 0,
+
+                navigation: {
+                    nextEl: ".sa-swiper-button-next",
+                    prevEl: ".sa-swiper-button-prev",
+                },
+
+                loop: true,
+
+                speed: 1000,
+
+                pagination: {
+                    el: ".sp-content",
+                    clickable: true,
+                },
+
+                {%- if section.settings.slider_autoplay -%}
+                autoplay: {
+                    delay: {{ section.settings.slide_autospeed }}000,
+                    disableOnInteraction: true,
+                },
+                {% else %}
+                autoplay: false,
+                {% endif %}
+
+                slidesPerView: 1
+
+            });
+
+        </script>
+        {% endif %}
 
     </div>
 </div>
@@ -177,7 +273,7 @@
         },
         {
           "value": "light-blue",
-          "label": "t:lebase.global.bkgr_color.lLight-blue"
+          "label": "t:lebase.global.bkgr_color.light-blue"
         },
         {
           "value": "white",
@@ -185,6 +281,45 @@
         }
       ]
     },
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.slider.header"
+    },
+    {
+      "type": "select",
+      "id": "slider_effect",
+      "default": "fade",
+      "label": "t:lebase.global.slider.effect.label",
+      "options": [
+        {
+          "value": "slide",
+          "label": "t:lebase.global.slider.effect.slide"
+        },
+        {
+          "value": "fade",
+          "label": "t:lebase.global.slider.effect.fade"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "slider_autoplay",
+      "label": "t:lebase.global.slider.autoplay",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "slide_autospeed",
+      "min": 1000,
+      "max": 9500,
+      "step": 500,
+      "unit": "ms",
+      "label": "t:lebase.global.slider.autospeed",
+      "default": 5000
+    },
+
 
     {
       "type": "header",

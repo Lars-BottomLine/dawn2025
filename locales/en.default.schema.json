@@ -83,6 +83,17 @@
         "header": "Margin",
         "label_top": "Top",
         "label_bottom": "Bottom"
+      },
+
+      "slider": {
+        "header": "Slider",
+        "effect": {
+          "label": "Transition",
+          "slide": "Slide",
+          "fade": "Fade"
+        },
+        "autoplay": "Autoplay slides",
+        "autospeed": "Autoplay speed"
       }
 
     }
