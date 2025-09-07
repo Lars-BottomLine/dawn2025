@@ -9,6 +9,64 @@
  */
 {
   "sections": {
+    "v2_accordion_MwEKUC": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_6ye3He": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Alright, but what exactly do you do?",
+            "row_content": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p><p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>"
+          }
+        },
+        "accordion_row_yeYDPp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_EkDWt4": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_7aMC4V": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_6ye3He",
+        "accordion_row_yeYDPp",
+        "accordion_row_EkDWt4",
+        "accordion_row_7aMC4V"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently asked questions</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accent": false,
+        "accordion_width": "narrow",
+        "accordion_height": "medium",
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
@@ -994,64 +1052,6 @@
         "padding_bottom": 0,
         "margin_top": -140,
         "margin_bottom": 16
-      }
-    },
-    "v2_accordion_MwEKUC": {
-      "type": "v2_accordion",
-      "blocks": {
-        "accordion_row_6ye3He": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "",
-            "row_content": ""
-          }
-        },
-        "accordion_row_yeYDPp": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "",
-            "row_content": ""
-          }
-        },
-        "accordion_row_EkDWt4": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "",
-            "row_content": ""
-          }
-        },
-        "accordion_row_7aMC4V": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "",
-            "row_content": ""
-          }
-        }
-      },
-      "block_order": [
-        "accordion_row_6ye3He",
-        "accordion_row_yeYDPp",
-        "accordion_row_EkDWt4",
-        "accordion_row_7aMC4V"
-      ],
-      "name": "t:lesections.accordion.presets.name",
-      "settings": {
-        "bkgr_color": "primary",
-        "heading_text": "",
-        "heading_type": "h1",
-        "heading_size": "h1",
-        "heading_no_decal": false,
-        "heading_strong_accent": false,
-        "accordion_width": "narrow",
-        "accordion_height": "medium",
-        "accordion_entries": [],
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     }
   },
