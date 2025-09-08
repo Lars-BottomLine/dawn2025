@@ -110,30 +110,30 @@
           "name": "Slider",
           "image": "Image"
         }
+      }
+    }
+    "accordion": {
+      "name": "v2 - Accordion",
+      "width": {
+        "label": "Accordion width",
+        "full": "Full width",
+        "narrow": "Narrow width"
       },
-      "accordion": {
-        "name": "v2 - Accordion",
-        "width": {
-          "label": "Accordion width",
-          "full": "Full width",
-          "narrow": "Narrow width"
-        },
-        "height": {
-          "label": "Accordion height limit",
-          "auto": "Auto",
-          "small": "Small",
-          "medium": "Medium",
-          "large": "Large"
-        },
-        "row": {
-          "name": "Accordion Row",
-          "image": "Image",
-          "heading": "Heading",
-          "text": "Text"
-        },
-        "presets": {
-          "name": "v2 - Accordion"
-        }
+      "height": {
+        "label": "Accordion height limit",
+        "auto": "Auto",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      },
+      "row": {
+        "name": "Accordion Row",
+        "image": "Image",
+        "heading": "Heading",
+        "text": "Text"
+      },
+      "presets": {
+        "name": "v2 - Accordion"
       }
     }
   },
