@@ -1,0 +1,46 @@
+{% comment %}
+  Renders an entry for an accordion
+
+  Accepts:
+  - ae_title: { string )
+  - ae_text: { string }
+  - ae_image: { Image }
+
+  Usage:
+  {% render 'le_accordion-entry', ae_title: "Hello", ae_text: "This is interesting', ae_image: block.settings.image %}
+{% endcomment %}
+
+{% if ae_title != blank or ae_text != blank or ae_image != blank %}
+
+<div class="le-acc-entry -with-arrow">
+    <div class="le-acc-header">
+
+        <span class="_font-copy-l font-bold">
+            {{ ae_title }}
+        </span>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+            <path d="M9.21191 16.0566L9.21191 0.83789L11.7119 0.83789L11.7119 16.0566L18.7119 9.05664L20.4619 10.8379L10.4619 20.8379L0.461914 10.8379L2.21191 9.05664L9.21191 16.0566Z" fill="white"/>
+        </svg>
+
+    </div>
+    <div class="le-acc-content">
+        {% if ae_image %}
+            <div class="lac-left">
+                <div class="lac-image">
+                    {{ ae_image
+                    | image_url: width: 550
+                    | image_tag:
+                    loading: 'lazy',
+                    widths: '300, 550, 800'
+                    }}
+                </div>
+            </div>
+        {% endif %}
+        <div class="lac-right _font-copy-m">
+            {{ ae_text }}
+        </div>
+    </div>
+</div>
+
+{% endif %}

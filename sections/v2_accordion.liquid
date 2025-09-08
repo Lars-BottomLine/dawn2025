@@ -64,13 +64,28 @@
     # SECTION SPECIFIC STUFF
     # ---------------------------------
     assign iz_height_limit = false
-    assign section_classes = section_classes | append: ' -acc-height-' | append: section.settings.accordion_height
     if section.settings.accordion_height != 'none'
         assign iz_height_limit = true
     endif
 
+    # SECTION CLASSES
+    assign section_classes = section_classes | append: ' -acc-height-' | append: section.settings.accordion_height
     assign section_classes = section_classes | append: ' section-' | append: section.id
 
+    # CONTENT CLASSES
+    assign content_classes = ""
+    if section.settings.accordion_width == 'narrow'
+        assign content_classes = content_classes | append: ' -narrow-section '
+    endif
+
+    # ACCORDION CLASSES
+    assign accordion_classes = ""
+    if section.settings.bkgr_color == 'white'
+        assign accordion_classes = accordion_classes | append: ' sa-col-white '
+    endif
+    if iz_height_limit
+        assign accordion_classes = accordion_classes | append: ' -haz-height-limit '
+    endif
 %}
 
 
@@ -96,28 +111,20 @@
     }
 {%- endstyle -%}
 
-{% javascript %}
-    var lea = new LeAccordion({
-        debug: false
-    });
-    lea.init();
-{% endjavascript %}
-
-
 <div class="v2-section-accordion
             {{ section_classes }}">
-    <div class="page-width -section-content {% if section.settings.accordion_width == 'narrow' %} -narrow-section {% endif %}">
-        <div class="ac-content">
+    <div class="page-width -section-content {{ content_classes }}">
+        <div class="ac-content flex flex-col">
 
-            {% render 'v2-heading', data: section.settings, classes: "" %}
+            {% render 'v2-heading', data: section.settings, classes: " -decal-centered " %}
 
-            <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %} {% if iz_height_limit %} -haz-height-limit {% endif %}">
+            <div class="le-accordion {{ accordion_classes }}">
                 <div class="le-acc-entries">
 
                     {% # DYNAMIC METAOBJECT LIST GIVEN %}
                     {% if section.settings.accordion_entries != blank %}
                         {%- for entry in section.settings.accordion_entries -%}
-                            {% render 'le_accordion-entry',
+                            {% render 'v2_accordion-entry',
                                     ae_title: entry.title,
                                     ae_text: entry.text,
                                     ae_image: entry.image
@@ -127,7 +134,7 @@
                     {% # IF NO DYNAMIC METAOBJECT LIST - USE ROW ENTRIES OF SECTION %}
                     {% else %}
                         {%- for block in section.blocks -%}
-                            {% render 'le_accordion-entry',
+                            {% render 'v2_accordion-entry',
                                     ae_title: block.settings.heading,
                                     ae_text: block.settings.row_content,
                                     ae_image: block.settings.image
@@ -146,8 +153,8 @@
 </div>
 
 <script>
-    {% assign acc_id = 'acc' | append: section.id | replace: '-', '' | replace: '_', '' %}
-    var {{ acc_id }} = false;
+    {% assign section_id_js = section.id | replace: '-', '' | replace: '_', '' %}
+    var acc_{{ section_id_js }} = false;
 
     if (!(typeof window.openAccordion === "function")) {
         var openAccordion = function ( ele ) {
@@ -157,6 +164,11 @@
 
     document.addEventListener("DOMContentLoaded", function () {
 
+        var accordion_{{ section_id_js }} = new LeAccordion({
+            debug: false
+        });
+        accordion_{{ section_id_js }}.init();
+
         if (document.querySelector('.section-{{ section.id }} .le-acc-arrow')) {
             document.querySelector('.section-{{ section.id }} .le-acc-arrow').addEventListener('click', function () {
                 openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
@@ -165,8 +177,8 @@
 
         document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-open', function (e) {
             console.log('ACCORDION: ENTRY OPENED', e);
-            if (!{{ acc_id }}) {
-                {{ acc_id }} = true;
+            if (!acc_{{ section_id_js }}) {
+                acc_{{ section_id_js }} = true;
                 openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
             }
         })
@@ -435,22 +447,22 @@
     "blocks": [
         {
             "type": "accordion_row",
-            "name": "t:lesections.accordion.blocks.row.name",
+            "name": "t:lesections.accordion.row.name",
             "settings": [
                 {
                   "type": "image_picker",
                   "id": "image",
-                  "label": "t:lesections.accordion.blocks.row.name"
+                  "label": "t:lesections.accordion.row.image"
                 },
                 {
                     "type": "text",
                     "id": "heading",
-                    "label": "t:lesections.accordion.blocks.row.heading"
+                    "label": "t:lesections.accordion.row.heading"
                 },
                 {
                     "type": "richtext",
                     "id": "row_content",
-                    "label": "t:lesections.accordion.blocks.row.text"
+                    "label": "t:lesections.accordion.row.text"
                 }
             ]
         }
