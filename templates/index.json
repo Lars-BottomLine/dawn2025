@@ -15,22 +15,23 @@
         "accordion_row_6ye3He": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Alright, but what exactly do you do?",
-            "row_content": "<p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p><p>Study at your own pace with 24/7 access to e-learning modules, videos, and webinars – perfect for busy schedules.</p>"
+            "heading": "1. Wellness Coach",
+            "row_content": "<p><strong>Description</strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook</strong><br/>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year. </p>"
           }
         },
         "accordion_row_yeYDPp": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
-            "row_content": ""
+            "image": "shopify://shop_images/pregnancypersonaltrainer.avif",
+            "heading": "2. Alright, but what exactly do you do?",
+            "row_content": "<p><strong>Description</strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook</strong><br/>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year. </p>"
           }
         },
         "accordion_row_EkDWt4": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
-            "row_content": ""
+            "heading": "Alright, but what exactly do you do?",
+            "row_content": "<p>Study Active has active relationships with UK gyms such as The Gym Group, Nuffield and Everyone Active. This ensures that our training is fit for purpose and further our Graduates benefit from employment opportunities.</p>"
           }
         },
         "accordion_row_7aMC4V": {
