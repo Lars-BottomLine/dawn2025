@@ -63,6 +63,8 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
+    assign section_id_js = section.id | replace: '-', '' | replace: '_', ''
+
     assign iz_height_limit = false
     if section.settings.accordion_height != 'none'
         assign iz_height_limit = true
@@ -118,7 +120,7 @@
 
             {% render 'v2-heading', data: section.settings, classes: " -decal-centered " %}
 
-            <div class="le-accordion {{ accordion_classes }}">
+            <div class="le-accordion accordion-{{ section_id_js }} {{ accordion_classes }}">
                 <div class="le-acc-entries">
 
                     {% # DYNAMIC METAOBJECT LIST GIVEN %}
@@ -153,7 +155,6 @@
 </div>
 
 <script>
-    {% assign section_id_js = section.id | replace: '-', '' | replace: '_', '' %}
     var acc_{{ section_id_js }} = false;
 
     if (!(typeof window.openAccordion === "function")) {
@@ -165,7 +166,8 @@
     document.addEventListener("DOMContentLoaded", function () {
 
         var accordion_{{ section_id_js }} = new LeAccordion({
-            debug: false
+            wrapper_class: "accordion-{{ section_id_js }}",
+            debug: true
         });
         accordion_{{ section_id_js }}.init();
 

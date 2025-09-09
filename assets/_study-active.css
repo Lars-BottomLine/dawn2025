@@ -3763,7 +3763,7 @@ a {
   transition: border-width 250ms, background-color 250ms, max-height 250ms;
 }
 .v2-section-accordion .le-acc-entry .le-acc-header {
-  padding: 2rem 2rem 2rem 3rem;
+  padding: 2.2rem 2rem 2.2rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3775,7 +3775,7 @@ a {
 .v2-section-accordion .le-acc-entry .le-acc-content {
   display: flex;
   gap: 3rem;
-  padding: 1rem 4rem 3rem 3rem;
+  padding: 0 4rem 3rem 3rem;
 }
 .v2-section-accordion .le-acc-entry .le-acc-content .lac-left {
   display: flex;
@@ -3797,6 +3797,9 @@ a {
 }
 .v2-section-accordion .le-acc-entry .le-acc-content .lac-right p {
   margin-bottom: 2.5rem;
+}
+.v2-section-accordion .le-acc-entry .le-acc-content .lac-right p:last-child {
+  margin-bottom: 0;
 }
 .v2-section-accordion .le-acc-entry.-open {
   background-color: var(--color-primary-lighter);
