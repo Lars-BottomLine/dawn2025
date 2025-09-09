@@ -55,6 +55,7 @@
       },
 
       "bkgr_color": {
+        "header": "Background color",
         "label": "Background color",
         "primary": "Blue (primary)",
         "light-blue": "Light Blue",
@@ -134,6 +135,19 @@
       },
       "presets": {
         "name": "v2 - Accordion"
+      }
+    },
+    "textplusimage": {
+      "name": "v2 - Text + Image",
+      "presets": {
+        "name": "v2 - Text + Image"
+      },
+      "blocks": {
+        "text": {
+          "name": "Text",
+          "text": "Text"
+        },
+        "image": {}
       }
     }
   },
