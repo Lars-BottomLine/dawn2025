@@ -94,7 +94,7 @@
 
             <div class="v2-tpi-left">
 
-                {% render 'v2-heading', data: section.settings, classes: " -decal-left " %}
+                {% render 'v2-heading', data: section.settings, classes: "" %}
 
                 {% render 'v2-text', data: section.settings, classes: " v2-tpi-subheadline ", prefix: 'subheadline_', no_remove_p: true %}
 
@@ -229,12 +229,12 @@
 
         {
             "type": "header",
-            "content": "t:lebase.global.text.header"
+            "content": "Subheadline"
         },
         {
             "type": "richtext",
             "id": "subheadline_text",
-            "label": "Subheadline"
+            "label": "Text"
         },
         {
             "type": "select",
@@ -262,7 +262,7 @@
             "type": "checkbox",
             "id": "subheadline_text_strong_accented",
             "default": false,
-            "label": "t:lebase.global.text.strong_accented",
+            "label": "t:lebase.global.text.strong_accented.label",
             "info": "t:lebase.global.text.strong_accented.info"
         },
 
@@ -305,7 +305,7 @@
             "type": "checkbox",
             "id": "text_strong_accented",
             "default": false,
-            "label": "t:lebase.global.text.strong_accented",
+            "label": "t:lebase.global.text.strong_accented.label",
             "info": "t:lebase.global.text.strong_accented.info"
         },
 
@@ -347,7 +347,7 @@
             "type": "checkbox",
             "id": "claim_text_strong_accented",
             "default": false,
-            "label": "t:lebase.global.text.strong_accented",
+            "label": "t:lebase.global.text.strong_accented.label",
             "info": "t:lebase.global.text.strong_accented.info"
         },
 
