@@ -18,7 +18,7 @@
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
-        "heading_decal_left": false,
+        "heading_decal_left": true,
         "heading_strong_accented": false,
         "subheadline_text": "<p>Subline Aimed at aspiring fitness professionals, this course package combines the Active IQ Level 2 Gym Instructing, Active IQ Level 3 Personal Training and Active IQ Level 3 Nutrition courses.</p>",
         "subheadline_text_size": "copy-xl",
