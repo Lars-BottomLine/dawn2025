@@ -5,6 +5,7 @@
   - data: {
             heading_type: { string }
             heading_no_decal: { bool }
+            heading_decal_left: { bool }
             heading_icon: { image }
             heading_text: { string }
   }
@@ -28,6 +29,10 @@
     # no decals
     if data.heading_no_decal
         assign classes_str = classes_str | append: ' -no-decal '
+    endif
+    # decal left
+    if data.heading_decal_left
+        assign classes_str = classes_str | append: ' -decal-left '
     endif
     # font-size
     assign classes_str = classes_str | append: ' _font-' | append: data.heading_size

@@ -17,6 +17,7 @@
         "type": "Tag Type",
         "size": "Font Size",
         "no_decal": "No decal",
+        "decal_left": "Decal left",
         "icon": "Icon",
         "strong_accented": {
           "label": "Strong color different",
