@@ -9,6 +9,34 @@
  */
 {
   "sections": {
+    "v2_text_plus_image_PcfkMY": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/why_become_a_trainer_in_2025.webp",
+        "heading_text": "<p>Course Overview</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accent": false,
+        "text": "<p>Subline Aimed at aspiring fitness professionals, this course package combines the Active IQ Level 2 Gym Instructing, Active IQ Level 3 Personal Training and Active IQ Level 3 Nutrition courses.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_accordion_MwEKUC": {
       "type": "v2_accordion",
       "blocks": {
@@ -55,7 +83,7 @@
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
-        "heading_strong_accent": false,
+        "heading_strong_accented": false,
         "accordion_width": "narrow",
         "accordion_height": "medium",
         "accordion_entries": [],
@@ -1057,6 +1085,7 @@
     }
   },
   "order": [
+    "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
     "v2_hero_jk6W8B",
     "le_text_and_background_gtyQwb",
