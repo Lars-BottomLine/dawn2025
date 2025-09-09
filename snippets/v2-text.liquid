@@ -23,6 +23,14 @@
     assign key_text_size = 'text_size'
     assign key_text = 'text'
 
+    # add the prefix to all variables
+    if prefix and prefix != blank
+        assign key_text_strong_accented = prefix | append: key_text_strong_accented
+        assign key_text_no_decal = prefix | append: key_text_no_decal
+        assign key_text_size = prefix | append: key_text_size
+        assign key_text = prefix | append: key_text
+    endif
+
     # custom classes
     if classes != blank
         assign classes_str = classes_str | append: classes | append: ' '
@@ -37,6 +45,11 @@
     endif
     # font-size
     assign classes_str = classes_str | append: ' _font-' | append: data[ key_text_size ]
+
+    assign text = data[ key_text ] | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>'
+    if no_remove_p
+        assign text = data[ key_text ]
+    endif
 
 %}
 {% # todo: check icon size %}
@@ -53,7 +66,7 @@
 {% if data[ key_text ] != blank %}
     <div class="v2-text {{ classes_str }}">
 
-    {{ data[ key_text ] | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+        {{ text }}
 
     </div>
 {% endif %}

@@ -86,17 +86,45 @@
     }
 {%- endstyle -%}
 
-<div class="sa-section-textplusimage
+<div class="v2-section-textplusimage
             {{ section_classes }}">
     <div class="page-width">
 
-        {% render 'v2-heading', data: section.settings, classes: " -decal-centered " %}
+        <div class="v2-tpi-content -extra-padding-x">
 
-        {% render 'v2-text', data: section.settings %}
+            <div class="v2-tpi-left">
 
-        {% render 'v2-text', data: section.settings, prefix: 'subheadline_', debug: true %}
+                {% render 'v2-heading', data: section.settings, classes: " -decal-left " %}
 
-        {% render 'v2-text', data: section.settings, prefix: 'claim_' %}
+                {% render 'v2-text', data: section.settings, classes: " v2-tpi-subheadline ", prefix: 'subheadline_', no_remove_p: true %}
+
+                {% render 'v2-text', data: section.settings, classes: " v2-tpi-text ", no_remove_p: true %}
+
+                {% render 'v2-text', data: section.settings, classes: " v2-tpi-claim ", prefix: 'claim_', no_remove_p: true %}
+
+            </div>
+
+            <div class="v2-tpi-right">
+
+                <div class="v2-image-container v2-tpi-image-container">
+                    {%- if section.settings.image != blank -%}
+                        {% # todo: image size optimization %}
+                        {%- assign widths = '1200, 1500' -%}
+                        {%- capture sizes -%}
+                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                            (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                        {%- endcapture -%}
+                        {{ section.settings.image
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+                    {%- else -%}
+                        {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 

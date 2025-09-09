@@ -3237,6 +3237,15 @@ header .header__icon--cart .icon {
   font-size: 1.2rem;
 }
 
+.v2-image-container {
+  display: flex;
+}
+.v2-image-container img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
 h1,
 h2,
 h3,
@@ -3411,6 +3420,15 @@ h2.-decal-centered:before,
 ._font-h2.-decal-centered:before {
   margin-left: -1.6rem;
 }
+h2.-decal-left,
+._font-h2.-decal-left {
+  margin-top: 0;
+}
+h2.-decal-left:before,
+._font-h2.-decal-left:before {
+  top: -1.8rem;
+  left: -5rem;
+}
 @media (max-width: 640px) {
   h2,
   ._font-h2 {
@@ -3471,6 +3489,12 @@ a {
 
 .v2-text {
   font-weight: normal;
+}
+.v2-text p {
+  margin-bottom: 2.2rem;
+}
+.v2-text p:last-child {
+  margin-bottom: 0;
 }
 
 .caption-with-letter-spacing {
@@ -3890,6 +3914,25 @@ a {
   .v2-section-accordion .le-acc-entry.-open {
     border-left-width: 0.7rem;
   }
+}
+
+.v2-section-textplusimage .v2-tpi-image-container {
+  width: 44rem;
+  height: 44rem;
+}
+.v2-section-textplusimage .v2-tpi-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.v2-section-textplusimage .v2-tpi-content .v2-tpi-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  width: 69rem;
+}
+.v2-section-textplusimage .v2-tpi-content .v2-tpi-right {
+  width: 44rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
