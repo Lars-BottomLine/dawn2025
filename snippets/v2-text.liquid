@@ -8,6 +8,7 @@
             text_strong_accent: { bool }
   }
   - classes: { string }
+  - prefix: { string }
 
   Usage:
   {% render 'v2-text', data: data %}
@@ -15,28 +16,44 @@
 
 {% liquid
     assign classes_str = ''
+
+    # keys
+    assign key_text_strong_accented = 'text_strong_accented'
+    assign key_text_no_decal = 'text_no_decal'
+    assign key_text_size = 'text_size'
+    assign key_text = 'text'
+
     # custom classes
     if classes != blank
         assign classes_str = classes_str | append: classes | append: ' '
     endif
     # accented color for strong
-    if data.text_strong_accented
+    if data[ key_text_strong_accented ]
         assign classes_str = classes_str | append: ' -strong-accented '
     endif
     # no decals
-    if data.text_no_decal
+    if data[ key_text_no_decal ]
         assign classes_str = classes_str | append: ' -no-decal '
     endif
     # font-size
-    assign classes_str = classes_str | append: ' _font-' | append: data.text_size
+    assign classes_str = classes_str | append: ' _font-' | append: data[ key_text_size ]
 
 %}
 {% # todo: check icon size %}
 
-{% if data.text != blank %}
+{% if debug != blank and debug == true %}
+    <div class="le-debug-box">
+        text_strong_accented: {{  data[ key_text_strong_accented ] }} - {{  data.text_strong_accented }} - {{ key_text_strong_accented }}<br>
+        text_no_decal: {{  data[ key_text_no_decal ] }} - {{  data.text_no_decal }} - {{ key_text_no_decal }}<br>
+        text_size: {{  data[ key_text_size ] }} - {{  data.text_size }} - {{ key_text_size }}<br>
+        text: {{  data[ key_text ] }} - {{  data.text }} - {{ key_text }}<br>
+    </div>
+{% endif %}
+
+{% if data[ key_text ] != blank %}
     <div class="v2-text {{ classes_str }}">
 
-    {{ data.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+    {{ data[ key_text ] | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
 
     </div>
 {% endif %}

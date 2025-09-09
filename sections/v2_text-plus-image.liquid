@@ -90,7 +90,11 @@
             {{ section_classes }}">
     <div class="page-width">
 
+        {% render 'v2-heading', data: section.settings, classes: " -decal-centered " %}
 
+        {% render 'v2-text', data: section.settings, debug: true %}
+
+        {% render 'v2-text', data: section.settings, prefix: 'subheadline_', debug: true %}
 
     </div>
 
@@ -174,10 +178,10 @@
         },
         {
             "type": "checkbox",
-            "id": "heading_strong_accent",
+            "id": "heading_strong_accented",
             "default": false,
-            "label": "t:lebase.global.heading.strong_accent.label",
-            "info": "t:lebase.global.heading.strong_accent.info"
+            "label": "t:lebase.global.heading.strong_accented.label",
+            "info": "t:lebase.global.heading.strong_accented.info"
         },
         {
             "type": "image_picker",
@@ -187,7 +191,44 @@
 
 
 
-
+      {
+        "type": "header",
+        "content": "t:lebase.global.text.header"
+      },
+      {
+        "type": "richtext",
+        "id": "subheadline_text",
+        "label": "t:lebase.global.text.label"
+      },
+      {
+        "type": "select",
+        "id": "subheadline_text_size",
+        "default": "copy-l",
+        "label": "t:lebase.global.text.size",
+        "options": [
+          {"value": "inherit", "label": "Inherit"},
+          {"value": "hero", "label": "Hero"},
+          {"value": "h1", "label": "H1"},
+          {"value": "h2", "label": "H2"},
+          {"value": "h3", "label": "H3"},
+          {"value": "copy-xl", "label": "Copy XL"},
+          {"value": "copy-l", "label": "Copy L"},
+          {"value": "copy-m", "label": "Copy M"}
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "subheadline_text_no_decal",
+        "default": false,
+        "label": "t:lebase.global.text.no_decal"
+      },
+      {
+        "type": "checkbox",
+        "id": "subheadline_text_strong_accented",
+        "default": false,
+        "label": "t:lebase.global.text.strong_accent",
+        "info": "t:lebase.global.text.strong_accent.info"
+      },
 
 
 
