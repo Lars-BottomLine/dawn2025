@@ -52,7 +52,7 @@
         "boxcol_ebdVaB": {
           "type": "boxcol",
           "settings": {
-            "left_heading_text": "<p>Who Is This Course For?</p>",
+            "left_heading_text": "<p><strong>Who Is This Course For?</strong></p>",
             "left_heading_type": "h3",
             "left_heading_size": "copy-xl",
             "left_heading_no_decal": false,
@@ -62,7 +62,7 @@
             "left_text_size": "copy-m",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_heading_text": "<p>Entry Requirements: No prior qualifications required</p>",
+            "right_heading_text": "<p><strong>Entry Requirements: No prior qualifications required</strong></p>",
             "right_heading_type": "h3",
             "right_heading_size": "copy-xl",
             "right_heading_no_decal": false,
