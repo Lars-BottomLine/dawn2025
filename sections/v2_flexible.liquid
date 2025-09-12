@@ -89,13 +89,37 @@
 <div class="v2-section-flexible
             {{ section_classes }}">
     <div class="page-width">
-        <div class="v2-tcol-content -extra-padding-x">
+        <div class="v2-fx-content -extra-padding-x">
 
-            blocks of content, optional box width or not?
+            {%- for block in section.blocks -%}
+                <div class="v2-fx-row -fx-{{ block.type }}">
+                {% case block.type %}
+                    {%- when 'headline' -%}
+                        {% render 'v2-heading', data: block.settings, classes: "" %}
 
-            or better blocks with two entries prbly
-            no mixing, then doing the container  as necessary
+                    {%- when 'Subheadline' -%}
+                        {% render 'v2-text', data: block.settings, classes: "" %}
 
+                    {%- when 'textcol' -%}
+                        <div class="">
+                            {% render 'v2-text', data: block.settings, classes: "", prefix: "left_" %}
+                        </div>
+                        <div class="">
+                            {% render 'v2-text', data: block.settings, classes: "", prefix: "right_" %}
+                        </div>
+
+                    {%- when 'boxcol' -%}
+
+
+                    {%- when 'iconcol' -%}
+
+
+                    {%- when 'buttoncol' -%}
+                        {% render 'v2-button', data: block.settings, classes: " -hover-grow " %}
+
+                {% endcase %}
+                </div>
+            {% endfor %}
 
         </div>
     </div>
@@ -365,7 +389,83 @@
       "name": "Text columns",
       "settings": [
 
+        {
+            "type": "header",
+            "content": "Left"
+        },
+        {
+            "type": "richtext",
+            "id": "left_text",
+            "label": "t:lebase.global.text.label"
+        },
+        {
+            "type": "select",
+            "id": "left_text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "left_text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "left_text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
 
+        {
+            "type": "header",
+            "content": "Right"
+        },
+        {
+            "type": "richtext",
+            "id": "right_text",
+            "label": "t:lebase.global.text.label"
+        },
+        {
+            "type": "select",
+            "id": "right_text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "right_text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "right_text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
 
         {
             "type": "header",
@@ -398,6 +498,222 @@
       "name": "Box columns",
       "settings": [
         
+         {
+            "type": "header",
+            "content": "Left"
+        },
+         {
+            "type": "richtext",
+            "id": "left_heading_text",
+            "label": "t:lebase.global.heading.text"
+        },
+        {
+            "type": "select",
+            "id": "left_heading_type",
+            "label": "t:lebase.global.heading.type",
+            "default": "h1",
+            "options": [
+                {
+                    "value": "h1",
+                    "label": "H1"
+                },
+                {
+                    "value": "h2",
+                    "label": "H2"
+                },
+                {
+                    "value": "h3",
+                    "label": "H3"
+                },
+                {
+                    "value": "div",
+                    "label": "DIV"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "left_heading_size",
+            "default": "h1",
+            "label": "t:lebase.global.heading.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "left_heading_no_decal",
+            "default": false,
+            "label": "t:lebase.global.heading.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "left_heading_decal_left",
+            "default": false,
+            "label": "t:lebase.global.heading.decal_left"
+        },
+        {
+            "type": "checkbox",
+            "id": "left_heading_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.heading.strong_accented.label",
+            "info": "t:lebase.global.heading.strong_accented.info"
+        },
+        {
+            "type": "image_picker",
+            "id": "left_heading_icon",
+            "label": "t:lebase.global.heading.icon"
+        },
+        {
+            "type": "richtext",
+            "id": "left_text",
+            "label": "t:lebase.global.text.label"
+        },
+        {
+            "type": "select",
+            "id": "left_text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "left_text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "left_text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
+
+        {
+            "type": "header",
+            "content": "Right"
+        },
+        {
+            "type": "richtext",
+            "id": "right_heading_text",
+            "label": "t:lebase.global.heading.text"
+        },
+        {
+            "type": "select",
+            "id": "right_heading_type",
+            "label": "t:lebase.global.heading.type",
+            "default": "h1",
+            "options": [
+                {
+                    "value": "h1",
+                    "label": "H1"
+                },
+                {
+                    "value": "h2",
+                    "label": "H2"
+                },
+                {
+                    "value": "h3",
+                    "label": "H3"
+                },
+                {
+                    "value": "div",
+                    "label": "DIV"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "right_heading_size",
+            "default": "h1",
+            "label": "t:lebase.global.heading.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "right_heading_no_decal",
+            "default": false,
+            "label": "t:lebase.global.heading.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "right_heading_decal_left",
+            "default": false,
+            "label": "t:lebase.global.heading.decal_left"
+        },
+        {
+            "type": "checkbox",
+            "id": "right_heading_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.heading.strong_accented.label",
+            "info": "t:lebase.global.heading.strong_accented.info"
+        },
+        {
+            "type": "image_picker",
+            "id": "right_heading_icon",
+            "label": "t:lebase.global.heading.icon"
+        },
+        {
+            "type": "richtext",
+            "id": "right_text",
+            "label": "t:lebase.global.text.label"
+        },
+        {
+            "type": "select",
+            "id": "right_text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "right_text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "right_text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
+
 
         {
             "type": "header",
