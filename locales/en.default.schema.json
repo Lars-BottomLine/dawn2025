@@ -150,6 +150,12 @@
         },
         "image": {}
       }
+    },
+    "flexible": {
+      "name": "v2 - Flexible Content",
+      "presets": {
+        "name": "v2 - Flexible Content"
+      }
     }
   },
 
