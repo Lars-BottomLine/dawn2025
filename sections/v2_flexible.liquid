@@ -109,7 +109,14 @@
                         </div>
 
                     {%- when 'boxcol' -%}
-
+                    <div class="">
+                        {% render 'v2-heading', data: block.settings, classes: "", prefix: "left_"  %}
+                        {% render 'v2-text', data: block.settings, classes: "", prefix: "left_" %}
+                    </div>
+                    <div class="">
+                        {% render 'v2-heading', data: block.settings, classes: "", prefix: "right_" %}
+                        {% render 'v2-text', data: block.settings, classes: "", prefix: "right_" %}
+                    </div>
 
                     {%- when 'iconcol' -%}
 
@@ -505,7 +512,7 @@
          {
             "type": "richtext",
             "id": "left_heading_text",
-            "label": "t:lebase.global.heading.text"
+            "label": "Headline"
         },
         {
             "type": "select",
@@ -574,7 +581,7 @@
         {
             "type": "richtext",
             "id": "left_text",
-            "label": "t:lebase.global.text.label"
+            "label": "Text"
         },
         {
             "type": "select",
@@ -613,7 +620,7 @@
         {
             "type": "richtext",
             "id": "right_heading_text",
-            "label": "t:lebase.global.heading.text"
+            "label": "Headline"
         },
         {
             "type": "select",
@@ -682,7 +689,7 @@
         {
             "type": "richtext",
             "id": "right_text",
-            "label": "t:lebase.global.text.label"
+            "label": "Text"
         },
         {
             "type": "select",
@@ -827,6 +834,12 @@
                     "label": "t:lebase.global.button.size.medium"
                 }
             ]
+        },
+        {
+          "type": "checkbox",
+          "id": "button_new_window",
+          "default": false,
+          "label": "t:lebase.global.button.new_window"
         },
 
         {

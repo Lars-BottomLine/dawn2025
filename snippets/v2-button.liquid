@@ -17,16 +17,23 @@
 {% liquid
     assign tag = 'div'
     assign href = ''
+    assign new_window = ''
 
     if data.button_url != blank
         assign tag = 'a'
         assign href = ' href="' | append: data.button_url | append: '"'
     endif
+
+    if data.new_window and data.new_window == true and tag != 'a'
+        assign new_window = ' target="_blank" '
+    endif
+
+
 %}
 
 {% if data.button_text != blank or data.button_icon != blank %}
 
-    <{{ tag }} class="v2-button -style-{{ data.button_style }} -size-{{ data.button_size }} {{ classes }}" {{ href }}>
+    <{{ tag }} class="v2-button -style-{{ data.button_style }} -size-{{ data.button_size }} {{ classes }}" {{ href }} {{ new_window }}>
 
         <span>
 
