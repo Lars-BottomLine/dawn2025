@@ -9,6 +9,84 @@
  */
 {
   "sections": {
+    "v2_flexible_Xgp6a3": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_wnFRw9": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Suitability & Prerequisites </p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_6JqwEm": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "boxcol_ebdVaB": {
+          "type": "boxcol",
+          "settings": {
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_HNmjwr": {
+          "type": "textcol",
+          "settings": {
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "iconcol_wKPL7f": {
+          "type": "iconcol",
+          "settings": {
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "buttoncol_jJbRb4": {
+          "type": "buttoncol",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "shopify://products/l2-nutrition-performance-and-healthy-eating-course",
+            "button_style": "secondary",
+            "button_size": "medium",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_wnFRw9",
+        "subheadline_6JqwEm",
+        "boxcol_ebdVaB",
+        "textcol_HNmjwr",
+        "iconcol_wKPL7f",
+        "buttoncol_jJbRb4"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_text_plus_image_PcfkMY": {
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
@@ -1094,6 +1172,7 @@
     }
   },
   "order": [
+    "v2_flexible_Xgp6a3",
     "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
     "v2_hero_jk6W8B",
