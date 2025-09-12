@@ -16,8 +16,8 @@
           "type": "headline",
           "settings": {
             "heading_text": "<p>Suitability & Prerequisites </p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
+            "heading_type": "h2",
+            "heading_size": "h2",
             "heading_no_decal": false,
             "heading_decal_left": false,
             "heading_strong_accented": false
@@ -90,6 +90,7 @@
             "button_url": "shopify://products/l2-nutrition-performance-and-healthy-eating-course",
             "button_style": "secondary",
             "button_size": "medium",
+            "button_new_window": true,
             "margin_top": 0,
             "margin_bottom": 0
           }
@@ -143,6 +144,7 @@
         "button_url": "shopify://blogs/news",
         "button_style": "primary",
         "button_size": "small",
+        "button_new_window": false,
         "bkgr_color": "light-blue",
         "decal_top": true,
         "decal_bottom": true,
@@ -231,7 +233,8 @@
             "button_text": "Log into LMS",
             "button_url": "https://bottomline.agency",
             "button_style": "primary",
-            "button_size": "medium"
+            "button_size": "medium",
+            "button_new_window": false
           }
         },
         "slide_zLMkrC": {
@@ -251,7 +254,8 @@
             "button_text": "Find your path",
             "button_url": "shopify://blogs/news",
             "button_style": "primary",
-            "button_size": "medium"
+            "button_size": "medium",
+            "button_new_window": false
           }
         },
         "slide_yMtA4W": {
@@ -271,7 +275,8 @@
             "button_text": "",
             "button_url": "",
             "button_style": "primary",
-            "button_size": "small"
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
