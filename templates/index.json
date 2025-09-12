@@ -34,16 +34,44 @@
             "margin_bottom": 0
           }
         },
-        "boxcol_ebdVaB": {
-          "type": "boxcol",
+        "textcol_HNmjwr": {
+          "type": "textcol",
           "settings": {
+            "left_text": "<p>Once you’re qualified, we don’t leave you hanging. As one of the UK’s top-rated training providers, <strong>we’ve built partnerships with leading gyms across the country</strong> — including The Gym Group, Virgin Active, and more. <strong>Learners get access to guaranteed job interviews</strong>, giving you a clear pathway into paid employment, check out our <a href=\"/pages/careers\" target=\"_blank\" title=\"Careers\">Career Support page</a> to learn more.</p>",
+            "left_text_size": "copy-m",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": true,
+            "right_text": "",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
             "margin_top": 0,
             "margin_bottom": 0
           }
         },
-        "textcol_HNmjwr": {
-          "type": "textcol",
+        "boxcol_ebdVaB": {
+          "type": "boxcol",
           "settings": {
+            "left_heading_text": "<p>Who Is This Course For?</p>",
+            "left_heading_type": "h3",
+            "left_heading_size": "copy-xl",
+            "left_heading_no_decal": false,
+            "left_heading_decal_left": false,
+            "left_heading_strong_accented": false,
+            "left_text": "<p>This diploma is ideal for aspiring fitness professionals – whether you’re an exercise enthusiast looking to go pro, or someone seeking a career change into personal training. It’s designed for beginners and those who want all-in-one training to become a Gym Instructor and Personal Trainer.</p><ul><li>for fitness-enthusiast <strong>beginners</strong></li><li><strong>All-in-one</strong> training</li></ul>",
+            "left_text_size": "copy-m",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_heading_text": "<p>Entry Requirements: No prior qualifications required</p>",
+            "right_heading_type": "h3",
+            "right_heading_size": "copy-xl",
+            "right_heading_no_decal": false,
+            "right_heading_decal_left": false,
+            "right_heading_strong_accented": false,
+            "right_text": "<p>You must be 16+ years old, with a basic level of fitness and a passion for health and exercise. No experience? No problem – the course includes the foundational Level 2 Gym Instructing certification to get you up to speed.</p><ul><li>Must be<strong> 16+</strong></li><li><strong>No experience</strong> needed</li></ul>",
+            "right_text_size": "copy-m",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
             "margin_top": 0,
             "margin_bottom": 0
           }
@@ -70,8 +98,8 @@
       "block_order": [
         "headline_wnFRw9",
         "subheadline_6JqwEm",
-        "boxcol_ebdVaB",
         "textcol_HNmjwr",
+        "boxcol_ebdVaB",
         "iconcol_wKPL7f",
         "buttoncol_jJbRb4"
       ],
