@@ -91,9 +91,37 @@
     <div class="page-width">
         <div class="v2-cd-content -extra-padding-x">
 
-            {%- for block in section.blocks -%}
-                {{ block.type }}
-            {% endfor %}
+            {% render 'v2-heading', data: section.settings, classes: "" %}
+
+            {% render 'v2-text', data: section.settings, classes: "" %}
+
+            <div class="v2-cd-card-container">
+
+                {%- for block in section.blocks -%}
+
+                    <div class="v2-cd-card">
+
+                        <div class="v2-cd-image">
+                            {% render 'v2-image',
+                                    i_image: block.settings.image,
+                                    forloop_first: forloop.first,
+                                    section_index: section.index
+                            %}
+                        </div>
+
+                        {% render 'v2-text', data: block.settings, prefix: "title_" %}
+
+                        {% render 'v2-text', data: block.settings, prefix: "" %}
+
+                        {% render 'v2-text', data: block.settings, prefix: "claim_" %}
+
+                        {% render 'v2-button', data: block.settings, prefix: "" %}
+
+                    </div>
+
+                {% endfor %}
+
+            </div>
 
         </div>
     </div>
