@@ -3333,7 +3333,6 @@ h3,
 .sa-section-callout h2 {
   font-weight: 700;
   line-height: 1.05;
-  display: inline-block;
 }
 h1.-no-decal,
 h2.-no-decal,
@@ -3357,18 +3356,50 @@ h3.-no-decal:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-no-decal.price:before {
   display: none;
 }
-h1.-decal-centered:before,
+h1.-align-left:before,
+h2.-align-left:before,
+h3.-align-left:before,
+._font-hero.-align-left:before,
+._font-h0.-align-left:before,
+._font-h1.-align-left:before,
+._font-h2.-align-left:before,
+._font-h3.-align-left:before,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-align-left.price:before {
+  left: 0;
+  right: auto;
+}
+h1.-decal-centered:before, h1.-align-center:before,
 h2.-decal-centered:before,
+h2.-align-center:before,
 h3.-decal-centered:before,
+h3.-align-center:before,
 ._font-hero.-decal-centered:before,
+._font-hero.-align-center:before,
 ._font-h0.-decal-centered:before,
+._font-h0.-align-center:before,
 ._font-h1.-decal-centered:before,
+._font-h1.-align-center:before,
 ._font-h2.-decal-centered:before,
+._font-h2.-align-center:before,
 ._font-h3.-decal-centered:before,
-.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-centered.price:before {
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-centered.price:before,
+._font-h3.-align-center:before,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-align-center.price:before {
   left: 50%;
   right: auto;
   margin-left: -1.9rem;
+}
+h1.-align-right:before,
+h2.-align-right:before,
+h3.-align-right:before,
+._font-hero.-align-right:before,
+._font-h0.-align-right:before,
+._font-h1.-align-right:before,
+._font-h2.-align-right:before,
+._font-h3.-align-right:before,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-align-right.price:before {
+  left: auto;
+  right: 0;
 }
 
 ._font-copy-xl,
@@ -3400,8 +3431,9 @@ h1:before,
   height: 6.6rem;
   top: -8.9rem;
 }
-h1.-decal-centered:before,
-._font-h1.-decal-centered:before {
+h1.-decal-centered:before, h1.-align-center:before,
+._font-h1.-decal-centered:before,
+._font-h1.-align-center:before {
   margin-left: -1.6rem;
 }
 @media (max-width: 989px) {
@@ -3422,8 +3454,9 @@ h2:before,
   height: 6.6rem;
   top: -8.9rem;
 }
-h2.-decal-centered:before,
-._font-h2.-decal-centered:before {
+h2.-decal-centered:before, h2.-align-center:before,
+._font-h2.-decal-centered:before,
+._font-h2.-align-center:before {
   margin-left: -1.6rem;
 }
 @media (min-width: 641px) {
@@ -3538,12 +3571,18 @@ a {
   text-align: left;
 }
 .v2-text.-width-narrow {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 50rem;
 }
 .v2-text.-width-medium {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 80rem;
 }
 .v2-text.-width-mediumplus {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 90rem;
 }
 .v2-text.-width-full {
@@ -3560,12 +3599,18 @@ a {
   text-align: left;
 }
 .v2-heading.-width-narrow {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 50rem;
 }
 .v2-heading.-width-medium {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 80rem;
 }
 .v2-heading.-width-mediumplus {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 90rem;
 }
 .v2-heading.-width-full {

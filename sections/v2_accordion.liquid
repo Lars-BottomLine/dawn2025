@@ -118,7 +118,7 @@
     <div class="page-width -section-content {{ content_classes }}">
         <div class="ac-content flex flex-col">
 
-            {% render 'v2-heading', data: section.settings, classes: " -decal-centered " %}
+            {% render 'v2-heading', data: section.settings %}
 
             <div class="le-accordion accordion-{{ section_id_js }} {{ accordion_classes }}">
                 <div class="le-acc-entries">
@@ -247,6 +247,26 @@
         "type": "richtext",
         "id": "heading_text",
         "label": "t:lebase.global.heading.text"
+      },
+      {
+        "type": "select",
+        "id": "heading_align",
+        "default": "center",
+        "label": "t:lebase.global.heading.align.label",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:lebase.global.heading.align.left"
+          },
+          {
+            "value": "center",
+            "label": "t:lebase.global.heading.align.center"
+          },
+          {
+            "value": "right",
+            "label": "t:lebase.global.heading.align.right"
+          }
+        ]
       },
       {
         "type": "select",
