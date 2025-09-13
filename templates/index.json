@@ -108,6 +108,105 @@
         "margin_bottom": 0
       }
     },
+    "v2_cards_AGmV8Q": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_Fqn8tU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "title_text": "<p><strong>Interview guarantee</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Short description</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_JQfjnG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Study_Active_Icons_4.png",
+            "title_text": "<p><strong>CV writing support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Short description</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £49/month available </strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_fWqbn7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-workspace_premium.svg",
+            "title_text": "<p><strong>Career guidance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Short description</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_Fqn8tU",
+        "card_JQfjnG",
+        "card_fWqbn7"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "heading_text": "<p>Guaranteed job interview promise</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees. </p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "card_layout": "vertical",
+        "button_text": "Learn more",
+        "button_url": "shopify://blogs/news/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": true,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_flexible_Xgp6a3": {
       "type": "v2_flexible",
       "blocks": {
@@ -1353,6 +1452,7 @@
   },
   "order": [
     "v2_cards_NkTwDC",
+    "v2_cards_AGmV8Q",
     "v2_flexible_Xgp6a3",
     "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
