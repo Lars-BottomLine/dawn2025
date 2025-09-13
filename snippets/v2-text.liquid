@@ -22,6 +22,8 @@
     assign key_text_no_decal = 'text_no_decal'
     assign key_text_size = 'text_size'
     assign key_text = 'text'
+    assign key_text_align = 'text_align'
+    assign key_text_width = 'text_width'
 
     # add the prefix to all variables
     if prefix and prefix != blank
@@ -29,6 +31,8 @@
         assign key_text_no_decal = prefix | append: key_text_no_decal
         assign key_text_size = prefix | append: key_text_size
         assign key_text = prefix | append: key_text
+        assign key_text_align = prefix | append: key_text_align
+        assign key_text_width = prefix | append: key_text_width
     endif
 
     # custom classes
@@ -45,11 +49,15 @@
     endif
     # font-size
     assign classes_str = classes_str | append: ' _font-' | append: data[ key_text_size ]
-
+    # text
     assign text = data[ key_text ] | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>'
     if no_remove_p
         assign text = data[ key_text ]
     endif
+    # align
+    assign classes_str = classes_str | append: ' -align-' | append: data[ key_text_align ]
+    # width
+    assign classes_str = classes_str | append: ' -width-' | append: data[ key_text_width ]
 
 %}
 {% # todo: check icon size %}

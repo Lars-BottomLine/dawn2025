@@ -97,26 +97,26 @@
                     {%- when 'headline' -%}
                         {% render 'v2-heading', data: block.settings, classes: "" %}
 
-                    {%- when 'Subheadline' -%}
+                    {%- when 'subheadline' -%}
                         {% render 'v2-text', data: block.settings, classes: "" %}
 
                     {%- when 'textcol' -%}
-                        <div class="">
+                        <div class="v2-fx-col -left">
                             {% render 'v2-text', data: block.settings, classes: "", prefix: "left_" %}
                         </div>
-                        <div class="">
+                        <div class="v2-fx-col -right">
                             {% render 'v2-text', data: block.settings, classes: "", prefix: "right_" %}
                         </div>
 
                     {%- when 'boxcol' -%}
-                    <div class="">
-                        {% render 'v2-heading', data: block.settings, classes: "", prefix: "left_"  %}
-                        {% render 'v2-text', data: block.settings, classes: "", prefix: "left_" %}
-                    </div>
-                    <div class="">
-                        {% render 'v2-heading', data: block.settings, classes: "", prefix: "right_" %}
-                        {% render 'v2-text', data: block.settings, classes: "", prefix: "right_" %}
-                    </div>
+                        <div class="v2-fx-col -left">
+                            {% render 'v2-heading', data: block.settings, classes: "", prefix: "left_"  %}
+                            {% render 'v2-text', data: block.settings, classes: "", prefix: "left_" %}
+                        </div>
+                        <div class="v2-fx-col -right">
+                            {% render 'v2-heading', data: block.settings, classes: "", prefix: "right_" %}
+                            {% render 'v2-text', data: block.settings, classes: "", prefix: "right_" %}
+                        </div>
 
                     {%- when 'iconcol' -%}
 
@@ -252,13 +252,53 @@
       "name": "Headline",
       "settings": [
         {
-          "type": "header",
-          "content": "t:lebase.global.heading.header"
-        },
-        {
           "type": "richtext",
           "id": "heading_text",
           "label": "t:lebase.global.heading.text"
+        },
+        {
+            "type": "select",
+            "id": "heading_align",
+            "default": "left",
+            "label": "t:lebase.global.heading.align.label",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "t:lebase.global.heading.align.left"
+                },
+                {
+                    "value": "center",
+                    "label": "t:lebase.global.heading.align.center"
+                },
+                {
+                    "value": "right",
+                    "label": "t:lebase.global.heading.align.right"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "heading_width",
+            "default": "full",
+            "label": "t:lebase.global.heading.width.label",
+            "options": [
+                {
+                    "value": "full",
+                    "label": "t:lebase.global.heading.width.full"
+                },
+                {
+                    "value": "mediumplus",
+                    "label": "t:lebase.global.heading.width.mediumplus"
+                },
+                {
+                    "value": "medium",
+                    "label": "t:lebase.global.heading.width.medium"
+                },
+                {
+                    "value": "narrow",
+                    "label": "t:lebase.global.heading.width.narrow"
+                }
+            ]
         },
         {
           "type": "select",
@@ -334,6 +374,50 @@
           "type": "richtext",
           "id": "text",
           "label": "Text"
+        },
+        {
+            "type": "select",
+            "id": "text_align",
+            "default": "left",
+            "label": "t:lebase.global.text.align.label",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "t:lebase.global.text.align.left"
+                },
+                {
+                    "value": "center",
+                    "label": "t:lebase.global.text.align.center"
+                },
+                {
+                    "value": "right",
+                    "label": "t:lebase.global.text.align.right"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "text_width",
+            "default": "full",
+            "label": "t:lebase.global.text.width.label",
+            "options": [
+                {
+                    "value": "full",
+                    "label": "t:lebase.global.text.width.full"
+                },
+                {
+                    "value": "mediumplus",
+                    "label": "t:lebase.global.text.width.mediumplus"
+                },
+                {
+                    "value": "medium",
+                    "label": "t:lebase.global.text.width.medium"
+                },
+                {
+                    "value": "narrow",
+                    "label": "t:lebase.global.text.width.narrow"
+                }
+            ]
         },
         {
           "type": "select",
@@ -840,6 +924,26 @@
           "id": "button_new_window",
           "default": false,
           "label": "t:lebase.global.button.new_window"
+        },
+        {
+            "type": "select",
+            "id": "button_align",
+            "default": "center",
+            "label": "t:lebase.global.button.align.label",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "t:lebase.global.button.align.left"
+                },
+                {
+                    "value": "center",
+                    "label": "t:lebase.global.button.align.center"
+                },
+                {
+                    "value": "right",
+                    "label": "t:lebase.global.button.align.right"
+                }
+            ]
         },
 
         {

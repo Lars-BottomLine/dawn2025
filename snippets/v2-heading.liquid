@@ -18,41 +18,69 @@
 
 {% liquid
     assign classes_str = ''
+
+    # keys
+    assign key_heading_strong_accented = 'heading_strong_accented'
+    assign key_heading_decal_left = 'heading_decal_left'
+    assign key_heading_no_decal = 'heading_no_decal'
+    assign key_heading_size = 'heading_size'
+    assign key_heading_text = 'heading_text'
+    assign key_heading_type = 'heading_type'
+    assign key_heading_icon = 'heading_icon'
+    assign key_heading_align = 'heading_align'
+    assign key_heading_width = 'heading_width'
+
+    # add the prefix to all variables
+    if prefix and prefix != blank
+        assign key_heading_strong_accented = prefix | append: key_heading_strong_accented
+        assign key_heading_decal_left = prefix | append: key_heading_decal_left
+        assign key_heading_no_decal = prefix | append: key_heading_no_decal
+        assign key_heading_size = prefix | append: key_heading_size
+        assign key_heading_text = prefix | append: key_heading_text
+        assign key_heading_type = prefix | append: key_heading_type
+        assign key_heading_icon = prefix | append: key_heading_icon
+        assign key_heading_align = prefix | append: key_heading_align
+        assign key_heading_width = prefix | append: key_heading_width
+    endif
+
     # custom classes
     if classes != blank
         assign classes_str = classes_str | append: classes | append: ' '
     endif
     # accented color for strong
-    if data.heading_strong_accented
+    if data[ key_heading_strong_accented ]
         assign classes_str = classes_str | append: ' -strong-accented '
     endif
     # no decals
-    if data.heading_no_decal
+    if data[ key_heading_no_decal ]
         assign classes_str = classes_str | append: ' -no-decal '
     endif
     # decal left
-    if data.heading_decal_left
+    if data[ key_heading_decal_left ]
         assign classes_str = classes_str | append: ' -decal-left '
     endif
     # font-size
-    assign classes_str = classes_str | append: ' _font-' | append: data.heading_size
-
+    assign classes_str = classes_str | append: ' _font-' | append: data[ key_heading_size ]
+    # align
+    assign classes_str = classes_str | append: ' -align-' | append: data[ key_heading_align ]
+    # width
+    assign classes_str = classes_str | append: ' -width-' | append: data[ key_heading_width ]
 %}
 {% # todo: check icon size %}
 
-{% if data.heading_text != blank %}
-<{{ data.heading_type }} class="v2-heading {{ classes_str }}">
+{% if data[ key_heading_text ] != blank %}
+<{{ data[ key_heading_type ] }} class="v2-heading {{ classes_str }}">
 
-    {%- if data.heading_icon -%}
+    {%- if data[ key_heading_icon ] -%}
         <div class="v2-heading-icon">
-            {{ data.heading_icon
+            {{ data[ key_heading_icon ]
             | image_url: width: 44
-            | image_tag: alt: data.heading_icon.alt
+            | image_tag: alt: data[ key_heading_icon ].alt
             }}
         </div>
     {%- endif -%}
 
-    {{ data.heading_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+    {{ data[ key_heading_text ] | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
 
-</{{ data.heading_type }}>
+</{{ data[ key_heading_type ] }}>
 {% endif %}

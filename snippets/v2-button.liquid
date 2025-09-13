@@ -7,6 +7,7 @@
             button_text: { string }
             button_url: { string }
             button_icon: { image }
+            button_align: { string }
   }
   - classes: { string }
 
@@ -28,12 +29,15 @@
         assign new_window = ' target="_blank" '
     endif
 
+    assign classes = classes | append: ' -style-' | append: data.button_style
+    assign classes = classes | append: ' -size-' | append: data.button_size
+    assign classes = classes | append: ' -align-' | append: data.button_align
 
 %}
 
 {% if data.button_text != blank or data.button_icon != blank %}
 
-    <{{ tag }} class="v2-button -style-{{ data.button_style }} -size-{{ data.button_size }} {{ classes }}" {{ href }} {{ new_window }}>
+    <{{ tag }} class="v2-button {{ classes }}" {{ href }} {{ new_window }}>
 
         <span>
 

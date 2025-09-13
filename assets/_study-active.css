@@ -3252,7 +3252,7 @@ header .header__icon--cart .icon {
   object-fit: cover;
 }
 
-h1,
+.v2-text ul li, h1,
 h2,
 h3,
 ._font-hero,
@@ -3264,7 +3264,7 @@ h3,
 .sa-section-callout h2 {
   position: relative;
 }
-h1:before,
+.v2-text ul li:before, h1:before,
 h2:before,
 h3:before,
 ._font-hero:before,
@@ -3277,7 +3277,7 @@ h3:before,
   content: "";
   display: block;
   background: url("sa-decal.svg") no-repeat center;
-  background-size: contain;
+  background-size: contain !important;
   width: 3.8rem;
   height: 8rem;
   position: absolute;
@@ -3504,11 +3504,72 @@ a {
 .v2-text {
   font-weight: normal;
 }
+.v2-text ul {
+  margin-top: 2rem;
+}
+.v2-text ul li {
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+}
+.v2-text ul li:before {
+  left: -1.8rem;
+  top: 0;
+  width: 1rem;
+  height: 2rem;
+  background: url("sa-decal-primary.svg") no-repeat center;
+  opacity: 0.25;
+}
+.v2-text ul:last-child {
+  margin-bottom: 0;
+}
 .v2-text p {
   margin-bottom: 2.2rem;
 }
 .v2-text p:last-child {
   margin-bottom: 0;
+}
+.v2-text.-align-center {
+  text-align: center;
+}
+.v2-text.-align-right {
+  text-align: right;
+}
+.v2-text.-align-left {
+  text-align: left;
+}
+.v2-text.-width-narrow {
+  max-width: 50rem;
+}
+.v2-text.-width-medium {
+  max-width: 80rem;
+}
+.v2-text.-width-mediumplus {
+  max-width: 90rem;
+}
+.v2-text.-width-full {
+  max-width: 100%;
+}
+
+.v2-heading.-align-center {
+  text-align: center;
+}
+.v2-heading.-align-right {
+  text-align: right;
+}
+.v2-heading.-align-left {
+  text-align: left;
+}
+.v2-heading.-width-narrow {
+  max-width: 50rem;
+}
+.v2-heading.-width-medium {
+  max-width: 80rem;
+}
+.v2-heading.-width-mediumplus {
+  max-width: 90rem;
+}
+.v2-heading.-width-full {
+  max-width: 100%;
 }
 
 .caption-with-letter-spacing {
@@ -3620,6 +3681,18 @@ a {
 }
 .v2-button[aria-disabled=true]:before {
   background-color: lightgrey;
+}
+.v2-button.-align-left {
+  margin-left: 0;
+  margin-right: auto;
+}
+.v2-button.-align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.v2-button.-align-right {
+  margin-left: auto;
+  margin-right: 0;
 }
 .v2-swiper {
   margin-left: auto;
@@ -3980,6 +4053,33 @@ a {
     width: 35rem;
     height: 35rem;
   }
+}
+
+.v2-section-flexible .v2-fx-content {
+  display: flex;
+  flex-direction: column;
+}
+.v2-section-flexible .v2-fx-content .v2-fx-row.-fx-textcol {
+  display: flex;
+  gap: 4rem;
+}
+.v2-section-flexible .v2-fx-content .v2-fx-row .v2-fx-col {
+  flex: 1 0;
+}
+.v2-section-flexible .v2-fx-content .v2-fx-row .v2-text {
+  margin-top: 0.35rem;
+}
+.v2-section-flexible .v2-fx-content .v2-fx-row.-fx-boxcol {
+  display: flex;
+  gap: 2rem;
+}
+.v2-section-flexible .v2-fx-content .v2-fx-row.-fx-boxcol .v2-fx-col {
+  padding: 4rem;
+  background: var(--Gradient---Light-blue, linear-gradient(69deg, #EBF1FF 18.77%, #FFF 88.16%));
+  color: var(--color-primary);
+}
+.v2-section-flexible .v2-fx-content .v2-fx-row.-fx-buttoncol {
+  display: flex;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
