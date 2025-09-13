@@ -16,7 +16,7 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/symbol-handshake-blue.svg",
-            "title_text": "<p>Interview guarantee</p>",
+            "title_text": "<p><strong>Interview guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
@@ -35,7 +35,7 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Study_Active_Icons_4.png",
-            "title_text": "<p>CV writing support</p>",
+            "title_text": "<p><strong>CV writing support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
@@ -54,7 +54,7 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-workspace_premium.svg",
-            "title_text": "<p>Career guidance</p>",
+            "title_text": "<p><strong>Career guidance</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
