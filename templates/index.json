@@ -15,22 +15,58 @@
         "card_4jFXj6": {
           "type": "card",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "title_text": "<p>Interview guarantee</p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Short description</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
           }
         },
         "card_3VyYGW": {
           "type": "card",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "image": "shopify://shop_images/Study_Active_Icons_4.png",
+            "title_text": "<p>CV writing support</p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Short description</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
           }
         },
         "card_jwQbMY": {
           "type": "card",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "image": "shopify://shop_images/icon-workspace_premium.svg",
+            "title_text": "<p>Career guidance</p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Short description</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
           }
         }
       },
@@ -56,6 +92,7 @@
         "text_strong_accented": false,
         "text_align": "center",
         "text_width": "medium",
+        "card_layout": "vertical",
         "button_text": "Learn more",
         "button_url": "shopify://blogs/news/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
         "button_style": "primary",
@@ -64,7 +101,7 @@
         "button_align": "center",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
