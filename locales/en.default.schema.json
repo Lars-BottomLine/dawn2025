@@ -176,6 +176,20 @@
       "presets": {
         "name": "v2 - Flexible Content"
       }
+    },
+    "cards": {
+      "name": "v2 - Cards",
+      "presets": {
+        "name": "v2 - Cards"
+      },
+      "blocks": {
+        "card": {
+          "name": "Card",
+          "image": "Image",
+          "heading": "Heading",
+          "text": "Text"
+        }
+      }
     }
   },
 
