@@ -70,8 +70,8 @@
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
     }
 
     @media screen and (min-width: 750px) {
@@ -84,6 +84,21 @@
             margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
         }
     }
+    {%- for block in section.blocks -%}
+        {% if block.settings.margin_top or block.settings.margin_bottom %}
+        .{{ section.id }}-block-{{ forloop.index }} {
+            {% if block.settings.margin_top %}margin-top: {{ block.settings.margin_top }}px;{% endif %}
+            {% if block.settings.margin_bottom %}margin-bottom: {{ block.settings.margin_bottom }}px;{% endif %}
+        }
+        @media screen and (min-width: 750px) {
+            .{{ section.id }}-block-{{ forloop.index }} {
+                {% if block.settings.margin_top %}margin-top: {{ block.settings.margin_top | times: 0.75 | round: 0 }}px;{% endif %}
+                {% if block.settings.margin_bottom %}margin-bottom: {{ block.settings.margin_bottom | times: 0.75 | round: 0  }}px;{% endif %}
+            }
+        }
+        {% endif %}
+    {% endfor %}
+
 {%- endstyle -%}
 
 <div class="v2-section-flexible
@@ -92,7 +107,7 @@
         <div class="v2-fx-content -extra-padding-x">
 
             {%- for block in section.blocks -%}
-                <div class="v2-fx-row -fx-{{ block.type }}">
+                <div class="v2-fx-row -fx-{{ block.type }} {{ section.id }}-block-{{ forloop.index }}">
                 {% case block.type %}
                     {%- when 'headline' -%}
                         {% render 'v2-heading', data: block.settings, classes: "" %}
