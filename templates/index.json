@@ -16,6 +16,8 @@
           "type": "headline",
           "settings": {
             "heading_text": "<p>Suitability & Prerequisites </p>",
+            "heading_align": "center",
+            "heading_width": "mediumplus",
             "heading_type": "h2",
             "heading_size": "h2",
             "heading_no_decal": false,
@@ -27,6 +29,8 @@
           "type": "subheadline",
           "settings": {
             "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+            "text_align": "center",
+            "text_width": "mediumplus",
             "text_size": "copy-xl",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -91,6 +95,7 @@
             "button_style": "secondary",
             "button_size": "medium",
             "button_new_window": true,
+            "button_align": "center",
             "margin_top": 0,
             "margin_bottom": 0
           }
