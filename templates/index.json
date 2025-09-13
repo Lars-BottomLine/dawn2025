@@ -9,6 +9,103 @@
  */
 {
   "sections": {
+    "v2_cards_8hE7zP": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_bcH6QR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/tabler-icon-heart-handshake.svg",
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_x7FdkM": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_TXegpG": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_bcH6QR",
+        "card_x7FdkM",
+        "card_TXegpG"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "card_layout": "vertical",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_cards_NkTwDC": {
       "type": "v2_cards",
       "blocks": {
@@ -1451,6 +1548,7 @@
     }
   },
   "order": [
+    "v2_cards_8hE7zP",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
     "v2_flexible_Xgp6a3",
