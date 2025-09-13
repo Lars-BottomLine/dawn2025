@@ -46,6 +46,12 @@
         "strong_accented": {
           "label": "Strong color different",
           "info": "If this is checked, the color of bold text will be different"
+        },
+        "align": {
+          "label": "Alignment",
+          "left": "Left",
+          "center": "Center",
+          "right": "Right"
         }
       },
 
@@ -179,6 +185,11 @@
     },
     "cards": {
       "name": "v2 - Cards",
+      "layout": {
+        "label": "Card Layout",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical"
+      },
       "presets": {
         "name": "v2 - Cards"
       },

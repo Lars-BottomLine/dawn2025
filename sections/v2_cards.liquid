@@ -143,7 +143,7 @@
             "type": "select",
             "id": "heading_type",
             "label": "t:lebase.global.heading.type",
-            "default": "h1",
+            "default": "h2",
             "options": [
                 {
                     "value": "h1",
@@ -166,7 +166,7 @@
         {
             "type": "select",
             "id": "heading_size",
-            "default": "h1",
+            "default": "h2",
             "label": "t:lebase.global.heading.size",
             "options": [
               {"value": "inherit", "label": "Inherit"},
@@ -206,7 +206,7 @@
         {
             "type": "select",
             "id": "heading_align",
-            "default": "left",
+            "default": "center",
             "label": "t:lebase.global.heading.align.label",
             "options": [
                 {
@@ -226,7 +226,7 @@
         {
             "type": "select",
             "id": "heading_width",
-            "default": "full",
+            "default": "medium",
             "label": "t:lebase.global.heading.width.label",
             "options": [
                 {
@@ -260,7 +260,7 @@
         {
             "type": "select",
             "id": "text_size",
-            "default": "copy-l",
+            "default": "copy-xl",
             "label": "t:lebase.global.text.size",
             "options": [
               {"value": "inherit", "label": "Inherit"},
@@ -289,7 +289,7 @@
         {
             "type": "select",
             "id": "text_align",
-            "default": "left",
+            "default": "center",
             "label": "t:lebase.global.text.align.label",
             "options": [
                 {
@@ -309,7 +309,7 @@
         {
             "type": "select",
             "id": "text_width",
-            "default": "full",
+            "default": "medium",
             "label": "t:lebase.global.text.width.label",
             "options": [
                 {
@@ -331,6 +331,29 @@
             ]
         },
 
+        {
+            "type": "header",
+            "content": "Card Layout"
+        },
+        {
+            "type": "select",
+            "id": "card_layout",
+            "default": "vertical",
+            "label": "t:lesections.cards.layout.label",
+            "options": [
+                {
+                    "value": "vertical",
+                    "label": "t:lesections.cards.layout.vertical"
+                },
+                {
+                    "value": "horizontal",
+                    "label": "t:lesections.cards.layout.horizontal"
+                }
+            ]
+        },
+
+
+      
         {
             "type": "header",
             "content": "t:lebase.global.button.header"
@@ -373,7 +396,7 @@
         {
             "type": "select",
             "id": "button_size",
-            "default": "small",
+            "default": "medium",
             "label": "t:lebase.global.button.size.label",
             "options": [
                 {
@@ -503,18 +526,134 @@
             "type": "card",
             "name": "t:lesections.cards.blocks.card.name",
             "settings": [
-                    {
-                    "type": "inline_richtext",
-                    "id": "heading",
-                    "default": "t:sections.footer.blocks.link_list.settings.heading.default",
-                    "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+
+                {
+                    "type": "header",
+                    "content": "Headline"
                 },
                 {
-                    "type": "link_list",
-                    "id": "menu",
-                    "default": "footer",
-                    "label": "t:sections.footer.blocks.link_list.settings.menu.label"
-                }
+                    "type": "richtext",
+                    "id": "title_text",
+                    "label": "t:lebase.global.text.label"
+                },
+                {
+                    "type": "select",
+                    "id": "title_text_size",
+                    "default": "copy-xl",
+                    "label": "t:lebase.global.text.size",
+                    "options": [
+                    {"value": "inherit", "label": "Inherit"},
+                    {"value": "hero", "label": "Hero"},
+                    {"value": "h1", "label": "H1"},
+                    {"value": "h2", "label": "H2"},
+                    {"value": "h3", "label": "H3"},
+                    {"value": "copy-xl", "label": "Copy XL"},
+                    {"value": "copy-l", "label": "Copy L"},
+                    {"value": "copy-m", "label": "Copy M"}
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "id": "title_text_no_decal",
+                    "default": false,
+                    "label": "t:lebase.global.text.no_decal"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "title_text_strong_accented",
+                    "default": false,
+                    "label": "t:lebase.global.text.strong_accented.label",
+                    "info": "t:lebase.global.text.strong_accented.info"
+                },
+
+                {
+                    "type": "header",
+                    "content": "Text"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "t:lebase.global.text.label"
+                },
+                {
+                    "type": "select",
+                    "id": "text_size",
+                    "default": "copy-l",
+                    "label": "t:lebase.global.text.size",
+                    "options": [
+                    {"value": "inherit", "label": "Inherit"},
+                    {"value": "hero", "label": "Hero"},
+                    {"value": "h1", "label": "H1"},
+                    {"value": "h2", "label": "H2"},
+                    {"value": "h3", "label": "H3"},
+                    {"value": "copy-xl", "label": "Copy XL"},
+                    {"value": "copy-l", "label": "Copy L"},
+                    {"value": "copy-m", "label": "Copy M"}
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "id": "text_no_decal",
+                    "default": false,
+                    "label": "t:lebase.global.text.no_decal"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "text_strong_accented",
+                    "default": false,
+                    "label": "t:lebase.global.text.strong_accented.label",
+                    "info": "t:lebase.global.text.strong_accented.info"
+                },
+
+                {
+                    "type": "header",
+                    "content": "Claim"
+                },
+                {
+                    "type": "richtext",
+                    "id": "claim_text",
+                    "label": "t:lebase.global.text.label"
+                },
+                {
+                    "type": "select",
+                    "id": "claim_text_size",
+                    "default": "copy-m",
+                    "label": "t:lebase.global.text.size",
+                    "options": [
+                    {"value": "inherit", "label": "Inherit"},
+                    {"value": "hero", "label": "Hero"},
+                    {"value": "h1", "label": "H1"},
+                    {"value": "h2", "label": "H2"},
+                    {"value": "h3", "label": "H3"},
+                    {"value": "copy-xl", "label": "Copy XL"},
+                    {"value": "copy-l", "label": "Copy L"},
+                    {"value": "copy-m", "label": "Copy M"}
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "id": "claim_highlighted",
+                    "default": false,
+                    "label": "Highlighted (Background)"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "claim_text_no_decal",
+                    "default": false,
+                    "label": "t:lebase.global.text.no_decal"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "claim_text_strong_accented",
+                    "default": false,
+                    "label": "t:lebase.global.text.strong_accented.label",
+                    "info": "t:lebase.global.text.strong_accented.info"
+                },
             ]
         },
     ],
