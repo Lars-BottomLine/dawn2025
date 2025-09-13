@@ -34,8 +34,8 @@
             "text_size": "copy-xl",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
+            "margin_top": 40,
+            "margin_bottom": 40
           }
         },
         "textcol_HNmjwr": {
@@ -49,8 +49,8 @@
             "right_text_size": "copy-m",
             "right_text_no_decal": false,
             "right_text_strong_accented": true,
-            "margin_top": 0,
-            "margin_bottom": 0
+            "margin_top": 40,
+            "margin_bottom": 40
           }
         },
         "boxcol_ebdVaB": {
@@ -76,15 +76,15 @@
             "right_text_size": "copy-m",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
+            "margin_top": 80,
+            "margin_bottom": 80
           }
         },
         "iconcol_wKPL7f": {
           "type": "iconcol",
           "settings": {
-            "margin_top": 0,
-            "margin_bottom": 0
+            "margin_top": 80,
+            "margin_bottom": 80
           }
         },
         "buttoncol_jJbRb4": {
@@ -96,8 +96,8 @@
             "button_size": "medium",
             "button_new_window": true,
             "button_align": "center",
-            "margin_top": 0,
-            "margin_bottom": 0
+            "margin_top": 104,
+            "margin_bottom": 104
           }
         }
       },
