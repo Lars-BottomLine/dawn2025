@@ -95,7 +95,7 @@
         "card_TXegpG",
         "card_JrkGQc"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "name": "v2 - Cards - Horizontal Light Blue",
       "settings": {
         "bkgr_color": "light-blue",
         "card_layout": "horizontal",
@@ -214,7 +214,7 @@
         "card_J7fRWb",
         "card_hCYxNh"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "name": "v2 - Cards - Horizontal Primary",
       "settings": {
         "bkgr_color": "primary",
         "card_layout": "horizontal",
@@ -313,7 +313,7 @@
         "card_3VyYGW",
         "card_jwQbMY"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "name": "v2 - Cards - Vertical Light Blue",
       "settings": {
         "bkgr_color": "light-blue",
         "card_layout": "vertical",
@@ -412,7 +412,7 @@
         "card_JQfjnG",
         "card_fWqbn7"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "name": "v2 - Cards - Vertical Plus Light Blue",
       "settings": {
         "bkgr_color": "light-blue",
         "card_layout": "vertical",
