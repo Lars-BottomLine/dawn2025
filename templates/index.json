@@ -15,7 +15,7 @@
         "card_RDc4Hz": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
+            "image": "shopify://shop_images/cismpa-transparent.png",
             "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -34,7 +34,7 @@
         "card_FRjWpM": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/globe-icon.svg",
+            "image": "shopify://shop_images/5b7a571-675-af07-c53f-5c73cddfc65_18af200b-42ff-4b6b-9c2d-31700823653a.webp",
             "title_text": "<p><strong>Flexible Study</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -53,7 +53,7 @@
         "card_cxdGr7": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-discount-check.svg",
+            "image": "shopify://shop_images/Untitled_design_16.png",
             "title_text": "<p><strong>Trusted Provider</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -72,7 +72,7 @@
         "card_FAXdEC": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-trending-up.svg",
+            "image": "shopify://shop_images/parkwood-leisure-logo.png",
             "title_text": "<p><strong>Growing Career</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
