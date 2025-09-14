@@ -16,11 +16,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/cismpa-transparent.png",
-            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
+            "title_text": "<p><strong>McDonald Method</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Benefit from our network of top UK gyms.</p>",
+            "text": "<p>The McDonald Method is a coaching and education platform created by Ben McDonald that blends fitness, boxing, movement, and personal development into accessible learning experiences. Its mission is to help people move better, breathe better, and connect more authentically—whether they are athletes, coaches, or everyday individuals.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -35,11 +35,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/5b7a571-675-af07-c53f-5c73cddfc65_18af200b-42ff-4b6b-9c2d-31700823653a.webp",
-            "title_text": "<p><strong>Flexible Study</strong></p>",
+            "title_text": "<p><strong>MedFit Education</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Study on your own time, from anywhere.</p>",
+            "text": "<p>MedFit Education, often referred to as the MedFit Education Foundation (MFEF),is a non-profit organisation focused on providing continuing education for fitness and allied healthcare professionals.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -54,30 +54,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Untitled_design_16.png",
-            "title_text": "<p><strong>Trusted Provider</strong></p>",
+            "title_text": "<p><strong>Boxercise</strong> </p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_FAXdEC": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/parkwood-leisure-logo.png",
-            "title_text": "<p><strong>Growing Career</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
+            "text": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -92,8 +73,7 @@
       "block_order": [
         "card_RDc4Hz",
         "card_FRjWpM",
-        "card_cxdGr7",
-        "card_FAXdEC"
+        "card_cxdGr7"
       ],
       "name": "v2 - Cards - Wide White",
       "settings": {
