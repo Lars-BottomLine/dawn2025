@@ -4107,22 +4107,66 @@ a {
   display: flex;
 }
 
+.v2-section-cards .v2-cd-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.v2-section-cards .v2-cd-content .v2-cd-header .v2-text {
+  margin-top: 1.5rem;
+}
 .v2-section-cards .v2-cd-content .v2-cd-card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  max-width: 112.8rem;
+  width: 100%;
   margin: auto;
 }
-.v2-section-cards .v2-cd-content .v2-cd-card-container .v2-cd-card {
-  padding: 0 2.4rem;
+.v2-section-cards.-layout-vertical .v2-cd-content .v2-cd-card-container {
+  max-width: 112.8rem;
 }
-.v2-section-cards .v2-cd-content .v2-cd-card-container .v2-cd-image {
-  margin-bottom: auto;
-  width: 100%;
-  height: 100%;
-  max-width: 6rem;
-  max-height: 6rem;
+.v2-section-cards.-layout-vertical .v2-cd-content .v2-cd-card-container .v2-cd-card {
+  padding: 0 2.4rem;
+  flex: 1 0;
+  text-align: center;
+}
+.v2-section-cards.-layout-vertical .v2-cd-content .v2-cd-card-container .v2-cd-image {
+  margin: auto;
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 1.5rem;
+}
+.v2-section-cards.-layout-vertical .v2-cd-content .v2-cd-card-container .v2-text {
+  text-align: center;
+}
+.v2-section-cards.-layout-vertical .v2-cd-content .v2-cd-card-container .v2-cd-text {
+  margin-top: 0.7rem;
+}
+.v2-section-cards.-layout-horizontal .v2-cd-content .v2-cd-card-container {
+  max-width: 90rem;
+  gap: 1.2rem 2rem;
+}
+.v2-section-cards.-layout-horizontal .v2-cd-content .v2-cd-card-container .v2-cd-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.v2-section-cards.-layout-horizontal .v2-cd-content .v2-cd-card-container .v2-cd-card {
+  flex: 1 0 44rem;
+  padding: 0;
+}
+.v2-section-cards.-layout-horizontal .v2-cd-content .v2-cd-card-container .v2-cd-card .v2-cd-card-content {
+  padding: 1.6rem;
+  display: flex;
+  gap: 1.2rem;
+}
+.v2-section-cards.-layout-horizontal .v2-cd-content .v2-cd-card-container .v2-cd-card .v2-cd-image {
+  width: 8rem;
+  height: 8rem;
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 
 /*# sourceMappingURL=_study-active.css.map */

@@ -61,6 +61,7 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
+    assign section_classes = section_classes | append: ' -layout-' | append: section.settings.card_layout
 
 %}
 
@@ -91,37 +92,48 @@
     <div class="page-width">
         <div class="v2-cd-content -extra-padding-x">
 
-            {% render 'v2-heading', data: section.settings, classes: "" %}
+            <div class="v2-cd-header">
 
-            {% render 'v2-text', data: section.settings, classes: "" %}
+                {% render 'v2-heading', data: section.settings, classes: "" %}
+
+                {% render 'v2-text', data: section.settings, classes: "" %}
+
+            </div>
 
             <div class="v2-cd-card-container">
 
                 {%- for block in section.blocks -%}
 
                     <div class="v2-cd-card">
+                        <div class="v2-cd-card-content ">
 
-                        <div class="v2-cd-image">
-                            {% render 'v2-image',
-                                    i_image: block.settings.image,
-                                    forloop_first: forloop.first,
-                                    section_index: section.index
-                            %}
+                            <div class="v2-cd-image">
+                                {% render 'v2-image',
+                                        i_image: block.settings.image,
+                                        forloop_first: forloop.first,
+                                        section_index: section.index
+                                %}
+                            </div>
+
+                            <div class="v2-cd-right">
+
+                                {% render 'v2-text', data: block.settings, prefix: "title_", classes: " v2-cd-title " %}
+
+                                {% render 'v2-text', data: block.settings, prefix: "", classes: " v2-cd-text " %}
+
+                                {% render 'v2-text', data: block.settings, prefix: "claim_", classes: " v2-cd-button " %}
+
+                            </div>
+
                         </div>
-
-                        {% render 'v2-text', data: block.settings, prefix: "title_" %}
-
-                        {% render 'v2-text', data: block.settings, prefix: "" %}
-
-                        {% render 'v2-text', data: block.settings, prefix: "claim_" %}
-
-                        {% render 'v2-button', data: block.settings, prefix: "" %}
 
                     </div>
 
                 {% endfor %}
 
             </div>
+
+            {% render 'v2-button', data: section.settings, prefix: "" %}
 
         </div>
     </div>
@@ -157,6 +169,28 @@
                 }
             ]
         },
+
+
+      {
+        "type": "header",
+        "content": "Card Layout"
+      },
+      {
+        "type": "select",
+        "id": "card_layout",
+        "default": "vertical",
+        "label": "t:lesections.cards.layout.label",
+        "options": [
+          {
+            "value": "vertical",
+            "label": "t:lesections.cards.layout.vertical"
+          },
+          {
+            "value": "horizontal",
+            "label": "t:lesections.cards.layout.horizontal"
+          }
+        ]
+      },
 
         {
             "type": "header",
@@ -359,29 +393,8 @@
             ]
         },
 
-        {
-            "type": "header",
-            "content": "Card Layout"
-        },
-        {
-            "type": "select",
-            "id": "card_layout",
-            "default": "vertical",
-            "label": "t:lesections.cards.layout.label",
-            "options": [
-                {
-                    "value": "vertical",
-                    "label": "t:lesections.cards.layout.vertical"
-                },
-                {
-                    "value": "horizontal",
-                    "label": "t:lesections.cards.layout.horizontal"
-                }
-            ]
-        },
 
 
-      
         {
             "type": "header",
             "content": "t:lebase.global.button.header"
