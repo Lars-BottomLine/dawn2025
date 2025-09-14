@@ -114,12 +114,12 @@
         "card_bcH6QR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
-            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
+            "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
+            "title_text": "<p><strong>Stepping it up in wellness</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Benefit from our network of top UK gyms.</p>",
+            "text": "<p>Deepen your impact with courses designed to support the whole person. <br/>Coach your clients to better understand mental health, or offer specialist<br/>support for long-term conditions.</p><ul><li>AIQ Level 3 Diploma in Wellness Coaching</li><li>Level 2 Award in Mental Health Awareness</li><li>Level 3 Award in Supporting Clients with Long-Term Conditions</li></ul>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -133,12 +133,12 @@
         "card_x7FdkM": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/globe-icon.svg",
-            "title_text": "<p><strong>Flexible Study</strong></p>",
+            "image": "shopify://shop_images/pregnancypersonaltrainer.avif",
+            "title_text": "<p><strong>The nutrition route</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Study on your own time, from anywhere.</p>",
+            "text": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -152,31 +152,12 @@
         "card_TXegpG": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-discount-check.svg",
-            "title_text": "<p><strong>Trusted Provider</strong></p>",
+            "image": "shopify://shop_images/gympersonaltrainer_b7a39e26-937c-4860-ae65-3b5f6d9f70f5.jpg",
+            "title_text": "<p><strong>Specialise in women’s wellness</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_JrkGQc": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/tabler-icon-trending-up.svg",
-            "title_text": "<p><strong>Growing Career</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
+            "text": "<p>Equip yourself with the knowledge and empathy to better serve women  at<br/> every life stage. These courses cover everything from pre- and postnatal <br/>care to menopause interventions—empowering you to     provide personalised,<br/> evidence-based support for women’s evolving health needs.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -191,8 +172,7 @@
       "block_order": [
         "card_bcH6QR",
         "card_x7FdkM",
-        "card_TXegpG",
-        "card_JrkGQc"
+        "card_TXegpG"
       ],
       "name": "v2 - Cards - Wide Box Light Blue",
       "settings": {
