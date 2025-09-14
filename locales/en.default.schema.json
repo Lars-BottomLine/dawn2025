@@ -1,4 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
+  "lebase": {
+    "global": {
+
+      "heading": {
+        "header": "Heading",
+        "text": "Content",
+        "type": "Tag Type",
+        "size": "Font Size",
+        "no_decal": "No decal",
+        "decal_left": "Decal left",
+        "icon": "Icon",
+        "strong_accented": {
+          "label": "Strong color different",
+          "info": "If this is checked, the color of bold text will be different"
+        },
+        "align": {
+          "label": "Alignment",
+          "left": "Left",
+          "center": "Center",
+          "right": "Right"
+        },
+        "width": {
+          "label": "Width",
+          "full": "Full width",
+          "medium": "Medium width",
+          "mediumplus": "Medium Plus width",
+          "narrow": "Narrow width"
+        }
+      },
+
+      "text": {
+        "header": "Text",
+        "label": "Content",
+        "size": "Size",
+        "no_decal": "No decal",
+        "strong_accented": {
+          "label": "Strong color different",
+          "info": "If this is checked, the color of bold text will be different"
+        },
+        "align": {
+          "label": "Alignment",
+          "left": "Left",
+          "center": "Center",
+          "right": "Right"
+        },
+        "width": {
+          "label": "Width",
+          "full": "Full width",
+          "medium": "Medium width",
+          "mediumplus": "Medium Plus width",
+          "narrow": "Narrow width"
+        }
+      },
+
+      "button": {
+        "header": "Button",
+        "text": "Label",
+        "url": "url",
+        "icon": "icon",
+        "style": {
+          "label": "Style",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "plain": "Plain"
+        },
+        "size": {
+          "label": "Size",
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        },
+        "new_window": "Open in new window",
+        "align": {
+          "label": "Alignment",
+          "left": "Left",
+          "center": "Center",
+          "right": "Right"
+        }
+      },
+
+      "bkgr_color": {
+        "header": "Background color",
+        "label": "Background color",
+        "primary": "Blue (primary)",
+        "light-blue": "Light Blue",
+        "white": "White"
+      },
+
+      "custom_classes": {
+        "header": "Custom Classes",
+        "paragraph": "Add a custom class to a section or block",
+        "label": "Class names without dots and at least one space between them"
+      },
+
+      "skewed_border": {
+        "header": "Skewed border",
+        "label_top": "Skewed on top",
+        "label_bottom": "Skewed on bottom"
+      },
+
+      "padding": {
+        "header": "Padding",
+        "label_top": "Top",
+        "label_bottom": "Bottom"
+      },
+
+      "margin": {
+        "header": "Margin",
+        "label_top": "Top",
+        "label_bottom": "Bottom"
+      },
+
+      "slider": {
+        "header": "Slider",
+        "effect": {
+          "label": "Transition",
+          "slide": "Slide",
+          "fade": "Fade"
+        },
+        "autoplay": "Autoplay slides",
+        "autospeed": "Autoplay speed"
+      }
+
+    }
+  },
+
+  "lesections": {
+    "hero": {
+      "name": "v2 - Hero",
+      "presets": {
+        "name": "v2 - Hero"
+      },
+      "blocks": {
+        "slide": {
+          "name": "Slider",
+          "image": "Image"
+        }
+      }
+    },
+    "accordion": {
+      "name": "v2 - Accordion",
+      "width": {
+        "label": "Accordion width",
+        "full": "Full width",
+        "narrow": "Narrow width"
+      },
+      "height": {
+        "label": "Accordion height limit",
+        "auto": "Auto",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      },
+      "row": {
+        "name": "Accordion Row",
+        "image": "Image",
+        "heading": "Heading",
+        "text": "Text"
+      },
+      "presets": {
+        "name": "v2 - Accordion"
+      }
+    },
+    "textplusimage": {
+      "name": "v2 - Text + Image",
+      "presets": {
+        "name": "v2 - Text + Image"
+      },
+      "blocks": {
+        "text": {
+          "name": "Text",
+          "text": "Text"
+        },
+        "image": {}
+      }
+    },
+    "flexible": {
+      "name": "v2 - Flexible Content",
+      "presets": {
+        "name": "v2 - Flexible Content"
+      }
+    },
+    "cards": {
+      "name": "v2 - Cards",
+      "layout": {
+        "label": "Card Layout",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "wide_box": "Wide box",
+        "wide": "Wide"
+      },
+      "presets": {
+        "name": "v2 - Cards"
+      },
+      "blocks": {
+        "card": {
+          "name": "Card",
+          "image": "Image",
+          "heading": "Heading",
+          "text": "Text"
+        }
+      }
+    }
+  },
+
   "settings_schema": {
     "global": {
       "settings": {
@@ -281,6 +495,10 @@
         "social_vimeo_link": {
           "label": "Vimeo",
           "info": "https://vimeo.com/shopify"
+        },
+        "social_linkedin_link": {
+          "label": "LinkedIn",
+          "info": "https://www.linkedin.com/"
         }
       }
     },
@@ -309,6 +527,17 @@
         }
       }
     },
+
+    "custom_classes": {
+      "name": "Custom Classes",
+      "settings": {
+        "paragraph": "Add a custom class to a section or block",
+        "class_names": {
+          "label": "Class names without dots and at least one space between them"
+        }
+      }
+    },
+
     "cart": {
       "name": "Cart",
       "settings": {
@@ -388,6 +617,11 @@
         "padding_top": "Top",
         "padding_bottom": "Bottom"
       },
+      "margin": {
+        "section_margin_heading": "Margin",
+        "margin_top": "Top",
+        "margin_bottom": "Bottom"
+      },
       "spacing": "Spacing",
       "colors": {
         "label": "Color scheme",
@@ -453,7 +687,7 @@
         },
         "paragraph": {
           "content": "Appear only on large screens"
-        },                     
+        },
         "show_social": {
           "label": "Social media icons",
           "info": "[Manage social accounts](/editor?context=theme&category=social%20media)"
@@ -517,7 +751,7 @@
         },
         "header_layout": {
           "content": "Layout"
-        },            
+        },
         "desktop_layout": {
           "label": "Layout",
           "options__1": {
@@ -610,7 +844,7 @@
         },
          "header_layout": {
         "content": "Layout"
-        },        
+        },
         "image_ratio": {
           "label": "Image ratio",
           "options__1": {
@@ -696,13 +930,13 @@
         },
         "text_header": {
         "content": "Text"
-        },        
+        },
         "blog": {
           "label": "Blog"
         },
         "post_limit": {
           "label": "Post count"
-        }, 
+        },
         "columns_desktop": {
           "label": "Columns"
         },
@@ -757,7 +991,7 @@
         },
         "header_mobile": {
         "content": "Mobile layout"
-        },                 
+        },
         "collection": {
           "label": "Collection"
         },
@@ -1148,6 +1382,18 @@
         "enable_customer_avatar": {
           "label": "Customer account avatar",
           "info": "Only visible when customers are signed in with Shop. [Manage customer accounts](/admin/settings/customer_accounts)"
+        },
+        "enable_header_file_download": {
+          "label": "Add a download button",
+          "info": "A download button for a file will be added to the right side of the header (selectable in the options below)"
+        },
+        "header_file_download": {
+          "label": "Download Button: The URL of the file to be downloaded",
+          "placeholder": "Get the URL from the Shopify backend under Content -> Files"
+        },
+        "header_file_download_title": {
+          "label": "Download Button: Text",
+          "placeholder": "The text for the download button"
         }
       }
     },
@@ -1324,7 +1570,7 @@
       "content": "Content"
       },
       "header_colors": {
-      "content": "Colors" 
+      "content": "Colors"
       },
         "image": {
           "label": "Image"
@@ -1504,7 +1750,7 @@
         },
         "header_3":{
         "content": "Colors"
-        },        
+        },
         "image_height": {
           "options__1": {
             "label": "Adapt to image"
@@ -2295,7 +2541,7 @@
             },
             "pairing_2": {
               "label": "Pairing 2"
-            },            
+            },
             "icon_2": {
               "label": "Icon"
             },
@@ -2308,7 +2554,7 @@
             },
             "pairing_3": {
             "label": "Pairing 3"
-            },             
+            },
             "icon_3": {
               "label": "Icon"
             },
@@ -2429,7 +2675,7 @@
           "options__2": {
             "label": "2"
           }
-        },        
+        },
         "image_ratio": {
           "label": "Image ratio",
           "options__1": {
@@ -2481,10 +2727,10 @@
         },
         "header_layout": {
           "content": "Layout"
-        },                            
+        },
         "header_button": {
           "content": "Button"
-        }, 
+        },
         "image_width": {
           "label": "Width",
           "options__1": {
@@ -2691,7 +2937,7 @@
         },
         "content_header": {
           "content": "Content"
-        },        
+        },
         "desktop_content_alignment": {
           "options__1": {
             "label": "Left"
@@ -2924,7 +3170,7 @@
           "settings": {
             "header_button1": {
             "content": "Button 1"
-            }, 
+            },
             "button_label_1": {
               "label": "Label",
               "info": "Leave blank to hide",
@@ -2938,7 +3184,7 @@
             },
             "header_button2": {
               "content": "Button 2"
-            },             
+            },
             "button_label_2": {
               "label": "Label",
               "info": "Leave label blank to hide"
@@ -3004,8 +3250,133 @@
         "name": "Video"
       }
     },
+    "le_swiper": {
+      "name": "StudyActive - Slideshow",
+      "heading": {
+        "label": "Heading"
+      },
+      "presets": {
+        "name": "StudyActive - Slideshow"
+      }
+    },
+
+    "le_basics": {
+      "source": {
+        "header": "Dynamic Data Source",
+        "info": "If a source is selected here, the template's rows / images won't be used.",
+        "label": "Use the product data (ignore any row/image settings in this section)"
+      }
+    },
+
+    "le_face2face": {
+      "name": "StudyActive - Face2Face",
+      "presets": {
+        "name": "StudyActive - Face2Face"
+      }
+    },
+    "le_imagentext": {
+      "name": "StudyActive - Image + Text",
+      "presets": {
+        "name": "StudyActive - Image + Text"
+      }
+    },
+    "le_whychoose": {
+      "name": "StudyActive - Title + Columns",
+      "presets": {
+        "name": "StudyActive - Title + Columns"
+      }
+    },
+    "le_accordion": {
+      "name": "StudyActive - Collapsible",
+      "presets": {
+        "name": "StudyActive - Collapsible"
+      }
+    },
+    "le_image-slider": {
+      "name": "StudyActive - Image Slider",
+      "presets": {
+        "name": "StudyActive - Image Slider"
+      }
+    },
+    "le_featured-blog": {
+      "name": "StudyActive - Blog Slider",
+      "presets": {
+        "name": "StudyActive - Blog Slider"
+      }
+    },
+
+    "le_tab": {
+      "name": "StudyActive - Text cols & Background",
+      "presets": {
+        "name": "StudyActive - Text cols & Background"
+      }
+    },
+
+    "le_steps": {
+      "name": "StudyActive - Steps",
+      "presets": {
+        "name": "StudyActive - Steps"
+      }
+    },
+
+    "le_featured": {
+      "name": "StudyActive - Featured Product",
+      "presets": {
+        "name": "StudyActive - Featured Product"
+      }
+    },
+
+    "le_callout": {
+      "name": "StudyActive - Callout",
+      "presets": {
+        "name": "StudyActive - Callout"
+      }
+    },
+
+    "le_collection-bundle-grid": {
+      "name": "StudyActive - Bundle Grid",
+      "presets": {
+        "name": "StudyActive - Bundle Grid"
+      }
+    },
+
+    "le_speechbubble": {
+      "name": "StudyActive - Speech Bubble",
+      "presets": {
+        "name": "StudyActive - Speech Bubble"
+      }
+    },
+
+    "le_profile": {
+      "name": "StudyActive - Profile",
+      "presets": {
+        "name": "StudyActive - Profile"
+      }
+    },
+
+    "le_testimonials": {
+      "name": "StudyActive - Testimonials",
+      "presets": {
+        "name": "StudyActive - Testimonials"
+      }
+    },
+
+    "le_mainblog": {
+      "name": "StudyActive - Blogs Overview",
+      "presets": {
+        "name": "StudyActive - Blogs Overview"
+      }
+    },
+
+    "le_mainarticle": {
+      "name": "StudyActive - Blog Article",
+      "presets": {
+        "name": "StudyActive - Blog Article"
+      }
+    },
+
     "slideshow": {
-      "name": "Slideshow",
+      "name": "Slideshow (default)",
       "settings": {
         "layout": {
           "label": "Layout",
@@ -3078,7 +3449,7 @@
               "default": "Tell your brand's story through images"
             },
             "header_button": {
-            "content": "Button"      
+            "content": "Button"
             },
             "button_label": {
               "label": "Label",
@@ -3092,7 +3463,7 @@
               "label": "Outline style"
             },
             "box_align": {
-              "label": "Content position",              
+              "label": "Content position",
               "options__1": {
                 "label": "Top left"
               },
@@ -3122,7 +3493,7 @@
               }
             },
             "header_layout": {
-            "content": "Layout"                 
+            "content": "Layout"
             },
             "show_text_box": {
               "label": "Container"
@@ -3143,11 +3514,11 @@
               "label": "Overlay opacity"
             },
             "header_text": {
-            "content": "Text"      
+            "content": "Text"
             },
             "header_colors": {
-            "content": "Colors"                 
-            },            
+            "content": "Colors"
+            },
             "text_alignment_mobile": {
               "label": "Mobile content alignment",
               "options__1": {
@@ -3164,7 +3535,7 @@
         }
       },
       "presets": {
-        "name": "Slideshow"
+        "name": "Slideshow - default"
       }
     },
     "collapsible_content": {
@@ -3209,7 +3580,7 @@
         },
         "section_color_scheme": {
         "label": "Section color scheme"
-        },        
+        },
         "open_first_collapsible_row": {
           "label": "Open first row"
         },

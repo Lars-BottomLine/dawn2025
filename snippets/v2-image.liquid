@@ -1,0 +1,53 @@
+{% comment %}
+  Renders an entry for an accordion
+
+  Accepts:
+  - i_image: { Image )
+  - forloop_first: { bool }
+  - section_index: { Number }
+
+  Usage:
+  {% render 'le_accordion-entry', ae_title: "Hello", ae_text: "This is interesting', i_image: block.settings.image %}
+{% endcomment %}
+
+{%- if i_image -%}
+
+    {%- liquid
+
+        # check if SVG
+        assign img_extension = i_image | split: '.' | last | downcase
+        assign iz_svg = false
+        if img_extension == 'svg'
+            assign iz_svg = true
+        endif
+
+        assign height = i_image.width | divided_by: i_image.aspect_ratio | round
+
+        assign sizes = '100vw'
+        assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+        assign fetch_priority = 'auto'
+        if section_index == 1
+            assign fetch_priority = 'high'
+        endif
+
+    -%}
+
+    {%- if iz_svg %}
+        <img src="{{ i_image | image_url }}" alt="{{ i_image.alt }}">
+    {%- else -%}
+        {%- if forloop_first %}
+            {{
+            i_image
+            | image_url: width: 880
+            | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+        {%- else -%}
+            {{
+            i_image
+            | image_url: width: 880
+            | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+            }}
+        {%- endif -%}
+    {%- endif -%}
+{%- endif -%}

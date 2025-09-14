@@ -79,7 +79,7 @@
 
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
-    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -128,6 +128,7 @@
     endif
   -%}
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
@@ -140,7 +141,7 @@
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
+        <h1 class="header__heading -no-decal">
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}
@@ -272,9 +273,9 @@
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
           {% if cart == empty %}
-            <span class="svg-wrapper">{{'icon-cart-empty.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">{{'sa-icon-shopping-cart-empty.svg' | inline_asset_content }}</span>
           {% else %}
-            <span class="svg-wrapper">{{'icon-cart.svg' | inline_asset_content }}</span>
+            <span class="svg-wrapper">{{'sa-icon-shopping-cart.svg' | inline_asset_content }}</span>
           {% endif %}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
@@ -286,6 +287,15 @@
           </div>
         {%- endif -%}
       </a>
+
+      {% if section.settings.enable_header_file_download %}
+        <a href="{{ section.settings.header_file_download }}" class="sa-button -hover-grow -no-wrap ml-8" alt="File Download">
+            <span>
+                {{ section.settings.header_file_download_title }}
+            </span>
+        </a>
+      {% endif %}
+
     </div>
   </header>
 </{{ header_tag }}>
@@ -293,6 +303,7 @@
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
 {%- endif -%}
+
 
 {% javascript %}
   class StickyHeader extends HTMLElement {
@@ -589,6 +600,27 @@
       "default": true,
       "label": "t:sections.header.settings.enable_customer_avatar.label",
       "info": "t:sections.header.settings.enable_customer_avatar.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_header_file_download",
+      "default": true,
+      "label": "t:sections.header.settings.enable_header_file_download.label",
+      "info": "t:sections.header.settings.enable_header_file_download.info"
+    },
+    {
+      "type": "text",
+      "id": "header_file_download_title",
+      "label": "t:sections.header.settings.header_file_download_title.label",
+      "placeholder": "t:sections.header.settings.header_file_download_title.info",
+      "visible_if": "{{ section.settings.enable_header_file_download == true }}"
+    },
+    {
+      "type": "text",
+      "id": "header_file_download",
+      "label": "t:sections.header.settings.header_file_download.label",
+      "placeholder": "t:sections.header.settings.header_file_download.info",
+      "visible_if": "{{ section.settings.enable_header_file_download == true }}"
     },
     {
       "type": "header",

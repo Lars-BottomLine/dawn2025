@@ -1,0 +1,427 @@
+{%- liquid
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white'
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary'
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin'
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding'
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+{% liquid
+    assign image = section.settings.image
+    assign use_product_data = false
+    if section.settings.use_product_data
+        assign use_product_data = true
+        if product.metafields.custom.profile_image
+            assign image = product.metafields.custom.profile_image
+        endif
+    endif
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+%}
+
+
+<div class="sa-section-profile
+            {{ section_classes }}">
+    <div class="page-width">
+
+        {% if section.settings.heading or section.settings.text %}
+        <div class="pro-header pro-container">
+
+            {% # HEADING
+               # ---------------------- %}
+            {% if section.settings.heading %}
+            <div class="pro-heading">
+                <{{ section.settings.heading_type }} class="pro-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                    {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </{{ section.settings.heading_type }}>
+            </div>
+            {% endif %}
+
+        </div>
+        {% endif %}
+
+        <div class="pro-wrapper pro-container">
+
+            {% if image != blank %}
+            <div class="pro-left">
+                <div class="pro-image">
+                    {{ image
+                        | image_url: width: 750
+                        | image_tag: alt: image.alt }}
+                </div>
+            </div>
+            {% endif %}
+
+            <div class="pro-right">
+                <div class="">
+
+                {% if use_product_data and mode_live %}
+
+                    {% for entry in product.metafields.custom.profile_info.value %}
+
+                        {% liquid
+                            assign block_type = 'title_text'
+                            if entry.link_url != blank or entry.link_label != blank or entry.icon
+                                assign block_type = 'social'
+                            endif
+                        %}
+                        {% render 'le_profile-info',
+                                pi_type: block_type,
+                                pi_title: entry.title,
+                                pi_text: entry.text,
+                                pi_image: entry.icon,
+                                pi_link_url: entry.link_url,
+                                pi_link_title: entry.link_label
+                        %}
+                    {% endfor %}
+
+                {% else %}
+                    {%- for block in section.blocks -%}
+                        {% render 'le_profile-info',
+                            pi_type: block.type,
+                            pi_title: block.settings.title,
+                            pi_text: block.settings.text,
+                            pi_image: block.settings.image,
+                            pi_link_url: block.settings.url,
+                            pi_link_title: block.settings.title
+                        %}
+                    {% endfor %}
+                {% endif %}
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "t:sections.le_profile.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "<p>Heading</p>",
+      "label": "t:sections.le_swiper.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_type",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "div",
+          "label": "DIV"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading type"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal",
+      "label": "Heading font size"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_decal",
+      "default": false,
+      "label": "No decals on 'Heading'"
+    },
+
+    {
+      "type": "select",
+      "id": "section_bkgr",
+      "label": "Background Color",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "primary"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Profile image"
+    },
+
+    {
+      "type": "header",
+      "content": "t:settings_schema.le_basics.source.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_product_data",
+      "label": "Use the product data (ignore any row/image settings in this section)",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
+    },
+
+
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "title",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social Link",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.le_profile.presets.name",
+      "settings": {
+        "heading": "Profile Section"
+      },
+      "blocks": [
+        {
+          "type": "text"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "social"
+        },
+        {
+          "type": "social"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

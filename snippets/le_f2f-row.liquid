@@ -1,0 +1,88 @@
+{% comment %}
+  Renders an entry for the face2face section
+
+  Accepts:
+  - ff_id: { string }
+  - ff_image: { Image }
+  - ff_forloop_first: { boolean }
+  - ff_section_index: { number }
+  - ff_forloop_index: { number }
+  - ff_heading: { string }
+  - ff_heading_size: { string }
+  - kb_text: { string }
+  - kb_button_url: { string }
+  - kb_button_label: { string }
+  - kb_izthreecolcompact: { boolean }
+
+  Usage:
+  {% render 'le_key-benefit', kb_title: "Hello", kb_text: "This is interesting', kb_image: kb_icon, kb_id: 'uaoue' %}
+{% endcomment %}
+
+<div id="F2FEntry-{{ ff_id }}" class="f2f-entry">
+
+    <div class="f2f-left">
+        <div class="f2f-image">
+            {%- if ff_image -%}
+
+                {%- liquid
+                    assign height = ff_image.width | divided_by: ff_image.aspect_ratio | round
+
+                    assign sizes = '100vw'
+                    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+                    assign fetch_priority = 'auto'
+                    if ff_section_index == 1
+                        assign fetch_priority = 'high'
+                    endif
+                -%}
+
+                {%- if ff_forloop_first %}
+                    {{
+                    ff_image
+                    | image_url: width: 880
+                    | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                {%- else -%}
+                    {{
+                    ff_image
+                    | image_url: width: 880
+                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                    }}
+                {%- endif -%}
+
+            {%- else -%}
+                {%- assign placeholder_slide = ff_forloop_index | modulo: 2 -%}
+                {%- if placeholder_slide == 1 -%}
+                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- else -%}
+                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            {%- endif -%}
+        </div>
+    </div>
+
+    <div class="f2f-right">
+
+        <div class="f2f-text">
+
+            {% # HEADING
+                               # ---------------------- %}
+            {% if ff_heading %}
+            <{{ ff_heading_type }} class="f2fe-heading -no-decal -h-text-{{ ff_heading_size }}">
+                {{ ff_heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+            </{{ ff_heading_type }}>
+            {% endif %}
+
+            <div class="f2fe-text -e-text-{{ ff_text_size }}">
+                {% if ff_subheading.type != blank %}
+                    {{ ff_subheading | metafield_tag }}
+                {% else %}
+                    {{ ff_subheading }}
+                {% endif %}
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

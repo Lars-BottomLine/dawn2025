@@ -1,0 +1,59 @@
+{% comment %}
+  Renders a button with all the default configuration options we use
+
+  Accepts:
+  - data: {
+            button_style: { string }
+            button_text: { string }
+            button_url: { string }
+            button_icon: { image }
+            button_align: { string }
+  }
+  - classes: { string }
+
+  Usage:
+  {% render 'v2-button', data: data %}
+{% endcomment %}
+
+{% liquid
+    assign tag = 'div'
+    assign href = ''
+    assign new_window = ''
+
+    if data.button_url != blank
+        assign tag = 'a'
+        assign href = ' href="' | append: data.button_url | append: '"'
+    endif
+
+    if data.new_window and data.new_window == true and tag != 'a'
+        assign new_window = ' target="_blank" '
+    endif
+
+    assign classes = classes | append: ' -style-' | append: data.button_style
+    assign classes = classes | append: ' -size-' | append: data.button_size
+    assign classes = classes | append: ' -align-' | append: data.button_align
+
+%}
+
+{% if data.button_text != blank or data.button_icon != blank %}
+
+    <{{ tag }} class="v2-button {{ classes }}" {{ href }} {{ new_window }}>
+
+        <span>
+
+            {%- if data.button_icon -%}
+            <div class="v2-button-icon">
+                {{ data.button_icon
+                | image_url: width: 44
+                | image_tag: alt: data.button_icon.alt
+                }}
+            </div>
+            {%- endif -%}
+
+            {{ data.button_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+
+        </span>
+
+    </{{ tag }}>
+
+{% endif %}

@@ -1,0 +1,447 @@
+{%- liquid
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white'
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary'
+    endif
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+
+    # ---------------------------------
+    # ---------------------------------
+    assign iz_twocol = false
+    assign iz_threecol = false
+    assign iz_threecol-notext = false
+    assign iz_threecol-compact = false
+    assign not_threecol-compact = true
+
+    if section.settings.template_type == 'twocol'
+        assign iz_twocol = true
+    endif
+
+    if section.settings.template_type == 'threecol'
+        assign iz_threecol = true
+    endif
+
+    if section.settings.template_type == 'threecol-notext'
+        assign iz_threecol-notext = true
+    endif
+
+    if section.settings.template_type == 'threecol-compact'
+        assign iz_threecol-compact = true
+        assign not_threecol-compact = false
+    endif
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+        }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-whychoose
+            -template-{{ section.settings.template_type }}
+             section-{{ section.id }}-padding section-{{ section.id }}-margin
+             {{ section_classes }}">
+    <div class="page-width -section-content w-full">
+
+        <div class="wc-header pl-20">
+
+            {% if section.settings.headline %}
+            <div class="wc-heading">
+                <{{ section.settings.heading_type }} class="wc-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                    {{ section.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </{{ section.settings.heading_type }}>
+            </div>
+            {% endif %}
+
+            {% if section.settings.subheadline != blank %}
+            <div class="wc-subheadline _subtitle">
+                {{ section.settings.subheadline }}
+            </div>
+            {% endif %}
+
+        </div>
+
+        <div class="wc-entry-container">
+            {% assign section_id = section.id | append: '-' | append: forloop.index %}
+
+            {% # USING THE PRODUCT METAOBJECTS %}
+            {% if section.settings.key_benefits != blank %}
+
+                {%- for entry in section.settings.key_benefits -%}
+                    {% render 'le_whychoose-entry',
+                        kb_id: section_id,
+                        kb_title: entry.title,
+                        kb_forloop_first: forloop.first,
+                        kb_section_index: section.index,
+                        kb_forloop_index: forloop.index,
+                        kb_text: entry.text,
+                        kb_icon: entry.icon,
+                        kb_button_label: entry.button_label,
+                        kb_button_url: entry.button_url,
+                        kb_izthreecolcompact: iz_threecol-compact %}
+                {% endfor %}
+
+            {% # USING THE TEMPLATE DATA %}
+            {% else %}
+
+                {%- for block in section.blocks -%}
+                    {% render 'le_whychoose-entry',
+                            kb_id: section_id,
+                            kb_title: block.settings.heading,
+                            kb_forloop_first: forloop.first,
+                            kb_section_index: section.index,
+                            kb_forloop_index: forloop.index,
+                            kb_text: block.settings.subheading,
+                            kb_icon: block.settings.image,
+                            kb_button_label: block.settings.button_text,
+                            kb_button_url: block.settings.button_url,
+                            kb_izthreecolcompact: iz_threecol-compact %}
+                {% endfor %}
+
+            {% endif %}
+
+        </div>
+
+        {%- if section.settings.button_url != blank -%}
+            <div class="sa-button-container flex">
+                <a href="{{ section.settings.button_url }}" class="sa-button -medium mt-32 !mx-auto -hover-grow">
+                    <span>{{ section.settings.button_label }}</span>
+                </a>
+            </div>
+        {% endif %}
+
+    </div>
+</div>
+
+{% javascript %}
+{% endjavascript %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:sections.le_whychoose.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "select",
+      "id": "template_type",
+      "label": "Template",
+      "options": [
+        {
+          "value": "twocol",
+          "label": "2 col"
+        },
+        {
+          "value": "threecol",
+          "label": "3 col"
+        },
+        {
+          "value": "threecol-notext",
+          "label": "3 col (no text)"
+        },
+        {
+          "value": "threecol-compact",
+          "label": "3 col (compact)"
+        }
+      ]
+    },
+    {
+        "type": "select",
+        "id": "section_bkgr",
+        "label": "Background Color",
+        "options": [
+          {
+            "value": "primary",
+            "label": "Blue (primary)"
+          },
+          {
+            "value": "light-blue",
+            "label": "Light Blue"
+          },
+          {
+            "value": "white",
+            "label": "White"
+          }
+        ],
+        "default": "primary"
+      },
+
+    {
+      "type": "text",
+      "id": "headline",
+      "default": "t:sections.slideshow.blocks.slide.name",
+      "label": "t:sections.slideshow.blocks.slide.name"
+    },
+    {
+        "type": "select",
+        "id": "heading_type",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "div",
+            "label": "DIV"
+          }
+        ],
+        "default": "h2",
+        "label": "Heading type"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "normal",
+            "label": "Normal"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "normal",
+        "label": "Heading font size"
+      },
+      {
+        "type": "checkbox",
+        "id": "no_decal",
+        "default": false,
+        "label": "No decals on 'Heading'"
+      },
+
+
+    {
+      "type": "inline_richtext",
+      "id": "subheadline",
+      "default": "t:sections.slideshow.blocks.slide.name",
+      "label": "t:sections.slideshow.blocks.slide.name"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button: Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button: URL"
+    },
+
+
+    {
+      "type": "header",
+      "content": "t:settings_schema.le_basics.source.header"
+    },
+    {
+      "type": "metaobject_list",
+      "id": "key_benefits",
+      "label": "Key Benefits",
+      "info": "t:settings_schema.le_basics.source.header",
+      "metaobject_type": "product_key_benefit"
+    },
+
+    {
+        "type": "header",
+        "content": "Custom classes"
+      },
+      {
+        "type": "text",
+        "id": "custom_class_names",
+        "label": "t:settings_schema.custom_classes.settings.class_names.label",
+        "placeholder": ".test_class"
+      },
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Entry",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.slideshow.blocks.slide.settings.header_text.content"
+        },
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "t:sections.slideshow.blocks.slide.settings.heading.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "subheading",
+          "default": "t:sections.slideshow.blocks.slide.settings.subheading.default",
+          "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "default": "Enrol Now",
+          "label": "Button: Text"
+        },
+        {
+          "type": "text",
+          "id": "button_url",
+          "label": "Button: URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.le_whychoose.presets.name",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

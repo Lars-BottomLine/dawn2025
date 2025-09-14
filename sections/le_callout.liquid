@@ -1,0 +1,231 @@
+{%- liquid
+
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+    # ---------------------------------
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-callout
+            -template-{{ section.settings.template_type }}
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            {{ section_classes }}">
+    <div class="page-width">
+
+        <div class="co-content">
+
+            {% if section.settings.heading %}
+                <h2 class="co-heading -no-decal sa-color-inherit" >
+                    {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </h2>
+            {% endif %}
+
+            {% # TEXT %}
+            {% if section.settings.text %}
+                <div class="co-text">
+                    {{ section.settings.text }}
+                </div>
+            {% endif %}
+
+            {% if section.blocks %}
+            <div class="co-button-wrapper">
+
+                {%- for block in section.blocks -%}
+
+                    {% if block.type == 'button' %}
+                    <div class="sa-button -medium -invert -hover-grow">
+
+                        <span>
+
+                            {%- if block.settings.image -%}
+                                <div class="co-image">
+                                {{ block.settings.image
+                                | image_url:
+                                width: 44
+                                | image_tag:
+                                alt: block.settings.image.alt
+                                }}
+                            </div>
+                            {%- endif -%}
+
+                            <a class="co-button-text" href="https://studyactive.activehosted.com/f/3">
+                                {{ block.settings.title }}
+                            </a>
+
+                        </span>
+
+                    </div>
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_callout.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "richtext",
+      "id": "heading",
+      "default": "<p>Heading</p>",
+      "label": "t:sections.le_swiper.heading.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Text</p>",
+      "label": "Text"
+    },
+
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Click Me",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.le_callout.presets.name",
+      "blocks": [
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

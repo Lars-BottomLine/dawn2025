@@ -1,0 +1,331 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
+
+{{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+{%- liquid
+    assign posts_displayed = section.settings.blog.articles_count
+    if section.settings.post_limit <= section.settings.blog.articles_count or section.settings.post_limit <= 4
+        assign posts_exceed_limit = true
+        assign posts_displayed = section.settings.post_limit
+    endif
+
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ' -dct-white -dcb-white '
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+    # ---------------------------------
+
+-%}
+<div class="sa-section-lefeaturedblog
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            {% if section.settings.heading == blank %} no-heading{% endif %}
+            {{ section_classes }} ">
+
+    <div class="sa-swiper-wrapper page-width">
+
+        {% # HEADING
+           # ---------------------------------------------------- %}
+        {%- unless section.settings.heading == blank -%}
+            <div class="fb-header mb-6">
+                <h2
+                        class="-no-indent {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                        {% if settings.animations_reveal_on_scroll %}
+                            data-cascade
+                        {% endif %}
+                >
+                    {{ section.settings.heading }}
+                </h2>
+
+                {%- if section.settings.blog != blank
+                and section.settings.show_view_all
+                and section.settings.post_limit < section.settings.blog.articles_count
+                -%}
+                    <a
+                            href="{{ section.settings.blog.url }}"
+                            class="link underlined-link large-up-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    >
+                        {{ 'sections.featured_blog.view_all' | t }}
+                    </a>
+                {%- endif -%}
+            </div>
+        {%- endunless -%}
+
+        <div id="swiper-{{ section.id }}" class="swiper sa-swiper sa-swiper-type-featured {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <div class="swiper-wrapper">
+                {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
+                    {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
+
+
+                        <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                             class="swiper-slide sa-swiper-type-job-car"
+                             role="group"
+                             aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                             tabindex="-1"
+                            {% if settings.animations_reveal_on_scroll %}
+                                data-cascade
+                                style="--animation-order: {{ forloop.index }};"
+                            {% endif %}
+                        >
+                            <div class="sa-swiper-inside">
+                                {% render 'le_article-card',
+                                    blog: section.settings.blog,
+                                    article: article,
+                                    media_aspect_ratio: 1.66,
+                                    show_image: section.settings.show_image,
+                                    show_date: section.settings.show_date,
+                                    show_author: section.settings.show_author,
+                                    show_excerpt: true
+                                %}
+                            </div>
+                        </div>
+
+                    {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-wrapper">
+                <div class="sa-swiper-button-prev sa-button -hover-translate">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                          <path d="M7.179 16.5L17.4457 26.7667L14.8332 29.3333L0.166504 14.6667L14.8332 0L17.4457 2.56667L7.179 12.8333H29.4998V16.5H7.179Z" fill="white"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="sa-swiper-button-next sa-button -hover-translate">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                          <path d="M22.8208 16.5H0.5V12.8333H22.8208L12.5542 2.56667L15.1667 0L29.8333 14.6667L15.1667 29.3333L12.5542 26.7667L22.8208 16.5Z" fill="white"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
+            <div
+                    class="blog__view-all center small-hide medium-hide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    {% if settings.animations_reveal_on_scroll %}
+                        data-cascade
+                    {% endif %}
+            >
+                <a
+                        href="{{ section.settings.blog.url }}"
+                        id="ViewAll-{{ section.id }}"
+                        class="blog__button button"
+                        aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}"
+                >
+                    {{ 'sections.featured_blog.view_all' | t }}
+                </a>
+            </div>
+        {%- endif -%}
+
+        <script>
+            // TODO: differentiate between autorotate and autoplay
+            var swiper = new Swiper("#swiper-{{ section.id }}", {
+                spaceBetween: 0,
+
+                loop: true,
+
+                speed: 1000,
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                navigation: {
+                    nextEl: ".sa-swiper-button-next",
+                    prevEl: ".sa-swiper-button-prev",
+                },
+
+                slidesPerView: 1,
+
+                breakpoints: {
+                    530: {
+                        slidesPerView: 2
+                    },
+                    // when window width is >= 640px
+                    900: {
+                        slidesPerView: 3
+                    }
+                }
+
+            });
+
+        </script>
+
+    </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_featured-blog.name",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "t:sections.featured-blog.settings.blog.label"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "min": 2,
+      "max": 20,
+      "step": 1,
+      "default": 3,
+      "label": "t:sections.featured-blog.settings.post_limit.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.featured-blog.settings.text_header.content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "t:sections.featured-blog.settings.heading.default",
+      "label": "t:sections.featured-blog.settings.heading.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.featured-blog.settings.layout_header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "default": true,
+      "label": "t:sections.featured-blog.settings.show_view_all.label",
+      "info": "t:sections.featured-blog.settings.show_view_all.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "default": true,
+      "label": "t:sections.featured-blog.settings.show_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.featured-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "default": false,
+      "label": "t:sections.featured-blog.settings.show_author.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.le_featured-blog.presets.name"
+    }
+  ]
+}
+{% endschema %}

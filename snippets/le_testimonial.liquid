@@ -1,0 +1,78 @@
+{% comment %}
+  Renders an entry for the testimonials section
+
+  Accepts:
+  - tm_id: { string }
+  - tm_forloop_index: { number }
+  - tm_forloop_length: { number }
+  - tm_block_type: { string }
+  - tm_quote: { string },
+  - tm_author: { string }
+
+
+{% endcomment %}
+
+
+<div id="Slide-{{ tm_id }}"
+     class="swiper-slide"
+     role="group"
+     aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+     aria-label="{{ tm_forloop_index }} {{ 'general.slider.of' | t }} {{ tm_forloop_length }}"
+     tabindex="-1" >
+
+    {%- case tm_block_type -%}
+
+        {% # BLOCK: TESTIMONIAL %}
+        {%- when 'testimonial' -%}
+            <div class="tm-testimonial">
+
+                <div class="tm-bubble">
+
+                    <div class="tm-sb-arrow"></div>
+
+                    {% # IMAGE %}
+                    {% comment %}{% if tm_image %}
+                        <div class="tm-image">
+                            {{ tm_image
+                            | image_url: width: 200
+                            | image_tag }}
+                        </div>
+                    {% endif %}{% endcomment %}
+
+                    <div class="tm-icon">
+                        {{- 'icon-stars.svg' | inline_asset_content -}}
+                    </div>
+
+                    <div class="tm-content">
+
+                        {% # QUOTE %}
+                        {% if tm_quote != blank %}
+                            <div class="tm-quote">
+                                {% if tm_quote.type != blank %}
+                                    {{ tm_quote | metafield_tag }}
+                                {% else %}
+                                    {{ tm_quote }}
+                                {% endif %}
+                            </div>
+                        {% endif %}
+
+                        {% # AUTHOR %}
+                        {% if tm_author != blank %}
+                            <div class="tm-author">
+                                {% if tm_author.type != blank %}
+                                    {{ tm_author | metafield_tag }}
+                                {% else %}
+                                    {{ tm_author }}
+                                {% endif %}
+                            </div>
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    {% endcase %}
+
+</div>

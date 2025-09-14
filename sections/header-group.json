@@ -1,7 +1,21 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "1755084133c5eab34c": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {}
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -9,28 +23,41 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     },
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "scheme-1",
         "logo_position": "middle-left",
+        "mobile_logo_position": "center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "enable_country_selector": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
         "enable_language_selector": true,
-        "mobile_logo_position": "center",
+        "enable_customer_avatar": true,
+        "enable_header_file_download": true,
+        "header_file_download_title": "Download Brochure",
+        "header_file_download": "https://cdn.shopify.com/s/files/1/0920/7005/2217/files/Spielplanflyer_digital_JULI_2025.pdf?v=1751467741",
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
@@ -38,6 +65,7 @@
     }
   },
   "order": [
+    "1755084133c5eab34c",
     "announcement-bar",
     "header"
   ]

@@ -1,0 +1,688 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "le_text_and_background_HM4k8F": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_AyyBMN": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>A better life for you </p><p><strong>and your clients.</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "normal"
+          }
+        },
+        "row2col_xHtH7d": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>Becoming a Wellness personal trainer means leading a healthy life, living on your own terms, and helping others change their lives for the better.</p>",
+            "text1_size": "medium",
+            "text2": "<p>This is your chance to build a career with purpose, freedom, and real impact.</p><p><strong>Ready to begin?</strong></p>",
+            "text2_size": "medium"
+          }
+        },
+        "row_button_qpqPCW": {
+          "type": "row-button",
+          "settings": {
+            "text": "Here's how:",
+            "button_type": "internal",
+            "inverted": true,
+            "button_link": "",
+            "subtext": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_AyyBMN",
+        "row2col_xHtH7d",
+        "row_button_qpqPCW"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/yoga-pose-2-women.jpg",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 92,
+        "padding_bottom": 108,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_steps_MWDAGF": {
+      "type": "le_steps",
+      "blocks": {
+        "step_imKfq6": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step 1: Set your goal",
+            "text": "Know where you’re starting and where you want to go. We’ll help you map it out.",
+            "button_text": "Go to Step 1",
+            "button_link": "anchor-step1"
+          }
+        },
+        "step_TX9Jhb": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Step 2: Choose your course or bundle",
+            "text": "Pick the training option that fits your lifestyle, ambitions, timeline, and passion.",
+            "button_text": "Go to Step 2",
+            "button_link": "anchor-step2"
+          }
+        },
+        "step_jkHfbr": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Step 3: Start learning",
+            "text": "Study online at your own pace with expert support whenever you need it.",
+            "button_text": "Go to Step 3",
+            "button_link": "anchor-step3"
+          }
+        },
+        "step_Ky9XH7": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Step 4: Start earning",
+            "text": "Complete your course, unlock guaranteed interviews, and start your career as a wellness personal trainer.",
+            "button_text": "Go to Step 4",
+            "button_link": "anchor-step4"
+          }
+        }
+      },
+      "block_order": [
+        "step_imKfq6",
+        "step_TX9Jhb",
+        "step_jkHfbr",
+        "step_Ky9XH7"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "template_type": "light-blue",
+        "step_width": "wide",
+        "heading": "<p><strong>Step into success</strong></p>",
+        "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
+    "le_steps_3hMnC8": {
+      "type": "le_steps",
+      "name": "Step 1: Set your goal",
+      "settings": {
+        "template_type": "white",
+        "step_width": "wide",
+        "heading": "<p><strong>Step 1:</strong> Set your goal</p>",
+        "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a personal trainer. Then explore our courses to find the one that aligns best with your vision and get specialised to take your wellness game to the next level.</p>",
+        "custom_class_names": "anchor-step1",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_featured_thGade": {
+      "type": "le_featured",
+      "blocks": {
+        "title_JAPNmX": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h3"
+          }
+        },
+        "variant_picker_6kGjfa": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "price_zxmcHa": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_AFRAaC": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_F6a7yG": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_JAPNmX",
+        "variant_picker_6kGjfa",
+        "price_zxmcHa",
+        "buy_buttons_AFRAaC",
+        "share_F6a7yG"
+      ],
+      "name": "Your First Step to Becoming...",
+      "settings": {
+        "product": "diploma-in-fitness-instruction-personal-training",
+        "heading": "<p>Your First Step to Becoming a Wellness Personal Trainer:</p>",
+        "heading_type": "h3",
+        "heading_size": "normal",
+        "no_decal": false,
+        "secondary_background": false,
+        "media_size": "auto",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_3bMwwU": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_MDpdcB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-of-women-doing-yoga.jpg",
+            "heading": "<p>Stepping it up in wellness:</p>",
+            "subheading": "<p>Deepen your impact with courses designed to support the whole person. <br/>Coach your clients to better understand mental health, or offer specialist<br/>support for long-term conditions.</p><ul><li>AIQ Level 3 Diploma in Wellness Coaching</li><li>Level 2 Award in Mental Health Awareness</li><li>Level 3 Award in Supporting Clients with Long-Term Conditions</li></ul>"
+          }
+        },
+        "slide_4PWQL7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/male-and-femal-at-office-table.jpg",
+            "heading": "<p>The nutrition route:</p>",
+            "subheading": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>"
+          }
+        },
+        "slide_dDeJty": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/two-women-in-gym-greeting.jpg",
+            "heading": "<p>Specialise in women’s wellness:</p>",
+            "subheading": "<p>Equip yourself with the knowledge and empathy to better serve women  at<br/> every life stage. These courses cover everything from pre- and postnatal <br/>care to menopause interventions—empowering you to     provide personalised,<br/> evidence-based support for women’s evolving health needs.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MDpdcB",
+        "slide_4PWQL7",
+        "slide_dDeJty"
+      ],
+      "name": "Course Bundles & Specialisations",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Course Bundles & Specialisations</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "wide",
+        "entry_align": "center",
+        "image_shadow": "normal",
+        "image_size": "mediumplus",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "small",
+        "text_align": "left",
+        "custom_class_names": "-small-text",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_callout_yyXgcX": {
+      "type": "le_callout",
+      "blocks": {
+        "button_Pighxc": {
+          "type": "button",
+          "settings": {
+            "title": "Fill out this form and we’ll get in touch.",
+            "link": "https://bottomline.agency",
+            "image": "shopify://shop_images/article_shortcut.svg"
+          }
+        }
+      },
+      "block_order": [
+        "button_Pighxc"
+      ],
+      "name": "Form Callout",
+      "settings": {
+        "heading": "<p>Your path to success can be as unique as you are.</p>",
+        "text": "<p>Got any questions and want to talk to one of our fitness success advisers?</p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_collection_bundle_grid_TzawhT": {
+      "type": "le_collection-bundle-grid",
+      "name": "Step 2: Choose your bundle",
+      "settings": {
+        "title": "<p><strong>Step 2: </strong>Choose your course or bundle</p>",
+        "text": "<p>Pick the training option that fits your lifestyle, ambitions, timeline, and passion.</p>",
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "section_bkgr": "primary",
+        "custom_class_names": "anchor-step2",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_AznrtC": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_nkq3na": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LMS.gif",
+            "heading": "<p>At Study Active, you’re in control.</p>",
+            "subheading": "<p>Our easy-to-use online platform gives you 24/7 access to videos, study tools, and progress trackers, so you can learn whenever it suits you.</p>"
+          }
+        },
+        "slide_gpAFXg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/man-sitting-in-a-park-with-a-laptop-drinking.jpg",
+            "heading": "<p>Life is busy, so our courses are built to fit around your schedule.</p>",
+            "subheading": "<p>No deadlines, no pressure... just flexible learning at your own pace.</p>"
+          }
+        },
+        "slide_h4HgXw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/tutor-doing-a-video-call.jpg",
+            "heading": "<p>And you're not on your own. </p>",
+            "subheading": "<p>Our tutors and support team are always here if you need help...</p><p>Real people, ready to guide you.</p>"
+          }
+        },
+        "slide_VmdRxH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-of-people-working-out-in-a-gym.png",
+            "heading": "<p>Prefer to do your tests in person?</p>",
+            "subheading": "<p>We’ve got assessment centres across the UK, so you can choose what works best.</p><p>From the moment you start to the day<br/> you qualify, we’re here to support you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nkq3na",
+        "slide_gpAFXg",
+        "slide_h4HgXw",
+        "slide_VmdRxH"
+      ],
+      "name": "Step 3: Start learning",
+      "settings": {
+        "section_bkgr": "light-blue",
+        "headline": "<p><strong>Step 3:</strong> Start learning</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "wide",
+        "entry_align": "center",
+        "image_shadow": "normal",
+        "image_size": "mediumplus",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "large",
+        "text_align": "left",
+        "custom_class_names": "anchor-step3",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "multicolumn_9fLMCE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ppV3r3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Once you’re qualified, we don’t leave you hanging. As one of the UK’s top-rated training providers, we’ve built <a href=\"/pages/associations-and-partners\" title=\"Associations and Partners\">partnerships with leading gyms</a> across the country — including The Gym Group, Virgin Active, and more.</p><p>That means every learner gets access to guaranteed job interviews, giving you a clear pathway into paid work. Whether you want to go employed or self-employed, we’ll help you hit the ground running.</p><p>You’ll also get ongoing career support, free business start-up resources, and 20 CPD units to expand your skills and boost your earning potential.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eDTUht": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Want a career that pays well, fits around your life, and doesn’t require a university degree? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding jobs that keep you active, fulfilled, and in control of your time.</p><p>These roles are in high demand - and for good reason. You get to help others improve their health and confidence while building a career that works on your terms.</p><p>Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ppV3r3",
+        "column_eDTUht"
+      ],
+      "name": "Step 4: Start earning",
+      "settings": {
+        "title": "<strong>Step 4:</strong> Start earning",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "custom_class_names": "anchor-step4",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "le_accordion_BBeCm7": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_Jtdtp7": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/women-doing-yoga-worrier-pose.jpg",
+            "heading": "1. Wellness Coach",
+            "row_content": "<p><strong>Salary: </strong>£25,000–£45,000+</p><p><strong>Description:<br/></strong>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook:<br/></strong>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year.</p>"
+          }
+        },
+        "accordion_row_gJz7kM": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/pregnant-woman-exercising-with-trainer.jpg",
+            "heading": "2. Pre & Postnatal Fitness and Nutrition Specialist",
+            "row_content": "<p><strong>Salary: </strong>£30,000–£50,000+</p><p><strong>Description:</strong><br/>These specialists support pregnant and postpartum clients with safe, tailored exercise and nutrition plans. Roles are often freelance or clinic-based, with increasing collaboration in maternity care and private wellness centres.</p><p><strong>Growth Outlook:<br/></strong>High growth due to rising awareness of maternal health and increased demand for specialised fitness professionals in this space.</p>"
+          }
+        },
+        "accordion_row_aPg9Rd": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/two-women-in-gym.jpg",
+            "heading": "3. Menopause Wellness Specialist",
+            "row_content": "<p><strong>Salary: </strong>£28,000–£50,000+</p><p><strong>Description:<br/></strong>Professionals in this area support clients navigating menopause with lifestyle advice, movement plans, and nutrition strategies. Work includes one-on-one coaching, workshops, or working within corporate or clinical wellness teams.</p><p><strong>Growth Outlook:</strong><br/>Strong and increasing, as menopause support becomes a major focus in health and workplace policies.</p>"
+          }
+        },
+        "accordion_row_jzNV7x": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/couple-preparing-food.jpg",
+            "heading": "4. Nutrition Coach / Consultant",
+            "row_content": "<p><strong>Salary:</strong> £27,000–£55,000+</p><p><strong>Description:</strong><br/>Nutrition coaches offer guidance on diet, performance, and healthy eating habits. Many work with clients in gyms, clinics, or online. Advanced roles include corporate consulting and group education.  </p><p><strong>Growth Outlook:<br/></strong>Very strong. Nutrition awareness is booming, and employers, schools, and fitness brands are seeking qualified coaches.</p>"
+          }
+        },
+        "accordion_row_izTykj": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/workout-high-five.jpg",
+            "heading": "5. Health & Behaviour Change Coach",
+            "row_content": "<p><strong>Salary:</strong> £26,000–£42,000+</p><p><strong>Description:<br/></strong>These coaches help clients manage chronic conditions and mental health challenges through motivational strategies, active listening, and tailored wellness plans. Often found in NHS programmes, local councils, or wellbeing charities.  </p><p><strong>Growth Outlook:</strong><br/>Rapidly expanding, especially in public health and social care settings focused on preventative care.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_Jtdtp7",
+        "accordion_row_gJz7kM",
+        "accordion_row_aPg9Rd",
+        "accordion_row_jzNV7x",
+        "accordion_row_izTykj"
+      ],
+      "name": "Job options",
+      "settings": {
+        "template_type": "white",
+        "headline": "Check out some of the top job options below",
+        "heading_size": "medium",
+        "accordion_width": "full",
+        "accordion_entries": [],
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "margin_top": 0,
+        "margin_bottom": -180
+      }
+    },
+    "le_speech_bubble_cc7R7b": {
+      "type": "le_speech-bubble",
+      "disabled": true,
+      "name": "t:sections.le_speechbubble.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/woman-in-gym.jpg",
+        "heading": "<p><strong>Case Study:</strong></p><p>From Learner to Earning</p>",
+        "icon": "shopify://shop_images/speech-bubble-with-person.svg",
+        "message": "\"I’d been working part-time in retail and training at my local gym when I decided to take the leap. I did the Level 3 course with Study Active and bundled it with the wellness specialisation. Within a month of finishing, I had two job offers, one of them was through my guaranteed interview at The Gym Group. Now I’ve got a growing list of clients and I’m doing something that actually makes a difference.\"",
+        "author": "Jordan W., Qualified Wellness Personal Trainer",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_text_and_background_RnPrid": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_iMBjEY": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>Your new career  </p><p><strong>starts here</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "normal"
+          }
+        },
+        "row2col_wUg8j7": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>You’ve seen the steps, the courses, the specialisations, and the real opportunities waiting for you. Now it’s time to make it happen. </p>",
+            "text1_size": "medium-plus",
+            "text2": "",
+            "text2_size": "medium"
+          }
+        },
+        "row2col_Q7dRGR": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>Becoming a Wellness Personal Trainer isn’t just about getting qualified. It’s about creating a life that works for you. A life that’s flexible, fulfilling, and built around helping others feel stronger and live better.  </p>",
+            "text1_size": "small",
+            "text2": "<p>With Study Active, you’ll be supported from day one, studying on your own terms with expert tutors and industry-recognised qualifications. When you're ready, we’ll connect you with guaranteed interviews at leading gyms so you can turn your training into a real career. </p>",
+            "text2_size": "small"
+          }
+        },
+        "row2col_yqDDpb": {
+          "type": "row2col",
+          "settings": {
+            "text1": "",
+            "text1_size": "medium",
+            "text2": "<p><strong>This is your moment. Let’s take the first step together.</strong></p>",
+            "text2_size": "small"
+          }
+        },
+        "row_button_Nw8jTg": {
+          "type": "row-button",
+          "settings": {
+            "text": "See courses & bundles",
+            "button_type": "right",
+            "inverted": true,
+            "button_link": "",
+            "subtext": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_iMBjEY",
+        "row2col_wUg8j7",
+        "row2col_Q7dRGR",
+        "row2col_yqDDpb",
+        "row_button_Nw8jTg"
+      ],
+      "name": "Your new career starts here",
+      "settings": {
+        "image": "shopify://shop_images/trainer-in-gym-helping-woman.jpg",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 132,
+        "padding_bottom": 80,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "name": "Browse all courses",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "le_image_slider_yLkKTG": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_DyjVnX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-cimspa.png"
+          }
+        },
+        "slide_nXiRgy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-rsph.png"
+          }
+        },
+        "slide_a7qPGC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-uk-active.png"
+          }
+        },
+        "slide_m6rGDg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-active-iq.png"
+          }
+        },
+        "slide_gkVLNK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-association-for-nutrition.png"
+          }
+        },
+        "slide_wJLrLm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/logo-the-gym-group.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DyjVnX",
+        "slide_nXiRgy",
+        "slide_a7qPGC",
+        "slide_m6rGDg",
+        "slide_gkVLNK",
+        "slide_wJLrLm"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "le_text_and_background_HM4k8F",
+    "le_steps_MWDAGF",
+    "le_steps_3hMnC8",
+    "le_featured_thGade",
+    "le_face2face_3bMwwU",
+    "le_callout_yyXgcX",
+    "le_collection_bundle_grid_TzawhT",
+    "le_face2face_AznrtC",
+    "multicolumn_9fLMCE",
+    "le_accordion_BBeCm7",
+    "le_speech_bubble_cc7R7b",
+    "le_text_and_background_RnPrid",
+    "product-grid",
+    "banner",
+    "le_image_slider_yLkKTG"
+  ]
+}

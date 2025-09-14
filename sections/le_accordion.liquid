@@ -1,0 +1,387 @@
+{{ 'le_accordion.js' | asset_url | script_tag }}
+
+{%- liquid
+
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    assign iz_blue = false
+    assign iz_white = false
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    if section.settings.template_type == 'blue'
+        assign iz_blue = true
+        assign section_classes = section_classes | append: ' sa-bg-primary text-white -dct-primary -dcb-primary '
+    endif
+
+    if section.settings.template_type == 'white'
+        assign iz_white = true
+        assign section_classes = section_classes | append: ' sa-bg-white sa-col-primary -dct-white -dcb-white '
+    endif
+
+    assign section_classes = section_classes | append: ' -width-' | append: section.settings.accordion_width
+
+    assign iz_height_limit = false
+    if section.settings.accordion_height != 'none'
+        assign iz_height_limit = true
+    endif
+%}
+
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+        }
+    }
+{%- endstyle -%}
+
+{% javascript %}
+    var lea = new LeAccordion({
+        debug: false
+    });
+    leaa.init();
+{% endjavascript %}
+
+
+<div class="sa-section-accordion section-{{ section.id }}
+            -template-{{ section.settings.template_type }}
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            -acc-height-{{ section.settings.accordion_height }}
+            {{ section_classes }}">
+    <div class="page-width -section-content {% if section.settings.accordion_width == 'narrow' %} -narrow-section {% endif %}">
+        <div class="ac-content">
+
+            {% if  section.settings.headline != blank %}
+            <h2 class="-no-indent -h-size-{{ section.settings.heading_size }}">
+                {{ section.settings.headline }}
+            </h2>
+            {% endif %}
+
+            <div class="le-accordion {% if section.settings.template_type == 'white' %} sa-col-white {% endif %} {% if iz_height_limit %} -haz-height-limit {% endif %}">
+                <div class="le-acc-entries">
+
+                    {% # DYNAMIC METAOBJECT LIST GIVEN %}
+                    {% if section.settings.accordion_entries != blank %}
+                        {%- for entry in section.settings.accordion_entries -%}
+                            {% render 'le_accordion-entry',
+                                    ae_title: entry.title,
+                                    ae_text: entry.text,
+                                    ae_image: entry.image
+                            %}
+                        {% endfor %}
+
+                    {% # IF NO DYNAMIC METAOBJECT LIST - USE ROW ENTRIES OF SECTION %}
+                    {% else %}
+                        {%- for block in section.blocks -%}
+                            {% render 'le_accordion-entry',
+                                    ae_title: block.settings.heading,
+                                    ae_text: block.settings.row_content,
+                                    ae_image: block.settings.image
+                            %}
+                        {% endfor %}
+                    {% endif %}
+
+                </div>
+                {% if iz_height_limit %}
+                <div class="le-acc-arrow"></div>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    {% assign acc_id = 'acc' | append: section.id | replace: '-', '' | replace: '_', '' %}
+    var {{ acc_id }} = false;
+
+    if (!(typeof window.openAccordion === "function")) {
+        var openAccordion = function ( ele ) {
+            ele.classList.remove('-haz-height-limit');
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        if (document.querySelector('.section-{{ section.id }} .le-acc-arrow')) {
+            document.querySelector('.section-{{ section.id }} .le-acc-arrow').addEventListener('click', function () {
+                openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
+            })
+        }
+
+        document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-open', function (e) {
+            console.log('ACCORDION: ENTRY OPENED', e);
+            if (!{{ acc_id }}) {
+                {{ acc_id }} = true;
+                openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
+            }
+        })
+        document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-close', function (e) {
+            console.log('ACCORDION: ENTRY CLOSED', e);
+        })
+
+    });
+
+    // remove the open button if accordion content is not taller than the limit
+    document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-initialized', function (e) {
+        setTimeout( () => {
+            const security_margin = 10;
+            const accordion = e.detail.target_entry;
+            const entries_wrapper = accordion.querySelector('.le-acc-entries');
+            // console.log('ACCORDION: INITIALIZED', accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
+            if (accordion.offsetHeight >= ( entries_wrapper.clientHeight - security_margin) ) {
+                openAccordion( accordion );
+            }
+        }, 500);
+    })
+
+
+</script>
+
+
+{% schema %}
+{
+    "name": "t:sections.le_accordion.name",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+        "groups": ["header", "footer"]
+    },
+
+    "settings": [
+        {
+            "type": "select",
+            "id": "template_type",
+            "label": "Template",
+            "options": [
+                {
+                    "value": "blue",
+                    "label": "Dark Blue"
+                },
+              {
+                    "value": "white",
+                    "label": "White"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "headline",
+            "default": "Headline",
+            "label": "Headline"
+        },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "Large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium",
+        "label": "Heading size"
+      },
+
+      {
+        "type": "select",
+        "id": "accordion_width",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full width"
+          },
+          {
+            "value": "narrow",
+            "label": "Narrow width"
+          }
+        ],
+        "default": "narrow",
+        "label": "Accordion width"
+      },
+      {
+        "type": "select",
+        "id": "accordion_height",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "medium",
+        "label": "Accordion height limit"
+      },
+
+
+
+      {
+        "type": "header",
+        "content": "If a source is selected, the rows won't be used."
+      },
+
+      {
+        "type": "metaobject_list",
+        "id": "accordion_entries",
+        "label": "Accordion entries",
+        "metaobject_type": "accordion_entry"
+      },
+
+      {
+            "type": "header",
+            "content": "Border"
+        },
+        {
+            "type": "checkbox",
+            "id": "decal_top",
+            "label": "Skewed on top",
+            "default": false
+        },
+        {
+            "type": "checkbox",
+            "id": "decal_bottom",
+            "label": "Skewed on bottom",
+            "default": false
+        },
+
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 40
+        },
+
+        {
+            "type": "header",
+            "content": "t:sections.all.margin.section_margin_heading"
+        },
+        {
+            "type": "range",
+            "id": "margin_top",
+            "min": -200,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.margin.margin_top",
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "margin_bottom",
+            "min": -200,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.margin.margin_bottom",
+            "default": 0
+        }
+
+    ],
+
+    "blocks": [
+        {
+            "type": "accordion_row",
+            "name": "t:sections.collapsible_content.blocks.collapsible_row.name",
+            "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "default": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.default",
+                    "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.label"
+                },
+                {
+                    "type": "richtext",
+                    "id": "row_content",
+                    "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "t:sections.le_accordion.presets.name",
+            "blocks": [
+                {
+                    "type": "accordion_row"
+                },
+                {
+                    "type": "accordion_row"
+                },
+                {
+                    "type": "accordion_row"
+                },
+                {
+                    "type": "accordion_row"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

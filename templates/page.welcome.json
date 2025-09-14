@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "About Us",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_fiJnpp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KhtiV6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to the Level 2 Gym Instructor Qualification",
+            "heading_size": "h1"
+          }
+        },
+        "text_XbPLYH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>NOTE:</strong><em><strong> If you’ve purchased this course as part of a combined package or bundle, please note: this is the first course in your series. Once you complete it, you’ll automatically unlock the learning materials for your next course.</strong></em></p><p>You will receive two separate logins:</p><p>1. eLearning Login – for your online learning content, sent from Active IQ.</p><p>2. Coursework Submission Login – for uploading your assignments and booking assessments, sent from us.</p><p></p><p>Follow the steps below to get started:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KhtiV6",
+        "text_XbPLYH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "le_steps_qH49VV": {
+      "type": "le_steps",
+      "blocks": {
+        "step_zDDgpm": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step One",
+            "text": "Watch the Welcome Video",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_PP6xqT": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Step Two",
+            "text": "Download and Save Your Learner Policies & Welcome Email",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_bX6Ben": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Step Three",
+            "text": "Complete Your eLearning",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_mMNKdF": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Step Four",
+            "text": "Watch The Assessment Videos",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_EJBzGi": {
+          "type": "step",
+          "settings": {
+            "number": "5",
+            "title": "Step Five",
+            "text": "Book Or Submit Your Assessments",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_zDDgpm",
+        "step_PP6xqT",
+        "step_bX6Ben",
+        "step_mMNKdF",
+        "step_EJBzGi"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "template_type": "light-blue",
+        "step_width": "wide",
+        "heading": "<p>Steps to success</p>",
+        "text": "",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "video_rEVKQJ": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "<strong>Step One– Watch the Welcome Video </strong>",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dBVnMz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6tgaeG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Step 2 – Download and Save Your Learner Policies & Welcome Email</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KiCX7W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Download the Learner Policies and Assesment documents on the link below.</p><p>2. Save your Study Active Welcome Email – it contains your unique coursework submission login for assessments.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tgaeG",
+        "text_KiCX7W"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "le_callout_KAtpAc": {
+      "type": "le_callout",
+      "blocks": {
+        "button_z7fFfe": {
+          "type": "button",
+          "settings": {
+            "title": "Download Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_z7fFfe"
+      ],
+      "name": "t:sections.le_callout.presets.name",
+      "settings": {
+        "heading": "",
+        "text": "<p>Clicking the link below automatically downloads the course materials to your laptop or phone.</p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_9QViLP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kqbAGF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Step 3 – Access Your eLearning</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_i89imr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active IQ. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kqbAGF",
+        "text_i89imr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "le_callout_maAjJT": {
+      "type": "le_callout",
+      "blocks": {
+        "button_VHWUD9": {
+          "type": "button",
+          "settings": {
+            "title": "eLearning Login",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_VHWUD9"
+      ],
+      "name": "t:sections.le_callout.presets.name",
+      "settings": {
+        "heading": "",
+        "text": "<p>Important: Your eLearning login is different from your coursework submission login. Watch for an email from Active IQ with your eLearning access details. You can use the link below to access the eLearning.  </p>",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_AhxRbt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ejgj4M": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Step 4 – Watch The Assessment Videos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_yUDPzm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active IQ. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ejgj4M",
+        "text_yUDPzm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "video_Tqf7eW": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_8UjGHC": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WwE9Xb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WzyhqM": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Step 5 – Book or Submit Your Assessments</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_3Hwp6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Using your coursework submission login, found in your welcome email from us, you can:</p><p>Upload your completed coursework, using the assessment link provided on your welcome email.</p><p>Book a practical or theory assessment or to request tutor support please email or phone on:<br/><br/><strong>support@studyactive.co.uk<br/>01223 912122 </strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WzyhqM",
+        "text_3Hwp6i"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "le_image_slider_iHgzJX": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_TNY9aF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/active-iq-logo-about-us.webp"
+          }
+        },
+        "slide_GdUTqP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CIMSPA-Logo-Navy-RGB-2.webp"
+          }
+        },
+        "slide_b9hydN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NRPT_logo.png"
+          }
+        },
+        "slide_fUftXy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ukactive_Member.avif"
+          }
+        },
+        "slide_ERPJK8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PD-Approval-Logo.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TNY9aF",
+        "slide_GdUTqP",
+        "slide_b9hydN",
+        "slide_fUftXy",
+        "slide_ERPJK8"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_fiJnpp",
+    "le_steps_qH49VV",
+    "video_rEVKQJ",
+    "rich_text_dBVnMz",
+    "le_callout_KAtpAc",
+    "rich_text_9QViLP",
+    "le_callout_maAjJT",
+    "rich_text_AhxRbt",
+    "video_Tqf7eW",
+    "video_8UjGHC",
+    "rich_text_WwE9Xb",
+    "le_image_slider_iHgzJX"
+  ]
+}

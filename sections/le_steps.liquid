@@ -1,0 +1,361 @@
+{%- liquid
+
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.template_type
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.template_type
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.template_type
+    if section.settings.template_type == 'white' or section.settings.template_type == 'light-blue'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    else
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    # ---------------------------------
+
+    assign haz_no_blocks = true
+    if section.blocks.size > 0
+        assign haz_no_blocks = false
+    endif
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-steps
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            -step-width-{{ section.settings.step_width }}
+            {{ section_classes }}
+            {{ section.settings.custom_class_names }}">
+    <div class="page-width">
+
+        {% if section.settings.heading or section.settings.text %}
+        <div class="st-header {% if haz_no_blocks %}-no-blocks{% endif %}">
+
+            {% # HEADING %}
+            {% if section.settings.heading %}
+            <h2 class="image-with-text__heading inline-richtext _text-h2 {{ section.settings.heading_size }}" >
+              {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+            </h2>
+            {% endif %}
+
+            {% # TEXT %}
+            {% if section.settings.text %}
+                <div class="st-header-text">
+                    {{ section.settings.text }}
+                </div>
+            {% endif %}
+
+        </div>
+        {% endif %}
+
+        {% if section.blocks.size > 0 %}
+        <div class="st-content sa-col-primary">
+        {%- for block in section.blocks -%}
+            <div class="st-step">
+
+                <div class="st-left st-number">
+                    {{ block.settings.number }}
+                </div>
+
+                <div class="st-right">
+
+                    <div class="flex gap-4 flex-col">
+                        <div class="st-title _text-p !font-bold">
+                            {{ block.settings.title }}
+                        </div>
+
+                        <div class="st-text text-small">
+                            {{ block.settings.text }}
+                        </div>
+                    </div>
+
+                    {% if block.settings.button_text != blank %}
+                    <div class="st-button">
+                        <div class="sa-button -hover-grow" data-target="{{ block.settings.button_link }}">
+                            <span>{{ block.settings.button_text }}</span>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+
+
+    <script>
+        if (!(typeof window.steps_initLinks === "function")) {
+
+            function steps_initLinks() {
+                var links = document.querySelectorAll('.st-button .sa-button');
+                for (var i = 0; i < links.length; i++) {
+                    var link = links[i];
+                    link.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        scrollToTargetAdjusted( document.querySelector('.' + this.getAttribute('data-target')) );
+                    })
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function () {
+                    steps_initLinks();
+                }, 250);
+            });
+
+        }
+    </script>
+
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_steps.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "select",
+      "id": "template_type",
+      "label": "Section Template",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "light-blue"
+    },
+
+    {
+      "type": "select",
+      "id": "step_width",
+      "label": "Max. width",
+      "options": [
+        {
+          "value": "narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        }
+      ],
+      "default": "wide"
+    },
+
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<p>Step into success</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>"
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
+    },
+
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        {
+          "type": "text",
+          "id": "number",
+          "default": "1",
+          "label": "Step Number"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Step",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "default": "Go to Step",
+          "label": "Button Text"
+        },
+        {
+          "type": "text",
+          "id": "button_link",
+          "label": "Target class ('Custom class' option in the section settings)"
+        }
+      ]
+    },
+    {
+      "type": "brand_information",
+      "name": "t:sections.footer.blocks.brand_information.name",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:sections.footer.blocks.brand_information.settings.paragraph.content"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_social",
+          "default": true,
+          "label": "t:sections.footer.blocks.brand_information.settings.show_social.label",
+          "info": "t:sections.footer.blocks.brand_information.settings.show_social.info"
+        }
+      ]
+    },
+  ],
+  "presets": [
+    {
+      "name": "t:sections.le_steps.presets.name",
+      "blocks": [
+        {
+          "type": "step"
+        },
+        {
+          "type": "step"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

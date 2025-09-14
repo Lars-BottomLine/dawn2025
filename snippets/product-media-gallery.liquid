@@ -33,7 +33,7 @@
     assign hide_mobile_slider = true
   endif
 
-  if section.settings.media_size == 'large'
+  if section.settings.media_size == 'large' or section.settings.media_size == 'auto'
     assign media_width = 0.65
   elsif section.settings.media_size == 'medium'
     assign media_width = 0.55

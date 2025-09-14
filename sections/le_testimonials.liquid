@@ -1,0 +1,433 @@
+{{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
+
+{%- liquid
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white'
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary'
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin'
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding'
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    assign use_product_data = false
+    if section.settings.use_product_data
+        assign use_product_data = true
+    endif
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-testimonials
+           {{ section_classes }}">
+    <div class="page-width">
+
+        {% if section.settings.heading %}
+        <div class="tm-header tm-container">
+
+            {% # HEADING
+               # ---------------------- %}
+            {% if section.settings.heading %}
+            <div class="tm-heading">
+                <{{ section.settings.heading_type }} class="tm-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
+                    {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </{{ section.settings.heading_type }}>
+            </div>
+            {% endif %}
+
+        </div>
+        {% endif %}
+
+        <div class="tm-container">
+
+            <div id="swiper-{{ section.id }}"
+                 class="swiper sa-swiper sa-swiper-type-{{ section.settings.slider_type }}">
+                <div class="swiper-wrapper">
+
+                    {% assign section_id = section.id | append: '-' | append: forloop.index %}
+
+                    {% if use_product_data and mode_live %}
+                        {% for entry in product.metafields.custom.testimonials.value %}
+                            {% render 'le_testimonial',
+                                    tm_id: section_id,
+                                    tm_forloop_index: forloop.index,
+                                    tm_forloop_length: forloop.length,
+
+                                    tm_block_type: 'testimonial',
+                                    tm_quote: entry.quote,
+                                    tm_author: entry.author
+                            %}
+                        {% endfor %}
+                    {% else %}
+                        {%- for block in section.blocks -%}
+                            {% render 'le_testimonial',
+                                    tm_id: section_id,
+                                    tm_forloop_index: forloop.index,
+                                    tm_forloop_length: forloop.length,
+
+                                    tm_block_type: block.type,
+                                    tm_quote: block.settings.quote,
+                                    tm_author: block.settings.author
+                            %}
+                        {% endfor %}
+                    {% endif %}
+
+                </div>
+            </div>
+
+            {% # BUTTONS
+               # ---------------------- %}
+            <div class="sa-swiper-button-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path d="M7.179 16.5L17.4457 26.7667L14.8332 29.3333L0.166504 14.6667L14.8332 0L17.4457 2.56667L7.179 12.8333H29.4998V16.5H7.179Z" fill="white"/>
+                </svg>
+            </div>
+            <div class="sa-swiper-button-next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                  <path d="M22.8208 16.5H0.5V12.8333H22.8208L12.5542 2.56667L15.1667 0L29.8333 14.6667L15.1667 29.3333L12.5542 26.7667L22.8208 16.5Z" fill="white"/>
+                </svg>
+            </div>
+
+        </div>
+
+        <script>
+            // TODO: differentiate between autorotate and autoplay
+            var swiper = new Swiper("#swiper-{{ section.id }}", {
+                spaceBetween: 20,
+
+                navigation: {
+                    nextEl: ".sa-swiper-button-next",
+                    prevEl: ".sa-swiper-button-prev",
+                },
+
+                loop: true,
+
+                speed: 1000,
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                autoplay: false,
+
+                slidesPerView: 1,
+
+                breakpoints: {
+                    600: {
+                        slidesPerView: 'auto'
+                    }
+                }
+
+            });
+            // autoplay: {
+            //     delay: 1000,
+            //         disableOnInteraction: false,
+            // },
+            // slidesPerView: 1,
+            //
+            //     breakpoints: {
+            //     530: {
+            //         slidesPerView: 2
+            //     },
+            //     // when window width is >= 640px
+            //     900: {
+            //         slidesPerView: 3
+            //     }
+            // }
+        </script>
+
+    </div> {% # /PAGE WIDTH %}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_testimonials.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "<p>Heading</p>",
+      "label": "t:sections.le_swiper.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_type",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "div",
+          "label": "DIV"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading type"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "normal",
+      "label": "Heading font size"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_decal",
+      "default": false,
+      "label": "No decals on 'Heading'"
+    },
+
+    {
+      "type": "select",
+      "id": "section_bkgr",
+      "label": "Background Color",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "primary"
+    },
+
+    {
+      "type": "header",
+      "content": "t:settings_schema.le_basics.source.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_product_data",
+      "label": "t:settings_schema.le_basics.source.label",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
+    },
+
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "Quote"
+        },
+        {
+          "type": "richtext",
+          "id": "author",
+          "label": "Author"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.le_testimonials.presets.name",
+      "blocks": [
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

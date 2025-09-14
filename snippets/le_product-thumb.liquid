@@ -1,0 +1,397 @@
+{% comment %}
+  Renders a product thumbnail for le_featured and the collections product list
+
+  Accepts:
+    - section_id: section.id,
+    - section_heading: section.settings.heading,
+    - section_heading_type: section.settings.heading_type,
+    - secondary_background: section.settings.secondary_background,
+    - template_type: section.settings.template_type,
+    - media_size: section.settings.media_size,
+    - media_position: section.settings.media_position,
+    - product: product,
+    - settings_product: section.settings.product,
+    - section_blocks: section.blocks,
+    - constrain_to_viewport: section.settings.constrain_to_viewport
+
+    - loopindex - where in the loop cycle are we for this section
+
+    - shopify_attributes: ''
+  Usage:
+  {% render 'card-product', show_vendor: section.settings.show_vendor %}
+{% endcomment %}
+
+{% liquid
+    assign first_call_on_page = false
+    if loopindex == 1
+        assign first_call_on_page = true
+    endif
+%}
+
+{% assign uze_modal = false %}
+
+{% if first_call_on_page %}
+<script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
+{% endif %}
+
+{% liquid
+    assign product_tags = ''
+    for tag in product.tags
+        assign slug = tag | handle
+        if forloop.index != 1
+            assign product_tags = product_tags | append: ','
+        endif
+        assign product_tags = product_tags | append: slug
+    endfor
+%}
+
+<product-thumb class="le-product-thumb
+                      {% if secondary_background %}background-secondary{% else %}gradient{% endif %}
+                      -template-{{ template_type }}
+                      sa-col-primary"
+               data-product-tags="{{ product_tags }}"
+               data-product-id="{{ product.id }}"
+               data-product-url="{{ product.url }}">
+    <div class="pt-container">
+
+        <div class="product-content
+                    {% if product.media.size > 0 or settings_product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+
+            {% # TOP: MEDIA
+               # ---------------------- %}
+            <div class="product__media-wrapper">
+                {%- unless placeholder -%}
+                    {% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}
+                    <a class="pt-image-link" href="{{ product.url }}"></a>
+                {%- else -%}
+                    <div class="product__media-item">
+                        <div
+                                class="product-media-container global-media-settings gradient{% if constrain_to_viewport %} constrain-height{% endif %}"
+                                style="--ratio: 1.0; --preview-ratio: 1.0;"
+                        >
+                            {{ 'product-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                    </div>
+                {%- endunless -%}
+            </div>
+
+            {% # BOTTOM: INFO
+               # ---------------------- %}
+            <div class="product__info-wrapper
+                        sa-bg-dark-blue sa-col-white
+                        {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                <section
+                        id="Prod uctInfo-{{ section_id }}"
+                        class="product__info-container"
+                        data-sect ion="{{ section_id }}"
+                        data-url="{{ product.url }}"
+                >
+                    {%- assign product_form_id = 'product-form-' | append: section_id -%}
+
+                    <a class="pt-content" href="{{ product.url }}">
+
+                        {% # TITLE (done)
+                           # ----------------------- %}
+                        <h4 class="product__title -no-decal" {{ shopify_attributes }}>
+                            {%- unless placeholder -%}
+                                {{ product.title | escape }}
+
+                            {%- else -%}
+                                {{ 'onboarding.product_title' | t }}
+                            {%- endunless -%}
+                        </h4>
+
+                        <div class="pt-description">
+                            {{ product.metafields.custom.short_description | metafield_tag }}
+                        </div>
+
+                    </a>
+
+                    <div class="pt-footer">
+
+                        <div class="ptf-top">
+
+                            {% # VARIANT PICKER (done)
+                               # ----------------------- %}
+                            {% render 'le_product-variant-picker',
+                                    product: product,
+
+                                    swatch_shape: 'none',
+                                    picker_type: 'dropdown',
+                                    shopify_attributes: shopify_attributes,
+
+                                    product_form_id: product_form_id
+                            %}
+
+                        </div>
+
+                        <div class="ptf-bottom">
+
+                            {% # BUY BUTTONS
+                               # ----------------------- %}
+                            {%- render 'le_buy-buttons',
+                                    block: block,
+                                    product: product,
+                                    product_form_id: product_form_id,
+                                    section_id: section_id
+                            -%}
+
+                            {% comment %}
+                            {% if request.page_type == 'collection' %}
+                                {% if product.variants.size > 1 %}
+                                    <div class="product-variant-dropdown">
+                                        <form action="/cart/add" method="post" >
+                                            <select name="id" class="product-variant-select">
+                                                {% for variant in product.variants %}
+                                                    {% if variant.available %}
+                                                        <option value="{{ variant.id }}">{{ variant.title }}</option>
+                                                    {% else %}
+                                                        <option disabled="disabled">{{ variant.title }} - Sold Out</option>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </select>
+                                            <input type="submit" value="Buy now" class="product-variant-submit-button" />
+                                        </form>
+                                    </div>
+                                {% endif %}
+                            {% endif %}
+
+                            {% if product.has_only_default_variant %}
+                                <form method="post" action="/cart/add">
+                                    <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                                    <input type="submit" value="Buy now" class="product-variant-submit-button" />
+                                </form>
+                            {% endif %}
+                            {% endcomment %}
+
+                            {% # PRICE (done?)
+                               # ----------------------- %}
+                            <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
+                                {%- render 'le_price',
+                                        product: product,
+                                        placeholder: placeholder,
+                                        use_variant: true,
+                                        show_badges: true,
+                                        price_class: 'price--large',
+                                        show_compare_at_price: true
+                                -%}
+                            </div>
+
+                            {%- if product.quantity_price_breaks_configured? -%}
+                                <div class="volume-pricing-note" id="Volume-Note-{{ section_id }}">
+                                    <span>{{ 'products.product.volume_pricing.note' | t }}</span>
+                                </div>
+                            {%- endif -%}
+
+                            {% comment %}
+                            {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                                <div class="product__tax caption rte">
+                                    {%- if cart.duties_included and cart.taxes_included -%}
+                                        {{ 'products.product.duties_and_taxes_included' | t }}
+                                    {%- elsif cart.taxes_included -%}
+                                        {{ 'products.product.taxes_included' | t }}
+                                    {%- elsif cart.duties_included -%}
+                                        {{ 'products.product.duties_included' | t }}
+                                    {%- endif -%}
+                                    {%- if shop.shipping_policy.body != blank -%}
+                                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                                    {%- endif -%}
+                                </div>
+                            {%- endif -%}
+                            {% endcomment %}
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                {%- unless placeholder -%}
+                    <div {{ shopify_attributes }} class="!m-0">
+                        {%- form 'product', product -%}
+                            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                            {{ form | payment_terms }}
+                        {%- endform -%}
+                    </div>
+                {%- endunless -%}
+
+            </div>
+        </div>
+
+        {% if uze_modal %}
+            {% render 'product-media-modal', product: product, variant_images: variant_images %}
+        {% endif %}
+
+    </div>
+
+    <script type="application/ld+json">
+      {{ product | structured_data }}
+    </script>
+
+    {% # only load once per section %}
+    {% if first_call_on_page %}
+    <script>
+        // TODO: replace #Option-template--25326316388729__product-grid-0 with sth unique
+
+        // only enter here if we have not added the js before in another section
+        if (!(typeof window.pt_initProductThumbVariationListener === "function")) {
+
+            // setup the thumblist to be filled with the thumb_ids
+            var pt_variations_selector_list = pt_variations_selector_list || [];
+
+            document.addEventListener("DOMContentLoaded", function () {
+                setTimeout(function () {
+                    pt_initProductThumbVariationListener(pt_variations_selector_list);
+                }, 250);
+            });
+
+            function pt_initProductThumbVariationListener(pt_variations_selector_list) {
+
+                if (pt_variations_selector_list && pt_variations_selector_list.length) {
+                    pt_variations_selector_list.forEach(variant_selector => {
+
+                        // EVENT: selected variations have changed
+                        document.querySelector(variant_selector).addEventListener('change', function (event) {
+                            const debug = false;
+                            const product_thumb = event.target.closest('product-thumb');
+
+                            if (product_thumb) {
+                                const product_id = product_thumb.getAttribute('data-product-id');
+                                const product_url = product_thumb.getAttribute('data-product-url');
+                                const options = [];
+                                const selected_product_variant_input = product_thumb.querySelector('.product-variant-id');
+
+                                // get selected values
+                                product_thumb.querySelectorAll('select').forEach((sel, index) => {
+                                    options[index] = sel.value;
+                                    if (debug) console.log(index, sel, sel.value);
+                                })
+
+                                if (debug) {
+                                    console.log('product', product_id);
+                                    console.log('product_url', product_url);
+                                    console.log('selected_product_variant_input', selected_product_variant_input);
+                                    console.log('options', options);
+                                }
+
+                                // get product information (could be cached, but meeeh, not worth it)
+                                fetch(product_url + '.js')
+                                    .then(response => response.json())
+                                    .then(product => {
+
+                                        if (debug) console.log('product', product, product.variants);
+
+                                        let selected_variant = product.variants.filter(variant => {
+                                            if (debug) {
+                                                console.log('filter', variant, variant.options.indexOf(options[0]), variant.options.indexOf(options[1]),
+                                                    variant.options.indexOf(options[0]) > -1 && variant.options.indexOf(options[1]) > -1);
+                                                console.log( options, options[0], options[1], options[1] == null, options[1] == 'null');
+                                            }
+                                            return variant.options.indexOf(options[0]) > -1
+                                                && (variant.options.length == 1 || variant.options.indexOf(options[1]) > -1);
+                                        })
+
+                                        if (selected_variant && selected_variant.length) {
+                                            selected_variant = selected_variant[0];
+                                            if (debug) console.log('selected_variant', selected_variant);
+
+                                            // set selected
+                                            selected_product_variant_input.value = selected_variant.id;
+
+                                            // set price
+                                            pt_setProductThumbPrice(selected_variant, product, product_thumb);
+
+                                            if ( selected_variant.available ) {
+                                                pt_setAvailable( product_thumb );
+                                            } else {
+                                                pt_setSoldOut( product_thumb );
+                                            }
+
+                                        } else {
+                                            console.error('No variant found!');
+                                        }
+
+                                    });
+
+                            } else {
+                                console.error('No product thumb found!');
+                            }
+                        });
+
+                    })
+
+                }
+            }
+
+            function pt_setSoldOut( product_thumb ) {
+                const button = product_thumb.querySelector('.sa-button');
+                button.querySelector('span').innerHTML = 'Sold Out';
+                button.classList.add('-disabled');
+            }
+
+            function pt_setAvailable( product_thumb ) {
+                const button = product_thumb.querySelector('.sa-button');
+                button.querySelector('span').innerHTML = 'Add to cart';
+                button.classList.remove('-disabled');
+            }
+
+            function pt_setProductThumbPrice(selected_variant, product, product_thumb) {
+
+                const ele_regular_price = product_thumb.querySelector('.price-item.price-item--regular');
+                const ele_sales_price = product_thumb.querySelector('.price-item.price-item--sale');
+                const ele_sales_regular_price = product_thumb.querySelector('.price__sale .price-item.price-item--regular');
+                const ele_sales_save_percentage = product_thumb.querySelector('.price__sale .price-save-percentage span');
+                const ele_le_price = product_thumb.querySelector('.le_price');
+
+                const currency_symbol = ele_regular_price.innerHTML.replace(/[0-9.,]/g, '').trim();
+                const regular_price = Math.round( parseInt( selected_variant.price ) / 100 );
+                const str_regular_price = currency_symbol + pt_formatPrice( regular_price );
+
+                // set regular price for both cases
+                ele_regular_price.innerHTML = str_regular_price;
+                ele_sales_price.innerHTML = str_regular_price;
+
+                // we have a sales price
+                if ( selected_variant.compare_at_price ) {
+                    // show sales prices
+                    ele_le_price.classList.add('price--on-sale');
+                    // update the sales prices (old price, percentage)
+                    const sales_regular_price = Math.round( parseInt( selected_variant.compare_at_price ) / 100 );
+                    ele_sales_regular_price.innerHTML =  currency_symbol + pt_formatPrice( sales_regular_price );
+                    ele_sales_save_percentage.innerHTML = Math.floor( (sales_regular_price / regular_price - 1 ) * 100 ) ;
+                // no sales price
+                } else {
+                    // hide sales prices
+                    ele_le_price.classList.remove('price--on-sale');
+                    // reset the sales prices
+                    ele_sales_regular_price.innerHTML = '';
+                    ele_sales_save_percentage.innerHTML = '';
+                }
+
+            }
+
+            // add thousands separator to price string
+            function pt_formatPrice(price) {
+                return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            }
+        }
+    </script>
+
+    <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
+    {% comment %}{% if product.media.size > 0 %}{% endcomment %}
+        {% if uze_modal %}
+        <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
+        {% endif %}
+        <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
+    {% comment %}{% endif %}{% endcomment %}
+
+    {% endif %}
+
+    <script>
+        pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
+    </script>
+
+</product-thumb>

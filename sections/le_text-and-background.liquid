@@ -1,0 +1,561 @@
+{%- liquid
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.section_bkgr
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.section_bkgr
+    if section.settings.section_bkgr == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.section_bkgr == 'light-blue' or section.settings.section_bkgr == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    if section.settings.stretch_image
+        assign section_classes = section_classes | append: ' -stretch-bkgr '
+    endif
+
+    assign section_classes = section_classes | append: ' -mobile-text-' | append: section.settings.mobile_text
+    assign section_classes = section_classes | append: ' -mobile-image-' | append: section.settings.mobile_image
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+      margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+      margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+      .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+      }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-textcolsandbkgr
+            sa-section-{{ section.id }}
+            {{ section_classes }}">
+
+    {% # BACKGROUND: IMAGE
+       # ---------------------------------------- %}
+    <div class="tab-background page-width image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
+        <div class="tab-image media">
+            {% # IMAGE SET, DEFINE SIZES  %}
+            {% assign img = section.settings.image | default: product.metafields.custom.hero_image | default: blank %}
+            {%- if img != blank -%}
+                {%- assign widths = '1200, 1500' -%}
+                {%- capture sizes -%}
+                    {% comment %}
+                    ToDo: check the resulting image size, should be big enough but not too big...
+                    {% endcomment %}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                {{ img
+                    | image_url: width: 1500
+                    | image_tag:
+                        sizes: sizes,
+                        widths: widths,
+                        fetchpriority: fetch_priority
+                }}
+
+                {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+            {%- else -%}
+                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+        </div>
+    </div>
+
+    {% # BACKGROUND: SHADOW
+       # ---------------------------------------- %}
+    <div class="tab-shadow page-width "></div>
+
+    {% # FOREGROUND: CONTENT
+       # ---------------------------------------- %}
+    <div class="page-width tab-foreground">
+
+        <div class="tab-content flex flex-col">
+
+            {%- for block in section.blocks -%}
+                <div class="tab-row -type-{{ block.type }}">
+
+                    {% case block.type %}
+
+                      {% # ROW: HEADING %}
+                      {%- when 'row-heading' -%}
+                        {% if block.settings.text %}
+                        <{{ block.settings.heading_type }} class="-no-decal -h-text -h-text-{{ block.settings.heading_size }}">{{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}</{{ block.settings.heading_type }}>
+                        {% endif %}
+
+                      {% # ROW: 2 COLUMNS %}
+                      {%- when 'row2col' -%}
+
+                        {% if block.settings.text1 %}
+                          <div class="tab-col tab-col--left -e-text -text-size-{{ block.settings.text1_size }} {% if block.settings.text1 == blank %} -blank {% endif %}">
+                              {{ block.settings.text1 }}
+                          </div>
+                        {% endif %}
+
+                        {% if block.settings.text2 %}
+                          <div class="tab-col tab-col--right -e-text -text-size-{{ block.settings.text2_size }} {% if block.settings.text2 == blank %} -blank {% endif %}">
+                            {{ block.settings.text2 }}
+                          </div>
+                        {% endif %}
+
+                      {% # ROW: BUTTON %}
+                      {%- when 'row-button' -%}
+                        {% if block.settings.text %}
+                          {% if block.settings.button_type == 'internal' %}
+                            <div class="tab-button-internal flex items-center gap-8">
+
+                              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M13.125 22.8281L13.125 -7.3763e-07L16.875 -5.73712e-07L16.875 22.8281L27.375 12.3281L30 15L15 30L-6.55671e-07 15L2.625 12.3281L13.125 22.8281Z" fill="#39EAF6"/>
+                              </svg>
+
+                              <span>
+                                {{ block.settings.text }}
+                              </span>
+
+                            </div>
+                          {% else %}
+                          <div class="sa-button-wrapper -button-type-{{ block.settings.button_type }}">
+                            <a class="sa-button -medium -hover-grow _sa-internal-link
+                                      {% if block.settings.inverted %} -invert {% endif %}" href="{{ block.settings.button_link }}">
+                              <span>{{ block.settings.text }}</span>
+                            </a>
+                          </div>
+
+                          {% if block.settings.subtext %}
+                          <div class="sa-button-subtext">
+                              {{ block.settings.subtext }}
+                          </div>
+                          {% endif %}
+
+                          {% endif %}
+                        {% endif %}
+                    {% endcase%}
+                </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_tab.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+
+  "settings": [
+
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label",
+      "info": "If this image is set, it will override the product image!"
+    },
+    {
+      "type": "checkbox",
+      "id": "stretch_image",
+      "label": "Stretch background image to full width",
+      "default": true
+    },
+
+    {
+      "type": "select",
+      "id": "section_bkgr",
+      "label": "Background Color",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Blue (primary)"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light Blue"
+        },
+        {
+          "value": "white",
+          "label": "White"
+        }
+      ],
+      "default": "primary"
+    },
+
+    {
+      "type": "header",
+      "content": "Mobile View"
+    },
+    {
+      "type": "select",
+      "id": "mobile_image",
+      "label": "Mobile Image",
+      "options": [
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
+
+    {
+      "type": "select",
+      "id": "mobile_text",
+      "label": "Mobile Text",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "smalltext",
+          "label": "Smaller Text"
+        }
+      ],
+      "default": "default"
+    },
+
+    {
+      "type": "header",
+      "content": "Custom classes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:settings_schema.custom_classes.settings.class_names.label",
+      "placeholder": ".test_class"
+    },
+
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 320,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 320,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "row-heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "t:sections.footer.blocks.link_list.settings.heading.default",
+          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_type",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "div",
+              "label": "DIV"
+            }
+          ],
+          "default": "h1",
+          "label": "Heading type"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "normal",
+              "label": "Normal"
+            },
+            {
+              "value": "large",
+              "label": "Large"
+            }
+          ],
+          "default": "normal",
+          "label": "Heading font size"
+        }
+      ]
+    },
+    {
+      "type": "row2col",
+      "name": "2 text columns",
+      "settings": [
+
+        {
+          "type": "header",
+          "content": "Left Text"
+        },
+        {
+          "type": "richtext",
+          "id": "text1",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "text1_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "medium",
+              "label": "Medium"
+            },
+            {
+              "value": "medium-plus",
+              "label": "Medium Plus"
+            }
+          ],
+          "default": "medium",
+          "label": "Text size"
+        },
+
+        {
+          "type": "header",
+          "content": "Right Text"
+        },
+        {
+          "type": "richtext",
+          "id": "text2",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "text2_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "medium",
+              "label": "Medium"
+            },
+            {
+              "value": "medium-plus",
+              "label": "Medium Plus"
+            }
+          ],
+          "default": "medium",
+          "label": "Text size"
+        }
+      ]
+    },
+
+    {
+      "type": "row-button",
+      "name": "Button",
+      "settings": [
+
+        {
+          "type": "text",
+          "id": "text",
+          "default": "t:sections.footer.blocks.link_list.settings.heading.default",
+          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "options": [
+            {
+              "value": "left",
+              "label": "Button Left"
+            },
+            {
+              "value": "right",
+              "label": "Button Right"
+            },
+            {
+              "value": "internal",
+              "label": "Internal (cyan with arrow)"
+            }
+          ],
+          "default": "left",
+          "label": "Button type"
+        },
+        {
+          "type": "checkbox",
+          "id": "inverted",
+          "default": true,
+          "label": "Invert the button color"
+        },
+        {
+          "type": "text",
+          "id": "button_link",
+          "label": "Target URL"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "t:sections.le_tab.presets.name",
+      "blocks": [
+        {
+          "type": "row-heading"
+        },
+        {
+          "type": "row2col"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}

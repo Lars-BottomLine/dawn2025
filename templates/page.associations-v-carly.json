@@ -1,0 +1,505 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "About Us",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "le_text_and_background_XdbYyL": {
+      "type": "le_text-and-background",
+      "blocks": {
+        "row_heading_bfzBKP": {
+          "type": "row-heading",
+          "settings": {
+            "text": "<p>Associations <strong>and Partners</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "normal"
+          }
+        },
+        "row2col_KLkTY7": {
+          "type": "row2col",
+          "settings": {
+            "text1": "<p>At Study Active, our partnerships with leading awarding bodies, industry regulators and major gym chains are at the heart of what we do. </p><p></p>",
+            "text1_size": "medium",
+            "text2": "<p>They ensure that our courses meet the highest professional standards and give our learners a clear route into employment.</p>",
+            "text2_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "row_heading_bfzBKP",
+        "row2col_KLkTY7"
+      ],
+      "name": "t:sections.le_tab.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/london_782f2be3-15d6-4b44-abef-8e2fb0c63673.webp",
+        "stretch_image": true,
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_JJ8WEA": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_C6YAr6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cimspa-logo.webp",
+            "heading": "<p>CIMSPA</p>",
+            "subheading": "<p>CIMSPA is the professional development body for the UK’s sport and physical activity sector, recognising Study Active training throughout the UK. Study Active are one of the few providers in the UK to achieve 'Enhancing' status.</p>"
+          }
+        },
+        "slide_R6mB4D": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/active-iq-logo-about-us-page.jpg",
+            "heading": "<p>Active IQ</p>",
+            "subheading": "<p>We partner with Active IQ because they are one of the UK's leading awarding organisations recognised and regulated by Ofqual within the Active Leisure sector.</p>"
+          }
+        },
+        "slide_j4pPe3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_14.png",
+            "heading": "<p>UK Active</p>",
+            "subheading": "<p>UK Active supports its members by offering services and facilitating partnerships within the UK fitness industry, aiming to improve public health through physical activity. Study Active are a proud member of UK Active.</p>"
+          }
+        },
+        "slide_PepAA6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png",
+            "heading": "<p>Royal Society For Public Health</p>",
+            "subheading": "<p>RSPH is a leading awarding body for vocational health-related qualifications in the UK, recognized by Ofqual and Qualifications Wales. Study Active are an approved RSPH Training Provider.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_C6YAr6",
+        "slide_R6mB4D",
+        "slide_j4pPe3",
+        "slide_PepAA6"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Accreditation and Standards</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -132,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_iJkbiJ": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_wzEAgF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_16.png",
+            "heading": "<p>MedFit Education</p>",
+            "subheading": "<p>MedFit Education, often referred to as the MedFit Education Foundation (MFEF),is a non-profit organisation focused on providing continuing education for fitness and allied healthcare professionals. </p>"
+          }
+        },
+        "slide_A3LaJg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_17.png",
+            "heading": "<p>Mcdonald Method</p>",
+            "subheading": "<p>The McDonald Method is a coaching and education platform created by Ben McDonald that blends fitness, boxing, movement, and personal development into accessible learning experiences. Its mission is to help people move better, breathe better, and connect more authentically—whether they are athletes, coaches, or everyday individuals.</p>"
+          }
+        },
+        "slide_weyzBb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_18.png",
+            "heading": "<p>Boxercise</p>",
+            "subheading": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>"
+          }
+        },
+        "slide_tpYd7f": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png",
+            "heading": "<p>Royal Society For Public Health</p>",
+            "subheading": "<p>RSPH is a leading awarding body for vocational health-related qualifications in the UK, recognized by Ofqual and Qualifications Wales. Study Active are an approved RSPH Training Provider.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wzEAgF",
+        "slide_A3LaJg",
+        "slide_weyzBb",
+        "slide_tpYd7f"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Education Partners</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -132,
+        "margin_bottom": 0
+      }
+    },
+    "le_face2face_pwDDFB": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_nxE8gq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_19.png",
+            "heading": "<p>Your Personal Training</p>",
+            "subheading": "<p>YPT provides personal training jobs<em> </em>in London, Manchester, Cardiff, Scotland, Belfast and throughout the UK.</p>"
+          }
+        },
+        "slide_cckgaG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_20.png",
+            "heading": "<p>CoverMe Fitness</p>",
+            "subheading": "<p>CoverMe is an app that empowers personal trainers, group fitness instructors, and other fitness professionals by enabling them to take control of when and where they work—teach more, earn more, and stress less. Through CoverMe, instructors create a dynamic profile showcasing their credentials, insurance, and teaching videos, which fitness venues can access to offer work opportunities </p>"
+          }
+        },
+        "slide_9JMmHQ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_18.png",
+            "heading": "<p>Boxercise</p>",
+            "subheading": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>"
+          }
+        },
+        "slide_P7FrQx": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png",
+            "heading": "<p>Royal Society For Public Health</p>",
+            "subheading": "<p>RSPH is a leading awarding body for vocational health-related qualifications in the UK, recognized by Ofqual and Qualifications Wales. Study Active are an approved RSPH Training Provider.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nxE8gq",
+        "slide_cckgaG",
+        "slide_9JMmHQ",
+        "slide_P7FrQx"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Recruitment Partners</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "left",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 20,
+        "margin_bottom": 0
+      }
+    },
+    "le_accordion_z9qYir": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_VRJ38V": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/5b7a571-675-af07-c53f-5c73cddfc65_18af200b-42ff-4b6b-9c2d-31700823653a.webp",
+            "heading": "Collapsible row",
+            "row_content": "<p>eqweqweqweqweq2e</p>"
+          }
+        },
+        "accordion_row_bXLJLJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_8WNHGE": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        },
+        "accordion_row_FciTNm": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_VRJ38V",
+        "accordion_row_bXLJLJ",
+        "accordion_row_8WNHGE",
+        "accordion_row_FciTNm"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "headline": "Headline",
+        "heading_size": "medium",
+        "accordion_width": "narrow",
+        "accordion_entries": [],
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_waBTCd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ygqiDY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gyms and Leisure Clubs",
+            "heading_size": "h1"
+          }
+        },
+        "text_6qbFEL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Study Active partners with gyms and leisure clubs nationwide to deliver staff training, create employment opportunities for our graduates through guaranteed job interviews, and host training and assessment days. We collaborate with a growing network of providers across the country, and some of our valued partners are listed below.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ygqiDY",
+        "text_6qbFEL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_UApzce": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KiEFBc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Gym Partnerships",
+            "heading_size": "h1"
+          }
+        },
+        "text_YccVCL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We give all Study Active learners <strong>guaranteed job interviews</strong> upon completion of their course. These relationships help us align our training with real-world industry needs and give you a direct path from qualification to employment.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KiEFBc",
+        "text_YccVCL"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/woman-weight-lifting-with-trainer.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -24
+      }
+    },
+    "le_image_slider_WKjHBk": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_FcDmNg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/everlastgym.jpg"
+          }
+        },
+        "slide_KGx7Hc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ModeClub_LogoF.png"
+          }
+        },
+        "slide_9GQztc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/The_Gym_Group.webp"
+          }
+        },
+        "slide_X9rMTw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pure_gym_logo.png"
+          }
+        },
+        "slide_m6zA8n": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personaltraining.png"
+          }
+        },
+        "slide_JLAQY7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/parkwood-leisure-logo.png"
+          }
+        },
+        "slide_zUyDDE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/everyone-active-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FcDmNg",
+        "slide_KGx7Hc",
+        "slide_9GQztc",
+        "slide_X9rMTw",
+        "slide_m6zA8n",
+        "slide_JLAQY7",
+        "slide_zUyDDE"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 92,
+        "padding_bottom": 88,
+        "margin_top": -104,
+        "margin_bottom": -72
+      }
+    },
+    "rich_text_wFfcf3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gV39kL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Questions? Contact us",
+            "heading_size": "h1"
+          }
+        },
+        "text_fJDky7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you want to know more about our awarding bodies or how our gym partnerships can help you land your first role, we’re here to help.<br/></p><p>📩 Email: <a>info@studyactive.co.uk</a><br/><br/>📞 Call: <a href=\"tel:0122 391 2122\" title=\"tel:0122 391 2122\">0122 391 2122</a><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gV39kL",
+        "text_fJDky7"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "le_text_and_background_XdbYyL",
+    "le_face2face_JJ8WEA",
+    "le_face2face_iJkbiJ",
+    "le_face2face_pwDDFB",
+    "le_accordion_z9qYir",
+    "rich_text_waBTCd",
+    "image_with_text_UApzce",
+    "le_image_slider_WKjHBk",
+    "rich_text_wFfcf3"
+  ]
+}

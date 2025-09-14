@@ -1,0 +1,512 @@
+{{ 'le_accordion.js' | asset_url | script_tag }}
+
+{%- liquid
+
+    assign section_classes = ''
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    assign section_id_js = section.id | replace: '-', '' | replace: '_', ''
+
+    assign iz_height_limit = false
+    if section.settings.accordion_height != 'none'
+        assign iz_height_limit = true
+    endif
+
+    # SECTION CLASSES
+    assign section_classes = section_classes | append: ' -acc-height-' | append: section.settings.accordion_height
+    assign section_classes = section_classes | append: ' section-' | append: section.id
+
+    # CONTENT CLASSES
+    assign content_classes = ""
+    if section.settings.accordion_width == 'narrow'
+        assign content_classes = content_classes | append: ' -narrow-section '
+    endif
+
+    # ACCORDION CLASSES
+    assign accordion_classes = ""
+    if section.settings.bkgr_color == 'white'
+        assign accordion_classes = accordion_classes | append: ' sa-col-white '
+    endif
+    if iz_height_limit
+        assign accordion_classes = accordion_classes | append: ' -haz-height-limit '
+    endif
+%}
+
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="v2-section-accordion
+            {{ section_classes }}">
+    <div class="page-width -section-content {{ content_classes }}">
+        <div class="ac-content flex flex-col">
+
+            {% render 'v2-heading', data: section.settings %}
+
+            <div class="le-accordion accordion-{{ section_id_js }} {{ accordion_classes }}">
+                <div class="le-acc-entries">
+
+                    {% # DYNAMIC METAOBJECT LIST GIVEN %}
+                    {% if section.settings.accordion_entries != blank %}
+                        {%- for entry in section.settings.accordion_entries -%}
+                            {% render 'v2_accordion-entry',
+                                    ae_title: entry.title,
+                                    ae_text: entry.text,
+                                    ae_image: entry.image
+                            %}
+                        {% endfor %}
+
+                    {% # IF NO DYNAMIC METAOBJECT LIST - USE ROW ENTRIES OF SECTION %}
+                    {% else %}
+                        {%- for block in section.blocks -%}
+                            {% render 'v2_accordion-entry',
+                                    ae_title: block.settings.heading,
+                                    ae_text: block.settings.row_content,
+                                    ae_image: block.settings.image
+                            %}
+                        {% endfor %}
+                    {% endif %}
+
+                </div>
+                {% if iz_height_limit %}
+                <div class="le-acc-arrow"></div>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    var acc_{{ section_id_js }} = false;
+
+    if (!(typeof window.openAccordion === "function")) {
+        var openAccordion = function ( ele ) {
+            ele.classList.remove('-haz-height-limit');
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        var accordion_{{ section_id_js }} = new LeAccordion({
+            wrapper_class: "accordion-{{ section_id_js }}",
+            debug: false
+        });
+        accordion_{{ section_id_js }}.init();
+
+        if (document.querySelector('.section-{{ section.id }} .le-acc-arrow')) {
+            document.querySelector('.section-{{ section.id }} .le-acc-arrow').addEventListener('click', function () {
+                openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
+            })
+        }
+
+        document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-open', function (e) {
+            console.log('ACCORDION: ENTRY OPENED', e);
+            if (!acc_{{ section_id_js }}) {
+                acc_{{ section_id_js }} = true;
+                openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
+            }
+        })
+        document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-close', function (e) {
+            console.log('ACCORDION: ENTRY CLOSED', e);
+        })
+
+    });
+
+    // remove the open button if accordion content is not taller than the limit
+    document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-initialized', function (e) {
+        setTimeout( () => {
+            const security_margin = 10;
+            const accordion = e.detail.target_entry;
+            const entries_wrapper = accordion.querySelector('.le-acc-entries');
+            // console.log('ACCORDION: INITIALIZED', accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
+            if (accordion.offsetHeight >= ( entries_wrapper.clientHeight - security_margin) ) {
+                openAccordion( accordion );
+            }
+        }, 500);
+    })
+
+
+</script>
+
+
+{% schema %}
+{
+    "name": "t:lesections.accordion.name",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+        "groups": ["header", "footer"]
+    },
+
+    "settings": [
+      {
+        "type": "select",
+        "id": "bkgr_color",
+        "label": "t:lebase.global.bkgr_color.label",
+        "default": "primary",
+        "options": [
+          {
+            "value": "primary",
+            "label": "t:lebase.global.bkgr_color.primary"
+          },
+          {
+            "value": "light-blue",
+            "label": "t:lebase.global.bkgr_color.light-blue"
+          },
+          {
+            "value": "white",
+            "label": "t:lebase.global.bkgr_color.white"
+          }
+        ]
+      },
+
+
+      {
+        "type": "header",
+        "content": "t:lebase.global.heading.header"
+      },
+      {
+        "type": "richtext",
+        "id": "heading_text",
+        "label": "t:lebase.global.heading.text"
+      },
+      {
+        "type": "select",
+        "id": "heading_align",
+        "default": "center",
+        "label": "t:lebase.global.heading.align.label",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:lebase.global.heading.align.left"
+          },
+          {
+            "value": "center",
+            "label": "t:lebase.global.heading.align.center"
+          },
+          {
+            "value": "right",
+            "label": "t:lebase.global.heading.align.right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "heading_type",
+        "label": "t:lebase.global.heading.type",
+        "default": "h1",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "div",
+            "label": "DIV"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "default": "h1",
+        "label": "t:lebase.global.heading.size",
+        "options": [
+          {"value": "inherit", "label": "Inherit"},
+          {"value": "hero", "label": "Hero"},
+          {"value": "h1", "label": "H1"},
+          {"value": "h2", "label": "H2"},
+          {"value": "h3", "label": "H3"},
+          {"value": "copy-xl", "label": "Copy XL"},
+          {"value": "copy-l", "label": "Copy L"},
+          {"value": "copy-m", "label": "Copy M"}
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "heading_no_decal",
+        "default": false,
+        "label": "t:lebase.global.heading.no_decal"
+      },
+      {
+        "type": "checkbox",
+        "id": "heading_strong_accented",
+        "default": false,
+        "label": "t:lebase.global.heading.strong_accented.label",
+        "info": "t:lebase.global.heading.strong_accented.info"
+      },
+      {
+        "type": "image_picker",
+        "id": "heading_icon",
+        "label": "t:lebase.global.heading.icon"
+      },
+
+
+
+      {
+        "type": "select",
+        "id": "accordion_width",
+        "default": "narrow",
+        "label": "t:lesections.accordion.width.label",
+        "options": [
+          {
+            "value": "full",
+            "label": "t:lesections.accordion.width.full"
+          },
+          {
+            "value": "narrow",
+            "label": "t:lesections.accordion.width.narrow"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "accordion_height",
+        "default": "medium",
+        "label": "t:lesections.accordion.height.label",
+        "options": [
+          {
+            "value": "auto",
+            "label": "t:lesections.accordion.height.auto"
+          },
+          {
+            "value": "small",
+            "label": "t:lesections.accordion.height.small"
+          },
+          {
+            "value": "medium",
+            "label": "t:lesections.accordion.height.medium"
+          },
+          {
+            "value": "large",
+            "label": "t:lesections.accordion.height.large"
+          }
+        ]
+      },
+
+      {
+        "type": "header",
+        "content": "If a source is selected, the rows won't be used."
+      },
+
+      {
+        "type": "metaobject_list",
+        "id": "accordion_entries",
+        "label": "Accordion entries",
+        "metaobject_type": "accordion_entry"
+      },
+
+      {
+        "type": "header",
+        "content": "t:lebase.global.custom_classes.header"
+      },
+      {
+        "type": "text",
+        "id": "custom_class_names",
+        "label": "t:lebase.global.custom_classes.label",
+        "placeholder": ".test_class"
+      },
+
+
+      {
+        "type": "header",
+        "content": "t:lebase.global.skewed_border.header"
+      },
+      {
+        "type": "checkbox",
+        "id": "decal_top",
+        "label": "t:lebase.global.skewed_border.label_top",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "decal_bottom",
+        "label": "t:lebase.global.skewed_border.label_bottom",
+        "default": false
+      },
+
+
+
+
+      {
+        "type": "header",
+        "content": "t:lebase.global.padding.header"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 200,
+        "step": 4,
+        "unit": "px",
+        "label": "t:lebase.global.padding.label_top",
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 200,
+        "step": 4,
+        "unit": "px",
+        "label": "t:lebase.global.padding.label_bottom",
+        "default": 40
+      },
+
+      {
+        "type": "header",
+        "content": "t:lebase.global.margin.header"
+      },
+      {
+        "type": "range",
+        "id": "margin_top",
+        "min": -200,
+        "max": 200,
+        "step": 4,
+        "unit": "px",
+        "label": "t:lebase.global.margin.label_top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": -200,
+        "max": 200,
+        "step": 4,
+        "unit": "px",
+        "label": "t:lebase.global.margin.label_bottom",
+        "default": 0
+      }
+
+    ],
+
+    "blocks": [
+        {
+            "type": "accordion_row",
+            "name": "t:lesections.accordion.row.name",
+            "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "t:lesections.accordion.row.image"
+                },
+                {
+                    "type": "text",
+                    "id": "heading",
+                    "label": "t:lesections.accordion.row.heading"
+                },
+                {
+                    "type": "richtext",
+                    "id": "row_content",
+                    "label": "t:lesections.accordion.row.text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "t:lesections.accordion.presets.name",
+            "blocks": [
+                {
+                    "type": "accordion_row"
+                },
+                {
+                    "type": "accordion_row"
+                },
+                {
+                    "type": "accordion_row"
+                },
+                {
+                    "type": "accordion_row"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

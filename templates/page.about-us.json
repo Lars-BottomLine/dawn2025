@@ -1,0 +1,474 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "le_swiper_q8B9k8": {
+      "type": "le_swiper",
+      "blocks": {
+        "slide_6y4CwA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/study-active-group-shot.webp",
+            "heading": "<p>Welcome to Study Active</p>",
+            "subheading": "",
+            "text_content": "<p>Text</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_6y4CwA"
+      ],
+      "name": "t:sections.le_swiper.presets.name",
+      "settings": {
+        "headline": "",
+        "slider_type": "hero",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "About Us",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_fiJnpp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KhtiV6": {
+          "type": "heading",
+          "settings": {
+            "heading": "A team dedicated to your success",
+            "heading_size": "h1"
+          }
+        },
+        "text_XbPLYH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KhtiV6",
+        "text_XbPLYH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "le_face2face_FLEiKm": {
+      "type": "le_face2face",
+      "blocks": {
+        "slide_YUapYT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Carly.png",
+            "heading": "<p>Carly Wallace - Managing Director</p>",
+            "subheading": "<p>Carly Wallace leads Study Active with a unique blend of commercial and fitness industry expertise. With experience in business development at organisations like Les Mills and Premier Training, she later transitioned into senior eCommerce roles for major global brands. Carly now brings her digital, marketing, and operational knowledge back to the fitness world, driving growth and delivering a first-class learner experience.</p>"
+          }
+        },
+        "slide_dMbgNi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Charlie_2.png",
+            "heading": "<p>Julian Berriman - Director of Education</p>",
+            "subheading": "<p>Julian Berriman has over 30 years of experience in fitness education, curriculum design, and workforce development. At Study Active, he leads the design of industry-recognised qualifications that give learners the confidence and skills to succeed in real-world fitness careers. Julian also chairs EuropeActive’s Professional Standards Committee, where he helps shape international education frameworks. He is a practising osteopath and personal trainer, blending academic insight with hands-on expertise. A lifelong gym-goer and golf enthusiast, Julian brings energy, rigour, and passion to everything he does.</p>"
+          }
+        },
+        "slide_ryk6pz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Debra.png",
+            "heading": "<p>Debra Stuart - CEO</p>",
+            "subheading": "<p>Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national standards. She is a Chartered Director and Fellow of the Institute of Directors.As the former CEO of Premier Global and Treasurer of ukactive, she has been instrumental in driving quality assurance and innovation in fitness education. Now as CEO of Study Active, Debra continues her mission to raise standards by promoting accessible, evidence-based education and supporting learners to build confident, career-ready futures.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_YUapYT",
+        "slide_dMbgNi",
+        "slide_ryk6pz"
+      ],
+      "name": "t:sections.le_face2face.presets.name",
+      "settings": {
+        "section_bkgr": "white",
+        "headline": "<p>Meet our leaders</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "We empower future fitness professionals with flexible, high-quality training that leads to real careers, lasting impact, and healthier communities.",
+        "column_type": "medium",
+        "entry_align": "center",
+        "image_shadow": "light",
+        "image_size": "medium",
+        "image_type": "normal",
+        "entry_heading_type": "h3",
+        "entry_heading_size": "normal",
+        "entry_text_size": "normal",
+        "text_align": "inside",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 36,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_accordion_CmKicY": {
+      "type": "le_accordion",
+      "blocks": {
+        "accordion_row_jTfpKP": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Ali.png",
+            "heading": "Ali Gower - Customer Experience Manager",
+            "row_content": "<p>Ali Gower has worked in the fitness and healthcare sectors since 2002. With experience in tutoring, assessing, and senior leadership roles, she now focuses on improving operations and service delivery. Ali brings a strategic mindset and a passion for enhancing every aspect of the learner experience.</p>"
+          }
+        },
+        "accordion_row_yQXrjT": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Ben.png",
+            "heading": "Ben Pratt - Content Expert",
+            "row_content": "<p>Ben Pratt is an international educator and consultant with over 20 years of experience in fitness, nutrition, and wellness education. Holding an MSc in Holistic Nutrition and a BSc in Sports Science, Ben has authored accredited programmes in personal training and nutrition and contributed to professional standards used across Europe. He is the founder of Fit 2 Succeed and works with leading providers to deliver evidence-based education and e-learning.</p>"
+          }
+        },
+        "accordion_row_AC8arY": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Cara.png",
+            "heading": "Cara Standley - Tutor & Assessor",
+            "row_content": "<p>Cara Standley has worked in fitness education since the 1990s and spent a decade delivering UK-accredited qualifications in the Middle East. She specialises in upskilling professionals through courses in pre and postnatal fitness and menopause support. Cara is particularly passionate about mentoring new tutors and raising the standard of education in the industry.</p>"
+          }
+        },
+        "accordion_row_FrzGan": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Charlie.png",
+            "heading": "Charlie Reynolds - Tutor & Assessor",
+            "row_content": "<p>Charlie Reynolds brings over 13 years of experience in the fitness industry, with a background in education, business development, and public sector partnerships. She has worked with awarding bodies and local authorities, including the NHS, to develop impactful health and wellbeing initiatives. Charlie remains active in the sector through her coaching business and as a valued tutor and assessor.</p><p></p>"
+          }
+        },
+        "accordion_row_DJRkjb": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/high-five.webp",
+            "heading": "Chris Walsh - Tutor & Assessor",
+            "row_content": "<p>Chris Walsh has over two decades of experience in personal training and fitness instruction. As a tutor and assessor, he combines technical knowledge with a calm, supportive teaching style. Chris has a passion for movement, mindset, and helping learners achieve both personal and professional success.</p>"
+          }
+        },
+        "accordion_row_Xaiekr": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Claire.png",
+            "heading": "Claire McMenamin - Careers Advisor",
+            "row_content": "<p>Claire McMenamin has over 30 years of experience in education and training. With a background in course development, learning facilitation, and employee development, she has worked with universities, housing associations, and major corporations. Claire is passionate about helping learners find the right pathway into fitness and achieve their career goals.</p>"
+          }
+        },
+        "accordion_row_wJKkm3": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Colin.png",
+            "heading": "Colin Archer - Tutor & Assessor",
+            "row_content": "<p>Colin Archer is a qualified assessor with years of personal training experience. He supports learners through gym instructing and PT assessments, providing expert coaching and mentoring to help them build safe, effective programmes and launch successful careers.</p>"
+          }
+        },
+        "accordion_row_arDdMm": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Dawn.png",
+            "heading": "Dawn Fairey - Lead Pilates Educator",
+            "row_content": "<p><strong>Dawn Fairey, Cert Ed</strong><br/><em>Lead Pilates Educator</em><br/>Dawn Fairey is a highly experienced Pilates educator with over 40 years in the fitness industry. Beginning her journey in contemporary dance, Dawn brings a deep understanding of movement, flow, and precision to her Pilates teaching. She has trained and assessed thousands of aspiring instructors across the UK and continues to lead inclusive community-based classes. Her work is grounded in real-world experience and shaped by mentors such as Michael King and Pam Howard MBE. As a freelance tutor, assessor, and quality assurer, she delivers qualifications at Levels 2 and 3 and plays an active role in shaping national fitness standards.</p>"
+          }
+        },
+        "accordion_row_gUn67K": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Elise.png",
+            "heading": "Elise Bowles - Careers Advisor",
+            "row_content": "<p>Elise Bowles is a learner-focused advisor with a background in customer experience, enrolment, and support. Formerly with Active IQ, she brings in-depth knowledge of qualification frameworks and student journeys. At Study Active, Elise helps new learners explore their options, start their training, and stay supported throughout. She is also a qualified Rebound Fit instructor and advocates for accessible, enjoyable fitness.</p>"
+          }
+        },
+        "accordion_row_b9UMzE": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Heather.png",
+            "heading": "Heather Walker - Lead Internal Verifier & Tutor",
+            "row_content": "<p>Heather Walker brings her background as a gymnast, dancer, and international pole sports athlete to her role as Lead IV. She is an experienced tutor, group instructor, and PT who ensures that all assessment practices meet awarding body standards and deliver consistency and quality.</p>"
+          }
+        },
+        "accordion_row_qPXD9q": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Jess.png",
+            "heading": "Jessica Hall - Careers Advisor",
+            "row_content": "<p>Jessica Hall supports aspiring fitness professionals through the early stages of their journey. With a background in coaching, instruction, and sales, she is skilled at motivating and guiding learners with empathy and encouragement. Jessica is passionate about helping individuals build confidence and take clear, empowered steps toward their career goals.</p>"
+          }
+        },
+        "accordion_row_Gk7wJP": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Louise.png",
+            "heading": "Louise Henderson - Senior Tutor & Assessor",
+            "row_content": "<p>Louise Henderson brings nearly 25 years of experience to her role as Senior Tutor and Assessor. Starting as a gym instructor and class leader, she moved into PT, tutoring, and internal verification. Louise continues to work as a self-employed trainer and yoga teacher, bringing real-world insights into every session she delivers.</p>"
+          }
+        },
+        "accordion_row_NpX67P": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Natalie.png",
+            "heading": "Natalie Bond - Tutor & Assessor",
+            "row_content": "<p>Natalie Bond is a tutor, assessor, and business owner with 12 years in the fitness industry. She specialises in group exercise and brings a strong focus on coaching, mentoring, and behaviour change. Natalie combines hands-on instruction with a deep understanding of personal development and business gr</p>"
+          }
+        },
+        "accordion_row_cbTXjR": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Rebecca.png",
+            "heading": "Rebecca Ireland - Lead Tutor & Assessor",
+            "row_content": "<p>Rebecca Ireland has spent 14 years in the fitness industry, working across personal training and group exercise. Her passion lies in helping others find confidence through movement. As Lead Tutor and Assessor at Study Active, she supports students through every stage of their learning. In her spare time, Rebecca competes in Ultra Challenges and enjoys weight training and running with her two sons.</p>"
+          }
+        },
+        "accordion_row_nHRYGL": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/Tammy.png",
+            "heading": "Tammy Bowles - Customer & Student Support",
+            "row_content": "<p>Tammy Bowles ensures learners feel supported and confident throughout their journey. With prior experience at an awarding body, she brings strong organisational skills and a deep understanding of fitness education. Tammy is a qualified Rebound Fit instructor and is currently expanding her expertise through further study.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_jTfpKP",
+        "accordion_row_yQXrjT",
+        "accordion_row_AC8arY",
+        "accordion_row_FrzGan",
+        "accordion_row_DJRkjb",
+        "accordion_row_Xaiekr",
+        "accordion_row_wJKkm3",
+        "accordion_row_arDdMm",
+        "accordion_row_gUn67K",
+        "accordion_row_b9UMzE",
+        "accordion_row_qPXD9q",
+        "accordion_row_Gk7wJP",
+        "accordion_row_NpX67P",
+        "accordion_row_cbTXjR",
+        "accordion_row_nHRYGL"
+      ],
+      "name": "t:sections.le_accordion.presets.name",
+      "settings": {
+        "template_type": "white",
+        "headline": "Meet the Study Active Team",
+        "heading_size": "medium",
+        "accordion_width": "full",
+        "accordion_entries": [],
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_whychoose_BMNVD3": {
+      "type": "le_whychoose",
+      "blocks": {
+        "slide_nyXy9B": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/19.png",
+            "heading": "<p>OUR MISSION</p>",
+            "subheading": "<p>Our mission is to deliver high-quality inclusive education within the health and fitness industry, empowering learners for success in their lives and careers.</p><p></p><p></p><p></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        },
+        "slide_XaR4Ki": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/22.png",
+            "heading": "<p>WHAT WE DO</p>",
+            "subheading": "<p>We provide high-quality inclusive education for the fitness industry. Our programmes are designed to support learners beyond qualification, ensuring they are empowered for success in their chosen career pathway.<br/></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        },
+        "slide_3DrcMH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/21.png",
+            "heading": "<p>HOW WE DO IT</p>",
+            "subheading": "<p>Our delivery model combines online learning with optional face-to-face events, catering to diverse learning styles. We foster an interactive community of fitness professionals who are supported by industry expertise.</p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        },
+        "slide_8rVqpq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/23.png",
+            "heading": "<p>WHY WE DO IT</p>",
+            "subheading": "<p>Our goal is to deliver educational excellence for individuals who aspire to build successful and sustainable careers in the health and fitness sector.<br/></p>",
+            "button_text": "Enrol Now",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_nyXy9B",
+        "slide_XaR4Ki",
+        "slide_3DrcMH",
+        "slide_8rVqpq"
+      ],
+      "name": "t:sections.le_whychoose.presets.name",
+      "settings": {
+        "template_type": "blue",
+        "section_bkgr": "primary",
+        "headline": "Our Vision & Mission",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "subheadline": "At Study Active, our mission guides everything we do. Here’s what we stand for and how we support our learners every step of the way.",
+        "button_label": "",
+        "button_url": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 48,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_x66YX9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BmGCXJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Industry Partnerships",
+            "heading_size": "h1"
+          }
+        },
+        "text_qDnXFk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here at <a href=\"https://studyactive.co.uk/\">Study Active </a>we recognise the importance of strong partnerships with governing body's, national registers and other professional associations to ensure we continue to provide high quality courses and qualifications that adhere to the standards and regulations of the fitness industry in the UK.</p>"
+          }
+        },
+        "button_XWd9Nh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find out more about our parternships",
+            "button_link": "shopify://pages/associations-and-partners",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BmGCXJ",
+        "text_qDnXFk",
+        "button_XWd9Nh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "le_image_slider_iHgzJX": {
+      "type": "le_image-slider",
+      "blocks": {
+        "slide_TNY9aF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/active-iq-logo-about-us.webp"
+          }
+        },
+        "slide_GdUTqP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CIMSPA-Logo-Navy-RGB-2.webp"
+          }
+        },
+        "slide_b9hydN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NRPT_logo.png"
+          }
+        },
+        "slide_fUftXy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ukactive_Member.avif"
+          }
+        },
+        "slide_ERPJK8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PD-Approval-Logo.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TNY9aF",
+        "slide_GdUTqP",
+        "slide_b9hydN",
+        "slide_fUftXy",
+        "slide_ERPJK8"
+      ],
+      "name": "t:sections.le_image-slider.presets.name",
+      "settings": {
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "le_swiper_q8B9k8",
+    "main",
+    "rich_text_fiJnpp",
+    "le_face2face_FLEiKm",
+    "le_accordion_CmKicY",
+    "le_whychoose_BMNVD3",
+    "rich_text_x66YX9",
+    "le_image_slider_iHgzJX"
+  ]
+}

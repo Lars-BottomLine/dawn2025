@@ -27,6 +27,8 @@
           endif
         endif
       -%}
+
+      {% # PICKER: SWATCH %}
       {%- if picker_type == 'swatch' -%}
         <fieldset class="js product-form__input product-form__input--swatch">
           <legend class="form__label">
@@ -42,6 +44,8 @@
             picker_type: picker_type
           %}
         </fieldset>
+
+      {% # PICKER: BUTTON %}
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
           <legend class="form__label">{{ option.name }}</legend>
@@ -52,12 +56,17 @@
             picker_type: picker_type
           %}
         </fieldset>
+
+      {% # PICKER: ELSE %}
       {%- else -%}
         <div class="product-form__input product-form__input--dropdown">
-          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+
+          <label class="form__label hidden" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
           </label>
+
           <div class="select">
+            {% # PICKER: SWATCH DROPDOWN %}
             {%- if picker_type == 'swatch_dropdown' -%}
               <span
                 data-selected-value
@@ -83,6 +92,7 @@
               {{- 'icon-caret.svg' | inline_asset_content -}}
             </span>
           </div>
+
         </div>
       {%- endif -%}
     {%- endfor -%}

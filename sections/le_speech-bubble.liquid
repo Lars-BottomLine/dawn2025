@@ -1,0 +1,239 @@
+{%- liquid
+
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+    assign section_classes = ''
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    assign section_classes = section_classes | append: ' -dct-white -dcb-white '
+    # ---------------------------------
+
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="sa-section-speechbubble
+            section-{{ section.id }}-padding section-{{ section.id }}-margin
+            {{ section_classes }}">
+    <div class="page-width">
+
+        <div class="sb-content">
+
+            <div class="sb-bubble">
+
+                <div class="sb-arrow"></div>
+
+                {% # LEFT
+                   # --------------------- %}
+                {% if section.settings.image %}
+                <div class="sb-left">
+                    <div class="sb-image">
+                        {{ section.settings.image
+                            | image_url: width: 550
+                            | image_tag:
+                            loading: 'lazy',
+                            widths: '300, 550, 800, 1100'
+                        }}
+                    </div>
+
+                </div>
+                {% endif %}
+
+                {% # RIGHT
+                   # --------------------- %}
+                <div class="sb-right">
+
+                    {% if section.settings.heading or section.settings.icon %}
+                    <div class="sb-header">
+
+                        {% # ICON %}
+                        {% if section.settings.icon %}
+                            <div class="sb-icon">
+                                {{ section.settings.icon | media_tag }}
+                            </div>
+                        {% endif %}
+
+                        {% # MESSAGE %}
+                        {% if section.settings.heading %}
+                        <div class="sb-title _text-h3" >
+                            {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                        </div>
+                        {% endif %}
+
+                    </div>
+                    {% endif %}
+
+
+                    {% # MESSAGE %}
+                    {% if section.settings.message %}
+                        <div class="sb-message _copy-l">
+                            {{ section.settings.message }}
+                        </div>
+                    {% endif %}
+
+                    {% # AUTHOR %}
+                    {% if section.settings.author %}
+                        <div class="sb-author _copy-xl">
+                            {{ section.settings.author }}
+                        </div>
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.le_speechbubble.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Headline"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
+
+    {
+      "type": "text",
+      "id": "message",
+      "label": "Message",
+      "placeholder": "Message text"
+    },
+
+    {
+      "type": "text",
+      "id": "author",
+      "label": "Author",
+      "placeholder": "Author name"
+    },
+
+
+
+
+    {
+      "type": "header",
+      "content": "Skewed border"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "Skewed on top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "Skewed on bottom",
+      "default": false
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 0
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "t:sections.le_speechbubble.presets.name"
+    }
+  ]
+}
+{% endschema %}

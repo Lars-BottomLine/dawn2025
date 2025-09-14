@@ -1,0 +1,545 @@
+{%- liquid
+
+    assign section_classes = ''
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    # ...
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="v2-section-textplusimage
+            {{ section_classes }}">
+    <div class="page-width">
+
+        <div class="v2-tpi-content -extra-padding-x">
+
+            <div class="v2-tpi-left">
+
+                {% render 'v2-heading', data: section.settings, classes: "" %}
+
+                {% render 'v2-text', data: section.settings, classes: " v2-tpi-subheadline ", prefix: 'subheadline_', no_remove_p: true %}
+
+                {% render 'v2-text', data: section.settings, classes: " v2-tpi-text ", no_remove_p: true %}
+
+                {% render 'v2-text', data: section.settings, classes: " v2-tpi-claim ", prefix: 'claim_', no_remove_p: true %}
+
+                {% render 'v2-button', data: section.settings, classes: " v2-tpi-button " %}
+
+            </div>
+
+            <div class="v2-tpi-right">
+
+                <div class="v2-image-container v2-tpi-image-container">
+                    {%- if section.settings.image != blank -%}
+                        {% # todo: image size optimization %}
+                        {%- assign widths = '1200, 1500' -%}
+                        {%- capture sizes -%}
+                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                            (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                        {%- endcapture -%}
+                        {{ section.settings.image
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+                    {%- else -%}
+                        {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% schema %}
+{
+    "name": "t:sections.le_swiper.name",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+        "groups": ["header", "footer"]
+    },
+    "settings": [
+
+
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+
+
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.heading.header"
+        },
+        {
+            "type": "richtext",
+            "id": "heading_text",
+            "label": "t:lebase.global.heading.text"
+        },
+        {
+            "type": "select",
+            "id": "heading_type",
+            "label": "t:lebase.global.heading.type",
+            "default": "h1",
+            "options": [
+                {
+                    "value": "h1",
+                    "label": "H1"
+                },
+                {
+                    "value": "h2",
+                    "label": "H2"
+                },
+                {
+                    "value": "h3",
+                    "label": "H3"
+                },
+                {
+                    "value": "div",
+                    "label": "DIV"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "heading_size",
+            "default": "h1",
+            "label": "t:lebase.global.heading.size",
+            "options": [
+                {"value": "inherit", "label": "Inherit"},
+                {"value": "hero", "label": "Hero"},
+                {"value": "h1", "label": "H1"},
+                {"value": "h2", "label": "H2"},
+                {"value": "h3", "label": "H3"},
+                {"value": "copy-xl", "label": "Copy XL"},
+                {"value": "copy-l", "label": "Copy L"},
+                {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "heading_no_decal",
+            "default": false,
+            "label": "t:lebase.global.heading.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "heading_decal_left",
+            "default": false,
+            "label": "t:lebase.global.heading.decal_left"
+        },
+        {
+            "type": "checkbox",
+            "id": "heading_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.heading.strong_accented.label",
+            "info": "t:lebase.global.heading.strong_accented.info"
+        },
+        {
+            "type": "image_picker",
+            "id": "heading_icon",
+            "label": "t:lebase.global.heading.icon"
+        },
+
+
+
+        {
+            "type": "header",
+            "content": "Subheadline"
+        },
+        {
+            "type": "richtext",
+            "id": "subheadline_text",
+            "label": "Text"
+        },
+        {
+            "type": "select",
+            "id": "subheadline_text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+                {"value": "inherit", "label": "Inherit"},
+                {"value": "hero", "label": "Hero"},
+                {"value": "h1", "label": "H1"},
+                {"value": "h2", "label": "H2"},
+                {"value": "h3", "label": "H3"},
+                {"value": "copy-xl", "label": "Copy XL"},
+                {"value": "copy-l", "label": "Copy L"},
+                {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "subheadline_text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "subheadline_text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
+
+
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.text.header"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "t:lebase.global.text.label"
+        },
+        {
+            "type": "select",
+            "id": "text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+                {"value": "inherit", "label": "Inherit"},
+                {"value": "hero", "label": "Hero"},
+                {"value": "h1", "label": "H1"},
+                {"value": "h2", "label": "H2"},
+                {"value": "h3", "label": "H3"},
+                {"value": "copy-xl", "label": "Copy XL"},
+                {"value": "copy-l", "label": "Copy L"},
+                {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
+
+
+
+
+        {
+            "type": "header",
+            "content": "Claim"
+        },
+        {
+            "type": "richtext",
+            "id": "claim_text",
+            "label": "t:lebase.global.text.label"
+        },
+        {
+            "type": "select",
+            "id": "claim_text_size",
+            "default": "copy-l",
+            "label": "t:lebase.global.text.size",
+            "options": [
+              {"value": "inherit", "label": "Inherit"},
+              {"value": "hero", "label": "Hero"},
+              {"value": "h1", "label": "H1"},
+              {"value": "h2", "label": "H2"},
+              {"value": "h3", "label": "H3"},
+              {"value": "copy-xl", "label": "Copy XL"},
+              {"value": "copy-l", "label": "Copy L"},
+              {"value": "copy-m", "label": "Copy M"}
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "claim_text_no_decal",
+            "default": false,
+            "label": "t:lebase.global.text.no_decal"
+        },
+        {
+            "type": "checkbox",
+            "id": "claim_text_strong_accented",
+            "default": false,
+            "label": "t:lebase.global.text.strong_accented.label",
+            "info": "t:lebase.global.text.strong_accented.info"
+        },
+
+
+
+
+
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.custom_classes.header"
+        },
+        {
+            "type": "text",
+            "id": "custom_class_names",
+            "label": "t:lebase.global.custom_classes.label",
+            "placeholder": ".test_class"
+        },
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.button.header"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "t:lebase.global.button.text"
+        },
+        {
+            "type": "url",
+            "id": "button_url",
+            "label": "t:lebase.global.button.url"
+        },
+        {
+            "type": "select",
+            "id": "button_style",
+            "default": "primary",
+            "label": "t:lebase.global.button.style.label",
+            "options": [
+                {
+                    "value": "primary",
+                    "label": "t:lebase.global.button.style.primary"
+                },
+                {
+                    "value": "secondary",
+                    "label": "t:lebase.global.button.style.secondary"
+                },
+                {
+                    "value": "plain",
+                    "label": "t:lebase.global.button.style.plain"
+                }
+            ]
+        },
+        {
+          "type": "image_picker",
+          "id": "button_icon",
+          "label": "t:lebase.global.button.icon"
+        },
+        {
+            "type": "select",
+            "id": "button_size",
+            "default": "small",
+            "label": "t:lebase.global.button.size.label",
+            "options": [
+                {
+                    "value": "small",
+                    "label": "t:lebase.global.button.size.small"
+                },
+                {
+                    "value": "medium",
+                    "label": "t:lebase.global.button.size.medium"
+                }
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "button_new_window",
+            "default": false,
+            "label": "t:lebase.global.button.new_window"
+        },
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.bkgr_color.header"
+        },
+        {
+            "type": "select",
+            "id": "bkgr_color",
+            "label": "t:lebase.global.bkgr_color.label",
+            "default": "primary",
+            "options": [
+                {
+                "value": "primary",
+                "label": "t:lebase.global.bkgr_color.primary"
+                },
+                {
+                "value": "light-blue",
+                "label": "t:lebase.global.bkgr_color.light-blue"
+                },
+                {
+                "value": "white",
+                "label": "t:lebase.global.bkgr_color.white"
+                }
+            ]
+        },
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.skewed_border.header"
+        },
+        {
+            "type": "checkbox",
+            "id": "decal_top",
+            "label": "t:lebase.global.skewed_border.label_top",
+            "default": false
+        },
+        {
+            "type": "checkbox",
+            "id": "decal_bottom",
+            "label": "t:lebase.global.skewed_border.label_bottom",
+            "default": false
+        },
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.padding.header"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:lebase.global.padding.label_top",
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:lebase.global.padding.label_bottom",
+            "default": 40
+        },
+
+
+
+        {
+            "type": "header",
+            "content": "t:lebase.global.margin.header"
+        },
+        {
+            "type": "range",
+            "id": "margin_top",
+            "min": -200,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:lebase.global.margin.label_top",
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "margin_bottom",
+            "min": -200,
+            "max": 200,
+            "step": 4,
+            "unit": "px",
+            "label": "t:lebase.global.margin.label_bottom",
+            "default": 0
+        }
+
+    ],
+
+    "presets": [
+        {
+          "name": "t:lesections.textplusimage.presets.name",
+        }
+    ]
+}
+{% endschema %}

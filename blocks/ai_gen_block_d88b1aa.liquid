@@ -1,0 +1,450 @@
+{% doc %}
+  @prompt
+    a before and after slider
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-before-after-slider-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+    background-color: #f4f4f4;}
+
+  .ai-before-after-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: {{ block.settings.aspect_ratio }}%;
+  }
+
+  .ai-before-after-image-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-before-after-placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-before-after-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .ai-before-after-overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .ai-before-after-divider-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: {{ block.settings.divider_width }}px;
+    height: 100%;
+    background-color: {{ block.settings.divider_color }};
+    z-index: 3;
+    cursor: ew-resize;
+  }
+
+  .ai-before-after-handle-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: {{ block.settings.handle_size }}px;
+    height: {{ block.settings.handle_size }}px;
+    background-color: {{ block.settings.handle_color }};
+    border: {{ block.settings.handle_border_width }}px solid {{ block.settings.handle_border_color }};
+    border-radius: 50%;
+    cursor: ew-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .ai-before-after-handle-{{ ai_gen_id }} svg {
+    width: calc({{ block.settings.handle_size }}px * 0.6);
+    height: calc({{ block.settings.handle_size }}px * 0.6);
+    fill: {{ block.settings.handle_icon_color }};
+  }
+
+  .ai-before-after-label-{{ ai_gen_id }} {
+    position: absolute;
+    top: {{ block.settings.label_position_y }}%;
+    padding: 8px 16px;
+    background-color: {{ block.settings.label_background_color }};
+    color: {{ block.settings.label_text_color }};
+    font-size: {{ block.settings.label_font_size }}px;
+    font-weight: 600;
+    border-radius: 20px;
+    z-index: 4;
+    pointer-events: none;
+    opacity: {{ block.settings.label_opacity | divided_by: 100.0 }};
+  }
+
+  .ai-before-after-label-before-{{ ai_gen_id }} {
+    left: {{ block.settings.label_position_x }}%;
+    transform: translateY(-50%);
+  }
+
+  .ai-before-after-label-after-{{ ai_gen_id }} {
+    right: {{ block.settings.label_position_x }}%;
+    transform: translateY(-50%);
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-before-after-handle-{{ ai_gen_id }} {
+      width: {{ block.settings.handle_size | times: 0.8 }}px;
+      height: {{ block.settings.handle_size | times: 0.8 }}px;
+    }
+
+    .ai-before-after-handle-{{ ai_gen_id }} svg {
+      width: calc({{ block.settings.handle_size | times: 0.8 }}px * 0.6);
+      height: calc({{ block.settings.handle_size | times: 0.8 }}px * 0.6);
+    }
+
+    .ai-before-after-label-{{ ai_gen_id }} {
+      font-size: {{ block.settings.label_font_size | times: 0.9 }}px;
+      padding: 6px 12px;
+    }
+  }
+{% endstyle %}
+
+<before-after-slider-{{ ai_gen_id }}
+  class="ai-before-after-slider-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-before-after-container-{{ ai_gen_id }}">
+    {% if block.settings.after_image %}
+      <img
+        src="{{ block.settings.after_image | image_url: width: 2000 }}"
+        alt="{{ block.settings.after_image.alt | escape }}"
+        class="ai-before-after-image-{{ ai_gen_id }}"
+        loading="lazy"
+        width="{{ block.settings.after_image.width }}"
+        height="{{ block.settings.after_image.height }}"
+      >
+    {% else %}
+      <div class="ai-before-after-placeholder-{{ ai_gen_id }}">
+        {{ 'image' | placeholder_svg_tag }}
+      </div>
+    {% endif %}<div class="ai-before-after-overlay-{{ ai_gen_id }}">
+      {% if block.settings.before_image %}
+        <img
+          src="{{ block.settings.before_image | image_url: width: 2000 }}"
+          alt="{{ block.settings.before_image.alt | escape }}"
+          class="ai-before-after-image-{{ ai_gen_id }}"
+          loading="lazy"
+          width="{{ block.settings.before_image.width }}"
+          height="{{ block.settings.before_image.height }}"
+        >
+      {% else %}
+        <div class="ai-before-after-placeholder-{{ ai_gen_id }}">
+          {{ 'image' | placeholder_svg_tag }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="ai-before-after-divider-{{ ai_gen_id }}">
+      <div class="ai-before-after-handle-{{ ai_gen_id }}"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 6L4 10L8 14V11H16V13L20 9L16 5V8H8V6Z"/>
+        </svg>
+      </div>
+    </div>
+
+    {% if block.settings.show_labels %}
+      <div class="ai-before-after-label-{{ ai_gen_id }} ai-before-after-label-before-{{ ai_gen_id }}">
+        {{ block.settings.before_label }}
+      </div>
+      <div class="ai-before-after-label-{{ ai_gen_id }} ai-before-after-label-after-{{ ai_gen_id }}">
+        {{ block.settings.after_label }}
+      </div>
+    {% endif %}
+  </div>
+</before-after-slider-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class BeforeAfterSlider{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.isDragging = false;
+        this.startX = 0;
+        this.currentX = 50;
+      }
+
+      connectedCallback() {
+        this.overlay = this.querySelector('.ai-before-after-overlay-{{ ai_gen_id }}');
+        this.divider = this.querySelector('.ai-before-after-divider-{{ ai_gen_id }}');
+        this.container = this.querySelector('.ai-before-after-container-{{ ai_gen_id }}');
+
+        this.setupEventListeners();
+        this.updatePosition(this.currentX);
+      }
+
+      setupEventListeners() {
+        this.divider.addEventListener('mousedown', this.handleStart.bind(this));
+        this.divider.addEventListener('touchstart', this.handleStart.bind(this), { passive: false });document.addEventListener('mousemove', this.handleMove.bind(this));
+        document.addEventListener('touchmove', this.handleMove.bind(this), { passive: false });
+
+        document.addEventListener('mouseup', this.handleEnd.bind(this));
+        document.addEventListener('touchend', this.handleEnd.bind(this));
+
+        this.container.addEventListener('click', this.handleClick.bind(this));}
+
+      handleStart(event) {
+        event.preventDefault();
+        this.isDragging = true;
+        this.startX = this.getEventX(event);document.body.style.userSelect = 'none';
+      }
+
+      handleMove(event) {
+        if (!this.isDragging) return;
+
+        event.preventDefault();
+        const rect = this.container.getBoundingClientRect();
+        const x = this.getEventX(event) - rect.left;
+        const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+        this.updatePosition(percentage);
+      }
+
+      handleEnd() {
+        this.isDragging = false;
+        document.body.style.userSelect = '';
+      }
+
+      handleClick(event) {
+        if (event.target === this.divider || this.divider.contains(event.target)) {
+          return;
+        }
+
+        const rect = this.container.getBoundingClientRect();
+        const x = this.getEventX(event) - rect.left;
+        const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+        
+        this.updatePosition(percentage);
+      }
+
+      getEventX(event) {
+        return event.type.includes('touch') ? event.touches[0].clientX : event.clientX;
+      }
+
+      updatePosition(percentage) {
+        this.currentX = percentage;
+        this.overlay.style.width = percentage + '%';
+        this.divider.style.left = percentage + '%';
+      }
+    }
+
+    customElements.define('before-after-slider-{{ ai_gen_id }}', BeforeAfterSlider{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Before and after slider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "before_image",
+      "label": "Before image"
+    },
+    {
+      "type": "image_picker",
+      "id": "after_image",
+      "label": "After image"
+    },
+    {
+      "type": "range",
+      "id": "aspect_ratio",
+      "min": 30,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Image aspect ratio",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Slider handle"
+    },
+    {
+      "type": "range",
+      "id": "handle_size",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Handle size",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "handle_color",
+      "label": "Handle background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "handle_border_color",
+      "label": "Handle border",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "range",
+      "id": "handle_border_width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Handle border width",
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "handle_icon_color",
+      "label": "Handle icon",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Divider line"
+    },
+    {
+      "type": "range",
+      "id": "divider_width",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "unit": "px",
+      "label": "Divider width",
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Labels"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_labels",
+      "label": "Show labels",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "before_label",
+      "label": "Before label",
+      "default": "Before"
+    },
+    {
+      "type": "text",
+      "id": "after_label",
+      "label": "After label",
+      "default": "After"
+    },
+    {
+      "type": "range",
+      "id": "label_font_size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Label font size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "label_background_color",
+      "label": "Label background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "label_text_color",
+      "label": "Label text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "label_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Label opacity",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "label_position_x",
+      "min": 5,
+      "max": 25,
+      "step": 1,
+      "unit": "%",
+      "label": "Label horizontal position",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "label_position_y",
+      "min": 10,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Label vertical position",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Before and after slider"
+    }
+  ],
+  "tag": null
+}
+{% endschema %}

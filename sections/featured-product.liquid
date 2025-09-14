@@ -173,14 +173,14 @@
                     -%}
                     {% # theme-check-enable %}
                     <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
-                      {{ 'products.product.quantity.label' | t }}
-                      <span class="quantity__rules-cart{% if cart_qty == 0 %} hidden{% endif %}">
+                      {% if cart_qty > 0 %}
+                        {{ 'products.product.quantity.in_cart_aria_label' | t: quantity: cart_qty }}
+                      {% else %}
+                        {{ 'products.product.quantity.label' | t }}
+                      {% endif %}
+                      <span class="quantity__rules-cart hidden" aria-hidden="true">
                         {%- render 'loading-spinner' -%}
-                        <span
-                          >(
-                          {{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}}
-                          )</span
-                        >
+                        <span> ({{ cart_qty }} in cart)</span>
                       </span>
                     </label>
                     <div class="price-per-item__container">
@@ -198,6 +198,7 @@
                           type="number"
                           name="quantity"
                           id="Quantity-{{ section.id }}"
+                          aria-label="{% if cart_qty > 0 %}{{ 'products.product.quantity.in_cart_aria_label' | t: quantity: cart_qty }}{% else %}{{ 'products.product.quantity.label' | t }}{% endif %}"
                           data-cart-quantity="{{ cart_qty }}"
                           data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                           min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
@@ -289,7 +290,10 @@
                                   </dt>
                                   <dd>
                                     <span class="price-per-item--current">
-                                      {{- 'products.product.volume_pricing.price_at_each_html' | t: price: variant_price -}}
+                                      {{-
+                                        'products.product.volume_pricing.price_at_each_html'
+                                        | t: price: variant_price
+                                      -}}
                                     </span>
                                   </dd>
                                 </dl>
