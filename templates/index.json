@@ -9,6 +9,125 @@
  */
 {
   "sections": {
+    "v2_cards_ayDGYf": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_RDc4Hz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
+            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Benefit from our network of top UK gyms.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_FRjWpM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/globe-icon.svg",
+            "title_text": "<p><strong>Flexible Study</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study on your own time, from anywhere.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_cxdGr7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/tabler-icon-discount-check.svg",
+            "title_text": "<p><strong>Trusted Provider</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_FAXdEC": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/tabler-icon-trending-up.svg",
+            "title_text": "<p><strong>Growing Career</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_RDc4Hz",
+        "card_FRjWpM",
+        "card_cxdGr7",
+        "card_FAXdEC"
+      ],
+      "name": "v2 - Cards - Wide White",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide",
+        "heading_text": "<p>Step 3: Start Learning</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/fitness-pt-package-courses-by-study-active",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_cards_8hE7zP": {
       "type": "v2_cards",
       "blocks": {
@@ -99,125 +218,6 @@
       "settings": {
         "bkgr_color": "light-blue",
         "card_layout": "wide_box",
-        "heading_text": "<p>Step 3: Start Learning</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "View all courses",
-        "button_url": "shopify://collections/fitness-pt-package-courses-by-study-active",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_cards_ayDGYf": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_RDc4Hz": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
-            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Benefit from our network of top UK gyms.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_FRjWpM": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/globe-icon.svg",
-            "title_text": "<p><strong>Flexible Study</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Study on your own time, from anywhere.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_cxdGr7": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/tabler-icon-discount-check.svg",
-            "title_text": "<p><strong>Trusted Provider</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_FAXdEC": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/tabler-icon-trending-up.svg",
-            "title_text": "<p><strong>Growing Career</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_RDc4Hz",
-        "card_FRjWpM",
-        "card_cxdGr7",
-        "card_FAXdEC"
-      ],
-      "name": "v2 - Cards - Wide Light Blue",
-      "settings": {
-        "bkgr_color": "light-blue",
-        "card_layout": "wide",
         "heading_text": "<p>Step 3: Start Learning</p>",
         "heading_type": "h2",
         "heading_size": "h2",
