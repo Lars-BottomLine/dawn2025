@@ -52,6 +52,13 @@
           "left": "Left",
           "center": "Center",
           "right": "Right"
+        },
+        "width": {
+          "label": "Width",
+          "full": "Full width",
+          "medium": "Medium width",
+          "mediumplus": "Medium Plus width",
+          "narrow": "Narrow width"
         }
       },
 
@@ -188,7 +195,9 @@
       "layout": {
         "label": "Card Layout",
         "horizontal": "Horizontal",
-        "vertical": "Vertical"
+        "vertical": "Vertical",
+        "wide_box": "Wide box",
+        "wide": "Wide"
       },
       "presets": {
         "name": "v2 - Cards"
