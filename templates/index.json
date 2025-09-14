@@ -15,7 +15,7 @@
         "card_bcH6QR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-heart-handshake.svg",
+            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
             "title_text": "<p>Guaranteed Interviews</p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
