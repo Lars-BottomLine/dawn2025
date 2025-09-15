@@ -100,6 +100,7 @@
     <div class="tab-background page-width image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }}">
         <div class="tab-image media">
             {% # IMAGE SET, DEFINE SIZES  %}
+
             {% assign img = section.settings.image | default: product.metafields.custom.hero_image | default: blank %}
             {%- if img != blank -%}
                 {%- assign widths = '1200, 1500' -%}
@@ -137,6 +138,13 @@
 
             {%- for block in section.blocks -%}
                 <div class="tab-row -type-{{ block.type }}">
+                    Description: {{ product.description }}</br>
+                    PRODUCT: {{ product.handle }}</br>
+                    Image: {{ product.featured_image }}</br>
+
+                    {% for img in product.images %}
+                    {{ forloop.index }} - {{ img }}</br>
+                    {% endfor %}
 
                     {% case block.type %}
 

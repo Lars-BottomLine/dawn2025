@@ -1,22 +1,66 @@
 {%- liquid
 
-  # DECALS
-  # ---------------------------------
-  assign decal_top = false
-  assign decal_bottom = false
-  assign section_classes = ''
+    assign section_classes = ''
 
-  if section.settings.decal_top
-    assign decal_top = true
-    assign section_classes = section_classes | append: ' -decal-top '
-  endif
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
 
-  if section.settings.decal_bottom
-    assign decal_bottom = true
-    assign section_classes = section_classes | append: ' -decal-bottom '
-  endif
-  # ---------------------------------
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
 
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
     assign section_selector = '#shopify-section-' | append: section.id
 
 %}
@@ -67,13 +111,15 @@
   }
 {%- endstyle -%}
 
-<div class="section-main-collection-product-grid
-            section-{{ section.id }}-padding section-{{ section.id }}-margin
-            -dct-white -dcb-white
+<div class="v2-section-main-collection-product-grid section-main-collection-product-grid
             {{ section_classes }}">
+
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
 
+  {% # ----------------------------------------
+     # SORTING
+     # ---------------------------------------- %}
     {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
       <facet-filters-form class="facets facets-vertical-sort page-width small-hide">
         <form class="facets-vertical-form" id="FacetSortForm">
@@ -132,6 +178,7 @@
       </facet-filters-form>
     {%- endif -%}
 
+
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
 
       {% comment %}
@@ -155,28 +202,31 @@
       {%- endif -%}
       {% endcomment %}
 
-      <div class="pg-header page-width">
-        <div class="pg-content">
+  {% # ----------------------------------------
+     # HEADER
+     # ---------------------------------------- %}
+      <div class="v2-pg-header page-width">
+        <div class="v2-pg-content sa-col-primary">
 
-          <div class="pg-title mb-12">
-              Browse all courses
-          </div>
+          <h2 class="_font-h1">
+              Browse Our Courses
+          </h2>
 
-          <div class="pg-filters">
-            <div class="pg-filter-wrapper flex justify-start items-center gap-4">
+          <div class="v2-pg-filters">
+            <div class="v2-pg-filter-wrapper flex justify-start items-center gap-4 _font-copy-m">
 
-              <div class="pg-filter-description mr-6">
-                  Filter:
+              <div class="v2-pg-filter-description _font-copy-xl">
+                  Filters
               </div>
 
-              <div class="pg-tag -filter -selected" data-tag-slug="show-all">
-                <span>Show all</span>
+              <div class="v2-pg-tag -filter -selected" data-tag-slug="show-all">
+                <span>All courses</span>
               </div>
 
               {% for tag in collection.all_tags %}
                 {% comment %}collections.all.all_tags {{ tag | link_to_tag: tag }} {% endcomment %}
                 {% assign tag_slug = tag | handle %}
-                <div class="pg-tag -filter" data-tag-slug="{{ tag_slug }}">
+                <div class="v2-pg-tag -filter" data-tag-slug="{{ tag_slug }}">
                   <span>{{ tag }}</span>
                 </div>
               {% endfor %}
@@ -188,16 +238,22 @@
       </div>
 
 
+
+  {% # ----------------------------------------
+     # THUMBNAILS
+     # ---------------------------------------- %}
       <div
-        class="product-grid-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        class="product-grid-container page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         id="ProductGridContainer"
         {% if settings.animations_reveal_on_scroll %}
           data-cascade
         {% endif %}
       >
+      {% # NO PRODUCTS
+         # ---------------------------------------- %}
         {%- if collection.products.size == 0 -%}
-          <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
-            <div class="pg-content">
+          <div class="collection collection--empty" id="product-grid" data-id="{{ section.id }}">
+            <div class="v2-pg-content">
               <div class="loading-overlay gradient"></div>
               <div class="title-wrapper center">
                 <h2 class="title title--primary">
@@ -211,11 +267,12 @@
               </div>
             </div>
           </div>
+      {% # PRODUCTS HAZZ
+         # ---------------------------------------- %}
         {%- else -%}
           <div
-            class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}"
-          >
-            <div class="pg-content">
+            class="collection">
+            <div class="v2-pg-content">
               <div class="loading-overlay gradient"></div>
               <ul
                 id="product-grid"
@@ -256,7 +313,7 @@
   {% endcomment %}
                     {% assign thumb_id = section.id | append: forloop.index %}
 
-                    {% render 'le_product-thumb',
+                    {% render 'v2_product-thumb',
                         section_id: thumb_id,
                         product: product,
 
@@ -335,7 +392,7 @@
 
                 if (debug) console.log('pg_initFilter', '{{ product.id }}', '{{ section.id }}');
 
-                document.querySelectorAll('{{ section_selector }} .pg-filter-wrapper .pg-tag.-filter').forEach( prod_filter => {
+                document.querySelectorAll('{{ section_selector }} .v2-pg-filter-wrapper .v2-pg-tag.-filter').forEach( prod_filter => {
                     prod_filter.addEventListener('click', function (e) {
                         e.preventDefault();
 
@@ -374,7 +431,7 @@
             }
 
             function pg_selectFilter( filter_slug ) {
-                document.querySelector('{{ section_selector }} .pg-filter-wrapper .pg-tag.-filter[data-tag-slug="'+filter_slug+'"]').classList.add('-selected');
+                document.querySelector('{{ section_selector }} .v2-pg-filter-wrapper .v2-pg-tag.-filter[data-tag-slug="'+filter_slug+'"]').classList.add('-selected');
             }
 
             // show all thumbs
@@ -386,7 +443,7 @@
 
             // deselect all other filters
             function pg_unselectAllFilters() {
-                document.querySelectorAll('{{ section_selector }} .pg-filter-wrapper .pg-tag.-filter').forEach( filter_ele => {
+                document.querySelectorAll('{{ section_selector }} .v2-pg-filter-wrapper .v2-pg-tag.-filter').forEach( filter_ele => {
                     filter_ele.classList.remove('-selected');
                 })
             }

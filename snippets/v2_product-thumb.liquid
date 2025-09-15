@@ -47,7 +47,7 @@
     endfor
 %}
 
-<product-thumb class="le-product-thumb
+<product-thumb class="v2-product-thumb sa-col-white
                       {% if secondary_background %}background-secondary{% else %}gradient{% endif %}
                       -template-{{ template_type }}
                       sa-col-primary"
@@ -94,7 +94,7 @@
 
                         {% # TITLE (done)
                            # ----------------------- %}
-                        <h4 class="product__title -no-decal" {{ shopify_attributes }}>
+                        <h4 class="product__title _font-copy-l mb-4" {{ shopify_attributes }}>
                             {%- unless placeholder -%}
                                 {{ product.title | escape }}
 
@@ -103,7 +103,7 @@
                             {%- endunless -%}
                         </h4>
 
-                        <div class="pt-description">
+                        <div class="pt-description _font-copy-m">
                             {{ product.metafields.custom.short_description | metafield_tag }}
                         </div>
 
@@ -131,7 +131,7 @@
 
                             {% # BUY BUTTONS
                                # ----------------------- %}
-                            {%- render 'le_buy-buttons',
+                            {%- render 'v2_buy-buttons',
                                     block: block,
                                     product: product,
                                     product_form_id: product_form_id,
@@ -169,7 +169,7 @@
                             {% # PRICE (done?)
                                # ----------------------- %}
                             <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
-                                {%- render 'le_price',
+                                {%- render 'v2_price',
                                         product: product,
                                         placeholder: placeholder,
                                         use_variant: true,
