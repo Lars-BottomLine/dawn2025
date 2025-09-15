@@ -3995,6 +3995,10 @@ product-thumb.v2-product-thumb .product__info-wrapper .product__info-container .
   color: inherit !important;
 }
 
+.price .price__container,
+.v2_price .price__container {
+  margin-bottom: -0.5rem;
+}
 .price .price-item.price-item--regular,
 .v2_price .price-item.price-item--regular {
   line-height: 0.8;
@@ -4005,7 +4009,6 @@ product-thumb.v2-product-thumb .product__info-wrapper .product__info-container .
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: -0.5rem;
 }
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .price.price--on-sale .price__sale .price-save-percentage,
