@@ -38,9 +38,9 @@
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 116,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 136
       }
     },
     "v2_cards_ayDGYf": {
@@ -1922,6 +1922,7 @@
   },
   "order": [
     "v2_header_9FPaiM",
+    "v2_hero_jk6W8B",
     "v2_cards_ayDGYf",
     "v2_cards_8hE7zP",
     "v2_cards_6EUPET",
@@ -1931,7 +1932,6 @@
     "v2_flexible_Xgp6a3",
     "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
-    "v2_hero_jk6W8B",
     "le_text_and_background_gtyQwb",
     "le_swiper_cEfnwi",
     "image_with_text_frcJE8",
