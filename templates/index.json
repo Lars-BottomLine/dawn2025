@@ -15,7 +15,7 @@
       "settings": {
         "heading_text": "<p>Heading</p>",
         "heading_type": "h1",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
@@ -37,10 +37,96 @@
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 116,
+        "padding_top": 4,
+        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 136
+      }
+    },
+    "v2_hero_jk6W8B": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_zzLjTp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personal_trainer_interview.webp",
+            "slide_type": "onecol",
+            "heading_text": "<p>Your Hub for <br/><strong>Learning, Support, <br/>and Career Growth</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p><strong>Access everything you need</strong> as a Study Active student – from resources to career guidance – <strong>all in one place</strong>.</p>",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "Log into LMS",
+            "button_url": "https://bottomline.agency",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_zLMkrC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/study-active-hero-1.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p>We are stronger<br/>together.</p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": false,
+            "heading_no_decal": false,
+            "text": "<p>Own the room.<br/>Inspire the crowd.<br/><strong>Love your job.</strong></p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify://blogs/news",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_yMtA4W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pilates_job.webp",
+            "slide_type": "onecol",
+            "heading_text": "<p>Get your free<br/><strong>Study Active brochure</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>This is your moment to <strong>turn passion into purpose</strong>. Learn online at your pace, get expert support and land guaranteed interviews when you qualify. <strong>You bring the drive, we’ll handle the rest.</strong></p>",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_zzLjTp",
+        "slide_zLMkrC",
+        "slide_yMtA4W"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": false,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": true,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "v2_cards_ayDGYf": {
@@ -925,92 +1011,6 @@
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_hero_jk6W8B": {
-      "type": "v2_hero",
-      "blocks": {
-        "slide_zzLjTp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/personal_trainer_interview.webp",
-            "slide_type": "onecol",
-            "heading_text": "<p>Your Hub for <br/><strong>Learning, Support, <br/>and Career Growth</strong></p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p><strong>Access everything you need</strong> as a Study Active student – from resources to career guidance – <strong>all in one place</strong>.</p>",
-            "text_size": "copy-xl",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "button_text": "Log into LMS",
-            "button_url": "https://bottomline.agency",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_zLMkrC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/study-active-hero-1.jpg",
-            "slide_type": "twocol",
-            "heading_text": "<p>We are stronger<br/>together.</p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_strong_accented": false,
-            "heading_no_decal": false,
-            "text": "<p>Own the room.<br/>Inspire the crowd.<br/><strong>Love your job.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://blogs/news",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_yMtA4W": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pilates_job.webp",
-            "slide_type": "onecol",
-            "heading_text": "<p>Get your free<br/><strong>Study Active brochure</strong></p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>This is your moment to <strong>turn passion into purpose</strong>. Learn online at your pace, get expert support and land guaranteed interviews when you qualify. <strong>You bring the drive, we’ll handle the rest.</strong></p>",
-            "text_size": "copy-xl",
-            "text_no_decal": false,
-            "text_strong_accented": true,
-            "button_text": "",
-            "button_url": "",
-            "button_style": "primary",
-            "button_size": "small",
-            "button_new_window": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_zzLjTp",
-        "slide_zLMkrC",
-        "slide_yMtA4W"
-      ],
-      "name": "t:lesections.hero.presets.name",
-      "settings": {
-        "full_width": false,
-        "bkgr_color": "primary",
-        "slider_effect": "fade",
-        "slider_autoplay": true,
-        "slide_autospeed": 5000,
-        "custom_class_names": "",
-        "padding_top": 40,
-        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
