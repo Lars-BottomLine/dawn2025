@@ -11,6 +11,9 @@
   "lebase": {
     "global": {
 
+      "background": {
+        "header": "Background"
+      },
       "heading": {
         "header": "Heading",
         "text": "Content",
@@ -135,6 +138,114 @@
   },
 
   "lesections": {
+    "v2_header": {
+      "name": "v2 - Header",
+      "presets": {
+        "name": "v2 - Header"
+      }
+    },
+
+    "v2_slideshow": {
+      "name": "v2 - Slideshow",
+      "presets": {
+        "name": "v2 - Slideshow"
+      },
+      "blocks": {
+        "slide": {
+          "name": "Slide",
+          "image": "Image"
+        }
+      }
+    },
+
+    "v2_collectionbundle": {
+      "name": "v2 - Collection Bundle",
+      "presets": {
+        "name": "v2 - Collection Bundle"
+      }
+    },
+
+    "v2_map": {
+      "name": "v2 - Map",
+      "presets": {
+        "name": "v2 - Map"
+      }
+    },
+
+    "v2_newsletter": {
+      "name": "v2 - Newsletter",
+      "presets": {
+        "name": "v2 - Newsletter"
+      }
+    },
+
+    "v2_producthero": {
+      "name": "v2 - Product Hero",
+      "presets": {
+        "name": "v2 - Product Hero"
+      }
+    },
+
+    "v2_formplus": {
+      "name": "v2 - Form Plus",
+      "presets": {
+        "name": "v2 - Form Plus"
+      }
+    },
+
+    "v2_quickaccess": {
+      "name": "v2 - Quick Access",
+      "presets": {
+        "name": "v2 - Quick Access"
+      }
+    },
+
+    "v2_grid": {
+      "name": "v2 - Grid",
+      "presets": {
+        "name": "v2 - Grid"
+      }
+    },
+
+    "v2_video": {
+      "name": "v2 - Video",
+      "presets": {
+        "name": "v2 - Video"
+      }
+    },
+
+    "v2_featured": {
+      "name": "v2 - Featured",
+      "presets": {
+        "name": "v2 - Featured"
+      }
+    },
+
+    "v2_form": {
+      "name": "v2 - Form",
+      "presets": {
+        "name": "v2 - Form"
+      }
+    },
+
+    "v2_steps": {
+      "name": "v2 - Steps",
+      "presets": {
+        "name": "v2 - Steps"
+      }
+    },
+
+    "v2_blogslider": {
+      "name": "v2 - Blog Slider",
+      "presets": {
+        "name": "v2 - Blog Slider"
+      }
+    },
+
+
+
+
+
     "hero": {
       "name": "v2 - Hero",
       "presets": {
