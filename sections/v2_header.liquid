@@ -93,22 +93,11 @@
         {% if section.settings.heading or section.settings.text %}
         <div class="v2-h-header">
 
-            {% # HEADING
-               # ---------------------- %}
-            {% if section.settings.heading %}
-            <div class="v2-h-heading">
-                <{{ section.settings.heading_type }} class="v2-h-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
-                    {{ section.settings.heading | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                </{{ section.settings.heading_type }}>
-            </div>
-            {% endif %}
+            {% render 'v2-heading', data: section.settings, classes: "" %}
 
-            {% # TEXT %}
-            {% if section.settings.text %}
-                <div class="v2-h-subheadline">
-                    {{ section.settings.text }}
-                </div>
-            {% endif %}
+            {% render 'v2-text', data: section.settings, classes: "" %}
+
+            {% render 'v2-button', data: section.settings, classes: "" %}
 
         </div>
         {% endif %}
