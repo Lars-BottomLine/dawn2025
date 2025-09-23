@@ -23,6 +23,49 @@
         "margin_bottom": 0
       }
     },
+    "le_steps_pUKCpz": {
+      "type": "le_steps",
+      "blocks": {
+        "step_UBcKqD": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step",
+            "text": "Text",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_CNi8ye": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step",
+            "text": "Text",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_UBcKqD",
+        "step_CNi8ye"
+      ],
+      "name": "t:sections.le_steps.presets.name",
+      "settings": {
+        "template_type": "light-blue",
+        "step_width": "wide",
+        "heading": "<p>Step into success</p>",
+        "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_i7HYVG": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -1207,110 +1250,6 @@
         "margin_bottom": 0
       }
     },
-    "le_swiper_wanmRJ": {
-      "type": "le_swiper",
-      "blocks": {
-        "slide_zhVUtt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/wellness-instructor.webp",
-            "heading": "<p>Personal Trainer</p>",
-            "subheading": "<p>Design tailored fitness programmes and provide one-on-one coaching to help clients reach their goals.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Get moving",
-            "link": ""
-          }
-        },
-        "slide_EARkB6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/fitness-influencer.webp",
-            "heading": "<p>Fitness Influencer</p>",
-            "subheading": "<p>Help people all over the world stay fit, from anywhere you want.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Get seen",
-            "link": ""
-          }
-        },
-        "slide_rnxKKc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/group-doing-movement-therapy.jpg",
-            "heading": "<p>Group Exercise Instructor</p>",
-            "subheading": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Let's go",
-            "link": ""
-          }
-        },
-        "slide_6b9AYM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pilates-instructor_5a7afca3-b4d6-47df-8b46-864f68c66dfa.webp",
-            "heading": "<p>Pilates Instructor</p>",
-            "subheading": "<p>Help people move better, feel stronger, and reconnect with their bodies.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Get balanced",
-            "link": ""
-          }
-        },
-        "slide_UCdfUG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/women-doing-yoga-worrier-pose.jpg",
-            "heading": "<p>Wellness and Fitness Coach</p>",
-            "subheading": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Get fit",
-            "link": ""
-          }
-        },
-        "slide_pccUEh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/woman-lifting-weight.jpg",
-            "heading": "<p>Strength & Conditioning Coach</p>",
-            "subheading": "<p>Help athletes improve performance through targeted, science-based training.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Get strong",
-            "link": ""
-          }
-        },
-        "slide_maeRdP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/sports-massage-therapist.webp",
-            "heading": "<p>Sports Massage Therapist</p>",
-            "subheading": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
-            "text_content": "<p>Text</p>",
-            "button_label": "Let's help",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_zhVUtt",
-        "slide_EARkB6",
-        "slide_rnxKKc",
-        "slide_6b9AYM",
-        "slide_UCdfUG",
-        "slide_pccUEh",
-        "slide_maeRdP"
-      ],
-      "name": "t:sections.le_swiper.presets.name",
-      "settings": {
-        "headline": "Find your calling",
-        "slider_type": "job-card",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": -28,
-        "margin_bottom": 0
-      }
-    },
     "le_whychoose_qbgPdw": {
       "type": "le_whychoose",
       "blocks": {
@@ -1785,6 +1724,7 @@
   },
   "order": [
     "v2_steps_YXgdEc",
+    "le_steps_pUKCpz",
     "v2_header_i7HYVG",
     "v2_slideshow_xYpUTm",
     "le_swiper_3fwFxr",
@@ -1799,7 +1739,6 @@
     "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
     "le_text_and_background_gtyQwb",
-    "le_swiper_wanmRJ",
     "le_whychoose_qbgPdw",
     "le_image_with_text_yP9WPy",
     "le_whychoose_kjYUa7",
