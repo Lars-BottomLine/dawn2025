@@ -81,7 +81,7 @@
           "settings": {
             "number": "4",
             "title": "Step 4: Book or submit your assessments",
-            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.<br/>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
+            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.</p><p>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
             "button_text": "",
             "button_link": ""
           }
