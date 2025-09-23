@@ -52,37 +52,37 @@
             "number": "1",
             "title": "Step 1: Watch your welcome webinar",
             "text": "<p>Watch the welcome video below to hear from one of our tutors as they guide you through the key steps to achieving your qualification.</p>",
-            "button_text": "Go to Step",
+            "button_text": "",
             "button_link": ""
           }
         },
         "step_f34kYG": {
           "type": "step",
           "settings": {
-            "number": "1",
+            "number": "2",
             "title": "Step 2: Download your coursework",
             "text": "<p>Text</p>",
-            "button_text": "Go to Step",
-            "button_link": ""
+            "button_text": "Download",
+            "button_link": "https://admin.shopify.com"
           }
         },
         "step_EfjhN8": {
           "type": "step",
           "settings": {
-            "number": "1",
-            "title": "Step",
-            "text": "<p>Text</p>",
-            "button_text": "Go to Step",
+            "number": "3",
+            "title": "Step 3: Start your studies",
+            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active.</p>",
+            "button_text": "Study Now",
             "button_link": ""
           }
         },
         "step_rceDqf": {
           "type": "step",
           "settings": {
-            "number": "1",
-            "title": "Step",
-            "text": "<p>Text</p>",
-            "button_text": "Go to Step",
+            "number": "4",
+            "title": "Step 4: Book or submit your assessments",
+            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.<br/>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
+            "button_text": "",
             "button_link": ""
           }
         }
