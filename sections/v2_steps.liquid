@@ -219,10 +219,56 @@
 
         ],
 
+        "blocks": [
+            {
+                "type": "step",
+                "name": "Step",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "number",
+                        "default": "1",
+                        "label": "Step Number"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "default": "Step",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "default": "Text",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "button_text",
+                        "default": "Go to Step",
+                        "label": "Button Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "button_link",
+                        "label": "Target class ('Custom class' option in the section settings)"
+                    }
+                ]
+            }
+        ],
+
          "presets": [
-        {
-          "name": "t:lesections.v2_steps.presets.name"
-        }
-    ]
+            {
+                "name": "t:lesections.v2_steps.presets.name",
+                "blocks": [
+                    {
+                        "type": "step"
+                    },
+                    {
+                        "type": "step"
+                    }
+                ]
+            }
+        ]
     }
 {% endschema %}
