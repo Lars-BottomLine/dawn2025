@@ -78,6 +78,75 @@
         "margin_bottom": 0
       }
     },
+    "v2_slideshow_gTRDAx": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_FpEcWX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-exercise-specialist.webp",
+            "headline": "<p>Group Exercise Instructor</p>",
+            "subheadline": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
+            "text": "",
+            "button_label": "Let’s go",
+            "button_url": "shopify://pages/careers"
+          }
+        },
+        "slide_zq6N4C": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/gym_workout.webp",
+            "headline": "<p>Group Exercise Instructor</p>",
+            "subheadline": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
+            "text": "",
+            "button_label": "Let’s go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
+          }
+        },
+        "slide_iDJm6R": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personal_training_and_mental_health_header.jpg",
+            "headline": "<p>Group Exercise Instructor</p>",
+            "subheadline": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
+            "text": "",
+            "button_label": "Let’s go",
+            "button_url": "shopify://pages/contact"
+          }
+        },
+        "slide_hHFd7t": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/group-exercise-specialist.webp",
+            "headline": "<p>Group Exercise Instructor</p>",
+            "subheadline": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
+            "text": "",
+            "button_label": "Let’s go",
+            "button_url": "shopify://blogs/news"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FpEcWX",
+        "slide_zq6N4C",
+        "slide_iDJm6R",
+        "slide_hHFd7t"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blue",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
@@ -1737,6 +1806,7 @@
   },
   "order": [
     "v2_slideshow_xYpUTm",
+    "v2_slideshow_gTRDAx",
     "v2_hero_jk6W8B",
     "v2_cards_ayDGYf",
     "v2_cards_8hE7zP",
