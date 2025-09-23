@@ -153,7 +153,12 @@
       "blocks": {
         "slide": {
           "name": "Slide",
-          "image": "Image"
+          "image": "Image",
+          "headline": "Headline",
+          "subheadline": "Subheadline",
+          "text": "Text",
+          "button_label": "Button: Label",
+          "button_url": "button: URL"
         }
       }
     },

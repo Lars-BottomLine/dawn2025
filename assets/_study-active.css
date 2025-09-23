@@ -4547,4 +4547,8 @@ product-thumb.v2-product-thumb .product__info-wrapper .product__info-container .
   }
 }
 
+.v2-section-header {
+  display: flex;
+}
+
 /*# sourceMappingURL=_study-active.css.map */
