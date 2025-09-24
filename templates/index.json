@@ -9,6 +9,120 @@
  */
 {
   "sections": {
+    "v2_header_crfUaT": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Step 1: Set your goal</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a<br/> personal trainer. Then explore our courses to find the one that aligns best with your<br/> vision and get specialised to take your wellness game to the next level.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_featured_VcKGRT": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_featured_mz74mt": {
+      "type": "le_featured",
+      "blocks": {
+        "text_dMzg7G": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_7iVHpf": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "variant_picker_cqDFcn": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "price_mzeNE6": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_iFXNAd": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_dMzg7G",
+        "title_7iVHpf",
+        "variant_picker_cqDFcn",
+        "price_mzeNE6",
+        "buy_buttons_iFXNAd"
+      ],
+      "name": "t:sections.le_featured.presets.name",
+      "settings": {
+        "product": "l2-nutrition-performance-and-healthy-eating-course",
+        "heading": "<p>Heading</p>",
+        "heading_type": "h2",
+        "heading_size": "normal",
+        "no_decal": false,
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_P4gKij": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -1403,113 +1517,6 @@
         "margin_bottom": 0
       }
     },
-    "le_image_with_text_yP9WPy": {
-      "type": "le_image-with-text",
-      "blocks": {
-        "heading_TbV3Rd": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>“You are what you do, not what you say you’ll do.”</p>"
-          }
-        },
-        "text_ndH6x4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>(Carl Jung)</p>",
-            "text_style": "body"
-          }
-        },
-        "button_P76WP7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Discover Courses",
-            "button_link": "https://bottomline.agency",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TbV3Rd",
-        "text_ndH6x4",
-        "button_P76WP7"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/gym-coach-talking-to-client.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "right",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": -140,
-        "margin_bottom": -140
-      }
-    },
-    "le_whychoose_kjYUa7": {
-      "type": "le_whychoose",
-      "blocks": {
-        "slide_YUd6QG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-credit_score.svg",
-            "heading": "<p>Pay in Full</p>",
-            "subheading": "<p>Save money with our discounted full payment option.</p><p><strong>Up to 10% discount available</strong></p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_VWEtxj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-calendar_today.svg",
-            "heading": "<p>Monthly Payments</p>",
-            "subheading": "<p>Spread the cost with affordable monthly payments</p><p><strong>From £49/month available </strong></p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_BDeL6f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/symbol-shield.svg",
-            "heading": "<p>0% Finance</p>",
-            "subheading": "<p>Subject to status, spread payments interest-free</p><p><strong>Terms & conditions apply</strong></p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_YUd6QG",
-        "slide_VWEtxj",
-        "slide_BDeL6f"
-      ],
-      "name": "t:sections.le_whychoose.presets.name",
-      "settings": {
-        "template_type": "threecol",
-        "section_bkgr": "light-blue",
-        "headline": "Flexible payment options",
-        "heading_type": "h2",
-        "heading_size": "normal",
-        "no_decal": false,
-        "subheadline": "We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.",
-        "button_label": "",
-        "button_url": "",
-        "key_benefits": [],
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 32,
-        "padding_bottom": 60,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "le_whychoose_kQprwk": {
       "type": "le_whychoose",
       "blocks": {
@@ -1585,132 +1592,6 @@
         "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_accordion_KPY7JN": {
-      "type": "le_accordion",
-      "blocks": {
-        "accordion_row_6Tb6P8": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Alright, but what exactly do you do?",
-            "row_content": "<p>We provide some of the best personal training courses for people wanting to enter the exercise, health and physical activity sector.<br/><br/>We also offer flexible online personal training courses, which include recorded webinars, access to e-learning resources, and the ability to complete practical assessments at a local gym.<br/><br/>Not all PT course providers are the same.<br/><br/>If you are thinking about becoming a personal trainer or gym instructor.<br/><br/>One of the first things you should be looking out for is finding a CIMSPA-approved fitness education provider. CIMSPA are one of the most reputable awarding bodies in UK’s fitness sector. You can check out more about them on the CIMSPA website (please see our blog post here).<br/><br/>Another thing you should look for is what awarding body is attributed to each personal training course.<br/><br/>The largest and most recognisable of the professional bodies is Active IQ. Making sure that you pick an Active IQ course, is going to benefit you greatly as you progress from entry level to becoming a more specialist fitness instructor.<br/><br/>The next step is to get an entry level qualification by taking the Level 2 Certificate in Gym Instructing, which will allow you to qualify as a gym-based instructor. While, you might not be able to take part in teaching all the gym programmes, across all leisure centres, this course is the minimum entry requirement into the industry. Following this, you can do a Level 3 Diploma in Personal Training, which will open more doors for you and you can then start working as an independent Level 3 Personal Trainer.<br/><br/>You can do all of these steps with Study Active. We are one the most reputable fitness training providers in the UK. With us, you can study any of several gym instructor or personal training courses individually or opt to do these in larger combined course packages, to fast track your PT career. Check out the price guide shown in the personal trainer course package comparison section above to get an idea of the various payment options and what courses are available for you.<br/><br/>There is also the option to opt for a higher-level package which includes Level 4 Advanced Personal Training and/or RSPH Level 4 Nutrition. While they are not essential to begin working as a PT, Level 4 qualifications are incredibly useful for your professional development and will help you build your confidence and passion for fitness. Have a browse, if you need more help, get in contact with us and we can help you figure out how to start your new career.</p>"
-          }
-        },
-        "accordion_row_JpmikV": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Are your personal trainer courses internationally recognised?",
-            "row_content": "<p>All our personal trainer courses are awarded by Active IQ, regulated by Ofqual and endorsed by CIMSPA. As all our personal training qualifications carry these prestigious internationally recognised accreditations and associations, many countries throughout the world will recognise these fitness qualifications (e.g. USA, Australia, NZ, Canada, Ireland and the rest of Europe).<br/><br/>For your peace of mind, it would be advised to check with the local fitness regulators for any of the specific countries you wish to work in.</p>"
-          }
-        },
-        "accordion_row_edxWH8": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "What courses do I need to complete to become a personal trainer?",
-            "row_content": "<p>To become a PT, you need to gain a gym instructor qualification (usually level 2), however, you can do both the level 2 gym instructing and the level 3 personal training courses in one combined course (usually level 3), this is our most popular course option with the next generation of personal trainers.<br/><br/>Once qualified as a PT, you then have the option to undertake additional fitness qualifications such as RSPH level 4 nutrition, which can unlock new doors for you to work with nutrition and more advanced fitness and exercise regiments. You can continue your professional development by taking on more qualifications like these such as 'Supporting clients with long-term conditions' or 'Pre & post natal exercise' which will help you support and work more effectively with clientele such as older adults or those suffering from health conditions.</p>"
-          }
-        },
-        "accordion_row_hqddz4": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "What previous experience do I need to become a personal trainer?",
-            "row_content": "<p>There isn't an official prerequisite, but it is highly recommended that an aspiring professional fitness instructor or PT has gained some experience in a gym.<br/><br/>Our students may opt to gain some paid or unpaid gym-based instructing experience whilst studying (this is not mandatory but could be incredibly useful when aiming to get into the industry) while, others, may choose to begin working in a gym as an instructor upon course completion.<br/><br/>There is no real hard and fast rule, and everyone is different. The main thing is that you as an individual feel comfortable in your knowledge and are equipped with the right tools and frame of mind, before starting work as a gym instructor. If you want to progress in the fitness industry, you can opt to take the additional fitness courses, we offer to advance your knowledge, if you're unsure you can ask your personal support tutor.</p>"
-          }
-        },
-        "accordion_row_UiBdYC": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "How long does it take to complete one of your personal trainer courses?",
-            "row_content": "<p>The time taken to complete our personal trainer course is largely up to you. Some people can 'fast track' in as little as weeks and complete the gym instructor & PT course while others may need to part-time study over several months.<br/><br/>There is no set answer for how long it will take you, this can depend on the amount of hours to study you are able to commit to, and any existing fitness knowledge you have that might give you an edge to complete practical assessments and finish the online lessons quicker.<br/><br/>Generally, the majority of our students are studying part-time and gain their qualifications within 3-6 months. Do note, taking on additional fitness courses such as Nutrition to their package, will increase the amount of study time required to complete the courses.</p>"
-          }
-        },
-        "accordion_row_QdRFBE": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Becoming a personal trainer: Do I need experience in the health or fitness industry?",
-            "row_content": "<p>The only entry requirements to join Study Active and take our gym instructor course is an active interest in fitness, fitness instruction, health and a positive attitude to learning.<br/><br/>Through one of many courses, you will learn all there is to know to become a fitness instructor, and gain the skills needed to help clients exercise and achieve their goals as a full time trainer.<br/><br/>While having prior experience in personal training is not a mandatory part of the qualification you will be taking (many of our students already have some form of experience under their belt), it is recommended that you get as much exposure to the health & fitness sector as possible to push your development and give you that extra edge when applying for interviews.</p>"
-          }
-        },
-        "accordion_row_Pn9yFG": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "How much can I earn as a personal trainer?",
-            "row_content": "<p>This really does depend on many different factors.<br/><br/>Some key factors that you should consider as your career embarks are the area, demographic, services you offer, the specialisms you've mastered, and the experience you have and so forth.<br/><br/>A newly qualified PT or gym instructor may charge around £20-25 p/h in certain locations, while a more established PT may start charging between £35-50 p/h. Those who are nationally renowned or elite PTs can charge upwards of £60-80 p/h (this is something that can take time and will not happen overnight!).<br/><br/>Do note, that these figures are based on self-employed income, you will not find a gym paying the above figures as a salary. These are the amounts that PTs will charge their clients on a self-employed basis. If you want to increase your potential as a personal trainer, it is worth considering some of our more advanced courses that can help you take on more specialised clients such as athletes or those suffering from health conditions.</p>"
-          }
-        },
-        "accordion_row_BMzgAg": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "How long has Study Active been offering personal training courses?",
-            "row_content": "<p>Study Active started delivering personal training courses back in 2012 making us one of the longest-operating fitness training providers in the UK. Since then, the company has grown considerably to where it is today and we have given many students the personal trainer qualifications needed to break into the UK fitness industry. We recently won the 2023 UKActive Education Provider of the Year award and were rated at the very highest CIMSPA rank ''Enhancing'' by CIMPSA (a summary can be found as follows, the provider are seen to be offering the highest quality provision to its learners), so you can be sure you are in good hands.<br/><br/>From entry level qualifications to more specialised courses, you can check out what we offer and get your career moving!</p>"
-          }
-        },
-        "accordion_row_jbUFmd": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Do you provide personal training courses near me?",
-            "row_content": "<p>While we have a physical location, Study Active has students from all across the UK.<br/><br/>We provide the very best remote study via e-learning, digital resources, webinars, skype tutorials etc. Students can access our course material from all over the UK without needing to attend a physical location.<br/><br/>However, we recommend that students visit our base in Hertfordshire for their gym-based practical input & assessments. Alternatively, you can record your practical assessment in a nearby gym and send us your video. Those living around Hertfordshire, London and the surrounding areas may find it easier to come into the Study Active base for their practical assessments.<br/><br/>Our blended digital approach will give you much more flexibility in your fitness training and you won't have to miss any face to face tuition due to any other home, work or family commitments in your life. You set the training dates and study time and then you can get the qualifications needed to enter the industry.</p>"
-          }
-        },
-        "accordion_row_VRBAGA": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Can I work as a PT in any gym with this personal training qualification?",
-            "row_content": "<p>Our PT course is awarded by Active IQ, regulated by Ofqual and endorsed by CIMSPA.<br/><br/>Within the UK, you will not find a more recognised PT qualification. You will be guaranteed interviews at any nationwide health club or gym as most gyms at home and abroad will accept our qualifications.<br/><br/>Some newly qualified PT's will look to become employed as a Level 2 Gym Instructor within a gym (on a salary) while they take on private clients from the same location. Other PTs or fitness instructors may decide to operate their PT business from a gym they have established a relationship with.<br/><br/>Usually being a personal trainer or fitness instructor is a self-employed position, so personal trainers will usually have to pay the gym rental fees to train their clients. So this is something that will need to be factored in when taking on clients and better understanding your business costs.</p>"
-          }
-        },
-        "accordion_row_8npw9d": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Are your personal training courses online?",
-            "row_content": "<p>Our nationally recognised online courses are delivered via blended learning.<br/><br/>Most of our courses can be studied online using the wealth of digital resources we have provided. However, your online learning will be supplemented by remote support from an expert tutor who will teach and instruct you via webinars, Zoom (or similar), mobile tutorials or email contact.<br/><br/>For your practical assessment, you can either come into our study base in Hertfordshire or choose to record a video of your practical assessments which can then be sent to us.<br/><br/>Some of the courses we offer may involve some face-to-face training, so do read the course details, if you are unsure and would prefer mainly online-based learning.</p>"
-          }
-        },
-        "accordion_row_ThDaTa": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Can I study part-time to become a personal trainer?",
-            "row_content": "<p>All our blended style courses can be studied part or full time. Whether you choose to study full or part-time is completely up to you. Choosing full time study will help you get the skills you need to become a fully qualified fitness instructor much faster if you can allocate enough time each week.<br/><br/>Those who study for 40 hours a week, will likely be able to complete more practical courses and lessons within a few weeks, while, those doing 10 hours a week, may take a few months to complete their chosen gym instructor course. We understand that finding time to learn can sometimes be difficult, so it is completely up to individual students to set their own pace and use all the tools we have provided to qualify as a fitness instructor or PT.<br/><br/>If you have started a course and are finding it difficult to manage your time, do get in touch, one of our team or expert tutors may be able to help you.</p>"
-          }
-        },
-        "accordion_row_eye6td": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "What governing boards are your personal training courses accredited by?",
-            "row_content": "<p>Our PT qualifications are awarded by the most prestigious fitness awarding body, Active IQ. All of our courses are regulated by Ofqual and Study Active is a CIMSPA-endorsed training provider. Study Active are also a UK Active member and have close associations with the RSPH, Association for Nutrition and the National Register of Personal Trainer (NRPT).<br/><br/>If you have any other questions about our practical courses or about us, please feel free to reach out to find out more.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "accordion_row_6Tb6P8",
-        "accordion_row_JpmikV",
-        "accordion_row_edxWH8",
-        "accordion_row_hqddz4",
-        "accordion_row_UiBdYC",
-        "accordion_row_QdRFBE",
-        "accordion_row_Pn9yFG",
-        "accordion_row_BMzgAg",
-        "accordion_row_jbUFmd",
-        "accordion_row_VRBAGA",
-        "accordion_row_8npw9d",
-        "accordion_row_ThDaTa",
-        "accordion_row_eye6td"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "template_type": "blue",
-        "headline": "Frequently asked questions",
-        "heading_size": "medium",
-        "accordion_width": "narrow",
-        "accordion_height": "medium",
-        "accordion_entries": [],
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
-        "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -1805,6 +1686,9 @@
     }
   },
   "order": [
+    "v2_header_crfUaT",
+    "v2_featured_VcKGRT",
+    "le_featured_mz74mt",
     "v2_header_P4gKij",
     "v2_steps_YXgdEc",
     "le_steps_pUKCpz",
@@ -1823,11 +1707,8 @@
     "v2_accordion_MwEKUC",
     "le_text_and_background_gtyQwb",
     "le_whychoose_qbgPdw",
-    "le_image_with_text_yP9WPy",
-    "le_whychoose_kjYUa7",
     "le_whychoose_kQprwk",
     "le_featured_blog_phLeqa",
-    "le_accordion_KPY7JN",
     "le_image_with_text_HaCjqD",
     "le_image_slider_hFiT68"
   ]
