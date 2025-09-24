@@ -90,7 +90,69 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        v2_steps
+        {% if section.blocks.size > 0 %}
+        <div class="v2-content sa-col-primary">
+        {%- for block in section.blocks -%}
+            <div class="v2-step">
+
+                <div class="v2-left v2-number">
+                    {{ block.settings.number }}
+                </div>
+
+                <div class="v2-right">
+
+                    <div class="flex gap-4 flex-col">
+                        <div class="v2-title _font-copy-l !font-bold">
+                            {{ block.settings.title }}
+                        </div>
+
+                        <div class="v2-text _font-copy-m">
+                            {{ block.settings.text }}
+                        </div>
+                    </div>
+
+                    {% if block.settings.button_text != blank %}
+                    <div class="st-button">
+                        <div class="v2-button -style-primary -hover-grow" data-target="{{ block.settings.button_link }}">
+                            <span>{{ block.settings.button_text }}</span>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        {% endfor %}
+        </div>
+        {% endif %}
+
+
+        <script>
+            if (!(typeof window.steps_initLinks === "function")) {
+
+                function steps_initLinks() {
+                    var links = document.querySelectorAll('.st-button .v2-button');
+                    for (var i = 0; i < links.length; i++) {
+                        var link = links[i];
+                        link.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            scrollToTargetAdjusted(
+                                document.querySelector('.' + this.getAttribute('data-target'))
+                            );
+                        })
+                    }
+                }
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    setTimeout(function () {
+                        steps_initLinks();
+                    }, 250);
+                });
+
+            }
+        </script>
+
 
     </div> {% # /PAGE WIDTH %}
 </div>
