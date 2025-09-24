@@ -19,10 +19,17 @@
 
     assign uze_modal = false
 
+    assign product_classes = ''
+
     assign class_title = '_font-copy-l'
+    assign class_description = '_font-copy-m'
+    assign class_description = ' _font-copy-l'
 
     if full_size
+        assign product_classes = product_classes | append: ' -full-size '
         assign class_title = '_font-h2'
+        assign class_description = ' _font-copy-l'
+        assign class_description = ' _font-copy-l'
     endif
 %}
 
@@ -44,10 +51,12 @@
 %}
 
 <product-thumb class="v2-product-thumb sa-col-white
-                      sa-col-primary"
+                      sa-col-primary
+                      {{ product_classes }}"
                data-product-tags="{{ product_tags }}"
                data-product-id="{{ product.id }}"
                data-product-url="{{ product.url }}">
+    {% if product != blank %}
     <div class="pt-container">
 
         <div class="product-content">
@@ -56,7 +65,8 @@
                # ---------------------- %}
             <div class="product__media-wrapper">
                 {%- unless placeholder -%}
-                    {% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}
+                    {% render 'product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
+                    {% comment %}{% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}{% endcomment %}
                     <a class="pt-image-link" href="{{ product.url }}"></a>
                 {%- else -%}
                     <div class="product__media-item">
@@ -87,7 +97,7 @@
 
                         {% # TITLE (done)
                            # ----------------------- %}
-                        <h4 class="product__title {{ class_title }} mb-4" {{ shopify_attributes }}>
+                        <h4 class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
                             {%- unless placeholder -%}
                                 {{ product.title | escape }}
 
@@ -96,7 +106,7 @@
                             {%- endunless -%}
                         </h4>
 
-                        <div class="pt-description _font-copy-m">
+                        <div class="pt-description {{ class_description }}">
                             {{ product.metafields.custom.short_description | metafield_tag }}
                         </div>
 
@@ -110,7 +120,6 @@
                                # ----------------------- %}
                             {% render 'le_product-variant-picker',
                                     product: product,
-
                                     swatch_shape: 'none',
                                     picker_type: 'dropdown',
                                     shopify_attributes: shopify_attributes,
@@ -164,6 +173,7 @@
                             <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
                                 {%- render 'v2_price',
                                         product: product,
+                                        full_size: full_size,
                                         placeholder: placeholder,
                                         use_variant: true,
                                         show_badges: true,
@@ -389,5 +399,7 @@
     <script>
         pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
     </script>
-
+    {% else %}
+        NO PRODUCT SELECTED
+    {% endif %}
 </product-thumb>

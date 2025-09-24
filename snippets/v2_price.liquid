@@ -3,6 +3,7 @@
 
   Accepts:
   - product: {Object} Product Liquid object (optional)
+  - full_size: {boolean} larger font sizes
   - placeholder: {Boolean} Renders a placeholder price (optional)
   - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
   - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
@@ -13,38 +14,45 @@
   {% render 'price', product: product %}
 {% endcomment %}
 {%- liquid
-  if use_variant
-    assign target = product.selected_or_first_available_variant
-  elsif placeholder
-    assign target = null
-  else
-    assign target = product
-  endif
+    if use_variant
+        assign target = product.selected_or_first_available_variant
+    elsif placeholder
+        assign target = null
+    else
+        assign target = product
+    endif
 
-  assign compare_at_price = target.compare_at_price
-  assign price = target.price | default: 1999
-  assign price_min = product.price_min
-  assign price_max = product.price_max
-  assign available = target.available | default: false
-  assign money_price = price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
-  assign money_price_min = price_min | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
-  assign money_price_max = price_max | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
-  if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
-    assign money_price_min = price_min | money_with_currency
-    assign money_price_max = price_max | money_with_currency
-  endif
+    assign compare_at_price = target.compare_at_price
+    assign price = target.price | default: 1999
+    assign price_min = product.price_min
+    assign price_max = product.price_max
+    assign available = target.available | default: false
+    assign money_price = price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
+    assign money_price_min = price_min | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
+    assign money_price_max = price_max | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
+    if settings.currency_code_enabled
+        assign money_price = price | money_with_currency
+        assign money_price_min = price_min | money_with_currency
+        assign money_price_max = price_max | money_with_currency
+    endif
 
-  assign show_compare_price = false
-  if compare_at_price > price
-      assign show_compare_price = true
-  endif
+    assign show_compare_price = false
+    if compare_at_price > price
+        assign show_compare_price = true
+    endif
 
-  assign price2 = price | money_without_trailing_zeros
+    assign price2 = price | money_without_trailing_zeros
 
-  if target == product and product.price_varies
-    assign money_price = 'products.product.price.from_price_html' | t: price: money_price
-  endif
+    if target == product and product.price_varies
+        assign money_price = 'products.product.price.from_price_html' | t: price: money_price
+    endif
+
+    assign class_regular = '_font-copy-l'
+    assign class_price = '_font-h3'
+    if full_size
+        assign class_regular = '_font-copy-l'
+        assign class_price = '_font-h2'
+    endif
 
 -%}
 
@@ -120,21 +128,24 @@
         {% # PREVIOUS PRICE (regular_price in this context) %}
         {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <s class="price-item price-item--regular -no-decal _font-copy-l">
+        <s class="price-item price-item--regular -no-decal {{ class_regular }}">
           {{ compare_at_price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.' }}
         </s>
         {%- endunless -%}
 
         {% # PRICE TO PAY (sale_price in this context) %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-        <span class="price-item price-item--sale price-item--last _font-h3 font-bold -no-decal">
+        <span class="price-item price-item--sale price-item--last {{ class_price }} font-bold -no-decal">
           {{ money_price }}
         </span>
 
         {% # SAVING PERCENTAGE %}
-        {% assign target_price = target.price | divided_by: 100 %}
-        {% assign saving_percentage = target.compare_at_price | divided_by: target_price | minus: 100 %}
-        <div class="price-save-percentage _font-copy-m">
+        {% liquid
+            assign target_price = target.price | plus: 1.1 | minus: 1.1
+            assign normal_price = target.compare_at_price | divided_by: 100 | plus: 1.1 | minus: 1.1
+            assign saving_percentage = target_price | divided_by: normal_price | minus: 100 | times: -1 | round
+        %}
+        <div class="price-save-percentage {{ class_save }}">
             Save <span>{{ saving_percentage }}</span>%
         </div>
       </div>

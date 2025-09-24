@@ -92,7 +92,8 @@
 
         {% render 'v2_product-thumb',
                 section_id: thumb_id,
-                product: product,
+                product: section.settings.product,
+                full_size: true,
                 loopindex: 1,
                 shopify_attributes: ''
         %}
