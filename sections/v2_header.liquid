@@ -97,7 +97,11 @@
 
             {% render 'v2-text', data: section.settings, classes: "" %}
 
-            {% render 'v2-button', data: section.settings, classes: "" %}
+            {% if section.settings.button_text != blank %}
+            <div class="flex mt-14">
+                {% render 'v2-button', data: section.settings, classes: "" %}
+            </div>
+            {% endif %}
 
         </div>
         {% endif %}

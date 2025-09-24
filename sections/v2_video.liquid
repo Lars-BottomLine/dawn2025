@@ -114,46 +114,40 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        <div class="color-{{ section.settings.color_scheme }} gradient">
-            <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
-                <div
-                        {% if section.settings.full_width %}
-                            class="page-width"
-                        {% endif %}
-                >
-                    {%- unless section.settings.heading == blank -%}
-                        <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-                            <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
-                        </div>
-                    {%- endunless -%}
-                </div>
+        <div class="">
+            <div class="video-section isolate">
                 <deferred-media
-                        class="video-section__media deferred-media gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                        data-media-id="{{ video_id }}"
-                        {% if poster != null %}
-                            style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
-                        {% endif %}
+                    class="video-section__media deferred-media gradient global-media-settings{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    data-media-id="{{ video_id }}"
+                    {% if poster != null %}
+                        style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
+                    {% endif %}
                 >
                     <button
-                            id="Deferred-Poster-Modal-{{ video_id }}"
-                            class="video-section__poster media deferred-media__poster media--landscape"
-                            type="button"
-                            aria-label="{{ alt }}"
+                        id="Deferred-Poster-Modal-{{ video_id }}"
+                        class="video-section__poster media deferred-media__poster media--landscape"
+                        type="button"
+                        aria-label="{{ alt }}"
                     >
                         {%- if poster != null -%}
-                            {{
-                            poster
-                            | image_url: width: 3840
-                            | image_tag: sizes: sizes, widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840', alt: alt
+                            {{ poster
+                                    | image_url:
+                                        width: 3840
+                                    | image_tag:
+                                        sizes: sizes,
+                                        widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                                        alt: alt
                             }}
                         {%- else -%}
                             {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                         {%- endif -%}
                         <span class="deferred-media__poster-button motion-reduce">
-          <span class="svg-wrapper">
-            {{- 'icon-play.svg' | inline_asset_content -}}
-          </span>
-        </span>
+                            <span class="svg-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+                                    <path d="M10 7.29604V33.9627C9.99992 34.2593 10.079 34.5505 10.229 34.8063C10.379 35.0621 10.5945 35.2732 10.8534 35.4179C11.1122 35.5627 11.405 35.6357 11.7015 35.6295C11.998 35.6233 12.2874 35.5381 12.54 35.3827L34.2067 22.0494C34.4493 21.9003 34.6497 21.6914 34.7888 21.4429C34.9278 21.1943 35.0008 20.9142 35.0008 20.6294C35.0008 20.3446 34.9278 20.0645 34.7888 19.8159C34.6497 19.5673 34.4493 19.3585 34.2067 19.2094L12.54 5.87604C12.2874 5.72065 11.998 5.63546 11.7015 5.62927C11.405 5.62308 11.1122 5.6961 10.8534 5.84081C10.5945 5.98552 10.379 6.19667 10.229 6.45248C10.079 6.70829 9.99992 6.99949 10 7.29604Z" fill="#00268B"/>
+                                </svg>
+                            </span>
+                        </span>
                     </button>
                     <template>
                         {%- if section.settings.video == null and section.settings.video_url != null -%}
@@ -183,12 +177,12 @@
                         {%- else -%}
                             {{
                             section.settings.video
-                            | video_tag:
-                            image_size: '1100x',
-                            autoplay: true,
-                            loop: section.settings.enable_video_looping,
-                            controls: true,
-                            muted: false
+                                | video_tag:
+                                    image_size: '1100x',
+                                    autoplay: true,
+                                    loop: section.settings.enable_video_looping,
+                                    controls: true,
+                                    muted: false
                             }}
                         {%- endif -%}
                     </template>

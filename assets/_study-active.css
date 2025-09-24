@@ -4843,4 +4843,22 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   }
 }
 
+.v2-section-video .deferred-media__poster-button {
+  border: none;
+}
+.v2-section-video .svg-wrapper {
+  width: 4rem;
+  height: 4rem;
+}
+.v2-section-video deferred-media {
+  max-width: 113rem;
+  margin: auto;
+  background: lightgray 50%/cover no-repeat;
+  box-shadow: 6px 7px 0 0 var(--color-primary) !important;
+  border: none;
+}
+.v2-section-video deferred-media.video-section__media {
+  padding-bottom: 59.746%;
+}
+
 /*# sourceMappingURL=_study-active.css.map */
