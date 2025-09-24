@@ -3,22 +3,11 @@
 
   Accepts:
     - section_id: section.id,
-    - section_heading: section.settings.heading,
-    - section_heading_type: section.settings.heading_type,
-    - secondary_background: section.settings.secondary_background,
-    - template_type: section.settings.template_type,
-    - media_size: section.settings.media_size,
-    - media_position: section.settings.media_position,
     - product: product,
-    - settings_product: section.settings.product,
-    - section_blocks: section.blocks,
-    - constrain_to_viewport: section.settings.constrain_to_viewport
-
     - loopindex - where in the loop cycle are we for this section
-
     - shopify_attributes: ''
   Usage:
-  {% render 'card-product', show_vendor: section.settings.show_vendor %}
+  {% render 'card-product', section_id: section.id %}
 {% endcomment %}
 
 {% liquid
@@ -48,16 +37,13 @@
 %}
 
 <product-thumb class="v2-product-thumb sa-col-white
-                      {% if secondary_background %}background-secondary{% else %}gradient{% endif %}
-                      -template-{{ template_type }}
                       sa-col-primary"
                data-product-tags="{{ product_tags }}"
                data-product-id="{{ product.id }}"
                data-product-url="{{ product.url }}">
     <div class="pt-container">
 
-        <div class="product-content
-                    {% if product.media.size > 0 or settings_product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+        <div class="product-content">
 
             {% # TOP: MEDIA
                # ---------------------- %}
@@ -68,7 +54,7 @@
                 {%- else -%}
                     <div class="product__media-item">
                         <div
-                                class="product-media-container global-media-settings gradient{% if constrain_to_viewport %} constrain-height{% endif %}"
+                                class="product-media-container global-media-settings gradient"
                                 style="--ratio: 1.0; --preview-ratio: 1.0;"
                         >
                             {{ 'product-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}

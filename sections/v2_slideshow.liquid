@@ -89,6 +89,13 @@
     }
 {%- endstyle -%}
 
+{% liquid
+    assign iz_slide = true
+    if section.settings.slide_type == 'product' or section.settings.slide_type == 'bundle'
+        assign iz_slide = false
+    endif
+%}
+
 <div class="v2-section-slideshow
             {{ section_classes }}">
     <div class="page-width">
@@ -96,6 +103,7 @@
         <div id="swiper-{{ section.id }}" class="swiper v2-swiper -slide-type-{{ section.settings.slide_type }}">
             <div class="swiper-wrapper sa-col-white">
 
+            {% if iz_slide %}
                 {%- for block in section.blocks -%}
 
                     <div id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -191,7 +199,40 @@
                     </div>
 
                 {% endfor %}
+            {% else %}
 
+                {%- for product in collection.products -%}
+
+                    {% assign lazy_load = false %}
+                    {%- if forloop.index > 2 -%}
+                        {%- assign lazy_load = true -%}
+                    {%- endif -%}
+
+                    {% if product.type == 'Bundle' or forloop.index == 1 or section.settings.slide_type == 'product' %}
+
+                        {% assign thumb_id = section.id | append: forloop.index %}
+
+                    <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                         class="swiper-slide"
+                         role="group"
+                         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                         tabindex="-1" >
+
+                        <div class="v2-swiper-inside">
+                        {% render 'v2_product-thumb',
+                                section_id: thumb_id,
+                                product: product,
+                                loopindex: forloop.index,
+                                shopify_attributes: ''
+                        %}
+                        </div>
+                    </div>
+
+                    {% endif %}
+                {%- endfor -%}
+
+            {% endif %}
             </div>
 
             <div class="swiper-pagination"></div>
@@ -282,14 +323,23 @@
                 "type": "select",
                 "id": "slide_type",
                 "label": "Slide Type",
+                "default": "product",
                 "options": [
                     {
-                    "value": "blue",
-                    "label": "Blue"
+                        "value": "blue",
+                        "label": "Blue"
                     },
                     {
                         "value": "dark",
                         "label": "Dark Blue + Link"
+                    },
+                    {
+                        "value": "product",
+                        "label": "Products"
+                    },
+                    {
+                        "value": "bundle",
+                        "label": "Bundles (+1st Product)"
                     }
                 ]
             },
@@ -335,7 +385,7 @@
                 "type": "select",
                 "id": "bkgr_color",
                 "label": "t:lebase.global.bkgr_color.label",
-                "default": "primary",
+                "default": "light-blue",
                 "options": [
                     {
                     "value": "primary",
