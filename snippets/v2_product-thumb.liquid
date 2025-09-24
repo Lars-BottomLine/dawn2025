@@ -5,6 +5,7 @@
     - section_id: section.id,
     - product: product,
     - loopindex - where in the loop cycle are we for this section
+    - full_size: boolean
     - shopify_attributes: ''
   Usage:
   {% render 'card-product', section_id: section.id %}
@@ -15,14 +16,20 @@
     if loopindex == 1
         assign first_call_on_page = true
     endif
+
+    assign uze_modal = false
+
+    assign class_title = '_font-copy-l'
+
+    if full_size
+        assign class_title = '_font-h2'
+    endif
 %}
 
-{% assign uze_modal = false %}
-
 {% if first_call_on_page %}
-<script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
 {% endif %}
 
 {% liquid
@@ -80,7 +87,7 @@
 
                         {% # TITLE (done)
                            # ----------------------- %}
-                        <h4 class="product__title _font-copy-l mb-4" {{ shopify_attributes }}>
+                        <h4 class="product__title {{ class_title }} mb-4" {{ shopify_attributes }}>
                             {%- unless placeholder -%}
                                 {{ product.title | escape }}
 
