@@ -13,23 +13,9 @@
       "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "slide_type": "blue",
+        "slide_type": "product",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_collectionbundle_Y8CRYM": {
-      "type": "v2_collectionbundle",
-      "name": "t:lesections.v2_collectionbundle.presets.name",
-      "settings": {
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
@@ -713,7 +699,6 @@
   },
   "order": [
     "v2_slideshow_iWEHxP",
-    "v2_collectionbundle_Y8CRYM",
     "le_collection_bundle_grid_TzawhT",
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
