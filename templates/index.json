@@ -47,6 +47,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
+        "product": "active-iq-level-2-award-in-mental-health-awareness",
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
