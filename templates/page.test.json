@@ -135,10 +135,132 @@
         "button_new_window": false,
         "bkgr_color": "light-blue",
         "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": -128,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_VjFj8L": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_D8g7GW": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Step 4: Start earning</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h2",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "textcol_iEbKaD": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p>Once you’re qualified, we don’t leave you hanging. As one of the UK’s top-rated training  providers, <strong>we’ve built partnerships with leading gyms across the country </strong>— including The Gym Group, Virgin Active, and more. <strong>Learners get access to guaranteed job interviews,</strong> giving you a clear pathway into paid employment, check out our <a href=\"/blogs/news\" target=\"_blank\" title=\"Fitness and Personal Training Education\">Career Support page</a> to learn more.</p>",
+            "left_text_size": "copy-m",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": true,
+            "right_text": "<p>Want a career that<strong> pays well, fits around your life, and doesn’t require a university degree</strong>? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding jobs that <strong>keep you active, fulfilled, and in control of your time.</strong> Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
+            "right_text_size": "copy-m",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": true,
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_D8g7GW",
+        "textcol_iEbKaD"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "custom_class_names": "",
+        "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": -128,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_aMnXRM": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_fykbDg": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Suitability & Prerequisites</p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_y3pmCV": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+            "text_align": "center",
+            "text_width": "mediumplus",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 12,
+            "margin_bottom": 0
+          }
+        },
+        "boxcol_RhmQh7": {
+          "type": "boxcol",
+          "settings": {
+            "left_heading_text": "<p><strong>Who Is This Course For?</strong></p>",
+            "left_heading_type": "h3",
+            "left_heading_size": "copy-xl",
+            "left_heading_no_decal": false,
+            "left_heading_decal_left": false,
+            "left_heading_strong_accented": false,
+            "left_text": "<p>This diploma is ideal for aspiring fitness professionals – whether you’re an exercise enthusiast looking to go pro, or someone seeking a career change into personal training. It’s designed for beginners and those who want all-in-one training to become a Gym Instructor and Personal Trainer.</p><ul><li>for fitness-enthusiast <strong>beginners</strong></li><li><strong>All-in-one </strong>training</li></ul>",
+            "left_text_size": "copy-m",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_heading_text": "<p><strong>Entry Requirements: No prior qualifications required</strong></p>",
+            "right_heading_type": "h3",
+            "right_heading_size": "copy-xl",
+            "right_heading_no_decal": false,
+            "right_heading_decal_left": false,
+            "right_heading_strong_accented": false,
+            "right_text": "<p>You must be 16+ years old, with a basic level of fitness and a passion for health and exercise. No experience? No problem – the course includes the foundational Level 2 Gym Instructing certification to get you up to speed.</p><ul><li>Must be <strong>16+</strong></li><li><strong>No experience n</strong>eeded</li></ul>",
+            "right_text_size": "copy-m",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 40,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_fykbDg",
+        "subheadline_y3pmCV",
+        "boxcol_RhmQh7"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     }
@@ -146,6 +268,8 @@
   "order": [
     "main",
     "v2_hero_AKkKq3",
-    "v2_text_plus_image_gDkW4T"
+    "v2_text_plus_image_gDkW4T",
+    "v2_flexible_VjFj8L",
+    "v2_flexible_aMnXRM"
   ]
 }
