@@ -352,74 +352,6 @@
         "margin_bottom": 0
       }
     },
-    "le_swiper_3fwFxr": {
-      "type": "le_swiper",
-      "blocks": {
-        "slide_7HzcH9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Jules-powerlifting.webp",
-            "heading": "<p>Julie Davis</p>",
-            "subheading": "<p>Powerlifting World Championship Athlete</p>",
-            "text_content": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
-            "button_label": "Button label",
-            "link": ""
-          }
-        },
-        "slide_EQpnYc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/7d90f49e6d22bb8165ae447992d054fce4030a61.jpg",
-            "heading": "<p>Anne Nixon</p>",
-            "subheading": "<p>Former CBBC Television Presenter</p>",
-            "text_content": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
-            "button_label": "Button label",
-            "link": ""
-          }
-        },
-        "slide_UeWiQT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/4055f5aaa8ae2993e390dd2561cb797f1241daba.jpg",
-            "heading": "<p>Michael Clegg</p>",
-            "subheading": "<p>Former Premier L. Footballer &  S&C Coach for Man Utd</p>",
-            "text_content": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
-            "button_label": "Button label",
-            "link": ""
-          }
-        },
-        "slide_jmaGXx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/onlinecoach.png",
-            "heading": "<p>Lydia Hawkings</p>",
-            "subheading": "<p>Private Personal Trainer & Online Coach</p>",
-            "text_content": "<p>\"I completed my gym instructor and personal trainer qualifications with study active a few years ago and they were amazing! I went on to work as a full time 1-1 PT at my local pure gym, I built up my clientele and now also run an online coaching business.\"</p>",
-            "button_label": "Button label",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_7HzcH9",
-        "slide_EQpnYc",
-        "slide_UeWiQT",
-        "slide_jmaGXx"
-      ],
-      "name": "t:sections.le_swiper.presets.name",
-      "settings": {
-        "headline": "Graduate success stories",
-        "slider_type": "testimonial",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
@@ -1508,7 +1440,6 @@
     "le_steps_pUKCpz",
     "v2_header_i7HYVG",
     "v2_slideshow_xYpUTm",
-    "le_swiper_3fwFxr",
     "v2_hero_jk6W8B",
     "v2_cards_ayDGYf",
     "v2_cards_8hE7zP",
