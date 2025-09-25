@@ -103,10 +103,49 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_text_plus_image_gDkW4T": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
+        "heading_text": "<p>Let us do the heavy lifting</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p>This is your moment to do something that really moves you.</p>",
+        "subheadline_text_size": "copy-xl",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>With Study Active, you get everything you need to become a fully qualified fitness professional. Learn online, in your own time, with expert tutors by your side and real opportunities waiting at the finish line. We’ll guide you through every step, from your first login to guaranteed job interviews with top UK gyms. Bring your drive and passion, we’ve got the rest covered.</p>",
+        "text_size": "copy-m",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p>The future won’t wait. </p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": true,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "Let’s get started",
+        "button_url": "shopify://pages/careers",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "v2_hero_AKkKq3"
+    "v2_hero_AKkKq3",
+    "v2_text_plus_image_gDkW4T"
   ]
 }
