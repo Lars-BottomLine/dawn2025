@@ -1052,6 +1052,21 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_featured_eHUeJe": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "active-iq-level-2-award-in-mental-health-awareness",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -1069,6 +1084,7 @@
     "v2_accordion_T8qHQk",
     "v2_header_QF8hrn",
     "v2_slideshow_z8rPTW",
-    "v2_steps_NE8FcR"
+    "v2_steps_NE8FcR",
+    "v2_featured_eHUeJe"
   ]
 }
