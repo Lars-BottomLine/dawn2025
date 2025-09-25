@@ -1053,19 +1053,53 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_NMpyFR": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Step 1: Set your goal</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a<br/> personal trainer. Then explore our courses to find the one that aligns best with your<br/> vision and get specialised to take your wellness game to the next level.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": -140
+      }
+    },
     "v2_featured_eHUeJe": {
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
         "product": "active-iq-level-2-award-in-mental-health-awareness",
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "light-blue",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 140
       }
     }
   },
@@ -1085,6 +1119,7 @@
     "v2_header_QF8hrn",
     "v2_slideshow_z8rPTW",
     "v2_steps_NE8FcR",
+    "v2_header_NMpyFR",
     "v2_featured_eHUeJe"
   ]
 }
