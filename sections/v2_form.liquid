@@ -90,12 +90,40 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        {{ section.setting.form_type }}
-
-        <div class="v2-form-content">
-            {% assign filename = 'v2_form-' | append: section.setting.form_type  %}
+        <div class="v2-form-content -type-{{ section.settings.form_type }}">
+            {% liquid
+                case section.settings.form_type
+                    when 'brochure'
+                        render 'v2_form-brochure'
+                    when 'career'
+                        render 'v2_form-career'
+                    when 'elcas'
+                        render 'v2_form-elcas'
+                    when 'tutor'
+                        render 'v2_form-tutor'
+                    when 'product'
+                        render 'v2_form-productbrochure'
+                endcase
+            %}
             {% render filename %}
         </div>
+
+        <div class="v2-form-content -type-brochure">
+            {% render 'v2_form-brochure' %}
+        </div>
+
+        <div class="v2-form-content -type-elcas">
+            {% render 'v2_form-elcas' %}
+        </div>
+
+        <div class="v2-form-content -type-tutor">
+            {% render 'v2_form-tutor' %}
+        </div>
+
+        <div class="v2-form-content -type-productbrochure">
+            {% render 'v2_form-productbrochure' %}
+        </div>
+
 
     </div> {% # /PAGE WIDTH %}
 </div>
@@ -132,6 +160,10 @@
                     {
                         "value": "tutor",
                         "label": "Tutor Support Form"
+                    },
+                    {
+                        "value": "product",
+                        "label": "Brochure on product page"
                     }
                 ]
             },
