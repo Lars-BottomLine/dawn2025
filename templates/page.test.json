@@ -99,7 +99,7 @@
         "slide_autospeed": 5000,
         "custom_class_names": "",
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 100,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -134,11 +134,11 @@
         "button_size": "small",
         "button_new_window": false,
         "bkgr_color": "light-blue",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -128,
         "margin_bottom": 0
       }
     }
