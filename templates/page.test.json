@@ -835,6 +835,58 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_accordion_T8qHQk": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_jBPmBG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "1. Wellness Coach",
+            "row_content": "<p><strong>Description</strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook</strong><br/>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year. </p>"
+          }
+        },
+        "accordion_row_ewRCcq": {
+          "type": "accordion_row",
+          "settings": {
+            "image": "shopify://shop_images/pregnancypersonaltrainer.avif",
+            "heading": "2. Alright, but what exactly do you do?",
+            "row_content": "<p><strong>Description</strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook</strong><br/>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year. </p>"
+          }
+        },
+        "accordion_row_xbHE7X": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Alright, but what exactly do you do?",
+            "row_content": "<p>Study Active has active relationships with UK gyms such as The Gym Group, Nuffield and Everyone Active. This ensures that our training is fit for purpose and further our Graduates benefit from employment opportunities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_jBPmBG",
+        "accordion_row_ewRCcq",
+        "accordion_row_xbHE7X"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently asked questions</p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "accordion_height": "medium",
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -848,6 +900,7 @@
     "v2_cards_n4Qwyb",
     "v2_cards_9AhpNz",
     "v2_cards_wyJQGA",
-    "v2_cards_dQLayN"
+    "v2_cards_dQLayN",
+    "v2_accordion_T8qHQk"
   ]
 }
