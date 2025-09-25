@@ -35,7 +35,7 @@
     # PADDING + MARGIN
     # ---------------------------------
     assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
-    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+    # assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
 
     # ---------------------------------
     # CUSTOM CLASSES
@@ -61,7 +61,8 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
-    # ...
+    assign content_classes = ''
+    assign content_classes = content_classes | append: ' section-' | append: section.id | append: '-padding '
 %}
 
 {%- style -%}
@@ -88,9 +89,41 @@
 
 <div class="v2-section-newsletter
             {{ section_classes }}">
+
+    <div class="v2-nl-background">
+        {% # IMAGE SET, DEFINE SIZES  %}
+        {% assign img = section.settings.image | default: blank %}
+        {%- if img != blank -%}
+            {%- assign widths = '1200, 1500' -%}
+            {%- capture sizes -%}
+                {% comment %}
+                ToDo: check the resulting image size, should be big enough but not too big...
+                {% endcomment %}
+                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+            {%- endcapture -%}
+            {{ img
+            | image_url:
+            width: 1500
+            | image_tag:
+            sizes: sizes,
+            widths: widths,
+            fetchpriority: fetch_priority
+            }}
+
+            {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+        {%- else -%}
+            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+    </div>
+
     <div class="page-width">
 
-        v2_newsletter
+        <div class="v2-nl-content {{ content_classes }}">
+            <div class="v2-nl-box">
+                {% render 'v2_newsletter-form' %}
+            </div>
+        </div>
 
     </div> {% # /PAGE WIDTH %}
 </div>

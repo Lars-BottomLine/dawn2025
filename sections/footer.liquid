@@ -86,7 +86,7 @@
           >
             {%- for block in section.blocks -%}
               <div
-                class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %} {% if block.type == 'contact' %} footer-block--contact{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="kn-footer-block text-white footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %} {% if block.type == 'contact' %} footer-block--contact{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -94,16 +94,27 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h3 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h3>
+                  <h3 class="kn-footer-heading !font-bold _font-copy-l">{{- block.settings.heading -}}</h3>
                 {%- endif -%}
 
                 {%- case block.type -%}
+                  {%-
+                  # BLOCK: APP
+                  # -------------------------------------------- -%}
                   {%- when '@app' -%}
                     {% render block %}
+
+                  {%-
+                  # BLOCK: TEXT
+                  # -------------------------------------------- -%}
                   {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
+                    <div class="_font-copy-xl rte">
                       {{ block.settings.subtext }}
                     </div>
+
+                  {%-
+                  # BLOCK: LINK LIST
+                  # -------------------------------------------- -%}
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -111,7 +122,7 @@
                           <li>
                             <a
                               href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                              class="_font-copy-m {% if link.active %} list-menu__item--active{% endif %}"
                             >
                               {{ link.title | escape }}
                             </a>
@@ -119,6 +130,10 @@
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
+
+                  {%-
+                  # BLOCK: BRAND
+                  # -------------------------------------------- -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
@@ -150,6 +165,10 @@
                         {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
                     </div>
+
+                  {%-
+                  # BLOCK: IMAGE
+                  # -------------------------------------------- -%}
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}
@@ -171,6 +190,10 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+
+                  {%-
+                  # BLOCK: CONTACT
+                  # -------------------------------------------- -%}
                   {%- when 'contact' -%}
                     <div class="footer-block__details-content rte">
 
