@@ -90,7 +90,12 @@
             {{ section_classes }}">
     <div class="page-width">
 
-       v2_form
+        {{ section.setting.form_type }}
+
+        <div class="v2-form-content">
+            {% assign filename = 'v2_form-' | append: section.setting.form_type  %}
+            {% render filename %}
+        </div>
 
     </div> {% # /PAGE WIDTH %}
 </div>
@@ -105,6 +110,31 @@
         },
         "settings": [
 
+
+            {
+                "type": "select",
+                "id": "form_type",
+                "label": "Select form",
+                "default": "career",
+                "options": [
+                    {
+                        "value": "brochure",
+                        "label": "Brochure Request Form"
+                    },
+                    {
+                        "value": "career",
+                        "label": "Careers Advice Form"
+                    },
+                    {
+                        "value": "elcas",
+                        "label": "ELCAS Brochure Download"
+                    },
+                    {
+                        "value": "tutor",
+                        "label": "Tutor Support Form"
+                    }
+                ]
+            },
 
 
             {
