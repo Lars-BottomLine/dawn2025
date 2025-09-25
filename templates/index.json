@@ -1530,6 +1530,7 @@
         "slide_Q3CU9W",
         "slide_dxBYFL"
       ],
+      "disabled": true,
       "name": "t:sections.le_image-slider.presets.name",
       "settings": {
         "decal_top": true,
@@ -1538,6 +1539,20 @@
         "padding_bottom": 0,
         "margin_top": -140,
         "margin_bottom": 16
+      }
+    },
+    "v2_newsletter_EFqipn": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
@@ -1565,6 +1580,7 @@
     "le_text_and_background_gtyQwb",
     "le_featured_blog_phLeqa",
     "le_image_with_text_HaCjqD",
-    "le_image_slider_hFiT68"
+    "le_image_slider_hFiT68",
+    "v2_newsletter_EFqipn"
   ]
 }
