@@ -77,7 +77,7 @@
             "text_size": "copy-xl",
             "text_no_decal": true,
             "text_strong_accented": false,
-            "button_text": "Find your path",
+            "button_text": "Log into LMS",
             "button_url": "shopify://pages/contact",
             "button_style": "primary",
             "button_size": "medium",
