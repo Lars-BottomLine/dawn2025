@@ -887,6 +887,75 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_slideshow_z8rPTW": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_V93HLk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/gym_workout.webp",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_XrKrPY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/gympersonaltrainer_b7a39e26-937c-4860-ae65-3b5f6d9f70f5.jpg",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_FhBjQD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fruit_and_nutrition_in_fitness.webp",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_AMr4Bg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personaltrainingfitness.webp",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_V93HLk",
+        "slide_XrKrPY",
+        "slide_FhBjQD",
+        "slide_AMr4Bg"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blue",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -901,6 +970,7 @@
     "v2_cards_9AhpNz",
     "v2_cards_wyJQGA",
     "v2_cards_dQLayN",
-    "v2_accordion_T8qHQk"
+    "v2_accordion_T8qHQk",
+    "v2_slideshow_z8rPTW"
   ]
 }
