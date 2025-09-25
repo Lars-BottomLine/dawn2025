@@ -984,7 +984,69 @@
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_NE8FcR": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_Fi7Pmi": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step 1: Watch your welcome webinar",
+            "text": "<p>Watch the welcome video below to hear from one of our tutors as they guide you through the key steps to achieving your qualification.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_jKaGYM": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Step 2: Download your coursework",
+            "text": "<p>Text</p>",
+            "button_text": "Download",
+            "button_link": "https://admin.shopify.com"
+          }
+        },
+        "step_KnNfmY": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Step 3: Start your studies",
+            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active.</p>",
+            "button_text": "Study Now",
+            "button_link": "-anchor-step-3"
+          }
+        },
+        "step_nQX6a6": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Step 4: Book or submit your assessments",
+            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.</p><p>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_Fi7Pmi",
+        "step_jKaGYM",
+        "step_KnNfmY",
+        "step_nQX6a6"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -1006,6 +1068,7 @@
     "v2_cards_dQLayN",
     "v2_accordion_T8qHQk",
     "v2_header_QF8hrn",
-    "v2_slideshow_z8rPTW"
+    "v2_slideshow_z8rPTW",
+    "v2_steps_NE8FcR"
   ]
 }
