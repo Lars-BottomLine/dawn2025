@@ -1482,69 +1482,11 @@
         "margin_bottom": 0
       }
     },
-    "le_image_slider_hFiT68": {
-      "type": "le_image-slider",
-      "blocks": {
-        "slide_46VKbP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-cimspa.png"
-          }
-        },
-        "slide_bEdFKc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-rsph.png"
-          }
-        },
-        "slide_mKGBwp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-uk-active.png"
-          }
-        },
-        "slide_pRc7qb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-active-iq.png"
-          }
-        },
-        "slide_Q3CU9W": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-association-for-nutrition.png"
-          }
-        },
-        "slide_dxBYFL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-the-gym-group.png"
-          }
-        }
-      },
-      "block_order": [
-        "slide_46VKbP",
-        "slide_bEdFKc",
-        "slide_mKGBwp",
-        "slide_pRc7qb",
-        "slide_Q3CU9W",
-        "slide_dxBYFL"
-      ],
-      "disabled": true,
-      "name": "t:sections.le_image-slider.presets.name",
-      "settings": {
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": -140,
-        "margin_bottom": 16
-      }
-    },
     "v2_newsletter_EFqipn": {
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
+        "image": "shopify://shop_images/gym-trainer-explaining.jpg",
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": false,
@@ -1580,7 +1522,6 @@
     "le_text_and_background_gtyQwb",
     "le_featured_blog_phLeqa",
     "le_image_with_text_HaCjqD",
-    "le_image_slider_hFiT68",
     "v2_newsletter_EFqipn"
   ]
 }
