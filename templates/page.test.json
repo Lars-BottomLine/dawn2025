@@ -888,6 +888,40 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_QF8hrn": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Graduate success stories</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Short description of content</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -140
+      }
+    },
     "v2_slideshow_z8rPTW": {
       "type": "v2_slideshow",
       "blocks": {
@@ -971,6 +1005,7 @@
     "v2_cards_wyJQGA",
     "v2_cards_dQLayN",
     "v2_accordion_T8qHQk",
+    "v2_header_QF8hrn",
     "v2_slideshow_z8rPTW"
   ]
 }
