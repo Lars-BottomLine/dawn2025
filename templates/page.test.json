@@ -587,7 +587,7 @@
       ],
       "name": "v2 - Cards - Horizontal Light Blue",
       "settings": {
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "card_layout": "horizontal",
         "heading_text": "<p>Step 3: Start Learning</p>",
         "heading_type": "h2",
