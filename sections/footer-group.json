@@ -14,13 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_nkH7eC": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "alignment": "center"
-          }
-        },
         "text_9xWyTX": {
           "type": "text",
           "settings": {
@@ -54,7 +47,6 @@
         }
       },
       "block_order": [
-        "image_nkH7eC",
         "text_9xWyTX",
         "footer-0",
         "footer-1",
@@ -62,6 +54,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/Logo_study_active_white.svg",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
