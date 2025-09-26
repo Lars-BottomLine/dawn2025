@@ -127,6 +127,208 @@
         "padding_top": 40,
         "padding_bottom": 0,
         "margin_top": -140,
+        "margin_bottom": -4
+      }
+    },
+    "v2_header_crfUaT": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Find your calling</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This is your moment to do something that really moves you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_xYpUTm": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_jANezi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/0c19037975adb3d3623036a176a411774f676f2e.jpg",
+            "headline": "<p>Wellness Coach</p>",
+            "subheadline": "",
+            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
+            "button_label": "Let's go",
+            "button_url": ""
+          }
+        },
+        "slide_eCjx47": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sports-massage.jpg",
+            "headline": "<p>Sports Massage Therapist</p>",
+            "subheadline": "",
+            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
+            "button_label": "Let's go",
+            "button_url": ""
+          }
+        },
+        "slide_BKBzMU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/723274426dc835e755179453ac455490f73f0626.jpg",
+            "headline": "<p>Group Exercise Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p><p></p>",
+            "button_label": "Let's go",
+            "button_url": ""
+          }
+        },
+        "slide_eBDWpy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
+            "headline": "<p>Gym Instructor</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_jANezi",
+        "slide_eCjx47",
+        "slide_BKBzMU",
+        "slide_eBDWpy"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "dark",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_88cQaJ": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_EBXxjP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-heart-handshake-cyan_6500a2b5-dd58-4a73-95cc-19bad6911dd4.svg",
+            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Benefit from our network of top UK gyms.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_tKGdHp": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-discount-check-cyan.svg",
+            "title_text": "<p><strong>Trusted Provider</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_6Tqicm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-globe-cyan.svg",
+            "title_text": "<p><strong>Flexible Study</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study on your own time, from anywhere.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_EBXxjP",
+        "card_tKGdHp",
+        "card_6Tqicm"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why choose Study Active?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -158,40 +360,6 @@
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_crfUaT": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>Step 1: Set your goal</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>Think about your passions, your goals, and the kind of impact you want to make as a<br/> personal trainer. Then explore our courses to find the one that aligns best with your<br/> vision and get specialised to take your wellness game to the next level.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -341,10 +509,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_xYpUTm": {
+    "v2_slideshow_4RTHyC": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_BKBzMU": {
+        "slide_HfbbfH": {
           "type": "slide",
           "settings": {
             "headline": "<p>Michael Clegg</p>",
@@ -354,7 +522,7 @@
             "button_url": ""
           }
         },
-        "slide_jANezi": {
+        "slide_JM8hVg": {
           "type": "slide",
           "settings": {
             "headline": "<p>Julie Davis</p>",
@@ -364,7 +532,7 @@
             "button_url": ""
           }
         },
-        "slide_eBDWpy": {
+        "slide_bPaqPa": {
           "type": "slide",
           "settings": {
             "headline": "<p>Anne Nixon</p>",
@@ -374,7 +542,7 @@
             "button_url": ""
           }
         },
-        "slide_eCjx47": {
+        "slide_yxX9Tq": {
           "type": "slide",
           "settings": {
             "headline": "<p>Michael Clegg</p>",
@@ -386,10 +554,10 @@
         }
       },
       "block_order": [
-        "slide_BKBzMU",
-        "slide_jANezi",
-        "slide_eBDWpy",
-        "slide_eCjx47"
+        "slide_HfbbfH",
+        "slide_JM8hVg",
+        "slide_bPaqPa",
+        "slide_yxX9Tq"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -766,120 +934,25 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
-    },
-    "v2_cards_m6chaw": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_wXc6Bp": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p>fhfhf</p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_VLELMW": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_AjzYiC": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_wXc6Bp",
-        "card_VLELMW",
-        "card_AjzYiC"
-      ],
-      "name": "t:lesections.cards.presets.name",
-      "settings": {
-        "bkgr_color": "primary",
-        "card_layout": "vertical",
-        "heading_text": "",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "medium",
-        "button_new_window": false,
-        "button_align": "center",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
     "v2_hero_jk6W8B",
     "v2_text_plus_image_PcfkMY",
+    "v2_header_crfUaT",
+    "v2_slideshow_xYpUTm",
+    "v2_cards_88cQaJ",
     "v2_video_PxmmLq",
     "v2_form_6i7zU4",
-    "v2_header_crfUaT",
     "v2_featured_VcKGRT",
     "v2_header_P4gKij",
     "v2_steps_YXgdEc",
     "v2_header_i7HYVG",
-    "v2_slideshow_xYpUTm",
+    "v2_slideshow_4RTHyC",
     "v2_cards_ayDGYf",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
     "v2_accordion_MwEKUC",
-    "v2_newsletter_EFqipn",
-    "v2_cards_m6chaw"
+    "v2_newsletter_EFqipn"
   ]
 }
