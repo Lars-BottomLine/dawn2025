@@ -13,7 +13,7 @@
       "type": "v2_form",
       "name": "t:lesections.v2_form.presets.name",
       "settings": {
-        "form_type": "product",
+        "form_type": "brochure",
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": false,
