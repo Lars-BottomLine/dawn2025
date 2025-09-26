@@ -145,10 +145,16 @@
                     {% endif %}
 
                 </div>
-                {% if iz_height_limit %}
-                <div class="le-acc-arrow"></div>
-                {% endif %}
             </div>
+            {% if iz_height_limit %}
+                <div class="le-acc-showall flex justify-center mt-8">
+                    <div class="v2-button -style-secondary -size-small pointer -hover-grow">
+                        <span>
+                            View all
+                        </span>
+                    </div>
+                </div>
+            {% endif %}
 
         </div>
     </div>
@@ -159,33 +165,38 @@
 
     if (!(typeof window.openAccordion === "function")) {
         var openAccordion = function ( ele ) {
-            ele.classList.remove('-haz-height-limit');
+            ele.style.maxHeight = '300vh';
+            document.querySelector('.section-{{ section.id }} .le-acc-showall').style.display = 'none';
         }
     }
 
     document.addEventListener("DOMContentLoaded", function () {
 
+        // INIT ACCORDION
+        // -----------------------
         var accordion_{{ section_id_js }} = new LeAccordion({
             wrapper_class: "accordion-{{ section_id_js }}",
             debug: false
         });
         accordion_{{ section_id_js }}.init();
 
-        if (document.querySelector('.section-{{ section.id }} .le-acc-arrow')) {
-            document.querySelector('.section-{{ section.id }} .le-acc-arrow').addEventListener('click', function () {
+        // EVENT: ARROW CLICK
+        // -----------------------
+        if (document.querySelector('.section-{{ section.id }} .le-acc-showall')) {
+            document.querySelector('.section-{{ section.id }} .le-acc-showall').addEventListener('click', function () {
                 openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
             })
         }
 
         document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-open', function (e) {
-            console.log('ACCORDION: ENTRY OPENED', e);
+            //console.log('ACCORDION: ENTRY OPENED', e);
             if (!acc_{{ section_id_js }}) {
                 acc_{{ section_id_js }} = true;
                 openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
             }
         })
         document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-close', function (e) {
-            console.log('ACCORDION: ENTRY CLOSED', e);
+            //console.log('ACCORDION: ENTRY CLOSED', e);
         })
 
     });
@@ -193,11 +204,26 @@
     // remove the open button if accordion content is not taller than the limit
     document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-initialized', function (e) {
         setTimeout( () => {
+            const items_to_show = {{ section.settings.items_to_show }};
             const security_margin = 10;
             const accordion = e.detail.target_entry;
             const entries_wrapper = accordion.querySelector('.le-acc-entries');
-            // console.log('ACCORDION: INITIALIZED', accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
-            if (accordion.offsetHeight >= ( entries_wrapper.clientHeight - security_margin) ) {
+            console.log('ACCORDION: INITIALIZED', accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
+            console.log('ACCORDION: INITIALIZED', entries_wrapper.clientHeight);
+
+            var max_height = 0;
+            const acc_entries = document.querySelectorAll('.section-{{ section.id }} .le-accordion .le-acc-entry');
+            acc_entries.forEach( (entry, index) => {
+                if (index < items_to_show) {
+                    max_height += entry.offsetHeight + 10;
+                    console.log(index, entry.offsetHeight);
+                }
+            });
+            accordion.style.maxHeight = max_height + 'px';
+            console.log('ACCORDION: MAX HEIGHT', max_height, acc_entries.length, items_to_show, acc_entries.length < items_to_show);
+
+
+            if (acc_entries.length <= items_to_show ) {
                 openAccordion( accordion );
             }
         }, 500);
@@ -346,28 +372,14 @@
         ]
       },
       {
-        "type": "select",
-        "id": "accordion_height",
-        "default": "medium",
+        "type": "range",
+        "id": "items_to_show",
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "unit": "Qty",
         "label": "t:lesections.accordion.height.label",
-        "options": [
-          {
-            "value": "auto",
-            "label": "t:lesections.accordion.height.auto"
-          },
-          {
-            "value": "small",
-            "label": "t:lesections.accordion.height.small"
-          },
-          {
-            "value": "medium",
-            "label": "t:lesections.accordion.height.medium"
-          },
-          {
-            "value": "large",
-            "label": "t:lesections.accordion.height.large"
-          }
-        ]
+        "default": 4
       },
 
       {
