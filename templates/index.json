@@ -292,12 +292,32 @@
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
+        },
+        "card_eAA4zM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-trending-up-cyan.svg",
+            "title_text": "<p><strong>Growing Career</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
         }
       },
       "block_order": [
         "card_EBXxjP",
         "card_tKGdHp",
-        "card_6Tqicm"
+        "card_6Tqicm",
+        "card_eAA4zM"
       ],
       "name": "t:lesections.cards.presets.name",
       "settings": {
@@ -317,10 +337,10 @@
         "text_strong_accented": false,
         "text_align": "center",
         "text_width": "medium",
-        "button_text": "",
+        "button_text": "View all courses",
         "button_url": "",
-        "button_style": "primary",
-        "button_size": "medium",
+        "button_style": "secondary",
+        "button_size": "small",
         "button_new_window": false,
         "button_align": "center",
         "custom_class_names": "",
