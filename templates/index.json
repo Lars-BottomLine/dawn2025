@@ -502,332 +502,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_cards_8hE7zP": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_bcH6QR": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Stepping it up in wellness</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Deepen your impact with courses designed to support the whole person. <br/>Coach your clients to better understand mental health, or offer specialist<br/>support for long-term conditions.</p><ul><li>AIQ Level 3 Diploma in Wellness Coaching</li><li>Level 2 Award in Mental Health Awareness</li><li>Level 3 Award in Supporting Clients with Long-Term Conditions</li></ul>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_x7FdkM": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>The nutrition route</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_TXegpG": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Specialise in women’s wellness</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Equip yourself with the knowledge and empathy to better serve women  at<br/> every life stage. These courses cover everything from pre- and postnatal <br/>care to menopause interventions—empowering you to     provide personalised,<br/> evidence-based support for women’s evolving health needs.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_bcH6QR",
-        "card_x7FdkM",
-        "card_TXegpG"
-      ],
-      "name": "v2 - Cards - Wide Box Light Blue",
-      "settings": {
-        "bkgr_color": "light-blue",
-        "card_layout": "wide_box",
-        "heading_text": "<p>Step 3: Start Learning</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "View all courses",
-        "button_url": "shopify://collections/fitness-pt-package-courses-by-study-active",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_cards_6EUPET": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_ce8qBE": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Benefit from our network of top UK gyms.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_77VUpD": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Flexible Study</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Study on your own time, from anywhere.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_H96Abm": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Trusted Provider</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_DWwKUD": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Growing Career</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_ce8qBE",
-        "card_77VUpD",
-        "card_H96Abm",
-        "card_DWwKUD"
-      ],
-      "name": "v2 - Cards - Horizontal Light Blue",
-      "settings": {
-        "bkgr_color": "light-blue",
-        "card_layout": "horizontal",
-        "heading_text": "<p>Step 3: Start Learning</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "View all courses",
-        "button_url": "shopify://collections/fitness-pt-package-courses-by-study-active",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_cards_pzeP7r": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_nBbqm7": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Benefit from our network of top UK gyms.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_t8Lehc": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Flexible Study</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Study on your own time, from anywhere.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_J7fRWb": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Trusted Provider</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_hCYxNh": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>Growing Career</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_nBbqm7",
-        "card_t8Lehc",
-        "card_J7fRWb",
-        "card_hCYxNh"
-      ],
-      "name": "v2 - Cards - Horizontal Primary",
-      "settings": {
-        "bkgr_color": "primary",
-        "card_layout": "horizontal",
-        "heading_text": "<p>Why choose Study Active?</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "View all courses",
-        "button_url": "shopify://collections/fitness-pt-package-courses-by-study-active",
-        "button_style": "secondary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_cards_NkTwDC": {
       "type": "v2_cards",
       "blocks": {
@@ -1020,160 +694,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_flexible_Xgp6a3": {
-      "type": "v2_flexible",
-      "blocks": {
-        "headline_wnFRw9": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "<p>Suitability & Prerequisites </p>",
-            "heading_align": "center",
-            "heading_width": "mediumplus",
-            "heading_type": "h2",
-            "heading_size": "h2",
-            "heading_no_decal": false,
-            "heading_decal_left": false,
-            "heading_strong_accented": false
-          }
-        },
-        "subheadline_6JqwEm": {
-          "type": "subheadline",
-          "settings": {
-            "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
-            "text_align": "center",
-            "text_width": "mediumplus",
-            "text_size": "copy-xl",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "margin_top": 40,
-            "margin_bottom": 40
-          }
-        },
-        "headline_EWAa9a": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "<p>Step 4: Start earning</p>",
-            "heading_align": "left",
-            "heading_width": "full",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_no_decal": false,
-            "heading_decal_left": true,
-            "heading_strong_accented": false
-          }
-        },
-        "boxcol_ebdVaB": {
-          "type": "boxcol",
-          "settings": {
-            "left_heading_text": "<p><strong>Who Is This Course For?</strong></p>",
-            "left_heading_type": "h3",
-            "left_heading_size": "copy-xl",
-            "left_heading_no_decal": true,
-            "left_heading_decal_left": false,
-            "left_heading_strong_accented": false,
-            "left_text": "<p>This diploma is ideal for aspiring fitness professionals – whether you’re an exercise enthusiast looking to go pro, or someone seeking a career change into personal training. It’s designed for beginners and those who want all-in-one training to become a Gym Instructor and Personal Trainer.</p><ul><li>for fitness-enthusiast <strong>beginners</strong></li><li><strong>All-in-one</strong> training</li></ul>",
-            "left_text_size": "copy-m",
-            "left_text_no_decal": false,
-            "left_text_strong_accented": false,
-            "right_heading_text": "<p><strong>Entry Requirements: No prior qualifications required</strong></p>",
-            "right_heading_type": "h3",
-            "right_heading_size": "copy-xl",
-            "right_heading_no_decal": true,
-            "right_heading_decal_left": false,
-            "right_heading_strong_accented": false,
-            "right_text": "<p>You must be 16+ years old, with a basic level of fitness and a passion for health and exercise. No experience? No problem – the course includes the foundational Level 2 Gym Instructing certification to get you up to speed.</p><ul><li>Must be<strong> 16+</strong></li><li><strong>No experience</strong> needed</li></ul>",
-            "right_text_size": "copy-m",
-            "right_text_no_decal": false,
-            "right_text_strong_accented": false,
-            "margin_top": 80,
-            "margin_bottom": 80
-          }
-        },
-        "headline_Xxe9QB": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "<p>Step 4: Start earning</p>",
-            "heading_align": "left",
-            "heading_width": "full",
-            "heading_type": "h2",
-            "heading_size": "h1",
-            "heading_no_decal": false,
-            "heading_decal_left": true,
-            "heading_strong_accented": false
-          }
-        },
-        "textcol_HNmjwr": {
-          "type": "textcol",
-          "settings": {
-            "left_text": "<p>Once you’re qualified, we don’t leave you hanging. As one of the UK’s top-rated training providers, <strong>we’ve built partnerships with leading gyms across the country</strong> — including The Gym Group, Virgin Active, and more. <strong>Learners get access to guaranteed job interviews</strong>, giving you a clear pathway into paid employment, check out our <a href=\"/pages/careers\" target=\"_blank\" title=\"Careers\">Career Support page</a> to learn more.</p>",
-            "left_text_size": "copy-m",
-            "left_text_no_decal": false,
-            "left_text_strong_accented": true,
-            "right_text": "<p>Want a career that <strong>pays well, fits around your life, and doesn’t require a university<br/> degree</strong>? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding<br/> jobs that <strong>keep you active, fulfilled, and in control of your time</strong>. Whether you want to work in gyms, run sessions in the community, coach clients online,<br/> or build your own wellness brand, it all starts here.</p>",
-            "right_text_size": "copy-m",
-            "right_text_no_decal": false,
-            "right_text_strong_accented": true,
-            "margin_top": 40,
-            "margin_bottom": 40
-          }
-        },
-        "headline_GFGxBz": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "<p>Step 4: Start earning</p>",
-            "heading_align": "left",
-            "heading_width": "full",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_no_decal": false,
-            "heading_decal_left": true,
-            "heading_strong_accented": false
-          }
-        },
-        "iconcol_wKPL7f": {
-          "type": "iconcol",
-          "settings": {
-            "margin_top": 80,
-            "margin_bottom": 80
-          }
-        },
-        "buttoncol_jJbRb4": {
-          "type": "buttoncol",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "shopify://products/l2-nutrition-performance-and-healthy-eating-course",
-            "button_style": "secondary",
-            "button_size": "medium",
-            "button_new_window": true,
-            "button_align": "center",
-            "margin_top": 104,
-            "margin_bottom": 104
-          }
-        }
-      },
-      "block_order": [
-        "headline_wnFRw9",
-        "subheadline_6JqwEm",
-        "headline_EWAa9a",
-        "boxcol_ebdVaB",
-        "headline_Xxe9QB",
-        "textcol_HNmjwr",
-        "headline_GFGxBz",
-        "iconcol_wKPL7f",
-        "buttoncol_jJbRb4"
-      ],
-      "name": "t:lesections.flexible.presets.name",
-      "settings": {
-        "bkgr_color": "primary",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_accordion_MwEKUC": {
       "type": "v2_accordion",
       "blocks": {
@@ -1246,6 +766,102 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_cards_m6chaw": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_wXc6Bp": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p>fhfhf</p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_VLELMW": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_AjzYiC": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_wXc6Bp",
+        "card_VLELMW",
+        "card_AjzYiC"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "vertical",
+        "heading_text": "",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -1260,13 +876,10 @@
     "v2_header_i7HYVG",
     "v2_slideshow_xYpUTm",
     "v2_cards_ayDGYf",
-    "v2_cards_8hE7zP",
-    "v2_cards_6EUPET",
-    "v2_cards_pzeP7r",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
-    "v2_flexible_Xgp6a3",
     "v2_accordion_MwEKUC",
-    "v2_newsletter_EFqipn"
+    "v2_newsletter_EFqipn",
+    "v2_cards_m6chaw"
   ]
 }
