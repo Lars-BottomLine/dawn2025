@@ -319,7 +319,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -338,7 +337,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -357,7 +355,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -418,7 +415,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -437,7 +433,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -456,7 +451,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -517,7 +511,6 @@
             "text_strong_accented": false,
             "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -536,7 +529,6 @@
             "text_strong_accented": false,
             "claim_text": "<p><strong>From £49/month available </strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -554,7 +546,6 @@
             "text_strong_accented": false,
             "claim_text": "<p><a href=\"/pages/about-us\" target=\"_blank\" title=\"About Us\"><strong>Terms and conditions </strong></a><strong>apply</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -615,7 +606,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -634,7 +624,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -653,7 +642,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -672,7 +660,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -734,7 +721,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -753,7 +739,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -772,7 +757,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -791,7 +775,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -853,7 +836,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -872,7 +854,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -891,7 +872,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -1346,6 +1326,20 @@
         "margin_top": 0,
         "margin_bottom": 140
       }
+    },
+    "v2_newsletter_nWWNqi": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -1369,6 +1363,7 @@
     "v2_header_NMpyFR",
     "v2_featured_eHUeJe",
     "v2_header_qydTW4",
-    "v2_video_9hKwtR"
+    "v2_video_9hKwtR",
+    "v2_newsletter_nWWNqi"
   ]
 }
