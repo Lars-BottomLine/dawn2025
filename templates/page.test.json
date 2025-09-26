@@ -1001,6 +1001,7 @@
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
+        "items_to_show": 4,
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": true,
@@ -1123,7 +1124,7 @@
             "image": "shopify://shop_images/gym_workout.webp",
             "headline": "<p>Group Exercise Instructor</p>",
             "subheadline": "",
-            "text": "<p>Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.</p>",
+            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-reps-level-2-3-4-personal-training-package-course"
           }
@@ -1134,7 +1135,7 @@
             "image": "shopify://shop_images/gympersonaltrainer_b7a39e26-937c-4860-ae65-3b5f6d9f70f5.jpg",
             "headline": "<p>Group Exercise Instructor</p>",
             "subheadline": "",
-            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
             "button_label": "Let's go",
             "button_url": ""
           }
@@ -1145,7 +1146,7 @@
             "image": "shopify://shop_images/fruit_and_nutrition_in_fitness.webp",
             "headline": "<p>Group Exercise Instructor</p>",
             "subheadline": "",
-            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
             "button_label": "Let's go",
             "button_url": ""
           }
@@ -1156,7 +1157,7 @@
             "image": "shopify://shop_images/personaltrainingfitness.webp",
             "headline": "<p>Group Exercise Instructor</p>",
             "subheadline": "",
-            "text": "<p>Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.</p>",
+            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p>",
             "button_label": "Let's go",
             "button_url": ""
           }
