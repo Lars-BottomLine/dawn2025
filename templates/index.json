@@ -15,17 +15,18 @@
         "slide_zzLjTp": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Study_Active_Hero_4_1.jpg",
             "slide_type": "onecol",
-            "heading_text": "<p>Your Hub for <br/><strong>Learning, Support, <br/>and Career Growth</strong></p>",
+            "heading_text": "<p>Want a career that <strong>changes lives?</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p><strong>Access everything you need</strong> as a Study Active student – from resources to career guidance – <strong>all in one place</strong>.</p>",
+            "text": "<p>Change lives through wellness and fitness  - starting with yours.</p>",
             "text_size": "copy-xl",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "button_text": "Log into LMS",
+            "button_text": "Find your path",
             "button_url": "https://bottomline.agency",
             "button_style": "primary",
             "button_size": "medium",
@@ -250,7 +251,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -269,7 +269,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -288,7 +287,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -307,7 +305,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -352,47 +349,102 @@
         "margin_bottom": 0
       }
     },
-    "v2_video_PxmmLq": {
-      "type": "v2_video",
-      "name": "t:lesections.v2_video.presets.name",
+    "v2_header_i7HYVG": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "custom_class_names": "",
+        "heading_text": "<p>Graduate success stories</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Short description of content</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
         "bkgr_color": "light-blue",
-        "decal_top": false,
+        "custom_class_names": "",
+        "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 20,
+        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "v2_form_6i7zU4": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
+    "v2_slideshow_4RTHyC": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_HfbbfH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4055f5aaa8ae2993e390dd2561cb797f1241daba.jpg",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_JM8hVg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/399542cedc385997fb523203e2f94268394f286e.jpg",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_bPaqPa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/7d90f49e6d22bb8165ae447992d054fce4030a61.jpg",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_yxX9Tq": {
+          "type": "slide",
+          "settings": {
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_HfbbfH",
+        "slide_JM8hVg",
+        "slide_bPaqPa",
+        "slide_yxX9Tq"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "form_type": "brochure",
+        "slide_type": "blue",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_featured_VcKGRT": {
-      "type": "v2_featured",
-      "name": "t:lesections.v2_featured.presets.name",
-      "settings": {
-        "product": "active-iq-level-2-award-in-mental-health-awareness",
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -403,7 +455,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>Begin your learning journey</p>",
+        "heading_text": "<p>Learning Experience</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -411,7 +463,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
-        "text": "<p><strong>NOTE</strong>: If you’ve purchased this course as part of a combined package or bundle, please note:<strong> this is the first course in your series.</strong> Once you complete it, you’ll automatically unlock the learning materials for your next course.</p>",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -423,7 +475,7 @@
         "button_size": "small",
         "button_new_window": false,
         "button_align": "center",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
@@ -495,105 +547,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_i7HYVG": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>Graduate success stories</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>Short description of content</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_4RTHyC": {
-      "type": "v2_slideshow",
-      "blocks": {
-        "slide_HfbbfH": {
-          "type": "slide",
-          "settings": {
-            "headline": "<p>Michael Clegg</p>",
-            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
-            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_JM8hVg": {
-          "type": "slide",
-          "settings": {
-            "headline": "<p>Julie Davis</p>",
-            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
-            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_bPaqPa": {
-          "type": "slide",
-          "settings": {
-            "headline": "<p>Anne Nixon</p>",
-            "subheadline": "<p>Former CBBC Television Presenter</p>",
-            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_yxX9Tq": {
-          "type": "slide",
-          "settings": {
-            "headline": "<p>Michael Clegg</p>",
-            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
-            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_HfbbfH",
-        "slide_JM8hVg",
-        "slide_bPaqPa",
-        "slide_yxX9Tq"
-      ],
-      "name": "t:lesections.v2_slideshow.presets.name",
-      "settings": {
-        "slide_type": "blue",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_cards_ayDGYf": {
       "type": "v2_cards",
       "blocks": {
@@ -610,7 +563,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -628,7 +580,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -646,7 +597,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -706,7 +656,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -724,7 +673,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -742,7 +690,6 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -802,7 +749,6 @@
             "text_strong_accented": false,
             "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -820,7 +766,6 @@
             "text_strong_accented": false,
             "claim_text": "<p><strong>From £49/month available </strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -838,7 +783,6 @@
             "text_strong_accented": false,
             "claim_text": "<p><a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -962,13 +906,10 @@
     "v2_header_crfUaT",
     "v2_slideshow_xYpUTm",
     "v2_cards_88cQaJ",
-    "v2_video_PxmmLq",
-    "v2_form_6i7zU4",
-    "v2_featured_VcKGRT",
-    "v2_header_P4gKij",
-    "v2_steps_YXgdEc",
     "v2_header_i7HYVG",
     "v2_slideshow_4RTHyC",
+    "v2_header_P4gKij",
+    "v2_steps_YXgdEc",
     "v2_cards_ayDGYf",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
