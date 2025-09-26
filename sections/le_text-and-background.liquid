@@ -138,9 +138,6 @@
 
             {%- for block in section.blocks -%}
                 <div class="tab-row -type-{{ block.type }}">
-                    Description: {{ product.description }}</br>
-                    PRODUCT: {{ product.handle }}</br>
-                    Image: {{ product.featured_image }}</br>
 
                     {% for img in product.images %}
                     {{ forloop.index }} - {{ img }}</br>

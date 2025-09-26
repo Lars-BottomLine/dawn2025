@@ -87,13 +87,13 @@
     {%- for block in section.blocks -%}
         {% if block.settings.margin_top or block.settings.margin_bottom %}
         .{{ section.id }}-block-{{ forloop.index }} {
-            {% if block.settings.margin_top %}margin-top: {{ block.settings.margin_top }}px;{% endif %}
-            {% if block.settings.margin_bottom %}margin-bottom: {{ block.settings.margin_bottom }}px;{% endif %}
+            {% if block.settings.margin_top %}margin-top: {{ block.settings.margin_top | times: 0.6 | round: 0 }}px;{% endif %}
+            {% if block.settings.margin_bottom %}margin-bottom: {{ block.settings.margin_bottom | times: 0.6 | round: 0  }}px;{% endif %}
         }
         @media screen and (min-width: 750px) {
             .{{ section.id }}-block-{{ forloop.index }} {
-                {% if block.settings.margin_top %}margin-top: {{ block.settings.margin_top | times: 0.75 | round: 0 }}px;{% endif %}
-                {% if block.settings.margin_bottom %}margin-bottom: {{ block.settings.margin_bottom | times: 0.75 | round: 0  }}px;{% endif %}
+                {% if block.settings.margin_top %}margin-top: {{ block.settings.margin_top }}px;{% endif %}
+                {% if block.settings.margin_bottom %}margin-bottom: {{ block.settings.margin_bottom }}px;{% endif %}
             }
         }
         {% endif %}

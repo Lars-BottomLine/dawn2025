@@ -3,22 +3,12 @@
 
   Accepts:
     - section_id: section.id,
-    - section_heading: section.settings.heading,
-    - section_heading_type: section.settings.heading_type,
-    - secondary_background: section.settings.secondary_background,
-    - template_type: section.settings.template_type,
-    - media_size: section.settings.media_size,
-    - media_position: section.settings.media_position,
     - product: product,
-    - settings_product: section.settings.product,
-    - section_blocks: section.blocks,
-    - constrain_to_viewport: section.settings.constrain_to_viewport
-
     - loopindex - where in the loop cycle are we for this section
-
+    - full_size: boolean
     - shopify_attributes: ''
   Usage:
-  {% render 'card-product', show_vendor: section.settings.show_vendor %}
+  {% render 'card-product', section_id: section.id %}
 {% endcomment %}
 
 {% liquid
@@ -26,14 +16,27 @@
     if loopindex == 1
         assign first_call_on_page = true
     endif
+
+    assign uze_modal = false
+
+    assign product_classes = ''
+
+    assign class_title = '_font-copy-l'
+    assign class_description = '_font-copy-m'
+    assign class_description = ' _font-copy-l'
+
+    if full_size
+        assign product_classes = product_classes | append: ' -full-size '
+        assign class_title = '_font-h2'
+        assign class_description = ' _font-copy-l'
+        assign class_description = ' _font-copy-l'
+    endif
 %}
 
-{% assign uze_modal = false %}
-
 {% if first_call_on_page %}
-<script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
 {% endif %}
 
 {% liquid
@@ -48,27 +51,27 @@
 %}
 
 <product-thumb class="v2-product-thumb sa-col-white
-                      {% if secondary_background %}background-secondary{% else %}gradient{% endif %}
-                      -template-{{ template_type }}
-                      sa-col-primary"
+                      sa-col-primary
+                      {{ product_classes }}"
                data-product-tags="{{ product_tags }}"
                data-product-id="{{ product.id }}"
                data-product-url="{{ product.url }}">
+    {% if product != blank %}
     <div class="pt-container">
 
-        <div class="product-content
-                    {% if product.media.size > 0 or settings_product == blank %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+        <div class="product-content">
 
             {% # TOP: MEDIA
                # ---------------------- %}
             <div class="product__media-wrapper">
                 {%- unless placeholder -%}
-                    {% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}
+                    {% render 'product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
+                    {% comment %}{% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}{% endcomment %}
                     <a class="pt-image-link" href="{{ product.url }}"></a>
                 {%- else -%}
                     <div class="product__media-item">
                         <div
-                                class="product-media-container global-media-settings gradient{% if constrain_to_viewport %} constrain-height{% endif %}"
+                                class="product-media-container global-media-settings gradient"
                                 style="--ratio: 1.0; --preview-ratio: 1.0;"
                         >
                             {{ 'product-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -94,7 +97,7 @@
 
                         {% # TITLE (done)
                            # ----------------------- %}
-                        <h4 class="product__title _font-copy-l mb-4" {{ shopify_attributes }}>
+                        <h4 class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
                             {%- unless placeholder -%}
                                 {{ product.title | escape }}
 
@@ -103,7 +106,7 @@
                             {%- endunless -%}
                         </h4>
 
-                        <div class="pt-description _font-copy-m">
+                        <div class="pt-description {{ class_description }}">
                             {{ product.metafields.custom.short_description | metafield_tag }}
                         </div>
 
@@ -117,7 +120,6 @@
                                # ----------------------- %}
                             {% render 'le_product-variant-picker',
                                     product: product,
-
                                     swatch_shape: 'none',
                                     picker_type: 'dropdown',
                                     shopify_attributes: shopify_attributes,
@@ -171,6 +173,7 @@
                             <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
                                 {%- render 'v2_price',
                                         product: product,
+                                        full_size: full_size,
                                         placeholder: placeholder,
                                         use_variant: true,
                                         show_badges: true,
@@ -396,5 +399,7 @@
     <script>
         pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
     </script>
-
+    {% else %}
+        NO PRODUCT SELECTED
+    {% endif %}
 </product-thumb>

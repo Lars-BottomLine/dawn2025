@@ -1,0 +1,372 @@
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+{%- liquid
+
+    assign section_classes = ''
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    # ...
+%}
+{%- liquid
+    # DEFAULT STUFF
+    assign video_id = section.settings.video.id | default: section.settings.video_url.id
+    assign video_alt = section.settings.video.alt | default: section.settings.description
+    assign alt = 'sections.video.load_video' | t: description: video_alt | escape
+    assign poster = section.settings.video.preview_image | default: section.settings.cover_image
+
+    if section.settings.video != null
+        assign ratio_diff = section.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
+        if ratio_diff < 0.01 and ratio_diff > 0
+            assign fix_ratio = true
+        endif
+    endif
+-%}
+{%- capture sizes -%}
+    {% if section.settings.full_width -%}
+        100vw
+    {%- else -%}
+        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px)
+        calc(100vw - 10rem), 100vw
+    {%- endif %}
+{%- endcapture -%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
+    }
+{%- endstyle -%}
+
+<div class="v2-section-video
+            {{ section_classes }}">
+    <div class="page-width">
+
+        <div class="">
+            <div class="video-section isolate">
+                <deferred-media
+                    class="video-section__media deferred-media gradient global-media-settings{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    data-media-id="{{ video_id }}"
+                    {% if poster != null %}
+                        style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
+                    {% endif %}
+                >
+                    <button
+                        id="Deferred-Poster-Modal-{{ video_id }}"
+                        class="video-section__poster media deferred-media__poster media--landscape"
+                        type="button"
+                        aria-label="{{ alt }}"
+                    >
+                        {%- if poster != null -%}
+                            {{ poster
+                                    | image_url:
+                                        width: 3840
+                                    | image_tag:
+                                        sizes: sizes,
+                                        widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                                        alt: alt
+                            }}
+                        {%- else -%}
+                            {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                        {%- endif -%}
+                        <span class="deferred-media__poster-button motion-reduce">
+                            <span class="svg-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
+                                    <path d="M10 7.29604V33.9627C9.99992 34.2593 10.079 34.5505 10.229 34.8063C10.379 35.0621 10.5945 35.2732 10.8534 35.4179C11.1122 35.5627 11.405 35.6357 11.7015 35.6295C11.998 35.6233 12.2874 35.5381 12.54 35.3827L34.2067 22.0494C34.4493 21.9003 34.6497 21.6914 34.7888 21.4429C34.9278 21.1943 35.0008 20.9142 35.0008 20.6294C35.0008 20.3446 34.9278 20.0645 34.7888 19.8159C34.6497 19.5673 34.4493 19.3585 34.2067 19.2094L12.54 5.87604C12.2874 5.72065 11.998 5.63546 11.7015 5.62927C11.405 5.62308 11.1122 5.6961 10.8534 5.84081C10.5945 5.98552 10.379 6.19667 10.229 6.45248C10.079 6.70829 9.99992 6.99949 10 7.29604Z" fill="#00268B"/>
+                                </svg>
+                            </span>
+                        </span>
+                    </button>
+                    <template>
+                        {%- if section.settings.video == null and section.settings.video_url != null -%}
+                            {%- liquid
+                                assign loop = ''
+                                if section.settings.enable_video_looping
+                                    assign loop = '&loop=1&playlist=' | append: video_id
+                                endif
+                            -%}
+                            {%- if section.settings.video_url.type == 'youtube' -%}
+                                <iframe
+                                        src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
+                                        class="js-youtube"
+                                        allow="autoplay; encrypted-media"
+                                        allowfullscreen
+                                        title="{{ section.settings.description | escape }}"
+                                ></iframe>
+                            {%- else -%}
+                                <iframe
+                                        src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1{{ loop }}"
+                                        class="js-vimeo"
+                                        allow="autoplay; encrypted-media"
+                                        allowfullscreen
+                                        title="{{ section.settings.description | escape }}"
+                                ></iframe>
+                            {%- endif -%}
+                        {%- else -%}
+                            {{
+                            section.settings.video
+                                | video_tag:
+                                    image_size: '1100x',
+                                    autoplay: true,
+                                    loop: section.settings.enable_video_looping,
+                                    controls: true,
+                                    muted: false
+                            }}
+                        {%- endif -%}
+                    </template>
+                </deferred-media>
+            </div>
+        </div>
+
+    </div> {% # /PAGE WIDTH %}
+</div>
+
+{% schema %}
+    {
+        "name": "t:lesections.v2_video.name",
+        "tag": "section",
+        "class": "section",
+        "disabled_on": {
+            "groups": ["header", "footer"]
+        },
+        "settings": [
+
+            {
+                "type": "checkbox",
+                "id": "enable_video_looping",
+                "label": "t:sections.video.settings.enable_video_looping.label",
+                "default": false
+            },
+
+
+            
+            {
+                "type": "header",
+                "content": "t:sections.video.settings.header__1.content"
+            },
+            {
+                "type": "video",
+                "id": "video",
+                "label": "t:sections.video.settings.video.label"
+            },
+            {
+                "type": "header",
+                "content": "t:sections.video.settings.header__2.content"
+            },
+            {
+                "type": "paragraph",
+                "content": "t:sections.video.settings.paragraph.content"
+            },
+            {
+                "type": "video_url",
+                "id": "video_url",
+                "accept": ["youtube", "vimeo"],
+                "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+                "label": "t:sections.video.settings.video_url.label",
+                "info": "t:sections.video.settings.video_url.info"
+            },
+            {
+                "type": "image_picker",
+                "id": "cover_image",
+                "label": "t:sections.video.settings.cover_image.label"
+            },
+            {
+                "type": "text",
+                "id": "description",
+                "label": "t:sections.video.settings.description.label",
+                "info": "t:sections.video.settings.description.info"
+            },
+
+
+
+            {
+                "type": "header",
+                "content": "t:lebase.global.custom_classes.header"
+            },
+            {
+                "type": "text",
+                "id": "custom_class_names",
+                "label": "t:lebase.global.custom_classes.label",
+                "placeholder": ".test_class"
+            },
+
+
+
+            {
+                "type": "header",
+                "content": "t:lebase.global.background.header"
+            },
+            {
+                "type": "select",
+                "id": "bkgr_color",
+                "label": "t:lebase.global.bkgr_color.label",
+                "default": "primary",
+                "options": [
+                    {
+                    "value": "primary",
+                    "label": "t:lebase.global.bkgr_color.primary"
+                    },
+                    {
+                    "value": "light-blue",
+                    "label": "t:lebase.global.bkgr_color.light-blue"
+                    },
+                    {
+                    "value": "white",
+                    "label": "t:lebase.global.bkgr_color.white"
+                    }
+                ]
+            },
+
+
+
+            {
+                "type": "header",
+                "content": "t:lebase.global.skewed_border.header"
+            },
+            {
+                "type": "checkbox",
+                "id": "decal_top",
+                "label": "t:lebase.global.skewed_border.label_top",
+                "default": false
+            },
+            {
+                "type": "checkbox",
+                "id": "decal_bottom",
+                "label": "t:lebase.global.skewed_border.label_bottom",
+                "default": false
+            },
+
+
+
+            {
+                "type": "header",
+                "content": "t:lebase.global.padding.header"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 200,
+                "step": 4,
+                "unit": "px",
+                "label": "t:lebase.global.padding.label_top",
+                "default": 40
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 200,
+                "step": 4,
+                "unit": "px",
+                "label": "t:lebase.global.padding.label_bottom",
+                "default": 40
+            },
+
+
+            {
+                "type": "header",
+                "content": "t:lebase.global.margin.header"
+            },
+            {
+                "type": "range",
+                "id": "margin_top",
+                "min": -200,
+                "max": 200,
+                "step": 4,
+                "unit": "px",
+                "label": "t:lebase.global.margin.label_top",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom",
+                "min": -200,
+                "max": 200,
+                "step": 4,
+                "unit": "px",
+                "label": "t:lebase.global.margin.label_bottom",
+                "default": 0
+            },
+
+        ],
+
+         "presets": [
+        {
+          "name": "t:lesections.v2_video.presets.name"
+        }
+    ]
+    }
+{% endschema %}

@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "v2_slideshow_iWEHxP": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "le_collection_bundle_grid_TzawhT": {
+      "type": "le_collection-bundle-grid",
+      "name": "Step 2: Choose your bundle",
+      "settings": {
+        "title": "<p><strong>Step 2: </strong>Choose your course or bundle</p>",
+        "text": "<p>Pick the training option that fits your lifestyle, ambitions, timeline, and passion.</p>",
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "section_bkgr": "primary",
+        "custom_class_names": "anchor-step2",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "le_text_and_background_HM4k8F": {
       "type": "le_text-and-background",
       "blocks": {
@@ -49,6 +85,10 @@
       "settings": {
         "image": "shopify://shop_images/yoga-pose-2-women.jpg",
         "stretch_image": true,
+        "section_bkgr": "primary",
+        "mobile_image": "medium",
+        "mobile_text": "default",
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 92,
@@ -196,6 +236,7 @@
         "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -245,6 +286,7 @@
         "heading_size": "normal",
         "no_decal": false,
         "subheadline": "",
+        "suitability_prerequisites": [],
         "column_type": "wide",
         "entry_align": "center",
         "image_shadow": "normal",
@@ -285,25 +327,6 @@
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_collection_bundle_grid_TzawhT": {
-      "type": "le_collection-bundle-grid",
-      "name": "Step 2: Choose your bundle",
-      "settings": {
-        "title": "<p><strong>Step 2: </strong>Choose your course or bundle</p>",
-        "text": "<p>Pick the training option that fits your lifestyle, ambitions, timeline, and passion.</p>",
-        "products_per_page": 36,
-        "columns_desktop": 3,
-        "columns_mobile": "2",
-        "section_bkgr": "primary",
-        "custom_class_names": "anchor-step2",
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -359,6 +382,7 @@
         "heading_size": "normal",
         "no_decal": false,
         "subheadline": "",
+        "suitability_prerequisites": [],
         "column_type": "wide",
         "entry_align": "center",
         "image_shadow": "normal",
@@ -479,6 +503,7 @@
         "headline": "Check out some of the top job options below",
         "heading_size": "medium",
         "accordion_width": "full",
+        "accordion_height": "medium",
         "accordion_entries": [],
         "decal_top": false,
         "decal_bottom": true,
@@ -566,6 +591,10 @@
       "settings": {
         "image": "shopify://shop_images/trainer-in-gym-helping-woman.jpg",
         "stretch_image": true,
+        "section_bkgr": "primary",
+        "mobile_image": "medium",
+        "mobile_text": "default",
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 132,
@@ -669,13 +698,14 @@
     }
   },
   "order": [
+    "v2_slideshow_iWEHxP",
+    "le_collection_bundle_grid_TzawhT",
     "le_text_and_background_HM4k8F",
     "le_steps_MWDAGF",
     "le_steps_3hMnC8",
     "le_featured_thGade",
     "le_face2face_3bMwwU",
     "le_callout_yyXgcX",
-    "le_collection_bundle_grid_TzawhT",
     "le_face2face_AznrtC",
     "multicolumn_9fLMCE",
     "le_accordion_BBeCm7",
