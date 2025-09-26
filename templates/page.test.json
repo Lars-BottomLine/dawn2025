@@ -401,6 +401,105 @@
         "margin_bottom": 0
       }
     },
+    "v2_cards_LCGJ4L": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_KkJUFk": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
+            "title_text": "<p><strong>Stepping it up in wellness</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Deepen your impact with courses designed to support the whole person. <br/>Coach your clients to better understand mental health, o<strong>r offer specialist</strong><br/>support for long-term conditions.</p><ul><li>AIQ Level 3 Diploma in Wellness Coaching</li><li>Level 2 Award in Mental Health Awareness</li><li>Level 3 Award in Supporting Clients with Long-Term Conditions</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_NmTrph": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/pregnancypersonaltrainer.avif",
+            "title_text": "<p><strong>The nutrition route</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Food plays a vital role in health, performance, and recovery. Support your <br/>clients by providing nutritional guidance.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_MHWW7x": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/gympersonaltrainer_b7a39e26-937c-4860-ae65-3b5f6d9f70f5.jpg",
+            "title_text": "<p><strong>Specialise in women’s wellness</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Equip yourself with the knowledge and empathy to better serve women  at<br/> every life stage. These courses cover everything from pre- and postnatal <br/>care to menopause interventions—empowering you to     provide personalised,<br/> evidence-based support for women’s evolving health needs.</p><ul><li>L2 Understanding Nutrition, Performance and Healthy Eating Course</li><li>Level 3 Award in Nutrition for Exercise and Health</li><li>Level 4 Award in Nutrition</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_KkJUFk",
+        "card_NmTrph",
+        "card_MHWW7x"
+      ],
+      "name": "v2 - Cards - Wide White",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide",
+        "heading_text": "<p>Step 3: Start Learning</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/fitness-pt-package-courses-by-study-active",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_cards_n4Qwyb": {
       "type": "v2_cards",
       "blocks": {
@@ -1187,6 +1286,7 @@
     "v2_flexible_VjFj8L",
     "v2_flexible_aMnXRM",
     "v2_cards_c4jXpi",
+    "v2_cards_LCGJ4L",
     "v2_cards_n4Qwyb",
     "v2_cards_9AhpNz",
     "v2_cards_wyJQGA",
