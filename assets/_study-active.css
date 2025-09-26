@@ -17,7 +17,7 @@
   display: none;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 751px) {
   .page-width {
     padding: 0 9rem;
   }
@@ -3059,7 +3059,7 @@ header .header__icon--cart .icon {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .-extra-padding-x {
     padding-left: 0;
     padding-right: 0;
@@ -3207,6 +3207,39 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2_price.price--on-sale .price__sale .price-save-percentage p {
   color: inherit;
   font-style: normal;
+}
+@media (max-width: 750px) {
+  ._font-hero.-decal-left,
+  ._font-h0.-decal-left,
+  ._font-h1.-decal-left,
+  ._font-h2.-decal-left,
+  ._font-h3.-decal-left,
+  .v2-section-form form .-decal-left._form-title,
+  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._form-title,
+  .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
+  .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
+  .price .-decal-left.price-item.price-item--regular,
+  .v2_price .-decal-left.price-item.price-item--regular,
+  product-thumb.v2-product-thumb .product__info-wrapper span.-decal-left.price-item.price-item--regular,
+  .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-left.price,
+  .sa-section-callout h2.-decal-left,
+  ._font-copy-xl.-decal-left,
+  ._font-copy-l.-decal-left,
+  .v2-section-form form .-decal-left._html-code,
+  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._html-code,
+  .price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
+  .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
+  ._font-copy-m.-decal-left,
+  .v2-section-form form label div.-decal-left,
+  .v2-section-form form input.-decal-left::placeholder,
+  .v2-section-form form select.-decal-left::placeholder,
+  .v2-section-form form textarea.-decal-left::placeholder,
+  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input.-decal-left::placeholder,
+  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label.-decal-left,
+  .price.price--on-sale .price__sale .-decal-left.price-save-percentage,
+  .v2_price.price--on-sale .price__sale .-decal-left.price-save-percentage {
+    margin-top: 0;
+  }
 }
 
 ._font-hero,
@@ -3379,7 +3412,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   height: 8rem;
   top: -9.6rem;
 }
-@media (min-width: 641px) {
+@media (min-width: 751px) {
   ._font-hero p.-decal-left,
   ._font-h0 p.-decal-left,
   ._font-hero.-decal-left,
@@ -3392,6 +3425,16 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   ._font-h0.-decal-left:before {
     top: -1.6rem;
     left: -5rem;
+  }
+}
+@media (max-width: 640px) {
+  ._font-hero p:before,
+  ._font-h0 p:before,
+  ._font-hero:before,
+  ._font-h0:before {
+    width: 3.2rem;
+    height: 6.8rem;
+    top: -7.6rem;
   }
 }
 @media (max-width: 989px) {
@@ -3419,7 +3462,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 ._font-h1.-align-center:before {
   margin-left: -1.6rem;
 }
-@media (min-width: 641px) {
+@media (min-width: 751px) {
   ._font-h1 p.-decal-left,
   ._font-h1.-decal-left {
     margin-top: 0;
@@ -3453,7 +3496,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 ._font-h2.-align-center:before {
   margin-left: -1.6rem;
 }
-@media (min-width: 641px) {
+@media (min-width: 751px) {
   ._font-h2 p.-decal-left,
   ._font-h2.-decal-left {
     margin-top: 0;
@@ -3509,7 +3552,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   height: 6.6rem;
   top: -7.5rem;
 }
-@media (min-width: 641px) {
+@media (min-width: 751px) {
   ._font-h3 p.-decal-left, .v2-section-form form ._form-title p.-decal-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left, .price .price-item.price-item--regular p.-decal-left,
   .v2_price .price-item.price-item--regular p.-decal-left, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left, .sa-section-callout h2 p.-decal-left,
@@ -3843,6 +3886,14 @@ a {
   margin-left: auto;
   margin-right: 0;
 }
+@media (max-width: 640px) {
+  .v2-button span, .v2-section-form form button span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span {
+    padding: 1rem 2.2rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+  }
+}
+
 .v2-swiper {
   margin-left: auto;
   margin-right: auto;
@@ -4424,6 +4475,22 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-hero .-haz-slides .slide-content {
   padding-bottom: 4rem;
 }
+@media (max-width: 640px) {
+  .v2-section-hero .hero-slide {
+    min-height: 62rem;
+  }
+  .v2-section-hero .slide-content.-type-twocol .slide-texts {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .v2-section-hero .slide-content.-type-twocol .slide-texts .v2-heading,
+  .v2-section-hero .slide-content.-type-twocol .slide-texts .v2-text {
+    flex: 1 1;
+    text-align: left;
+  }
+}
+
 .v2-section-accordion .v2-heading {
   margin-left: auto;
   margin-right: auto;
@@ -4581,7 +4648,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+  gap: 12rem;
 }
 .v2-section-textplusimage .v2-tpi-content .v2-tpi-left {
   display: flex;
@@ -4596,6 +4663,9 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   justify-content: center;
 }
 @media (max-width: 1200px) {
+  .v2-section-textplusimage .v2-tpi-content {
+    gap: 10rem;
+  }
   .v2-section-textplusimage .v2-tpi-content .v2-tpi-left {
     width: 60%;
   }
@@ -4606,6 +4676,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 @media (max-width: 989px) {
   .v2-section-textplusimage .v2-tpi-content {
     flex-direction: column;
+    gap: 4rem;
   }
   .v2-section-textplusimage .v2-tpi-content .v2-tpi-left {
     width: 100%;
@@ -5281,6 +5352,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   display: flex !important;
   color: inherit !important;
   max-width: 91%;
+  padding-right: 1rem;
 }
 .v2-section-form form ._form-title:before {
   top: 0 !important;
@@ -5322,6 +5394,9 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   padding: 0.5rem 1rem 0;
   display: flex;
 }
+.v2-section-form form label {
+  position: relative;
+}
 .v2-section-form form label ._error {
   margin-top: 0;
   padding: 0.5rem 1rem;
@@ -5333,7 +5408,14 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   width: 100%;
 }
 .v2-section-form form .iti ._error {
-  margin-top: -0.4rem;
+  margin-top: -1.6rem;
+}
+.v2-section-form form select {
+  appearance: none;
+  background-image: url("icon-chevron-down.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position-x: calc(100% - 2rem) !important;
+  background-position-y: 1.6rem !important;
 }
 .v2-section-form form ._form-branding,
 .v2-section-form form .iti__country-container {
@@ -5341,9 +5423,8 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 }
 .v2-section-form form input[type=checkbox] {
   display: inline;
-  width: auto;
-  /* position: absolute; */
-  top: 0;
+  position: absolute;
+  top: 2rem;
   height: 2rem;
   width: 2rem;
   margin: 0;
@@ -5352,7 +5433,19 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 }
 .v2-section-form form label div {
   font-size: 1.8rem !important;
-  display: inline;
+  display: inline-block;
+  padding-left: 3.2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .v2-section-form form input[type=checkbox] {
+    top: 1rem;
+  }
+  .v2-section-form form label div {
+    font-size: 1.6rem !important;
+    margin-top: 1rem;
+  }
 }
 .v2-section-form form ._button-wrapper {
   display: flex;

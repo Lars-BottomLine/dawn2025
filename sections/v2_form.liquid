@@ -81,7 +81,7 @@
         }
         .section-{{ section.id }}-margin {
             margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-            margin-bottom: {% if decal_top %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
         }
     }
 {%- endstyle -%}
@@ -90,6 +90,7 @@
             {{ section_classes }}">
     <div class="page-width">
 
+        {% if section.settings.form_type == 'all' %}
         <div class="v2-form-content -type-{{ section.settings.form_type }}">
             {% liquid
                 case section.settings.form_type
@@ -107,22 +108,27 @@
             %}
             {% render filename %}
         </div>
-
-        <div class="v2-form-content -type-brochure">
+        {% else %}
+        <div class="v2-form-content -type-brochure !mb-20 !pb-20 border-b-2 !divide-dashed">
             {% render 'v2_form-brochure' %}
         </div>
 
-        <div class="v2-form-content -type-elcas">
+        <div class="v2-form-content -type-career !mb-20 !pb-20 border-b-2 !divide-dashed">
+            {% render 'v2_form-career' %}
+        </div>
+
+        <div class="v2-form-content -type-elcas !mb-20 !pb-20 border-b-2 !divide-dashed">
             {% render 'v2_form-elcas' %}
         </div>
 
-        <div class="v2-form-content -type-tutor">
+        <div class="v2-form-content -type-tutor !mb-20 !pb-20 border-b-2 !divide-dashed">
             {% render 'v2_form-tutor' %}
         </div>
 
-        <div class="v2-form-content -type-productbrochure">
+        <div class="v2-form-content -type-productbrochure !mb-20 !pb-20 border-b-2 !divide-dashed">
             {% render 'v2_form-productbrochure' %}
         </div>
+        {% endif %}
 
 
     </div> {% # /PAGE WIDTH %}
@@ -164,6 +170,10 @@
                     {
                         "value": "product",
                         "label": "Brochure on product page"
+                    },
+                    {
+                        "value": "all",
+                        "label": "All (ONLY for debug purposes)"
                     }
                 ]
             },
