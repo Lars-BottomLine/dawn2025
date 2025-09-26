@@ -11,67 +11,16 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "le_image_slider_6yb3Am": {
-      "type": "le_image-slider",
-      "blocks": {
-        "slide_3iDhAh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-cimspa.png"
-          }
-        },
-        "slide_PtyAxL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-rsph.png"
-          }
-        },
-        "slide_XmJKDb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-uk-active.png"
-          }
-        },
-        "slide_LgkNdD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-active-iq.png"
-          }
-        },
-        "slide_Rw9CwF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-association-for-nutrition.png"
-          }
-        },
-        "slide_Kj38Bq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/logo-the-gym-group.png"
-          }
-        }
-      },
-      "block_order": [
-        "slide_3iDhAh",
-        "slide_PtyAxL",
-        "slide_XmJKDb",
-        "slide_LgkNdD",
-        "slide_Rw9CwF",
-        "slide_Kj38Bq"
-      ],
-      "name": "t:sections.le_image-slider.presets.name",
-      "settings": {
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 20
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_nkH7eC": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
         "text_9xWyTX": {
           "type": "text",
           "settings": {
@@ -83,14 +32,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Courses",
-            "menu": "footer-courses"
+            "menu": ""
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Support",
-            "menu": "footer-support"
+            "menu": ""
           }
         },
         "contact_GPHLYg": {
@@ -105,6 +54,7 @@
         }
       },
       "block_order": [
+        "image_nkH7eC",
         "text_9xWyTX",
         "footer-0",
         "footer-1",
@@ -112,7 +62,6 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "image": "shopify://shop_images/logo-study-active-white.svg",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
@@ -129,7 +78,6 @@
     }
   },
   "order": [
-    "le_image_slider_6yb3Am",
     "footer"
   ]
 }

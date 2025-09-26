@@ -16,7 +16,7 @@
         "form_type": "career",
         "custom_class_names": "",
         "bkgr_color": "primary",
-        "decal_top": true,
+        "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -64,7 +64,6 @@
       "settings": {
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/personal_trainer_interview.webp",
         "description": "",
         "custom_class_names": "",
         "bkgr_color": "light-blue",
@@ -221,49 +220,6 @@
         "margin_bottom": 0
       }
     },
-    "le_steps_pUKCpz": {
-      "type": "le_steps",
-      "blocks": {
-        "step_UBcKqD": {
-          "type": "step",
-          "settings": {
-            "number": "1",
-            "title": "Step",
-            "text": "Text",
-            "button_text": "Go to Step",
-            "button_link": ""
-          }
-        },
-        "step_CNi8ye": {
-          "type": "step",
-          "settings": {
-            "number": "1",
-            "title": "Step",
-            "text": "Text",
-            "button_text": "Go to Step",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "step_UBcKqD",
-        "step_CNi8ye"
-      ],
-      "name": "t:sections.le_steps.presets.name",
-      "settings": {
-        "template_type": "light-blue",
-        "step_width": "wide",
-        "heading": "<p>Step into success</p>",
-        "text": "<p>Becoming a Wellness Personal Trainer doesn’t have to be complicated. Follow these four steps and you’ll be earning in as little as two months.</p>",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_header_i7HYVG": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -304,7 +260,6 @@
         "slide_BKBzMU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/gym_workout.webp",
             "headline": "<p>Michael Clegg</p>",
             "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
             "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
@@ -315,7 +270,6 @@
         "slide_jANezi": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/gympersonaltrainer_b7a39e26-937c-4860-ae65-3b5f6d9f70f5.jpg",
             "headline": "<p>Julie Davis</p>",
             "subheadline": "<p>Powerlifting World Championship Athlete </p>",
             "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
@@ -326,7 +280,6 @@
         "slide_eBDWpy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/fruit_and_nutrition_in_fitness.webp",
             "headline": "<p>Anne Nixon</p>",
             "subheadline": "<p>Former CBBC Television Presenter</p>",
             "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
@@ -337,7 +290,6 @@
         "slide_eCjx47": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/personaltrainingfitness.webp",
             "headline": "<p>Michael Clegg</p>",
             "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
             "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
@@ -373,7 +325,6 @@
         "slide_zzLjTp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/personal_trainer_interview.webp",
             "slide_type": "onecol",
             "heading_text": "<p>Your Hub for <br/><strong>Learning, Support, <br/>and Career Growth</strong></p>",
             "heading_type": "h1",
@@ -394,7 +345,6 @@
         "slide_zLMkrC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/study-active-hero-1.jpg",
             "slide_type": "twocol",
             "heading_text": "<p>We are stronger<br/>together.</p>",
             "heading_type": "h1",
@@ -415,7 +365,6 @@
         "slide_yMtA4W": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/pilates_job.webp",
             "slide_type": "onecol",
             "heading_text": "<p>Get your free<br/><strong>Study Active brochure</strong></p>",
             "heading_type": "h1",
@@ -459,7 +408,6 @@
         "card_RDc4Hz": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/cismpa-transparent.png",
             "title_text": "<p><strong>McDonald Method</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -478,7 +426,6 @@
         "card_FRjWpM": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/5b7a571-675-af07-c53f-5c73cddfc65_18af200b-42ff-4b6b-9c2d-31700823653a.webp",
             "title_text": "<p><strong>MedFit Education</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -497,7 +444,6 @@
         "card_cxdGr7": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_16.png",
             "title_text": "<p><strong>Boxercise</strong> </p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -558,7 +504,6 @@
         "card_bcH6QR": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/trainer-helping-client-with-fitness.webp",
             "title_text": "<p><strong>Stepping it up in wellness</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -577,7 +522,6 @@
         "card_x7FdkM": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/pregnancypersonaltrainer.avif",
             "title_text": "<p><strong>The nutrition route</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -596,7 +540,6 @@
         "card_TXegpG": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/gympersonaltrainer_b7a39e26-937c-4860-ae65-3b5f6d9f70f5.jpg",
             "title_text": "<p><strong>Specialise in women’s wellness</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -657,7 +600,6 @@
         "card_ce8qBE": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
             "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -676,7 +618,6 @@
         "card_77VUpD": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/globe-icon.svg",
             "title_text": "<p><strong>Flexible Study</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -695,7 +636,6 @@
         "card_H96Abm": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-discount-check.svg",
             "title_text": "<p><strong>Trusted Provider</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -714,7 +654,6 @@
         "card_DWwKUD": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-trending-up.svg",
             "title_text": "<p><strong>Growing Career</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -776,7 +715,6 @@
         "card_nBbqm7": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-heart-handshake-shrunk.svg",
             "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -795,7 +733,6 @@
         "card_t8Lehc": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/globe-icon.svg",
             "title_text": "<p><strong>Flexible Study</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -814,7 +751,6 @@
         "card_J7fRWb": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-discount-check.svg",
             "title_text": "<p><strong>Trusted Provider</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -833,7 +769,6 @@
         "card_hCYxNh": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/tabler-icon-trending-up.svg",
             "title_text": "<p><strong>Growing Career</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -895,7 +830,6 @@
         "card_4jFXj6": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-handshake-blue.svg",
             "title_text": "<p><strong>Interview guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -914,7 +848,6 @@
         "card_3VyYGW": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Study_Active_Icons_4.png",
             "title_text": "<p><strong>CV writing support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -933,7 +866,6 @@
         "card_jwQbMY": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-workspace_premium.svg",
             "title_text": "<p><strong>Career guidance</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -994,7 +926,6 @@
         "card_Fqn8tU": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-handshake-blue.svg",
             "title_text": "<p><strong>Interview guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -1013,7 +944,6 @@
         "card_JQfjnG": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Study_Active_Icons_4.png",
             "title_text": "<p><strong>CV writing support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -1032,7 +962,6 @@
         "card_fWqbn7": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-workspace_premium.svg",
             "title_text": "<p><strong>Career guidance</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -1245,7 +1174,6 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/why_become_a_trainer_in_2025.webp",
         "heading_text": "<p>Course Overview</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -1292,7 +1220,6 @@
         "accordion_row_yeYDPp": {
           "type": "accordion_row",
           "settings": {
-            "image": "shopify://shop_images/pregnancypersonaltrainer.avif",
             "heading": "2. Alright, but what exactly do you do?",
             "row_content": "<p><strong>Description</strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms, or healthcare settings.</p><p><strong>Growth Outlook</strong><br/>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK wellness market continues to grow year-on-year. </p>"
           }
@@ -1328,7 +1255,7 @@
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
-        "accordion_height": "medium",
+        "items_to_show": 4,
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": false,
@@ -1339,101 +1266,10 @@
         "margin_bottom": 0
       }
     },
-    "le_text_and_background_gtyQwb": {
-      "type": "le_text-and-background",
-      "blocks": {
-        "row_heading_c4UhwE": {
-          "type": "row-heading",
-          "settings": {
-            "text": "<p>Quick links</p>",
-            "heading_type": "h2",
-            "heading_size": "large"
-          }
-        },
-        "row2col_y7Rqn7": {
-          "type": "row2col",
-          "settings": {
-            "text1": "<p>ouoaeuu</p>",
-            "text1_size": "medium",
-            "text2": "<p>eueoaueu</p>",
-            "text2_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "row_heading_c4UhwE",
-        "row2col_y7Rqn7"
-      ],
-      "name": "t:sections.le_tab.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/gym_workout.webp",
-        "stretch_image": true,
-        "section_bkgr": "primary",
-        "mobile_image": "medium",
-        "mobile_text": "default",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_featured_blog_phLeqa": {
-      "type": "le_featured-blog",
-      "name": "t:sections.le_featured-blog.presets.name",
-      "settings": {
-        "blog": "news",
-        "post_limit": 7,
-        "heading": "Tips, trends and training advice",
-        "show_view_all": false,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_image_with_text_HaCjqD": {
-      "type": "le_image-with-text",
-      "blocks": {
-        "newsletter_form_9VfPF6": {
-          "type": "newsletter_form",
-          "settings": {
-            "heading": "Want to stay informed about everything fitness?"
-          }
-        }
-      },
-      "block_order": [
-        "newsletter_form_9VfPF6"
-      ],
-      "name": "t:sections.le_imagentext.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/gym-trainer-explaining.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "right",
-        "mobile_content_alignment": "center",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_newsletter_EFqipn": {
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "image": "shopify://shop_images/gym-trainer-explaining.jpg",
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": false,
@@ -1453,7 +1289,6 @@
     "v2_featured_VcKGRT",
     "v2_header_P4gKij",
     "v2_steps_YXgdEc",
-    "le_steps_pUKCpz",
     "v2_header_i7HYVG",
     "v2_slideshow_xYpUTm",
     "v2_hero_jk6W8B",
@@ -1466,9 +1301,6 @@
     "v2_flexible_Xgp6a3",
     "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
-    "le_text_and_background_gtyQwb",
-    "le_featured_blog_phLeqa",
-    "le_image_with_text_HaCjqD",
     "v2_newsletter_EFqipn"
   ]
 }
