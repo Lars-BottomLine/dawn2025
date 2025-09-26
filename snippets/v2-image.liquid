@@ -7,7 +7,7 @@
   - section_index: { Number }
 
   Usage:
-  {% render 'le_accordion-entry', ae_title: "Hello", ae_text: "This is interesting', i_image: block.settings.image %}
+  {% render 'v2_image', i_image: Image, forloop_first: true, section_index: 0 %}
 {% endcomment %}
 
 {%- if i_image -%}
