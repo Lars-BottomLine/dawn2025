@@ -24,6 +24,7 @@
     assign key_text = 'text'
     assign key_text_align = 'text_align'
     assign key_text_width = 'text_width'
+    assign key_text_highlighted = 'text_highlighted'
 
     # add the prefix to all variables
     if prefix and prefix != blank
@@ -33,6 +34,7 @@
         assign key_text = prefix | append: key_text
         assign key_text_align = prefix | append: key_text_align
         assign key_text_width = prefix | append: key_text_width
+        assign key_text_highlighted = prefix | append: key_text_highlighted
     endif
 
     # custom classes
@@ -42,6 +44,10 @@
     # accented color for strong
     if data[ key_text_strong_accented ]
         assign classes_str = classes_str | append: ' -strong-accented '
+    endif
+    # Highlighted
+    if data[ key_text_highlighted ]
+        assign classes_str = classes_str | append: ' -highlighted '
     endif
     # no decals
     if data[ key_text_no_decal ]
@@ -58,6 +64,7 @@
     assign classes_str = classes_str | append: ' -align-' | append: data[ key_text_align ]
     # width
     assign classes_str = classes_str | append: ' -width-' | append: data[ key_text_width ]
+    # if
 
 %}
 {% # todo: check icon size %}
