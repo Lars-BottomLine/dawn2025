@@ -155,19 +155,19 @@
                             <div class="v2-swiper-content">
                                 <div class="v2-row">
 
-                                    {% if block.settings.headline %}
+                                    {% if block.settings.headline != blank %}
                                     <div class="_font-h3 -no-decal">
                                         {{ block.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                                     </div>
                                     {% endif %}
 
-                                    {% if block.settings.subheadline %}
+                                    {% if block.settings.subheadline != blank %}
                                     <div class="_font-copy-l">
                                         {{ block.settings.subheadline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                                     </div>
                                     {% endif %}
 
-                                    {% if block.settings.text %}
+                                    {% if block.settings.text != blank %}
                                     <div class="_font-copy-m font-italic">
                                         {{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
                                     </div>

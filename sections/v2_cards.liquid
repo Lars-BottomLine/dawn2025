@@ -67,12 +67,12 @@
 
 {%- style -%}
     .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        padding-top: {{ section.settings.padding_top | times: 0.6 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.6 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.6 | round: 0 | plus: 84 }}{% else %}{{ section.settings.margin_top | times: 0.6 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.6 | round: 0 | plus: 84 }}{% else %}{{ section.settings.margin_bottom | times: 0.6 | round: 0 }}{% endif %}px;
     }
 
     @media screen and (min-width: 750px) {
@@ -686,7 +686,7 @@
                 },
                 {
                     "type": "checkbox",
-                    "id": "claim_highlighted",
+                    "id": "claim_text_highlighted",
                     "default": false,
                     "label": "Highlighted (Background)"
                 },
