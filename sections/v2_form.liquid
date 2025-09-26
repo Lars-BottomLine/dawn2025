@@ -90,7 +90,7 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        {% if section.settings.form_type == 'all' %}
+        {% if section.settings.form_type != 'all' %}
         <div class="v2-form-content -type-{{ section.settings.form_type }}">
             {% liquid
                 case section.settings.form_type
