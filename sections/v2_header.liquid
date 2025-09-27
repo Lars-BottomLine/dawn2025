@@ -93,14 +93,41 @@
         {% if section.settings.heading or section.settings.text %}
         <div class="v2-h-header">
 
-            {% render 'v2-heading', data: section.settings, classes: "" %}
+            {% if section.settings.button_at_side %}
 
-            {% render 'v2-text', data: section.settings, classes: "" %}
+                <div class="flex justify-between items-end gap-8">
 
-            {% if section.settings.button_text != blank %}
-            <div class="flex mt-14">
-                {% render 'v2-button', data: section.settings, classes: "" %}
-            </div>
+                    <div class="">
+
+                        {% render 'v2-heading', data: section.settings, classes: "" %}
+
+                        {% render 'v2-text', data: section.settings, classes: "" %}
+
+                    </div>
+                    <div class="">
+
+                        {% if section.settings.button_text != blank %}
+
+                            {% render 'v2-button', data: section.settings, classes: "" %}
+
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+            {% else %}
+
+                {% render 'v2-heading', data: section.settings, classes: "" %}
+
+                {% render 'v2-text', data: section.settings, classes: "" %}
+
+                {% if section.settings.button_text != blank %}
+                    <div class="flex mt-14">
+                        {% render 'v2-button', data: section.settings, classes: "" %}
+                    </div>
+                {% endif %}
+
             {% endif %}
 
         </div>
@@ -386,6 +413,12 @@
                 "id": "button_new_window",
                 "default": false,
                 "label": "t:lebase.global.button.new_window"
+            },
+            {
+                "type": "checkbox",
+                "id": "button_at_side",
+                "default": false,
+                "label": "t:lesections.v2_header.button_right"
             },
             {
                 "type": "select",
