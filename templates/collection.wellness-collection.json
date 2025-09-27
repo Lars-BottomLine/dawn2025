@@ -254,6 +254,102 @@
         "margin_bottom": 0
       }
     },
+    "v2_cards_M464RW": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_DegNcF": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_89t4rF": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_fW6MMc": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_DegNcF",
+        "card_89t4rF",
+        "card_fW6MMc"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide_box",
+        "heading_text": "<p>Course bundles & specialisations</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_form_HGWEx7": {
       "type": "v2_form",
       "name": "t:lesections.v2_form.presets.name",
@@ -349,28 +445,11 @@
     "v2_cards_NeD7Xp": {
       "type": "v2_cards",
       "blocks": {
-        "card_8xyaUg": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
         "card_rXVapB": {
           "type": "card",
           "settings": {
-            "title_text": "",
+            "image": "shopify://shop_images/Medical_health.png",
+            "title_text": "<p>Specialise in Medical Fitness</p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
@@ -423,7 +502,6 @@
         }
       },
       "block_order": [
-        "card_8xyaUg",
         "card_rXVapB",
         "card_GPQrU4",
         "card_WGKCXc"
@@ -470,6 +548,7 @@
     "v2_steps_tnE8iy",
     "v2_flexible_TwMwMR",
     "v2_featured_mjC9ge",
+    "v2_cards_M464RW",
     "v2_form_HGWEx7",
     "v2_flexible_KtNcez",
     "v2_slideshow_wB8mUH",
