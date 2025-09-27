@@ -337,12 +337,12 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": true,
+        "bkgr_color": "white",
+        "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -28,
         "margin_bottom": 0
       }
     },
