@@ -260,6 +260,7 @@
         "card_DegNcF": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Medical_health.png",
             "title_text": "",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -278,15 +279,16 @@
         "card_89t4rF": {
           "type": "card",
           "settings": {
-            "title_text": "",
+            "image": "shopify://shop_images/Womens_health.png",
+            "title_text": "<p><strong>Specialise in Women's Health</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "",
+            "text": "<p>Equip yourself with the knowledge and empathy to better serve women  at<br/> every life stage. </p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "",
+            "claim_text": "<p>L3 Certificate in Pre and Post Natal </p><p></p>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
@@ -441,103 +443,6 @@
         "margin_top": -28,
         "margin_bottom": 0
       }
-    },
-    "v2_cards_NeD7Xp": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_rXVapB": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Medical_health.png",
-            "title_text": "<p>Specialise in Medical Fitness</p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_GPQrU4": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_WGKCXc": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_rXVapB",
-        "card_GPQrU4",
-        "card_WGKCXc"
-      ],
-      "name": "t:lesections.cards.presets.name",
-      "settings": {
-        "bkgr_color": "light-blue",
-        "card_layout": "horizontal",
-        "heading_text": "<p>Step 2: Choose your course or bundle</p>",
-        "heading_type": "h2",
-        "heading_size": "h3",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "medium",
-        "text": "<p>Select the course that best matches your career goals. </p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "View all courses",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "right",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -551,7 +456,6 @@
     "v2_cards_M464RW",
     "v2_form_HGWEx7",
     "v2_flexible_KtNcez",
-    "v2_slideshow_wB8mUH",
-    "v2_cards_NeD7Xp"
+    "v2_slideshow_wB8mUH"
   ]
 }
