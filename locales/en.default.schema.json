@@ -140,6 +140,7 @@
   "lesections": {
     "v2_header": {
       "name": "v2 - Header",
+      "button_right": "Button to the right of text",
       "presets": {
         "name": "v2 - Header"
       }
