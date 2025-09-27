@@ -98,7 +98,7 @@
 
 <div class="v2-section-slideshow
             {{ section_classes }}">
-    <div class="page-width">
+    <div class="page-width -wide">
 
         <div id="swiper-{{ section.id }}" class="swiper v2-swiper -slide-type-{{ section.settings.slide_type }}">
             <div class="swiper-wrapper sa-col-white">
@@ -117,7 +117,6 @@
 
                             <div class="v2-slide-media media">
                                 {%- if block.settings.image -%}
-
                                     {%- liquid
                                         assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
 
