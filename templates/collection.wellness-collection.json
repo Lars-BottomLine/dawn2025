@@ -126,7 +126,7 @@
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 0,
+        "padding_bottom": 40,
         "margin_top": -140,
         "margin_bottom": 0
       }
