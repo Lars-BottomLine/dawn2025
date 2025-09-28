@@ -5263,6 +5263,12 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-video deferred-media.video-section__media {
   padding-bottom: 66.668%;
 }
+.v2-section-video .deferred-media__poster-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.v2-section-video button:hover .deferred-media__poster-button {
+  transform: translate(-50%, -50%) scale(1.1);
+}
 .v2-section-video button:after {
   content: "";
   position: absolute;
