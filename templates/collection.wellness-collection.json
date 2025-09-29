@@ -608,6 +608,54 @@
         "margin_bottom": 0
       }
     },
+    "v2_flexible_XDXkJK": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_9Ey8px": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Step 4: Start earning</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h3",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "textcol_C8739a": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p>Once you’re qualified, we don’t leave you hanging. As one of the UK’s top-rated training providers, <strong>we’ve built partnerships with leading gyms across the country</strong> —including The Gym Group, Virgin Active, and more. <strong>Learners get access to guaranteed job interviews</strong>, giving you a clear pathway into paid employment, check out our <span style=\"text-decoration:underline\"><strong>Career Support page</strong></span> to learn more.</p>",
+            "left_text_size": "copy-m",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": true,
+            "right_text": "<p>Want a career that <strong>pays well, fits around your life, and doesn’t require a university degree</strong>? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding jobs that <strong>keep you active, fulfilled, and in control of your time</strong>. Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
+            "right_text_size": "copy-m",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": true,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_9Ey8px",
+        "textcol_C8739a"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_accordion_BTGkUz": {
       "type": "v2_accordion",
       "blocks": {
@@ -683,6 +731,7 @@
     "v2_slideshow_wB8mUH",
     "v2_cards_TWwNwh",
     "v2_flexible_cCmPQw",
+    "v2_flexible_XDXkJK",
     "v2_accordion_BTGkUz"
   ]
 }
