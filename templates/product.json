@@ -147,7 +147,6 @@
         "collapsible-row-3",
         "share"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
@@ -205,7 +204,7 @@
   "order": [
     "related-products",
     "v2_producthero_UryhNE",
-    "main",
-    "v2_text_plus_image_cdFcb6"
+    "v2_text_plus_image_cdFcb6",
+    "main"
   ]
 }
