@@ -607,6 +607,65 @@
         "margin_top": -12,
         "margin_bottom": 0
       }
+    },
+    "v2_accordion_BTGkUz": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_qLtxez": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "1. Wellness Coach",
+            "row_content": "<p>Salary: £25,000-£45,000+ </p><p>Description: </p><p>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms or healthcare settings.  </p>"
+          }
+        },
+        "accordion_row_qzDLzY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_bxGW6H": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_wqKrxt": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_qLtxez",
+        "accordion_row_qzDLzY",
+        "accordion_row_bxGW6H",
+        "accordion_row_wqKrxt"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "",
+        "heading_align": "center",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -623,6 +682,7 @@
     "v2_flexible_KtNcez",
     "v2_slideshow_wB8mUH",
     "v2_cards_TWwNwh",
-    "v2_flexible_cCmPQw"
+    "v2_flexible_cCmPQw",
+    "v2_accordion_BTGkUz"
   ]
 }
