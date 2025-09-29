@@ -615,36 +615,36 @@
           "type": "accordion_row",
           "settings": {
             "heading": "1. Wellness Coach",
-            "row_content": "<p>Salary: £25,000-£45,000+ </p><p>Description: </p><p>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms or healthcare settings.  </p>"
+            "row_content": "<p><strong>Salary: £25,000-£45,000+ <br/></strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms or healthcare settings.  <br/><br/>Growth outlook: </p><p>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK Wellness market continues to grow year-on-year. </p>"
+          }
+        },
+        "accordion_row_kckNXq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "2. Pre & Postnatal Fitness and Nutrition Specialist ",
+            "row_content": "<p><strong>Salary: £30,000 - £50,000+ </strong></p><p>These specialists support pregnant and postpartum clients with safe, tailored exercise and nutrition plans. Roles are often freelance or clinic based, with increasing collaboration in maternity wellness centres. </p><p>Growth Outlook: </p><p>High growth due to rising awareness of mental health and increased demand for specialised fitness professionals in this space.  </p>"
           }
         },
         "accordion_row_qzDLzY": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
-            "row_content": ""
+            "heading": "3. Medical Fitness Specialist",
+            "row_content": "<p><strong>Salary: £27,000 – £31,000</strong> (higher in senior NHS or occupational health roles: £46,000 – £53,000) </p><p>Medical Fitness Specialists design and deliver safe, evidence-based exercise programs for clients managing chronic conditions such as heart disease, diabetes, or cancer. They work in settings like NHS cardiac or pulmonary rehabilitation units, private clinics, or health charities, often alongside physiotherapists and other healthcare professionals. </p><p><strong>Growth Outlook:</strong>  </p><p>Steady growth, driven by an ageing population, increasing prevalence of chronic diseases, and NHS emphasis on preventative healthcare. Specialists with clinical exercise qualifications or additional rehab expertise are in especially high demand. </p>"
           }
         },
         "accordion_row_bxGW6H": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
-            "row_content": ""
-          }
-        },
-        "accordion_row_wqKrxt": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "",
-            "row_content": ""
+            "heading": "4. Menopause Wellness Specialist ",
+            "row_content": "<p><strong>Salary: £28,000 - £50,000+ </strong></p><p>Professionals in this area support clients navigating menopause with lifestyle advice, movement plans, and nutrition strategies. Work includes one-on-one coaching, workshops, or working within corporate or clinical wellness teams.  </p><p>Growth Outlook: </p><p>Strong and increasing, as menopause support becomes a major focus in health and workplace policies.   </p>"
           }
         }
       },
       "block_order": [
         "accordion_row_qLtxez",
+        "accordion_row_kckNXq",
         "accordion_row_qzDLzY",
-        "accordion_row_bxGW6H",
-        "accordion_row_wqKrxt"
+        "accordion_row_bxGW6H"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
@@ -656,7 +656,7 @@
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
-        "items_to_show": 4,
+        "items_to_show": 5,
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": false,
