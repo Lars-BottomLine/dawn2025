@@ -4,8 +4,9 @@
   Accepts:
     - section_id: section.id,
     - product: product,
-    - loopindex - where in the loop cycle are we for this section
+    - loopindex - where in the loop cycle are we for this section MUST be 1 at least once per page because otherwise necessary scripts won't be loaded
     - full_size: boolean
+    - template: string ( full_size, normal, product_detail )
     - shopify_attributes: ''
   Usage:
   {% render 'card-product', section_id: section.id %}
@@ -17,20 +18,27 @@
         assign first_call_on_page = true
     endif
 
-    assign uze_modal = false
-
+    # template == 'normal'
     assign product_classes = ''
-
     assign class_title = '_font-copy-l'
     assign class_description = '_font-copy-m'
     assign class_description = ' _font-copy-l'
+    assign classes_button = ''
 
-    if full_size
-        assign product_classes = product_classes | append: ' -full-size '
-        assign class_title = '_font-h2'
-        assign class_description = ' _font-copy-l'
-        assign class_description = ' _font-copy-l'
-    endif
+    case template
+        when 'full_size'
+            assign product_classes = product_classes | append: ' -full-size '
+            assign class_title = '_font-h2'
+            assign class_description = ' _font-copy-l'
+            assign class_description = ' _font-copy-l'
+        when 'product_detail'
+            assign product_classes = product_classes | append: ' -full-size '
+            assign class_title = '_font-h2'
+            assign class_description = ' _font-copy-m'
+            assign class_description = ' _font-copy-l'
+            assign classes_button = ' -size-medium '
+    endcase
+
 %}
 
 {% if first_call_on_page %}
@@ -64,20 +72,55 @@
             {% # TOP: MEDIA
                # ---------------------- %}
             <div class="product__media-wrapper">
-                {%- unless placeholder -%}
-                    {% render 'product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
-                    {% comment %}{% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}{% endcomment %}
-                    <a class="pt-image-link" href="{{ product.url }}"></a>
-                {%- else -%}
-                    <div class="product__media-item">
-                        <div
-                                class="product-media-container global-media-settings gradient"
-                                style="--ratio: 1.0; --preview-ratio: 1.0;"
-                        >
-                            {{ 'product-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                <div class="v2-pt-image">
+                    {%- unless placeholder -%}
+                        {% render 'product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
+                        {% comment %}{% render 'product-media-gallery', product: product, variant_images: variant_images, limit: 1 %}{% endcomment %}
+                        <a class="pt-image-link" href="{{ product.url }}"></a>
+                    {%- else -%}
+                        <div class="product__media-item">
+                            <div
+                                    class="product-media-container global-media-settings gradient"
+                                    style="--ratio: 1.0; --preview-ratio: 1.0;"
+                            >
+                                {{ 'product-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                            </div>
+                        </div>
+                    {%- endunless -%}
+                </div>
+
+                {% if template == 'product_detail' %}
+                    <div class="v2-pt-thumblist">
+                        <div class="">
+                            {% for image in product.media  %}
+                                {% if forloop.index > 1 %}
+                                <div class="v2-image-container">
+                                    {% render 'product-media', media: image %}
+                                </div>
+                                {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
-                {%- endunless -%}
+
+                    {% if first_call_on_page %}
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            document.querySelectorAll('.v2-image-container').forEach( (ele) => {
+                                ele.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    const source = this;
+                                    const target = document.querySelector('.v2-pt-image');
+                                    const img_src = source.querySelector('img');
+                                    const img_target = target.querySelector('img');
+
+                                    target.appendChild( source.removeChild(img_src) );
+                                    source.appendChild( target.removeChild(img_target) );
+                                })
+                            })
+                        });
+                    </script>
+                    {% endif %}
+                {% endif %}
             </div>
 
             {% # BOTTOM: INFO
@@ -94,6 +137,15 @@
                     {%- assign product_form_id = 'product-form-' | append: section_id -%}
 
                     <a class="pt-content" href="{{ product.url }}">
+
+
+                        {% # RIBBON
+                           # ----------------------- %}
+                        {% if template == 'product_detail' %}
+                            <div class="v2-pt-ribbon">
+                                {{ product.metafields.custom.ribbon_text }}
+                            </div>
+                        {% endif %}
 
                         {% # TITLE (done)
                            # ----------------------- %}
@@ -137,43 +189,17 @@
                                     block: block,
                                     product: product,
                                     product_form_id: product_form_id,
-                                    section_id: section_id
+                                    section_id: section_id,
+                                    classes_button: classes_button
                             -%}
 
-                            {% comment %}
-                            {% if request.page_type == 'collection' %}
-                                {% if product.variants.size > 1 %}
-                                    <div class="product-variant-dropdown">
-                                        <form action="/cart/add" method="post" >
-                                            <select name="id" class="product-variant-select">
-                                                {% for variant in product.variants %}
-                                                    {% if variant.available %}
-                                                        <option value="{{ variant.id }}">{{ variant.title }}</option>
-                                                    {% else %}
-                                                        <option disabled="disabled">{{ variant.title }} - Sold Out</option>
-                                                    {% endif %}
-                                                {% endfor %}
-                                            </select>
-                                            <input type="submit" value="Buy now" class="product-variant-submit-button" />
-                                        </form>
-                                    </div>
-                                {% endif %}
-                            {% endif %}
-
-                            {% if product.has_only_default_variant %}
-                                <form method="post" action="/cart/add">
-                                    <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                                    <input type="submit" value="Buy now" class="product-variant-submit-button" />
-                                </form>
-                            {% endif %}
-                            {% endcomment %}
 
                             {% # PRICE (done?)
                                # ----------------------- %}
                             <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
                                 {%- render 'v2_price',
                                         product: product,
-                                        full_size: full_size,
+                                        template: template,
                                         placeholder: placeholder,
                                         use_variant: true,
                                         show_badges: true,
@@ -187,23 +213,6 @@
                                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                                 </div>
                             {%- endif -%}
-
-                            {% comment %}
-                            {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
-                                <div class="product__tax caption rte">
-                                    {%- if cart.duties_included and cart.taxes_included -%}
-                                        {{ 'products.product.duties_and_taxes_included' | t }}
-                                    {%- elsif cart.taxes_included -%}
-                                        {{ 'products.product.taxes_included' | t }}
-                                    {%- elsif cart.duties_included -%}
-                                        {{ 'products.product.duties_included' | t }}
-                                    {%- endif -%}
-                                    {%- if shop.shipping_policy.body != blank -%}
-                                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                                    {%- endif -%}
-                                </div>
-                            {%- endif -%}
-                            {% endcomment %}
 
                         </div>
 
@@ -222,10 +231,6 @@
 
             </div>
         </div>
-
-        {% if uze_modal %}
-            {% render 'product-media-modal', product: product, variant_images: variant_images %}
-        {% endif %}
 
     </div>
 
@@ -388,9 +393,6 @@
     <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
     {% comment %}{% if product.media.size > 0 %}{% endcomment %}
-        {% if uze_modal %}
-        <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
-        {% endif %}
         <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
     {% comment %}{% endif %}{% endcomment %}
 

@@ -91,9 +91,9 @@
     <div class="page-width">
 
         {% render 'v2_product-thumb',
-                section_id: thumb_id,
+                section_id: section.id,
                 product: section.settings.product,
-                full_size: true,
+                template: 'full_size',
                 loopindex: 1,
                 shopify_attributes: ''
         %}
