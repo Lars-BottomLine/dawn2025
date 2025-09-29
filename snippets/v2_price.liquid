@@ -3,7 +3,7 @@
 
   Accepts:
   - product: {Object} Product Liquid object (optional)
-  - full_size: {boolean} larger font sizes
+  - template: {string} ( 'full_size', 'normal', 'product_detail' )
   - placeholder: {Boolean} Renders a placeholder price (optional)
   - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
   - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
@@ -47,12 +47,18 @@
         assign money_price = 'products.product.price.from_price_html' | t: price: money_price
     endif
 
+    # template = 'normal'
     assign class_regular = '_font-copy-l'
     assign class_price = '_font-h3'
-    if full_size
-        assign class_regular = '_font-copy-l'
-        assign class_price = '_font-h2'
-    endif
+
+    case template
+        when 'full_size'
+            assign class_regular = '_font-copy-l'
+            assign class_price = '_font-h2'
+        when 'product_detail'
+            assign class_regular = '_font-copy-l'
+            assign class_price = '_font-h1'
+    endcase
 
 -%}
 

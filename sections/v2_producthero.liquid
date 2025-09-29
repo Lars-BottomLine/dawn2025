@@ -61,39 +61,77 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
-    # ...
+    # TEMPLATE
+    assign section_classes = section_classes | append: ' -template-' | append: template
 %}
 
 {%- style -%}
-    .section-{{ section.id }}-padding {
+    .section-{{ section.id }}-padding-top {
         padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-padding-bottom {
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
     }
 
     @media screen and (min-width: 750px) {
-        .section-{{ section.id }}-padding {
+        .section-{{ section.id }}-padding-top {
             padding-top: {{ section.settings.padding_top }}px;
+        }
+        .section-{{ section.id }}-padding-bottom {
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
         .section-{{ section.id }}-margin {
-            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+            margin-top:{{ section.settings.margin_top }}px;
+            margin-bottom: {{ section.settings.margin_bottom }}px;
         }
     }
 {%- endstyle -%}
 
-<div class="v2-section-featured
+<div class="v2-section-producthero
             {{ section_classes }}">
-    <div class="page-width">
+
+    {% # BACKGROUND: IMAGE
+                       # ---------------------------------------- %}
+    <div class="v2-ph-background">
+        <div class="media">
+            {% # IMAGE SET, DEFINE SIZES  %}
+            {% assign img = product.metafields.custom.hero_image | default: blank %}
+            {%- if img != blank -%}
+                {%- assign widths = '1200, 1500' -%}
+                {%- capture sizes -%}
+                    {% comment %}
+                    ToDo: check the resulting image size, should be big enough but not too big...
+                    {% endcomment %}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                {{ img
+                    | image_url: width: 1500
+                    | image_tag:
+                        sizes: sizes,
+                        widths: widths,
+                        fetchpriority: fetch_priority
+                }}
+
+                {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+            {%- else -%}
+                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+        </div>
+    </div>
+
+    <div class="page-width
+                section-{{ section.id }}-padding-top
+                section-{{ section.id }}-padding-bottom">
 
         {% render 'v2_product-thumb',
                 section_id: section.id,
-                product: section.settings.product,
-                template: 'full_size',
+                product: product,
+                template: 'product_detail',
                 loopindex: 1,
                 shopify_attributes: ''
         %}
@@ -103,7 +141,7 @@
 
 {% schema %}
     {
-        "name": "t:lesections.v2_featured.name",
+        "name": "t:lesections.v2_producthero.name",
         "tag": "section",
         "class": "section",
         "disabled_on": {
@@ -111,11 +149,7 @@
         },
         "settings": [
 
-            {
-                "type": "product",
-                "id": "product",
-                "label": "Product"
-            },
+
 
             {
                 "type": "header",
@@ -231,7 +265,7 @@
 
          "presets": [
         {
-          "name": "t:lesections.v2_featured.presets.name"
+          "name": "t:lesections.v2_producthero.presets.name"
         }
     ]
     }

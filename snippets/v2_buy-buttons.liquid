@@ -4,6 +4,7 @@
   - product: {Object} product object.
   - block: {Object} passing the block information.
   - product_form_id: {String} product form id.
+  classes_button
   - section_id: {String} id of section to which this snippet belongs.
   - show_pickup_availability: {Boolean} for the pickup availability. If true the pickup availability is rendered, false - not rendered (optional).
 
@@ -78,7 +79,7 @@
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="v2-button -style-primary product-form__submit -hover-grow !ml-0 button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+            class="v2-button -style-primary {{ classes_button }} product-form__submit -hover-grow !ml-0 button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null

@@ -3095,6 +3095,8 @@ header .header__icon--cart .icon {
 ._font-h0,
 ._font-h1,
 ._font-h2,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
 .v2-section-form form ._form-title,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
@@ -3111,6 +3113,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0:before,
 ._font-h1:before,
 ._font-h2:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before,
 ._font-h3:before,
 .v2-section-form form ._form-title:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title:before,
@@ -3151,6 +3155,8 @@ strong {
 ._font-h0,
 ._font-h1,
 ._font-h2,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
 .v2-section-form form ._form-title,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
@@ -3168,6 +3174,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 ._font-copy-m,
+.v2-section-producthero .v2-pt-ribbon,
 .v2-section-form form label div,
 .v2-section-form form input::placeholder,
 .v2-section-form form select::placeholder,
@@ -3183,6 +3190,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0 p,
 ._font-h1 p,
 ._font-h2 p,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h3 p,
 .v2-section-form form ._form-title p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p,
@@ -3200,6 +3209,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
 ._font-copy-m p,
+.v2-section-producthero .v2-pt-ribbon p,
 .v2-section-form form label div p,
 .v2-section-form form input::placeholder p,
 .v2-section-form form select::placeholder p,
@@ -3216,6 +3226,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   ._font-h0.-decal-left,
   ._font-h1.-decal-left,
   ._font-h2.-decal-left,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   ._font-h3.-decal-left,
   .v2-section-form form .-decal-left._form-title,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._form-title,
@@ -3233,6 +3245,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   ._font-copy-m.-decal-left,
+  .v2-section-producthero .-decal-left.v2-pt-ribbon,
   .v2-section-form form label div.-decal-left,
   .v2-section-form form input.-decal-left::placeholder,
   .v2-section-form form select.-decal-left::placeholder,
@@ -3249,6 +3262,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0,
 ._font-h1,
 ._font-h2,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
 .v2-section-form form ._form-title,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
@@ -3266,6 +3281,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0 p,
 ._font-h1 p,
 ._font-h2 p,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h3 p,
 .v2-section-form form ._form-title p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p,
@@ -3283,6 +3300,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0.-no-decal,
 ._font-h1.-no-decal,
 ._font-h2.-no-decal,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
 ._font-h3.-no-decal,
 .v2-section-form form .-no-decal._form-title,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-no-decal._form-title,
@@ -3299,6 +3318,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 ._font-h0.-no-decal:before,
 ._font-h1.-no-decal:before,
 ._font-h2.-no-decal:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
 ._font-h3.-no-decal:before,
 .v2-section-form form .-no-decal._form-title:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-no-decal._form-title:before,
@@ -3315,6 +3336,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 ._font-h0.-align-left:before,
 ._font-h1.-align-left:before,
 ._font-h2.-align-left:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
 ._font-h3.-align-left:before,
 .v2-section-form form .-align-left._form-title:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-align-left._form-title:before,
@@ -3332,6 +3355,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-left.price-ite
 ._font-h0.-align-center:before,
 ._font-h1.-align-center:before,
 ._font-h2.-align-center:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 ._font-h3.-align-center:before,
 .v2-section-form form .-align-center._form-title:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-align-center._form-title:before,
@@ -3350,6 +3375,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-center.price-i
 ._font-h0.-align-right:before,
 ._font-h1.-align-right:before,
 ._font-h2.-align-right:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
 ._font-h3.-align-right:before,
 .v2-section-form form .-align-right._form-title:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-align-right._form-title:before,
@@ -3371,6 +3398,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 ._font-copy-m,
+.v2-section-producthero .v2-pt-ribbon,
 .v2-section-form form label div,
 .v2-section-form form input::placeholder,
 .v2-section-form form select::placeholder,
@@ -3389,6 +3417,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
 ._font-copy-m p,
+.v2-section-producthero .v2-pt-ribbon p,
 .v2-section-form form label div p,
 .v2-section-form form input::placeholder p,
 .v2-section-form form select::placeholder p,
@@ -3483,40 +3512,64 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   }
 }
 
-._font-h2 p,
-._font-h2 {
+._font-h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
+._font-h2,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
   font-size: 3.6rem;
   margin-top: 7.5rem;
 }
-._font-h2 p:before,
-._font-h2:before {
+._font-h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+._font-h2:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before {
   width: 3.2rem;
   height: 6.6rem;
   top: -7.5rem;
 }
-._font-h2 p.-decal-centered:before, ._font-h2 p.-align-center:before,
+._font-h2 p.-decal-centered:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before, ._font-h2 p.-align-center:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
 ._font-h2.-decal-centered:before,
-._font-h2.-align-center:before {
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-centered.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-centered.price-item.price-item--sale:before,
+._font-h2.-align-center:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before {
   margin-left: -1.6rem;
 }
 @media (min-width: 751px) {
-  ._font-h2 p.-decal-left,
-  ._font-h2.-decal-left {
+  ._font-h2 p.-decal-left, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
+  ._font-h2.-decal-left,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale {
     margin-top: 0;
   }
-  ._font-h2 p.-decal-left:before,
-  ._font-h2.-decal-left:before {
+  ._font-h2 p.-decal-left:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
+  ._font-h2.-decal-left:before,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before {
     top: -1.8rem;
     left: -5rem;
   }
 }
 @media (max-width: 640px) {
-  ._font-h2 p,
-  ._font-h2 {
+  ._font-h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
+  ._font-h2,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
     font-size: 2.8rem;
   }
-  ._font-h2 p:before,
-  ._font-h2:before {
+  ._font-h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+  ._font-h2:before,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
+  .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before {
     width: 2.2rem;
     height: 4.6rem;
     top: -5.9rem;
@@ -3638,11 +3691,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   }
 }
 
-._font-copy-m p, .v2-section-form form label div p, .v2-section-form form input::placeholder p,
+._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-form form label div p, .v2-section-form form input::placeholder p,
 .v2-section-form form select::placeholder p,
 .v2-section-form form textarea::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
 .v2_price.price--on-sale .price__sale .price-save-percentage p,
 ._font-copy-m,
+.v2-section-producthero .v2-pt-ribbon,
 .v2-section-form form label div,
 .v2-section-form form input::placeholder,
 .v2-section-form form select::placeholder,
@@ -3654,11 +3708,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   font-size: 1.8rem;
 }
 @media (max-width: 640px) {
-  ._font-copy-m p, .v2-section-form form label div p, .v2-section-form form input::placeholder p,
+  ._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-form form label div p, .v2-section-form form input::placeholder p,
   .v2-section-form form select::placeholder p,
   .v2-section-form form textarea::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
   .v2_price.price--on-sale .price__sale .price-save-percentage p,
   ._font-copy-m,
+  .v2-section-producthero .v2-pt-ribbon,
   .v2-section-form form label div,
   .v2-section-form form input::placeholder,
   .v2-section-form form select::placeholder,
@@ -5132,7 +5187,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular {
   color: var(--color-secondary);
 }
-.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-m, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form label div, .v2-section-form form label .v2-section-slideshow .-slide-type-blue .v2-row div, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form input::placeholder, .v2-section-form form .v2-section-slideshow .-slide-type-blue .v2-row input::placeholder,
+.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-m, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-producthero .v2-pt-ribbon, .v2-section-producthero .v2-section-slideshow .-slide-type-blue .v2-row .v2-pt-ribbon, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form label div, .v2-section-form form label .v2-section-slideshow .-slide-type-blue .v2-row div, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form input::placeholder, .v2-section-form form .v2-section-slideshow .-slide-type-blue .v2-row input::placeholder,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form select::placeholder,
 .v2-section-form form .v2-section-slideshow .-slide-type-blue .v2-row select::placeholder,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form textarea::placeholder,
@@ -5613,6 +5668,182 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 }
 .v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(5) ._error {
   margin-top: -2.6rem;
+}
+
+.v2-section-producthero {
+  position: relative;
+}
+.v2-section-producthero.-decal-top:before {
+  top: 65rem !important;
+  z-index: 1;
+}
+.v2-section-producthero .v2-ph-background {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  min-height: 72rem;
+}
+.v2-section-producthero .media {
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.v2-section-producthero .pt-container {
+  display: flex;
+}
+.v2-section-producthero .product-content {
+  gap: 6rem;
+  margin: auto;
+  width: 100%;
+  max-width: 113rem;
+  padding: 4rem;
+  align-items: flex-start;
+  z-index: 1;
+  background: var(--color-light-blue);
+}
+.v2-section-producthero product-thumb.v2-product-thumb {
+  margin-top: -36rem;
+  display: block;
+}
+@media (min-width: 997px) {
+  .v2-section-producthero product-thumb.v2-product-thumb.v2-product-thumb .product__media-wrapper,
+  .v2-section-producthero product-thumb.v2-product-thumb.v2-product-thumb .product__info-wrapper {
+    flex: 1 1 49.5rem !important;
+  }
+}
+@media (max-width: 996px) {
+  .v2-section-producthero product-thumb.v2-product-thumb.v2-product-thumb .product__media-wrapper,
+  .v2-section-producthero product-thumb.v2-product-thumb.v2-product-thumb .product__info-wrapper {
+    flex: 1 1 !important;
+  }
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper {
+  flex-direction: column;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-image {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 66.668%;
+  box-shadow: 0.6rem 0.7rem 0 0 var(--color-primary);
+  margin-bottom: 3.2rem;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-image img {
+  object-fit: cover;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-thumblist {
+  width: 100%;
+  height: 9.6rem;
+  overflow: auto;
+  position: relative;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-thumblist > div {
+  display: flex;
+  gap: 1.6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-thumblist .v2-image-container {
+  flex: 0 0 9.6rem;
+  height: 9.6rem;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-thumblist img {
+  flex: 1 0;
+  border: none;
+}
+@media (max-width: 996px) {
+  .v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 996px) {
+  .v2-section-producthero product-thumb.v2-product-thumb .product-content {
+    gap: 4rem;
+  }
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper {
+  background: transparent !important;
+  color: var(--color-primary) !important;
+  padding: 0 !important;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .ptf-bottom {
+  padding-top: 0 !important;
+  border: none !important;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--regular,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-save-percentage,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-save-percentage,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
+  color: var(--color-primary) !important;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price__sale {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center !important;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price-save-percentage {
+  width: 100%;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .select:after {
+  display: none;
+}
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .select__select {
+  border-radius: 0.4rem !important;
+  background: white !important;
+  box-shadow: 0 1px 8px 0 rgba(0, 38, 139, 0.08) !important;
+}
+.v2-section-producthero .v2-pt-ribbon {
+  background: rgba(0, 38, 139, 0.15);
+  padding: 0.5rem 0.8rem 0.3rem;
+  min-height: 3.1rem;
+  display: inline-flex;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+@media (max-width: 640px) {
+  .v2-section-producthero.-decal-top:before {
+    top: 53rem !important;
+  }
+  .v2-section-producthero .product-content {
+    padding: 2.4rem;
+    gap: 2.4rem;
+  }
+  .v2-section-producthero .v2-ph-background {
+    min-height: 56rem;
+    background: var(--color-primary);
+  }
+  .v2-section-producthero .v2-ph-background img {
+    display: none !important;
+  }
+  .v2-section-producthero product-thumb.v2-product-thumb {
+    margin-top: -51rem;
+  }
+  .v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-thumblist {
+    height: 8rem;
+  }
+  .v2-section-producthero product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-thumblist .v2-image-container {
+    flex: 0 0 8rem;
+    height: 8rem;
+  }
+  .v2-section-producthero product-thumb.v2-product-thumb .product-content {
+    gap: 2rem;
+  }
 }
 
 /*# sourceMappingURL=_study-active.css.map */
