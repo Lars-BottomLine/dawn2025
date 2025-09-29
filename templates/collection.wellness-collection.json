@@ -141,7 +141,7 @@
             "title": "Step 1: Set your goal",
             "text": "<p>Know where you're starting out and where you want to go. We'll help you map it out.</p>",
             "button_text": "Go to Step 1",
-            "button_link": "Step 1"
+            "button_link": "Step One"
           }
         },
         "step_b73gLp": {
@@ -227,10 +227,10 @@
         "headline_8XdhYf",
         "subheadline_RJJJAL"
       ],
-      "name": "t:lesections.flexible.presets.name",
+      "name": "Step One",
       "settings": {
         "bkgr_color": "white",
-        "custom_class_names": "Step 1",
+        "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 36,
