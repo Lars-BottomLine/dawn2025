@@ -714,6 +714,32 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_flexible_GrPEf4": {
+      "type": "v2_flexible",
+      "blocks": {
+        "iconcol_Wbcmea": {
+          "type": "iconcol",
+          "settings": {
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "iconcol_Wbcmea"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -732,6 +758,7 @@
     "v2_cards_TWwNwh",
     "v2_flexible_cCmPQw",
     "v2_flexible_XDXkJK",
-    "v2_accordion_BTGkUz"
+    "v2_accordion_BTGkUz",
+    "v2_flexible_GrPEf4"
   ]
 }
