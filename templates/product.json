@@ -155,21 +155,21 @@
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "{{ product.metafields.custom.co_image.value }}",
-        "heading_text": "<p>{{ product.metafields.custom.co_title | metafield_tag }}</p>",
+        "heading_text": "{{ product.metafields.custom.co_title | metafield_tag }}",
         "heading_type": "h2",
         "heading_size": "h3",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p>{{ product.metafields.custom.co_subtitle | metafield_tag }}</p>",
+        "subheadline_text": "{{ product.metafields.custom.co_subtitle | metafield_tag }}",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>{{ product.metafields.custom.co_text | metafield_tag }}</p>",
+        "text": "{{ product.metafields.custom.co_text | metafield_tag }}",
         "text_size": "copy-m",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "claim_text": "<p>{{ product.metafields.custom.co_claim | metafield_tag }}</p>",
+        "claim_text": "{{ product.metafields.custom.co_claim | metafield_tag }}",
         "claim_text_size": "copy-m",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
@@ -210,7 +210,7 @@
             "text": "<p>Join thousands of successful graduates who transformed their careers with </p><p>our award-winning training programs.</p>",
             "text_align": "center",
             "text_width": "full",
-            "text_size": "copy-m",
+            "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
             "margin_top": 0,
@@ -261,12 +261,85 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_header_YGG9xm": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Learning Experience</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_r7M37d": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_RmDE8F": {
+          "type": "accordion_row",
+          "repeater": "{{ product.metafields.custom.faq_list.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "row_content": "{{ block.repeater.text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_RmDE8F"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently asked questions</p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "related-products",
     "main",
     "v2_text_plus_image_cdFcb6",
-    "v2_flexible_nWaQaq"
+    "v2_flexible_nWaQaq",
+    "v2_header_YGG9xm",
+    "v2_accordion_r7M37d"
   ]
 }
