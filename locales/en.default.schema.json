@@ -253,6 +253,13 @@
       }
     },
 
+    "v2_image-slider": {
+      "name": "v2 - Image Slider",
+      "presets": {
+        "name": "v2 - Image Slider"
+      }
+    },
+
 
 
 
