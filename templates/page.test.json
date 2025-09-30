@@ -1439,6 +1439,20 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_newsletter_Qcb3Lw": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -1465,6 +1479,7 @@
     "v2_header_qydTW4",
     "v2_video_9hKwtR",
     "v2_hero_aGgW3k",
-    "v2_newsletter_nWWNqi"
+    "v2_newsletter_nWWNqi",
+    "v2_newsletter_Qcb3Lw"
   ]
 }
