@@ -42,11 +42,7 @@
               {{- option.selected_value -}}
             </span>
           </legend>
-<<<<<<< HEAD
           {% render 'v2_product-variant-options',
-=======
-          {% render 'le_product-variant-options',
->>>>>>> 0b34f91 (Product thumb: make square when necessary, always try to use featured)
             product: product,
             option: option,
             picker_type: picker_type,
@@ -59,11 +55,7 @@
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
           <legend class="form__label">{{ option.name }}</legend>
-<<<<<<< HEAD
           {% render 'v2_product-variant-options',
-=======
-          {% render 'le_product-variant-options',
->>>>>>> 0b34f91 (Product thumb: make square when necessary, always try to use featured)
             product: product,
             option: option,
             picker_type: picker_type,
@@ -96,11 +88,7 @@
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-<<<<<<< HEAD
               {% render 'v2_product-variant-options',
-=======
-              {% render 'le_product-variant-options',
->>>>>>> 0b34f91 (Product thumb: make square when necessary, always try to use featured)
                 product: product,
                 option: option,
                 picker_type: picker_type,
