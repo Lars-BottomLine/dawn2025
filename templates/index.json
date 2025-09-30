@@ -454,11 +454,31 @@
         "card_RDc4Hz": {
           "type": "card",
           "settings": {
-            "title_text": "<p><strong>McDonald Method</strong></p>",
+            "image": "shopify://shop_images/8977af15bed59893305b884025b70c63d6530be8.png",
+            "title_text": "<p><strong>Flexible Blended Learning</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>The McDonald Method is a coaching and education platform created by Ben McDonald that blends fitness, boxing, movement, and personal development into accessible learning experiences. Its mission is to help people move better, breathe better, and connect more authentically—whether they are athletes, coaches, or everyday individuals.</p>",
+            "text": "<ul><li>A combination of <strong>online study</strong> and <strong>practical experience</strong>.</li><li>Interactive e-learning platform with <strong>engaging video lessons</strong>, <strong>interactive quizzes</strong>, and <strong>digital manuals</strong>.</li><li>You can <strong>study at your own pace</strong> – some students fast-track in ~4 months, while others spread learning over 6-12 months.</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_iN3QLU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Image_6.png",
+            "title_text": "<p><strong>Interactive Content & Support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>Support of <strong>live webinars</strong> and <strong>online workshops</strong> led by <strong>expert tutors</strong>.</li><li>Get <strong>one-on-one tutorial support</strong> via phone/Zoom and email whenever you need it.</li><li>Our system <strong>keeps track of your progress</strong> and is <strong>accessible 24/7,</strong> so you can train whenever it suits you.</li></ul>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -472,11 +492,12 @@
         "card_FRjWpM": {
           "type": "card",
           "settings": {
-            "title_text": "<p><strong>MedFit Education</strong></p>",
+            "image": "shopify://shop_images/78211a0d7eb94d5e8940efd398566417b631ce7f.jpg",
+            "title_text": "<p><strong>Hands-On Practice</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>MedFit Education, often referred to as the MedFit Education Foundation (MFEF),is a non-profit organisation focused on providing continuing education for fitness and allied healthcare professionals.</p>",
+            "text": "<ul><li>To <strong>build real skills</strong>, the diploma includes practical components. </li><li>Attend <strong>optional in-gym practical workshops</strong> for hands-on training, or <strong>submit video assessments</strong> from your own gym.</li><li>You’ll learn to <strong>conduct client consultations, demonstrate exercises, and lead training sessions confidently. </strong></li></ul>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -490,11 +511,12 @@
         "card_cxdGr7": {
           "type": "card",
           "settings": {
-            "title_text": "<p><strong>Boxercise</strong> </p>",
+            "image": "shopify://shop_images/e103586f7fbb77619fa69baa6369eef6adcf03fe.jpg",
+            "title_text": "<p><strong>What You’ll Learn</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>",
+            "text": "<ul><li>The curriculum covers <strong>11 modules</strong> spanning all essential fitness topics.</li><li>You’ll dive into <strong>Anatomy & Exercise Physiology, Nutrition and Weight Management, Client Programming & Coaching, Advanced Training Techniques, and Professional Conduct & Business Skill</strong>s for personal trainers.</li></ul>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -508,6 +530,7 @@
       },
       "block_order": [
         "card_RDc4Hz",
+        "card_iN3QLU",
         "card_FRjWpM",
         "card_cxdGr7"
       ],
