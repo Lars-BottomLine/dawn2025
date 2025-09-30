@@ -444,7 +444,7 @@
       "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "slide_type": "product",
+        "slide_type": "bundle",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
