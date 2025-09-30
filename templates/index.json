@@ -536,7 +536,7 @@
       ],
       "name": "v2 - Cards - Wide White",
       "settings": {
-        "bkgr_color": "white",
+        "bkgr_color": "light-blue",
         "card_layout": "wide",
         "heading_text": "<p>Learning Experience</p>",
         "heading_type": "h2",
@@ -564,7 +564,7 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": -140
+        "margin_bottom": 140
       }
     },
     "v2_hero_6e4NMx": {
@@ -603,9 +603,9 @@
         "slider_autoplay": false,
         "slide_autospeed": 5000,
         "custom_class_names": "",
-        "padding_top": 132,
+        "padding_top": 60,
         "padding_bottom": 140,
-        "margin_top": -140,
+        "margin_top": -200,
         "margin_bottom": 0
       }
     },
