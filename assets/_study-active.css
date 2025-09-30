@@ -4055,7 +4055,7 @@ product-thumb.v2-product-thumb .product__media-wrapper {
   height: 29.3rem;
   display: flex;
 }
-product-thumb.v2-product-thumb .product__media-wrapper > img {
+product-thumb.v2-product-thumb .product__media-wrapper .v2-pt-image > img {
   object-fit: cover;
   border: none;
 }
