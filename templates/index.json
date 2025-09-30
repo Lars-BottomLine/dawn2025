@@ -560,72 +560,52 @@
         "button_align": "center",
         "custom_class_names": "-anchor-step-3",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": -140
       }
     },
-    "v2_steps_YXgdEc": {
-      "type": "v2_steps",
+    "v2_hero_6e4NMx": {
+      "type": "v2_hero",
       "blocks": {
-        "step_4gFdQ6": {
-          "type": "step",
+        "slide_j3U6gr": {
+          "type": "slide",
           "settings": {
-            "number": "1",
-            "title": "Step 1: Watch your welcome webinar",
-            "text": "<p>Watch the welcome video below to hear from one of our tutors as they guide you through the key steps to achieving your qualification.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "step_f34kYG": {
-          "type": "step",
-          "settings": {
-            "number": "2",
-            "title": "Step 2: Download your coursework",
-            "text": "<p>Text</p>",
-            "button_text": "Download",
-            "button_link": "https://admin.shopify.com"
-          }
-        },
-        "step_EfjhN8": {
-          "type": "step",
-          "settings": {
-            "number": "3",
-            "title": "Step 3: Start your studies",
-            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active.</p>",
-            "button_text": "Study Now",
-            "button_link": "-anchor-step-3"
-          }
-        },
-        "step_rceDqf": {
-          "type": "step",
-          "settings": {
-            "number": "4",
-            "title": "Step 4: Book or submit your assessments",
-            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.</p><p>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
-            "button_text": "",
-            "button_link": ""
+            "image": "shopify://shop_images/quote.jpg",
+            "slide_type": "onecol",
+            "heading_text": "<p>By the end, you’ll not only master personal training techniques, but also know how to motivate clients and even manage your own PT business.</p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": false,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "Discover Courses",
+            "button_url": "shopify://collections",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
       "block_order": [
-        "step_4gFdQ6",
-        "step_f34kYG",
-        "step_EfjhN8",
-        "step_rceDqf"
+        "slide_j3U6gr"
       ],
-      "name": "t:lesections.v2_steps.presets.name",
+      "name": "t:lesections.hero.presets.name",
       "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
+        "padding_top": 132,
+        "padding_bottom": 140,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
@@ -694,7 +674,7 @@
       ],
       "name": "v2 - Cards - Vertical Light Blue",
       "settings": {
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "card_layout": "vertical",
         "heading_text": "<p>Guaranteed job interview promise</p>",
         "heading_type": "h2",
@@ -717,11 +697,11 @@
         "button_new_window": true,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
@@ -904,7 +884,7 @@
     "v2_header_i7HYVG",
     "v2_slideshow_4RTHyC",
     "v2_cards_ayDGYf",
-    "v2_steps_YXgdEc",
+    "v2_hero_6e4NMx",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
     "v2_accordion_MwEKUC",
