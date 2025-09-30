@@ -49,14 +49,14 @@
         "slide_hKFMT3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3_f8364cd8-98de-4196-badf-a5af9915523c.png",
+            "image": "shopify://shop_images/6.png",
             "slide_type": "onecol",
-            "heading_text": "<p>A better life for you <br/>and your clients.</p>",
+            "heading_text": "<p>Turn your <strong>passion for Pilates</strong> into a career you love</p>",
             "heading_type": "h1",
             "heading_size": "hero",
-            "heading_strong_accented": false,
+            "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>This is your change to build a purposeful career in wellness personal training.<br/><br/><strong>Ready to begin?</strong></p>",
+            "text": "<p>Build a flexible career that fits your lifestyle, inspires others, and shares the benefits of Pilates with your community.<br/><br/><strong>Ready to begin?</strong></p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -212,7 +212,7 @@
         "subheadline_RJJJAL": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p>A career in wellness and personal training is built on passion and purpose — the drive to make a real difference in people’s lives. To begin your journey, you’ll first complete your <strong>Level 3 Diploma Practitioner in Personal Training</strong>, the foundation for your professional practice. </p><p></p><p>From there, you can specialise in areas that inspire you most, whether supporting women’s heal th through pre- and post-natal training and menopause support, or advancing into medical exercise to help clients manage specific health conditions. </p><p></p><p>This pathway is your opportunity to shape a meaningful career while empowering others to live healthier, stronger lives.</p>",
+            "text": "<p></p><p>Think about what inspires you, your love for Pilates, the <strong>desire to help others feel stronger and more balanced</strong>, and your vision of leading classes that people look forward to every week. </p><p></p><p>Decide how and where you’d like to teach, then explore our pathway to find the qualification and specialisations that will set you apart.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -243,7 +243,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "diploma-in-fitness-instruction-personal-training",
+        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
@@ -260,16 +260,16 @@
         "card_DegNcF": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Medical_health.png",
-            "title_text": "<p><strong>Specialise in Medical Wellness</strong></p>",
+            "image": "shopify://shop_images/100.png",
+            "title_text": "<p><em><strong>Becoming a Pilates Personal Trainer</strong></em></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Build the expertise you need to support people living with long-term conditions. Our courses include:</p>",
+            "text": "<p>Combine your Pilates skills with Personal Training expertise to work one-to-one with clients, offering holistic, goal-driven programmes that blend Pilates with broader fitness training:</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<ul><li><strong>Level 3 Diploma in Supporting Clients with Long-Term Conditions</strong></li><li>A wide range of MedFit Education’s specialist medical exercise courses, covering areas such as diabetes, cardiac recovery, and more.</li></ul>",
+            "claim_text": "<ul><li><strong>Level 3 Diploma Practitioner in Personal Training with the </strong></li><li>Level 3 Diploma in Instructing Pilates Matwork</li></ul>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
@@ -280,15 +280,15 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Womens_health.png",
-            "title_text": "<p><strong>Specialise in Women's Health</strong></p>",
+            "title_text": "<p><em><strong>Additional Pilates Qualifications</strong></em></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Develop the skills and understanding needed to support women through all stages of life. Available programs:</p>",
+            "text": "<p>Enhance your Pilates expertise and broaden your teaching options with specialist training coming to Study Active soon:</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<ul><li><strong>Level 3 Award Fitness Trainer for Supporting Pre and Postnatal Clients with Exercise and Nutrition</strong></li><li>Menopause Exercise Specialist course from MedFit Education</li></ul><p></p>",
+            "claim_text": "<ul><li>Level 4 Diploma in Reformer Pilates</li><li>CPD Pilates with Equipment Course</li></ul>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
@@ -662,29 +662,29 @@
         "accordion_row_qLtxez": {
           "type": "accordion_row",
           "settings": {
-            "heading": "1. Wellness Coach",
-            "row_content": "<p><strong>Salary: £25,000-£45,000+ <br/></strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms or healthcare settings.  <br/><br/>Growth outlook: </p><p>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK Wellness market continues to grow year-on-year. </p>"
+            "heading": "1. Mat-Based Pilates Instructor ",
+            "row_content": "<p><strong>Salary: £22,000 – £35,000+ (or £25–£50+ per class as a freelancer) </strong></p><p>Description: </p><p>Teach Pilates matwork classes in studios, gyms, or community centres. Guide participants through safe, effective exercises to improve posture, flexibility, and core strength. </p><p>Growth outlook: </p><p>Strong demand as more people seek low-impact, mindful exercise for health and wellbeing.</p>"
           }
         },
         "accordion_row_kckNXq": {
           "type": "accordion_row",
           "settings": {
-            "heading": "2. Pre & Postnatal Fitness and Nutrition Specialist ",
-            "row_content": "<p><strong>Salary: £30,000 - £50,000+ </strong></p><p>These specialists support pregnant and postpartum clients with safe, tailored exercise and nutrition plans. Roles are often freelance or clinic based, with increasing collaboration in maternity wellness centres. </p><p>Growth Outlook: </p><p>High growth due to rising awareness of mental health and increased demand for specialised fitness professionals in this space.  </p>"
+            "heading": "2. Reformer Pilates Instructor",
+            "row_content": "<p><strong>Salary: £25,000 – £40,000+ (premium rates for private sessions) </strong></p><p>Description: </p><p>Specialise in teaching Pilates using the Reformer, a piece of equipment that adds resistance and variety to workouts. Often taught in boutique studios or wellness centres. </p><p>Growth outlook: </p><p>Rapid growth, especially in urban areas where boutique Pilates studios are thriving.</p>"
           }
         },
         "accordion_row_qzDLzY": {
           "type": "accordion_row",
           "settings": {
-            "heading": "3. Medical Fitness Specialist",
-            "row_content": "<p><strong>Salary: £27,000 – £31,000</strong> (higher in senior NHS or occupational health roles: £46,000 – £53,000) </p><p>Medical Fitness Specialists design and deliver safe, evidence-based exercise programs for clients managing chronic conditions such as heart disease, diabetes, or cancer. They work in settings like NHS cardiac or pulmonary rehabilitation units, private clinics, or health charities, often alongside physiotherapists and other healthcare professionals. </p><p><strong>Growth Outlook:</strong>  </p><p>Steady growth, driven by an ageing population, increasing prevalence of chronic diseases, and NHS emphasis on preventative healthcare. Specialists with clinical exercise qualifications or additional rehab expertise are in especially high demand. </p>"
+            "heading": "3. Pilates Personal Trainer",
+            "row_content": "<p><strong>Salary: £25,000 – £45,000+ (self-employed earnings vary) </strong></p><p>Description: </p><p>Offer one-to-one or small group Pilates sessions, tailoring exercises to individual needs and goals — ideal for clients seeking personalised support. </p><p>Growth outlook:</p><p>Growing interest from clients who want a bespoke approach to Pilates for rehabilitation, sport, or lifestyle goals.</p>"
           }
         },
         "accordion_row_bxGW6H": {
           "type": "accordion_row",
           "settings": {
-            "heading": "4. Menopause Wellness Specialist ",
-            "row_content": "<p><strong>Salary: £28,000 - £50,000+ </strong></p><p>Professionals in this area support clients navigating menopause with lifestyle advice, movement plans, and nutrition strategies. Work includes one-on-one coaching, workshops, or working within corporate or clinical wellness teams.  </p><p>Growth Outlook: </p><p>Strong and increasing, as menopause support becomes a major focus in health and workplace policies.   </p>"
+            "heading": "4. Online Pilates Instructor",
+            "row_content": "<p><strong>Salary: £20,000 – £35,000+ (can grow with International clients) </strong></p><p>Description: </p><p>Deliver live-streamed or pre-recorded Pilates classes to clients at home, using minimal equipment. Expand your reach beyond local studios. </p><p>Growth outlook: </p><p>Steady growth as more people enjoy exercising at home with the flexibility of virtual classes.</p>"
           }
         }
       },
