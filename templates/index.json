@@ -536,8 +536,8 @@
       ],
       "name": "v2 - Cards - Wide White",
       "settings": {
-        "bkgr_color": "light-blue",
-        "card_layout": "wide",
+        "bkgr_color": "white",
+        "card_layout": "wide_box",
         "heading_text": "<p>Learning Experience</p>",
         "heading_type": "h2",
         "heading_size": "h2",
