@@ -141,7 +141,7 @@
             "title": "Step 1: Set your goal",
             "text": "<p>Know where you're starting out and where you want to go. We'll help you map it out.</p>",
             "button_text": "Go to Step 1",
-            "button_link": "Step One"
+            "button_link": "_anchor-step1"
           }
         },
         "step_b73gLp": {
@@ -151,7 +151,7 @@
             "title": "Step 2: Choose your course or bundle",
             "text": "<p>Pick the training option that fits your lifestyle, ambitions, timeline and passion.</p>",
             "button_text": "Go to Step 2",
-            "button_link": ""
+            "button_link": "_anchor-step2"
           }
         },
         "step_7pELP9": {
@@ -161,7 +161,7 @@
             "title": "Step 3: Start learning",
             "text": "<p>Study online at your own pace with expert support whenever you need it.</p>",
             "button_text": "Go to Step 3",
-            "button_link": ""
+            "button_link": "_anchor-step3"
           }
         },
         "step_3mrj94": {
@@ -171,7 +171,7 @@
             "title": "Step 4: Start earning",
             "text": "<p>Complete your course, unlock guaranteed interviews, and start your careers as a wellness personal trainer.</p>",
             "button_text": "Go to Step 4",
-            "button_link": ""
+            "button_link": "_anchor-step4"
           }
         }
       },
@@ -230,7 +230,7 @@
       "name": "Step One",
       "settings": {
         "bkgr_color": "white",
-        "custom_class_names": "",
+        "custom_class_names": "_anchor-step1",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 36,
@@ -431,7 +431,7 @@
       "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "light-blue",
-        "custom_class_names": "",
+        "custom_class_names": "_anchor-step2",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 16,
@@ -567,7 +567,7 @@
         "button_size": "medium",
         "button_new_window": false,
         "button_align": "center",
-        "custom_class_names": "",
+        "custom_class_names": "_anchor-step3",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 0,
@@ -647,7 +647,7 @@
       "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "custom_class_names": "",
+        "custom_class_names": "_anchor-step4",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,

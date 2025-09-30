@@ -150,6 +150,20 @@
         "padding_bottom": 12
       }
     },
+    "v2_producthero_73873V": {
+      "type": "v2_producthero",
+      "name": "t:lesections.v2_producthero.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_text_plus_image_cdFcb6": {
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
@@ -305,6 +319,7 @@
           "repeater": "{{ product.metafields.custom.faq_list.value }}",
           "settings": {
             "image": "{{ block.repeater.image.value }}",
+            "heading": "",
             "row_content": "{{ block.repeater.text | metafield_tag }}"
           }
         }
@@ -337,6 +352,7 @@
   "order": [
     "related-products",
     "main",
+    "v2_producthero_73873V",
     "v2_text_plus_image_cdFcb6",
     "v2_flexible_nWaQaq",
     "v2_header_YGG9xm",
