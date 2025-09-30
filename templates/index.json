@@ -16,13 +16,13 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_4_1.jpg",
-            "slide_type": "onecol",
+            "slide_type": "twocol",
             "heading_text": "<p>Want a career that <strong>changes lives?</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>Change lives through wellness and fitness  - starting with yours.</p>",
+            "text": "<p>Change lives with wellness and fitness, <strong>starting with yours</strong>.</p>",
             "text_size": "copy-xl",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -36,13 +36,14 @@
         "slide_zLMkrC": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Study_Active_Hero_2_1.jpg",
             "slide_type": "twocol",
-            "heading_text": "<p>We are stronger<br/>together.</p>",
-            "heading_type": "h1",
+            "heading_text": "<p>Pilates - <strong> movement meets mindfulness.</strong></p>",
+            "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": false,
             "heading_no_decal": false,
-            "text": "<p>Own the room.<br/>Inspire the crowd.<br/><strong>Love your job.</strong></p>",
+            "text": "<p>Move with purpose.<br/><strong>Teach with passion.</strong></p>",
             "text_size": "h2",
             "text_no_decal": true,
             "text_strong_accented": false,
@@ -56,17 +57,18 @@
         "slide_yMtA4W": {
           "type": "slide",
           "settings": {
-            "slide_type": "onecol",
-            "heading_text": "<p>Get your free<br/><strong>Study Active brochure</strong></p>",
+            "image": "shopify://shop_images/Study_Active_Hero_3_1.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p>A calling that <strong>heals</strong>.</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>This is your moment to <strong>turn passion into purpose</strong>. Learn online at your pace, get expert support and land guaranteed interviews when you qualify. <strong>You bring the drive, we’ll handle the rest.</strong></p>",
+            "text": "<p>Turn setbacks into comebacks. <strong>Train to help others rise again.</strong></p>",
             "text_size": "copy-xl",
             "text_no_decal": false,
             "text_strong_accented": true,
-            "button_text": "",
+            "button_text": "Find your path",
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
@@ -154,6 +156,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "light-blue",
         "custom_class_names": "",
@@ -376,6 +379,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "light-blue",
         "custom_class_names": "",
@@ -438,102 +442,6 @@
         "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_P4gKij": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>Learning Experience</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "full",
-        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_align": "center",
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_steps_YXgdEc": {
-      "type": "v2_steps",
-      "blocks": {
-        "step_4gFdQ6": {
-          "type": "step",
-          "settings": {
-            "number": "1",
-            "title": "Step 1: Watch your welcome webinar",
-            "text": "<p>Watch the welcome video below to hear from one of our tutors as they guide you through the key steps to achieving your qualification.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "step_f34kYG": {
-          "type": "step",
-          "settings": {
-            "number": "2",
-            "title": "Step 2: Download your coursework",
-            "text": "<p>Text</p>",
-            "button_text": "Download",
-            "button_link": "https://admin.shopify.com"
-          }
-        },
-        "step_EfjhN8": {
-          "type": "step",
-          "settings": {
-            "number": "3",
-            "title": "Step 3: Start your studies",
-            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active.</p>",
-            "button_text": "Study Now",
-            "button_link": "-anchor-step-3"
-          }
-        },
-        "step_rceDqf": {
-          "type": "step",
-          "settings": {
-            "number": "4",
-            "title": "Step 4: Book or submit your assessments",
-            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.</p><p>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "step_4gFdQ6",
-        "step_f34kYG",
-        "step_EfjhN8",
-        "step_rceDqf"
-      ],
-      "name": "t:lesections.v2_steps.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -607,7 +515,7 @@
       "settings": {
         "bkgr_color": "white",
         "card_layout": "wide",
-        "heading_text": "<p>Step 3: Start Learning</p>",
+        "heading_text": "<p>Learning Experience</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -615,7 +523,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "medium",
-        "text": "",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -628,6 +536,68 @@
         "button_new_window": false,
         "button_align": "center",
         "custom_class_names": "-anchor-step-3",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_YXgdEc": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_4gFdQ6": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step 1: Watch your welcome webinar",
+            "text": "<p>Watch the welcome video below to hear from one of our tutors as they guide you through the key steps to achieving your qualification.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_f34kYG": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Step 2: Download your coursework",
+            "text": "<p>Text</p>",
+            "button_text": "Download",
+            "button_link": "https://admin.shopify.com"
+          }
+        },
+        "step_EfjhN8": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Step 3: Start your studies",
+            "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active.</p>",
+            "button_text": "Study Now",
+            "button_link": "-anchor-step-3"
+          }
+        },
+        "step_rceDqf": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Step 4: Book or submit your assessments",
+            "text": "<p>Using your coursework submission login, found in your welcome email,, you can: Upload your completed coursework.</p><p>Book a practical or theory assessment or request tutor support by emailing support@studyactive.co.uk</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_4gFdQ6",
+        "step_f34kYG",
+        "step_EfjhN8",
+        "step_rceDqf"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -910,9 +880,8 @@
     "v2_cards_88cQaJ",
     "v2_header_i7HYVG",
     "v2_slideshow_4RTHyC",
-    "v2_header_P4gKij",
-    "v2_steps_YXgdEc",
     "v2_cards_ayDGYf",
+    "v2_steps_YXgdEc",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
     "v2_accordion_MwEKUC",
