@@ -42,7 +42,7 @@
               {{- option.selected_value -}}
             </span>
           </legend>
-          {% render 'le_product-variant-options',
+          {% render 'v2_product-variant-options',
             product: product,
             option: option,
             picker_type: picker_type,
@@ -55,7 +55,7 @@
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
           <legend class="form__label">{{ option.name }}</legend>
-          {% render 'le_product-variant-options',
+          {% render 'v2_product-variant-options',
             product: product,
             option: option,
             picker_type: picker_type,
@@ -88,7 +88,7 @@
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-              {% render 'le_product-variant-options',
+              {% render 'v2_product-variant-options',
                 product: product,
                 option: option,
                 picker_type: picker_type,
