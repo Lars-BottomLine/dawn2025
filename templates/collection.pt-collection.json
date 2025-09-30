@@ -631,7 +631,7 @@
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": true,
-            "right_text": "<p></p><p>Want a career that <strong>pays well, fits around your life, and doesn’t require a university degree</strong>? Becoming a Wellness Personal Trainer opens the door to flexible, rewarding jobs that <strong>keep you active, fulfilled, and in control of your time</strong>. Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own wellness brand, it all starts here.</p>",
+            "right_text": "<p></p><p>Want a career that <strong>pays well, fits around your life, and doesn’t require a university degree</strong>? Becoming a Personal Trainer opens the door to flexible, rewarding jobs that <strong>keep you active, fulfilled, and in control of your time</strong>. Whether you want to work in gyms, run sessions in the community, coach clients online, or build your own fitness brand, it all starts here.</p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": true,
@@ -662,29 +662,29 @@
         "accordion_row_qLtxez": {
           "type": "accordion_row",
           "settings": {
-            "heading": "1. Wellness Coach",
-            "row_content": "<p><strong>Salary: £25,000-£45,000+ <br/></strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms or healthcare settings.  <br/><br/>Growth outlook: </p><p>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK Wellness market continues to grow year-on-year. </p>"
+            "heading": "1. Personal Trainer ",
+            "row_content": "<p><strong>Salary: £25,000 – £45,000+ (higher if self-employed with a strong client base) </strong></p><p>Description: </p><p>Help clients smash their fitness goals with tailored workout programmes and nutrition advice. Work face-to-face in gyms, leisure centres, or as your own boss. </p><p>Growth outlook: </p><p>Consistent demand in gyms, health clubs, and private studios across the UK. </p>"
           }
         },
         "accordion_row_kckNXq": {
           "type": "accordion_row",
           "settings": {
-            "heading": "2. Pre & Postnatal Fitness and Nutrition Specialist ",
-            "row_content": "<p><strong>Salary: £30,000 - £50,000+ </strong></p><p>These specialists support pregnant and postpartum clients with safe, tailored exercise and nutrition plans. Roles are often freelance or clinic based, with increasing collaboration in maternity wellness centres. </p><p>Growth Outlook: </p><p>High growth due to rising awareness of mental health and increased demand for specialised fitness professionals in this space.  </p>"
+            "heading": "2.  Online Personal Trainer ",
+            "row_content": "<p><strong>Salary: £25,000 – £45,000+</strong></p><p>Description: </p><p>Coach clients remotely using apps, video calls, and social media. A perfect way to train anyone, anywhere — and keep earning without being tied to a single gym. </p><p>Growth outlook: </p><p>Rapid growth as more clients want flexible, home-based training options. </p>"
           }
         },
         "accordion_row_qzDLzY": {
           "type": "accordion_row",
           "settings": {
-            "heading": "3. Medical Fitness Specialist",
-            "row_content": "<p><strong>Salary: £27,000 – £31,000</strong> (higher in senior NHS or occupational health roles: £46,000 – £53,000) </p><p>Medical Fitness Specialists design and deliver safe, evidence-based exercise programs for clients managing chronic conditions such as heart disease, diabetes, or cancer. They work in settings like NHS cardiac or pulmonary rehabilitation units, private clinics, or health charities, often alongside physiotherapists and other healthcare professionals. </p><p><strong>Growth Outlook:</strong>  </p><p>Steady growth, driven by an ageing population, increasing prevalence of chronic diseases, and NHS emphasis on preventative healthcare. Specialists with clinical exercise qualifications or additional rehab expertise are in especially high demand. </p>"
+            "heading": "3. Group Trainer / Instructor ",
+            "row_content": "<p><strong>Salary: £22,000 – £38,000+ (or £25–£50+ per class as a freelancer) </strong></p><p> <strong>Description:</strong> </p><p> Lead high-energy classes in gyms, parks, or even cruise ships. From circuits to bootcamps, motivate and manage groups to hit their goals together. </p><p> <strong>Growth outlook:</strong> </p><p> Steady demand through gyms, leisure centres, and community fitness programmes</p>"
           }
         },
         "accordion_row_bxGW6H": {
           "type": "accordion_row",
           "settings": {
-            "heading": "4. Menopause Wellness Specialist ",
-            "row_content": "<p><strong>Salary: £28,000 - £50,000+ </strong></p><p>Professionals in this area support clients navigating menopause with lifestyle advice, movement plans, and nutrition strategies. Work includes one-on-one coaching, workshops, or working within corporate or clinical wellness teams.  </p><p>Growth Outlook: </p><p>Strong and increasing, as menopause support becomes a major focus in health and workplace policies.   </p>"
+            "heading": "4. Studio Cycling Instructor ",
+            "row_content": "<p><strong>Salary: £28,000 – £50,000+ (plus bonuses for popular classes) </strong></p><p><strong>Description:</strong> </p><p>One of the most in-demand group training roles in the UK. Run music-driven spin classes that clients love and keep coming back for. </p><p><strong>Growth outlook:</strong> </p><p>Strong and growing as indoor cycling gains popularity in gyms and workplace wellness programmes. </p>"
           }
         }
       },
