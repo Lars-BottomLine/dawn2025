@@ -1297,6 +1297,21 @@
         "margin_bottom": 0
       }
     },
+    "v2_featured_9HAbK3": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "level-2-studio-cycling-manual",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_qydTW4": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -1403,6 +1418,7 @@
     "v2_steps_NE8FcR",
     "v2_header_NMpyFR",
     "v2_featured_eHUeJe",
+    "v2_featured_9HAbK3",
     "v2_header_qydTW4",
     "v2_video_9hKwtR",
     "v2_newsletter_nWWNqi"
