@@ -49,14 +49,14 @@
         "slide_hKFMT3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3_f8364cd8-98de-4196-badf-a5af9915523c.png",
+            "image": "shopify://shop_images/9_ecbc8c9e-6e93-461d-b036-4049db273d41.png",
             "slide_type": "onecol",
-            "heading_text": "<p>A better life for you <br/>and your clients.</p>",
+            "heading_text": "<p>A rewarding career in sports therapy</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": false,
             "heading_no_decal": false,
-            "text": "<p>This is your change to build a purposeful career in wellness personal training.<br/><br/><strong>Ready to begin?</strong></p>",
+            "text": "<p><strong>Help people recover, move better, and live pain-free</strong> — while building a flexible, hands-on career you can be proud of.<br/><br/><strong>Ready to begin?</strong></p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -212,7 +212,7 @@
         "subheadline_RJJJAL": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p>A career in wellness and personal training is built on passion and purpose — the drive to make a real difference in people’s lives. To begin your journey, you’ll first complete your <strong>Level 3 Diploma Practitioner in Personal Training</strong>, the foundation for your professional practice. </p><p></p><p>From there, you can specialise in areas that inspire you most, whether supporting women’s heal th through pre- and post-natal training and menopause support, or advancing into medical exercise to help clients manage specific health conditions. </p><p></p><p>This pathway is your opportunity to shape a meaningful career while empowering others to live healthier, stronger lives.</p>",
+            "text": "<p></p><p>You’ve spent years helping others in your own way, now it’s time to turn that care and knowledge into a specialist skill. Picture yourself easing someone’s pain, helping them return to sport after injury, or supporting everyday clients to move better and feel stronger. </p><p></p><p>Whether you dream of <strong>working with athletes, in a physio clinic, or running your own therapy practice</strong>, this pathway will give you the skills and credibility to make it happen. Take our <strong>Level 3 Diploma in Sports Massage Therapy</strong> to turn your passion into a career.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -243,7 +243,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "diploma-in-fitness-instruction-personal-training",
+        "product": "l3_diploma_in_sports_massage_therapy",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
@@ -260,35 +260,16 @@
         "card_DegNcF": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Medical_health.png",
-            "title_text": "<p><strong>Specialise in Medical Wellness</strong></p>",
+            "image": "shopify://shop_images/iStock-1532564708.jpg",
+            "title_text": "<p><em><strong>Becoming a Personal Trainer with Sports Massage Therapy</strong></em></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Build the expertise you need to support people living with long-term conditions. Our courses include:</p>",
+            "text": "<p>Add a Personal Training qualification to your Sports Massage skills to give clients a complete service, from recovery and injury prevention to tailored strength and fitness programmes.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<ul><li><strong>Level 3 Diploma in Supporting Clients with Long-Term Conditions</strong></li><li>A wide range of MedFit Education’s specialist medical exercise courses, covering areas such as diabetes, cardiac recovery, and more.</li></ul>",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_89t4rF": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Womens_health.png",
-            "title_text": "<p><strong>Specialise in Women's Health</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Develop the skills and understanding needed to support women through all stages of life. Available programs:</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "<ul><li><strong>Level 3 Award Fitness Trainer for Supporting Pre and Postnatal Clients with Exercise and Nutrition</strong></li><li>Menopause Exercise Specialist course from MedFit Education</li></ul><p></p>",
+            "claim_text": "<ul><li>Level 2 Gym Instructor </li><li><strong>Level 3 Diploma in Personal Training </strong></li></ul>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
@@ -297,8 +278,7 @@
         }
       },
       "block_order": [
-        "card_DegNcF",
-        "card_89t4rF"
+        "card_DegNcF"
       ],
       "name": "t:lesections.cards.presets.name",
       "settings": {
@@ -662,37 +642,29 @@
         "accordion_row_qLtxez": {
           "type": "accordion_row",
           "settings": {
-            "heading": "1. Wellness Coach",
-            "row_content": "<p><strong>Salary: £25,000-£45,000+ <br/></strong><br/>Wellness coaches help clients improve their physical and mental well-being through habit change, goal setting, and personalised wellness plans. They may work independently or within corporate wellness programmes, gyms or healthcare settings.  <br/><br/>Growth outlook: </p><p>Demand is rising as more employers and individuals prioritise preventative health and holistic well-being. The UK Wellness market continues to grow year-on-year. </p>"
+            "heading": "1. Sports Massage Therapist",
+            "row_content": "<p><strong>Salary: £25,000 – £40,000+ (or £30–£60+ per session self-employed)</strong></p><p><strong>Description:</strong> </p><p>Provide hands-on treatment to help clients recover from injury, relieve pain, and improve mobility. Work in sports clubs, physiotherapy clinics, gyms, or as a freelance therapist.</p><p><strong>Growth outlook:</strong> </p><p>Steady demand from both active individuals and the public seeking preventative care and rehabilitation.</p>"
           }
         },
         "accordion_row_kckNXq": {
           "type": "accordion_row",
           "settings": {
-            "heading": "2. Pre & Postnatal Fitness and Nutrition Specialist ",
-            "row_content": "<p><strong>Salary: £30,000 - £50,000+ </strong></p><p>These specialists support pregnant and postpartum clients with safe, tailored exercise and nutrition plans. Roles are often freelance or clinic based, with increasing collaboration in maternity wellness centres. </p><p>Growth Outlook: </p><p>High growth due to rising awareness of mental health and increased demand for specialised fitness professionals in this space.  </p>"
+            "heading": "2. Rehabilitation & Injury Prevention Specialist",
+            "row_content": "<p><strong>Salary: £26,000 – £42,000+</strong></p><p><strong>Description:</strong> </p><p>Design recovery and prevention programmes for clients post-injury or surgery, combining sports massage with corrective exercise and mobility work. Often employed in multidisciplinary clinics or by sports teams.</p><p><strong>Growth outlook:</strong> </p><p>Strong growth as awareness of injury prevention and recovery support continues to increase.</p>"
           }
         },
         "accordion_row_qzDLzY": {
           "type": "accordion_row",
           "settings": {
-            "heading": "3. Medical Fitness Specialist",
-            "row_content": "<p><strong>Salary: £27,000 – £31,000</strong> (higher in senior NHS or occupational health roles: £46,000 – £53,000) </p><p>Medical Fitness Specialists design and deliver safe, evidence-based exercise programs for clients managing chronic conditions such as heart disease, diabetes, or cancer. They work in settings like NHS cardiac or pulmonary rehabilitation units, private clinics, or health charities, often alongside physiotherapists and other healthcare professionals. </p><p><strong>Growth Outlook:</strong>  </p><p>Steady growth, driven by an ageing population, increasing prevalence of chronic diseases, and NHS emphasis on preventative healthcare. Specialists with clinical exercise qualifications or additional rehab expertise are in especially high demand. </p>"
-          }
-        },
-        "accordion_row_bxGW6H": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "4. Menopause Wellness Specialist ",
-            "row_content": "<p><strong>Salary: £28,000 - £50,000+ </strong></p><p>Professionals in this area support clients navigating menopause with lifestyle advice, movement plans, and nutrition strategies. Work includes one-on-one coaching, workshops, or working within corporate or clinical wellness teams.  </p><p>Growth Outlook: </p><p>Strong and increasing, as menopause support becomes a major focus in health and workplace policies.   </p>"
+            "heading": "3. Sports Massage & Personal Training Coach",
+            "row_content": "<p><strong>Salary: £28,000 – £50,000+ (self-employed earnings vary)</strong></p><p><strong>Description:</strong> Offer a combined service of sports massage and personal training, helping clients rehabilitate, regain strength, and improve overall fitness in one package.</p><p><strong>Growth outlook:</strong> High demand from clients who prefer one trusted professional for both recovery and ongoing fitness.</p><p></p>"
           }
         }
       },
       "block_order": [
         "accordion_row_qLtxez",
         "accordion_row_kckNXq",
-        "accordion_row_qzDLzY",
-        "accordion_row_bxGW6H"
+        "accordion_row_qzDLzY"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
