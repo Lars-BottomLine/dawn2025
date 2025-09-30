@@ -63,6 +63,7 @@
     # ---------------------------------
     assign content_classes = ''
     assign content_classes = content_classes | append: ' section-' | append: section.id | append: '-padding '
+    assign section_classes = section_classes | append: ' -type-' | append: section.settings.form_type
 %}
 
 {%- style -%}
@@ -91,51 +92,71 @@
             {{ section_classes }}">
 
     <div class="v2-nl-background">
-        {% # IMAGE SET, DEFINE SIZES  %}
-        {% assign img = section.settings.image | default: blank %}
-        {%- if img != blank -%}
-            {%- assign widths = '1200, 1500' -%}
-            {%- capture sizes -%}
-                {% comment %}
-                ToDo: check the resulting image size, should be big enough but not too big...
-                {% endcomment %}
-                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-            {%- endcapture -%}
-            {{ img
-            | image_url:
-            width: 1500
-            | image_tag:
-            sizes: sizes,
-            widths: widths,
-            fetchpriority: fetch_priority
-            }}
+        {% if section.settings.form_type == 'newsletter' %}
+            {% # IMAGE SET, DEFINE SIZES  %}
+            {% assign img = section.settings.image | default: blank %}
+            {%- if img != blank -%}
+                {%- assign widths = '1200, 1500' -%}
+                {%- capture sizes -%}
+                    {% comment %}
+                    ToDo: check the resulting image size, should be big enough but not too big...
+                    {% endcomment %}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                {{ img
+                | image_url:
+                width: 1500
+                | image_tag:
+                sizes: sizes,
+                widths: widths,
+                fetchpriority: fetch_priority
+                }}
 
-            {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
-        {%- else -%}
-            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
+            {%- else -%}
+                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
         {%- endif -%}
     </div>
 
     <div class="page-width">
 
-        <div>
+        {% if section.settings.form_type == 'brochure' %}
+        <div class="v2-fp-content v2-sa-form-wrapper {{ content_classes }}">
 
-            {% render 'v2-heading', data: section.settings, classes: "" %}
+            <div class="v2-fp-left">
 
-            {% render 'v2-text', data: section.settings, classes: " v2-tpi-subheadline ", prefix: 'subheadline_', no_remove_p: true %}
+                <div class="v2-fp-info">
 
-            {% render 'v2-text', data: section.settings, classes: " v2-tpi-text ", no_remove_p: true %}
+                    {% render 'v2-heading', data: section.settings, classes: "" %}
 
-            {% render 'v2-text', data: section.settings, classes: " v2-tpi-claim ", prefix: 'claim_', no_remove_p: true %}
+                    {% render 'v2-text', data: section.settings, classes: " v2-tpi-subheadline ", prefix: 'subheadline_', no_remove_p: true %}
+
+                    {% render 'v2-text', data: section.settings, classes: " v2-tpi-text ", no_remove_p: true %}
+
+                    {% render 'v2-text', data: section.settings, classes: " v2-tpi-claim ", prefix: 'claim_', no_remove_p: true %}
+
+                </div>
+
+            </div>
+
+            <div class="v2-fp-right">
+                <div class="v2-fp-form">
+                    {% render 'v2_form-brochure' %}
+                </div>
+            </div>
 
         </div>
+        {% endif %}
 
+        {% if section.settings.form_type == 'newsletter' %}
         <div class="v2-nl-content {{ content_classes }}">
             <div class="v2-nl-box">
                 {% render 'v2_form-newsletter' %}
             </div>
         </div>
+        {% endif %}
 
     </div> {% # /PAGE WIDTH %}
 </div>
@@ -159,11 +180,11 @@
                 "options": [
                     {
                     "value": "newsletter",
-                    "label": "t:lesections.v2_newsletter.newsletter."
+                    "label": "t:lesections.v2_newsletter.form_type.newsletter."
                     },
                     {
                     "value": "brochure",
-                    "label": "t:lesections.v2_newsletter.brochure."
+                    "label": "t:lesections.v2_newsletter.form_type.brochure."
                     }
                 ]
             },
@@ -407,7 +428,7 @@
                 "type": "select",
                 "id": "bkgr_color",
                 "label": "t:lebase.global.bkgr_color.label",
-                "default": "primary",
+                "default": "white",
                 "options": [
                     {
                     "value": "primary",
