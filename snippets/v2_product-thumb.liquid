@@ -39,6 +39,11 @@
             assign classes_button = ' -size-medium '
     endcase
 
+    assign media_image_count = 0
+    if product.media
+        assign media_image_count = product.media | size
+    endif
+
 %}
 
 {% if first_call_on_page %}
@@ -89,7 +94,7 @@
                     {%- endunless -%}
                 </div>
 
-                {% if template == 'product_detail' %}
+                {% if template == 'product_detail' and media_image_count > 1 %}
                     <div class="v2-pt-thumblist">
                         <div class="">
                             {% for image in product.media  %}
@@ -141,9 +146,9 @@
 
                         {% # RIBBON
                            # ----------------------- %}
-                        {% if template == 'product_detail' %}
+                        {% if template == 'product_detail' and product.metafields.custom.ribbon_text != blank %}
                             <div class="v2-pt-ribbon">
-                                {{ product.metafields.custom.ribbon_text }}
+                                {{ product.metafields.custom.ribbon_text | metafield_text }}
                             </div>
                         {% endif %}
 
