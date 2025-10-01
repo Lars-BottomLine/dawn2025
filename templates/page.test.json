@@ -1587,7 +1587,7 @@
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "text_align": "left",
+        "text_align": "center",
         "text_width": "full",
         "custom_class_names": "",
         "bkgr_color": "primary",
