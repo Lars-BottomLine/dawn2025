@@ -27,7 +27,7 @@
             "text_no_decal": false,
             "text_strong_accented": false,
             "button_text": "Find your path",
-            "button_url": "https://bottomline.agency",
+            "button_url": "shopify://collections/wellness-pathway",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
@@ -48,7 +48,7 @@
             "text_no_decal": true,
             "text_strong_accented": false,
             "button_text": "Find your path",
-            "button_url": "shopify://blogs/news",
+            "button_url": "shopify://collections/pilates-pathway",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
@@ -69,7 +69,7 @@
             "text_no_decal": true,
             "text_strong_accented": false,
             "button_text": "Find your path",
-            "button_url": "shopify://blogs/news",
+            "button_url": "shopify://collections/personal-trainer-pathway",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
@@ -90,7 +90,7 @@
             "text_no_decal": false,
             "text_strong_accented": false,
             "button_text": "Find your path",
-            "button_url": "",
+            "button_url": "shopify://collections/sports-therapy-pathway",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
