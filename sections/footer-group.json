@@ -16,21 +16,41 @@
       "blocks": {
         "slide_98DHVM": {
           "type": "slide",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
         },
         "slide_EN6KBX": {
           "type": "slide",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/CIMSPA.png"
+          }
         },
         "slide_NE7Xkr": {
           "type": "slide",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_Eh9Let": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NCFE.jpg"
+          }
+        },
+        "slide_FWpbLM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RSPH.png"
+          }
         }
       },
       "block_order": [
         "slide_98DHVM",
         "slide_EN6KBX",
-        "slide_NE7Xkr"
+        "slide_NE7Xkr",
+        "slide_Eh9Let",
+        "slide_FWpbLM"
       ],
       "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
