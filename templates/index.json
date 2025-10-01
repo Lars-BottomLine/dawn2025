@@ -71,7 +71,7 @@
             "button_text": "Find your path",
             "button_url": "",
             "button_style": "primary",
-            "button_size": "small",
+            "button_size": "medium",
             "button_new_window": false
           }
         }
