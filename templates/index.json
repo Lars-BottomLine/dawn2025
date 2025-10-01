@@ -426,12 +426,24 @@
             "button_label": "",
             "button_url": ""
           }
+        },
+        "slide_MQmEd8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
         "slide_HfbbfH",
         "slide_JM8hVg",
-        "slide_bPaqPa"
+        "slide_bPaqPa",
+        "slide_MQmEd8"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
