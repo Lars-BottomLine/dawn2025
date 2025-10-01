@@ -213,6 +213,26 @@
 
     "v2_grid": {
       "name": "v2 - Grid",
+      "blocks": {
+        "member": {
+          "label": "Member",
+          "image": {
+            "label": "Profile Picture"
+          },
+          "name": {
+            "label": "Name",
+            "default": "Surname Name"
+          },
+          "position": {
+            "label": "Position",
+            "default": "Team Member"
+          },
+          "info": {
+            "label": "Info",
+            "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+          }
+        }
+      },
       "presets": {
         "name": "v2 - Grid"
       }
