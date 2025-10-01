@@ -94,15 +94,31 @@
 
             <div class="v2-qa-left">
 
-                <div class="v2-qa-first">
+                <div class="v2-qa-box v2-qa-first">
 
-                    {% render 'v2-heading', data: section.settings, classes: "" %}
+                    <div class="">
+
+                        {% if section.settings.image != blank %}
+                            {{ section.settings.image
+                                | image_url: width: 200
+                                | media_tag }}
+                        {% endif %}
+
+                        {% render 'v2-heading', data: section.settings, classes: "" %}
+
+                    </div>
 
                     {% render 'v2-text', data: section.settings, classes: "", no_remove_p: true %}
 
                 </div>
 
                 <div class="v2-qa-second">
+
+                    {% if section.settings.dos_image != blank %}
+                        {{ section.settings.dos_image
+                        | image_url: width: 200
+                        | media_tag }}
+                    {% endif %}
 
                     {% render 'v2-heading', data: section.settings, classes: "", prefix: 'dos_' %}
 
@@ -115,7 +131,7 @@
             <div class="v2-qa-right">
                 <div class="v2-image-container">
                     {% if section.settings.image != blank %}
-                        {{ section.settings.image
+                        {{ section.settings.right_image
                             | image_url: width: 800
                             | media_tag }}
                     {% endif %}
@@ -341,7 +357,11 @@
                 "type": "header",
                 "content": "Second Box"
             },
-            
+            {
+                "type": "image_picker",
+                "id": "dos_image",
+                "label": "Icon"
+            },
             {
                 "type": "header",
                 "content": "t:lebase.global.heading.header"
