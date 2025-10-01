@@ -43,6 +43,12 @@
           "settings": {
             "image": "shopify://shop_images/RSPH.png"
           }
+        },
+        "slide_tk7gfR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
         }
       },
       "block_order": [
@@ -50,7 +56,8 @@
         "slide_EN6KBX",
         "slide_NE7Xkr",
         "slide_Eh9Let",
-        "slide_FWpbLM"
+        "slide_FWpbLM",
+        "slide_tk7gfR"
       ],
       "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
