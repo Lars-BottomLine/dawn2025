@@ -2994,9 +2994,12 @@ header .header__icon--cart .icon {
   display: flex;
 }
 .v2-image-container img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .v2-text ul li, ._font-hero,
@@ -3083,14 +3086,10 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 ._font-copy-m,
 .v2-section-producthero .v2-pt-ribbon,
-.v2-section-form form label div,
-.v2-section-form form input::placeholder,
-.v2-section-form form select::placeholder,
-.v2-section-form form textarea::placeholder,
-.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
 .price.price--on-sale .price__sale .price-save-percentage,
-.v2_price.price--on-sale .price__sale .price-save-percentage {
+.v2_price.price--on-sale .price__sale .price-save-percentage,
+.v2-sa-form-wrapper form label div {
   color: inherit;
   font-style: normal;
 }
@@ -3118,14 +3117,10 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
 ._font-copy-m p,
 .v2-section-producthero .v2-pt-ribbon p,
-.v2-section-form form label div p,
-.v2-section-form form input::placeholder p,
-.v2-section-form form select::placeholder p,
-.v2-section-form form textarea::placeholder p,
-.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p,
 .price.price--on-sale .price__sale .price-save-percentage p,
-.v2_price.price--on-sale .price__sale .price-save-percentage p {
+.v2_price.price--on-sale .price__sale .price-save-percentage p,
+.v2-sa-form-wrapper form label div p {
   color: inherit;
   font-style: normal;
 }
@@ -3154,14 +3149,10 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   ._font-copy-m.-decal-left,
   .v2-section-producthero .-decal-left.v2-pt-ribbon,
-  .v2-section-form form label div.-decal-left,
-  .v2-section-form form input.-decal-left::placeholder,
-  .v2-section-form form select.-decal-left::placeholder,
-  .v2-section-form form textarea.-decal-left::placeholder,
-  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input.-decal-left::placeholder,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label.-decal-left,
   .price.price--on-sale .price__sale .-decal-left.price-save-percentage,
-  .v2_price.price--on-sale .price__sale .-decal-left.price-save-percentage {
+  .v2_price.price--on-sale .price__sale .-decal-left.price-save-percentage,
+  .v2-sa-form-wrapper form label div.-decal-left {
     margin-top: 0;
   }
 }
@@ -3307,14 +3298,10 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 ._font-copy-m,
 .v2-section-producthero .v2-pt-ribbon,
-.v2-section-form form label div,
-.v2-section-form form input::placeholder,
-.v2-section-form form select::placeholder,
-.v2-section-form form textarea::placeholder,
-.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
 .price.price--on-sale .price__sale .price-save-percentage,
-.v2_price.price--on-sale .price__sale .price-save-percentage {
+.v2_price.price--on-sale .price__sale .price-save-percentage,
+.v2-sa-form-wrapper form label div {
   font-weight: 400;
   line-height: 1.25;
 }
@@ -3326,14 +3313,10 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
 ._font-copy-m p,
 .v2-section-producthero .v2-pt-ribbon p,
-.v2-section-form form label div p,
-.v2-section-form form input::placeholder p,
-.v2-section-form form select::placeholder p,
-.v2-section-form form textarea::placeholder p,
-.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p,
 .price.price--on-sale .price__sale .price-save-percentage p,
-.v2_price.price--on-sale .price__sale .price-save-percentage p {
+.v2_price.price--on-sale .price__sale .price-save-percentage p,
+.v2-sa-form-wrapper form label div p {
   font-weight: 400;
   line-height: 1.25;
 }
@@ -3512,9 +3495,9 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price:before,
 .sa-section-callout h2:before {
-  width: 3.2rem;
-  height: 6.6rem;
-  top: -7.5rem;
+  width: 2.2rem;
+  height: 4.5rem;
+  top: -5.5rem;
 }
 @media (min-width: 751px) {
   ._font-h3 p.-decal-left, .v2-section-form form ._form-title p.-decal-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
@@ -3599,37 +3582,25 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   }
 }
 
-._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-form form label div p, .v2-section-form form input::placeholder p,
-.v2-section-form form select::placeholder p,
-.v2-section-form form textarea::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
-.v2_price.price--on-sale .price__sale .price-save-percentage p,
+._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
+.v2_price.price--on-sale .price__sale .price-save-percentage p, .v2-sa-form-wrapper form label div p,
 ._font-copy-m,
 .v2-section-producthero .v2-pt-ribbon,
-.v2-section-form form label div,
-.v2-section-form form input::placeholder,
-.v2-section-form form select::placeholder,
-.v2-section-form form textarea::placeholder,
-.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
 .price.price--on-sale .price__sale .price-save-percentage,
-.v2_price.price--on-sale .price__sale .price-save-percentage {
+.v2_price.price--on-sale .price__sale .price-save-percentage,
+.v2-sa-form-wrapper form label div {
   font-size: 1.8rem;
 }
 @media (max-width: 640px) {
-  ._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-form form label div p, .v2-section-form form input::placeholder p,
-  .v2-section-form form select::placeholder p,
-  .v2-section-form form textarea::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
-  .v2_price.price--on-sale .price__sale .price-save-percentage p,
+  ._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
+  .v2_price.price--on-sale .price__sale .price-save-percentage p, .v2-sa-form-wrapper form label div p,
   ._font-copy-m,
   .v2-section-producthero .v2-pt-ribbon,
-  .v2-section-form form label div,
-  .v2-section-form form input::placeholder,
-  .v2-section-form form select::placeholder,
-  .v2-section-form form textarea::placeholder,
-  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
   .price.price--on-sale .price__sale .price-save-percentage,
-  .v2_price.price--on-sale .price__sale .price-save-percentage {
+  .v2_price.price--on-sale .price__sale .price-save-percentage,
+  .v2-sa-form-wrapper form label div {
     font-size: 1.6rem;
   }
 }
@@ -3981,13 +3952,6 @@ a {
   color: #abacb8;
   font-size: 1.8rem;
 }
-.v2-sa-form-wrapper form input::placeholder,
-.v2-sa-form-wrapper form select::placeholder,
-.v2-sa-form-wrapper form textarea::placeholder {
-  font-size: 1.8rem !important;
-  color: var(--color-dark-blue) !important;
-  opacity: 0.4;
-}
 .v2-sa-form-wrapper form textarea {
   min-height: 10rem;
 }
@@ -4090,6 +4054,24 @@ a {
   height: calc(100% - 0.8rem);
   z-index: -1;
   background: #00064c !important;
+}
+
+.v2-sa-form-wrapper form input::placeholder,
+.v2-sa-form-wrapper form select::placeholder,
+.v2-sa-form-wrapper form textarea::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 1.8rem !important;
+  color: var(--color-dark-blue) !important;
+  opacity: 0.4;
+}
+@media (max-width: 640px) {
+  .v2-sa-form-wrapper form input::placeholder,
+  .v2-sa-form-wrapper form select::placeholder,
+  .v2-sa-form-wrapper form textarea::placeholder {
+    font-size: 1.6rem;
+  }
 }
 
 .shopify-section .-decal-top:before,
@@ -5362,11 +5344,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular {
   color: var(--color-secondary);
 }
-.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-m, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-producthero .v2-pt-ribbon, .v2-section-producthero .v2-section-slideshow .-slide-type-blue .v2-row .v2-pt-ribbon, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form label div, .v2-section-form form label .v2-section-slideshow .-slide-type-blue .v2-row div, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form input::placeholder, .v2-section-form form .v2-section-slideshow .-slide-type-blue .v2-row input::placeholder,
-.v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form select::placeholder,
-.v2-section-form form .v2-section-slideshow .-slide-type-blue .v2-row select::placeholder,
-.v2-section-slideshow .-slide-type-blue .v2-row .v2-section-form form textarea::placeholder,
-.v2-section-form form .v2-section-slideshow .-slide-type-blue .v2-row textarea::placeholder, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row input::placeholder, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row .v2-section-slideshow .-slide-type-blue .v2-row label, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-save-percentage, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-save-percentage,
+.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-m, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-producthero .v2-pt-ribbon, .v2-section-producthero .v2-section-slideshow .-slide-type-blue .v2-row .v2-pt-ribbon, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row .v2-section-slideshow .-slide-type-blue .v2-row label, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form label div, .v2-sa-form-wrapper form label .v2-section-slideshow .-slide-type-blue .v2-row div, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-save-percentage, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-save-percentage,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2_price.price--on-sale .price__sale .price-save-percentage,
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-save-percentage {
   font-style: italic;
@@ -5638,11 +5616,6 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   box-shadow: 0 1px 8px 0 rgba(0, 38, 139, 0.08);
   border: none !important;
 }
-.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder {
-  font-size: 1.8rem !important;
-  color: var(--color-dark-blue) !important;
-  opacity: 0.4;
-}
 .v2-section-newsletter.-type-brochure .page-width {
   padding-top: 0;
   padding-bottom: 0;
@@ -5705,6 +5678,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   }
   .v2-section-newsletter.-type-brochure .v2-fp-content.v2-sa-form-wrapper .v2-fp-form {
     margin-top: 0;
+    padding: 2.4rem;
   }
 }
 @media (max-width: 640px) {
@@ -5733,6 +5707,20 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   }
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label {
     font-size: 1.6rem !important;
+  }
+}
+
+.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 1.8rem !important;
+  color: var(--color-dark-blue) !important;
+  opacity: 0.4;
+}
+@media (max-width: 640px) {
+  .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form input::placeholder {
+    font-size: 1.6rem;
   }
 }
 
@@ -6126,6 +6114,91 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 }
 .v2-section-image-slider.-decal-top:before, .v2-section-image-slider.-decal-bottom:after {
   background: white;
+}
+
+.v2-section-grid .v2-gr-members {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8rem;
+  column-gap: 5rem;
+  margin-top: 8rem;
+  max-width: 113.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.v2-section-grid .v2-gr-members .v2-gr-subheadline {
+  margin-top: 1.6rem;
+}
+.v2-section-grid .v2-gr-members .v2-gr-member {
+  flex: 1 1 calc(33.333333333% - 3.5333333333rem);
+  border-left: 0.2rem solid var(--color-light-blue);
+}
+.v2-section-grid .v2-gr-members .v2-gr-member .v2-gr-content {
+  padding: 0 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.v2-section-grid .v2-gr-members .v2-gr-image {
+  width: 15rem;
+  padding-top: 15rem;
+  position: relative;
+  box-shadow: 0.6rem 0.7rem 0 0 var(--color-primary);
+}
+.v2-section-grid .v2-gr-members .v2-gr-image img {
+  filter: grayscale(1);
+}
+.v2-section-grid .v2-gr-members .v2-gr-person {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.v2-section-grid .v2-gr-members .v2-gr-person .v2-gr-name {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.v2-section-grid .v2-gr-members .v2-gr-person .v2-gr-position {
+  margin-top: 0.8rem;
+  border-radius: 0.4rem;
+  background: rgba(0, 38, 139, 0.12);
+  padding: 0.4rem 0.8rem;
+  display: flex;
+  min-height: 3.1rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  line-height: 1.1 !important;
+}
+.v2-section-grid .v2-gr-members .v2-gr-info {
+  margin-top: 2rem;
+}
+@media (max-width: 880px) {
+  .v2-section-grid .v2-gr-members .v2-gr-member {
+    flex: 1 1 calc(50% - 5.3rem);
+  }
+}
+@media (max-width: 480px) {
+  .v2-section-grid .v2-gr-members {
+    margin-top: 3rem;
+    row-gap: 4rem;
+  }
+  .v2-section-grid .v2-gr-members .v2-gr-member {
+    flex: 1 1 100%;
+  }
+  .v2-section-grid .v2-gr-members .v2-gr-member .v2-gr-info {
+    margin-top: 0;
+  }
+  .v2-section-grid .v2-gr-members .v2-gr-member .v2-gr-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+    padding: 0 1.6rem;
+  }
+  .v2-section-grid .v2-gr-members .v2-gr-member .v2-gr-image {
+    width: 9.6rem;
+    padding-top: 9.6rem;
+  }
 }
 
 /*# sourceMappingURL=_study-active.css.map */

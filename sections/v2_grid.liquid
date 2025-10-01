@@ -90,7 +90,53 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        v2_grid
+        <div class="v2-gr-heading">
+
+            {% render 'v2-heading', data: section.settings, classes: "" %}
+
+            {% render 'v2-text', data: section.settings, classes: " v2-gr-subheadline ", prefix: '', no_remove_p: true %}
+
+        </div>
+
+        <div class="v2-gr-members">
+
+            {% for block in section.blocks %}
+                {% case block.type %}
+
+                    {% when 'member' %}
+                    <div class="v2-gr-member">
+                        <div class="v2-gr-content">
+
+                            <div class="v2-gr-image v2-image-container">
+                                {% if block.settings.image != blank %}
+                                    {{ block.settings.image
+                                        | image_url: width: 500
+                                        | image_tag }}
+                                {% endif %}
+                            </div>
+
+                            <div class="v2-gr-person">
+
+                                <div class="v2-gr-name _font-copy-xl">
+                                    {{ block.settings.name }}
+                                </div>
+
+                                <div class="v2-gr-position _font-copy-m">
+                                    {{ block.settings.position }}
+                                </div>
+
+                            </div>
+
+                            <div class="v2-gr-info _font-copy-m">
+                                {{ block.settings.info }}
+                            </div>
+
+                        </div>
+                    </div>
+
+                {% endcase %}
+            {% endfor %}
+        </div>
 
     </div> {% # /PAGE WIDTH %}
 </div>
