@@ -564,7 +564,7 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 140
+        "margin_bottom": 64
       }
     },
     "v2_hero_6e4NMx": {
@@ -615,17 +615,18 @@
         "card_4jFXj6": {
           "type": "card",
           "settings": {
-            "title_text": "<p><strong>Interview guarantee</strong></p>",
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Short description</p>",
+            "text": "<p>Save money with our discounted full payment option.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "",
+            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
+            "claim_text_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -633,17 +634,18 @@
         "card_3VyYGW": {
           "type": "card",
           "settings": {
-            "title_text": "<p><strong>CV writing support</strong></p>",
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Short description</p>",
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "",
+            "claim_text": "<p><strong>From £49/month available </strong></p>",
             "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
+            "claim_text_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -651,17 +653,18 @@
         "card_jwQbMY": {
           "type": "card",
           "settings": {
-            "title_text": "<p><strong>Career guidance</strong></p>",
+            "image": "shopify://shop_images/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Short description</p>",
+            "text": "<p>Subject to status, spread payments interest-free</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "",
+            "claim_text": "<p><strong>Terms and conditions apply</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
+            "claim_text_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -676,7 +679,7 @@
       "settings": {
         "bkgr_color": "white",
         "card_layout": "vertical",
-        "heading_text": "<p>Guaranteed job interview promise</p>",
+        "heading_text": "<p>Flexible payment options</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -684,7 +687,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "medium",
-        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees. </p>",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
