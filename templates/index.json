@@ -799,7 +799,7 @@
         "button_new_window": true,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
