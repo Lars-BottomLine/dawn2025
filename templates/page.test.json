@@ -1479,8 +1479,116 @@
     },
     "v2_grid_K49P6k": {
       "type": "v2_grid",
+      "blocks": {
+        "member_c3T8Cm": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_21.png",
+            "name": "Debra Stuart",
+            "position": "CEO",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national standards."
+          }
+        },
+        "member_gcbVTU": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Julian_Berriman_Portrait_small_7f13f7ad-597f-4ca5-96ad-4450ce911ba3.webp",
+            "name": "Julian Berriman",
+            "position": "Director of Education",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer."
+          }
+        },
+        "member_X6fQH8": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/anne-nixon.jpg",
+            "name": "Carly Wallace",
+            "position": "Managing Director",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping."
+          }
+        },
+        "member_gKnt6Y": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_21.png",
+            "name": "Debra Stuart",
+            "position": "CEO",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national standards."
+          }
+        },
+        "member_tpnx7P": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Julian_Berriman_Portrait_small_7f13f7ad-597f-4ca5-96ad-4450ce911ba3.webp",
+            "name": "Julian Berriman",
+            "position": "Director of Education",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer."
+          }
+        },
+        "member_6EPB8D": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/anne-nixon.jpg",
+            "name": "Carly Wallace",
+            "position": "Managing Director",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping."
+          }
+        },
+        "member_CNHATk": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_21.png",
+            "name": "Debra Stuart",
+            "position": "CEO",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national standards."
+          }
+        },
+        "member_JYzc7P": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Julian_Berriman_Portrait_small_7f13f7ad-597f-4ca5-96ad-4450ce911ba3.webp",
+            "name": "Julian Berriman",
+            "position": "Director of Education",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer."
+          }
+        },
+        "member_xQeRw3": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/anne-nixon.jpg",
+            "name": "Carly Wallace",
+            "position": "Managing Director",
+            "info": "Debra Stuart is a seasoned leader in the health and fitness industry with over 40 years of experience, ranging from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping."
+          }
+        }
+      },
+      "block_order": [
+        "member_c3T8Cm",
+        "member_gcbVTU",
+        "member_X6fQH8",
+        "member_gKnt6Y",
+        "member_tpnx7P",
+        "member_6EPB8D",
+        "member_CNHATk",
+        "member_JYzc7P",
+        "member_xQeRw3"
+      ],
       "name": "t:lesections.v2_grid.presets.name",
       "settings": {
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": false,
