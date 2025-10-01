@@ -1590,7 +1590,7 @@
         "text_align": "center",
         "text_width": "full",
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
