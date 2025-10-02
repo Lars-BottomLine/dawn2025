@@ -179,14 +179,14 @@
     },
 
     "v2_newsletter": {
-      "name": "v2 - Forms Plus",
+      "name": "v2 - Form Plus",
       "form_type": {
         "label": "Form type",
         "newsletter": "Newsletter",
         "brochure": "Brochure"
       },
       "presets": {
-        "name": "v2 - Forms Plus"
+        "name": "v2 - Form Plus"
       }
     },
 
