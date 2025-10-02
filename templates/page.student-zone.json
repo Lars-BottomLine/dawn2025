@@ -113,36 +113,78 @@
         "accordion_row_ifBdUm": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Question 1",
-            "row_content": "<p>answer</p>"
+            "heading": "Q. What is blended learning?",
+            "row_content": "<p>Blended learning means you can enjoy the benefits of flexible online study combined with practical hands-on experience. You will complete your theory through interactive e learning, videos and live webinars which you can join from anywhere. If practical skills are part of your course, you can attend friendly and focused drop in assessment workshops where you can put what you have learned into practice. </p><p>Some courses have mandatory workshops, we list available dates before you enrol so you can plan confidently. </p>"
           }
         },
         "accordion_row_Y8b643": {
           "type": "accordion_row",
           "settings": {
-            "heading": "question 2",
-            "row_content": ""
+            "heading": "Q. Do I have to attend any sessions in person?",
+            "row_content": "<p>Many of our courses can be completed entirely online. Where practical training is needed you can either attend in person at one of our nationwide training locations or submit your practical work via video from your own gym.  Some courses have mandatory workshops, and we list available dates before you enrol so you can plan with confidence. </p><p>Our workshop locations can be viewed <a href=\"https://studyactive.co.uk/pages/training-venues-and-locations\" title=\"https://studyactive.co.uk/pages/training-venues-and-locations\">here.</a></p>"
           }
         },
         "accordion_row_xmdHHG": {
           "type": "accordion_row",
           "settings": {
-            "heading": "question 3",
-            "row_content": ""
+            "heading": "Q. Are these courses nationally recognise?",
+            "row_content": "<p> Yes. Every Study Active qualification is accredited by Active IQ, Focus Awards or another nationally recognised awarding body. Most are courses are also endorsed by CIMSPA which means your qualification meets industry standards and is recognised across the UK fitness sector. Accreditation details are clearly listed on each course page.</p>"
           }
         },
         "accordion_row_tWzhNg": {
           "type": "accordion_row",
           "settings": {
-            "heading": "question 4",
-            "row_content": ""
+            "heading": "Q. Are there any entry requirements? ",
+            "row_content": "<p>This depends on the specific course. Some courses require a minimum age or previous qualification while others are open to complete beginners. The entry requirements for each course are listed clearly on the course page so you know exactly where you stand.</p>"
           }
         },
         "accordion_row_eJrDRg": {
           "type": "accordion_row",
           "settings": {
-            "heading": "question 5",
-            "row_content": ""
+            "heading": "Q. What support will I get during my course?",
+            "row_content": "<p>As much support as you need. Our tutors are experienced, friendly and committed to helping you succeed. Whether you prefer email, a phone call or a one-to-one video session, we are here to guide you through every stage of your learning.</p>"
+          }
+        },
+        "accordion_row_86a6cw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Q. What technology will I need? ",
+            "row_content": "<p>You will need a computer, laptop or tablet with a reliable internet connection to access your e learning and webinars. If you have a virtual assessment, you will also need a device capable of recording video such as a smartphone.</p>"
+          }
+        },
+        "accordion_row_DLnGYT": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Q. How will I be assessed? ",
+            "row_content": "<p>We use a range of assessments so you can demonstrate your learning in different ways. This can include worksheets, written assignments, multiple choice theory tests and practical demonstrations. Theory work can usually be submitted at a time that suits you. For practical elements you can either attend an assessment day at one of our locations or submit a video assessment.</p>"
+          }
+        },
+        "accordion_row_gdDFni": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Q. What happens if I do not pass an assessment the first time? ",
+            "row_content": "<p>You can resubmit coursework at no extra cost. For theory or practical assessments there may be a small fee after three attempts. We will always work with you to address any areas you find challenging so that you can move forward confidently.</p>"
+          }
+        },
+        "accordion_row_tUyE76": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Q. How long will I have access to my course? ",
+            "row_content": "<p>Your access lasts for 12 months from the date you enrol. If you need more time we can arrange an extension for an additional fee.</p>"
+          }
+        },
+        "accordion_row_M9Brmq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Q. How long does it take to finish a course? ",
+            "row_content": "<p>Most learners studying part time complete their course in around four to six months. Some prefer to study intensively and qualify sooner. The pace is entirely up to you.</p>"
+          }
+        },
+        "accordion_row_H3HHCy": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Q. Can I defer my studies? ",
+            "row_content": "<p>Yes. If your circumstances change, we can discuss deferral options and help you arrange to restart when you are ready.</p>"
           }
         }
       },
@@ -151,7 +193,13 @@
         "accordion_row_Y8b643",
         "accordion_row_xmdHHG",
         "accordion_row_tWzhNg",
-        "accordion_row_eJrDRg"
+        "accordion_row_eJrDRg",
+        "accordion_row_86a6cw",
+        "accordion_row_DLnGYT",
+        "accordion_row_gdDFni",
+        "accordion_row_tUyE76",
+        "accordion_row_M9Brmq",
+        "accordion_row_H3HHCy"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
