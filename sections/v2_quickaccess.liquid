@@ -96,12 +96,14 @@
 
                 <div class="v2-qa-box v2-qa-first">
 
-                    <div class="">
+                    <div class="v2-qa-top">
 
                         {% if section.settings.image != blank %}
-                            {{ section.settings.image
-                                | image_url: width: 200
-                                | media_tag }}
+                            <div class="v2-qa-image">
+                                {{ section.settings.image
+                                    | media_tag
+                                }}
+                            </div>
                         {% endif %}
 
                         {% render 'v2-heading', data: section.settings, classes: "" %}
@@ -110,19 +112,29 @@
 
                     {% render 'v2-text', data: section.settings, classes: "", no_remove_p: true %}
 
+                    {% render 'v2-button', data: section.settings, classes: "" %}
+
                 </div>
 
-                <div class="v2-qa-second">
+                <div class="v2-qa-box v2-qa-second">
 
-                    {% if section.settings.dos_image != blank %}
-                        {{ section.settings.dos_image
-                        | image_url: width: 200
-                        | media_tag }}
-                    {% endif %}
+                    <div class="v2-qa-top">
 
-                    {% render 'v2-heading', data: section.settings, classes: "", prefix: 'dos_' %}
+                        {% if section.settings.dos_image != blank %}
+                            <div class="v2-qa-image">
+                                {{ section.settings.dos_image
+                                    | media_tag
+                                }}
+                            </div>
+                        {% endif %}
+
+                        {% render 'v2-heading', data: section.settings, classes: "", prefix: 'dos_' %}
+
+                    </div>
 
                     {% render 'v2-text', data: section.settings, classes: "", prefix: 'dos_', no_remove_p: true %}
+
+                    {% render 'v2-button', data: section.settings, classes: "", prefix: 'dos_' %}
 
                 </div>
 
@@ -133,7 +145,7 @@
                     {% if section.settings.image != blank %}
                         {{ section.settings.right_image
                             | image_url: width: 800
-                            | media_tag }}
+                            | image_tag }}
                     {% endif %}
                 </div>
             </div>
