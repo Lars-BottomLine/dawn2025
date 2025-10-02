@@ -6218,6 +6218,9 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   width: 8rem;
   max-height: 8rem;
 }
+.v2-section-quickaccess .v2-qa-wrapper .v2-image-container {
+  height: 100%;
+}
 .v2-section-quickaccess .v2-qa-wrapper .v2-qa-right {
   flex: 0 1 74.6rem;
   position: relative;
