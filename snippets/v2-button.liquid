@@ -8,24 +8,41 @@
             button_url: { string }
             button_icon: { image }
             button_align: { string }
+            new_window: { boolean }
   }
-  - classes: { string }
+  - classes: { string },
+  - prefix: { string }
 
   Usage:
   {% render 'v2-button', data: data %}
 {% endcomment %}
 
 {% liquid
+
+    # KEYS
+    assign key_button_icon = 'button_icon'
+    assign key_button_text = 'button_text'
+    assign key_button_url = 'button_url'
+    assign key_new_window = 'new_window'
+
+    if prefix and prefix != blank
+        assign key_button_icon =  prefix | append: key_button_icon
+        assign key_button_text =  prefix | append: key_button_text
+        assign key_button_url =  prefix | append: key_button_url
+        assign key_new_window =  prefix | append: key_new_window
+    endif
+
+
     assign tag = 'div'
     assign href = ''
     assign new_window = ''
 
-    if data.button_url != blank
+    if data[ key_button_url ] != blank
         assign tag = 'a'
-        assign href = ' href="' | append: data.button_url | append: '"'
+        assign href = ' href="' | append: data[ key_button_url ] | append: '"'
     endif
 
-    if data.new_window and data.new_window == true and tag != 'a'
+    if data[ key_new_window ] and data[ key_new_window ] == true and tag != 'a'
         assign new_window = ' target="_blank" '
     endif
 
@@ -35,22 +52,22 @@
 
 %}
 
-{% if data.button_text != blank or data.button_icon != blank %}
+{% if data[ key_button_text ] != blank or data[ key_button_icon ] != blank %}
 
     <{{ tag }} class="v2-button {{ classes }}" {{ href }} {{ new_window }}>
 
         <span>
 
-            {%- if data.button_icon -%}
+            {%- if data[ key_button_icon ] -%}
             <div class="v2-button-icon">
-                {{ data.button_icon
+                {{ data[ key_button_icon ]
                 | image_url: width: 44
-                | image_tag: alt: data.button_icon.alt
+                | image_tag: alt: data[ key_button_icon ].alt
                 }}
             </div>
             {%- endif -%}
 
-            {{ data.button_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+            {{ data[ key_button_text ] | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
 
         </span>
 
