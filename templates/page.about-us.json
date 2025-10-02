@@ -277,6 +277,15 @@
             "info": "With 14 years of experience in the fitness industry, Rebecca Ireland is the Lead Tutor Assessor at Study Active. Originally beginning in group fitness classes, she became qualified to teach Group Exercise and Personal Training, and has spent the last decade sharing her knowledge and passion for fitness with others. Outside of work, Rebecca stays active by competing in Ultra Challenges, playing netball, weight training, and running outdoors with her two energetic children."
           }
         },
+        "member_BL7RCd": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Kelly_headshot.jpg",
+            "name": "Kelly O'Regan",
+            "position": "Tutor and Assessor",
+            "info": "Kelly O’Regan has been with Study Active as a tutor and assessor since May 2023. Prior to this, she worked as a leisure club supervisor, personal trainer, and ran her own one-to-one swimming instruction business. Kelly enjoys walking, running, and maintaining a hybrid training regime, while also dedicating valuable time to her family. She is passionate about promoting and educating others on the benefits of leading a healthy lifestyle and the positive impact it can have both physically and mentally."
+          }
+        },
         "member_RYqJQb": {
           "type": "member",
           "settings": {
@@ -321,6 +330,7 @@
         "member_XEVVDU",
         "member_7PaAJz",
         "member_UhVqqj",
+        "member_BL7RCd",
         "member_RYqJQb",
         "member_M8fdKe",
         "member_iU4cRU"
