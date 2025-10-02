@@ -229,7 +229,7 @@
             "image": "shopify://shop_images/Headshot_5.jpg",
             "name": "Chris Walsh",
             "position": "Tutor and Assessor",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+            "info": "Chris Walsh has been actively involved in fitness coaching for over 20 years, bringing a wealth of personal training experience to Study Active. He is a fully qualified tutor and assessor, passionate about helping students achieve both their fitness goals and career aspirations. Chris values physical movement alongside mental strength and focus, and brings a calm, friendly, and approachable style to his work. At Study Active, he regularly conducts gym and personal training assessments while providing exceptional coaching and mentoring to students."
           }
         },
         "member_3GakDn": {
@@ -256,7 +256,7 @@
             "image": "shopify://shop_images/Headshot_3.jpg",
             "name": "Colin Archer",
             "position": "Tutor and Assessor",
-            "info": ""
+            "info": "Colin Archer has been involved in the fitness industry for many years and has a genuine passion for all aspects of health and fitness. With extensive experience in personal training, he helps clients achieve their fitness goals safely and efficiently. Colin is a fully qualified assessor and draws on his wealth of knowledge to guide students in turning their aspirations into reality, supporting them as they pursue the careers they desire. He conducts gym instructing and personal training assessments, preparing students with essential coaching skills and key practical insights."
           }
         },
         "member_7PaAJz": {
@@ -289,6 +289,7 @@
         "member_RYqJQb": {
           "type": "member",
           "settings": {
+            "image": "shopify://shop_images/IMG-20251002-WA0015.jpg",
             "name": "Lucinda Thiara",
             "position": "Sales Administrator",
             "info": ""
