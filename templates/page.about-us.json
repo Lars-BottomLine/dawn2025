@@ -142,9 +142,19 @@
             "info": "Julian Berriman is our Director of Education and brings over 30 years of experience in fitness education, curriculum design, and workforce development. He leads the design and delivery of training programmes that equip future fitness and wellness professionals with the skills, knowledge, and confidence needed to succeed in the industry. Julian also serves as Chair of EuropeActive’s Professional Standards Committee, overseeing the Sector Qualifications Framework and representing educational standards internationally. Alongside his role at Study Active, he continues to practise as an osteopath and personal trainer, maintaining his passion for health, fitness, and lifelong learning."
           }
         },
+        "member_jePAtB": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7919_1.jpg",
+            "name": "Jessica Hall",
+            "position": "Careers Advisor",
+            "info": "Jessica brings experience in coaching, fitness instruction and sales to her role as Careers Adviser. With a strong passion for supporting individuals to achieve their goals, she draws on her background as a coach and instructor to motivate and mentor learners. At Study Active, Jessica provides guidance and encouragement to help learners build confidence, make informed choices and take the next steps towards their careers in the fitness industry."
+          }
+        },
         "member_MYn4Mn": {
           "type": "member",
           "settings": {
+            "image": "shopify://shop_images/1739004541621.jpg",
             "name": "Debra Stuart",
             "position": "CEO",
             "info": "Debra Stuart is the CEO of Study Active and a seasoned leader in the health and fitness industry with over 40 years of experience. Her career spans from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national training and education standards. A Chartered Director and Fellow of the Institute of Directors, Debra has played a pivotal role in developing high-quality qualifications and frameworks, including during her tenure as CEO of Premier Global and Treasurer of ukactive. At Study Active, she continues her mission to raise industry standards by promoting accessible, evidence-based education and supporting clear career pathways for future professionals."
@@ -207,6 +217,7 @@
       },
       "block_order": [
         "member_R4AhB8",
+        "member_jePAtB",
         "member_MYn4Mn",
         "member_hfCaGc",
         "member_JfdCqy",
