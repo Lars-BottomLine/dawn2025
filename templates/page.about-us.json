@@ -247,7 +247,7 @@
             "image": "shopify://shop_images/Headshot_6.jpg",
             "name": "Heather Walker",
             "position": "Senior Tutor and Assessor",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+            "info": "Heather Walker is a tutor and assessor at Study Active and has been with the organisation since 2021. Fitness and movement have always been a central part of her life, from dance and gymnastics in her early years to aerial arts and pole fitness, where she has represented Great Britain three times in the World Pole Sport Championships. She holds a variety of instructor qualifications across personal training, dance, gymnastics, aerial arts, pole fitness, and bungee fitness, and owns her own aerial arts studio. Heather brings her extensive experience and passion for movement to every learner she supports."
           }
         },
         "member_XEVVDU": {
@@ -256,6 +256,23 @@
             "image": "shopify://shop_images/Headshot_3.jpg",
             "name": "Colin Archer",
             "position": "Tutor and Assessor",
+            "info": ""
+          }
+        },
+        "member_UhVqqj": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/DSCN0733.jpg",
+            "name": "Rebecca Ireland",
+            "position": "Lead Tutor and Assessor",
+            "info": "With 14 years of experience in the fitness industry, Rebecca Ireland is the Lead Tutor Assessor at Study Active. Originally beginning in group fitness classes, she became qualified to teach Group Exercise and Personal Training, and has spent the last decade sharing her knowledge and passion for fitness with others. Outside of work, Rebecca stays active by competing in Ultra Challenges, playing netball, weight training, and running outdoors with her two energetic children."
+          }
+        },
+        "member_RYqJQb": {
+          "type": "member",
+          "settings": {
+            "name": "Lucinda Thiara",
+            "position": "Sales Administrator",
             "info": ""
           }
         },
@@ -293,6 +310,8 @@
         "member_3GakDn",
         "member_WR3JVa",
         "member_XEVVDU",
+        "member_UhVqqj",
+        "member_RYqJQb",
         "member_M8fdKe",
         "member_iU4cRU"
       ],
