@@ -112,7 +112,9 @@
 
                     {% render 'v2-text', data: section.settings, classes: "", no_remove_p: true %}
 
-                    {% render 'v2-button', data: section.settings, classes: "" %}
+                    <div class="flex-grow-1 flex items-end">
+                        {% render 'v2-button', data: section.settings, classes: "" %}
+                    </div>
 
                 </div>
 
@@ -134,7 +136,9 @@
 
                     {% render 'v2-text', data: section.settings, classes: "", prefix: 'dos_', no_remove_p: true %}
 
-                    {% render 'v2-button', data: section.settings, classes: "", prefix: 'dos_' %}
+                    <div class="flex-grow-1 flex items-end">
+                        {% render 'v2-button', data: section.settings, classes: "", prefix: 'dos_' %}
+                    </div>
 
                 </div>
 
