@@ -21,34 +21,14 @@
     "v2_hero_k3BEND": {
       "type": "v2_hero",
       "blocks": {
-        "slide_Pfdh34": {
-          "type": "slide",
-          "settings": {
-            "slide_type": "onecol",
-            "heading_text": "",
-            "heading_type": "h1",
-            "heading_size": "h1",
-            "heading_strong_accented": false,
-            "heading_no_decal": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "button_text": "",
-            "button_url": "",
-            "button_style": "primary",
-            "button_size": "small",
-            "button_new_window": false
-          }
-        },
         "slide_D3F6QX": {
           "type": "slide",
           "settings": {
             "slide_type": "onecol",
-            "heading_text": "",
+            "heading_text": "<p>Building Success<br/><strong>Through Partnerships</strong></p>",
             "heading_type": "h1",
             "heading_size": "h1",
-            "heading_strong_accented": false,
+            "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "",
             "text_size": "copy-l",
@@ -63,7 +43,6 @@
         }
       },
       "block_order": [
-        "slide_Pfdh34",
         "slide_D3F6QX"
       ],
       "name": "t:lesections.hero.presets.name",
