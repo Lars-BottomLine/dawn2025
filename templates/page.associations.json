@@ -162,12 +162,110 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_cards_4N9LRb": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_REn9YG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L4_Nutritionist.png",
+            "title_text": "<p><strong>The Chartered Institute for the Management of Sport and Physical Activity</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Deepen your impact with courses designed to support the whole person. <br/>Coach your clients to better understand mental health, or offer specialist<br/>support for long-term conditions.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_nJFkGM": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_FYYnw4": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_REn9YG",
+        "card_nJFkGM",
+        "card_FYYnw4"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "card_layout": "wide",
+        "heading_text": "<p>Industry Bodies & Awarding Organisations</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "v2_hero_k3BEND",
     "v2_text_plus_image_NKhePQ",
-    "v2_flexible_Hpig6A"
+    "v2_flexible_Hpig6A",
+    "v2_cards_4N9LRb"
   ]
 }
