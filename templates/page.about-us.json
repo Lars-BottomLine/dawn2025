@@ -133,16 +133,86 @@
     "v2_grid_WENFea": {
       "type": "v2_grid",
       "blocks": {
+        "member_R4AhB8": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/JB_Image.jpg",
+            "name": "Julian Berriman",
+            "position": "Director of Education",
+            "info": "Julian Berriman is our Director of Education and brings over 30 years of experience in fitness education, curriculum design, and workforce development. He leads the design and delivery of training programmes that equip future fitness and wellness professionals with the skills, knowledge, and confidence needed to succeed in the industry. Julian also serves as Chair of EuropeActive’s Professional Standards Committee, overseeing the Sector Qualifications Framework and representing educational standards internationally. Alongside his role at Study Active, he continues to practise as an osteopath and personal trainer, maintaining his passion for health, fitness, and lifelong learning."
+          }
+        },
+        "member_MYn4Mn": {
+          "type": "member",
+          "settings": {
+            "name": "Debra Stuart",
+            "position": "CEO",
+            "info": "Debra Stuart is the CEO of Study Active and a seasoned leader in the health and fitness industry with over 40 years of experience. Her career spans from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national training and education standards. A Chartered Director and Fellow of the Institute of Directors, Debra has played a pivotal role in developing high-quality qualifications and frameworks, including during her tenure as CEO of Premier Global and Treasurer of ukactive. At Study Active, she continues her mission to raise industry standards by promoting accessible, evidence-based education and supporting clear career pathways for future professionals."
+          }
+        },
+        "member_hfCaGc": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/105.jpg",
+            "name": "Cara Standley",
+            "position": "Lead Internal Verification",
+            "info": "Cara’s passion for the fitness industry began in the 1990s when she qualified as a studio instructor. She progressed to personal training before discovering her enthusiasm for tutoring and joining a UK training provider. Her drive to raise the standard of fitness education took her to the Middle East, where she lived and worked for ten years and introduced regulated UK qualifications to the region. Now back in the UK, Cara continues to mentor fitness professionals who aspire to become tutors and delivers specialist qualifications such as Pre and Postnatal Fitness and Menopause Support. At Study Active, she is responsible for the Internal Verification strategy and standardisation."
+          }
+        },
+        "member_JfdCqy": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3984.jpg",
+            "name": "Hannah Feeney",
+            "position": "Social Media & Content Manager",
+            "info": "Hannah Feeney is our Social Media and Content Manager and has built her career around creativity, marketing, and communication. With experience across marketing, e-commerce, and content creation for brands in health, technology, and retail, she has developed expertise in social media strategy, content design, and campaign optimisation. At Study Active, Hannah manages all digital communications, ensuring the brand’s voice is professional, engaging, and informative. Outside of work, she is passionate about fitness and enjoys training for endurance events, including HYROX and half marathons."
+          }
+        },
+        "member_UQhanA": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/DSCN0739.jpg",
+            "name": "Claire McMenamin",
+            "position": "Careers Adviser",
+            "info": "Claire has over 30 years of experience in education and learning, beginning her career in course development at the University of Cambridge Exam Board before moving into employee development as a learning and development adviser and facilitator. She has worked with a wide range of organisations, from a major car manufacturer to a national housing association, supporting learners from apprentices through to middle management. At Study Active, Claire uses her experience to guide and advise learners on the best course choices to achieve their career goals in the fitness industry."
+          }
+        },
+        "member_7tkqRc": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/DSCN0759.jpg",
+            "name": "Elise Bowles",
+            "position": "Career Advisor",
+            "info": "Elise Bowles is our Career Advisor and is dedicated to supporting learners as they take their first steps towards a successful career in the fitness industry. Before joining Study Active, she spent four years at awarding organisation Active IQ, where she gained extensive experience in customer experience, fitness education, and qualification frameworks. At Study Active, Elise guides prospective students through the decision-making and enrolment process and also represents the organisation at events, where she enjoys connecting with learners and partners. Outside of work, Elise is a qualified Rebound Fit instructor and is passionate about health, movement, and inspiring others to stay active."
+          }
+        },
+        "member_CArk9h": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/DSCN0753.jpg",
+            "name": "Tammy Bowles",
+            "position": "Customer Experience Advisor",
+            "info": "Tammy is our Customer Experience Advisor and is dedicated to ensuring every learner’s journey from receiving course materials to achieving certification is smooth and supportive. Before joining Study Active, she gained valuable experience working at an awarding body, building strong knowledge of the fitness education sector. Alongside guiding learners with expertise and encouragement, Tammy is a qualified Rebound Fit instructor and is currently studying further industry qualifications to strengthen her skills."
+          }
+        },
         "member_iU4cRU": {
           "type": "member",
           "settings": {
-            "name": "Surname Name",
-            "position": "Team Member",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+            "image": "shopify://shop_images/me.jpg",
+            "name": "Louise Henderson",
+            "position": "Senior Tutor and Assessor",
+            "info": "With nearly 25 years of experience in the fitness industry, Louise Henderson began as a gym instructor and group exercise teacher before progressing into personal training and fitness management. After returning to the UK, she worked as an assessor and later qualified as both a tutor and Internal Verifier. Alongside teaching, Louise continues to work as a personal trainer, yoga teacher, and class instructor, ensuring her skills remain current and her passion for fitness stays at the heart of her work"
           }
         }
       },
       "block_order": [
+        "member_R4AhB8",
+        "member_MYn4Mn",
+        "member_hfCaGc",
+        "member_JfdCqy",
+        "member_UQhanA",
+        "member_7tkqRc",
+        "member_CArk9h",
         "member_iU4cRU"
       ],
       "name": "t:lesections.v2_grid.presets.name",
