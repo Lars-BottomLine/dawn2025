@@ -1307,19 +1307,10 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description": ""
           }
-        },
-        "videoblock_NAHEbh": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
         }
       },
       "block_order": [
-        "videoblock_GreLhj",
-        "videoblock_NAHEbh"
+        "videoblock_GreLhj"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
