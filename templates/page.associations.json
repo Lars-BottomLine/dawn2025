@@ -109,7 +109,7 @@
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>The professional development body for the UK’s sport and physical activity sector and a registered charity, committed to supporting, developing and enabling professionals and organisations to succeed and, as a result, inspire our nation to become more active.</p>",
+            "text": "<p></p><p>The professional development body for the UK’s sport and physical activity sector and a registered charity, committed to supporting, developing and enabling professionals and organisations to succeed and, as a result, inspire our nation to become more active.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -123,11 +123,29 @@
         "card_nJFkGM": {
           "type": "card",
           "settings": {
-            "title_text": "",
+            "title_text": "<p><strong>Active IQ</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "",
+            "text": "<p></p><p>Active IQ is one of the UK’s leading awarding organisations, regulated by Ofqual, CCEA, and Qualifications Wales. We partner with them to deliver industry recognised qualifications that meet the highest quality and compliance requirements in the active leisure sector. </p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_x8Pteb": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p><strong>Focus Awards</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p></p><p>Focus Awards isa United Kingdom-based, Ofqual-regulated awarding organisation that develops and certifies nationally recognised qualifications across various sectors. It works with approved training providers, called \"centres,\" to deliver courses to learners.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -141,11 +159,29 @@
         "card_FYYnw4": {
           "type": "card",
           "settings": {
-            "title_text": "",
+            "title_text": "<p><strong>RSPH – Royal Society for Public Health</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "",
+            "text": "<p></p><p>RSPH is an independent health education charity that promotes public health and wellbeing. Working with them reflects our commitment to delivering qualifications that support healthier, more active communities. </p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_V9JJG9": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p><strong>NCFE</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p></p><p>NCFE is a national awarding organisation with a 170-year heritage of supporting learners and educators. They are recognised by Ofqual and known for high-quality vocational qualifications that prepare students for real careers. </p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -160,7 +196,9 @@
       "block_order": [
         "card_REn9YG",
         "card_nJFkGM",
-        "card_FYYnw4"
+        "card_x8Pteb",
+        "card_FYYnw4",
+        "card_V9JJG9"
       ],
       "name": "t:lesections.cards.presets.name",
       "settings": {
@@ -188,8 +226,123 @@
         "button_align": "center",
         "custom_class_names": "",
         "decal_top": true,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_pRM7HR": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_bTN7QQ": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p><strong>McDonald Method</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p></p><p>The McDonald Method is a coaching and education platform created by Ben McDonald that blends fitness, boxing, movement, and personal development into accessible learning experiences. Its mission is to help people move better, breathe better, and connect more authentically—whether they are athletes, coaches, or everyday individuals.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_qLxQd7": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p><strong>MedFit Education</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>MedFit Education, often referred to as the MedFit Education Foundation (MFEF),is a non-profit organisation focused on providing continuing education for fitness and allied healthcare professionals.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_qqLJAH": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p><strong>Boxercise </strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Boxercise is an exercise based on boxing training, using focus pads for a fun, safe, and challenging workout, without hitting an opponent. Study Active are a proud reseller of boxercise instructor training programmes.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_hM8gap": {
+          "type": "card",
+          "settings": {
+            "title_text": "",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_bTN7QQ",
+        "card_qLxQd7",
+        "card_qqLJAH",
+        "card_hM8gap"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide",
+        "heading_text": "<p><strong>Education Partners</strong></p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -200,6 +353,7 @@
     "main",
     "v2_hero_k3BEND",
     "v2_text_plus_image_NKhePQ",
-    "v2_cards_4N9LRb"
+    "v2_cards_4N9LRb",
+    "v2_cards_pRM7HR"
   ]
 }
