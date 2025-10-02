@@ -79,10 +79,95 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_text_plus_image_NKhePQ": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_Hpig6A": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_rzLydz": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_xa4HRz": {
+          "type": "subheadline",
+          "settings": {
+            "text": "",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_rzLydz",
+        "subheadline_xa4HRz"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "v2_hero_k3BEND"
+    "v2_hero_k3BEND",
+    "v2_text_plus_image_NKhePQ",
+    "v2_flexible_Hpig6A"
   ]
 }
