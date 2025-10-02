@@ -1428,7 +1428,7 @@
       "settings": {
         "slide_type": "blog",
         "blog": "news",
-        "blog_post_limit": 2,
+        "blog_post_limit": 5,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
