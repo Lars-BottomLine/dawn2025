@@ -173,12 +173,51 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_video_PDcnGU": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_itV77E": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/videocover.png",
+            "description": ""
+          }
+        },
+        "videoblock_6RDxHG": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/videocover.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_itV77E",
+        "videoblock_6RDxHG"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "v2_hero_FfzbiP",
     "v2_quickaccess_eKY9fJ",
-    "v2_accordion_kPQHkE"
+    "v2_accordion_kPQHkE",
+    "v2_video_PDcnGU"
   ]
 }
