@@ -64,7 +64,7 @@
       "type": "v2_quickaccess",
       "name": "t:lesections.v2_quickaccess.presets.name",
       "settings": {
-        "right_image": "shopify://shop_images/studentzone.jpg",
+        "right_image": "shopify://shop_images/student-section.png",
         "image": "shopify://shop_images/icon-device-laptop.svg",
         "heading_text": "<p><strong>Quick-Access Resources</strong></p>",
         "heading_type": "h1",
