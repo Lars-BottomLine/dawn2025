@@ -64,22 +64,24 @@
       "type": "v2_quickaccess",
       "name": "t:lesections.v2_quickaccess.presets.name",
       "settings": {
-        "right_image": "shopify://shop_images/student-section.png",
+        "right_image": "shopify://shop_images/studentzone.jpg",
+        "image": "shopify://shop_images/icon-device-laptop.svg",
         "heading_text": "<p><strong>Quick-Access Resources</strong></p>",
         "heading_type": "h1",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
-        "text": "",
+        "text": "<p>Access your course content anytime, anywhere. </p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "button_text": "",
+        "button_text": "Log into LMS",
         "button_url": "",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "dos_image": "shopify://shop_images/icon-questionmark.svg",
         "dos_heading_text": "",
         "dos_heading_type": "h1",
         "dos_heading_size": "h1",
@@ -105,39 +107,57 @@
         "margin_bottom": 0
       }
     },
-    "v2_grid_HJ7BFA": {
-      "type": "v2_grid",
+    "v2_accordion_kPQHkE": {
+      "type": "v2_accordion",
       "blocks": {
-        "member_TEzUXK": {
-          "type": "member",
+        "accordion_row_ifBdUm": {
+          "type": "accordion_row",
           "settings": {
-            "name": "Surname Name",
-            "position": "Team Member",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_Y8b643": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_tWzhNg": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        },
+        "accordion_row_eJrDRg": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
           }
         }
       },
       "block_order": [
-        "member_TEzUXK"
+        "accordion_row_ifBdUm",
+        "accordion_row_Y8b643",
+        "accordion_row_tWzhNg",
+        "accordion_row_eJrDRg"
       ],
-      "name": "t:lesections.v2_grid.presets.name",
+      "name": "t:lesections.accordion.presets.name",
       "settings": {
+        "bkgr_color": "primary",
         "heading_text": "",
+        "heading_align": "center",
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": false,
-        "heading_decal_left": false,
         "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
         "custom_class_names": "",
-        "bkgr_color": "primary",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -151,6 +171,6 @@
     "main",
     "v2_hero_FfzbiP",
     "v2_quickaccess_eKY9fJ",
-    "v2_grid_HJ7BFA"
+    "v2_accordion_kPQHkE"
   ]
 }
