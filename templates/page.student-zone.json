@@ -113,8 +113,8 @@
         "accordion_row_ifBdUm": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
-            "row_content": ""
+            "heading": "Question 1",
+            "row_content": "<p>answer</p>"
           }
         },
         "accordion_row_Y8b643": {
@@ -148,7 +148,7 @@
       "name": "t:lesections.accordion.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "heading_text": "",
+        "heading_text": "<p>Frequently asked questions</p>",
         "heading_align": "center",
         "heading_type": "h1",
         "heading_size": "h1",
