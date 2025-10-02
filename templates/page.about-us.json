@@ -259,6 +259,15 @@
             "info": ""
           }
         },
+        "member_7PaAJz": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/DSCN0725.jpg",
+            "name": "Ali Gower",
+            "position": "Customer Experience Manager",
+            "info": "Ali began her career in the active leisure industry in 2002, gaining experience in a range of gym roles as well as working as a tutor and assessor for training providers. She has since moved into senior leadership positions within the awarding and healthcare sectors, leading initiatives across customer experience, operations and service delivery. At Study Active, Ali uses her sector expertise and passion for continuous improvement to optimise business processes, enhance performance and deliver excellent customer experiences."
+          }
+        },
         "member_UhVqqj": {
           "type": "member",
           "settings": {
@@ -310,6 +319,7 @@
         "member_3GakDn",
         "member_WR3JVa",
         "member_XEVVDU",
+        "member_7PaAJz",
         "member_UhVqqj",
         "member_RYqJQb",
         "member_M8fdKe",
