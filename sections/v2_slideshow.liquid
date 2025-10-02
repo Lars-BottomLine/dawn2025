@@ -91,8 +91,15 @@
 
 {% liquid
     assign iz_slide = true
+    assign iz_product = false
+    assign iz_blog = false
     if section.settings.slide_type == 'product' or section.settings.slide_type == 'bundle'
         assign iz_slide = false
+        assign iz_product = true
+    endif
+    if section.settings.slide_type == 'blog'
+        assign iz_slide = false
+        assign iz_blog = true
     endif
 %}
 
@@ -103,135 +110,140 @@
         <div id="swiper-{{ section.id }}" class="swiper v2-swiper -slide-type-{{ section.settings.slide_type }}">
             <div class="swiper-wrapper sa-col-white">
 
-            {% if iz_slide %}
-                {%- for block in section.blocks -%}
+            {% case section.settings.slide_type %}
+                {% when 'blue' or 'dark' %}
 
-                    <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                         class="swiper-slide"
-                         role="group"
-                         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                         tabindex="-1" >
+                    {%- for block in section.blocks -%}
 
-                        <div class="v2-swiper-inside">
+                        <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                             class="swiper-slide"
+                             role="group"
+                             aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                             tabindex="-1" >
 
-                            <div class="v2-slide-media media">
-                                {%- if block.settings.image -%}
-                                    {%- liquid
-                                        assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                            <div class="v2-swiper-inside">
 
-                                        assign sizes = '100vw'
-                                        assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                                <div class="v2-slide-media media">
+                                    {%- if block.settings.image -%}
+                                        {%- liquid
+                                            assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
 
-                                        assign fetch_priority = 'auto'
-                                        if section.index == 1
-                                            assign fetch_priority = 'high'
-                                        endif
-                                    -%}
-                                    {%- if forloop.first %}
-                                        {{
-                                        block.settings.image
-                                        | image_url: width: 3840
-                                        | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                        }}
+                                            assign sizes = '100vw'
+                                            assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+                                            assign fetch_priority = 'auto'
+                                            if section.index == 1
+                                                assign fetch_priority = 'high'
+                                            endif
+                                        -%}
+                                        {%- if forloop.first %}
+                                            {{
+                                            block.settings.image
+                                            | image_url: width: 3840
+                                            | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                            }}
+                                        {%- else -%}
+                                            {{
+                                            block.settings.image
+                                            | image_url: width: 3840
+                                            | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                                            }}
+                                        {%- endif -%}
                                     {%- else -%}
-                                        {{
-                                        block.settings.image
-                                        | image_url: width: 3840
-                                        | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                        }}
+                                        {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                                        {%- if placeholder_slide == 1 -%}
+                                            {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                                        {%- else -%}
+                                            {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                        {%- endif -%}
                                     {%- endif -%}
-                                {%- else -%}
-                                    {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-                                    {%- if placeholder_slide == 1 -%}
-                                        {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-                                    {%- else -%}
-                                        {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                                    {%- endif -%}
-                                {%- endif -%}
-                            </div>
+                                </div>
 
-                            <div class="v2-swiper-content">
-                                <div class="v2-row">
+                                <div class="v2-swiper-content">
+                                    <div class="v2-row">
 
-                                    {% if block.settings.headline != blank %}
-                                    <div class="_font-h3 -no-decal">
-                                        {{ block.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                        {% if block.settings.headline != blank %}
+                                        <div class="_font-h3 -no-decal">
+                                            {{ block.settings.headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                        </div>
+                                        {% endif %}
+
+                                        {% if block.settings.subheadline != blank %}
+                                        <div class="_font-copy-l">
+                                            {{ block.settings.subheadline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                        </div>
+                                        {% endif %}
+
+                                        {% if block.settings.text != blank %}
+                                        <div class="_font-copy-m font-italic">
+                                            {{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                                        </div>
+                                        {% endif %}
+
+
                                     </div>
-                                    {% endif %}
 
-                                    {% if block.settings.subheadline != blank %}
-                                    <div class="_font-copy-l">
-                                        {{ block.settings.subheadline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                                    </div>
-                                    {% endif %}
+                                    {% if block.settings.button_label != blank %}
+                                        <div class="v2-row">
+                                            <a href="#" class="sa-swiper-button -hover-grow -medium">
 
-                                    {% if block.settings.text != blank %}
-                                    <div class="_font-copy-m font-italic">
-                                        {{ block.settings.text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
-                                    </div>
-                                    {% endif %}
+                                                <span class="_font-copy-xl leading-none">
+                                                    {{ block.settings.button_label }}
+                                                </span>
 
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none" class="sa-button-icon">
+                                                <path d="M22.9873 17.2073H0.666504V13.5406H22.9873L12.7207 3.27394L15.3332 0.707275L29.9998 15.3739L15.3332 30.0406L12.7207 27.4739L22.9873 17.2073Z" fill="#39EAF6"/>
+                                            </svg>
+
+                                            </a>
+                                        </div>
+                                    {% endif %}
 
                                 </div>
 
-                                {% if block.settings.button_label != blank %}
-                                    <div class="v2-row">
-                                        <a href="#" class="sa-swiper-button -hover-grow -medium">
-
-                                            <span class="_font-copy-xl leading-none">
-                                                {{ block.settings.button_label }}
-                                            </span>
-
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none" class="sa-button-icon">
-                                            <path d="M22.9873 17.2073H0.666504V13.5406H22.9873L12.7207 3.27394L15.3332 0.707275L29.9998 15.3739L15.3332 30.0406L12.7207 27.4739L22.9873 17.2073Z" fill="#39EAF6"/>
-                                        </svg>
-
-                                        </a>
-                                    </div>
-                                {% endif %}
-
                             </div>
 
                         </div>
 
-                    </div>
+                    {% endfor %}
 
-                {% endfor %}
-            {% else %}
+                {% when 'product' or 'bundle' %}
 
-                {%- for product in collection.products -%}
+                    {%- for product in collection.products -%}
 
-                    {% assign lazy_load = false %}
-                    {%- if forloop.index > 2 -%}
-                        {%- assign lazy_load = true -%}
-                    {%- endif -%}
+                        {% assign lazy_load = false %}
+                        {%- if forloop.index > 2 -%}
+                            {%- assign lazy_load = true -%}
+                        {%- endif -%}
 
-                    {% if product.type == 'Bundle' or forloop.index == 1 or section.settings.slide_type == 'product' %}
+                        {% if product.type == 'Bundle' or forloop.index == 1 or section.settings.slide_type == 'product' %}
 
-                        {% assign thumb_id = section.id | append: forloop.index %}
+                            {% assign thumb_id = section.id | append: forloop.index %}
 
-                    <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                         class="swiper-slide"
-                         role="group"
-                         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                         tabindex="-1" >
+                        <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                             class="swiper-slide"
+                             role="group"
+                             aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                             tabindex="-1" >
 
-                        <div class="v2-swiper-inside">
-                        {% render 'v2_product-thumb',
-                                section_id: thumb_id,
-                                product: product,
-                                loopindex: forloop.index,
-                                shopify_attributes: ''
-                        %}
+                            <div class="v2-swiper-inside">
+                            {% render 'v2_product-thumb',
+                                    section_id: thumb_id,
+                                    product: product,
+                                    loopindex: forloop.index,
+                                    shopify_attributes: ''
+                            %}
+                            </div>
                         </div>
-                    </div>
 
-                    {% endif %}
-                {%- endfor -%}
+                        {% endif %}
+                    {%- endfor -%}
 
-            {% endif %}
+                {% when 'blog' %}
+
+            {% endcase %}
             </div>
 
             <div class="swiper-pagination"></div>
@@ -331,6 +343,10 @@
                     {
                         "value": "dark",
                         "label": "Dark Blue + Link"
+                    },
+                    {
+                        "value": "blog",
+                        "label": "Blog"
                     },
                     {
                         "value": "product",
