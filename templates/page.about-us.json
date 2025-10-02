@@ -18,84 +18,165 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_fiJnpp": {
-      "type": "rich-text",
+    "v2_hero_mrmGBP": {
+      "type": "v2_hero",
       "blocks": {
-        "heading_KhtiV6": {
-          "type": "heading",
+        "slide_cPhKgz": {
+          "type": "slide",
           "settings": {
-            "heading": "A team dedicated to your success",
-            "heading_size": "h1"
-          }
-        },
-        "text_XbPLYH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At Study Active, we believe fitness education should feel human, not corporate. Behind every lesson, live chat, and qualification is a team of real people who care about your journey. </p><p>From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond. </p><p>We’ve walked the same path as many of our learners, and we bring that experience into everything we do. </p><p><strong>Get to know the team that’s helping shape the next generation of fitness professionals.</strong></p>"
+            "image": "shopify://shop_images/Team_Photo_-_Black_White_Colour.png",
+            "slide_type": "onecol",
+            "heading_text": "<p>A team dedicated <br/><strong>to your success</strong></p>",
+            "heading_type": "h2",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
       "block_order": [
-        "heading_KhtiV6",
-        "text_XbPLYH"
+        "slide_cPhKgz"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:lesections.hero.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "scheme-1",
         "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 204,
+        "margin_top": 0,
+        "margin_bottom": -124
       }
     },
-    "rich_text_x66YX9": {
-      "type": "rich-text",
+    "v2_text_plus_image_ieWG7A": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/KCD_5008-Edit.jpg",
+        "heading_text": "<p><strong>Our Company Story</strong></p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p>At Study Active, we believe fitness education should feel human, not corporate.</p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>Behind every lesson, live chat, and qualification is a team of real people who care about your journey. From our expert tutors and course designers to our dedicated careers advisors, we’re here to support you from day one to the day you land your first job - and beyond.</p><p></p><p>We believe that true success is built on collaboration. By working closely with our valued partners and associations, we create strong networks that drive innovation, share expertise, and open new opportunities.</p>",
+        "text_size": "copy-m",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p><strong>Together, we’re not just building connections—we’re building lasting impact for the industry and the communities we serve.</strong></p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_zr3zz6": {
+      "type": "v2_flexible",
       "blocks": {
-        "heading_BmGCXJ": {
-          "type": "heading",
+        "headline_bVYkVG": {
+          "type": "headline",
           "settings": {
-            "heading": "Our Industry Partnerships",
-            "heading_size": "h1"
-          }
-        },
-        "text_qDnXFk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Here at <a href=\"https://studyactive.co.uk/\">Study Active </a>we recognise the importance of strong partnerships with governing body's, national registers and other professional associations to ensure we continue to provide high quality courses and qualifications that adhere to the standards and regulations of the fitness industry in the UK.</p>"
-          }
-        },
-        "button_XWd9Nh": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find out more about our parternships",
-            "button_link": "shopify://pages/associations-and-partners",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading_text": "<p>Meet the team</p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
           }
         }
       },
       "block_order": [
-        "heading_BmGCXJ",
-        "text_qDnXFk",
-        "button_XWd9Nh"
+        "headline_bVYkVG"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:lesections.flexible.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_grid_WENFea": {
+      "type": "v2_grid",
+      "blocks": {
+        "member_iU4cRU": {
+          "type": "member",
+          "settings": {
+            "name": "Surname Name",
+            "position": "Team Member",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+          }
+        }
+      },
+      "block_order": [
+        "member_iU4cRU"
+      ],
+      "name": "t:lesections.v2_grid.presets.name",
+      "settings": {
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "rich_text_fiJnpp",
-    "rich_text_x66YX9"
+    "v2_hero_mrmGBP",
+    "v2_text_plus_image_ieWG7A",
+    "v2_flexible_zr3zz6",
+    "v2_grid_WENFea"
   ]
 }
