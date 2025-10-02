@@ -47,6 +47,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "light-blue",
         "custom_class_names": "",
@@ -62,10 +63,6 @@
       "type": "v2_video",
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/personal_trainer_interview.webp",
-        "description": "",
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
@@ -99,6 +96,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "light-blue",
         "custom_class_names": "",
@@ -148,6 +146,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "light-blue",
         "custom_class_names": "",
@@ -244,6 +243,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "light-blue",
         "custom_class_names": "",
@@ -427,7 +427,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -446,7 +446,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -465,7 +465,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -526,7 +526,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -545,7 +545,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -564,7 +564,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -625,7 +625,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -644,7 +644,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -663,7 +663,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -682,7 +682,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -744,7 +744,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -763,7 +763,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -782,7 +782,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -801,7 +801,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -863,7 +863,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -882,7 +882,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -901,7 +901,7 @@
             "text_strong_accented": false,
             "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -962,7 +962,7 @@
             "text_strong_accented": false,
             "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": true,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -981,7 +981,7 @@
             "text_strong_accented": false,
             "claim_text": "<p><strong>From £49/month available </strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -1000,7 +1000,7 @@
             "text_strong_accented": false,
             "claim_text": "<p><a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
             "claim_text_size": "copy-m",
-            "claim_highlighted": false,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
@@ -1285,7 +1285,7 @@
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
-        "accordion_height": "medium",
+        "items_to_show": 4,
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": false,
@@ -1390,9 +1390,45 @@
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
+        "form_type": "newsletter",
         "image": "shopify://shop_images/gym-trainer-explaining.jpg",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
         "custom_class_names": "",
         "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_dQQAPd": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -1425,6 +1461,7 @@
     "le_text_and_background_gtyQwb",
     "le_featured_blog_phLeqa",
     "le_image_with_text_HaCjqD",
-    "v2_newsletter_EFqipn"
+    "v2_newsletter_EFqipn",
+    "v2_slideshow_dQQAPd"
   ]
 }
