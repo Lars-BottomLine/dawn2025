@@ -2992,6 +2992,7 @@ header .header__icon--cart .icon {
 
 .v2-image-container {
   display: flex;
+  position: relative;
 }
 .v2-image-container img {
   width: 100%;
@@ -6070,6 +6071,10 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   gap: 2.4rem;
   flex-direction: column;
 }
+.v2-section-quickaccess .v2-qa-wrapper .v2-button, .v2-section-quickaccess .v2-qa-wrapper .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-quickaccess .v2-qa-wrapper button#_form_1_submit {
+  margin-right: auto;
+  margin-top: 1rem;
+}
 @media (max-width: 989px) {
   .v2-section-quickaccess .v2-qa-wrapper {
     flex-wrap: wrap;
@@ -6077,6 +6082,20 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   .v2-section-quickaccess .v2-qa-wrapper .v2-qa-right,
   .v2-section-quickaccess .v2-qa-wrapper .v2-qa-left {
     flex: 0 1 100%;
+  }
+  .v2-section-quickaccess .v2-qa-wrapper .v2-heading {
+    margin-top: 0.4rem;
+  }
+  .v2-section-quickaccess .v2-qa-wrapper .v2-button, .v2-section-quickaccess .v2-qa-wrapper .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-quickaccess .v2-qa-wrapper button#_form_1_submit {
+    margin-top: 0.2rem;
+  }
+  .v2-section-quickaccess .v2-qa-wrapper .v2-qa-box {
+    width: calc(50% - 1rem);
+    gap: 1.6rem;
+  }
+  .v2-section-quickaccess .v2-qa-wrapper .v2-qa-left .v2-qa-image {
+    width: 6.5rem;
+    max-height: 6.5rem;
   }
   .v2-section-quickaccess .v2-qa-wrapper .v2-image-container {
     padding-top: 100%;
