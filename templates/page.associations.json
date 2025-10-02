@@ -24,6 +24,7 @@
         "slide_D3F6QX": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Hero_Image_-_Associations_and_Partnerships.png",
             "slide_type": "onecol",
             "heading_text": "<p>Building Success<br/><strong>Through Partnerships</strong></p>",
             "heading_type": "h1",
@@ -54,9 +55,9 @@
         "slide_autospeed": 5000,
         "custom_class_names": "",
         "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "padding_bottom": 188,
+        "margin_top": -4,
+        "margin_bottom": -8
       }
     },
     "v2_text_plus_image_NKhePQ": {
@@ -88,58 +89,12 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "decal_top": true,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": -140,
-        "margin_bottom": 0
-      }
-    },
-    "v2_flexible_Hpig6A": {
-      "type": "v2_flexible",
-      "blocks": {
-        "headline_rzLydz": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "",
-            "heading_align": "left",
-            "heading_width": "full",
-            "heading_type": "h1",
-            "heading_size": "h1",
-            "heading_no_decal": false,
-            "heading_decal_left": false,
-            "heading_strong_accented": false
-          }
-        },
-        "subheadline_xa4HRz": {
-          "type": "subheadline",
-          "settings": {
-            "text": "",
-            "text_align": "left",
-            "text_width": "full",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "headline_rzLydz",
-        "subheadline_xa4HRz"
-      ],
-      "name": "t:lesections.flexible.presets.name",
-      "settings": {
-        "bkgr_color": "primary",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -232,9 +187,9 @@
         "button_new_window": false,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -245,7 +200,6 @@
     "main",
     "v2_hero_k3BEND",
     "v2_text_plus_image_NKhePQ",
-    "v2_flexible_Hpig6A",
     "v2_cards_4N9LRb"
   ]
 }
