@@ -214,6 +214,60 @@
             "info": "Tammy is our Customer Experience Advisor and is dedicated to ensuring every learner’s journey from receiving course materials to achieving certification is smooth and supportive. Before joining Study Active, she gained valuable experience working at an awarding body, building strong knowledge of the fitness education sector. Alongside guiding learners with expertise and encouragement, Tammy is a qualified Rebound Fit instructor and is currently studying further industry qualifications to strengthen her skills."
           }
         },
+        "member_PLYmqc": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_06-01-2025-09-38-34.jpg",
+            "name": "Charlie Reynolds",
+            "position": "Tutor and Assessor",
+            "info": "With over 13 years of experience in the fitness industry, Charlie has developed a career spanning education, business development and partnerships. She has worked with awarding bodies, training providers and local authorities, including the NHS, to deliver initiatives that prioritise health and wellbeing. Passionate about empowering others, Charlie combines her coaching business with her role as Tutor and Assessor at Study Active, where she supports learners to develop their skills and progress in the fitness industry."
+          }
+        },
+        "member_UjfMj7": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Headshot_5.jpg",
+            "name": "Chris Walsh",
+            "position": "Tutor and Assessor",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+          }
+        },
+        "member_3GakDn": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20250602-WA0003.jpg",
+            "name": "Natalie Bond",
+            "position": "Tutor and Assessor",
+            "info": "With 12 years of experience in the fitness industry, Natalie is an educator, coach, and business leader. She has worked as a tutor and assessor for both Study Active and Les Mills UK, as well as running her own successful fitness education training provider. Specialising in group exercise, she brings a strong passion for coaching, mentoring, business growth, and the psychology of behaviour change."
+          }
+        },
+        "member_WR3JVa": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Headshot_6.jpg",
+            "name": "Heather Walker",
+            "position": "Senior Tutor and Assessor",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante in massa tincidunt eleifend."
+          }
+        },
+        "member_XEVVDU": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Headshot_3.jpg",
+            "name": "Colin Archer",
+            "position": "Tutor and Assessor",
+            "info": ""
+          }
+        },
+        "member_M8fdKe": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Ben_Headshot.jpg",
+            "name": "Ben Pratt",
+            "position": "Content Expert",
+            "info": "Ben is an international educator and consultant in the fitness, nutrition and wellness sectors, with over 20 years of experience in vocational health and fitness education. Holding an MSc in Holistic Nutrition and a BSc in Sports Science, he has authored numerous resources and developed accredited programmes in fitness coaching, personal training and nutrition. As founder of Fit2Succeed, Ben works with training providers and awarding bodies across the UK and Europe to deliver evidence-based education and e-learning. He has also contributed to the development of professional standards that continue to shape fitness education across Europe."
+          }
+        },
         "member_iU4cRU": {
           "type": "member",
           "settings": {
@@ -234,6 +288,12 @@
         "member_UQhanA",
         "member_7tkqRc",
         "member_CArk9h",
+        "member_PLYmqc",
+        "member_UjfMj7",
+        "member_3GakDn",
+        "member_WR3JVa",
+        "member_XEVVDU",
+        "member_M8fdKe",
         "member_iU4cRU"
       ],
       "name": "t:lesections.v2_grid.presets.name",
