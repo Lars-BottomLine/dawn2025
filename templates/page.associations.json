@@ -55,77 +55,6 @@
         "show_text_below": true
       }
     },
-    "le_whychoose_nUNAqd": {
-      "type": "le_whychoose",
-      "blocks": {
-        "slide_hHknHt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/active-iq-logo-about-us.webp",
-            "heading": "<p>Study Active</p>",
-            "subheading": "<p>We partner with Active IQ because they are one of the UK's leading awarding organisations recognised and regulated by Ofqual within the Active Leisure sector.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_TTz7XH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ukactive_Member.avif",
-            "heading": "<p>UK Active</p>",
-            "subheading": "<p>UK Active supports its members by offering services and facilitating partnerships within the UK fitness industry, aiming to improve public health through physical activity.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_9VdbMq": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/cismpa-transparent.png",
-            "heading": "<p>CIMPSA</p>",
-            "subheading": "<p>CIMSPA is the professional development body for the UK’s sport and physical activity sector, recognizing Study Active training throughout the UK.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        },
-        "slide_7e66XB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/PD-Approval-Logo.webp",
-            "heading": "<p>PD:Approval</p>",
-            "subheading": "<p>PD Approval is an independent quality assurance service within the fitness education sector, endorsing Study Active for its high standard of service.</p>",
-            "button_text": "Enrol Now",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_hHknHt",
-        "slide_TTz7XH",
-        "slide_9VdbMq",
-        "slide_7e66XB"
-      ],
-      "custom_css": [],
-      "name": "t:sections.le_whychoose.presets.name",
-      "settings": {
-        "template_type": "twocol",
-        "section_bkgr": "primary",
-        "headline": "Accreditation Matters",
-        "heading_type": "h2",
-        "heading_size": "normal",
-        "no_decal": false,
-        "subheadline": "When you choose a course, accreditation is key. It tells employers, gyms and clients that your qualification meets national industry standards and is recognised across the UK and internationally. Our qualifications are:",
-        "button_label": "",
-        "button_url": "",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "image_with_text_Krg7EP": {
       "type": "image-with-text",
       "blocks": {
@@ -214,64 +143,6 @@
         "margin_bottom": -24
       }
     },
-    "le_image_slider_WKjHBk": {
-      "type": "le_image-slider",
-      "blocks": {
-        "slide_FcDmNg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/everlastgym.jpg"
-          }
-        },
-        "slide_KGx7Hc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ModeClub_LogoF.png"
-          }
-        },
-        "slide_9GQztc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/The_Gym_Group.webp"
-          }
-        },
-        "slide_X9rMTw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Pure_gym_logo.png"
-          }
-        },
-        "slide_m6zA8n": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/personaltraining.png"
-          }
-        },
-        "slide_zUyDDE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/everyone-active-logo.png"
-          }
-        }
-      },
-      "block_order": [
-        "slide_FcDmNg",
-        "slide_KGx7Hc",
-        "slide_9GQztc",
-        "slide_X9rMTw",
-        "slide_m6zA8n",
-        "slide_zUyDDE"
-      ],
-      "name": "t:sections.le_image-slider.presets.name",
-      "settings": {
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 60,
-        "margin_bottom": 0
-      }
-    },
     "rich_text_wFfcf3": {
       "type": "rich-text",
       "blocks": {
@@ -307,10 +178,8 @@
   "order": [
     "main",
     "image_banner_MMRCXB",
-    "le_whychoose_nUNAqd",
     "image_with_text_Krg7EP",
     "image_with_text_UApzce",
-    "le_image_slider_WKjHBk",
     "rich_text_wFfcf3"
   ]
 }
