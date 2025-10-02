@@ -174,6 +174,41 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_yG88eV": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Watch and learn on YouTube</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p><strong>Prefer to watch?</strong> Check out our video library for <strong>quick lessons</strong>, <strong>tutorials</strong>, and <strong>motivational content</strong>, all designed for flexible, no‑pressure learning at your own pace.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_video_PDcnGU": {
       "type": "v2_video",
       "blocks": {
@@ -203,43 +238,23 @@
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "light-blue",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "v2_header_yG88eV": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
+    "v2_form_kDNa3t": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
       "settings": {
-        "heading_text": "",
-        "heading_type": "h1",
-        "heading_size": "h1",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "primary",
+        "form_type": "tutor",
         "custom_class_names": "",
-        "decal_top": false,
+        "bkgr_color": "primary",
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -254,6 +269,7 @@
     "v2_quickaccess_eKY9fJ",
     "v2_accordion_kPQHkE",
     "v2_header_yG88eV",
-    "v2_video_PDcnGU"
+    "v2_video_PDcnGU",
+    "v2_form_kDNa3t"
   ]
 }
