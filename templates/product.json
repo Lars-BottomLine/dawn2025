@@ -389,7 +389,7 @@
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
