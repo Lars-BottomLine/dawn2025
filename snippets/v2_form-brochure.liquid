@@ -1,22 +1,22 @@
-<form method="POST" action="https://studyactive.activehosted.com/proc.php" id="_form_3_" class="_form _form_3 _inline-form  _dark" novalidate data-styles-version="5">
-  <input type="hidden" name="u" value="3" />
-  <input type="hidden" name="f" value="3" />
+<form method="POST" action="https://studyactive.activehosted.com/proc.php" id="_form_6_" class="_form _form_6 _inline-form  _dark" novalidate data-styles-version="5">
+  <input type="hidden" name="u" value="6" />
+  <input type="hidden" name="f" value="6" />
   <input type="hidden" name="s" />
   <input type="hidden" name="c" value="0" />
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="22af31a9-4dfb-4f60-afdc-07c4802196bd" />
+  <input type="hidden" name="or" value="c9fc0524-5312-4966-b5e8-45dbaf58fce0" />
   <div class="_form-content">
     <div class="_form_element _x40634032 _full_width _clear" >
       <title class="_form-title">
-        Download Brochure
+        Not sure where to start?
       </title>
     </div>
     <div class="_form_element _x63892171 _full_width _clear" >
       <div class="_html-code">
         <p>
-          Pop your info in below and we'll send you the brochure!
+          Talk to one of our Careers Advisors for expert advice on your training and career pathway.
         </p>
       </div>
     </div>
@@ -48,7 +48,7 @@
     <input type="text" id="phone" name="phone" placeholder="Type your phone number" required/>
   </div>
 </div>
-<div class="_form_element _x91977662 _full_width " >
+<div class="_form_element _x69480213 _full_width " >
   <label for="field[33]" class="_form-label">
     Course of interest<span class="field-required">
     *
@@ -83,8 +83,8 @@
 </div>
 </label>
 <div class="_button-wrapper _full_width">
-<button id="_form_3_submit" class="_submit" type="submit">
-  Send me the brochure
+<button id="_form_6_submit" class="_submit" type="submit">
+  Let&#039;s Go!
 </button>
 </div>
 <div class="_clear-element">
@@ -169,7 +169,7 @@ window._show_pc_confirmation = function(id, header, detail, show, email) {
     var hideButton = document.getElementById('hideButton');
     // Add event listener to the button
     hideButton.addEventListener('click', function() {
-        var submitButton = document.querySelector('#_form_3_submit');
+        var submitButton = document.querySelector('#_form_6_submit');
         submitButton.disabled = false;
         submitButton.classList.remove('processing');
         var mp = document.querySelector('input[name="mp"]');
@@ -192,7 +192,7 @@ window._show_pc_confirmation = function(id, header, detail, show, email) {
 };
 window._load_script = function(url, callback, isSubmit) {
     var head = document.querySelector('head'), script = document.createElement('script'), r = false;
-    var submitButton = document.querySelector('#_form_3_submit');
+    var submitButton = document.querySelector('#_form_6_submit');
     script.charset = 'utf-8';
     script.src = url;
     if (callback) {
@@ -206,9 +206,9 @@ window._load_script = function(url, callback, isSubmit) {
     script.onerror = function() {
         if (isSubmit) {
             if (script.src.length > 10000) {
-                _show_error("3", "Sorry, your submission failed. Please shorten your responses and try again.");
+                _show_error("6", "Sorry, your submission failed. Please shorten your responses and try again.");
             } else {
-                _show_error("3", "Sorry, your submission failed. Please try again.");
+                _show_error("6", "Sorry, your submission failed. Please try again.");
             }
             submitButton.disabled = false;
             submitButton.classList.remove('processing');
@@ -243,7 +243,7 @@ window._load_script = function(url, callback, isSubmit) {
         }
     }
     var _removed = false;
-        var form_to_submit = document.getElementById('_form_3_');
+        var form_to_submit = document.getElementById('_form_6_');
     var allInputs = form_to_submit.querySelectorAll('input, select, textarea'), tooltips = [], submitted = false;
 
     var getUrlParam = function(name) {
@@ -601,10 +601,10 @@ window._load_script = function(url, callback, isSubmit) {
                 form_to_submit.querySelector('input[name="phone"]').value = iti.getNumber();
             }
             // use this trick to get the submit button & disable it using plain javascript
-            var submitButton = e.target.querySelector('#_form_3_submit');
+            var submitButton = e.target.querySelector('#_form_6_submit');
             submitButton.disabled = true;
             submitButton.classList.add('processing');
-                    var serialized = _form_serialize(document.getElementById('_form_3_')).replace(/%0A/g, '\\n');
+                    var serialized = _form_serialize(document.getElementById('_form_6_')).replace(/%0A/g, '\\n');
             var err = form_to_submit.querySelector('._form_error');
             err ? err.parentNode.removeChild(err) : false;
             async function submitForm() {
@@ -635,7 +635,7 @@ window._load_script = function(url, callback, isSubmit) {
                 submitForm().then((data) => {
                     eval(data.js);
                 }).catch(() => {
-                    _show_error("3", "Sorry, your submission failed. Please try again.");
+                    _show_error("6", "Sorry, your submission failed. Please try again.");
                 });
             } else {
                 _load_script('https://studyactive.activehosted.com/proc.php?' + serialized + '&jsonp=true', null, true);
