@@ -3008,6 +3008,7 @@ header .header__icon--cart .icon {
 ._font-h0,
 ._font-h1,
 ._font-h2,
+.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
@@ -3026,6 +3027,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0:before,
 ._font-h1:before,
 ._font-h2:before,
+.v2-article-template h2:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before,
 ._font-h3:before,
@@ -3068,6 +3070,7 @@ strong {
 ._font-h0,
 ._font-h1,
 ._font-h2,
+.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
@@ -3099,6 +3102,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0 p,
 ._font-h1 p,
 ._font-h2 p,
+.v2-article-template h2 p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h3 p,
@@ -3131,6 +3135,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   ._font-h0.-decal-left,
   ._font-h1.-decal-left,
   ._font-h2.-decal-left,
+  .v2-article-template h2.-decal-left,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   ._font-h3.-decal-left,
@@ -3163,6 +3168,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0,
 ._font-h1,
 ._font-h2,
+.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
@@ -3182,6 +3188,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0 p,
 ._font-h1 p,
 ._font-h2 p,
+.v2-article-template h2 p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h3 p,
@@ -3201,6 +3208,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0.-no-decal,
 ._font-h1.-no-decal,
 ._font-h2.-no-decal,
+.v2-article-template h2.-no-decal,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
 ._font-h3.-no-decal,
@@ -3219,6 +3227,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 ._font-h0.-no-decal:before,
 ._font-h1.-no-decal:before,
 ._font-h2.-no-decal:before,
+.v2-article-template h2.-no-decal:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
 ._font-h3.-no-decal:before,
@@ -3237,6 +3246,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 ._font-h0.-align-left:before,
 ._font-h1.-align-left:before,
 ._font-h2.-align-left:before,
+.v2-article-template h2.-align-left:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
 ._font-h3.-align-left:before,
@@ -3256,6 +3266,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-left.price-ite
 ._font-h0.-align-center:before,
 ._font-h1.-align-center:before,
 ._font-h2.-align-center:before,
+.v2-article-template h2.-align-center:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 ._font-h3.-align-center:before,
@@ -3276,6 +3287,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-center.price-i
 ._font-h0.-align-right:before,
 ._font-h1.-align-right:before,
 ._font-h2.-align-right:before,
+.v2-article-template h2.-align-right:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
 ._font-h3.-align-right:before,
@@ -3405,45 +3417,51 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   }
 }
 
-._font-h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+._font-h2 p, .v2-article-template h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h2,
+.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
   font-size: 3.6rem;
   margin-top: 7.5rem;
 }
-._font-h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+._font-h2 p:before, .v2-article-template h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before,
 ._font-h2:before,
+.v2-article-template h2:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before {
   width: 3.2rem;
   height: 6.6rem;
   top: -7.5rem;
 }
-._font-h2 p.-decal-centered:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before,
-.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before, ._font-h2 p.-align-center:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
+._font-h2 p.-decal-centered:before, .v2-article-template h2 p.-decal-centered:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before, ._font-h2 p.-align-center:before, .v2-article-template h2 p.-align-center:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
 ._font-h2.-decal-centered:before,
+.v2-article-template h2.-decal-centered:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-centered.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-centered.price-item.price-item--sale:before,
 ._font-h2.-align-center:before,
+.v2-article-template h2.-align-center:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before {
   margin-left: -1.6rem;
 }
 @media (min-width: 751px) {
-  ._font-h2 p.-decal-left, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
+  ._font-h2 p.-decal-left, .v2-article-template h2 p.-decal-left, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   ._font-h2.-decal-left,
+  .v2-article-template h2.-decal-left,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale {
     margin-top: 0;
   }
-  ._font-h2 p.-decal-left:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
+  ._font-h2 p.-decal-left:before, .v2-article-template h2 p.-decal-left:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
   ._font-h2.-decal-left:before,
+  .v2-article-template h2.-decal-left:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before {
     top: -1.8rem;
@@ -3451,16 +3469,18 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   }
 }
 @media (max-width: 640px) {
-  ._font-h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+  ._font-h2 p, .v2-article-template h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
   ._font-h2,
+  .v2-article-template h2,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
     font-size: 2.8rem;
   }
-  ._font-h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+  ._font-h2 p:before, .v2-article-template h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before,
   ._font-h2:before,
+  .v2-article-template h2:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before {
     width: 2.2rem;
@@ -5392,9 +5412,6 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-slideshow .-slide-type-blog .sa-swiper-button span {
   color: var(--color-primary) !important;
 }
-.v2-section-slideshow .-slide-type-blog .sa-swiper-button svg {
-  margin-right: 1.6rem;
-}
 .v2-section-slideshow .-slide-type-blog .sa-swiper-button svg path {
   fill: var(--color-primary) !important;
 }
@@ -5437,7 +5454,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
     padding: 1.7rem 2.4rem 1.6rem;
   }
   .sa-swiper-button .sa-button-icon {
-    width: 1.8rem;
+    width: 1.9rem;
   }
 }
 
@@ -6174,6 +6191,16 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   .v2-section-quickaccess .v2-qa-wrapper .v2-qa-left .v2-qa-box {
     width: 100%;
   }
+}
+
+.v2-article-template .v2-arcticle-hero {
+  padding-bottom: 14rem;
+}
+.v2-article-template .v2-article-content {
+  position: relative;
+  z-index: 10;
+  max-width: 90rem;
+  margin: auto;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
