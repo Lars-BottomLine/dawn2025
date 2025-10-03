@@ -64,8 +64,8 @@
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "primary",
+        "custom_class_names": "brochureformheader",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -272,41 +272,38 @@
         "margin_bottom": 80
       }
     },
-    "v2_text_plus_image_NKhePQ": {
-      "type": "v2_text-plus-image",
-      "name": "t:lesections.textplusimage.presets.name",
+    "v2_header_mpfKMe": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
-        "heading_text": "<p><strong>Associations & Partners</strong></p>",
+        "heading_text": "<p>Your journey starts here</p>",
         "heading_type": "h2",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p>At Study Active, we know that the quality of your training depends on the strength of the organisations standing behind it.</p>",
-        "subheadline_text_size": "copy-l",
-        "subheadline_text_no_decal": false,
-        "subheadline_text_strong_accented": false,
-        "text": "<p>That’s why we work closely with the UK’s leading industry bodies, awarding organisations, specialist education partners, and national gym brands.</p>",
-        "text_size": "copy-m",
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>It all starts here. In just a few simple steps, you’ll go from exploring your options to gaining a recognised qualification, and stepping into your first role in the fitness industry.</p><p><br/></p><p><strong>1. Get the brochure</strong> – Request your free Study Active brochure and explore your options.</p><p><strong>2. Choose your course</strong> – Find the perfect training pathway to match your goals.</p><p><strong>3. Start learning</strong> – Begin your studies online with expert support every step of the way. </p><p><strong>4. Begin your fitness career</strong> – Graduate fully qualified and ready for guaranteed interviews.</p>",
+        "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "claim_text": "<p>Our partnerships ensure that every qualification we deliver meets recognised professional standards, is respected across the fitness sector, and leads to genuine career opportunities. </p>",
-        "claim_text_size": "copy-m",
-        "claim_text_no_decal": false,
-        "claim_text_strong_accented": false,
-        "custom_class_names": "",
-        "button_text": "",
-        "button_url": "",
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "Get the brochure",
+        "button_url": "#brochureheaderform",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
         "bkgr_color": "white",
-        "decal_top": true,
-        "decal_bottom": true,
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": -140,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     }
@@ -317,6 +314,6 @@
     "v2_newsletter_bPpCqY",
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
-    "v2_text_plus_image_NKhePQ"
+    "v2_header_mpfKMe"
   ]
 }
