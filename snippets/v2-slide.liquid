@@ -1,0 +1,122 @@
+{% comment %}
+  Renders a slide from a given product or blog entry
+
+  Accepts:
+  - slide_image: {Image}
+  - section_index: {Int}
+  - forloop: {forloop}
+  - slide_headline
+  - slide_subheadline
+  slide_text
+  slide_button_label
+  item: {Object} Product or Blog
+
+
+  Usage:
+  {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+{% endcomment %}
+
+{% liquid
+    assign iz_blog = false
+    assign iz_product = true
+    assign classes_headline = ' _font-h3 -no-decal '
+    assign classes_subheadline = ' _font-copy-l '
+    assign classes_text = ' _font-copy-m font-italic '
+
+    if slide_type == 'blog'
+        assign iz_blog = true
+        assign iz_product = false
+        assign classes_headline = ' _font-copy-l !font-bold '
+        assign classes_text = ' _font-copy-m item '
+    endif
+
+%}
+
+<div class="v2-swiper-inside">
+
+    <div class="v2-slide-media media">
+        {%- if slide_image -%}
+            {%- liquid
+                assign height = slide_image.width | divided_by: slide_image.aspect_ratio | round
+
+                assign sizes = '100vw'
+                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+                assign fetch_priority = 'auto'
+                if section_index == 1
+                    assign fetch_priority = 'high'
+                endif
+            -%}
+            {%- if forloop.first %}
+                {{
+                slide_image
+                | image_url: width: 3840
+                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                }}
+            {%- else -%}
+                {{
+                slide_image
+                | image_url: width: 3840
+                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                }}
+            {%- endif -%}
+        {%- else -%}
+            {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+            {%- if placeholder_slide == 1 -%}
+                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- else -%}
+                {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+        {%- endif -%}
+    </div>
+
+    <div class="v2-swiper-content">
+        <div class="v2-row">
+
+            {% if iz_blog and item != blank %}
+            <div class="v2-slide-meta">
+                <span>{{ item.published_at | time_tag: format: 'date' }} | </span>
+                <span>{{ item.author }}</span>
+            </div>
+            {% endif %}
+
+            {% if slide_headline != blank %}
+                <div class="v2-slide-headline {{ classes_headline }}">
+                    {{ slide_headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </div>
+            {% endif %}
+
+            {% if slide_subheadline != blank %}
+                <div class="v2-slide-subheadline {{ classes_subheadline }}">
+                    {{ slide_subheadline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </div>
+            {% endif %}
+
+            {% if slide_text != blank %}
+                <div class="v2-slide-text {{ classes_text }}">
+                    {{ slide_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </div>
+            {% endif %}
+
+
+        </div>
+
+        {% if slide_button_label != blank %}
+            <div class="v2-row">
+                <a href="#" class="sa-swiper-button -hover-grow -medium">
+
+                                                <span class="_font-copy-xl leading-none">
+                                                    {{ slide_button_label }}
+                                                </span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none" class="sa-button-icon">
+                        <path d="M22.9873 17.2073H0.666504V13.5406H22.9873L12.7207 3.27394L15.3332 0.707275L29.9998 15.3739L15.3332 30.0406L12.7207 27.4739L22.9873 17.2073Z" fill="#39EAF6"/>
+                    </svg>
+
+                </a>
+            </div>
+        {% endif %}
+
+    </div>
+
+</div>
