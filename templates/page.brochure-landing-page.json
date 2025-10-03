@@ -66,11 +66,11 @@
       "settings": {
         "custom_class_names": "form",
         "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
