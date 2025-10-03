@@ -18,58 +18,90 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_GzGMki": {
-      "type": "image-banner",
+    "v2_hero_t7FKK3": {
+      "type": "v2_hero",
       "blocks": {
-        "heading_FTBz73": {
-          "type": "heading",
+        "slide_neTbeJ": {
+          "type": "slide",
           "settings": {
-            "heading": "Ready to get started?",
-            "heading_size": "h1"
-          }
-        },
-        "text_WG3THF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_n7nrY7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See current partner gyms",
-            "button_link_1": "shopify://pages/associations-and-partners",
-            "button_style_secondary_1": false,
-            "button_label_2": "Book a careers call",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/ELCAS.webp",
+            "slide_type": "onecol",
+            "heading_text": "<p>ELCAS Funding for <strong>Careers in Health and Fitness</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>An exclusive opportunity for <strong>Armed Forces personnel</strong> to <strong>transform your future </strong></p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
       "block_order": [
-        "heading_FTBz73",
-        "text_WG3THF",
-        "buttons_n7nrY7"
+        "slide_neTbeJ"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:lesections.hero.presets.name",
       "settings": {
-        "image": "shopify://shop_images/gym_mats.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "full_width": true,
+        "bkgr_color": "light-blue",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 140,
+        "margin_top": 0,
+        "margin_bottom": -140
+      }
+    },
+    "v2_text_plus_image_NzBRjH": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ELCAS2.png",
+        "heading_text": "<p>Why choose ELCAS Funding with Study Active?</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p>If you’re currently serving or have served in the Armed Forces, we’re here to support you in taking the next step toward a rewarding fitness career.</p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>Through the Enhanced Learning Credits Administration Service (ELCAS), you could get up to 80% funding for nationally recognised Level 3 and Level 4 courses with Study Active, helping you build a meaningful new career with expert training and ongoing support.</p><p><strong>Study Active provides</strong>:</p><ul><li>Wide range of popular courses eligible for funding</li><li>Flexible learning that fits your life</li><li>Significant financial support</li></ul>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "Let's get started",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "image_banner_GzGMki"
+    "v2_hero_t7FKK3",
+    "v2_text_plus_image_NzBRjH"
   ]
 }
