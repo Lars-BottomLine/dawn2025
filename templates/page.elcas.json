@@ -97,11 +97,95 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_accordion_eFYqQT": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_rkVHwP": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How much funding can I get through ELCAS?",
+            "row_content": "<p>You may receive up to 80% of the course fees covered, depending on your length of service and eligibility, with a required 20% personal contribution.</p>"
+          }
+        },
+        "accordion_row_MphKRV": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need prior fitness qualifications?",
+            "row_content": "<p>No, you can start your journey with us from scratch or build on existing experience. We provide full guidance every step.</p>"
+          }
+        },
+        "accordion_row_EkTBNM": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does the approval process take?",
+            "row_content": "<p>It varies, but once your Education Centre submits your application and you receive the CAN, things can move quickly.</p>"
+          }
+        },
+        "accordion_row_gk9XbG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I combine courses? ",
+            "row_content": "<p>Yes, bundling compatible courses such as Pilates, Sports Massage, and Personal Training is possible to create your ideal learning path.</p>"
+          }
+        },
+        "accordion_row_HMcEzk": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What support will I get during the course?",
+            "row_content": "<p>Full tutor support including practical guidance, study resources, and ongoing encouragement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_rkVHwP",
+        "accordion_row_MphKRV",
+        "accordion_row_EkTBNM",
+        "accordion_row_gk9XbG",
+        "accordion_row_HMcEzk"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently Asked Questions</p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_MmWrnA": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "elcas",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "v2_hero_t7FKK3",
-    "v2_text_plus_image_NzBRjH"
+    "v2_text_plus_image_NzBRjH",
+    "v2_accordion_eFYqQT",
+    "v2_form_MmWrnA"
   ]
 }
