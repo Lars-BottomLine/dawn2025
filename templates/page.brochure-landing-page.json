@@ -291,7 +291,7 @@
         "text_align": "left",
         "text_width": "full",
         "button_text": "Get the brochure",
-        "button_url": "#brochureheaderform",
+        "button_url": "/#brochureheaderform",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
