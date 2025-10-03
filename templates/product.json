@@ -311,13 +311,64 @@
         "margin_bottom": 0
       }
     },
+    "v2_cards_cLPG7m": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_CTQkKT": {
+          "type": "card",
+          "repeater": "{{ product.metafields.custom.learning_experience.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "title_text": "{{ block.repeater.text | metafield_tag }}",
+            "text": "{{ block.repeater.title | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "card_CTQkKT"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide_box",
+        "heading_text": "",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_accordion_r7M37d": {
       "type": "v2_accordion",
       "blocks": {
         "accordion_row_RmDE8F": {
           "type": "accordion_row",
+          "repeater": "{{ product.metafields.custom.faq_list.value }}",
           "settings": {
-            "row_content": ""
+            "image": "{{ block.repeater.image.value }}",
+            "row_content": "{{ block.repeater.text | metafield_tag }}"
           }
         }
       },
@@ -353,6 +404,7 @@
     "v2_text_plus_image_cdFcb6",
     "v2_flexible_nWaQaq",
     "v2_header_YGG9xm",
+    "v2_cards_cLPG7m",
     "v2_accordion_r7M37d"
   ]
 }
