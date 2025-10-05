@@ -177,7 +177,8 @@
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
+            render 'v2-header-mega-menu', blocks: section.blocks
+          # render 'header-mega-menu'
         endif
       endif
     %}
@@ -724,9 +725,14 @@
             },
             {
                 "type": "url",
-                "id": "footer_link",
-                "label": "Footer Link"
+                "id": "footer_link_url",
+                "label": "Footer Link URL"
             },
+            {
+                "type": "url",
+                "id": "footer_link_label",
+                "label": "Footer Claim"
+            }
         ]
     }
   ]

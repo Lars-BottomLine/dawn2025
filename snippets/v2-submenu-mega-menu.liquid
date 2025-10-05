@@ -1,0 +1,67 @@
+<div class="v2-header-megamenu sa-col-primary">
+
+    <div class="v2-mm-wrapper">
+
+        <div class="v2-mm-left">
+
+            {% if data.left_heading != blank %}
+                <div class="v2-mm-heading _font-h3 -decal-left">
+                    {{ data.left_heading }}
+                </div>
+            {% endif %}
+
+            {% if data.left_subheading != blank %}
+                <div class="v2-mm-subheading _font-copy-l">
+                    {{ data.left_subheading }}
+                </div>
+            {% endif %}
+
+            {% if data.left_submenu.links != blank %}
+                <ul>
+                    {%- for childlink in data.left_submenu.links -%}
+                    <li>
+                        <a
+                            href="{{ childlink.url }}"
+                            class="_font-copy-l font-bold {% if childlink.current %} -active {% endif %}"
+                            {% if childlink.current %}
+                                aria-current="page"
+                            {% endif %}
+                        >
+                            {{ childlink.title | escape }}
+                        </a>
+                    </li>
+                    {%- endfor -%}
+                </ul>
+            {% endif %}
+
+        </div>
+
+        <div class="v2-mm-right">
+
+            {% if data.right_heading != blank %}
+                <div class="v2-mm-heading _font-h3 -decal-left">
+                    {{ data.right_heading }}
+                </div>
+            {% endif %}
+
+            {% if data.right_subheading != blank %}
+                <div class="v2-mm-subheading _font-copy-l">
+                    {{ data.right_subheading }}
+                </div>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+    <div class="v2-mm-footer">
+
+        {% if data.footer_link_label != blank %}
+            <div class="v2-mm-heading _font-h3 -decal-left">
+                {{ data.footer_link_label }}
+            </div>
+        {% endif %}
+
+    </div>
+
+</div>
