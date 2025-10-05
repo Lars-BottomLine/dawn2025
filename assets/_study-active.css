@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --color-white: #FFFFFF;
   --color-primary: #00268B;
@@ -3004,14 +3005,16 @@ header .header__icon--cart .icon {
   left: 0;
 }
 
-.v2-text ul li, ._font-hero,
+.v2-article-template .v2-article-content ul li,
+.v2-article-template .v2-article-content ol li, .v2-text ul li, ._font-hero,
 ._font-h0,
 ._font-h1,
 ._font-h2,
-.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
+.v2-article-template .v2-sa-comments h2,
+.v2-article-template .v2-article-content h2,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
 .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
@@ -3023,14 +3026,16 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .sa-section-callout h2 {
   position: relative;
 }
-.v2-text ul li:before, ._font-hero:before,
+.v2-article-template .v2-article-content ul li:before,
+.v2-article-template .v2-article-content ol li:before, .v2-text ul li:before, ._font-hero:before,
 ._font-h0:before,
 ._font-h1:before,
 ._font-h2:before,
-.v2-article-template h2:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before,
 ._font-h3:before,
+.v2-article-template .v2-sa-comments h2:before,
+.v2-article-template .v2-article-content h2:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title:before,
 .price.price--on-sale .price__sale .price-item.price-item--sale:before,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before,
@@ -3070,10 +3075,11 @@ strong {
 ._font-h0,
 ._font-h1,
 ._font-h2,
-.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
+.v2-article-template .v2-sa-comments h2,
+.v2-article-template .v2-article-content h2,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
 .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
@@ -3084,12 +3090,15 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price,
 .sa-section-callout h2,
 ._font-copy-xl,
+.v2-article-template .v2-article-content blockquote,
 ._font-copy-l,
+.v2-article-template .v2-article-content h4,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2-sa-form-wrapper form ._html-code,
 ._font-copy-m,
+.v2-article-template .v2-article-content p,
 .v2-section-producthero .v2-pt-ribbon,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
 .price.price--on-sale .price__sale .price-save-percentage,
@@ -3102,10 +3111,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0 p,
 ._font-h1 p,
 ._font-h2 p,
-.v2-article-template h2 p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h3 p,
+.v2-article-template .v2-sa-comments h2 p,
+.v2-article-template .v2-article-content h2 p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p,
 .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
@@ -3116,12 +3126,15 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p,
 .sa-section-callout h2 p,
 ._font-copy-xl p,
+.v2-article-template .v2-article-content blockquote p,
 ._font-copy-l p,
+.v2-article-template .v2-article-content h4 p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p,
 .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-m p,
+.v2-article-template .v2-article-content p p,
 .v2-section-producthero .v2-pt-ribbon p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p,
 .price.price--on-sale .price__sale .price-save-percentage p,
@@ -3135,10 +3148,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   ._font-h0.-decal-left,
   ._font-h1.-decal-left,
   ._font-h2.-decal-left,
-  .v2-article-template h2.-decal-left,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   ._font-h3.-decal-left,
+  .v2-article-template .v2-sa-comments h2.-decal-left,
+  .v2-article-template .v2-article-content h2.-decal-left,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._form-title,
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
@@ -3149,12 +3163,15 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-left.price,
   .sa-section-callout h2.-decal-left,
   ._font-copy-xl.-decal-left,
+  .v2-article-template .v2-article-content blockquote.-decal-left,
   ._font-copy-l.-decal-left,
+  .v2-article-template .v2-article-content h4.-decal-left,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._html-code,
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   .v2-sa-form-wrapper form .-decal-left._html-code,
   ._font-copy-m.-decal-left,
+  .v2-article-template .v2-article-content p.-decal-left,
   .v2-section-producthero .-decal-left.v2-pt-ribbon,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label.-decal-left,
   .price.price--on-sale .price__sale .-decal-left.price-save-percentage,
@@ -3168,10 +3185,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0,
 ._font-h1,
 ._font-h2,
-.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
 ._font-h3,
+.v2-article-template .v2-sa-comments h2,
+.v2-article-template .v2-article-content h2,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
 .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
@@ -3188,10 +3206,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0 p,
 ._font-h1 p,
 ._font-h2 p,
-.v2-article-template h2 p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h3 p,
+.v2-article-template .v2-sa-comments h2 p,
+.v2-article-template .v2-article-content h2 p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p,
 .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
@@ -3208,18 +3227,35 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-h0.-no-decal,
 ._font-h1.-no-decal,
 ._font-h2.-no-decal,
-.v2-article-template h2.-no-decal,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale,
+.v2-article-template .v2-article-content .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale h2.price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale,
+.v2-article-template .v2-article-content .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale h2.price-item.price-item--sale,
 ._font-h3.-no-decal,
+.v2-article-template .v2-sa-comments h2.-no-decal,
+.v2-article-template .v2-article-content h2,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-no-decal._form-title,
+.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-article-template .v2-article-content h2._form-title,
+.v2-article-template .v2-article-content .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form h2._form-title,
 .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
+.price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale,
+.v2-article-template .v2-article-content .price.price--on-sale .price__sale h2.price-item.price-item--sale,
 .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
+.v2_price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale,
+.v2-article-template .v2-article-content .v2_price.price--on-sale .price__sale h2.price-item.price-item--sale,
 .price .-no-decal.price-item.price-item--regular,
+.price .v2-article-template .v2-article-content h2.price-item.price-item--regular,
+.v2-article-template .v2-article-content .price h2.price-item.price-item--regular,
 .v2_price .-no-decal.price-item.price-item--regular,
+.v2_price .v2-article-template .v2-article-content h2.price-item.price-item--regular,
+.v2-article-template .v2-article-content .v2_price h2.price-item.price-item--regular,
 product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.price-item--regular,
 .v2-sa-form-wrapper form .-no-decal._form-title,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-no-decal.price,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .v2-article-template .v2-article-content h2.price,
+.v2-article-template .v2-article-content .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper h2.price,
 .sa-section-callout h2.-no-decal {
   margin-top: 0;
 }
@@ -3227,18 +3263,35 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 ._font-h0.-no-decal:before,
 ._font-h1.-no-decal:before,
 ._font-h2.-no-decal:before,
-.v2-article-template h2.-no-decal:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale:before,
+.v2-article-template .v2-article-content .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale h2.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale:before,
+.v2-article-template .v2-article-content .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale h2.price-item.price-item--sale:before,
 ._font-h3.-no-decal:before,
+.v2-article-template .v2-sa-comments h2.-no-decal:before,
+.v2-article-template .v2-article-content h2:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-no-decal._form-title:before,
+.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-article-template .v2-article-content h2._form-title:before,
+.v2-article-template .v2-article-content .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form h2._form-title:before,
 .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
+.price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale:before,
+.v2-article-template .v2-article-content .price.price--on-sale .price__sale h2.price-item.price-item--sale:before,
 .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
+.v2_price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale:before,
+.v2-article-template .v2-article-content .v2_price.price--on-sale .price__sale h2.price-item.price-item--sale:before,
 .price .-no-decal.price-item.price-item--regular:before,
+.price .v2-article-template .v2-article-content h2.price-item.price-item--regular:before,
+.v2-article-template .v2-article-content .price h2.price-item.price-item--regular:before,
 .v2_price .-no-decal.price-item.price-item--regular:before,
+.v2_price .v2-article-template .v2-article-content h2.price-item.price-item--regular:before,
+.v2-article-template .v2-article-content .v2_price h2.price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.price-item--regular:before,
 .v2-sa-form-wrapper form .-no-decal._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-no-decal.price:before,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .v2-article-template .v2-article-content h2.price:before,
+.v2-article-template .v2-article-content .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper h2.price:before,
 .sa-section-callout h2.-no-decal:before {
   display: none;
 }
@@ -3246,10 +3299,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 ._font-h0.-align-left:before,
 ._font-h1.-align-left:before,
 ._font-h2.-align-left:before,
-.v2-article-template h2.-align-left:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
 ._font-h3.-align-left:before,
+.v2-article-template .v2-sa-comments h2.-align-left:before,
+.v2-article-template .v2-article-content h2.-align-left:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-align-left._form-title:before,
 .price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
 .v2_price.price--on-sale .price__sale .-align-left.price-item.price-item--sale:before,
@@ -3266,10 +3320,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-left.price-ite
 ._font-h0.-align-center:before,
 ._font-h1.-align-center:before,
 ._font-h2.-align-center:before,
-.v2-article-template h2.-align-center:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 ._font-h3.-align-center:before,
+.v2-article-template .v2-sa-comments h2.-align-center:before,
+.v2-article-template .v2-article-content h2.-align-center:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-align-center._form-title:before,
 .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
@@ -3287,10 +3342,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-center.price-i
 ._font-h0.-align-right:before,
 ._font-h1.-align-right:before,
 ._font-h2.-align-right:before,
-.v2-article-template h2.-align-right:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
 ._font-h3.-align-right:before,
+.v2-article-template .v2-sa-comments h2.-align-right:before,
+.v2-article-template .v2-article-content h2.-align-right:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-align-right._form-title:before,
 .price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
 .v2_price.price--on-sale .price__sale .-align-right.price-item.price-item--sale:before,
@@ -3304,13 +3360,15 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   right: 0;
 }
 
-._font-copy-xl,
+._font-copy-xl, .v2-article-template .v2-article-content blockquote,
 ._font-copy-l,
+.v2-article-template .v2-article-content h4,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2-sa-form-wrapper form ._html-code,
 ._font-copy-m,
+.v2-article-template .v2-article-content p,
 .v2-section-producthero .v2-pt-ribbon,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
 .price.price--on-sale .price__sale .price-save-percentage,
@@ -3319,13 +3377,15 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   font-weight: 400;
   line-height: 1.25;
 }
-._font-copy-xl p,
+._font-copy-xl p, .v2-article-template .v2-article-content blockquote p,
 ._font-copy-l p,
+.v2-article-template .v2-article-content h4 p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p,
 .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-m p,
+.v2-article-template .v2-article-content p p,
 .v2-section-producthero .v2-pt-ribbon p,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p,
 .price.price--on-sale .price__sale .price-save-percentage p,
@@ -3417,51 +3477,45 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   }
 }
 
-._font-h2 p, .v2-article-template h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+._font-h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
 ._font-h2,
-.v2-article-template h2,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
   font-size: 3.6rem;
   margin-top: 7.5rem;
 }
-._font-h2 p:before, .v2-article-template h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+._font-h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before,
 ._font-h2:before,
-.v2-article-template h2:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before {
   width: 3.2rem;
   height: 6.6rem;
   top: -7.5rem;
 }
-._font-h2 p.-decal-centered:before, .v2-article-template h2 p.-decal-centered:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before,
-.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before, ._font-h2 p.-align-center:before, .v2-article-template h2 p.-align-center:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
+._font-h2 p.-decal-centered:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-centered:before, ._font-h2 p.-align-center:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-align-center:before,
 ._font-h2.-decal-centered:before,
-.v2-article-template h2.-decal-centered:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-centered.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-centered.price-item.price-item--sale:before,
 ._font-h2.-align-center:before,
-.v2-article-template h2.-align-center:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-align-center.price-item.price-item--sale:before {
   margin-left: -1.6rem;
 }
 @media (min-width: 751px) {
-  ._font-h2 p.-decal-left, .v2-article-template h2 p.-decal-left, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
+  ._font-h2 p.-decal-left, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   ._font-h2.-decal-left,
-  .v2-article-template h2.-decal-left,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale {
     margin-top: 0;
   }
-  ._font-h2 p.-decal-left:before, .v2-article-template h2 p.-decal-left:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
+  ._font-h2 p.-decal-left:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
   ._font-h2.-decal-left:before,
-  .v2-article-template h2.-decal-left:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before {
     top: -1.8rem;
@@ -3469,18 +3523,16 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   }
 }
 @media (max-width: 640px) {
-  ._font-h2 p, .v2-article-template h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
+  ._font-h2 p, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p,
   ._font-h2,
-  .v2-article-template h2,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale {
     font-size: 2.8rem;
   }
-  ._font-h2 p:before, .v2-article-template h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+  ._font-h2 p:before, .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before,
   ._font-h2:before,
-  .v2-article-template h2:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .price-item.price-item--sale:before,
   .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before {
     width: 2.2rem;
@@ -3489,10 +3541,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
   }
 }
 
-._font-h3 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p, .price.price--on-sale .price__sale .price-item.price-item--sale p,
+._font-h3 p, .v2-article-template .v2-sa-comments h2 p, .v2-article-template .v2-article-content h2 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p, .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale p, .price .price-item.price-item--regular p,
 .v2_price .price-item.price-item--regular p, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p, .v2-sa-form-wrapper form ._form-title p, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p, .sa-section-callout h2 p,
 ._font-h3,
+.v2-article-template .v2-sa-comments h2,
+.v2-article-template .v2-article-content h2,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
 .price.price--on-sale .price__sale .price-item.price-item--sale,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
@@ -3504,10 +3558,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .sa-section-callout h2 {
   font-size: 3rem;
 }
-._font-h3 p:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p:before, .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
+._font-h3 p:before, .v2-article-template .v2-sa-comments h2 p:before, .v2-article-template .v2-article-content h2 p:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p:before, .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before, .price .price-item.price-item--regular p:before,
 .v2_price .price-item.price-item--regular p:before, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p:before, .v2-sa-form-wrapper form ._form-title p:before, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p:before, .sa-section-callout h2 p:before,
 ._font-h3:before,
+.v2-article-template .v2-sa-comments h2:before,
+.v2-article-template .v2-article-content h2:before,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title:before,
 .price.price--on-sale .price__sale .price-item.price-item--sale:before,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale:before,
@@ -3522,10 +3578,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   top: -5.5rem;
 }
 @media (min-width: 751px) {
-  ._font-h3 p.-decal-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
+  ._font-h3 p.-decal-left, .v2-article-template .v2-sa-comments h2 p.-decal-left, .v2-article-template .v2-article-content h2 p.-decal-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left, .price .price-item.price-item--regular p.-decal-left,
   .v2_price .price-item.price-item--regular p.-decal-left, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left, .v2-sa-form-wrapper form ._form-title p.-decal-left, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left, .sa-section-callout h2 p.-decal-left,
   ._font-h3.-decal-left,
+  .v2-article-template .v2-sa-comments h2.-decal-left,
+  .v2-article-template .v2-article-content h2.-decal-left,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._form-title,
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale,
@@ -3537,10 +3595,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .sa-section-callout h2.-decal-left {
     margin-top: 0;
   }
-  ._font-h3 p.-decal-left:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left:before, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
+  ._font-h3 p.-decal-left:before, .v2-article-template .v2-sa-comments h2 p.-decal-left:before, .v2-article-template .v2-article-content h2 p.-decal-left:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left:before, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before, .price .price-item.price-item--regular p.-decal-left:before,
   .v2_price .price-item.price-item--regular p.-decal-left:before, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left:before, .v2-sa-form-wrapper form ._form-title p.-decal-left:before, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left:before, .sa-section-callout h2 p.-decal-left:before,
   ._font-h3.-decal-left:before,
+  .v2-article-template .v2-sa-comments h2.-decal-left:before,
+  .v2-article-template .v2-article-content h2.-decal-left:before,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._form-title:before,
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--sale:before,
@@ -3555,10 +3615,12 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   }
 }
 @media (max-width: 640px) {
-  ._font-h3 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p, .price.price--on-sale .price__sale .price-item.price-item--sale p,
+  ._font-h3 p, .v2-article-template .v2-sa-comments h2 p, .v2-article-template .v2-article-content h2 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p, .price.price--on-sale .price__sale .price-item.price-item--sale p,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p, .price .price-item.price-item--regular p,
   .v2_price .price-item.price-item--regular p, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p, .v2-sa-form-wrapper form ._form-title p, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p, .sa-section-callout h2 p,
   ._font-h3,
+  .v2-article-template .v2-sa-comments h2,
+  .v2-article-template .v2-article-content h2,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title,
   .price.price--on-sale .price__sale .price-item.price-item--sale,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale,
@@ -3572,20 +3634,23 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   }
 }
 
-._font-copy-xl p,
-._font-copy-xl {
+._font-copy-xl p, .v2-article-template .v2-article-content blockquote p,
+._font-copy-xl,
+.v2-article-template .v2-article-content blockquote {
   font-size: 2.4rem;
 }
 @media (max-width: 640px) {
-  ._font-copy-xl p,
-  ._font-copy-xl {
+  ._font-copy-xl p, .v2-article-template .v2-article-content blockquote p,
+  ._font-copy-xl,
+  .v2-article-template .v2-article-content blockquote {
     font-size: 2rem;
   }
 }
 
-._font-copy-l p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p, .price.price--on-sale .price__sale .price-item.price-item--regular p,
+._font-copy-l p, .v2-article-template .v2-article-content h4 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p, .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-l,
+.v2-article-template .v2-article-content h4,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
@@ -3593,9 +3658,10 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   font-size: 2.2rem;
 }
 @media (max-width: 640px) {
-  ._font-copy-l p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p, .price.price--on-sale .price__sale .price-item.price-item--regular p,
+  ._font-copy-l p, .v2-article-template .v2-article-content h4 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p, .price.price--on-sale .price__sale .price-item.price-item--regular p,
   .v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .v2-sa-form-wrapper form ._html-code p,
   ._font-copy-l,
+  .v2-article-template .v2-article-content h4,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
   .price.price--on-sale .price__sale .price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
@@ -3607,6 +3673,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 ._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
 .v2_price.price--on-sale .price__sale .price-save-percentage p, .v2-sa-form-wrapper form label div p,
 ._font-copy-m,
+.v2-article-template .v2-article-content p,
 .v2-section-producthero .v2-pt-ribbon,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
 .price.price--on-sale .price__sale .price-save-percentage,
@@ -3618,6 +3685,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   ._font-copy-m p, .v2-section-producthero .v2-pt-ribbon p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label p, .price.price--on-sale .price__sale .price-save-percentage p,
   .v2_price.price--on-sale .price__sale .price-save-percentage p, .v2-sa-form-wrapper form label div p,
   ._font-copy-m,
+  .v2-article-template .v2-article-content p,
   .v2-section-producthero .v2-pt-ribbon,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label,
   .price.price--on-sale .price__sale .price-save-percentage,
@@ -5366,12 +5434,12 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-slideshow .-slide-type-blue .v2-row {
   gap: 1.4rem;
 }
-.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-l, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form ._html-code, .v2-sa-form-wrapper form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-item.price-item--regular, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular,
+.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-l, .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h4, .v2-article-template .v2-article-content .v2-section-slideshow .-slide-type-blue .v2-row h4, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form ._html-code, .v2-sa-form-wrapper form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-item.price-item--regular, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular {
   color: var(--color-secondary);
 }
-.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-m, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-producthero .v2-pt-ribbon, .v2-section-producthero .v2-section-slideshow .-slide-type-blue .v2-row .v2-pt-ribbon, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row .v2-section-slideshow .-slide-type-blue .v2-row label, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form label div, .v2-sa-form-wrapper form label .v2-section-slideshow .-slide-type-blue .v2-row div, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-save-percentage, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-save-percentage,
+.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-m, .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content p, .v2-article-template .v2-article-content .v2-section-slideshow .-slide-type-blue .v2-row p, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-producthero .v2-pt-ribbon, .v2-section-producthero .v2-section-slideshow .-slide-type-blue .v2-row .v2-pt-ribbon, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row label, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form fieldset ._row .v2-section-slideshow .-slide-type-blue .v2-row label, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form label div, .v2-sa-form-wrapper form label .v2-section-slideshow .-slide-type-blue .v2-row div, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-save-percentage, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-save-percentage,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2_price.price--on-sale .price__sale .price-save-percentage,
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-save-percentage {
   font-style: italic;
@@ -6196,11 +6264,178 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-article-template .v2-arcticle-hero {
   padding-bottom: 14rem;
 }
+.v2-article-template .v2-arcticle-hero .slide-background img {
+  margin: 0;
+  padding: 0;
+}
+.v2-article-template .v2-article-wrapper {
+  display: flex;
+}
 .v2-article-template .v2-article-content {
   position: relative;
   z-index: 10;
   max-width: 90rem;
   margin: auto;
+}
+.v2-article-template .v2-article-content h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 6.4rem;
+  margin-bottom: 2rem;
+}
+.v2-article-template .v2-article-content h4 {
+  margin-bottom: 2rem;
+}
+.v2-article-template .v2-article-content p {
+  margin-bottom: 2.25rem;
+}
+.v2-article-template .v2-article-content p + ul {
+  margin-top: -1rem;
+}
+.v2-article-template .v2-article-content ul + p {
+  margin-top: 2.25rem;
+}
+.v2-article-template .v2-article-content a {
+  color: var(--color-primary);
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.v2-article-template .v2-article-content img {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+.v2-article-template .v2-article-content img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  display: inline-block;
+  height: 2px;
+  background: var(--color-light-blue);
+  max-width: 44rem;
+  transform: translateX(-50%);
+}
+.v2-article-template .v2-article-content ul li,
+.v2-article-template .v2-article-content ol li {
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+}
+.v2-article-template .v2-article-content ul li p,
+.v2-article-template .v2-article-content ol li p {
+  margin-bottom: 1rem;
+}
+.v2-article-template .v2-article-content ul li:before,
+.v2-article-template .v2-article-content ol li:before {
+  left: -1.8rem;
+  top: 0;
+  width: 1rem;
+  height: 2rem;
+  background: url("sa-decal-primary.svg") no-repeat center;
+  opacity: 0.25;
+}
+.v2-article-template .v2-article-content img {
+  box-shadow: 6px 7px 0 0 var(--color-primary);
+}
+.v2-article-template .v2-article-content blockquote {
+  font-weight: bold !important;
+  background: var(--color-light-blue);
+  max-width: 74rem;
+  margin: 4rem auto;
+  border: none;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 3.2rem 4rem 2.4rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.v2-article-template .v2-article-content blockquote span[data-ccp-parastyle=Quote] {
+  width: 100%;
+  text-align: center;
+}
+.v2-article-template .v2-article-content blockquote .quote-text {
+  padding: 0 4.8rem;
+  position: relative;
+  font-style: italic;
+}
+.v2-article-template .v2-article-content blockquote .quote-text:before, .v2-article-template .v2-article-content blockquote .quote-text:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  content: "“";
+  font-size: 8rem;
+  line-height: 1.1;
+  font-style: normal !important;
+}
+.v2-article-template .v2-article-content blockquote .quote-text:before {
+  align-items: flex-start;
+  margin-right: 0.8rem;
+  left: 0;
+}
+.v2-article-template .v2-article-content blockquote .quote-text:after {
+  right: 0;
+  align-items: flex-start;
+  transform: rotate(180deg);
+}
+.v2-article-template .v2-article-content blockquote .quote-author {
+  font-weight: 400;
+}
+.v2-article-template .v2-article-content.-blockquote-white blockquote {
+  background: var(--color-white);
+}
+.v2-article-template .v2-sa-comments {
+  color: var(--color-primary);
+  background: var(--color-light-blue);
+  margin-top: 14rem;
+}
+.v2-article-template .v2-sa-comments #comments {
+  max-width: 92rem;
+  margin: auto;
+}
+.v2-article-template .v2-sa-comments label.field__label {
+  display: none;
+}
+.v2-article-template .v2-sa-comments field__input:focus,
+.v2-article-template .v2-sa-comments input {
+  margin-bottom: 1.2rem !important;
+}
+.v2-article-template .v2-sa-comments .article-template__comment-fields {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 3.2rem;
+}
+.v2-article-template .v2-sa-comments .field:before, .v2-article-template .v2-sa-comments .field:after {
+  display: none;
+}
+.v2-article-template .v2-sa-comments input[type=submit] {
+  padding: 0 !important;
+  background: transparent !important;
+  min-height: 0 !important;
+  color: inherit !important;
+  margin: 0 !important;
+}
+.v2-article-template .v2-sa-comments .v2-button, .v2-article-template .v2-sa-comments .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-article-template .v2-sa-comments button, .v2-article-template .v2-sa-comments .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-article-template .v2-sa-comments button#_form_1_submit,
+.v2-article-template .v2-sa-comments .article-template__comment-warning {
+  margin-top: 3.2rem;
+}
+@media (max-width: 749px) {
+  .v2-article-template .v2-sa-comments {
+    margin-top: 10.5rem;
+  }
+}
+@media (max-width: 640px) {
+  .v2-article-template .v2-sa-comments .v2-sa-form-wrapper form input:first-child {
+    margin-bottom: 0 !important;
+  }
+  .v2-article-template .v2-sa-comments .article-template__comment-fields {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=_study-active.css.map */
