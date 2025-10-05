@@ -170,6 +170,9 @@
     {%- endif -%}
 
     {%- liquid
+
+    # RENDER MENU
+    # -----------------------------
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
