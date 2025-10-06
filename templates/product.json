@@ -384,7 +384,7 @@
         "heading_strong_accented": false,
         "accordion_width": "narrow",
         "items_to_show": 4,
-        "accordion_entries": [],
+        "accordion_entries": "{{ product.metafields.custom.faq_list.value }}",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
