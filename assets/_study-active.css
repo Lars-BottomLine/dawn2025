@@ -4291,6 +4291,7 @@ a {
   color: var(--color-primary) !important;
   font-weight: bold !important;
   letter-spacing: -0.65px !important;
+  text-decoration: none !important;
 }
 .header__inline-menu .header__active-menu-item span,
 .header__inline-menu .header__menu-item:hover span {
