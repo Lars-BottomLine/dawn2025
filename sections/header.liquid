@@ -174,7 +174,8 @@
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
+            render 'v2-header-mega-menu', blocks: section.blocks
+          # render 'header-mega-menu'
         endif
       endif
     %}
@@ -664,6 +665,72 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+        "type": "megamenu",
+        "name": "Mega Menu Submenu",
+        "settings": [
+            {
+                "type": "number",
+                "id": "menu_index",
+                "label": "Menu Index",
+                "default": 1,
+                "info": "The index of the menu entry for which this Mega Menu should be displayed."
+            },
+            {
+                "type": "header",
+                "content": "Left Side"
+            },
+            {
+                "type": "text",
+                "id": "left_heading",
+                "label": "Left Heading"
+            },
+            {
+                "type": "text",
+                "id": "left_subheading",
+                "label": "Left Heading"
+            },
+            {
+                "type": "link_list",
+                "id": "left_submenu",
+                "label": "Left Submenu"
+            },
+            {
+                "type": "header",
+                "content": "Right Side"
+            },
+            {
+                "type": "text",
+                "id": "right_heading",
+                "label": "Right Heading"
+            },
+            {
+                "type": "text",
+                "id": "right_subheading",
+                "label": "Right Heading"
+            },
+            {
+                "type": "link_list",
+                "id": "right_submenu",
+                "label": "Right Submenu"
+            }
+            ,
+            {
+                "type": "header",
+                "content": "Footer"
+            },
+            {
+                "type": "url",
+                "id": "footer_link_url",
+                "label": "Footer Link URL"
+            },
+            {
+                "type": "url",
+                "id": "footer_link_label",
+                "label": "Footer Claim"
+            }
+        ]
     }
   ]
 }
