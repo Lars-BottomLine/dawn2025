@@ -72,6 +72,7 @@
 
     </div>
 
+    {% if data.footer_link_label != blank%}
     <div class="v2-mm-footer">
 
         {% if data.footer_link_url != blank %}
@@ -85,5 +86,6 @@
         {% endif %}
 
     </div>
+    {% endif %}
 
 </div>
