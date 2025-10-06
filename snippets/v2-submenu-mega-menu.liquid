@@ -50,6 +50,24 @@
                 </div>
             {% endif %}
 
+            {% if data.right_submenu.links != blank %}
+                <ul>
+                    {%- for childlink in data.right_submenu.links -%}
+                        <li>
+                            <a
+                                    href="{{ childlink.url }}"
+                                    class="_font-copy-l font-bold {% if childlink.current %} -active {% endif %}"
+                                    {% if childlink.current %}
+                                        aria-current="page"
+                                    {% endif %}
+                            >
+                                {{ childlink.title | escape }}
+                            </a>
+                        </li>
+                    {%- endfor -%}
+                </ul>
+            {% endif %}
+
         </div>
 
     </div>
