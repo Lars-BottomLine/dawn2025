@@ -16,7 +16,7 @@
     <div class="le-acc-header">
 
         <span class="_font-copy-l font-bold">
-            {{ ae_title }}
+            {{ ae_title | metafield_text}}
         </span>
 
         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
@@ -38,7 +38,7 @@
             </div>
         {% endif %}
         <div class="lac-right _font-copy-m">
-            {{ ae_text }}
+            {{ ae_text | metafield_text }}
         </div>
     </div>
 </div>
