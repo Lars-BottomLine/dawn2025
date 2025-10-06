@@ -250,13 +250,7 @@
         "heading_strong_accented": false,
         "accordion_width": "narrow",
         "items_to_show": 4,
-        "accordion_entries": [
-          "alright-but-what-exactly-do-you-do",
-          "what-is-the-active-iq-level-3-diploma-in-personal-training",
-          "who-can-enrol-on-this-course",
-          "how-long-does-the-course-take-to-complete",
-          "what-is-the-mode-of-study"
-        ],
+        "accordion_entries": "{{ product.metafields.custom.faq_list.value }}",
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
