@@ -17,7 +17,7 @@
             {% endif %}
 
             {% if data.left_submenu.links != blank %}
-                <ul>
+                <ul class="-item-count-{{ data.left_submenu.links | size }}">
                     {%- for childlink in data.left_submenu.links -%}
                     <li>
                         <a
@@ -48,6 +48,24 @@
                 <div class="v2-mm-subheading _font-copy-l">
                     {{ data.right_subheading }}
                 </div>
+            {% endif %}
+
+            {% if data.right_submenu.links != blank %}
+                <ul class="-item-count-{{ data.right_submenu.links | size }}">
+                    {%- for childlink in data.right_submenu.links -%}
+                        <li>
+                            <a
+                                    href="{{ childlink.url }}"
+                                    class="_font-copy-l font-bold {% if childlink.current %} -active {% endif %}"
+                                    {% if childlink.current %}
+                                        aria-current="page"
+                                    {% endif %}
+                            >
+                                {{ childlink.title | escape }}
+                            </a>
+                        </li>
+                    {%- endfor -%}
+                </ul>
             {% endif %}
 
         </div>
