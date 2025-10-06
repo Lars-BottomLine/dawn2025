@@ -74,7 +74,11 @@
 
     <div class="v2-mm-footer">
 
-        {% if data.footer_link_label != blank %}
+        {% if data.footer_link_url != blank %}
+            <a href="{{ data.footer_link_url }}" class="v2-mm-heading _font-h3 -decal-left">
+                {{ data.footer_link_label }}
+            </a>
+        {% else %}
             <div class="v2-mm-heading _font-h3 -decal-left">
                 {{ data.footer_link_label }}
             </div>
