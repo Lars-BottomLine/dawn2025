@@ -207,6 +207,38 @@
                         {% endfor %}
                     {% endif %}
 
+                {% when 'product_manual' %}
+
+                    {% if section.settings.product_list != blank %}
+
+                        <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                                 class="swiper-slide"
+                                 role="group"
+                                 aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                                 aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                                 tabindex="-1" >
+
+                                {% assign thumb_id = section.id | append: forloop.index %}
+
+                                {% render 'v2_product-thumb',
+                                    section_id: thumb_id,
+                                    product: product %}
+
+                                    {% comment %}{% render 'v2-slide',
+                                            item: article,
+                                            slide_type: 'product_manual',
+                                            slide_image: article.image,
+                                            section_index: section.index,
+                                            forloop: forloop,
+                                            slide_headline: article.title,
+                                            slide_text: article_text,
+                                            slide_button_label: 'Lets go'
+                                    %}{% endcomment %}
+
+                            </div>
+
+                    {% endif %}
+
                 {% endcase %}
             </div>
 
@@ -314,7 +346,11 @@
                     },
                     {
                         "value": "product",
-                        "label": "Products"
+                        "label": "Products (only for Collections)"
+                    },
+                    {
+                        "value": "product_manual",
+                        "label": "Products (manual selection)"
                     },
                     {
                         "value": "bundle",
@@ -324,6 +360,10 @@
             },
 
 
+            {
+                "type": "header",
+                "content": "Type: Blog"
+            },
             {
                 "type": "blog",
                 "id": "blog",
@@ -336,10 +376,26 @@
                 "max": 20,
                 "step": 1,
                 "default": 3,
-                "label": "t:sections.featured-blog.settings.post_limit.label"
+                "label": "t:sections.featured-blog.settings.post_limit.label",
             },
 
 
+            {
+                "type": "header",
+                "content": "Type: Blog"
+            },
+            {
+                "type": "product_list",
+                "id": "product_list",
+                "label": "Products",
+                "limit": 12
+            },
+
+
+            {
+                "type": "header",
+                "content": "Slider Control"
+            },
             {
                 "type": "checkbox",
                 "id": "auto_rotate",
@@ -369,7 +425,7 @@
                 "type": "text",
                 "id": "custom_class_names",
                 "label": "t:lebase.global.custom_classes.label",
-                "placeholder": ".test_class"
+                "placeholder": "test_class"
             },
 
 
