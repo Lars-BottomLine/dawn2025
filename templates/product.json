@@ -319,11 +319,11 @@
           "repeater": "{{ product.metafields.custom.learning_experience.value }}",
           "settings": {
             "image": "{{ block.repeater.image.value }}",
-            "title_text": "{{ block.repeater.text | metafield_tag }}",
+            "title_text": "{{ block.repeater.title | metafield_tag }}",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "{{ block.repeater.title | metafield_tag }}",
+            "text": "",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
