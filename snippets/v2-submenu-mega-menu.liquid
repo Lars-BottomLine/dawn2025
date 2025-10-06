@@ -54,14 +54,14 @@
 
     </div>
 
+    {% if data.footer_link_label != blank %}
     <div class="v2-mm-footer">
 
-        {% if data.footer_link_label != blank %}
-            <div class="v2-mm-heading _font-h3 -decal-left">
-                {{ data.footer_link_label }}
-            </div>
-        {% endif %}
+        <div class="v2-mm-heading _font-h3 -decal-left">
+            {{ data.footer_link_label }}
+        </div>
 
     </div>
+    {% endif %}
 
 </div>
