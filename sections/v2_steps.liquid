@@ -137,9 +137,17 @@
                         var link = links[i];
                         link.addEventListener('click', function (e) {
                             e.preventDefault();
-                            scrollToTargetAdjusted(
-                                document.querySelector('.' + this.getAttribute('data-target'))
-                            );
+                            const target = this.getAttribute('data-target');
+                            if (target.trim().startsWith('https://')) {
+                                window.open(target, '_blank');
+                                return;
+                            }
+                            const target_element = document.querySelector('.' + target);
+                            if (target_element) {
+                                scrollToTargetAdjusted( target_element );
+                            } else {
+                                console.info('StudyActive Section Steps > Target element not found: .' + target);
+                            }
                         })
                     }
                 }
@@ -313,7 +321,7 @@
                     {
                         "type": "text",
                         "id": "button_link",
-                        "label": "Target class ('Custom class' option in the section settings)"
+                        "label": "Target class ('Custom class' option) OR URL starting with https"
                     }
                 ]
             }
