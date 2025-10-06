@@ -306,7 +306,7 @@
       "settings": {
         "slide_type": "blog",
         "blog": "news",
-        "blog_post_limit": 3,
+        "blog_post_limit": 6,
         "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
