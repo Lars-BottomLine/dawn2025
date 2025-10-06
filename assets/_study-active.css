@@ -4272,7 +4272,7 @@ a {
 
 .mega-menu__content {
   background: var(--color-light-blue) !important;
-  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 38, 139, 0.16);
+  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 38, 139, 0.16) !important;
   border: none !important;
   padding: 0 !important;
 }
