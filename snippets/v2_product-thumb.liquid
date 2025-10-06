@@ -7,7 +7,8 @@
     - loopindex - where in the loop cycle are we for this section MUST be 1 at least once per page because otherwise necessary scripts won't be loaded
     - full_size: boolean
     - template: string ( full_size, normal, product_detail )
-    - shopify_attributes: ''
+    - shopify_attributes: '',
+    - extra_classes: string
   Usage:
   {% render 'card-product', section_id: section.id %}
 {% endcomment %}
@@ -19,7 +20,7 @@
     endif
 
     # template == 'normal'
-    assign product_classes = ''
+    assign product_classes = extra_classes
     assign class_title = '_font-copy-l'
     assign class_description = '_font-copy-m'
     assign class_description = ' _font-copy-l'

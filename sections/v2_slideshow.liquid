@@ -202,7 +202,43 @@
                     {% endif %}
                 {%- endfor -%}
 
-            {% endif %}
+                {% when 'product_manual' %}
+
+                    {% if section.settings.product_list != blank %}
+                        {% for product in section.settings.product_list %}
+
+                            <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                                     class="swiper-slide"
+                                     role="group"
+                                     aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                                     aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                                     tabindex="-1" >
+
+                                    {% assign thumb_id = section.id | append: forloop.index %}
+
+                                    {% render 'v2_product-thumb',
+                                        section_id: thumb_id,
+                                        product: product,
+                                        extra_classes: ' v2-swiper-inside '
+                                    %}
+
+                                        {% comment %}{% render 'v2-slide',
+                                                item: article,
+                                                slide_type: 'product_manual',
+                                                slide_image: article.image,
+                                                section_index: section.index,
+                                                forloop: forloop,
+                                                slide_headline: article.title,
+                                                slide_text: article_text,
+                                                slide_button_label: 'Lets go'
+                                        %}{% endcomment %}
+
+                            </div>
+
+                        {% endfor %}
+                    {% endif %}
+
+                {% endcase %}
             </div>
 
             <div class="swiper-pagination"></div>
@@ -312,6 +348,42 @@
                         "label": "Bundles (+1st Product)"
                     }
                 ]
+            },
+            {
+                "type": "header",
+                "content": "Type: Blog"
+            },
+            {
+                "type": "blog",
+                "id": "blog",
+                "label": "t:sections.featured-blog.settings.blog.label"
+            },
+            {
+                "type": "range",
+                "id": "blog_post_limit",
+                "min": 2,
+                "max": 20,
+                "step": 1,
+                "default": 3,
+                "label": "t:sections.featured-blog.settings.post_limit.label",
+            },
+
+
+            {
+                "type": "header",
+                "content": "Type: Products - Manual Selection"
+            },
+            {
+                "type": "product_list",
+                "id": "product_list",
+                "label": "Products",
+                "limit": 12
+            },
+
+
+            {
+                "type": "header",
+                "content": "Slider Control"
             },
             {
                 "type": "checkbox",
