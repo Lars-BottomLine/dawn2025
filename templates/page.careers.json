@@ -18,57 +18,128 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_GzGMki": {
-      "type": "image-banner",
+    "v2_hero_PLxfxF": {
+      "type": "v2_hero",
       "blocks": {
-        "heading_FTBz73": {
-          "type": "heading",
+        "slide_XQ3qra": {
+          "type": "slide",
           "settings": {
-            "heading": "Ready to get started?",
-            "heading_size": "h1"
-          }
-        },
-        "text_WG3THF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_n7nrY7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See current partner gyms",
-            "button_link_1": "shopify://pages/associations-and-partners",
-            "button_style_secondary_1": false,
-            "button_label_2": "Book a careers call",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
+            "slide_type": "onecol",
+            "heading_text": "<p>From Learning <strong>to Earning</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p><strong>You’ve got the skills. We’ll help you turn them into a career. </strong>Our careers support is built around three pillars: interview guarantee, CV writing support, and ongoing guidance</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
       "block_order": [
-        "heading_FTBz73",
-        "text_WG3THF",
-        "buttons_n7nrY7"
+        "slide_XQ3qra"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:lesections.hero.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 140,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_kUix7F": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Your next step starts here</p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>From building your CV to landing interviews, exploring job listings, and starting your freelancing journey, <strong>we provide all the support you need</strong> to step confidently into employment</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_x7M6WC": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_hXGMWB": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step",
+            "text": "<p>Text</p>",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        },
+        "step_RYtQWX": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Step",
+            "text": "<p>Text</p>",
+            "button_text": "Go to Step",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_hXGMWB",
+        "step_RYtQWX"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "image_banner_GzGMki"
+    "v2_hero_PLxfxF",
+    "v2_header_kUix7F",
+    "v2_steps_x7M6WC"
   ]
 }
