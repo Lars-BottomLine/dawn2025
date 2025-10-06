@@ -134,7 +134,7 @@
             "number": "4",
             "title": "Step 4: Start Freelancing",
             "text": "<p>Study Active partners with CoverMe Fitness, an ‘Uber-style’ platform that connects qualified instructors, trainers, and therapists with employment opportunities and clients. </p>",
-            "button_text": "Jobs Board",
+            "button_text": "Apply Now",
             "button_link": ""
           }
         }
@@ -156,12 +156,28 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_form_GwY9zG": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "career",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "v2_hero_PLxfxF",
     "v2_header_kUix7F",
-    "v2_steps_x7M6WC"
+    "v2_steps_x7M6WC",
+    "v2_form_GwY9zG"
   ]
 }
