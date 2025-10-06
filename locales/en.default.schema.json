@@ -280,6 +280,13 @@
       }
     },
 
+    "v2_trustpilot": {
+      "name": "v2 - TrustPilot",
+      "presets": {
+        "name": "v2 - TrustPilot"
+      }
+    },
+
 
 
 
