@@ -17,7 +17,7 @@
             {% endif %}
 
             {% if data.left_submenu.links != blank %}
-                <ul>
+                <ul class="-item-count-{{ data.left_submenu.links | size }}">
                     {%- for childlink in data.left_submenu.links -%}
                     <li>
                         <a
@@ -51,7 +51,7 @@
             {% endif %}
 
             {% if data.right_submenu.links != blank %}
-                <ul>
+                <ul class="-item-count-{{ data.right_submenu.links | size }}">
                     {%- for childlink in data.right_submenu.links -%}
                         <li>
                             <a
