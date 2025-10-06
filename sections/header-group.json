@@ -73,10 +73,10 @@
         "megamenu_g8KmbT": {
           "type": "megamenu",
           "settings": {
-            "menu_index": 4,
-            "left_heading": "Qualify as a...",
+            "menu_index": 5,
+            "left_heading": "Courses",
             "left_subheading": "New to the fitness industry? These courses will help you become a qualified professional and launch your career.",
-            "left_submenu": "2025-mm-career-left",
+            "left_submenu": "2025-mm-courses-left",
             "right_heading": "Career Pathways",
             "right_subheading": "Already qualified? These programmes are built to expand your knowledge and move your career forward.",
             "right_submenu": "2025-mm-career-right",
