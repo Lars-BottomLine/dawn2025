@@ -26,12 +26,12 @@
           "settings": {
             "image": "shopify://shop_images/ptbrochure.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Get your free <strong>Study Active brochure</strong></p>",
+            "heading_text": "<p><em><strong>CIMSPA Accredited Fitness Courses </strong></em><em>for a Fulfilling Career</em></p>",
             "heading_type": "h1",
             "heading_size": "h1",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>This is your moment to <strong>turn passion into purpose</strong>. Learn online at your pace, get expert support and land guaranteed interviews when you qualify. <strong>You bring the drive, we’ll handle the rest.</strong></p>",
+            "text": "<p>Want a career that helps you and others? Become a CIMSPA-Certifies Personal Trainer! Nationally recognised qualifications. Expert tutor support. Guaranteed job interviews. </p><p></p><p>Study Active is a CIMSPA Enhancing-rated provider with a proven track record of learner success.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -71,11 +71,11 @@
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p>See how Study Active can support your journey into the fitness industry</p>",
+        "subheadline_text": "<p><strong>Trusted, Respected, Recognised.</strong></p>",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<ul><li>A breakdown of all our available courses</li><li>Study options and how flexible learning works</li><li>Step-by-step guide to becoming qualified</li><li>Details on guaranteed interviews and career support</li><li>Testimonials from real Study Active graduates</li><li>Pricing options and how to spread the cost</li></ul>",
+        "text": "<p>Looking for a CIMSPA-recognised personal trainer course? You've come to the right place. Our personal trainer coursesare endorsed by CIMSPA, the UK’s official professional body for the sport andphysical activity sector. This means your qualification meets the industry goldstandard and gives employers and clients confidence in your skills. </p><p>Study Active is proud to hold CIMSPA's highest quality rating: \"Enhancing\". This means our courses don't just meet the standard; they exceed it. We work closely with gyms, educators and employers to give you the most relevant, up-to-date training on the market.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -340,6 +340,105 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_accordion_k4RYCF": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_hdd7Gc": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is CIMSPA?",
+            "row_content": "<p>CIMSPA is the Chartered Institute for the<br/>Management of Sport and Physical Activity. They are the recognised professional<br/>development body for the UK’s fitness sector.</p>"
+          }
+        },
+        "accordion_row_Ecbk7a": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Why does CIMSPA accreditation matter?",
+            "row_content": "<p>CIMSPA-accredited courses meet high<br/>quality standards, are recognised across the UK, and are trusted by employers.</p>"
+          }
+        },
+        "accordion_row_xJwJKG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Are Study Active's courses CIMSPA endorsed?",
+            "row_content": "<p>Yes. All of our key personal trainer qualifications are CIMSPA-endorsed and meet Ofqual standards.</p>"
+          }
+        },
+        "accordion_row_nCWPNT": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What does \"Enhancing\"status mean?",
+            "row_content": "<p>It’s the highest quality rating a provider can earn from CIMSPA, showing outstanding educational delivery.</p>"
+          }
+        },
+        "accordion_row_EqwDem": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I work abroad with these qualifications?",
+            "row_content": "<p>Yes. Our qualifications also align with EREPS, which helps learners gain recognition across Europe.</p>"
+          }
+        },
+        "accordion_row_RhLHkN": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I pay in instalments?",
+            "row_content": "<p>Yes. We offer 0% finance and flexible payment plans to make courses affordable.</p>"
+          }
+        },
+        "accordion_row_abViWR": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What support will I get during the course?",
+            "row_content": "<p>You’ll receive expert tutor support, study resources, and access to a supportive online platform.</p>"
+          }
+        },
+        "accordion_row_GBqQ83": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need any prior qualifications?",
+            "row_content": "<p>You can start with a Level 2 qualification if you’re new to fitness. Level 3 courses build on this foundation.</p>"
+          }
+        },
+        "accordion_row_mqjap7": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What kind of jobs can I get after qualifying?",
+            "row_content": "<p>Gym Instructor, Personal Trainer, Fitness Influencer, Freelance Trainer, Gym Owner.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_hdd7Gc",
+        "accordion_row_Ecbk7a",
+        "accordion_row_xJwJKG",
+        "accordion_row_nCWPNT",
+        "accordion_row_EqwDem",
+        "accordion_row_RhLHkN",
+        "accordion_row_abViWR",
+        "accordion_row_GBqQ83",
+        "accordion_row_mqjap7"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p><strong>FAQs About CIMSPA and Our Courses</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -349,6 +448,7 @@
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
-    "v2_featured_imtjhU"
+    "v2_featured_imtjhU",
+    "v2_accordion_k4RYCF"
   ]
 }
