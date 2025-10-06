@@ -4286,11 +4286,13 @@ a {
   display: none !important;
 }
 
+.header__inline-menu .header__active-menu-item,
 .header__inline-menu .header__menu-item:hover {
   color: var(--color-primary) !important;
   font-weight: bold !important;
   letter-spacing: -0.65px !important;
 }
+.header__inline-menu .header__active-menu-item span,
 .header__inline-menu .header__menu-item:hover span {
   text-decoration: none !important;
 }
@@ -4300,7 +4302,7 @@ a {
 }
 
 .v2-header-megamenu {
-  padding: 6.4rem 0 6rem;
+  padding: 6.3rem 0 6rem;
 }
 .v2-header-megamenu .-decal-left::before {
   width: 1.2rem;
