@@ -1069,6 +1069,8 @@
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -1138,6 +1140,8 @@
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -1159,8 +1163,8 @@
             "number": "1",
             "title": "Step 1: Watch your welcome webinar",
             "text": "<p>Watch the welcome video below to hear from one of our tutors as they guide you through the key steps to achieving your qualification.</p>",
-            "button_text": "",
-            "button_link": ""
+            "button_text": "a-test-class",
+            "button_link": "a-test-class"
           }
         },
         "step_jKaGYM": {
@@ -1169,7 +1173,7 @@
             "number": "2",
             "title": "Step 2: Download your coursework",
             "text": "<p>Text</p>",
-            "button_text": "Download",
+            "button_text": "external link",
             "button_link": "https://admin.shopify.com"
           }
         },
@@ -1179,7 +1183,7 @@
             "number": "3",
             "title": "Step 3: Start your studies",
             "text": "<p>Once your eLearning link has been provided (sent by Active IQ), you can start studying online. This can take 1-2 working days to process as we need time to register your information with the accreditation body Active.</p>",
-            "button_text": "Study Now",
+            "button_text": "missing class",
             "button_link": "-anchor-step-3"
           }
         },
@@ -1258,41 +1262,6 @@
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 104,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_qydTW4": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>Watch and learn on YouTube</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "full",
-        "text": "",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -1389,7 +1358,7 @@
         "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
-        "custom_class_names": "",
+        "custom_class_names": "a-test-class",
         "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
@@ -1601,6 +1570,25 @@
         "margin_top": 0,
         "margin_bottom": -140
       }
+    },
+    "v2_slideshow_9cTTg6": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product",
+        "blog": "",
+        "blog_post_limit": 3,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -1622,12 +1610,12 @@
     "v2_steps_NE8FcR",
     "v2_header_NMpyFR",
     "v2_featured_eHUeJe",
-    "v2_header_qydTW4",
     "v2_video_9hKwtR",
     "v2_hero_aGgW3k",
     "v2_newsletter_Qcb3Lw",
     "v2_newsletter_nWWNqi",
     "v2_grid_K49P6k",
-    "v2_quickaccess_b9PHkD"
+    "v2_quickaccess_b9PHkD",
+    "v2_slideshow_9cTTg6"
   ]
 }
