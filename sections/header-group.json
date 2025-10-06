@@ -60,8 +60,8 @@
         "megamenu_hmQVLb": {
           "type": "megamenu",
           "settings": {
-            "menu_index": 4,
-            "left_heading": "Courses",
+            "menu_index": 1,
+            "left_heading": "About Us",
             "left_subheading": "",
             "left_submenu": "2025-mm-about-us-left",
             "right_heading": "",
