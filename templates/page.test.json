@@ -1575,7 +1575,7 @@
       "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "slide_type": "product",
+        "slide_type": "product_manual",
         "blog": "",
         "blog_post_limit": 3,
         "auto_rotate": false,
