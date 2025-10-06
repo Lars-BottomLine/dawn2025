@@ -44,6 +44,19 @@
     "header": {
       "type": "header",
       "blocks": {
+        "megamenu_hmQVLb": {
+          "type": "megamenu",
+          "settings": {
+            "menu_index": 1,
+            "left_heading": "About Us",
+            "left_subheading": "",
+            "left_submenu": "2025-mm-about-us-left",
+            "right_heading": "",
+            "right_subheading": "",
+            "right_submenu": "",
+            "footer_link_label": ""
+          }
+        },
         "megamenu_mt3Xcj": {
           "type": "megamenu",
           "settings": {
@@ -57,23 +70,24 @@
             "footer_link_label": "Our Career Services"
           }
         },
-        "megamenu_hmQVLb": {
+        "megamenu_g8KmbT": {
           "type": "megamenu",
           "settings": {
-            "menu_index": 1,
-            "left_heading": "About Us",
-            "left_subheading": "",
-            "left_submenu": "2025-mm-about-us-left",
-            "right_heading": "",
-            "right_subheading": "",
-            "right_submenu": "",
-            "footer_link_label": ""
+            "menu_index": 3,
+            "left_heading": "Qualify as a...",
+            "left_subheading": "New to the fitness industry? These courses will help you become a qualified professional and launch your career.",
+            "left_submenu": "2025-mm-career-left",
+            "right_heading": "Career Pathways",
+            "right_subheading": "Already qualified? These programmes are built to expand your knowledge and move your career forward.",
+            "right_submenu": "2025-mm-career-right",
+            "footer_link_label": "Our Career Services"
           }
         }
       },
       "block_order": [
+        "megamenu_hmQVLb",
         "megamenu_mt3Xcj",
-        "megamenu_hmQVLb"
+        "megamenu_g8KmbT"
       ],
       "settings": {
         "logo_position": "middle-left",
