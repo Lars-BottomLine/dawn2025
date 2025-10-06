@@ -210,33 +210,37 @@
                 {% when 'product_manual' %}
 
                     {% if section.settings.product_list != blank %}
+                        {% for product in section.settings.product_list %}
 
-                        <div id="Slide-{{ section.id }}-{{ forloop.index }}"
-                                 class="swiper-slide"
-                                 role="group"
-                                 aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                                 aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                                 tabindex="-1" >
+                            <div id="Slide-{{ section.id }}-{{ forloop.index }}"
+                                     class="swiper-slide"
+                                     role="group"
+                                     aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                                     aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                                     tabindex="-1" >
 
-                                {% assign thumb_id = section.id | append: forloop.index %}
+                                    {% assign thumb_id = section.id | append: forloop.index %}
 
-                                {% render 'v2_product-thumb',
-                                    section_id: thumb_id,
-                                    product: product %}
+                                    {% render 'v2_product-thumb',
+                                        section_id: thumb_id,
+                                        product: product,
+                                        extra_classes: ' v2-swiper-inside '
+                                    %}
 
-                                    {% comment %}{% render 'v2-slide',
-                                            item: article,
-                                            slide_type: 'product_manual',
-                                            slide_image: article.image,
-                                            section_index: section.index,
-                                            forloop: forloop,
-                                            slide_headline: article.title,
-                                            slide_text: article_text,
-                                            slide_button_label: 'Lets go'
-                                    %}{% endcomment %}
+                                        {% comment %}{% render 'v2-slide',
+                                                item: article,
+                                                slide_type: 'product_manual',
+                                                slide_image: article.image,
+                                                section_index: section.index,
+                                                forloop: forloop,
+                                                slide_headline: article.title,
+                                                slide_text: article_text,
+                                                slide_button_label: 'Lets go'
+                                        %}{% endcomment %}
 
                             </div>
 
+                        {% endfor %}
                     {% endif %}
 
                 {% endcase %}
@@ -382,7 +386,7 @@
 
             {
                 "type": "header",
-                "content": "Type: Blog"
+                "content": "Type: Products - Manual Selection"
             },
             {
                 "type": "product_list",
