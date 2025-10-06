@@ -56,10 +56,24 @@
             "right_submenu": "2025-mm-career-right",
             "footer_link_label": "Our Career Services"
           }
+        },
+        "megamenu_hmQVLb": {
+          "type": "megamenu",
+          "settings": {
+            "menu_index": 4,
+            "left_heading": "Courses",
+            "left_subheading": "",
+            "left_submenu": "2025-mm-career-left",
+            "right_heading": "Career Pathways",
+            "right_subheading": "Already qualified? These programmes are built to expand your knowledge and move your career forward.",
+            "right_submenu": "2025-mm-career-right",
+            "footer_link_label": "Our Career Services"
+          }
         }
       },
       "block_order": [
-        "megamenu_mt3Xcj"
+        "megamenu_mt3Xcj",
+        "megamenu_hmQVLb"
       ],
       "settings": {
         "logo_position": "middle-left",
