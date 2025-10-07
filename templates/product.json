@@ -259,6 +259,34 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_trustpilot_96FMCR": {
+      "type": "v2-trustpilot",
+      "name": "t:sections.v2_trustpilot.presets.name",
+      "settings": {
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -266,6 +294,7 @@
     "v2_producthero_UryhNE",
     "v2_text_plus_image_cdFcb6",
     "main",
-    "v2_accordion_Rt6H6Y"
+    "v2_accordion_Rt6H6Y",
+    "v2_trustpilot_96FMCR"
   ]
 }
