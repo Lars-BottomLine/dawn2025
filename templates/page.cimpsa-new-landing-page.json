@@ -133,7 +133,7 @@
       "type": "v2_trustpilot",
       "name": "t:lesections.v2_trustpilot.presets.name",
       "settings": {
-        "apply_filter": true,
+        "apply_filter": false,
         "heading_text": "",
         "heading_type": "h1",
         "heading_size": "h1",
