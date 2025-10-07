@@ -46,6 +46,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
+        "image": "{{ product.featured_image }}",
         "heading_text": "<p><strong>Course Overview</strong></p>",
         "heading_type": "h2",
         "heading_size": "h2",
