@@ -162,11 +162,58 @@
 
 <script>
     var acc_{{ section_id_js }} = false;
+    var debTimeout_{{ section_id_js }} = null;
+    var debug_{{ section_id_js }} = false;
 
-    if (!(typeof window.openAccordion === "function")) {
-        var openAccordion = function ( ele ) {
-            ele.style.maxHeight = '300vh';
-            document.querySelector('.section-{{ section.id }} .le-acc-showall').style.display = 'none';
+    var debounce_{{ section_id_js }} = function(e) {
+        if (debTimeout_{{ section_id_js }} != null) {
+            if (debug_{{ section_id_js }}) console.log('resetting debounce');
+            clearTimeout(debTimeout_{{ section_id_js }} );
+        }
+
+        debTimeout_{{ section_id_js }} = setTimeout( () => {
+            const ev = e;
+            setMaxHeightAccordion_{{ section_id_js }}(ev);
+        }, 250);
+
+    }
+
+    var openAccordion_{{ section_id_js }} = function ( ele ) {
+        if (debug_{{ section_id_js }}) console.log('accordion-initialized: opening .section-{{ section.id }}');
+        ele.style.maxHeight = '300vh';
+        document.querySelector('.section-{{ section.id }} .le-acc-showall').style.display = 'none';
+
+        // stop listening to resize event
+        document.querySelector('.section-{{ section.id }} .le-accordion')
+            .removeEventListener('accordion-resize', debounce_{{ section_id_js }});
+    }
+
+    var setMaxHeightAccordion_{{ section_id_js }} = function ( ev ) {
+        const items_to_show = {{ section.settings.items_to_show }};
+        const security_margin = 10;
+        const accordion = ev.detail.target_entry;
+        const entries_wrapper = accordion.querySelector('.le-acc-entries');
+
+        if (debug_{{ section_id_js }}) console.log('accordion-initialized: .section-{{ section.id }}');
+        if (debug_{{ section_id_js }}) console.log('accordion-initialized > items_to_show:'+items_to_show,
+            accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
+
+        var max_height = 0;
+        const acc_entries = document.querySelectorAll('.section-{{ section.id }} .le-accordion .le-acc-entry');
+        acc_entries.forEach( (entry, index) => {
+            if (index < items_to_show) {
+                max_height += entry.offsetHeight + 10;
+                if (debug_{{ section_id_js }}) console.log('accordion-initialized > adding: ', index, entry.offsetHeight);
+            }
+        });
+        accordion.style.maxHeight = max_height + 'px';
+        const need_button = acc_entries.length > items_to_show
+        if (debug_{{ section_id_js }}) console.log('accordion-initialized > max_height: ' + max_height,
+            ', entries: ' + acc_entries.length, ', items_to_show: ' + items_to_show, ', need_button: ', need_button);
+
+
+        if ( !need_button ) {
+            openAccordion_{{ section_id_js }}( accordion );
         }
     }
 
@@ -184,50 +231,35 @@
         // -----------------------
         if (document.querySelector('.section-{{ section.id }} .le-acc-showall')) {
             document.querySelector('.section-{{ section.id }} .le-acc-showall').addEventListener('click', function () {
-                openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
+                openAccordion_{{ section_id_js }}( document.querySelector('.section-{{ section.id }} .le-accordion') );
             })
         }
 
         document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-open', function (e) {
-            //console.log('ACCORDION: ENTRY OPENED', e);
+            if (debug_{{ section_id_js }}) console.log('ACCORDION: ENTRY OPENED', e);
             if (!acc_{{ section_id_js }}) {
                 acc_{{ section_id_js }} = true;
-                openAccordion( document.querySelector('.section-{{ section.id }} .le-accordion') );
+                openAccordion_{{ section_id_js }}( document.querySelector('.section-{{ section.id }} .le-accordion') );
             }
         })
         document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-entry-close', function (e) {
-            //console.log('ACCORDION: ENTRY CLOSED', e);
+            if (debug_{{ section_id_js }}) console.log('ACCORDION: ENTRY CLOSED', e);
         })
 
     });
 
+    // EVENT: INITIALIZED
     // remove the open button if accordion content is not taller than the limit
     document.querySelector('.section-{{ section.id }} .le-accordion').addEventListener('accordion-initialized', function (e) {
+        if (debug_{{ section_id_js }}) console.log('ACCORDION: INITIALIZED');
         setTimeout( () => {
-            const items_to_show = {{ section.settings.items_to_show }};
-            const security_margin = 10;
-            const accordion = e.detail.target_entry;
-            const entries_wrapper = accordion.querySelector('.le-acc-entries');
-            console.log('ACCORDION: INITIALIZED', accordion, entries_wrapper, accordion.offsetHeight, entries_wrapper.clientHeight, accordion.offsetHeight < entries_wrapper.clientHeight);
-            console.log('ACCORDION: INITIALIZED', entries_wrapper.clientHeight);
-
-            var max_height = 0;
-            const acc_entries = document.querySelectorAll('.section-{{ section.id }} .le-accordion .le-acc-entry');
-            acc_entries.forEach( (entry, index) => {
-                if (index < items_to_show) {
-                    max_height += entry.offsetHeight + 10;
-                    console.log(index, entry.offsetHeight);
-                }
-            });
-            accordion.style.maxHeight = max_height + 'px';
-            console.log('ACCORDION: MAX HEIGHT', max_height, acc_entries.length, items_to_show, acc_entries.length < items_to_show);
-
-
-            if (acc_entries.length <= items_to_show ) {
-                openAccordion( accordion );
-            }
+            setMaxHeightAccordion_{{ section_id_js }}(e);
         }, 500);
-    })
+    });
+
+    // EVENT: RESIZED
+    document.querySelector('.section-{{ section.id }} .le-accordion')
+        .addEventListener('accordion-resize', debounce_{{ section_id_js }});
 
 
 </script>
