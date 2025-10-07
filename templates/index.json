@@ -858,7 +858,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
