@@ -6559,4 +6559,8 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   }
 }
 
+.v2-section-trustpilot .v2-tp-wrapper iframe {
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+
 /*# sourceMappingURL=_study-active.css.map */

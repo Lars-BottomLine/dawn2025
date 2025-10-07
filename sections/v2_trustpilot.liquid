@@ -61,7 +61,10 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
-    # ...
+    assign classes_wrapper = ''
+    if section.settings.apply_filter
+        assign classes_wrapper = ' -blue-filter '
+    endif
 %}
 
 {%- style -%}
@@ -94,7 +97,7 @@
         <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
         <!-- End TrustBox script -->
 
-        <div class="">
+        <div class="v2_tp-wrapper {{ classes_wrapper }}">
             <!-- TrustBox widget - Slider -->
             <div class="trustpilot-widget" data-locale="en-GB" data-template-id="54ad5defc6454f065c28af8b" data-businessunit-id="59ac1c690000ff0005aa5112" data-style-height="240px" data-style-width="100%" data-token="d9200da4-b639-4f72-9f34-d2c43509a22e" data-stars="1,2,3,4,5" data-review-languages="en" data-text-color="#00268B">
                 <a href="https://uk.trustpilot.com/review/studyactive.co.uk" target="_blank" rel="noopener">Trustpilot</a>
@@ -114,6 +117,13 @@
         "groups": ["header", "footer"]
     },
     "settings": [
+
+        {
+            "type": "checkbox",
+            "id": "apply_filter",
+            "label": "Apply blue CSS filter",
+            "default": false
+        },
 
         {
             "type": "header",
