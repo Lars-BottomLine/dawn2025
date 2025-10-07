@@ -209,12 +209,13 @@
           "settings": {
             "image": "shopify://shop_images/41.png",
             "heading": "Title",
-            "row_content": "<p>ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   </p><p>ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title</p>"
+            "row_content": "<p>ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title</p><p>ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title</p>"
           }
         },
         "accordion_row_ghKdi9": {
           "type": "accordion_row",
           "settings": {
+            "image": "{{ product.featured_image }}",
             "heading": "⁠Video player not working.",
             "row_content": "<p>2.⁠ ⁠⁠ All buttons need hover effects.3.⁠ ⁠⁠All product card need hover effects.4.⁠ ⁠Need the capacity to add hand picked products to slideshow.5.⁠ ⁠⁠Header needs to match Figma.6.⁠ ⁠⁠Need blog slider to be like in Figma.7. Steps need to work with external URL as well</p>"
           }
