@@ -242,7 +242,7 @@
       "name": "t:lesections.accordion.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "heading_text": "",
+        "heading_text": "<p><strong>CIMSPA & Our Courses FAQs</strong></p>",
         "heading_align": "center",
         "heading_type": "h1",
         "heading_size": "h1",
