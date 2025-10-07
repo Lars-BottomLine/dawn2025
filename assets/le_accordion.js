@@ -1,5 +1,7 @@
 /**
  * (P) 2019-2025 Lars Ermert
+ * v2.4.0 - 25.10.07:
+ *    - added 'accordion-resize' event
  * v2.3.2 - 25.09.08:
  *    - protecting against 'already defined' error
  * v2.3.1 - 25.08.24:
@@ -30,6 +32,8 @@
  *
  *      </div>
  *    </div>
+ *
+ *    ToDo: add show max entries from study active to library
  */
 
 if (typeof window.LeAccordion === 'undefined') {
@@ -145,8 +149,10 @@ if (typeof window.LeAccordion === 'undefined') {
             this._setClickEvents();
 
             addEventListener("resize",  () => {
+                const accordion_ele = document.querySelector( this.options.selector.wrapper_class );
                 this._calculateHeights();
                 this._setMaxHeight();
+                this.emitEvent(accordion_ele, 'accordion-resize');
             })
             this._calculateHeights();
 
