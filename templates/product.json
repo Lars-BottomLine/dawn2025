@@ -260,10 +260,11 @@
         "margin_bottom": 0
       }
     },
-    "v2_trustpilot_96FMCR": {
-      "type": "v2-trustpilot",
+    "v2_trustpilot_EiwfxP": {
+      "type": "v2_trustpilot",
       "name": "t:sections.v2_trustpilot.presets.name",
       "settings": {
+        "apply_filter": true,
         "heading_text": "",
         "heading_type": "h1",
         "heading_size": "h1",
@@ -295,6 +296,6 @@
     "v2_text_plus_image_cdFcb6",
     "main",
     "v2_accordion_Rt6H6Y",
-    "v2_trustpilot_96FMCR"
+    "v2_trustpilot_EiwfxP"
   ]
 }
