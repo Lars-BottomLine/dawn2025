@@ -847,6 +847,41 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_chDced": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Tips, trends and training advice</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This is your moment to do something that really moves you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_slideshow_jPMWKQ": {
       "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
@@ -1045,6 +1080,7 @@
     "v2_hero_6e4NMx",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
+    "v2_header_chDced",
     "v2_slideshow_jPMWKQ",
     "v2_accordion_MwEKUC",
     "v2_newsletter_EFqipn"

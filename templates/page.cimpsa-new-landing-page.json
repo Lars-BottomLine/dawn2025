@@ -93,6 +93,42 @@
         "margin_bottom": 0
       }
     },
+    "image_with_text_Ux3t78": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YEkgnn": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YEkgnn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CIMSPA_Quality_Assurance_Logo_3-star_Enhancing_NAVY_1000x_d2db4289-3d07-422e-83a7-15d6139c21c1.webp",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_cards_3FDg9r": {
       "type": "v2_cards",
       "blocks": {
@@ -184,12 +220,12 @@
         "button_new_window": false,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": true,
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 80
+        "margin_bottom": 16
       }
     },
     "v2_cards_xmbyLJ": {
@@ -445,6 +481,7 @@
     "main",
     "v2_hero_k3BEND",
     "v2_newsletter_WmBhQK",
+    "image_with_text_Ux3t78",
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
