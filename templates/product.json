@@ -221,23 +221,15 @@
         "accordion_row_YmKCcG": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
+            "heading": "More",
             "row_content": "<p>2.⁠ ⁠⁠ All buttons need hover effects.3.⁠ ⁠⁠All product card need hover effects.4.⁠ ⁠Need the capacity to add hand picked products to slideshow.</p><p>5.⁠ ⁠⁠Header <strong>needs</strong> to match Figma.6.⁠ ⁠⁠Need blog slider to be like in F<em>igma.7. Steps need to work with external URL as well</em></p>"
-          }
-        },
-        "accordion_row_BLtiLJ": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "",
-            "row_content": ""
           }
         }
       },
       "block_order": [
         "accordion_row_G3Vdgf",
         "accordion_row_ghKdi9",
-        "accordion_row_YmKCcG",
-        "accordion_row_BLtiLJ"
+        "accordion_row_YmKCcG"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
