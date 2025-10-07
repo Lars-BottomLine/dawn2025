@@ -128,19 +128,24 @@
        # ---------------------------------------- %}
     <div class="slide-shadow"></div>
 
-    <div class="page-width
-                section-{{ section.id }}-padding-top
-                section-{{ section.id }}-padding-bottom">
+    <div class="sa-bg-{{ section.settings.bkgr_color }} relative">
 
-        {% render 'v2_product-thumb',
-                section_id: section.id,
-                product: product,
-                template: 'product_detail',
-                loopindex: 1,
-                shopify_attributes: ''
-        %}
+        <div class="page-width
+                    section-{{ section.id }}-padding-top
+                    section-{{ section.id }}-padding-bottom">
 
-    </div> {% # /PAGE WIDTH %}
+            {% render 'v2_product-thumb',
+                    section_id: section.id,
+                    product: product,
+                    template: 'product_detail',
+                    loopindex: 1,
+                    shopify_attributes: ''
+            %}
+
+        </div> {% # /PAGE WIDTH %}
+
+    </div>
+
 </div>
 
 {% schema %}

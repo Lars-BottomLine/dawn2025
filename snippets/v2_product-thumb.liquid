@@ -40,6 +40,9 @@
             assign classes_button = ' -size-medium '
     endcase
 
+    assign product_classes = product_classes | append: ' -template-' | append: template
+    assign product_classes = product_classes | append: ' -sectionid-' | append: section_id
+
     assign media_image_count = 0
     if product.media
         assign media_image_count = product.media | size
@@ -129,7 +132,7 @@
                         {% if first_call_on_page %}
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
-                                document.querySelectorAll('.v2-image-container').forEach( (ele) => {
+                                document.querySelectorAll('product-thumb.-sectionid-{{ section_id }} .v2-image-container').forEach( (ele) => {
                                     ele.addEventListener('click', function(e) {
                                         e.preventDefault();
                                         const source = this;
