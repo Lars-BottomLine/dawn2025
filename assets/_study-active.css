@@ -4898,16 +4898,16 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   padding-left: 5rem;
   padding-right: 5rem;
 }
-.v2-section-accordion h2 {
-  color: inherit;
-  margin-bottom: 3rem;
-}
 .v2-section-accordion h2.-medium {
   font-weight: 400;
   font-size: 3.6rem;
   line-height: 1.05;
 }
-.v2-section-accordion h2.-medium:before {
+.v2-section-accordion .v2-heading {
+  color: inherit;
+  margin-bottom: 3rem;
+}
+.v2-section-accordion .v2-heading.-medium:before {
   top: -2rem;
 }
 .v2-section-accordion .le-acc-entries {
