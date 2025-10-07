@@ -4292,9 +4292,12 @@ a {
 
 .mega-menu__content {
   background: var(--color-light-blue) !important;
-  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 38, 139, 0.16) !important;
+  box-shadow: 0 4.4rem 4.8rem 0 rgba(0, 38, 139, 0.16) !important;
   border: none !important;
   padding: 0 !important;
+  margin-top: -2.5rem;
+  z-index: 1;
+  background: transparent !important;
 }
 
 .mega-menu[open] > .header__menu-item {
@@ -4316,6 +4319,12 @@ a {
 .header__inline-menu .header__active-menu-item span,
 .header__inline-menu .header__menu-item:hover span {
   text-decoration: none !important;
+}
+
+.v2-mm-wrapper {
+  margin-top: 2.5rem;
+  background: var(--color-light-blue) !important;
+  background: transparent;
 }
 
 .v2-mm-container.page-width {
