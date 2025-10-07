@@ -283,7 +283,6 @@
                   {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
                 "
               >
-                {% assign skip_card_product_styles = false %}
                 {%- for product in collection.products -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
@@ -296,21 +295,7 @@
                       style="--animation-order: {{ forloop.index }};"
                     {% endif %}
                   >
-  {% comment %}
-                    {% render 'card-product',
-                      card_product: product,
 
-                      media_aspect_ratio: section.settings.image_ratio,
-                      image_shape: section.settings.image_shape,
-                      show_secondary_image: section.settings.show_secondary_image,
-                      show_vendor: section.settings.show_vendor,
-                      show_rating: section.settings.show_rating,
-                      lazy_load: lazy_load,
-                      skip_styles: skip_card_product_styles,
-                      quick_add: section.settings.quick_add,
-                      section_id: section.id
-                    %}
-  {% endcomment %}
                     {% assign thumb_id = section.id | append: forloop.index %}
 
                     {% render 'v2_product-thumb',
@@ -330,36 +315,7 @@
                         loopindex: forloop.index
                     %}
 
-  {% comment %}
-                    {% if request.page_type == 'collection' %}
-                      {% if product.variants.size > 1 %}
-                        <div class="product-variant-dropdown">
-                          <form action="/cart/add" method="post" >
-                            <select name="id" class="product-variant-select">
-                              {% for variant in product.variants %}
-                                {% if variant.available %}
-                                  <option value="{{ variant.id }}">{{ variant.title }}</option>
-                                {% else %}
-                                  <option disabled="disabled">{{ variant.title }} - Sold Out</option>
-                                {% endif %}
-                              {% endfor %}
-                            </select>
-                            <input type="submit" value="Buy now" class="product-variant-submit-button" />
-                          </form>
-                        </div>
-                      {% endif %}
-                    {% endif %}
-
-                    {% if product.has_only_default_variant %}
-                      <form method="post" action="/cart/add">
-                        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                        <input type="submit" value="Buy now" class="product-variant-submit-button" />
-                      </form>
-                    {% endif %}
-  {% endcomment %}
-
                   </li>
-                  {%- assign skip_card_product_styles = true -%}
                 {%- endfor -%}
               </ul>
             </div>

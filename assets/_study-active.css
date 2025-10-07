@@ -3093,7 +3093,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2-article-template .v2-article-content blockquote,
 ._font-copy-l,
 .v2-article-template .v2-article-content h4,
+.v2-article-template .v2-article-content h4 b,
+.v2-article-template .v2-article-content h4 strong,
 .v2-article-template .v2-article-content h3,
+.v2-article-template .v2-article-content h3 b,
+.v2-article-template .v2-article-content h3 strong,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
@@ -3170,7 +3174,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .v2-article-template .v2-article-content blockquote.-decal-left,
   ._font-copy-l.-decal-left,
   .v2-article-template .v2-article-content h4.-decal-left,
+  .v2-article-template .v2-article-content h4 b.-decal-left,
+  .v2-article-template .v2-article-content h4 strong.-decal-left,
   .v2-article-template .v2-article-content h3.-decal-left,
+  .v2-article-template .v2-article-content h3 b.-decal-left,
+  .v2-article-template .v2-article-content h3 strong.-decal-left,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._html-code,
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
@@ -3369,7 +3377,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 ._font-copy-xl, .v2-article-template .v2-article-content blockquote,
 ._font-copy-l,
 .v2-article-template .v2-article-content h4,
+.v2-article-template .v2-article-content h4 b,
+.v2-article-template .v2-article-content h4 strong,
 .v2-article-template .v2-article-content h3,
+.v2-article-template .v2-article-content h3 b,
+.v2-article-template .v2-article-content h3 strong,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
@@ -3661,7 +3673,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-l,
 .v2-article-template .v2-article-content h4,
+.v2-article-template .v2-article-content h4 b,
+.v2-article-template .v2-article-content h4 strong,
 .v2-article-template .v2-article-content h3,
+.v2-article-template .v2-article-content h3 b,
+.v2-article-template .v2-article-content h3 strong,
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
@@ -3673,7 +3689,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .v2-sa-form-wrapper form ._html-code p,
   ._font-copy-l,
   .v2-article-template .v2-article-content h4,
+  .v2-article-template .v2-article-content h4 b,
+  .v2-article-template .v2-article-content h4 strong,
   .v2-article-template .v2-article-content h3,
+  .v2-article-template .v2-article-content h3 b,
+  .v2-article-template .v2-article-content h3 strong,
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
   .price.price--on-sale .price__sale .price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
@@ -5305,6 +5325,13 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-main-collection-product-grid .product__media-toggle.quick-add-hidden.product__media-zoom- {
   display: none;
 }
+.v2-section-main-collection-product-grid .grid__item {
+  transition: transform 250ms, background-color 250ms, box-shadow 250ms;
+}
+.v2-section-main-collection-product-grid .grid__item:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 3px 6px 0 var(--color-dark-blue);
+}
 .v2-section-main-collection-product-grid .grid {
   gap: 2rem;
 }
@@ -5532,7 +5559,15 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-slideshow .-slide-type-blue .v2-row {
   gap: 1.4rem;
 }
-.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-l, .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h4, .v2-article-template .v2-article-content .v2-section-slideshow .-slide-type-blue .v2-row h4, .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h3, .v2-article-template .v2-article-content .v2-section-slideshow .-slide-type-blue .v2-row h3, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form ._html-code, .v2-sa-form-wrapper form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-item.price-item--regular, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular,
+.v2-section-slideshow .-slide-type-blue .v2-row ._font-copy-l, .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h4, .v2-article-template .v2-article-content .v2-section-slideshow .-slide-type-blue .v2-row h4,
+.v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h4 b,
+.v2-article-template .v2-article-content h4 .v2-section-slideshow .-slide-type-blue .v2-row b,
+.v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h4 strong,
+.v2-article-template .v2-article-content h4 .v2-section-slideshow .-slide-type-blue .v2-row strong, .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h3, .v2-article-template .v2-article-content .v2-section-slideshow .-slide-type-blue .v2-row h3,
+.v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h3 b,
+.v2-article-template .v2-article-content h3 .v2-section-slideshow .-slide-type-blue .v2-row b,
+.v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h3 strong,
+.v2-article-template .v2-article-content h3 .v2-section-slideshow .-slide-type-blue .v2-row strong, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form ._html-code, .v2-sa-form-wrapper form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-item.price-item--regular, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular {
   color: var(--color-secondary);
@@ -6381,10 +6416,16 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   margin-top: 6.4rem;
   margin-bottom: 2rem;
 }
-.v2-article-template .v2-article-content h3 {
+.v2-article-template .v2-article-content h3,
+.v2-article-template .v2-article-content h3 b,
+.v2-article-template .v2-article-content h3 strong {
   font-weight: bold;
+  margin-bottom: 2rem;
 }
-.v2-article-template .v2-article-content h4 {
+.v2-article-template .v2-article-content h4,
+.v2-article-template .v2-article-content h4 b,
+.v2-article-template .v2-article-content h4 strong {
+  margin-bottom: 2rem;
   margin-bottom: 2rem;
 }
 .v2-article-template .v2-article-content p {
@@ -6406,6 +6447,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   margin-top: 4rem;
   padding-top: 4rem;
   position: relative;
+  margin-bottom: 6.4rem;
 }
 .v2-article-template .v2-article-content .blog-image-wrapper:before {
   content: "";
