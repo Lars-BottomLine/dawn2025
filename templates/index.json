@@ -247,6 +247,9 @@
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -470,6 +473,9 @@
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -841,6 +847,26 @@
         "margin_bottom": 0
       }
     },
+    "v2_slideshow_jPMWKQ": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blog",
+        "blog": "news",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_accordion_MwEKUC": {
       "type": "v2_accordion",
       "blocks": {
@@ -1019,6 +1045,7 @@
     "v2_hero_6e4NMx",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
+    "v2_slideshow_jPMWKQ",
     "v2_accordion_MwEKUC",
     "v2_newsletter_EFqipn"
   ]
