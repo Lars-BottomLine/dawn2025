@@ -6559,7 +6559,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   }
 }
 
-.v2-section-trustpilot .v2-tp-wrapper iframe {
+.v2-section-trustpilot .v2_tp-wrapper.-blue-filter iframe {
   filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 
