@@ -207,8 +207,9 @@
         "accordion_row_G3Vdgf": {
           "type": "accordion_row",
           "settings": {
+            "image": "shopify://shop_images/41.png",
             "heading": "Title",
-            "row_content": "<p>Text</p>"
+            "row_content": "<p>ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   </p><p>ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title   ae_title ae_title ae_title ae_title ae_title ae_title</p>"
           }
         },
         "accordion_row_ghKdi9": {
