@@ -221,6 +221,13 @@
             "row_content": "<p>2.⁠ ⁠⁠ All buttons need hover effects.3.⁠ ⁠⁠All product card need hover effects.4.⁠ ⁠Need the capacity to add hand picked products to slideshow.5.⁠ ⁠⁠Header needs to match Figma.6.⁠ ⁠⁠Need blog slider to be like in Figma.7. Steps need to work with external URL as well</p>"
           }
         },
+        "accordion_row_jnqUPd": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "accordion does not take the metaobjects correctly, looks like title is missing in the settings (on live at least)",
+            "row_content": "<p>accordion does not take the metaobjects correctly, <strong>looks like title is m</strong>issing in the settings (on live at least)</p><p>accordion does not take the metaobjects correctly, lo<em>oks like title is mis</em>sing in the settings (on live at least)</p>"
+          }
+        },
         "accordion_row_YmKCcG": {
           "type": "accordion_row",
           "settings": {
@@ -240,6 +247,7 @@
       "block_order": [
         "accordion_row_G3Vdgf",
         "accordion_row_ghKdi9",
+        "accordion_row_jnqUPd",
         "accordion_row_YmKCcG",
         "accordion_row_pJNQLX"
       ],
@@ -253,7 +261,7 @@
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
-        "items_to_show": 4,
+        "items_to_show": 3,
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": false,
