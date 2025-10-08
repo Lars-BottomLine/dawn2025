@@ -4302,8 +4302,7 @@ a {
 
 .mega-menu[open] > .header__menu-item {
   text-decoration: none !important;
-  font-weight: bold !important;
-  letter-spacing: -0.65px !important;
+  color: var(--color-secondary) !important;
 }
 .mega-menu .header__menu-item .icon-caret {
   display: none !important;
@@ -4311,9 +4310,7 @@ a {
 
 .header__inline-menu .header__active-menu-item,
 .header__inline-menu .header__menu-item:hover {
-  color: var(--color-primary) !important;
-  font-weight: bold !important;
-  letter-spacing: -0.65px !important;
+  color: var(--color-secondary) !important;
   text-decoration: none !important;
 }
 .header__inline-menu .header__active-menu-item span,
@@ -4359,7 +4356,6 @@ a {
   margin-bottom: 0.8rem;
 }
 .v2-header-megamenu .v2-mm-wrapper li a {
-  font-weight: bold;
   line-height: 1;
 }
 .v2-header-megamenu .v2-mm-wrapper ul {
