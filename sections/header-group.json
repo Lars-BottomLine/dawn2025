@@ -11,11 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "1755084133c5eab34c": {
-      "type": "_blocks",
-      "disabled": true,
-      "settings": {}
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -54,7 +49,8 @@
             "right_heading": "Specialise Your Career",
             "right_subheading": "Already qualified? These programmes are built to expand your knowledge and move your career forward.",
             "right_submenu": "mm-careers-right",
-            "footer_link_label": "Our Career Services"
+            "footer_link_label": "Our Career Services",
+            "footer_link_url": ""
           }
         }
       },
@@ -83,7 +79,6 @@
     }
   },
   "order": [
-    "1755084133c5eab34c",
     "announcement-bar",
     "header"
   ]
