@@ -73,17 +73,17 @@
         "slide_jzwrhx": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
+            "image": "shopify://shop_images/12.png",
             "slide_type": "onecol",
             "heading_text": "<p>Frequently Asked Questions</p>",
             "heading_type": "h1",
             "heading_size": "h1",
-            "heading_strong_accented": false,
+            "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>We know that starting a new course can feel exciting and maybe a little daunting too. At Study Active we are here to guide you step by step so you can move towards your goals with confidence.</p>",
+            "text": "<p>We know that starting a new course can feel exciting and maybe a little daunting too. <strong>At Study Active we are here to guide you step by step so you can move towards your goals with confidence.</strong></p><p></p><p>If your question is not listed here, we would be delighted to hear from you. Please contact us and we will be happy to help.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
-            "text_strong_accented": false,
+            "text_strong_accented": true,
             "button_text": "",
             "button_url": "",
             "button_style": "primary",
@@ -149,7 +149,7 @@
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "heading_text": "<p><strong>About Our Courses</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
@@ -248,7 +248,7 @@
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
-        "bkgr_color": "white",
+        "bkgr_color": "primary",
         "heading_text": "<p><strong>Studying with Us</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
@@ -299,7 +299,7 @@
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "heading_text": "<p><strong>International Students, Visas and Funding</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
@@ -358,7 +358,7 @@
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
-        "bkgr_color": "white",
+        "bkgr_color": "primary",
         "heading_text": "<p><strong>Costs, Payment and Refunds</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
@@ -409,7 +409,7 @@
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "heading_text": "<p><strong>Career and Progression</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
