@@ -306,7 +306,7 @@
         "button_align": "center",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 0,
         "margin_top": 0,
@@ -339,7 +339,7 @@
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 0,
+        "padding_top": 116,
         "padding_bottom": 40,
         "margin_top": -88,
         "margin_bottom": 0
@@ -425,6 +425,9 @@
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "bundle",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
