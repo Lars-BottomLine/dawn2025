@@ -432,7 +432,7 @@
       "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "slide_type": "blog",
+        "slide_type": "product_manual",
         "blog": "news",
         "blog_post_limit": 3,
         "product_list": [],
