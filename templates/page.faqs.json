@@ -428,23 +428,54 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_HwFWgz": {
-      "type": "v2_slideshow",
+    "v2_flexible_EYbrPM": {
+      "type": "v2_flexible",
       "blocks": {
-        "slide_zhAg66": {
-          "type": "slide",
+        "headline_dJAyHG": {
+          "type": "headline",
           "settings": {
-            "headline": "",
-            "subheadline": "",
-            "text": "",
-            "button_label": "",
-            "button_url": ""
+            "heading_text": "<p>Ready to Take the Next Step?</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h2",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_pnAL6x": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Now that your questions are answered, explore our courses and start your fitness career journey today.</p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": -8
           }
         }
       },
       "block_order": [
-        "slide_zhAg66"
+        "headline_dJAyHG",
+        "subheadline_pnAL6x"
       ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "margin_top": 0,
+        "margin_bottom": 44
+      }
+    },
+    "v2_slideshow_HwFWgz": {
+      "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "product_manual",
@@ -460,11 +491,11 @@
         "change_slides_speed": 5,
         "custom_class_names": "",
         "bkgr_color": "light-blue",
-        "decal_top": true,
+        "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 112,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -116,
         "margin_bottom": 0
       }
     }
@@ -478,6 +509,7 @@
     "v2_accordion_rL8MFG",
     "v2_accordion_NGa9UF",
     "v2_accordion_Y7VayY",
+    "v2_flexible_EYbrPM",
     "v2_slideshow_HwFWgz"
   ]
 }
