@@ -5463,6 +5463,8 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   margin-left: -1.5rem !important;
   margin-right: -1.5rem !important;
   margin-top: -1.5rem !important;
+}
+.v2-section-slideshow.-to-right-border {
   margin-right: calc(50% - 50vw) !important;
 }
 .v2-section-slideshow .swiper-slide,
