@@ -10,6 +10,7 @@
   slide_text
   slide_button_label
   item: {Object} Product or Blog
+  slide_target_url: {string} defaults to item.url
 
 
   Usage:
@@ -28,6 +29,10 @@
         assign iz_product = false
         assign classes_headline = ' _font-copy-l !font-bold '
         assign classes_text = ' _font-copy-m item '
+    endif
+
+    if slide_target_url == blank
+        assign slide_target_url = item.url
     endif
 
 %}
@@ -103,11 +108,11 @@
 
         {% if slide_button_label != blank %}
             <div class="v2-row">
-                <a href="#" class="sa-swiper-button -hover-grow -medium">
+                <a href="{{ slide_target_url }}" class="sa-swiper-button -hover-grow -medium">
 
-                                                <span class="_font-copy-xl leading-none">
-                                                    {{ slide_button_label }}
-                                                </span>
+                    <span class="_font-copy-xl leading-none">
+                        {{ slide_button_label }}
+                    </span>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none" class="sa-button-icon">
                         <path d="M22.9873 17.2073H0.666504V13.5406H22.9873L12.7207 3.27394L15.3332 0.707275L29.9998 15.3739L15.3332 30.0406L12.7207 27.4739L22.9873 17.2073Z" fill="#39EAF6"/>
