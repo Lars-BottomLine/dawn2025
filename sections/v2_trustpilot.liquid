@@ -93,8 +93,16 @@
             {{ section_classes }}">
     <div class="page-width">
 
+        <div class="">
+
+            {% render 'v2-heading', data: section.settings, classes: "" %}
+
+            {% render 'v2-text', data: section.settings, classes: "mb-8" %}
+
+        </div>
+
         <div class="v2_tp-wrapper {{ classes_wrapper }}">
-            {{ embed_code }}
+            {{ section.settings.embed_code }}
         </div>
 
     </div>
