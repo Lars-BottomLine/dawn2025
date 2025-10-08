@@ -52,9 +52,9 @@
         "text_WG3THF",
         "buttons_n7nrY7"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/gym_mats.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
@@ -66,10 +66,206 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "v2_accordion_cNV94k": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_8MPEgw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is blended learning? ",
+            "row_content": "<p>Many of Study Active courses are delivered through blended learning, giving you the flexibility to study in a way that suits you. </p><p>You’ll complete your theory units online through a mix of engaging e-learning materials and live or recorded webinars. If your course includes practical elements, these are often covered in flexible, face-to-face workshops. </p><p>Throughout your course, you’ll have access to a rich library of interactive online content, available 24/7, allowing you to study anytime, anywhere, and at your own pace. </p>"
+          }
+        },
+        "accordion_row_TjHrjf": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I have to attend any sessions in person? ",
+            "row_content": "<p>Most of your study can be completed online using our interactive resources. However, for courses that include practical components, you’ll need to attend practical workshops.</p><p>These workshops are designed to focus purely on hands-on skills and are scheduled at convenient times — usually weekends. They run monthly throughout the year, giving you plenty of flexibility to choose dates that fit your schedule.</p>"
+          }
+        },
+        "accordion_row_FGJLET": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Are these courses nationally recognised? ",
+            "row_content": "<p>Absolutely! All Study Active qualifications are accredited by leading UK awarding bodies. </p><p>Our qualifications are also fully recognised by CIMSPA (Chartered Institute for the Management of Sport and Physical Activity), ensuring they are nationally respected across the fitness industry. </p>"
+          }
+        },
+        "accordion_row_EbhjnX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Are there any entry requirements?",
+            "row_content": "<p> This depends on the specific course. Some courses require a minimum age or previous qualification while others are open to complete beginners. The entry requirements for each course are listed clearly on the course page so you know exactly where you stand.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_8MPEgw",
+        "accordion_row_TjHrjf",
+        "accordion_row_FGJLET",
+        "accordion_row_EbhjnX"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p><strong>About Our Courses</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_y34QGc": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_hFa9bz": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What support will I get during my course? ",
+            "row_content": "<p>You’ll have unlimited support throughout your learning journey. Our dedicated support team is here to help via email, phone, video call, or face-to-face contact whenever needed. We’ll also keep in regular touch to make sure you’re progressing confidently and have everything you need to succeed.</p>"
+          }
+        },
+        "accordion_row_XXqcyj": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What technology will I need? ",
+            "row_content": "<p> You will need a computer, laptop or tablet with a reliable internet connection to access your e learning and webinars. If you have a virtual assessment, you will also need a device capable of recording video such as a smartphone.</p>"
+          }
+        },
+        "accordion_row_7fggDd": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How will I be assessed?",
+            "row_content": "<p>Each course includes a combination of coursework, theory exams, and practical assessments. </p><p>You’ll book onto an assessment day for your exams — available regularly throughout the week and on weekends, so finding a suitable date is easy. On your assessment day, you can complete any required theory and/or practical exams under the guidance of our qualified assessors. </p>"
+          }
+        },
+        "accordion_row_XkH9ne": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What happens if I do not pass an assessment the first time? ",
+            "row_content": "<p>You can resubmit coursework at no extra cost. For theory or practical assessments there may be a small fee after three attempts. We will always work with you to address any areas you find challenging so that you can move forward confidently.</p>"
+          }
+        },
+        "accordion_row_XxigFE": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long will I have access to my course? ",
+            "row_content": "<p>Your access lasts for 12 months from the date you enrol. If you need more time we can arrange an extension for a small additional fee.</p>"
+          }
+        },
+        "accordion_row_YXffNg": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to complete my course? ",
+            "row_content": "<p>Most students complete their qualification within 4–6 months when studying part-time. </p><p>However, if you’re looking to qualify sooner, we offer accelerated learning options so you can complete your course more quickly - the pace is entirely up to you. </p>"
+          }
+        },
+        "accordion_row_ffYQcA": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I defer my studies? ",
+            "row_content": "<p> Yes. If your circumstances change, we can discuss deferral options and help you arrange to restart when you are ready.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_hFa9bz",
+        "accordion_row_XXqcyj",
+        "accordion_row_7fggDd",
+        "accordion_row_XkH9ne",
+        "accordion_row_XxigFE",
+        "accordion_row_YXffNg",
+        "accordion_row_ffYQcA"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "heading_text": "<p><strong>Studying with Us</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_rL8MFG": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_8xK4mx": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can international students take your courses?",
+            "row_content": "<p> Yes. If you have access to a computer and to a gym you can study most ofour online courses from anywhere in the world. This means you can train and achieve your qualification without needing to travel to the UK.The exception is for blended study courses with mandatory attendance dates. For these courses we list available dates before you enrol so you can plan with confidence.</p>"
+          }
+        },
+        "accordion_row_NqwNXM": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do you support student visas? ",
+            "row_content": "<p>We are unable to support any student visa applications. However, because most of our courses can be studied online, many learners overseas can still enrol and study without needing a visa.</p>"
+          }
+        },
+        "accordion_row_rhVxXK": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do you offer funding options? ",
+            "row_content": "<p> Yes. Study Active is proud to be an approved provider of ELCAS funding. This means we can offer many funded courses to serving members of the armed forces and veterans. Details on eligibility and how to apply can be found on our dedicated ELCAS page. If you believe you may be eligible please contact us so that we can guide, you through the process.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_8xK4mx",
+        "accordion_row_NqwNXM",
+        "accordion_row_rhVxXK"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p><strong>International Students, Visas and Funding</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_GzGMki"
+    "image_banner_GzGMki",
+    "v2_accordion_cNV94k",
+    "v2_accordion_y34QGc",
+    "v2_accordion_rL8MFG"
   ]
 }
