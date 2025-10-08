@@ -52,6 +52,7 @@
         "text_WG3THF",
         "buttons_n7nrY7"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/gym_mats.webp",
