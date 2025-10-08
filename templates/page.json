@@ -54,7 +54,6 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/gym_mats.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
@@ -66,10 +65,22 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "page_EKfjAM": {
+      "type": "page",
+      "name": "t:sections.page.presets.name",
+      "settings": {
+        "page": "{{ page }}",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_GzGMki"
+    "image_banner_GzGMki",
+    "page_EKfjAM"
   ]
 }
