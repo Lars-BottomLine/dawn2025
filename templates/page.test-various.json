@@ -740,7 +740,7 @@
         "text_strong_accented": false,
         "text_align": "left",
         "text_width": "full",
-        "bkgr_color": "primary",
+        "bkgr_color": "light-blue",
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
