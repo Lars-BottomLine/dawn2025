@@ -42,6 +42,7 @@
         "heading_BTWxXc",
         "text_KUACbb"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
