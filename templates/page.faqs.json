@@ -427,6 +427,26 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_slideshow_HwFWgz": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blog",
+        "blog": "news",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -437,6 +457,7 @@
     "v2_accordion_y34QGc",
     "v2_accordion_rL8MFG",
     "v2_accordion_NGa9UF",
-    "v2_accordion_Y7VayY"
+    "v2_accordion_Y7VayY",
+    "v2_slideshow_HwFWgz"
   ]
 }
