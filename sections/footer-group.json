@@ -11,6 +11,86 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "v2_image_slider_7TKd9a": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_G7djzT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15.png"
+          }
+        },
+        "slide_ENTUbk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_14.png"
+          }
+        },
+        "slide_NWpb47": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/cropped-MFC-logo-retina.png"
+          }
+        },
+        "slide_kVxF7a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NRPT_logo.png"
+          }
+        },
+        "slide_tr3ctM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CIMSPA-Logo-Navy-RGB-2.webp"
+          }
+        },
+        "slide_bJfjw4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/active-iq-logo-about-us.webp"
+          }
+        },
+        "slide_Dt8rxG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/nrpt-logo-about-us.webp"
+          }
+        },
+        "slide_MizKjN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PDA-approval-logo-about-us.webp"
+          }
+        },
+        "slide_qXFUxt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/personaltraining.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_G7djzT",
+        "slide_ENTUbk",
+        "slide_NWpb47",
+        "slide_kVxF7a",
+        "slide_tr3ctM",
+        "slide_bJfjw4",
+        "slide_Dt8rxG",
+        "slide_MizKjN",
+        "slide_qXFUxt"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 4000,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -71,6 +151,7 @@
     }
   },
   "order": [
+    "v2_image_slider_7TKd9a",
     "footer"
   ]
 }
