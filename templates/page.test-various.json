@@ -442,6 +442,36 @@
         "margin_bottom": 0
       }
     },
+    "video_3U4b8t": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_JUqgy7": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "v2_hero_aGgW3k": {
       "type": "v2_hero",
       "blocks": {
@@ -761,6 +791,8 @@
     "v2_header_NMpyFR",
     "v2_featured_eHUeJe",
     "v2_video_9hKwtR",
+    "video_3U4b8t",
+    "video_JUqgy7",
     "v2_hero_aGgW3k",
     "v2_newsletter_Qcb3Lw",
     "v2_newsletter_nWWNqi",
