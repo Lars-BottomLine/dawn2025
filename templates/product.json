@@ -419,9 +419,9 @@
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 44,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 92
       }
     },
     "v2_header_t4cJDF": {
@@ -429,7 +429,7 @@
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "heading_text": "<p>Browse more courses</p>",
-        "heading_type": "h1",
+        "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
@@ -453,7 +453,7 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 168,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
