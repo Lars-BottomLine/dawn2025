@@ -63,7 +63,8 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
-    # ...
+    assign section_classes = section_classes | append: '-col-count-' | append: section.blocks.size
+
 %}
 
 {%- capture sizes -%}
@@ -93,7 +94,7 @@
     }
 {%- endstyle -%}
 
-<div class="v2-section-video -two-col
+<div class="v2-section-video Create selector
             {{ section_classes }}">
     <div class="page-width">
 
@@ -106,18 +107,24 @@
                     {%- when 'videoblock' -%}
                         {%- liquid
                             # DEFAULT STUFF
-                            assign video_id = section.settings.video.id | default: section.settings.video_url.id
-                            assign video_alt = section.settings.video.alt | default: section.settings.description
+                            assign video_id = block.settings.video.id | default: block.settings.video_url.id
+                            assign video_alt = block.settings.video.alt | default: block.settings.description
                             assign alt = 'sections.video.load_video' | t: description: video_alt | escape
-                            assign poster = section.settings.video.preview_image | default: section.settings.cover_image
+                            assign poster = block.settings.video.preview_image | default: block.settings.cover_image
 
-                            if section.settings.video != null
-                                assign ratio_diff = section.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
+                            if block.settings.video != null
+                                assign ratio_diff = block.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
                                 if ratio_diff < 0.01 and ratio_diff > 0
                                     assign fix_ratio = true
                                 endif
                             endif
                         -%}
+
+                        {%- capture sizes -%}
+                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px)
+                            calc(100vw - 10rem), 100vw
+                        {%- endcapture -%}
+
                         <div class="v2-vid-video isolate">
                             <deferred-media
                                 class="video-section__media deferred-media gradient global-media-settings{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -153,20 +160,20 @@
                                     </span>
                                 </button>
                                 <template>
-                                    {%- if section.settings.video == null and section.settings.video_url != null -%}
+                                    {%- if block.settings.video == null and block.settings.video_url != null -%}
                                         {%- liquid
                                             assign loop = ''
-                                            if section.settings.enable_video_looping
+                                            if block.settings.enable_video_looping
                                                 assign loop = '&loop=1&playlist=' | append: video_id
                                             endif
                                         -%}
-                                        {%- if section.settings.video_url.type == 'youtube' -%}
+                                        {%- if block.settings.video_url.type == 'youtube' -%}
                                             <iframe
                                                     src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
                                                     class="js-youtube"
                                                     allow="autoplay; encrypted-media"
                                                     allowfullscreen
-                                                    title="{{ section.settings.description | escape }}"
+                                                    title="{{ block.settings.description | escape }}"
                                             ></iframe>
                                         {%- else -%}
                                             <iframe
@@ -174,16 +181,16 @@
                                                     class="js-vimeo"
                                                     allow="autoplay; encrypted-media"
                                                     allowfullscreen
-                                                    title="{{ section.settings.description | escape }}"
+                                                    title="{{ block.settings.description | escape }}"
                                             ></iframe>
                                         {%- endif -%}
                                     {%- else -%}
                                         {{
-                                        section.settings.video
+                                        block.settings.video
                                             | video_tag:
                                                 image_size: '1100x',
                                                 autoplay: true,
-                                                loop: section.settings.enable_video_looping,
+                                                loop: block.settings.enable_video_looping,
                                                 controls: true,
                                                 muted: false
                                         }}
