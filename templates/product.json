@@ -453,7 +453,7 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 20,
+        "padding_top": 40,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
@@ -481,9 +481,9 @@
         "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 80,
-        "padding_bottom": 56,
-        "margin_top": 24,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     }
