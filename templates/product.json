@@ -423,6 +423,69 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_header_t4cJDF": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Browse more courses</p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_DFpN3n": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "l3_diploma_in_sports_massage_therapy",
+          "cimspa-certificate-in-personal-training-l3",
+          "level-3-sports-massage-and-personal-trainer-bundle",
+          "level-3-pilates-personal-trainer-bundle",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "active-iq-level-3-diploma-in-instructing-pilates-matwork"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 84,
+        "padding_bottom": 56,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -434,6 +497,8 @@
     "v2_header_YGG9xm",
     "v2_cards_cLPG7m",
     "v2_accordion_r7M37d",
-    "v2_trustpilot_QJ8cqt"
+    "v2_trustpilot_QJ8cqt",
+    "v2_header_t4cJDF",
+    "v2_slideshow_DFpN3n"
   ]
 }
