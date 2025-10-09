@@ -387,7 +387,7 @@
         "accordion_entries": "{{ product.metafields.custom.faq_list.value }}",
         "custom_class_names": "",
         "decal_top": true,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
