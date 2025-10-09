@@ -424,6 +424,21 @@
         "margin_bottom": -68
       }
     },
+    "v2_form_GmgNcE": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "career",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 60,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_t4cJDF": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -498,6 +513,7 @@
     "v2_cards_cLPG7m",
     "v2_accordion_r7M37d",
     "v2_trustpilot_QJ8cqt",
+    "v2_form_GmgNcE",
     "v2_header_t4cJDF",
     "v2_slideshow_DFpN3n"
   ]
