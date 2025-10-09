@@ -276,6 +276,15 @@
             "info": ""
           }
         },
+        "member_FReRKJ": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Julie_Chappell_-_Headshot.png",
+            "name": "Julie Chappell",
+            "position": "HR Lead",
+            "info": "Julie Chappell FCIPD is the HR Lead at Study Active. A highly experienced HR professional, Julie brings over 25 years of expertise in fast-paced, multi-site environments. She has a proven ability to quickly understand organisational needs, challenges, and opportunities, providing effective, tailored HR solutions."
+          }
+        },
         "member_BL7RCd": {
           "type": "member",
           "settings": {
@@ -348,6 +357,7 @@
         "member_WR3JVa",
         "member_jePAtB",
         "member_i6p3Qi",
+        "member_FReRKJ",
         "member_BL7RCd",
         "member_iU4cRU",
         "member_RYqJQb",
