@@ -184,7 +184,7 @@
         "text_no_decal": false,
         "text_strong_accented": false,
         "claim_text": "{{ product.metafields.custom.co_claim | metafield_tag }}",
-        "claim_text_size": "copy-m",
+        "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
