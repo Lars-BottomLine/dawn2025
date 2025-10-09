@@ -332,8 +332,8 @@
       "settings": {
         "product": "cimspa-certificate-in-personal-training-l3",
         "custom_class_names": "",
-        "bkgr_color": "primary",
-        "decal_top": false,
+        "bkgr_color": "light-blue",
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
