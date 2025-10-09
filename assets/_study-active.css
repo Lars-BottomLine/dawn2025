@@ -6683,4 +6683,9 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 
+.sf-section-image-with-text .image-with-text__media-item {
+  margin: auto;
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=_study-active.css.map */

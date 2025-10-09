@@ -2,11 +2,13 @@
 
 {%- liquid
 
+    assign section_classes = ''
+
+    # ---------------------------------
     # DECALS
     # ---------------------------------
     assign decal_top = false
     assign decal_bottom = false
-    assign section_classes = ''
 
     if section.settings.decal_top
         assign decal_top = true
@@ -17,11 +19,51 @@
         assign decal_bottom = true
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
-    # ---------------------------------
 
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
     # CUSTOM CLASSES
+    # ---------------------------------
     assign section_classes = section_classes | append: section.settings.custom_class_names
 
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    # ...
 %}
 
 {%- style -%}
@@ -30,8 +72,8 @@
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
     }
 
     @media screen and (min-width: 750px) {
@@ -56,8 +98,9 @@
   endif
 -%}
 
-<div class="sf-section-image-with-text gradient color-{{ section.settings.section_color_scheme }}
-            section-{{ section.id }}-padding section-{{ section.id }}-margin
+<div class="sf-section-image-with-text
+            gradient
+            color-{{ section.settings.section_color_scheme }}
             {{ section_classes }}">
   <div class="page-width">
 
@@ -349,6 +392,32 @@
       "label": "t:settings_schema.custom_classes.settings.class_names.label",
       "placeholder": "test_class"
     },
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.background.header"
+    },
+    {
+      "type": "select",
+      "id": "bkgr_color",
+      "label": "t:lebase.global.bkgr_color.label",
+      "default": "white",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:lebase.global.bkgr_color.primary"
+        },
+        {
+          "value": "light-blue",
+          "label": "t:lebase.global.bkgr_color.light-blue"
+        },
+        {
+          "value": "white",
+          "label": "t:lebase.global.bkgr_color.white"
+        }
+      ]
+    },
+
 
     {
       "type": "header",
