@@ -418,6 +418,22 @@
     "v2_video_9hKwtR": {
       "type": "v2_video",
       "blocks": {
+        "videoblock_txmqXe": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "videoblock_hqaNTn": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
         "videoblock_GreLhj": {
           "type": "videoblock",
           "settings": {
@@ -428,6 +444,8 @@
         }
       },
       "block_order": [
+        "videoblock_txmqXe",
+        "videoblock_hqaNTn",
         "videoblock_GreLhj"
       ],
       "name": "t:lesections.v2_video.presets.name",
@@ -442,34 +460,67 @@
         "margin_bottom": 0
       }
     },
-    "video_3U4b8t": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
+    "v2_video_qmG4LV": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_8Ux4yW": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "videoblock_KKFxMM": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_8Ux4yW",
+        "videoblock_KKFxMM"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 180,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
-    "video_JUqgy7": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
+    "v2_video_7C9hRP": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_PWr93e": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_PWr93e"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 180,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "v2_hero_aGgW3k": {
@@ -791,8 +842,8 @@
     "v2_header_NMpyFR",
     "v2_featured_eHUeJe",
     "v2_video_9hKwtR",
-    "video_3U4b8t",
-    "video_JUqgy7",
+    "v2_video_qmG4LV",
+    "v2_video_7C9hRP",
     "v2_hero_aGgW3k",
     "v2_newsletter_Qcb3Lw",
     "v2_newsletter_nWWNqi",
