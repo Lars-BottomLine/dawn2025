@@ -249,6 +249,29 @@
         "text_gBUKA6",
         "button_xAPCiU"
       ],
+      "name": "Image with text",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "image_with_text_FejDfw": {
+      "type": "image-with-text",
       "name": "Image with text - ONLY IMAGE",
       "settings": {
         "height": "adapt",
@@ -1523,6 +1546,7 @@
     "v2_text_plus_image_LKcgFf",
     "v2_text_plus_image_VAaHDB",
     "image_with_text_dTNMwW",
+    "image_with_text_FejDfw",
     "v2_cards_c4jXpi",
     "v2_cards_YTFdLb",
     "v2_cards_wnkVMq",
