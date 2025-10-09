@@ -3954,6 +3954,9 @@ a {
     font-size: 1.8rem !important;
     font-weight: 700 !important;
   }
+  .v2-button.-hover-grow:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover span, .v2-sa-form-wrapper form button.-hover-grow:hover span {
+    padding: 1.3rem 2.35rem !important;
+  }
 }
 
 .v2-swiper {
@@ -4333,6 +4336,7 @@ a {
 
 .v2-header-megamenu {
   padding: 6.3rem 0 6rem;
+  padding-top: 2rem;
 }
 .v2-header-megamenu .-decal-left::before {
   width: 1.2rem;
@@ -5296,6 +5300,10 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   max-width: 113rem;
   margin: auto;
 }
+.v2-section-cards.sa-bg-light-blue li:before, .v2-section-cards.sa-bg-primary li:before {
+  background: url("sa-decal-secondary.svg") no-repeat center;
+  opacity: 0.75;
+}
 .v2-section-cards.sa-bg-light-blue.-layout-wide .v2-cd-content .v2-cd-card-container .v2-cd-image, .v2-section-cards.sa-bg-light-blue.-layout-wide_box .v2-cd-content .v2-cd-card-container .v2-cd-image, .v2-section-cards.sa-bg-primary.-layout-wide .v2-cd-content .v2-cd-card-container .v2-cd-image, .v2-section-cards.sa-bg-primary.-layout-wide_box .v2-cd-content .v2-cd-card-container .v2-cd-image {
   background-color: white;
 }
@@ -5337,6 +5345,12 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 @media (max-width: 640px) {
   .v2-section-cards.-layout-wide_box .v2-cd-image {
     display: none !important;
+  }
+  .v2-section-cards .v2-cd-card-content {
+    padding: 0 !important;
+  }
+  .v2-section-cards .v2-cd-card-content .v2-cd-image {
+    max-width: 100%;
   }
   .v2-section-cards.-layout-vertical .v2-cd-card {
     flex: 1 0 100% !important;
