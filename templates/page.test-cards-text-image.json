@@ -218,6 +218,58 @@
         "margin_bottom": 0
       }
     },
+    "image_with_text_dTNMwW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VdVmJ7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_gBUKA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xAPCiU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VdVmJ7",
+        "text_gBUKA6",
+        "button_xAPCiU"
+      ],
+      "name": "Image with text - ONLY IMAGE",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_cards_c4jXpi": {
       "type": "v2_cards",
       "blocks": {
@@ -812,104 +864,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_cards_n4Qwyb": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_AJUzYn": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/icon-credit-card.svg",
-            "title_text": "<p><strong>Pay in Full</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Save money with our discounted full payment option.</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_9Kc76y": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/icon-calendar-event.svg",
-            "title_text": "<p><strong>Monthly Payments</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Spread the cost with affordable monthly payments</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "<p><strong>From £49/month available </strong></p>",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_9xNknX": {
-          "type": "card",
-          "settings": {
-            "title_text": "<p><strong>0% Finance</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Subject to status, spread payments interest-free</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "<p><a href=\"/pages/about-us\" target=\"_blank\" title=\"About Us\"><strong>Terms and conditions </strong></a><strong>apply</strong></p>",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_AJUzYn",
-        "card_9Kc76y",
-        "card_9xNknX"
-      ],
-      "name": "v2 - Cards - Vertical / White",
-      "settings": {
-        "bkgr_color": "white",
-        "card_layout": "vertical",
-        "heading_text": "<p>Flexible payment options</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "medium",
-        "button_new_window": false,
-        "button_align": "center",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_cards_RPpGtk": {
       "type": "v2_cards",
       "blocks": {
@@ -1002,6 +956,104 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_n4Qwyb": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_AJUzYn": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Save money with our discounted full payment option.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_9Kc76y": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £49/month available </strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_9xNknX": {
+          "type": "card",
+          "settings": {
+            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><a href=\"/pages/about-us\" target=\"_blank\" title=\"About Us\"><strong>Terms and conditions </strong></a><strong>apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_AJUzYn",
+        "card_9Kc76y",
+        "card_9xNknX"
+      ],
+      "name": "v2 - Cards - Vertical / White",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -1470,6 +1522,7 @@
     "v2_text_plus_image_gDkW4T",
     "v2_text_plus_image_LKcgFf",
     "v2_text_plus_image_VAaHDB",
+    "image_with_text_dTNMwW",
     "v2_cards_c4jXpi",
     "v2_cards_YTFdLb",
     "v2_cards_wnkVMq",
