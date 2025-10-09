@@ -6225,8 +6225,12 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   gap: 2rem;
   transition: background 0.25s;
 }
-.v2-section-producthero product-thumb.v2-product-thumb:hover .product-content {
-  background: var(--color-blue) !important;
+.v2-section-producthero product-thumb.v2-product-thumb:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+.v2-section-producthero product-thumb.v2-product-thumb:hover .v2-button span, .v2-section-producthero product-thumb.v2-product-thumb:hover .v2-sa-form-wrapper form button span, .v2-sa-form-wrapper form .v2-section-producthero product-thumb.v2-product-thumb:hover button span, .v2-section-producthero product-thumb.v2-product-thumb:hover .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-producthero product-thumb.v2-product-thumb:hover button#_form_1_submit span {
+  background: var(--color-primary) !important;
 }
 .v2-section-producthero .v2-pt-ribbon {
   background: rgba(0, 38, 139, 0.15);
