@@ -265,7 +265,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=5LnU4xha7Z0&t=2s",
-            "cover_image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
+            "cover_image": "shopify://shop_images/Screenshot_2025-10-10_122900.png",
             "description": ""
           }
         },
@@ -274,7 +274,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=y5GTWfNRC8o",
-            "cover_image": "shopify://shop_images/videocover.png",
+            "cover_image": "shopify://shop_images/y5GTWfNRC8o-HD.jpg",
             "description": ""
           }
         }
