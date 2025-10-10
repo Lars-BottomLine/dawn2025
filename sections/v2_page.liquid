@@ -106,13 +106,19 @@
 
 {% schema %}
 {
-  "name": "t:sections.page.name",
+  "name": "t:lesections.v2_page.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
+
+    {
+      "type": "page",
+      "id": "page",
+      "label": "t:sections.page.settings.page.label"
+    },
 
     {
       "type": "checkbox",
@@ -227,7 +233,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.page.presets.name"
+      "name": "t:lesections.v2_page.presets.name"
     }
   ]
 }
