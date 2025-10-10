@@ -281,6 +281,12 @@
     },
 
 
+    "v2_page": {
+      "name": "v2 - Page",
+      "presets": {
+        "name": "v2 - Page"
+      }
+    },
 
 
 
