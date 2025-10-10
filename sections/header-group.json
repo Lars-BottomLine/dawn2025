@@ -68,7 +68,7 @@
         "menu_color_scheme": "",
         "enable_country_selector": false,
         "enable_language_selector": true,
-        "enable_customer_avatar": true,
+        "enable_customer_avatar": false,
         "enable_header_file_download": true,
         "header_file_download_title": "",
         "header_file_download": "https://cdn.shopify.com/s/files/1/0920/7005/2217/files/Spielplanflyer_digital_JULI_2025.pdf?v=1751467741",
