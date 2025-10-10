@@ -104,7 +104,7 @@
         "card_REn9YG": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-10-02_at_16.27.48.png",
+            "image": "shopify://shop_images/Image_-_CIMSPA.png",
             "title_text": "<p><strong>The Chartered Institute for the Management of Sport and Physical Activity</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -123,6 +123,7 @@
         "card_nJFkGM": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_Active_IQ.png",
             "title_text": "<p><strong>Active IQ</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -159,6 +160,7 @@
         "card_FYYnw4": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_RSPH.png",
             "title_text": "<p><strong>RSPH – Royal Society for Public Health</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -177,6 +179,7 @@
         "card_V9JJG9": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_NCFE.png",
             "title_text": "<p><strong>NCFE</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -239,6 +242,7 @@
         "card_bTN7QQ": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_Mcdonald_Method.png",
             "title_text": "<p><strong>McDonald Method</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -257,6 +261,7 @@
         "card_qLxQd7": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_MedFit.png",
             "title_text": "<p><strong>MedFit Education</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -275,6 +280,7 @@
         "card_qqLJAH": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_Boxercise.png",
             "title_text": "<p><strong>Boxercise </strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -335,6 +341,7 @@
         "card_bTUFmL": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_Your_Personal_Training.png",
             "title_text": "<p><strong>Your Personal Training</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -353,6 +360,7 @@
         "card_thUbFc": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Image_-_CoverMe.png",
             "title_text": "<p><strong>Cover Me Fitness</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
