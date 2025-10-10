@@ -95,16 +95,16 @@
 
             {% if section.settings.button_at_side %}
 
-                <div class="flex justify-between items-end gap-8">
+                <div class="v2-h-twocol flex justify-between items-end gap-8">
 
-                    <div class="">
+                    <div class="v2-h-left">
 
                         {% render 'v2-heading', data: section.settings, classes: "" %}
 
                         {% render 'v2-text', data: section.settings, classes: "" %}
 
                     </div>
-                    <div class="">
+                    <div class="v2-h-right">
 
                         {% if section.settings.button_text != blank %}
 
