@@ -78,11 +78,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "v2_page_iCprHz": {
+      "type": "v2_page",
+      "name": "t:sections.page.presets.name",
+      "settings": {
+        "gembuilder_fix": false,
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_GzGMki",
-    "page_xVBjBt"
+    "page_xVBjBt",
+    "v2_page_iCprHz"
   ]
 }
