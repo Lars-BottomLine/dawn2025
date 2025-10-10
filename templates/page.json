@@ -83,7 +83,8 @@
       "type": "v2_page",
       "name": "t:sections.page.presets.name",
       "settings": {
-        "gembuilder_fix": false,
+        "page": "{{ page }}",
+        "gembuilder_fix": true,
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": false,
@@ -98,7 +99,7 @@
   "order": [
     "main",
     "image_banner_GzGMki",
-    "page_xVBjBt",
-    "v2_page_iCprHz"
+    "v2_page_iCprHz",
+    "page_xVBjBt"
   ]
 }
