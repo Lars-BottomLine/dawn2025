@@ -5485,6 +5485,18 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-header .v2-heading {
   margin-bottom: 1rem;
 }
+@media (max-width: 640px) {
+  .v2-section-header .v2-h-twocol {
+    flex-direction: column;
+  }
+  .v2-section-header .v2-h-left,
+  .v2-section-header .v2-h-right {
+    width: 100%;
+  }
+  .v2-section-header .v2-h-right {
+    display: flex;
+  }
+}
 
 .header-wrapper--border-bottom {
   border: none !important;
