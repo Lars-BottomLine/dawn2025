@@ -68,6 +68,22 @@
         "show_text_below": true
       }
     },
+    "v2_page_iCprHz": {
+      "type": "v2_page",
+      "name": "t:sections.page.presets.name",
+      "settings": {
+        "page": "{{ page }}",
+        "gembuilder_fix": true,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "page_xVBjBt": {
       "type": "page",
       "name": "t:sections.page.presets.name",
@@ -77,22 +93,6 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "v2_page_iCprHz": {
-      "type": "v2_page",
-      "name": "t:sections.page.presets.name",
-      "settings": {
-        "page": "{{ page }}",
-        "gembuilder_fix": true,
-        "custom_class_names": "",
-        "bkgr_color": "primary",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     }
   },
