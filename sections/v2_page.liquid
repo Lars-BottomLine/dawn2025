@@ -61,7 +61,7 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
-    if section.settigns.gembuilder_fix
+    if section.settings.gembuilder_fix
         assign section_classes = section_classes | append: ' -fix-gembuilder '
     endif
 %}
@@ -89,7 +89,7 @@
 {%- endstyle -%}
 
 <div class="v2-section-page
-            {{ custom_classes }}
+            {{ section_classes }}
 ">
   <div class="page-width">
     <div class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
