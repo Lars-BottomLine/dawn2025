@@ -6741,6 +6741,9 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   padding: 1rem;
   line-height: 1.4;
 }
+.v2-section-page.-fix-gembuilder a.button.btn {
+  color: white !important;
+}
 .v2-section-page.-fix-gembuilder #c-1717602603014 .gf_image {
   max-width: 16rem;
 }
