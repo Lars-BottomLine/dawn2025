@@ -105,7 +105,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
-        "text": "<p>We've helped people just like you become certified fitness instructors!</p>",
+        "text": "<p>We've helped people just like you become <strong>Certified Fitness Instructors!</strong></p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -406,8 +406,8 @@
         "accordion_row_hdd7Gc": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What is CIMSPA?",
-            "row_content": "<p>CIMSPA is the Chartered Institute for the<br/>Management of Sport and Physical Activity. They are the recognised professional<br/>development body for the UK’s fitness sector.</p>"
+            "heading": " What is a fitness instructor?",
+            "row_content": "<p>A fitness instructor works with groups or<br/>individuals to deliver effective workouts, often in gyms or community settings.<br/>It’s the first step in a rewarding career.</p>"
           }
         },
         "accordion_row_Ecbk7a": {
