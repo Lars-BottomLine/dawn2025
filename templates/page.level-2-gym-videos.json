@@ -339,7 +339,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym risk assessment tutorial</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -347,7 +347,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>As a Gym Instructor you may be required to undertake risk assessments. This tutorial will help with the risk assessment task in your coursework.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -377,7 +377,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/800811840/5305bca857",
             "description": ""
           }
         }
@@ -401,7 +401,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym maintenance checklist</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -409,7 +409,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>Some essential health & safety skills that a fitness trainer needs to understand when working in the fitness industry.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -439,7 +439,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/686264125/722df4baba",
             "description": ""
           }
         }
@@ -463,7 +463,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym handover letter tutorial</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -501,7 +501,8 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/784781073",
+            "cover_image": "shopify://shop_images/Study_Active_logo_blue_250x102_3583f402-6c5a-4cf9-b970-eeea2f75f486.png",
             "description": ""
           }
         }
@@ -525,7 +526,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym client consultation tutorial</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -533,7 +534,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>A key thing to learn when going through the stages to become a personal trainer or gym instructor is how to carry out a fitness consultation.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -563,7 +564,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/686261925/1cc1a9c6ae",
             "description": ""
           }
         }
@@ -587,7 +588,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym goal setting</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -595,7 +596,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>Explore how fitness trainers can create SMART fitness goals.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -625,7 +626,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
             "description": ""
           }
         }
