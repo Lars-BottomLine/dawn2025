@@ -105,7 +105,7 @@
             "title": "Step 1: CV & Application Support",
             "text": "<p>Stand out for the right reasons. Our team helps you present your skills clearly and professionally with CV support.</p>",
             "button_text": "Contact Us",
-            "button_link": ""
+            "button_link": "#contacus"
           }
         },
         "step_RYtQWX": {
@@ -162,7 +162,7 @@
       "name": "t:lesections.v2_form.presets.name",
       "settings": {
         "form_type": "career",
-        "custom_class_names": "",
+        "custom_class_names": "contactus",
         "bkgr_color": "primary",
         "decal_top": true,
         "decal_bottom": false,
