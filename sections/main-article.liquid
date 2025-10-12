@@ -97,7 +97,7 @@
 
     {% # COMMENTS
        # ---------------------------------------- %}
-    {%- if blog.comments_enabled? -%}
+{% comment %}    {%- if blog.comments_enabled? -%}
         <div class="v2-sa-comments v2-sa-form-wrapper -decal-top -decal-bottom -dct-light-blue -dcb-light-blue
         article-template__comment-wrapper">
             <div class="page-width">
@@ -331,7 +331,7 @@
                 </div>
             </div>
         </div>
-    {%- endif -%}
+    {%- endif -%}{% endcomment %}
 </article>
 
 <script type="application/ld+json">
