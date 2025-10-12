@@ -421,9 +421,9 @@
         "button_align": "center",
         "bkgr_color": "white",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 4,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
