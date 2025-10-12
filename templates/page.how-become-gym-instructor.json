@@ -534,15 +534,15 @@
         "accordion_row_EqwDem": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Can I study online?",
-            "row_content": "<p>Yes. Our courses are delivered through flexible, self-paced online learning, with optional in-person assessments.</p>"
+            "heading": "Can I study around a job or other commitments?",
+            "row_content": "<p>Yes. The course is flexible and self-paced, with full tutor support whenever you need it.</p>"
           }
         },
         "accordion_row_RhLHkN": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What support will I get?",
-            "row_content": "<p>You’ll have access to expert tutors, helpful resources, and a user-friendly online learning platform.</p>"
+            "heading": "Will I get help finding a job?",
+            "row_content": "<p>Yes. All learners are offered guaranteed interviews with our partner gyms upon completion.</p>"
           }
         },
         "accordion_row_abViWR": {
