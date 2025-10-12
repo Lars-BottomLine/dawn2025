@@ -24,14 +24,14 @@
         "slide_D3F6QX": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/35_c2407419-f5f5-4055-b42a-5d57b02d2146.png",
+            "image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
             "slide_type": "onecol",
             "heading_text": "<p><strong>How to Become a Gym Instructor</strong> (It’s easier than you think)</p>",
             "heading_type": "h1",
-            "heading_size": "h1",
+            "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p><strong>Love fitness? Turn it into a career that moves you!\u000b</strong></p><p></p><p>Qualify as a gym instructor with a nationally recognised course designed to help you succeed. Flexible online study, expert tutor support,  guaranteed job interviews with top UK gyms. </p><p></p><p>You bring the passion. We’ll show you the way.</p>",
+            "text": "<p><strong>Love fitness? Turn it into a career that moves you!\u000b</strong></p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -65,7 +65,7 @@
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
         "form_type": "brochure",
-        "heading_text": "<p>How to Become a Gym Instructor in 3 Easy Steps</p>",
+        "heading_text": "<p>How to become a Gym Instructor in three easy steps</p><p></p>",
         "heading_type": "h1",
         "heading_size": "h2",
         "heading_no_decal": false,
