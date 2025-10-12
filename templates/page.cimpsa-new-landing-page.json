@@ -196,67 +196,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_GTxGpQ": {
-      "type": "v2_header",
-      "disabled": true,
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>You bring the passion, we'll take care of everything else</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": true,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "full",
-        "text": "<p>Day one or one day? You decide. Enrol today. </p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": -32,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_mp9DLi": {
-      "type": "v2_slideshow",
-      "disabled": true,
-      "name": "t:lesections.v2_slideshow.presets.name",
-      "settings": {
-        "slide_type": "product_manual",
-        "blog": "",
-        "blog_post_limit": 3,
-        "product_list": [
-          "cimspa-level-2-certificate-in-fitness-instruction",
-          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "cimspa-certificate-in-personal-training-l3"
-        ],
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_cards_3FDg9r": {
       "type": "v2_cards",
       "blocks": {
@@ -597,7 +536,66 @@
         "accordion_entries": [],
         "custom_class_names": "",
         "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_GTxGpQ": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>You bring the passion, we'll take care of everything else</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Day one or one day? You decide. Enrol today. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
         "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -32,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_mp9DLi": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "cimspa-certificate-in-personal-training-l3"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -612,12 +610,12 @@
     "image_with_text_Ux3t78",
     "v2_header_BxVtpB",
     "v2_trustpilot_QzA9t3",
-    "v2_header_GTxGpQ",
-    "v2_slideshow_mp9DLi",
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
     "v2_featured_imtjhU",
-    "v2_accordion_k4RYCF"
+    "v2_accordion_k4RYCF",
+    "v2_header_GTxGpQ",
+    "v2_slideshow_mp9DLi"
   ]
 }
