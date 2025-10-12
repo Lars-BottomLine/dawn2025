@@ -3021,6 +3021,8 @@ header .header__icon--cart .icon {
 .price .price-item.price-item--regular,
 .v2_price .price-item.price-item--regular,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation details summary,
 .v2-sa-form-wrapper form ._form-title,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price,
 .sa-section-callout h2 {
@@ -3042,6 +3044,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price .price-item.price-item--regular:before,
 .v2_price .price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular:before,
+.menu-drawer__navigation .menu-drawer__menu-item:before,
+.menu-drawer__navigation details summary:before,
 .v2-sa-form-wrapper form ._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price:before,
 .sa-section-callout h2:before {
@@ -3086,6 +3090,8 @@ strong {
 .price .price-item.price-item--regular,
 .v2_price .price-item.price-item--regular,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation details summary,
 .v2-sa-form-wrapper form ._form-title,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price,
 .sa-section-callout h2,
@@ -3101,6 +3107,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button,
 .v2-sa-form-wrapper form ._html-code,
 ._font-copy-m,
 .v2-article-template .article-template__back a,
@@ -3128,6 +3135,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price .price-item.price-item--regular p,
 .v2_price .price-item.price-item--regular p,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p,
+.menu-drawer__navigation .menu-drawer__menu-item p,
+.menu-drawer__navigation details summary p,
 .v2-sa-form-wrapper form ._form-title p,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p,
 .sa-section-callout h2 p,
@@ -3139,6 +3148,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p,
 .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button p,
 .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-m p,
 .v2-article-template .article-template__back a p,
@@ -3167,6 +3177,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .price .-decal-left.price-item.price-item--regular,
   .v2_price .-decal-left.price-item.price-item--regular,
   product-thumb.v2-product-thumb .product__info-wrapper span.-decal-left.price-item.price-item--regular,
+  .menu-drawer__navigation .-decal-left.menu-drawer__menu-item,
+  .menu-drawer__navigation details summary.-decal-left,
   .v2-sa-form-wrapper form .-decal-left._form-title,
   .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-left.price,
   .sa-section-callout h2.-decal-left,
@@ -3182,6 +3194,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .-decal-left._html-code,
   .price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .-decal-left.price-item.price-item--regular,
+  .menu-drawer__navigation .menu-drawer__inner-submenu .-decal-left.menu-drawer__close-button,
   .v2-sa-form-wrapper form .-decal-left._html-code,
   ._font-copy-m.-decal-left,
   .v2-article-template .article-template__back a.-decal-left,
@@ -3210,6 +3223,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price .price-item.price-item--regular,
 .v2_price .price-item.price-item--regular,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation details summary,
 .v2-sa-form-wrapper form ._form-title,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price,
 .sa-section-callout h2 {
@@ -3231,6 +3246,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price .price-item.price-item--regular p,
 .v2_price .price-item.price-item--regular p,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p,
+.menu-drawer__navigation .menu-drawer__menu-item p,
+.menu-drawer__navigation details summary p,
 .v2-sa-form-wrapper form ._form-title p,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p,
 .sa-section-callout h2 p {
@@ -3238,8 +3255,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   line-height: 1.05;
 }
 ._font-hero.-no-decal,
+.menu-drawer__navigation details summary._font-hero,
 ._font-h0.-no-decal,
+.menu-drawer__navigation details summary._font-h0,
 ._font-h1.-no-decal,
+.menu-drawer__navigation details summary._font-h1,
 ._font-h2.-no-decal,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale,
@@ -3247,6 +3267,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale,
 .v2-article-template .v2-article-content .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale h2.price-item.price-item--sale,
+.menu-drawer__navigation details summary._font-h2,
+.menu-drawer__navigation details .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale summary.price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale,
+.menu-drawer__navigation details .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale summary.price-item.price-item--sale,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale,
 ._font-h3.-no-decal,
 .v2-article-template .v2-sa-comments h2.-no-decal,
 .v2-article-template .v2-article-content h2,
@@ -3266,16 +3291,41 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2_price .v2-article-template .v2-article-content h2.price-item.price-item--regular,
 .v2-article-template .v2-article-content .v2_price h2.price-item.price-item--regular,
 product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.price-item--regular,
+.menu-drawer__navigation details summary._font-h3,
+.menu-drawer__navigation details .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form summary._form-title,
+.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .menu-drawer__navigation details summary._form-title,
+.menu-drawer__navigation details .price.price--on-sale .price__sale summary.price-item.price-item--sale,
+.price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale,
+.menu-drawer__navigation details .v2_price.price--on-sale .price__sale summary.price-item.price-item--sale,
+.v2_price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale,
+.menu-drawer__navigation details .price summary.price-item.price-item--regular,
+.price .menu-drawer__navigation details summary.price-item.price-item--regular,
+.menu-drawer__navigation details .v2_price summary.price-item.price-item--regular,
+.v2_price .menu-drawer__navigation details summary.price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation details summary.-no-decal,
+.menu-drawer__navigation details summary,
 .v2-sa-form-wrapper form .-no-decal._form-title,
+.v2-sa-form-wrapper form .menu-drawer__navigation ._form-title.menu-drawer__menu-item,
+.menu-drawer__navigation .v2-sa-form-wrapper form ._form-title.menu-drawer__menu-item,
+.v2-sa-form-wrapper form .menu-drawer__navigation details summary._form-title,
+.menu-drawer__navigation details .v2-sa-form-wrapper form summary._form-title,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-no-decal.price,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .v2-article-template .v2-article-content h2.price,
 .v2-article-template .v2-article-content .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper h2.price,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .menu-drawer__navigation .price.menu-drawer__menu-item,
+.menu-drawer__navigation .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price.menu-drawer__menu-item,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .menu-drawer__navigation details summary.price,
+.menu-drawer__navigation details .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper summary.price,
 .sa-section-callout h2.-no-decal {
   margin-top: 0;
 }
 ._font-hero.-no-decal:before,
+.menu-drawer__navigation details summary._font-hero:before,
 ._font-h0.-no-decal:before,
+.menu-drawer__navigation details summary._font-h0:before,
 ._font-h1.-no-decal:before,
+.menu-drawer__navigation details summary._font-h1:before,
 ._font-h2.-no-decal:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale:before,
@@ -3283,6 +3333,11 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .-no-decal.price-item.price-item--sale:before,
 .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .v2-article-template .v2-article-content h2.price-item.price-item--sale:before,
 .v2-article-template .v2-article-content .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale h2.price-item.price-item--sale:before,
+.menu-drawer__navigation details summary._font-h2:before,
+.menu-drawer__navigation details .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale summary.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale:before,
+.menu-drawer__navigation details .v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale summary.price-item.price-item--sale:before,
+.v2-section-producthero product-thumb.v2-product-thumb .product__info-wrapper .v2_price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale:before,
 ._font-h3.-no-decal:before,
 .v2-article-template .v2-sa-comments h2.-no-decal:before,
 .v2-article-template .v2-article-content h2:before,
@@ -3302,10 +3357,30 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 .v2_price .v2-article-template .v2-article-content h2.price-item.price-item--regular:before,
 .v2-article-template .v2-article-content .v2_price h2.price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.price-item--regular:before,
+.menu-drawer__navigation details summary._font-h3:before,
+.menu-drawer__navigation details .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form summary._form-title:before,
+.v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .menu-drawer__navigation details summary._form-title:before,
+.menu-drawer__navigation details .price.price--on-sale .price__sale summary.price-item.price-item--sale:before,
+.price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale:before,
+.menu-drawer__navigation details .v2_price.price--on-sale .price__sale summary.price-item.price-item--sale:before,
+.v2_price.price--on-sale .price__sale .menu-drawer__navigation details summary.price-item.price-item--sale:before,
+.menu-drawer__navigation details .price summary.price-item.price-item--regular:before,
+.price .menu-drawer__navigation details summary.price-item.price-item--regular:before,
+.menu-drawer__navigation details .v2_price summary.price-item.price-item--regular:before,
+.v2_price .menu-drawer__navigation details summary.price-item.price-item--regular:before,
+.menu-drawer__navigation .menu-drawer__menu-item:before,
+.menu-drawer__navigation details summary.-no-decal:before,
+.menu-drawer__navigation details summary:before,
 .v2-sa-form-wrapper form .-no-decal._form-title:before,
+.v2-sa-form-wrapper form .menu-drawer__navigation details summary._form-title:before,
+.menu-drawer__navigation details .v2-sa-form-wrapper form summary._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-no-decal.price:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .v2-article-template .v2-article-content h2.price:before,
 .v2-article-template .v2-article-content .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper h2.price:before,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .menu-drawer__navigation .price.menu-drawer__menu-item:before,
+.menu-drawer__navigation .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price.menu-drawer__menu-item:before,
+.sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .menu-drawer__navigation details summary.price:before,
+.menu-drawer__navigation details .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper summary.price:before,
 .sa-section-callout h2.-no-decal:before {
   display: none;
 }
@@ -3324,6 +3399,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-no-decal.price-item.
 .price .-align-left.price-item.price-item--regular:before,
 .v2_price .-align-left.price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.-align-left.price-item.price-item--regular:before,
+.menu-drawer__navigation .-align-left.menu-drawer__menu-item:before,
+.menu-drawer__navigation details summary.-align-left:before,
 .v2-sa-form-wrapper form .-align-left._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-align-left.price:before,
 .sa-section-callout h2.-align-left:before {
@@ -3345,6 +3422,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-left.price-ite
 .price .-align-center.price-item.price-item--regular:before,
 .v2_price .-align-center.price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.-align-center.price-item.price-item--regular:before,
+.menu-drawer__navigation .-align-center.menu-drawer__menu-item:before,
+.menu-drawer__navigation details summary.-align-center:before,
 .v2-sa-form-wrapper form .-align-center._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-align-center.price:before,
 .sa-section-callout h2.-align-center:before {
@@ -3367,6 +3446,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-center.price-i
 .price .-align-right.price-item.price-item--regular:before,
 .v2_price .-align-right.price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-item.price-item--regular:before,
+.menu-drawer__navigation .-align-right.menu-drawer__menu-item:before,
+.menu-drawer__navigation details summary.-align-right:before,
 .v2-sa-form-wrapper form .-align-right._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-align-right.price:before,
 .sa-section-callout h2.-align-right:before {
@@ -3385,6 +3466,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button,
 .v2-sa-form-wrapper form ._html-code,
 ._font-copy-m,
 .v2-article-template .article-template__back a,
@@ -3404,6 +3486,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p,
 .price.price--on-sale .price__sale .price-item.price-item--regular p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular p,
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button p,
 .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-m p,
 .v2-article-template .article-template__back a p,
@@ -3565,7 +3648,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 
 ._font-h3 p, .v2-article-template .v2-sa-comments h2 p, .v2-article-template .v2-article-content h2 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p, .price.price--on-sale .price__sale .price-item.price-item--sale p,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale p, .price .price-item.price-item--regular p,
-.v2_price .price-item.price-item--regular p, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p, .v2-sa-form-wrapper form ._form-title p, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p, .sa-section-callout h2 p,
+.v2_price .price-item.price-item--regular p, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p, .menu-drawer__navigation .menu-drawer__menu-item p,
+.menu-drawer__navigation details summary p, .v2-sa-form-wrapper form ._form-title p, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p, .sa-section-callout h2 p,
 ._font-h3,
 .v2-article-template .v2-sa-comments h2,
 .v2-article-template .v2-article-content h2,
@@ -3575,6 +3659,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.-align-right.price-it
 .price .price-item.price-item--regular,
 .v2_price .price-item.price-item--regular,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation details summary,
 .v2-sa-form-wrapper form ._form-title,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price,
 .sa-section-callout h2 {
@@ -3582,7 +3668,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 }
 ._font-h3 p:before, .v2-article-template .v2-sa-comments h2 p:before, .v2-article-template .v2-article-content h2 p:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p:before, .price.price--on-sale .price__sale .price-item.price-item--sale p:before,
 .v2_price.price--on-sale .price__sale .price-item.price-item--sale p:before, .price .price-item.price-item--regular p:before,
-.v2_price .price-item.price-item--regular p:before, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p:before, .v2-sa-form-wrapper form ._form-title p:before, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p:before, .sa-section-callout h2 p:before,
+.v2_price .price-item.price-item--regular p:before, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p:before, .menu-drawer__navigation .menu-drawer__menu-item p:before,
+.menu-drawer__navigation details summary p:before, .v2-sa-form-wrapper form ._form-title p:before, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p:before, .sa-section-callout h2 p:before,
 ._font-h3:before,
 .v2-article-template .v2-sa-comments h2:before,
 .v2-article-template .v2-article-content h2:before,
@@ -3592,6 +3679,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .price .price-item.price-item--regular:before,
 .v2_price .price-item.price-item--regular:before,
 product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular:before,
+.menu-drawer__navigation .menu-drawer__menu-item:before,
+.menu-drawer__navigation details summary:before,
 .v2-sa-form-wrapper form ._form-title:before,
 .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price:before,
 .sa-section-callout h2:before {
@@ -3602,7 +3691,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 @media (min-width: 751px) {
   ._font-h3 p.-decal-left, .v2-article-template .v2-sa-comments h2 p.-decal-left, .v2-article-template .v2-article-content h2 p.-decal-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left, .price .price-item.price-item--regular p.-decal-left,
-  .v2_price .price-item.price-item--regular p.-decal-left, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left, .v2-sa-form-wrapper form ._form-title p.-decal-left, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left, .sa-section-callout h2 p.-decal-left,
+  .v2_price .price-item.price-item--regular p.-decal-left, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left, .menu-drawer__navigation .menu-drawer__menu-item p.-decal-left,
+  .menu-drawer__navigation details summary p.-decal-left, .v2-sa-form-wrapper form ._form-title p.-decal-left, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left, .sa-section-callout h2 p.-decal-left,
   ._font-h3.-decal-left,
   .v2-article-template .v2-sa-comments h2.-decal-left,
   .v2-article-template .v2-article-content h2.-decal-left,
@@ -3612,6 +3702,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .price .-decal-left.price-item.price-item--regular,
   .v2_price .-decal-left.price-item.price-item--regular,
   product-thumb.v2-product-thumb .product__info-wrapper span.-decal-left.price-item.price-item--regular,
+  .menu-drawer__navigation .-decal-left.menu-drawer__menu-item,
+  .menu-drawer__navigation details summary.-decal-left,
   .v2-sa-form-wrapper form .-decal-left._form-title,
   .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-left.price,
   .sa-section-callout h2.-decal-left {
@@ -3619,7 +3711,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   }
   ._font-h3 p.-decal-left:before, .v2-article-template .v2-sa-comments h2 p.-decal-left:before, .v2-article-template .v2-article-content h2 p.-decal-left:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p.-decal-left:before, .price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p.-decal-left:before, .price .price-item.price-item--regular p.-decal-left:before,
-  .v2_price .price-item.price-item--regular p.-decal-left:before, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left:before, .v2-sa-form-wrapper form ._form-title p.-decal-left:before, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left:before, .sa-section-callout h2 p.-decal-left:before,
+  .v2_price .price-item.price-item--regular p.-decal-left:before, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p.-decal-left:before, .menu-drawer__navigation .menu-drawer__menu-item p.-decal-left:before,
+  .menu-drawer__navigation details summary p.-decal-left:before, .v2-sa-form-wrapper form ._form-title p.-decal-left:before, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p.-decal-left:before, .sa-section-callout h2 p.-decal-left:before,
   ._font-h3.-decal-left:before,
   .v2-article-template .v2-sa-comments h2.-decal-left:before,
   .v2-article-template .v2-article-content h2.-decal-left:before,
@@ -3629,6 +3722,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .price .-decal-left.price-item.price-item--regular:before,
   .v2_price .-decal-left.price-item.price-item--regular:before,
   product-thumb.v2-product-thumb .product__info-wrapper span.-decal-left.price-item.price-item--regular:before,
+  .menu-drawer__navigation .-decal-left.menu-drawer__menu-item:before,
+  .menu-drawer__navigation details summary.-decal-left:before,
   .v2-sa-form-wrapper form .-decal-left._form-title:before,
   .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .-decal-left.price:before,
   .sa-section-callout h2.-decal-left:before {
@@ -3639,7 +3734,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 @media (max-width: 640px) {
   ._font-h3 p, .v2-article-template .v2-sa-comments h2 p, .v2-article-template .v2-article-content h2 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title p, .price.price--on-sale .price__sale .price-item.price-item--sale p,
   .v2_price.price--on-sale .price__sale .price-item.price-item--sale p, .price .price-item.price-item--regular p,
-  .v2_price .price-item.price-item--regular p, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p, .v2-sa-form-wrapper form ._form-title p, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p, .sa-section-callout h2 p,
+  .v2_price .price-item.price-item--regular p, product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular p, .menu-drawer__navigation .menu-drawer__menu-item p,
+  .menu-drawer__navigation details summary p, .v2-sa-form-wrapper form ._form-title p, .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price p, .sa-section-callout h2 p,
   ._font-h3,
   .v2-article-template .v2-sa-comments h2,
   .v2-article-template .v2-article-content h2,
@@ -3649,6 +3745,8 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .price .price-item.price-item--regular,
   .v2_price .price-item.price-item--regular,
   product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item--regular,
+  .menu-drawer__navigation .menu-drawer__menu-item,
+  .menu-drawer__navigation details summary,
   .v2-sa-form-wrapper form ._form-title,
   .sa-section-featuredproduct .featured-product.product--auto .product__info-wrapper .price,
   .sa-section-callout h2 {
@@ -3670,7 +3768,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 }
 
 ._font-copy-l p, .v2-article-template .v2-article-content h4 p, .v2-article-template .v2-article-content h3 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p, .price.price--on-sale .price__sale .price-item.price-item--regular p,
-.v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .v2-sa-form-wrapper form ._html-code p,
+.v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button p, .v2-sa-form-wrapper form ._html-code p,
 ._font-copy-l,
 .v2-article-template .v2-article-content h4,
 .v2-article-template .v2-article-content h4 b,
@@ -3681,12 +3779,13 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
 .price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button,
 .v2-sa-form-wrapper form ._html-code {
   font-size: 2.2rem;
 }
 @media (max-width: 640px) {
   ._font-copy-l p, .v2-article-template .v2-article-content h4 p, .v2-article-template .v2-article-content h3 p, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code p, .price.price--on-sale .price__sale .price-item.price-item--regular p,
-  .v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .v2-sa-form-wrapper form ._html-code p,
+  .v2_price.price--on-sale .price__sale .price-item.price-item--regular p, .menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button p, .v2-sa-form-wrapper form ._html-code p,
   ._font-copy-l,
   .v2-article-template .v2-article-content h4,
   .v2-article-template .v2-article-content h4 b,
@@ -3697,6 +3796,7 @@ product-thumb.v2-product-thumb .product__info-wrapper span.price-item.price-item
   .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code,
   .price.price--on-sale .price__sale .price-item.price-item--regular,
   .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
+  .menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button,
   .v2-sa-form-wrapper form ._html-code {
     font-size: 1.8rem;
   }
@@ -4309,22 +4409,31 @@ sticky-header .cart-count-bubble span {
 }
 @media screen and (max-width: 989px) {
   sticky-header header.header {
-    grid-template-columns: 1fr 2fr 4.4rem !important;
-    padding: 0.9rem 1.6rem 1rem;
+    grid-template-columns: auto 2fr 4.4rem !important;
+    padding: 0.8rem 1.6rem 1.2rem;
     min-height: 6.8rem;
+    transition: background 0.25s;
   }
   sticky-header header.header header-drawer {
     grid-row: 1;
     grid-column: 3;
     display: contents;
   }
-  sticky-header header.header > a {
+  sticky-header header.header header-drawer details {
+    margin-top: 0.7rem;
+  }
+  sticky-header header.header .v2-header-logo {
     grid-row: 1 !important;
     grid-column: 1 !important;
-    padding: 0;
+    padding: 0 !important;
   }
-  sticky-header header.header > a .header__heading-logo-wrapper img {
+  sticky-header header.header .v2-header-logo .header__heading-logo-wrapper img {
     margin: 0;
+    width: auto !important;
+    height: 4.8rem !important;
+  }
+  sticky-header header.header .v2-header-logo > a {
+    padding: 0 !important;
   }
   sticky-header header.header a.header__icon--cart {
     margin: 0 !important;
@@ -4333,6 +4442,8 @@ sticky-header .cart-count-bubble span {
     grid-row: 1;
     grid-column: 2;
     padding: 0;
+    margin-top: 0.7rem;
+    transition: opacity 0.25s;
   }
   sticky-header header.header .icon-close {
     width: 1.2rem;
@@ -4352,6 +4463,79 @@ sticky-header .cart-count-bubble span {
     padding-right: 2rem;
   }
 }
+.section-header.menu-open header.header {
+  background: var(--color-light-blue) !important;
+}
+.section-header.menu-open .header__icons {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu-drawer__inner-submenu {
+  background: var(--color-light-blue) !important;
+}
+
+.menu-drawer__navigation {
+  background: var(--color-light-blue) !important;
+  color: var(--color-primary) !important;
+  padding: 2.8rem 0 !important;
+}
+.menu-drawer__navigation .menu-drawer__menu.list-menu {
+  margin-top: -2.4rem;
+}
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation details summary {
+  font-weight: 400 !important;
+  min-height: 4.8rem;
+  padding: 0.6rem 4.4rem;
+}
+.menu-drawer__navigation details summary,
+.menu-drawer__navigation .menu-drawer__menu-item,
+.menu-drawer__navigation .menu-drawer__close-button {
+  letter-spacing: 0.3px !important;
+}
+.menu-drawer__navigation details summary .icon.icon-arrow,
+.menu-drawer__navigation .menu-drawer__menu-item .icon.icon-arrow,
+.menu-drawer__navigation .menu-drawer__close-button .icon.icon-arrow {
+  display: none;
+}
+.menu-drawer__navigation .menu-drawer__menu-item--active,
+.menu-drawer__navigation .menu-drawer__menu-item:focus,
+.menu-drawer__navigation .menu-drawer__close-button:focus,
+.menu-drawer__navigation .menu-drawer__menu-item:hover,
+.menu-drawer__navigation .menu-drawer__close-button:hover {
+  background: transparent !important;
+  color: inherit !important;
+  font-weight: bold !important;
+  letter-spacing: -0.35px !important;
+}
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button {
+  font-weight: 700 !important;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0 !important;
+  padding-left: 1rem;
+}
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button:hover {
+  letter-spacing: 0 !important;
+}
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button .svg-wrapper {
+  height: 2.4rem;
+  width: 2.4rem !important;
+  margin-right: 0.5rem;
+  transform: none !important;
+}
+.menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button .svg-wrapper svg {
+  display: block !important;
+}
+.menu-drawer__navigation .menu-drawer__inner-submenu .v2-header-megamenu {
+  padding-top: 0;
+  margin-top: 0;
+}
+.menu-drawer__navigation .menu-drawer__inner-submenu .v2-mm-wrapper {
+  margin-top: 0;
+}
+
 .mega-menu__content {
   background: var(--color-light-blue) !important;
   box-shadow: 0 4.4rem 4.8rem 0 rgba(0, 38, 139, 0.16) !important;
@@ -4448,6 +4632,32 @@ sticky-header .cart-count-bubble span {
 }
 .v2-header-megamenu .v2-mm-footer .v2-mm-heading {
   margin-bottom: 0;
+}
+
+.menu-drawer__navigation .v2-header-megamenu {
+  display: flex;
+  flex-direction: column;
+}
+.menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper {
+  flex-direction: column;
+  padding: 0 2rem 0 4rem;
+  gap: 3.5rem;
+}
+.menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper ul {
+  columns: 1;
+}
+.menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper a.font-bold {
+  font-weight: bold !important;
+}
+.menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper .v2-mm-heading {
+  margin-bottom: 1rem;
+}
+.menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper .v2-mm-subheading {
+  margin-bottom: 1rem;
+}
+.menu-drawer__navigation .v2-header-megamenu .v2-mm-footer {
+  padding: 4rem 0 0 2rem;
+  margin: 4rem 2rem 0;
 }
 
 product-thumb.v2-product-thumb {
@@ -5710,7 +5920,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h3 b,
 .v2-article-template .v2-article-content h3 .v2-section-slideshow .-slide-type-blue .v2-row b,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2-article-template .v2-article-content h3 strong,
-.v2-article-template .v2-article-content h3 .v2-section-slideshow .-slide-type-blue .v2-row strong, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form ._html-code, .v2-sa-form-wrapper form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-item.price-item--regular, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular,
+.v2-article-template .v2-article-content h3 .v2-section-slideshow .-slide-type-blue .v2-row strong, .v2-section-slideshow .-slide-type-blue .v2-row .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .v2-sa-form-wrapper form ._html-code, .v2-sa-form-wrapper form .v2-section-slideshow .-slide-type-blue .v2-row ._html-code, .v2-section-slideshow .-slide-type-blue .v2-row .menu-drawer__navigation .menu-drawer__inner-submenu .menu-drawer__close-button, .menu-drawer__navigation .menu-drawer__inner-submenu .v2-section-slideshow .-slide-type-blue .v2-row .menu-drawer__close-button, .v2-section-slideshow .-slide-type-blue .v2-row .price.price--on-sale .price__sale .price-item.price-item--regular, .price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular,
 .v2-section-slideshow .-slide-type-blue .v2-row .v2_price.price--on-sale .price__sale .price-item.price-item--regular,
 .v2_price.price--on-sale .price__sale .v2-section-slideshow .-slide-type-blue .v2-row .price-item.price-item--regular {
   color: var(--color-secondary);
