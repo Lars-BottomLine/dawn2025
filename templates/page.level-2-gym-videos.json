@@ -190,7 +190,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://vimeo.com/875206371/03b9de5b39",
-            "cover_image": "shopify://shop_images/Screenshot_2025-10-12_at_19.01.15.png",
+            "cover_image": "shopify://shop_images/Design_1_Title.png",
             "description": ""
           }
         }
@@ -218,6 +218,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_2.png",
             "description": ""
           }
         },
@@ -226,7 +227,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
-            "cover_image": "shopify://shop_images/Screenshot_2025-10-12_at_19.04.51.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_3.png",
             "description": ""
           }
         }
@@ -240,7 +241,7 @@
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -277,8 +278,8 @@
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
+        "decal_bottom": false,
+        "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
