@@ -447,50 +447,50 @@
         "accordion_row_hdd7Gc": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What is CIMSPA?",
-            "row_content": "<p>CIMSPA is the Chartered Institute for the<br/>Management of Sport and Physical Activity. They are the recognised professional<br/>development body for the UK’s fitness sector.</p>"
+            "heading": "Is Premier Global open again?",
+            "row_content": "<p>Premier Global as a company closed in 2022. However, the name, branding, leadership, and values are now part of Study Active, a trusted provider of fitness qualifications.</p>"
           }
         },
         "accordion_row_Ecbk7a": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Why does CIMSPA accreditation matter?",
-            "row_content": "<p>CIMSPA-accredited courses meet high<br/>quality standards, are recognised across the UK, and are trusted by employers.</p>"
+            "heading": "Are Study Active courses the same as Premier Global’s?",
+            "row_content": "<p>They’re even better. Our courses are nationally recognised, CIMSPA-endorsed, and built by the same experts who helped Premier Global grow.</p>"
           }
         },
         "accordion_row_xJwJKG": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Are Study Active's courses CIMSPA endorsed?",
-            "row_content": "<p>Yes. All of our key personal trainer qualifications are CIMSPA-endorsed and meet Ofqual standards.</p>"
+            "heading": "What qualifications do you offer?",
+            "row_content": "<p>Level 2 Gym Instructing, Level 3 Personal Training, Nutrition, Sports Massage Therapy, Pilates, and more.</p>"
           }
         },
         "accordion_row_nCWPNT": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What does \"Enhancing\"status mean?",
-            "row_content": "<p>It’s the highest quality rating a provider can earn from CIMSPA, showing outstanding educational delivery.</p>"
+            "heading": "Can I still trust the Premier Global name?",
+            "row_content": "<p>Yes. The brand lives on through Study Active, backed by the original leadership team and a new commitment to modern training.</p>"
           }
         },
         "accordion_row_EqwDem": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Can I work abroad with these qualifications?",
-            "row_content": "<p>Yes. Our qualifications also align with EREPS, which helps learners gain recognition across Europe.</p>"
+            "heading": "Is the training still flexible and online?",
+            "row_content": "<p>Yes. Learn at your own pace, from anywhere, with optional in-person workshops at our immersive residential training retreats.</p>"
           }
         },
         "accordion_row_RhLHkN": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Can I pay in instalments?",
-            "row_content": "<p>Yes. We offer 0% finance and flexible payment plans to make courses affordable.</p>"
+            "heading": "Are you still CIMSPA-accredited?",
+            "row_content": "<p>We go one step further! Study Active has been awarded CIMSPA’s “Enhancing” rating, the highest possible quality score.</p>"
           }
         },
         "accordion_row_abViWR": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What support will I get during the course?",
-            "row_content": "<p>You’ll receive expert tutor support, study resources, and access to a supportive online platform.</p>"
+            "heading": "Can I get job opportunities after qualifying?",
+            "row_content": "<p>Yes. Our learners get guaranteed interviews with national gym chains like The Gym Group and Nuffield Health.</p>"
           }
         },
         "accordion_row_GBqQ83": {
@@ -522,7 +522,7 @@
       "name": "t:lesections.accordion.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "heading_text": "<p><strong>CIMSPA & Our Courses FAQs</strong></p>",
+        "heading_text": "<p><strong>Questions about Premier Global and Study Active</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
         "heading_size": "h2",
