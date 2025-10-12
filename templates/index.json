@@ -527,13 +527,25 @@
             "button_label": "",
             "button_url": ""
           }
+        },
+        "slide_aqVmYr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "text": "",
+            "button_label": "",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
         "slide_HfbbfH",
         "slide_JM8hVg",
         "slide_bPaqPa",
-        "slide_MQmEd8"
+        "slide_MQmEd8",
+        "slide_aqVmYr"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
