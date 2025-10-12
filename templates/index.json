@@ -929,8 +929,8 @@
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "heading_text": "<p>Tips, trends and training advice</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
+        "heading_type": "h2",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
