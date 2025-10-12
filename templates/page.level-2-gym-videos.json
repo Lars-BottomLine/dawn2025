@@ -712,7 +712,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym goal setting</p>",
+        "heading_text": "<p>Other Gym Instructor webinars...</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -720,7 +720,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>Explore how fitness trainers can create SMART fitness goals.</p>",
+        "text": "<ul><li>L2 Gym Session Plan</li><li>Reps & %1RM</li><li>Level 2 Gym Exam Preparation</li><li>L2 Gym practical assessment guidance</li><li>L2 Gym technical webinar</li><li>L2 Gym group induction webinar</li></ul>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -753,10 +753,55 @@
             "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
             "description": ""
           }
+        },
+        "videoblock_aacatj": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "videoblock_yptHqF": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "videoblock_HRWqWJ": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "videoblock_VF9rBK": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
+        "videoblock_9PDnnH": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
         }
       },
       "block_order": [
-        "videoblock_9CKRKD"
+        "videoblock_9CKRKD",
+        "videoblock_aacatj",
+        "videoblock_yptHqF",
+        "videoblock_HRWqWJ",
+        "videoblock_VF9rBK",
+        "videoblock_9PDnnH"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
