@@ -138,7 +138,7 @@
 
     {%- liquid
       if section.settings.menu != blank
-        render 'header-drawer'
+        render 'v2-header-drawer', blocks: section.blocks
       endif
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
@@ -148,9 +148,11 @@
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading -no-decal">
-      {%- endif -%}
+        <h1 class="v2-header-logo header__heading -no-decal">
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+      {%- else -%}
+        <a href="{{ routes.root_url }}" class="v2-header-logo header__heading-link link link--text focus-inset">
+      {%- endif -%}
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
@@ -170,7 +172,7 @@
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
-          </a>
+            </a>
       {%- if request.page_type == 'index' -%}
         </h1>
       {%- endif -%}
