@@ -73,7 +73,7 @@
         "slide_Cnt7J7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Team_Photo_-_Black_White_Colour.png",
+            "image": "shopify://shop_images/ptbrochure.png",
             "slide_type": "onecol",
             "heading_text": "<p>Thank you!</p>",
             "heading_type": "h1",
@@ -151,7 +151,7 @@
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "light-blue",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
@@ -185,7 +185,7 @@
         "button_new_window": false,
         "button_at_side": false,
         "button_align": "center",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "custom_class_names": "courses",
         "decal_top": true,
         "decal_bottom": false,
@@ -214,7 +214,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
