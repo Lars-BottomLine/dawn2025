@@ -398,7 +398,7 @@
         "heading_text": "<p><strong>Becoming a Personal Trainer is easy!</strong></p>",
         "heading_type": "h1",
         "heading_size": "h1",
-        "heading_no_decal": true,
+        "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
         "heading_align": "center",
