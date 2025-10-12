@@ -256,6 +256,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
             "description": ""
           }
         },
@@ -263,8 +264,8 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
-            "cover_image": "shopify://shop_images/Screenshot_2025-10-12_at_19.04.51.png",
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
             "description": ""
           }
         }
