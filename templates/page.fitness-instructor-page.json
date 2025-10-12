@@ -122,7 +122,7 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 8,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
@@ -160,6 +160,7 @@
     },
     "v2_slideshow_mp9DLi": {
       "type": "v2_slideshow",
+      "disabled": true,
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "product_manual",
@@ -273,8 +274,8 @@
         "button_new_window": false,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -407,8 +408,8 @@
         "button_align": "left",
         "bkgr_color": "white",
         "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
