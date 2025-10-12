@@ -285,6 +285,211 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_video_xpkqej": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_BPmCkU": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_QhAade": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_BPmCkU",
+        "videoblock_QhAade"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_M6dtHH": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_4mUKKV": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_eq3yXQ": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_4mUKKV",
+        "videoblock_eq3yXQ"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_EMMEgc": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_ED7mjk": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_BjPebK": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_ED7mjk",
+        "videoblock_BjPebK"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_4GKVMC": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_bppmLr": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_VChtMj": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_bppmLr",
+        "videoblock_VChtMj"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_bqyD89": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_PCEfNR": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_7wb3Rn": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_PCEfNR",
+        "videoblock_7wb3Rn"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_BwzHVR": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "tutor",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -295,6 +500,12 @@
     "v2_header_tBnyGi",
     "v2_video_TatiTR",
     "v2_video_ptUgUq",
-    "v2_video_Vyyd8Q"
+    "v2_video_Vyyd8Q",
+    "v2_video_xpkqej",
+    "v2_video_M6dtHH",
+    "v2_video_EMMEgc",
+    "v2_video_4GKVMC",
+    "v2_video_bqyD89",
+    "v2_form_BwzHVR"
   ]
 }
