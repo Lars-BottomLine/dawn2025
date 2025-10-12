@@ -18,55 +18,6 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_GzGMki": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_FTBz73": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ready to get started?",
-            "heading_size": "h1"
-          }
-        },
-        "text_WG3THF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_n7nrY7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See current partner gyms",
-            "button_link_1": "shopify://pages/associations-and-partners",
-            "button_style_secondary_1": false,
-            "button_label_2": "Book a careers call",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_FTBz73",
-        "text_WG3THF",
-        "buttons_n7nrY7"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "v2_text_plus_image_QH7n6k": {
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
@@ -101,7 +52,7 @@
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
@@ -452,7 +403,6 @@
   },
   "order": [
     "main",
-    "image_banner_GzGMki",
     "v2_text_plus_image_QH7n6k",
     "v2_header_tBnyGi",
     "v2_video_TatiTR",
