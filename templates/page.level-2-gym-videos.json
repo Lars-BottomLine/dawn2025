@@ -217,7 +217,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
             "cover_image": "shopify://shop_images/Design_1_Title_2.png",
             "description": ""
           }
@@ -226,7 +226,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
+            "video_url": "https://vimeo.com/875206371/03b9de5b39?share=copy",
             "cover_image": "shopify://shop_images/Design_1_Title_3.png",
             "description": ""
           }
