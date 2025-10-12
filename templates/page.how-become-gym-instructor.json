@@ -454,7 +454,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p><strong>Your Fitness Career Starts Here</strong></p>",
+        "heading_text": "<p><strong>Becoming a Gym Instructor is easy!</strong></p>",
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": true,
@@ -462,7 +462,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
-        "text": "<p>Study Active is trusted by thousands of learners and respected across the fitness industry. Our courses open doors and give you a strong foundation to grow. </p><p></p><p><strong>What are you waiting for? Enrol today!</strong></p>",
+        "text": "<p>Start small, dream big. Becoming a gym instructor is your first step into a rewarding industry that values energy, empathy, and personal growth. At Study Active, we’re here to help you succeed, not just with your qualification, but with your career.</p><p></p><p><strong>What are you waiting for? Enrol today!</strong></p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -489,7 +489,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "cimspa-certificate-in-personal-training-l3",
+        "product": "cimspa-level-2-certificate-in-fitness-instruction",
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
@@ -506,22 +506,22 @@
         "accordion_row_hdd7Gc": {
           "type": "accordion_row",
           "settings": {
-            "heading": " What is a fitness instructor?",
-            "row_content": "<p>A fitness instructor works with groups orindividuals to deliver effective workouts, often in gyms or community settings.It’s the first step in a rewarding career.</p>"
+            "heading": "What does a gym instructor do?",
+            "row_content": "<p>A gym instructor works in a fitness setting, helping clients use equipment correctly, delivering group sessions, and supporting healthy exercise routines.</p>"
           }
         },
         "accordion_row_Ecbk7a": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Is \"fitness instructor\" the same as \"personal trainer\"?",
-            "row_content": "<p>Not exactly. Fitness instructors typically supervise and lead group classes or gym sessions. Personal trainers work one-on-one with clients and usually require a Level 3 qualification.</p>"
+            "heading": "What qualification do I need to become a gym instructor?",
+            "row_content": "<p>The Level 2 Certificate in Gym Instructing is the standard entry qualification for working in gyms.</p>"
           }
         },
         "accordion_row_xJwJKG": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What qualification do I need to become a fitness instructor?",
-            "row_content": "<p>The Level 2 Certificate in Gym Instructing is the standard starting point.</p>"
+            "heading": "Is this different from a personal trainer?",
+            "row_content": "<p>Yes. Gym instructors typically work on the gym floor or lead group sessions. Personal trainers work one-to-one with clients and require a Level 3 qualification.</p>"
           }
         },
         "accordion_row_nCWPNT": {
@@ -589,10 +589,10 @@
       "name": "t:lesections.accordion.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "heading_text": "<p><strong>Fitness Instructor Courses FAQs</strong></p>",
+        "heading_text": "<p><strong>FAQs: How to Become a Gym Instructor</strong></p>",
         "heading_align": "center",
-        "heading_type": "h1",
-        "heading_size": "h1",
+        "heading_type": "h2",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
