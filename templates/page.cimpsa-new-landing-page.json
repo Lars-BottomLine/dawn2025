@@ -86,7 +86,7 @@
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": true,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": -36,
@@ -107,6 +107,7 @@
       "block_order": [
         "heading_YEkgnn"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/CIMSPA_Quality_Assurance_Logo_3-star_Enhancing_NAVY_1000x_d2db4289-3d07-422e-83a7-15d6139c21c1.webp",
