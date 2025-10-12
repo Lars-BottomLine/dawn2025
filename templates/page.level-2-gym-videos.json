@@ -214,7 +214,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym coursework guidance tutorial</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -222,7 +222,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>This explores the coursework element of the level 2 Gym Instructor qualification. (Please note where YouTube videos are referenced, please see the tutorial videos below as all tutorial videos are now on this one page)</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -252,7 +252,8 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
+            "cover_image": "shopify://shop_images/Screenshot_2025-10-12_at_19.04.51.png",
             "description": ""
           }
         }
@@ -276,7 +277,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>L2 Gym TNA, SWOT & PPDP</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -284,7 +285,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>Understand how to evaluate your self to pursue with your fitness career be it starting out as a gym instructor or in a senior fitness position like a personal-trainer.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -314,7 +315,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/686265623/a26a705530",
             "description": ""
           }
         }
