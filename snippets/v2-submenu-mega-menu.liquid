@@ -8,7 +8,7 @@
 
             {% if data.left_heading != blank %}
                 {% if data.left_heading_url != blank %}
-                <a href="{{ data.left_heading_url }}">
+                <a class="v2-mm-heading-link" href="{{ data.left_heading_url }}">
                 {% endif %}
                     <div class="v2-mm-heading _font-h3 -decal-left">
                         {{ data.left_heading }}
@@ -50,7 +50,7 @@
 
             {% if data.right_heading != blank %}
                 {% if data.right_heading_url != blank %}
-                <a href="{{ data.left_heading_url }}">
+                <a class="v2-mm-heading-link" href="{{ data.left_heading_url }}">
                 {% endif %}
                     <div class="v2-mm-heading _font-h3 -decal-left">
                         {{ data.right_heading }}
@@ -94,7 +94,7 @@
     <div class="v2-mm-footer">
 
         {% if data.footer_link_url != blank %}
-            <a href="{{ data.footer_link_url }}" class="v2-mm-heading _font-h3 -decal-left">
+            <a href="{{ data.footer_link_url }}" class="v2-mm-heading v2-mm-heading-link _font-h3 -decal-left">
                 {{ data.footer_link_label }}
             </a>
         {% else %}
