@@ -65,7 +65,7 @@
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
         "form_type": "brochure",
-        "heading_text": "<p>How to become a Gym Instructor in three easy steps</p><p></p>",
+        "heading_text": "<p>How to become a Gym Instructor in three easy steps</p><p> </p>",
         "heading_type": "h1",
         "heading_size": "h2",
         "heading_no_decal": false,
