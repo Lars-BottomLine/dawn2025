@@ -293,7 +293,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
             "cover_image": "shopify://shop_images/Design_1_Title_8.png",
             "description": ""
           }
@@ -302,7 +302,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686263857?share=copy",
             "cover_image": "shopify://shop_images/Design_1_Title_9.png",
             "description": ""
           }
