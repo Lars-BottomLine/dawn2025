@@ -1,3 +1,8 @@
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps,marker"
+        defer
+></script>
+
 {%- liquid
 
     assign section_classes = ''
@@ -92,21 +97,38 @@
 
         <div class="v2-map-container">
 
+            <div class="v2-map-map">
+                {% comment %}<gmp-map center="37.4220656,-122.0840897"
+                         zoom="10" map-id="DEMO_MAP_ID"
+                         style="height: 100%; width: 100%;">
+                    {% for block in section.blocks %}
+                        {% case block.type %}
+                            {% when 'marker' %}
+                                <gmp-advanced-marker
+                                        position="{{ block.settings.position }}"
+                                        title="{{ block.settings.name }}"
+                                        data-id="{{ forloop.index }}"
+                                ></gmp-advanced-marker>
+                        {% endcase %}
+                    {% endfor %}
+                </gmp-map>{% endcomment %}
+            </div>
+
             {% for block in section.blocks %}
                 {% case block.type %}
                     {% when 'marker' %}
-                        <div class="v2-map-venue">
+                        <div class="v2-map-venue" data-id="{{ forloop.index }}">
 
                             <div class="v2-map-venue-name _font-h3 -decal-right">
-                                {{ block.name }}
+                                {{ block.settings.name }}
                             </div>
 
                             <div class="v2-map-venue-address _font-copy-m">
-                                {{ block.address }}
+                                {{ block.settings.address | newline_to_br}}
                             </div>
 
-                            <a href="{{ block.button_url }}" target="_blank" class="v2-button -type-primary">
-                                <span>{{ block.button_name }}</span>
+                            <a href="{{ block.settings.button_url }}" target="_blank" class="v2-button -style-primary">
+                                <span>{{ block.settings.button_name }}</span>
                             </a>
 
                         </div>
@@ -245,6 +267,12 @@
           "type": "marker",
           "name": "Marker",
           "settings": [
+            {
+              "type": "text",
+              "id": "position",
+              "default": "37.4220656,-122.0840897",
+              "label": "Position"
+            },
             {
               "type": "text",
               "id": "name",
