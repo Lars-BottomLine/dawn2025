@@ -1,0 +1,418 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "v2_text_plus_image_QH7n6k": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
+        "heading_text": "<p>Welcome to your level 2 Gym Instructor course</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p>The home-study fitness education videos on this page are linked to your nationally recognised Level 2 Gym Instructor qualification and will help you to achieve your fitness trainer certification. </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>If you are studying the L2 Gym & L3 Personal Trainer combined certification then these videos apply to the gym instructing part only (there are personal fitness trainer videos on a separate page which your tutor will send to you once you are working on that section). </p>",
+        "text_size": "copy-m",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p>The videos include a wealth of health and fitness content including, program design, anatomy & physiology, how to be an effective fitness instructor as well as numerous other fitness tasks.</p>",
+        "claim_text_size": "copy-m",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 120,
+        "padding_bottom": 40,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_tBnyGi": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Webinars</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This following videos explain each step of the Level 2 Gym Instructing qualification and the assessment preparation.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 4,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_TatiTR": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_EYMN8b": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/875206371/03b9de5b39",
+            "cover_image": "shopify://shop_images/Design_1_Title.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_EYMN8b"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_ptUgUq": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_BddnXB": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
+            "cover_image": "shopify://shop_images/Design_1_Title_2.png",
+            "description": ""
+          }
+        },
+        "videoblock_RyH6nL": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686265623/a26a705530",
+            "cover_image": "shopify://shop_images/Design_1_Title_3.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_BddnXB",
+        "videoblock_RyH6nL"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_Vyyd8Q": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_yCQ9HE": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/784781073",
+            "cover_image": "shopify://shop_images/Design_1_Title_6.png",
+            "description": ""
+          }
+        },
+        "videoblock_HpRQYD": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686261925/1cc1a9c6ae",
+            "cover_image": "shopify://shop_images/Design_1_Title_7.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_yCQ9HE",
+        "videoblock_HpRQYD"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_Y33teU": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_tfdwy6": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/800811840/5305bca857",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_iMEXVT": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686264125/722df4baba",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_tfdwy6",
+        "videoblock_iMEXVT"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_xpkqej": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_BPmCkU": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
+            "cover_image": "shopify://shop_images/Design_1_Title_8.png",
+            "description": ""
+          }
+        },
+        "videoblock_QhAade": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686263857?share=copy",
+            "cover_image": "shopify://shop_images/Design_1_Title_9.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_BPmCkU",
+        "videoblock_QhAade"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_M6dtHH": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_4mUKKV": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686265042/fa920a6a5e",
+            "cover_image": "shopify://shop_images/Design_1_Title_10.png",
+            "description": ""
+          }
+        },
+        "videoblock_eq3yXQ": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686265857/daf9cd75ef",
+            "cover_image": "shopify://shop_images/Design_1_Title_11.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_4mUKKV",
+        "videoblock_eq3yXQ"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_EMMEgc": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_ED7mjk": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/797125359/79e1e9915c",
+            "cover_image": "shopify://shop_images/Design_1_Title_12.png",
+            "description": ""
+          }
+        },
+        "videoblock_BjPebK": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/713236868/d7bae07804",
+            "cover_image": "shopify://shop_images/Design_1_Title_13.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_ED7mjk",
+        "videoblock_BjPebK"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_4GKVMC": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_bppmLr": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686265302/da44d92998",
+            "cover_image": "shopify://shop_images/Design_1_Title_14.png",
+            "description": ""
+          }
+        },
+        "videoblock_VChtMj": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=WhhMUng8yDk&t=943s",
+            "cover_image": "shopify://shop_images/Design_1_Title_15.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_bppmLr",
+        "videoblock_VChtMj"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_BwzHVR": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "tutor",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "v2_text_plus_image_QH7n6k",
+    "v2_header_tBnyGi",
+    "v2_video_TatiTR",
+    "v2_video_ptUgUq",
+    "v2_video_Vyyd8Q",
+    "v2_video_Y33teU",
+    "v2_video_xpkqej",
+    "v2_video_M6dtHH",
+    "v2_video_EMMEgc",
+    "v2_video_4GKVMC",
+    "v2_form_BwzHVR"
+  ]
+}
