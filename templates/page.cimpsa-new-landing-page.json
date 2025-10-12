@@ -66,8 +66,8 @@
       "settings": {
         "form_type": "brochure",
         "heading_text": "<p>What you’ll get inside</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
+        "heading_type": "h2",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
