@@ -1,0 +1,310 @@
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps,marker"
+        defer
+></script>
+
+{%- liquid
+
+    assign section_classes = ''
+
+    # ---------------------------------
+    # DECALS
+    # ---------------------------------
+    assign decal_top = false
+    assign decal_bottom = false
+
+    if section.settings.decal_top
+        assign decal_top = true
+        assign section_classes = section_classes | append: ' -decal-top '
+    endif
+
+    if section.settings.decal_bottom
+        assign decal_bottom = true
+        assign section_classes = section_classes | append: ' -decal-bottom '
+    endif
+
+    # ---------------------------------
+    # BACKGROUND + DECAL - colors
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
+    if section.settings.bkgr_color == 'primary'
+        assign section_classes = section_classes | append: ' sa-col-white '
+    endif
+    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+        assign section_classes = section_classes | append: ' sa-col-primary '
+    endif
+
+    # ---------------------------------
+    # PADDING + MARGIN
+    # ---------------------------------
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+    # ---------------------------------
+    # CUSTOM CLASSES
+    # ---------------------------------
+    assign section_classes = section_classes | append: section.settings.custom_class_names
+
+    # ---------------------------------
+    # CHECK VIEW MODE
+    # ---------------------------------
+    assign mode_live = true
+    assign mode_preview = false
+    assign mode_customizer = false
+    if content_for_header contains "previewBarInjector.init();"
+        assign mode_live = false
+        assign mode_preview = true
+        assign mode_customizer = false
+    elsif content_for_header contains "Shopify.designMode"
+        assign mode_live = false
+        assign mode_preview = false
+        assign mode_customizer = true
+    endif
+
+    # ---------------------------------
+    # SECTION SPECIFIC STUFF
+    # ---------------------------------
+    # ...
+%}
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+
+    @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
+    }
+{%- endstyle -%}
+
+<div class="v2-section-map
+            {{ section_classes }}">
+    <div class="page-width">
+
+        <div class="v2-map-container">
+
+            <div class="v2-map-map">
+                {% comment %}<gmp-map center="37.4220656,-122.0840897"
+                         zoom="10" map-id="DEMO_MAP_ID"
+                         style="height: 100%; width: 100%;">
+                    {% for block in section.blocks %}
+                        {% case block.type %}
+                            {% when 'marker' %}
+                                <gmp-advanced-marker
+                                        position="{{ block.settings.position }}"
+                                        title="{{ block.settings.name }}"
+                                        data-id="{{ forloop.index }}"
+                                ></gmp-advanced-marker>
+                        {% endcase %}
+                    {% endfor %}
+                </gmp-map>{% endcomment %}
+            </div>
+
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when 'marker' %}
+                        <div class="v2-map-venue" data-id="{{ forloop.index }}">
+
+                            <div class="v2-map-venue-name _font-h3 -decal-right">
+                                {{ block.settings.name }}
+                            </div>
+
+                            <div class="v2-map-venue-address _font-copy-m">
+                                {{ block.settings.address | newline_to_br}}
+                            </div>
+
+                            <a href="{{ block.settings.button_url }}" target="_blank" class="v2-button -style-primary">
+                                <span>{{ block.settings.button_name }}</span>
+                            </a>
+
+                        </div>
+                {% endcase %}
+            {% endfor %}
+
+        </div>
+
+    </div> {% # /PAGE WIDTH %}
+</div>
+
+{% schema %}
+{
+  "name": "t:lesections.v2_map.name",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.custom_classes.header"
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "t:lebase.global.custom_classes.label",
+      "placeholder": "test_class"
+    },
+
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.background.header"
+    },
+    {
+      "type": "select",
+      "id": "bkgr_color",
+      "label": "t:lebase.global.bkgr_color.label",
+      "default": "primary",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:lebase.global.bkgr_color.primary"
+        },
+        {
+          "value": "light-blue",
+          "label": "t:lebase.global.bkgr_color.light-blue"
+        },
+        {
+          "value": "white",
+          "label": "t:lebase.global.bkgr_color.white"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.skewed_border.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_top",
+      "label": "t:lebase.global.skewed_border.label_top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "decal_bottom",
+      "label": "t:lebase.global.skewed_border.label_bottom",
+      "default": false
+    },
+
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.padding.header"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.padding.label_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.padding.label_bottom",
+      "default": 40
+    },
+
+
+    {
+      "type": "header",
+      "content": "t:lebase.global.margin.header"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.margin.label_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": -200,
+      "max": 200,
+      "step": 4,
+      "unit": "px",
+      "label": "t:lebase.global.margin.label_bottom",
+      "default": 0
+    }
+
+  ],
+
+  "blocks": [
+    {
+      "type": "marker",
+      "name": "Marker",
+      "settings": [
+        {
+          "type": "text",
+          "id": "position",
+          "default": "37.4220656,-122.0840897",
+          "label": "Position"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "default": "Venue Name",
+          "label": "Name"
+        },
+        {
+          "type": "textarea",
+          "id": "address",
+          "default": "Avenue road<br>Homestead<br>PEJDGH",
+          "label": "Address"
+        },
+        {
+          "type": "text",
+          "id": "button_name",
+          "default": "View Venue",
+          "label": "Button: Name"
+        },
+        {
+          "type": "text",
+          "id": "button_url",
+          "default": "https://studyactive.co.uk",
+          "label": "Button: URL"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "t:lesections.v2_map.presets.name"
+    }
+  ]
+}
+{% endschema %}
