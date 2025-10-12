@@ -60,7 +60,7 @@
           "type": "marker",
           "settings": {
             "name": "Venue Name eouoe",
-            "address": "Avenue roadHomesteadPEJDGH",
+            "address": "Avenue\nroadHomestead\nPEJDGH",
             "button_name": "View Venue",
             "button_url": "https://studyactive.co.uk"
           }
