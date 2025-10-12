@@ -423,7 +423,7 @@
         "heading_text": "<p><strong>Your Fitness Career Starts Here</strong></p>",
         "heading_type": "h1",
         "heading_size": "h1",
-        "heading_no_decal": true,
+        "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
         "heading_align": "center",
