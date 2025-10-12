@@ -286,6 +286,44 @@
         "margin_bottom": 0
       }
     },
+    "v2_video_Y33teU": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_tfdwy6": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/800811840/5305bca857",
+            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "description": ""
+          }
+        },
+        "videoblock_iMEXVT": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686264125/722df4baba",
+            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_tfdwy6",
+        "videoblock_iMEXVT"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_video_xpkqej": {
       "type": "v2_video",
       "blocks": {
@@ -463,6 +501,7 @@
     "v2_video_TatiTR",
     "v2_video_ptUgUq",
     "v2_video_Vyyd8Q",
+    "v2_video_Y33teU",
     "v2_video_xpkqej",
     "v2_video_M6dtHH",
     "v2_video_EMMEgc",
