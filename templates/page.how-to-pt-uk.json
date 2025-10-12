@@ -111,7 +111,7 @@
         "text_strong_accented": false,
         "text_align": "left",
         "text_width": "full",
-        "button_text": "Enrol today!",
+        "button_text": "",
         "button_url": "#productheader",
         "button_style": "primary",
         "button_size": "small",
