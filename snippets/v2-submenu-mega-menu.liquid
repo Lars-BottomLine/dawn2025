@@ -2,12 +2,20 @@
 
     <div class="v2-mm-wrapper">
 
+        {% # LEFT
+           # ------------------------- %}
         <div class="v2-mm-left">
 
             {% if data.left_heading != blank %}
-                <div class="v2-mm-heading _font-h3 -decal-left">
-                    {{ data.left_heading }}
-                </div>
+                {% if data.left_heading_url != blank %}
+                <a href="{{ data.left_heading_url }}">
+                {% endif %}
+                    <div class="v2-mm-heading _font-h3 -decal-left">
+                        {{ data.left_heading }}
+                    </div>
+                {% if data.left_heading_url != blank %}
+                </a>
+                {% endif %}
             {% endif %}
 
             {% if data.left_subheading != blank %}
@@ -36,12 +44,20 @@
 
         </div>
 
+        {% # RIGHT
+           # ------------------------- %}
         <div class="v2-mm-right">
 
             {% if data.right_heading != blank %}
-                <div class="v2-mm-heading _font-h3 -decal-left">
-                    {{ data.right_heading }}
-                </div>
+                {% if data.right_heading_url != blank %}
+                <a href="{{ data.left_heading_url }}">
+                {% endif %}
+                    <div class="v2-mm-heading _font-h3 -decal-left">
+                        {{ data.right_heading }}
+                    </div>
+                {% if data.right_heading_url != blank %}
+                </a>
+                {% endif %}
             {% endif %}
 
             {% if data.right_subheading != blank %}
@@ -72,7 +88,9 @@
 
     </div>
 
-    {% if data.footer_link_label != blank%}
+    {% # FOOTER
+       # ------------------------- %}
+    {% if data.footer_link_label != blank %}
     <div class="v2-mm-footer">
 
         {% if data.footer_link_url != blank %}
