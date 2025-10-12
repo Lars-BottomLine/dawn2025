@@ -86,7 +86,7 @@
           >
             {%- for block in section.blocks -%}
               <div
-                class="kn-footer-block text-white footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %} {% if block.type == 'contact' %} footer-block--contact{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="kn-footer-block text-white footer-block {% if block.type == 'link_list' %} -mobile-dropdown {% endif %} grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %} {% if block.type == 'contact' %} footer-block--contact{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -94,7 +94,14 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h3 class="kn-footer-heading !font-bold _font-copy-l">{{- block.settings.heading -}}</h3>
+                  <h3 class="kn-footer-heading !font-bold _font-copy-l">
+                      {{- block.settings.heading -}}
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                          <path d="M6 9.88965L12 15.8896L18 9.88965" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+
+                  </h3>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -441,6 +448,23 @@
     </div>
   </div>
 </footer>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+
+            document.querySelectorAll('.kn-footer-block.-mobile-dropdown').forEach(function (item) {
+                console.log(item);
+                item.addEventListener('click', function () {
+                    item.classList.add('-open');
+                });
+            })
+
+        }, 250);
+    });
+
+</script>
 
 {% schema %}
 {
