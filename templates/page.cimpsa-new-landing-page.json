@@ -188,7 +188,7 @@
         "bkgr_color": "light-blue",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
@@ -197,6 +197,7 @@
     },
     "v2_header_GTxGpQ": {
       "type": "v2_header",
+      "disabled": true,
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "heading_text": "<p>You bring the passion, we'll take care of everything else</p>",
@@ -232,6 +233,7 @@
     },
     "v2_slideshow_mp9DLi": {
       "type": "v2_slideshow",
+      "disabled": true,
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "product_manual",
