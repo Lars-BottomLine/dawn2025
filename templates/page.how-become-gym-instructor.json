@@ -162,7 +162,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>See what our students are saying</p>",
+        "heading_text": "<p>Become a Gym Instructor Today</p>",
         "heading_type": "h1",
         "heading_size": "h2",
         "heading_no_decal": true,
@@ -170,7 +170,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
-        "text": "<p>We help people all over the UK become <strong>Gym Instructors!</strong></p>",
+        "text": "<p>Trusted online courses you can take from home. Enrol today!</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
