@@ -520,15 +520,22 @@
         "accordion_row_GBqQ83": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Do I need any prior qualifications?",
-            "row_content": "<p>You can start with a Level 2 qualification if you’re new to fitness. Level 3 courses build on this foundation.</p>"
+            "heading": "What is the next step after becoming a fitness instructor?",
+            "row_content": "<p>You can progress to a <a href=\"/products/cimspa-certificate-in-personal-training-l3\" title=\"Level 3 Personal Trainer Course\">Level 3 Personal Training</a> qualification to work with clients on a one-to-one basis.</p>"
           }
         },
         "accordion_row_mqjap7": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What kind of jobs can I get after qualifying?",
-            "row_content": "<p>Gym Instructor, Personal Trainer, Fitness Influencer, Freelance Trainer, Gym Owner.</p>"
+            "heading": "Can I pay in instalments?",
+            "row_content": "<p>Yes. We offer 0% finance and monthly payment plans.</p>"
+          }
+        },
+        "accordion_row_AVRHRp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Will I get job opportunities after the course?",
+            "row_content": "<p>Yes. We offer guaranteed interviews with major UK gyms and career support throughout your journey.</p>"
           }
         }
       },
@@ -541,7 +548,8 @@
         "accordion_row_RhLHkN",
         "accordion_row_abViWR",
         "accordion_row_GBqQ83",
-        "accordion_row_mqjap7"
+        "accordion_row_mqjap7",
+        "accordion_row_AVRHRp"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
