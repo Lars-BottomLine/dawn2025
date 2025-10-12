@@ -22,7 +22,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
+        "image": "shopify://shop_images/FI_-_Personal_Training.png",
         "heading_text": "<p>Welcome to your level 3 Personal Training course</p>",
         "heading_type": "h1",
         "heading_size": "h1",
