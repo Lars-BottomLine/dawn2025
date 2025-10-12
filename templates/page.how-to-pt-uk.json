@@ -506,78 +506,71 @@
         "accordion_row_hdd7Gc": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What does a gym instructor do?",
-            "row_content": "<p>A gym instructor works in a fitness setting, helping clients use equipment correctly, delivering group sessions, and supporting healthy exercise routines.</p>"
+            "heading": "What does a personal trainer do?",
+            "row_content": "<p>Personal trainers work one-on-one with clients to help them reach fitness and wellness goals. You’ll design training plans, coach technique, and offer motivation and support.</p>"
           }
         },
         "accordion_row_Ecbk7a": {
           "type": "accordion_row",
           "settings": {
-            "heading": "What qualification do I need to become a gym instructor?",
-            "row_content": "<p>The Level 2 Certificate in Gym Instructing is the standard entry qualification for working in gyms.</p>"
+            "heading": "What qualifications do I need?",
+            "row_content": "<p>You’ll need a Level 2 Gym Instructor qualification followed by the Level 3 Diploma in Personal Training.</p>"
           }
         },
         "accordion_row_xJwJKG": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Is this different from a personal trainer?",
-            "row_content": "<p>Yes. Gym instructors typically work on the gym floor or lead group sessions. Personal trainers work one-to-one with clients and require a Level 3 qualification.</p>"
+            "heading": "Can I study online?",
+            "row_content": "<p>Yes. Our courses are delivered online, with optional in-person assessment and workshops for practical experience.</p>"
           }
         },
         "accordion_row_nCWPNT": {
           "type": "accordion_row",
           "settings": {
             "heading": "How long does it take to qualify?",
-            "row_content": "<p>You can complete your Level 2 course in just a few weeks, depending on your pace.</p>"
+            "row_content": "<p>Most learners complete both Level 2 and Level 3 in 2–4 months, depending on their schedule.</p>"
           }
         },
         "accordion_row_EqwDem": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Can I study around a job or other commitments?",
-            "row_content": "<p>Yes. The course is flexible and self-paced, with full tutor support whenever you need it.</p>"
+            "heading": "Will I get support during the course?",
+            "row_content": "<p>Absolutely. You’ll have access to tutors, resources, and our easy-to-use learning platform.</p>"
           }
         },
         "accordion_row_RhLHkN": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Will I get help finding a job?",
-            "row_content": "<p>Yes. All learners are offered guaranteed interviews with our partner gyms upon completion.</p>"
+            "heading": "What jobs can I get after qualifying?",
+            "row_content": "<p>You can work in gyms, launch your own PT business, coach online, or build a wellness brand.</p>"
           }
         },
         "accordion_row_abViWR": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Do I need to take an in-person assessment?",
-            "row_content": "<p>Yes, there is a practical assessment. We offer assessment locations across the UK.</p>"
-          }
-        },
-        "accordion_row_GBqQ83": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "What support will I get?",
-            "row_content": "<p>You’ll get access to an expert tutor, learning resources, practice tools, and help throughout the course.</p>"
-          }
-        },
-        "accordion_row_mqjap7": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Can I move on to become a personal trainer later?",
-            "row_content": "<p>Absolutely. Once you complete Level 2, you can enrol onto our Level 3 Personal Training qualification.</p>"
+            "heading": "Do I need any prior experience?",
+            "row_content": "<p>No, just a genuine interest in fitness. We’ll teach you the rest.</p>"
           }
         },
         "accordion_row_AVRHRp": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Can I pay monthly?",
-            "row_content": "<p>Yes. We offer interest-free instalment options to help spread the cost.</p>"
+            "heading": "Can I pay in instalments?",
+            "row_content": "<p>Yes. We offer 0% finance with monthly<br/>payment options.</p>"
           }
         },
-        "accordion_row_NYhzFL": {
+        "accordion_row_GBqQ83": {
           "type": "accordion_row",
           "settings": {
-            "heading": "",
-            "row_content": ""
+            "heading": "Will I get help finding a job?",
+            "row_content": "<p>Yes. Our graduates receive guaranteed interviews and career support to help them get started.</p>"
+          }
+        },
+        "accordion_row_mqjap7": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What makes Study Active different?",
+            "row_content": "<p>We’re a CIMSPA \"Enhancing\" rated provider with a proven track record of learner success, flexible study options, and strong career support.</p>"
           }
         }
       },
@@ -589,18 +582,17 @@
         "accordion_row_EqwDem",
         "accordion_row_RhLHkN",
         "accordion_row_abViWR",
-        "accordion_row_GBqQ83",
-        "accordion_row_mqjap7",
         "accordion_row_AVRHRp",
-        "accordion_row_NYhzFL"
+        "accordion_row_GBqQ83",
+        "accordion_row_mqjap7"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "heading_text": "<p><strong>FAQs: How to Become a Gym Instructor</strong></p>",
+        "heading_text": "<p><strong>FAQs: How to Become a Personal Trainer</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
-        "heading_size": "h2",
+        "heading_size": "h3",
         "heading_no_decal": false,
         "heading_strong_accented": false,
         "accordion_width": "narrow",
