@@ -114,7 +114,7 @@
 <div class="v2-section-main-collection-product-grid section-main-collection-product-grid
             {{ section_classes }}">
 
-  {%- paginate collection.products by section.settings.products_per_page -%}
+{% comment %}  {%- paginate collection.products by section.settings.products_per_page -%}{% endcomment %}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
 
   {% # ----------------------------------------
@@ -213,7 +213,10 @@
           </h2>
 
           <div class="v2-pg-filters">
-            <div class="v2-pg-filter-wrapper flex justify-start items-center gap-4 _font-copy-m">
+
+           {% # DESKTOP FILTER
+              # ------------------------- %}
+              <div class="v2-pg-filter-wrapper -desktop flex justify-start items-center gap-4 _font-copy-m">
 
               <div class="v2-pg-filter-description _font-copy-xl">
                   Filters
@@ -232,6 +235,27 @@
               {% endfor %}
 
             </div>
+
+         {% # MOBILE FILTER
+            # ------------------------- %}
+            <div class="v2-pg-filter-wrapper -mobile v2-sa-form-wrapper flex justify-start items-center gap-4 _font-copy-m">
+                <form class="w-full">
+                    <select name="filter_for">
+                        <option value="all">Choose category</option>
+                        {% for tag in collection.all_tags %}
+                            {% assign tag_slug = tag | handle %}
+                            <option
+                                    class="v2-pg-tag -filter"
+                                    value="{{ tag_slug | escape }}"
+                            >
+                                {{ tag }}
+                            </option>
+                        {% endfor %}
+
+                    </select>
+                </form>
+            </div>
+
           </div>
 
         </div>
@@ -311,14 +335,15 @@
               </ul>
             </div>
 
-            {%- if paginate.pages > 1 -%}
+            {% comment %}{%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
-            {%- endif -%}
+            {%- endif -%}{% endcomment %}
+              
           </div>
         {%- endif -%}
       </div>
     </div>
-  {%- endpaginate -%}
+  {% comment %}{%- endpaginate -%}{% endcomment %}
 
   {% if section.settings.image_shape == 'arch' %}
     {{ 'mask-arch.svg' | inline_asset_content }}
@@ -339,6 +364,8 @@
 
                 if (debug) console.log('pg_initFilter', '{{ product.id }}', '{{ section.id }}');
 
+                // DESKTOP
+                // ---------------------
                 document.querySelectorAll('{{ section_selector }} .v2-pg-filter-wrapper .v2-pg-tag.-filter').forEach( prod_filter => {
                     prod_filter.addEventListener('click', function (e) {
                         e.preventDefault();
@@ -375,6 +402,29 @@
 
                     });
                 });
+
+
+                // MOBILE
+                // ---------------------
+                document.querySelector('.v2-pg-filter-wrapper.-mobile select').addEventListener('change', function (e) {
+                    e.preventDefault();
+                    const filter_slug = this.value;
+                    const filter_name = this.options[this.selectedIndex].text;
+                    const show_all = filter_slug == 'all';
+                    console.log('filter_slug', filter_slug, filter_name);
+
+                    // FILTER BY TAG / hide thumbs that don't match the tag
+                    document.querySelectorAll('{{ section_selector }} product-thumb').forEach(thumb => {
+                        const product_tags = thumb.getAttribute('data-product-tags');
+                        const product_id = thumb.getAttribute('data-product-id');
+
+                        if (show_all || product_tags.indexOf(filter_slug) > -1) {
+                            thumb.parentElement.classList.remove('hidden');
+                        } else {
+                            thumb.parentElement.classList.add('hidden');
+                        }
+                    });
+                })
             }
 
             function pg_selectFilter( filter_slug ) {
