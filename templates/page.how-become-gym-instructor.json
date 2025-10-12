@@ -360,7 +360,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>Get Qualified. Get Hired. Make a Difference.</p>",
+        "heading_text": "<p>Get qualified. Get hired. Make a difference.</p>",
         "heading_type": "h2",
         "heading_size": "h3",
         "heading_no_decal": false,
