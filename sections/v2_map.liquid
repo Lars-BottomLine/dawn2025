@@ -90,7 +90,27 @@
             {{ section_classes }}">
     <div class="page-width">
 
-        v2_map
+        <div class="v2-map-container">
+
+            {% foreach block as section.settings.blocks %}
+                <div class="v2-map-venue">
+
+                    <div class="v2-map-venue-name _font-h3 -decal-right">
+                        {{ block.name }}
+                    </div>
+
+                    <div class="v2-map-venue-address _font-copy-m">
+                        {{ block.address }}
+                    </div>
+
+                    <a href="{{ block.button_url }}" target="_blank" class="v2-button -type-primary">
+                        <span>{{ block.button_name }}</span>
+                    </a>
+
+                </div>
+            {% endfor %}
+
+        </div>
 
     </div> {% # /PAGE WIDTH %}
 </div>
@@ -104,8 +124,6 @@
             "groups": ["header", "footer"]
         },
         "settings": [
-
-
 
             {
                 "type": "header",
@@ -215,9 +233,42 @@
                 "unit": "px",
                 "label": "t:lebase.global.margin.label_bottom",
                 "default": 0
-            },
+            }
 
         ],
+
+      "blocks": [
+        {
+          "type": "marker",
+          "name": "Marker",
+          "settings": [
+            {
+              "type": "text",
+              "id": "name",
+              "default": "Venue Name",
+              "label": "Name"
+            },
+            {
+              "type": "text",
+              "id": "address",
+              "default": "Avenue road<br>Homestead<br>PEJDGH",
+              "label": "Address"
+            },
+            {
+              "type": "text",
+              "id": "button_name",
+              "default": "View Venue",
+              "label": "Button: Name"
+            },
+            {
+              "type": "text",
+              "id": "button_url",
+              "default": "https://studyactive.co.uk",
+              "label": "Button: URL"
+            }
+          ]
+        }
+      ],
 
          "presets": [
         {
