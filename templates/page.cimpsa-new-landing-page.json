@@ -135,7 +135,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>See what they have to say about our CIMSPA certified courses</p>",
+        "heading_text": "<p>See what students have to say about our CIMSPA certified courses</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
