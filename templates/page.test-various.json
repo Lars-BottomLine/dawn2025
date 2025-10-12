@@ -55,6 +55,80 @@
     },
     "v2_map_JQEWh8": {
       "type": "v2_map",
+      "blocks": {
+        "marker_F6yLYm": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue road<br>Homestead<br>PEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_WPridh": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue road<br>Homestead<br>PEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_LtEiFH": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue road<br>Homestead<br>PEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_Pn4H6V": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue roadHomesteadPEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_GHYGHW": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue roadHomesteadPEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_m9EJDU": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue roadHomesteadPEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_gy6C94": {
+          "type": "marker",
+          "settings": {
+            "name": "Venue Name",
+            "address": "Avenue roadHomesteadPEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        }
+      },
+      "block_order": [
+        "marker_F6yLYm",
+        "marker_WPridh",
+        "marker_LtEiFH",
+        "marker_Pn4H6V",
+        "marker_GHYGHW",
+        "marker_m9EJDU",
+        "marker_gy6C94"
+      ],
       "name": "t:lesections.v2_map.presets.name",
       "settings": {
         "custom_class_names": "",
