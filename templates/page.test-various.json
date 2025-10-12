@@ -18,6 +18,55 @@
         "padding_bottom": 28
       }
     },
+    "v2_header_MtMcWD": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Venues</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_map_JQEWh8": {
+      "type": "v2_map",
+      "name": "t:lesections.v2_map.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 84,
+        "margin_top": 0,
+        "margin_bottom": -140
+      }
+    },
     "v2_hero_AKkKq3": {
       "type": "v2_hero",
       "blocks": {
@@ -98,7 +147,7 @@
         "slider_autoplay": false,
         "slide_autospeed": 5000,
         "custom_class_names": "",
-        "padding_top": 40,
+        "padding_top": 124,
         "padding_bottom": 120,
         "margin_top": 0,
         "margin_bottom": 0
@@ -869,6 +918,8 @@
   },
   "order": [
     "main",
+    "v2_header_MtMcWD",
+    "v2_map_JQEWh8",
     "v2_hero_AKkKq3",
     "v2_flexible_VjFj8L",
     "v2_flexible_aMnXRM",
