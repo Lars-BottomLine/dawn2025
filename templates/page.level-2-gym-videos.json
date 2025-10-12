@@ -27,7 +27,7 @@
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": false,
-        "heading_decal_left": false,
+        "heading_decal_left": true,
         "heading_strong_accented": false,
         "subheadline_text": "<p>The home-study fitness education videos on this page are linked to your nationally recognised Level 2 Gym Instructor qualification and will help you to achieve your fitness trainer certification. </p>",
         "subheadline_text_size": "copy-l",
