@@ -151,7 +151,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>L2 Gym Instructor introductory tutorial</p>",
+        "heading_text": "<p>Webinars</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -159,7 +159,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
+        "text": "<p>This following videos explain each step of the Level 2 Gym Instructing qualification and the assessment preparation.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -210,44 +210,17 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_mRjetB": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym coursework guidance tutorial</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>This explores the coursework element of the level 2 Gym Instructor qualification. (Please note where YouTube videos are referenced, please see the tutorial videos below as all tutorial videos are now on this one page)</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_video_ptUgUq": {
       "type": "v2_video",
       "blocks": {
+        "videoblock_BddnXB": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": ""
+          }
+        },
         "videoblock_RyH6nL": {
           "type": "videoblock",
           "settings": {
@@ -259,6 +232,7 @@
         }
       },
       "block_order": [
+        "videoblock_BddnXB",
         "videoblock_RyH6nL"
       ],
       "name": "t:lesections.v2_video.presets.name",
@@ -273,488 +247,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_iBg7q7": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym TNA, SWOT & PPDP</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_Cmj4Jd": {
+    "v2_video_Vyyd8Q": {
       "type": "v2_video",
       "blocks": {
-        "videoblock_xpEDA4": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686265623/a26a705530",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_xpEDA4"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_4KnagD": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym risk assessment tutorial</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>As a Gym Instructor you may be required to undertake risk assessments. This tutorial will help with the risk assessment task in your coursework.</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_zAB3YQ": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_bCJ4NK": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/800811840/5305bca857",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_bCJ4NK"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_883Kcc": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym maintenance checklist</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>Some essential health & safety skills that a fitness trainer needs to understand when working in the fitness industry.</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_KPX4d4": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_mVYNYC": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686264125/722df4baba",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_mVYNYC"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_6pbwXk": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym handover letter tutorial</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>This video explains each step of the Level 2 Gym Instructing qualification.</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_EpDcfD": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_fedAww": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/784781073",
-            "cover_image": "shopify://shop_images/Study_Active_logo_blue_250x102_3583f402-6c5a-4cf9-b970-eeea2f75f486.png",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_fedAww"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_DKPc3R": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym client consultation tutorial</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>A key thing to learn when going through the stages to become a personal trainer or gym instructor is how to carry out a fitness consultation.</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_eQfq9i": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_YLYQcF": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686261925/1cc1a9c6ae",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_YLYQcF"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_AgYYPR": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym goal setting</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>Explore how fitness trainers can create SMART fitness goals.</p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_kwr6yr": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_wfEpmh": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_wfEpmh"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_r7te3p": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>L2 Gym health promotion Poster</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>This video will show you how a fitness professional create a promotional poster to promote health and fitness to gym or personal training clients </p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_hPdHH9": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_inne3m": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686263857?share=copy",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_inne3m"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_header_YRQYVa": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "heading_text": "<p>Other Gym Instructor webinars...</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<ul><li>L2 Gym Session Plan</li><li>Reps & %1RM</li><li>Level 2 Gym Exam Preparation</li><li>L2 Gym practical assessment guidance</li><li>L2 Gym technical webinar</li><li>L2 Gym group induction webinar</li></ul>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_J3hA3c": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_9CKRKD": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
-            "description": ""
-          }
-        },
-        "videoblock_aacatj": {
+        "videoblock_yCQ9HE": {
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
@@ -762,46 +258,19 @@
             "description": ""
           }
         },
-        "videoblock_yptHqF": {
+        "videoblock_HpRQYD": {
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "videoblock_HRWqWJ": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "videoblock_VF9rBK": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": ""
-          }
-        },
-        "videoblock_9PDnnH": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_url": "https://vimeo.com/925444443/fcffd7462c?share=copy",
+            "cover_image": "shopify://shop_images/Screenshot_2025-10-12_at_19.04.51.png",
             "description": ""
           }
         }
       },
       "block_order": [
-        "videoblock_9CKRKD",
-        "videoblock_aacatj",
-        "videoblock_yptHqF",
-        "videoblock_HRWqWJ",
-        "videoblock_VF9rBK",
-        "videoblock_9PDnnH"
+        "videoblock_yCQ9HE",
+        "videoblock_HpRQYD"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
@@ -823,23 +292,7 @@
     "v2_text_plus_image_QH7n6k",
     "v2_header_tBnyGi",
     "v2_video_TatiTR",
-    "v2_header_mRjetB",
     "v2_video_ptUgUq",
-    "v2_header_iBg7q7",
-    "v2_video_Cmj4Jd",
-    "v2_header_4KnagD",
-    "v2_video_zAB3YQ",
-    "v2_header_883Kcc",
-    "v2_video_KPX4d4",
-    "v2_header_6pbwXk",
-    "v2_video_EpDcfD",
-    "v2_header_DKPc3R",
-    "v2_video_eQfq9i",
-    "v2_header_AgYYPR",
-    "v2_video_kwr6yr",
-    "v2_header_r7te3p",
-    "v2_video_hPdHH9",
-    "v2_header_YRQYVa",
-    "v2_video_J3hA3c"
+    "v2_video_Vyyd8Q"
   ]
 }
