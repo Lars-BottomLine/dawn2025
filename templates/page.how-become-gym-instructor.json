@@ -585,7 +585,7 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": 0
