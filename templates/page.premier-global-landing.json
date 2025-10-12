@@ -103,7 +103,7 @@
         "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
-        "heading_align": "left",
+        "heading_align": "center",
         "heading_width": "full",
         "text": "",
         "text_size": "copy-l",
