@@ -122,7 +122,7 @@
         "button_size": "small",
         "button_new_window": false,
         "button_at_side": true,
-        "button_align": "center",
+        "button_align": "left",
         "bkgr_color": "white",
         "custom_class_names": "",
         "decal_top": false,
