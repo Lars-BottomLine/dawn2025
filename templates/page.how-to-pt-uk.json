@@ -1,0 +1,634 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "About Us",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "v2_hero_k3BEND": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_D3F6QX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/35_c2407419-f5f5-4055-b42a-5d57b02d2146.png",
+            "slide_type": "onecol",
+            "heading_text": "<p><strong>How to Become a Gym Instructor</strong> (It’s easier than you think)</p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p><strong>Love fitness? Turn it into a career that moves you!\u000b</strong></p><p></p><p>Qualify as a gym instructor with a nationally recognised course designed to help you succeed. Flexible online study, expert tutor support,  guaranteed job interviews with top UK gyms. </p><p></p><p>You bring the passion. We’ll show you the way.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_D3F6QX"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 188,
+        "margin_top": -4,
+        "margin_bottom": -140
+      }
+    },
+    "v2_newsletter_WmBhQK": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "heading_text": "<p>How to Become a Gym Instructor in 3 Easy Steps</p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>1 . <strong>Enrol in the Course Today</strong><br/>Get started with the industry-recognised Level 2 Certificate in Gym Instructing. No prior experience needed. Just bring your passion for fitness and a desire to help others. </p><p>2. <strong>Study Online, Your Way</strong><br/>Learn at your own pace with 24/7 access to our digital learning platform. Get expert tutor support whenever you need it and prepare for your practical assessment with confidence. </p><p>3. <strong>Start Earning in the Gym</strong><br/>Once qualified, you’ll be offered guaranteed job interviews with our trusted gym partners, helping you go from learner to employed fitness professional, fast.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p><strong>Get your brochure now!</strong></p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_dCDRLa": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>See what our students are saying</p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>We help people all over the UK become <strong>Gym Instructors!</strong></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_trustpilot_ADQTk7": {
+      "type": "v2_trustpilot",
+      "name": "t:lesections.v2_trustpilot.presets.name",
+      "settings": {
+        "apply_filter": false,
+        "embed_code": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"240px\" data-style-width=\"100%\" data-token=\"3c5427b1-5f4c-4c66-8a6d-bbc089625435\" data-stars=\"4,5\" data-review-languages=\"en\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_yNGXnN": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Become a Gym Instructor Today</p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Trusted online courses you can take from home. <strong>Enrol today!</strong></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_mp9DLi": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "cimspa-certificate-in-personal-training-l3"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_3FDg9r": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_XzC7Xx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Save money with our discounted full payment option</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available.</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_WkzQ4P": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £49/month available</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_gEQATq": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><a href=\"/pages/terms-and-conditions\" title=\"Terms and Conditions\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_XzC7Xx",
+        "card_WkzQ4P",
+        "card_gEQATq"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 16
+      }
+    },
+    "v2_cards_xmbyLJ": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_kVQKgd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "title_text": "<p><strong>Interview guarantee</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Interview with top UK gyms</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_46DTcr": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-article_person.svg",
+            "title_text": "<p><strong>CV writing support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Learn how to stand out</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_DKyDrj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-explore.svg",
+            "title_text": "<p><strong>Career guidance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Find the right path for you</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_kVQKgd",
+        "card_46DTcr",
+        "card_DKyDrj"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "card_layout": "vertical",
+        "heading_text": "<p>Guaranteed job interview promise</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_mpfKMe": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Get Qualified. Get Hired. Make a Difference.</p>",
+        "heading_type": "h2",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p><strong>Becoming a gym instructor</strong> is the perfect entry point into the fitness industry. It’s your chance to build a career that helps others, keeps you active, and offers real flexibility. </p><p></p><p><strong>Our Level 2 Gym Instructor course</strong> gives you the skills, confidence, and certification you need to work in gyms, lead group sessions, or continue onto personal training. You'll study online at your own pace, get hands-on assessment options, and receive career support from day one.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "Enrol today!",
+        "button_url": "#form",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_WxqAxQ": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p><strong>Becoming a Gym Instructor is easy!</strong></p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Start small, dream big. Becoming a gym instructor is your first step into a rewarding industry that values energy, empathy, and personal growth. At Study Active, we’re here to help you succeed, not just with your qualification, but with your career.</p><p></p><p><strong>What are you waiting for? Enrol today!</strong></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_featured_imtjhU": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "cimspa-level-2-certificate-in-fitness-instruction",
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_k4RYCF": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_hdd7Gc": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What does a gym instructor do?",
+            "row_content": "<p>A gym instructor works in a fitness setting, helping clients use equipment correctly, delivering group sessions, and supporting healthy exercise routines.</p>"
+          }
+        },
+        "accordion_row_Ecbk7a": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What qualification do I need to become a gym instructor?",
+            "row_content": "<p>The Level 2 Certificate in Gym Instructing is the standard entry qualification for working in gyms.</p>"
+          }
+        },
+        "accordion_row_xJwJKG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is this different from a personal trainer?",
+            "row_content": "<p>Yes. Gym instructors typically work on the gym floor or lead group sessions. Personal trainers work one-to-one with clients and require a Level 3 qualification.</p>"
+          }
+        },
+        "accordion_row_nCWPNT": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to qualify?",
+            "row_content": "<p>You can complete your Level 2 course in just a few weeks, depending on your pace.</p>"
+          }
+        },
+        "accordion_row_EqwDem": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I study around a job or other commitments?",
+            "row_content": "<p>Yes. The course is flexible and self-paced, with full tutor support whenever you need it.</p>"
+          }
+        },
+        "accordion_row_RhLHkN": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Will I get help finding a job?",
+            "row_content": "<p>Yes. All learners are offered guaranteed interviews with our partner gyms upon completion.</p>"
+          }
+        },
+        "accordion_row_abViWR": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need to take an in-person assessment?",
+            "row_content": "<p>Yes, there is a practical assessment. We offer assessment locations across the UK.</p>"
+          }
+        },
+        "accordion_row_GBqQ83": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What support will I get?",
+            "row_content": "<p>You’ll get access to an expert tutor, learning resources, practice tools, and help throughout the course.</p>"
+          }
+        },
+        "accordion_row_mqjap7": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I move on to become a personal trainer later?",
+            "row_content": "<p>Absolutely. Once you complete Level 2, you can enrol onto our Level 3 Personal Training qualification.</p>"
+          }
+        },
+        "accordion_row_AVRHRp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I pay monthly?",
+            "row_content": "<p>Yes. We offer interest-free instalment options to help spread the cost.</p>"
+          }
+        },
+        "accordion_row_NYhzFL": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_hdd7Gc",
+        "accordion_row_Ecbk7a",
+        "accordion_row_xJwJKG",
+        "accordion_row_nCWPNT",
+        "accordion_row_EqwDem",
+        "accordion_row_RhLHkN",
+        "accordion_row_abViWR",
+        "accordion_row_GBqQ83",
+        "accordion_row_mqjap7",
+        "accordion_row_AVRHRp",
+        "accordion_row_NYhzFL"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p><strong>FAQs: How to Become a Gym Instructor</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "v2_hero_k3BEND",
+    "v2_newsletter_WmBhQK",
+    "v2_header_dCDRLa",
+    "v2_trustpilot_ADQTk7",
+    "v2_header_yNGXnN",
+    "v2_slideshow_mp9DLi",
+    "v2_cards_3FDg9r",
+    "v2_cards_xmbyLJ",
+    "v2_header_mpfKMe",
+    "v2_header_WxqAxQ",
+    "v2_featured_imtjhU",
+    "v2_accordion_k4RYCF"
+  ]
+}
