@@ -707,6 +707,68 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_header_YRQYVa": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>L2 Gym goal setting</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Explore how fitness trainers can create SMART fitness goals.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_J3hA3c": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_9CKRKD": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686263402/6dfc38d0a6",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_9CKRKD"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -731,6 +793,8 @@
     "v2_header_AgYYPR",
     "v2_video_kwr6yr",
     "v2_header_r7te3p",
-    "v2_video_hPdHH9"
+    "v2_video_hPdHH9",
+    "v2_header_YRQYVa",
+    "v2_video_J3hA3c"
   ]
 }
