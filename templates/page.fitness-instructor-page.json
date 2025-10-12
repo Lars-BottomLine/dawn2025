@@ -75,7 +75,7 @@
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>Nationally recognised qualifications. Expert tutor support. Guaranteed job interviews. Study Active helps you launch a career in fitness with the skills and confidence to succeed. <strong>You bring the drive, we’ll handle the rest.</strong><br/><br/>Our qualifications give you everything you need to start strong. Perhaps you’re aiming to work in a gym, build your own client base, or simply follow your passion for fitness. Whatever your goal, we’re here to support you every step of the way. </p><p>You’ll receive top-quality training, flexible study options, and access to real-world opportunities. Our learners get results and our graduates get hired.</p>",
+        "text": "<p>Nationally recognised qualifications. Expert tutor support. Guaranteed job interviews. Study Active helps you launch a career in fitness with the skills and confidence to succeed. <strong>You bring the drive, we’ll handle the rest.</strong><br/><br/>Our qualifications give you everything you need to start strong. Perhaps you’re aiming to work in a gym, build your own client base, or simply follow your passion for fitness. Whatever your goal, we’re here to support you every step of the way. </p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -395,7 +395,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "cimspa-certificate-in-personal-training-l3",
+        "product": "cimspa-level-2-certificate-in-fitness-instruction",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
