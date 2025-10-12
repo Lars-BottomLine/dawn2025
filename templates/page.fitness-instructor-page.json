@@ -151,30 +151,6 @@
         "bkgr_color": "light-blue",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_mp9DLi": {
-      "type": "v2_slideshow",
-      "name": "t:lesections.v2_slideshow.presets.name",
-      "settings": {
-        "slide_type": "product_manual",
-        "blog": "",
-        "blog_post_limit": 3,
-        "product_list": [
-          "cimspa-level-2-certificate-in-fitness-instruction",
-          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "cimspa-certificate-in-personal-training-l3"
-        ],
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -571,6 +547,30 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_slideshow_mp9DLi": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "cimspa-certificate-in-personal-training-l3"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -579,12 +579,12 @@
     "v2_newsletter_WmBhQK",
     "v2_header_dCDRLa",
     "v2_trustpilot_ADQTk7",
-    "v2_slideshow_mp9DLi",
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
     "v2_header_WxqAxQ",
     "v2_featured_imtjhU",
-    "v2_accordion_k4RYCF"
+    "v2_accordion_k4RYCF",
+    "v2_slideshow_mp9DLi"
   ]
 }
