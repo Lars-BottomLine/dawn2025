@@ -85,7 +85,7 @@
             "text_no_decal": false,
             "text_strong_accented": false,
             "button_text": "Enquire Today",
-            "button_url": "",
+            "button_url": "#form",
             "button_style": "primary",
             "button_size": "small",
             "button_new_window": false
@@ -149,7 +149,7 @@
       "name": "t:lesections.v2_form.presets.name",
       "settings": {
         "form_type": "career",
-        "custom_class_names": "",
+        "custom_class_names": "form",
         "bkgr_color": "primary",
         "decal_top": false,
         "decal_bottom": false,
