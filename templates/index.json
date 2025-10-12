@@ -368,7 +368,7 @@
         "text_width": "medium",
         "button_text": "View all courses",
         "button_url": "",
-        "button_style": "secondary",
+        "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
         "button_align": "center",
