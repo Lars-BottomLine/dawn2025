@@ -6,7 +6,7 @@
     - product: product,
     - loopindex - where in the loop cycle are we for this section MUST be 1 at least once per page because otherwise necessary scripts won't be loaded
     - full_size: boolean
-    - template: string ( full_size, normal, product_detail )
+    - template_type: string ( full_size, normal, product_hero, product_thumb )
     - shopify_attributes: '',
     - extra_classes: string
   Usage:
@@ -19,28 +19,32 @@
         assign first_call_on_page = true
     endif
 
-    # template == 'normal'
+    if template_type == blank
+        assign template_type = 'normal'
+    endif
     assign product_classes = extra_classes
     assign class_title = '_font-copy-l'
     assign class_description = '_font-copy-m'
     assign class_description = ' _font-copy-l'
     assign classes_button = ''
 
-    case template
+    case template_type
         when 'full_size'
             assign product_classes = product_classes | append: ' -full-size '
             assign class_title = '_font-h2'
             assign class_description = ' _font-copy-l'
             assign class_description = ' _font-copy-l'
-        when 'product_detail'
+        when 'product_hero'
             assign product_classes = product_classes | append: ' -full-size '
             assign class_title = '_font-h2'
-            assign class_description = ' _font-copy-m'
             assign class_description = ' _font-copy-l'
             assign classes_button = ' -size-medium '
+        when 'product_thumb'
+            assign class_title = ' _font-copy-l !font-bold '
+            assign class_description = ' _font-copy-m '
     endcase
 
-    assign product_classes = product_classes | append: ' -template-' | append: template
+    assign product_classes = product_classes | append: ' -template-' | append: template_type
     assign product_classes = product_classes | append: ' -sectionid-' | append: section_id
 
     assign media_image_count = 0
@@ -116,7 +120,7 @@
                         {%- endunless -%}
                     </div>
 
-                    {% if template == 'product_detail' and media_image_count > 1 %}
+                    {% if template == 'product_hero' and media_image_count > 1 %}
                         <div class="v2-pt-thumblist">
                             <div class="">
                                 {% for image in product.media  %}
@@ -168,7 +172,7 @@
 
                             {% # RIBBON
                                # ----------------------- %}
-                            {% if template == 'product_detail' and product.metafields.custom.ribbon_text != blank %}
+                            {% if template == 'product_hero' and product.metafields.custom.ribbon_text != blank %}
                                 <div class="v2-pt-ribbon">
                                     {{ product.metafields.custom.ribbon_text | metafield_text }}
                                 </div>

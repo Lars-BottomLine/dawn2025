@@ -301,18 +301,9 @@
                     {% render 'v2_product-thumb',
                         section_id: thumb_id,
                         product: product,
-
-                        shopify_attributes: '',
-
-                        secondary_background: 'section.settings.secondary_background',
-                        template_type: 'section.settings.template_type',
-                        media_size: 'section.settings.media_size',
-                        media_position: 'section.settings.media_position',
-                        settings_product: 'section.settings.product',
-                        section_blocks: 'section.blocks',
-                        constrain_to_viewport: 'section.settings.constrain_to_viewport',
-
-                        loopindex: forloop.index
+                        template_type: 'product_thumb',
+                        loopindex: forloop.index,
+                        shopify_attributes: ''
                     %}
 
                   </li>

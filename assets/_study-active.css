@@ -3949,6 +3949,9 @@ a {
   margin-right: 0;
 }
 @media (max-width: 640px) {
+  .v2-button, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-sa-form-wrapper form button {
+    min-height: 4.2rem;
+  }
   .v2-button span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-sa-form-wrapper form button span {
     padding: 1rem 2.2rem !important;
     font-size: 1.8rem !important;
