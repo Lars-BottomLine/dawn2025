@@ -4403,6 +4403,13 @@ sticky-header .cart-count-bubble span {
 .v2-header-megamenu .v2-mm-heading {
   margin-bottom: 2rem;
 }
+.v2-header-megamenu .v2-mm-heading-link {
+  color: inherit;
+  transition: color 0.125s;
+}
+.v2-header-megamenu .v2-mm-heading-link:hover {
+  color: var(--color-secondary);
+}
 .v2-header-megamenu .v2-mm-subheading {
   margin-bottom: 2rem;
   font-style: italic;
