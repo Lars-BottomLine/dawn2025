@@ -256,7 +256,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_6.png",
             "description": ""
           }
         },
@@ -265,7 +265,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
-            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_7.png",
             "description": ""
           }
         }
@@ -294,7 +294,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_8.png",
             "description": ""
           }
         },
@@ -303,7 +303,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
-            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_9.png",
             "description": ""
           }
         }
@@ -332,7 +332,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_10.png",
             "description": ""
           }
         },
@@ -341,7 +341,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
-            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_11.png",
             "description": ""
           }
         }
@@ -370,7 +370,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_12.png",
             "description": ""
           }
         },
@@ -379,7 +379,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
-            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "cover_image": "shopify://shop_images/Design_1_Title_13.png",
             "description": ""
           }
         }
@@ -407,8 +407,8 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
+            "video_url": "https://vimeo.com/686265302/da44d92998",
+            "cover_image": "shopify://shop_images/Design_1_Title_14.png",
             "description": ""
           }
         },
@@ -416,8 +416,8 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
-            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
+            "video_url": "https://www.youtube.com/watch?v=WhhMUng8yDk&t=943s",
+            "cover_image": "shopify://shop_images/Design_1_Title_15.png",
             "description": ""
           }
         }
@@ -425,44 +425,6 @@
       "block_order": [
         "videoblock_bppmLr",
         "videoblock_VChtMj"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_bqyD89": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_PCEfNR": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "cover_image": "shopify://shop_images/Design_1_Title_4.png",
-            "description": ""
-          }
-        },
-        "videoblock_7wb3Rn": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "",
-            "cover_image": "shopify://shop_images/Design_1_Title_5.png",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_PCEfNR",
-        "videoblock_7wb3Rn"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
@@ -505,7 +467,6 @@
     "v2_video_M6dtHH",
     "v2_video_EMMEgc",
     "v2_video_4GKVMC",
-    "v2_video_bqyD89",
     "v2_form_BwzHVR"
   ]
 }
