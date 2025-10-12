@@ -24,7 +24,7 @@
         "slide_D3F6QX": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/13_9779a181-36ef-4192-b8ef-a970fb8baef4.png",
+            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
             "slide_type": "onecol",
             "heading_text": "<p>How to Be a Personal Trainer in the UK</p>",
             "heading_type": "h1",
@@ -111,7 +111,7 @@
         "text_strong_accented": false,
         "text_align": "left",
         "text_width": "full",
-        "button_text": "",
+        "button_text": "Enrol today!",
         "button_url": "#productheader",
         "button_style": "primary",
         "button_size": "small",
