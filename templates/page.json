@@ -67,17 +67,6 @@
         "show_text_below": true
       }
     },
-    "page_EKfjAM": {
-      "type": "page",
-      "name": "t:sections.page.presets.name",
-      "settings": {
-        "page": "{{ page }}",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "v2_page_HcxPMr": {
       "type": "v2_page",
       "name": "t:lesections.v2_page.presets.name",
@@ -98,7 +87,6 @@
   "order": [
     "main",
     "image_banner_GzGMki",
-    "page_EKfjAM",
     "v2_page_HcxPMr"
   ]
 }

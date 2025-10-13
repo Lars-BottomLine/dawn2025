@@ -401,7 +401,7 @@
         "heading_text": "<p>Excellent Rated on Trustpilot </p>",
         "heading_type": "h1",
         "heading_size": "h2",
-        "heading_no_decal": true,
+        "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
         "heading_align": "center",

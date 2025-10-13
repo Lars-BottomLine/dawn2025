@@ -67,24 +67,59 @@
         "show_text_below": true
       }
     },
+    "v2_header_aV8pQc": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Oops!</p>",
+        "heading_type": "h1",
+        "heading_size": "hero",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p><strong>404 Error - Looks like this page is missing.</strong></p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "courses",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 136,
+        "padding_bottom": 56,
+        "margin_top": 0,
+        "margin_bottom": -64
+      }
+    },
     "v2_hero_dKmyEE": {
       "type": "v2_hero",
       "blocks": {
         "slide_Cnt7J7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/venues.png",
+            "image": "shopify://shop_images/ptbrochure.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Training <strong>Venues & Locations</strong></p>",
+            "heading_text": "<p>Thank you!</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>From Leeds to London, Brighton to Birmingham, we're here wherever you are</p>",
+            "text": "<p>We appreciate your interest in studying with us.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "button_text": "Enquire Today",
+            "button_text": "",
             "button_url": "#form",
             "button_style": "primary",
             "button_size": "small",
@@ -95,6 +130,7 @@
       "block_order": [
         "slide_Cnt7J7"
       ],
+      "disabled": true,
       "name": "t:lesections.hero.presets.name",
       "settings": {
         "full_width": true,
@@ -109,11 +145,62 @@
         "margin_bottom": -100
       }
     },
+    "v2_steps_e63nQr": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_4xe9BU": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Check out our blog",
+            "text": "<p>Tips, trends and training advice from our expert fitness tutors.</p>",
+            "button_text": "Read our blog",
+            "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/NEW_Study_Active_Brochure_1_1.pdf?v=1756041307"
+          }
+        },
+        "step_9t3MNb": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Don't wait - get started today!",
+            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
+            "button_text": "See our top courses",
+            "button_link": "courses"
+          }
+        },
+        "step_N7MwQg": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Need help? Get answers",
+            "text": "<p>Don't know where or how to get started? Submit your question and we'll be in touch right away!</p>",
+            "button_text": "Submit your question",
+            "button_link": "questions"
+          }
+        }
+      },
+      "block_order": [
+        "step_4xe9BU",
+        "step_9t3MNb",
+        "step_N7MwQg"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 44,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_XrAPbj": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>Venues</p>",
+        "heading_text": "<p>Check out our top courses</p>",
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": false,
@@ -121,7 +208,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
-        "text": "<p>We've got partnerships with gyms all over the UK. Find one near you.</p>",
+        "text": "<p>Why wait? It's time to seize the day. Take a look at our top rated courses below.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -134,125 +221,36 @@
         "button_new_window": false,
         "button_at_side": false,
         "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
+        "bkgr_color": "white",
+        "custom_class_names": "courses",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": -140,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "v2_map_N66fed": {
-      "type": "v2_map",
-      "blocks": {
-        "marker_YRCEqB": {
-          "type": "marker",
-          "settings": {
-            "position": "51.8015708,-0.2068188",
-            "name": "Anytime Fitness",
-            "address": "Unit 54 The Howard Centre Welwyn Garden City",
-            "button_name": "View Venue",
-            "button_url": "https://www.anytimefitness.co.uk/gyms/UK-0041/welwyn-garden-city-england-al8-6ha/"
-          }
-        },
-        "marker_WnH8a3": {
-          "type": "marker",
-          "settings": {
-            "position": "52.4754433,-1.4758102",
-            "name": "Bedworth Leisure Centre",
-            "address": "Everyone Active, Coventry Road, Bedworth",
-            "button_name": "View Venue",
-            "button_url": "https://www.everyoneactive.com/centre/bedworth-leisure-centre/"
-          }
-        },
-        "marker_efMV8z": {
-          "type": "marker",
-          "settings": {
-            "position": "52.6366505,1.2816386",
-            "name": "Complete Fitness",
-            "address": "2 Marriott Close Heigham Street Norwich",
-            "button_name": "View Venue",
-            "button_url": "https://completefitnessltd.co.uk/"
-          }
-        },
-        "marker_bpcpPH": {
-          "type": "marker",
-          "settings": {
-            "position": "53.0409183,-1.2029324",
-            "name": "Hucknall Leisure Centre – Nottingham",
-            "address": "Everyone Active Linby Road, Hucknall",
-            "button_name": "View Venue",
-            "button_url": "https://www.everyoneactive.com/centre/hucknall-leisure-centre/"
-          }
-        },
-        "marker_VhxXME": {
-          "type": "marker",
-          "settings": {
-            "position": "52.3942097,-0.0325619",
-            "name": "Lakeside Lodge",
-            "address": "Lakeside Lodge Golf Centre Pidley, Cambridgeshire",
-            "button_name": "View Venue",
-            "button_url": "https://lakeside-lodge.co.uk/"
-          }
-        },
-        "marker_iQHAfy": {
-          "type": "marker",
-          "settings": {
-            "position": "51.5084762,-0.2526842",
-            "name": "Mode Club",
-            "address": "36 Bromyard Avenue Acton London",
-            "button_name": "View Venue",
-            "button_url": "https://www.modeclub.co.uk/"
-          }
-        },
-        "marker_9BbDze": {
-          "type": "marker",
-          "settings": {
-            "position": "52.4833302,-1.7457924",
-            "name": "North Solihull Everyone Active",
-            "address": "Conway Road Solihull",
-            "button_name": "View Venue",
-            "button_url": "https://www.everyoneactive.com/centre/north-solihull-sports-centre/"
-          }
-        },
-        "marker_Vb8XmQ": {
-          "type": "marker",
-          "settings": {
-            "position": "51.3563194,1.3865922",
-            "name": "The Gym Group - Thanet Ramsgate",
-            "address": "1 Holmes Way Westwood Cross Ramsgate",
-            "button_name": "View Venue",
-            "button_url": "https://www.thegymgroup.com/find-a-gym/ramsgate-gyms/thanet/"
-          }
-        },
-        "marker_Eatpyb": {
-          "type": "marker",
-          "settings": {
-            "position": "50.9691645,-1.3736477",
-            "name": "Places Leisure Eastleigh",
-            "address": "Passfield Ave, Eastleigh, Hampshire",
-            "button_name": "View Venue",
-            "button_url": "https://www.placesleisure.org/centres/places-leisure-eastleigh/"
-          }
-        }
-      },
-      "block_order": [
-        "marker_YRCEqB",
-        "marker_WnH8a3",
-        "marker_efMV8z",
-        "marker_bpcpPH",
-        "marker_VhxXME",
-        "marker_iQHAfy",
-        "marker_9BbDze",
-        "marker_Vb8XmQ",
-        "marker_Eatpyb"
-      ],
-      "name": "t:lesections.v2_map.presets.name",
+    "v2_slideshow_jzre7x": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-certificate-in-personal-training-l3",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "level-3-pilates-personal-trainer-bundle",
+          "level-3-sports-massage-and-personal-trainer-bundle",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "level-4-nutrition"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
@@ -261,12 +259,12 @@
         "margin_bottom": 0
       }
     },
-    "v2_form_j4EUVR": {
+    "v2_form_iinX3B": {
       "type": "v2_form",
       "name": "t:lesections.v2_form.presets.name",
       "settings": {
         "form_type": "career",
-        "custom_class_names": "form",
+        "custom_class_names": "questions",
         "bkgr_color": "primary",
         "decal_top": true,
         "decal_bottom": false,
@@ -280,9 +278,11 @@
   "order": [
     "main",
     "image_banner_GzGMki",
+    "v2_header_aV8pQc",
     "v2_hero_dKmyEE",
+    "v2_steps_e63nQr",
     "v2_header_XrAPbj",
-    "v2_map_N66fed",
-    "v2_form_j4EUVR"
+    "v2_slideshow_jzre7x",
+    "v2_form_iinX3B"
   ]
 }
