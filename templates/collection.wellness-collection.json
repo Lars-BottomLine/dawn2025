@@ -732,6 +732,7 @@
       "block_order": [
         "iconcol_Wbcmea"
       ],
+      "disabled": true,
       "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "white",
