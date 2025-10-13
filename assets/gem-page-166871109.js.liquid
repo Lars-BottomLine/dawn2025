@@ -1,0 +1,143 @@
+{% comment %}
+	GEMPAGES BUILDER (https://apps.shopify.com/gempages)
+
+	You SHOULD NOT modify source code in this file because
+	It is automatically generated from GEMPAGES BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
+
+    jQuery(function() {
+        var $module = jQuery('#m-1572681673269').children('.module');
+    });
+  
+    jQuery(function() {
+        var $module = jQuery('#m-1572681790366').children('.module');
+    });
+  
+        jQuery(function() {
+            var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
+            var $module = jQuery('#m-1572470586764').children('.module');
+            if (mode == 'dev') {
+                jQuery('#m-1572470586764').attr('data-name', '');
+                jQuery('#m-1572470586764').css('background-image', 'none');
+                jQuery('#m-1572470586764').css('min-height', '50px');
+                jQuery('#m-1572470586764').removeAttr('data-image');
+                
+                var flag = true;
+                var $bkLiquid = parent.jQuery('body').find('#gfFrame').contents().find('#module-1572470586764');
+                if ($bkLiquid && $bkLiquid.length > 0) {
+                    var $settings = $bkLiquid.find('.settings');
+                    try {
+                        var name = '';
+                        var imageUrl = '';
+                        settings = JSON.parse($settings.html());
+                        for (var i = 0; i < settings.length; i++) {
+                            if (settings[i].name == 'name') {
+                                name = settings[i].default_value
+                            }
+                            if (settings[i].name == 'image') {
+                                imageUrl = settings[i].default_value
+                            }
+                        }
+                        if (imageUrl != '') {
+                            flag = false;
+                            jQuery('#m-1572470586764').css('background-image', 'url(' + imageUrl + ')');
+                            jQuery('#m-1572470586764').css('min-height', '100px');
+                            jQuery('#m-1572470586764').attr('data-image', 'true');
+                        }
+                        if (name != '' && name != 'Custom Code') {
+                            flag = false;
+                            jQuery('#m-1572470586764').attr('data-name', name);
+                        }
+                    } catch(error) {
+                        console.log(error);
+                    }
+                }
+                if (flag) {
+                    jQuery('#m-1572470586764').attr('data-name', 'Right click on the module, then choose Edit Html / Liquid option to start writing your custom code.');
+                }
+            }
+
+        }); 
+    
+    jQuery(function() {
+        var $module = jQuery('#m-1572729777300').children('.module');
+        if(jQuery().gfYoutube) {
+            $module.gfYoutube();
+        }
+    });
+  
+    jQuery(function() {
+        var $module = jQuery('#m-1572522045170').children('.module');
+        if(jQuery().gfYoutube) {
+            $module.gfYoutube();
+        }
+    });
+  
+        jQuery(function() {
+            var $module = jQuery('#m-1572730667595').children('.module');
+
+            var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
+            if(mode == 'production') { 
+                var cbLink = $module.find('input[name="gemcallback"]').val() != undefined ? jQuery.trim($module.find('input[name="gemcallback"]').val()) : '';
+                if(cbLink != '') {
+                    window.location = cbLink;
+                }
+            } 
+        });
+    
+        jQuery(function() {
+            var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
+            var $module = jQuery('#m-1572730667624').children('.module');
+            if (mode == 'dev') {
+                jQuery('#m-1572730667624').attr('data-name', '');
+                jQuery('#m-1572730667624').css('background-image', 'none');
+                jQuery('#m-1572730667624').css('min-height', '50px');
+                jQuery('#m-1572730667624').removeAttr('data-image');
+                
+                var flag = true;
+                var $bkLiquid = parent.jQuery('body').find('#gfFrame').contents().find('#module-1572730667624');
+                if ($bkLiquid && $bkLiquid.length > 0) {
+                    var $settings = $bkLiquid.find('.settings');
+                    try {
+                        var name = '';
+                        var imageUrl = '';
+                        settings = JSON.parse($settings.html());
+                        for (var i = 0; i < settings.length; i++) {
+                            if (settings[i].name == 'name') {
+                                name = settings[i].default_value
+                            }
+                            if (settings[i].name == 'image') {
+                                imageUrl = settings[i].default_value
+                            }
+                        }
+                        if (imageUrl != '') {
+                            flag = false;
+                            jQuery('#m-1572730667624').css('background-image', 'url(' + imageUrl + ')');
+                            jQuery('#m-1572730667624').css('min-height', '100px');
+                            jQuery('#m-1572730667624').attr('data-image', 'true');
+
+                        }
+                        if (settings[i].name == 'image') {
+                            imageUrl = settings[i].default_value
+                        }
+                        if (imageUrl != '') {
+                            flag = false;
+                            jQuery('#m-1572730667624').css('background-image', 'url(' + imageUrl + ')');
+                            jQuery('#m-1572730667624').css('min-height', '100px');
+                            jQuery('#m-1572730667624').attr('data-image', 'true');
+                        }
+                        if (name != '' && name != 'Custom Code') {
+                            flag = false;
+                            jQuery('#m-1572730667624').attr('data-name', name);
+                        }
+                    } catch(error) {
+                        console.log(error);
+                    }
+                }
+                if (flag) {
+                    jQuery('#m-1572730667624').attr('data-name', 'Right click on the module, then choose Edit Html / Liquid option to start writing your custom code.');
+                }
+            }
+        });
+  
