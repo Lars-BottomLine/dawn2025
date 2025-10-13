@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_GzGMki": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FTBz73": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get started?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WG3THF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_n7nrY7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See current partner gyms",
+            "button_link_1": "shopify://pages/associations-and-partners",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a careers call",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBz73",
+        "text_WG3THF",
+        "buttons_n7nrY7"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "v2_header_aV8pQc": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Thank you!</p>",
+        "heading_type": "h1",
+        "heading_size": "hero",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>We appreciate your interest in studying with us. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "courses",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 136,
+        "padding_bottom": 56,
+        "margin_top": 0,
+        "margin_bottom": -64
+      }
+    },
+    "v2_hero_dKmyEE": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_Cnt7J7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ptbrochure.png",
+            "slide_type": "onecol",
+            "heading_text": "<p>Thank you!</p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>We appreciate your interest in studying with us.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "#form",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_Cnt7J7"
+      ],
+      "disabled": true,
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 276,
+        "margin_top": 0,
+        "margin_bottom": -100
+      }
+    },
+    "v2_steps_e63nQr": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_4xe9BU": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Download The Brochure",
+            "text": "<p>Get more information on our course offering, career opportunities, and more.</p>",
+            "button_text": "Get your brochure",
+            "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/NEW_Study_Active_Brochure_1_1.pdf?v=1756041307"
+          }
+        },
+        "step_9t3MNb": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Don't wait - get started today!",
+            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
+            "button_text": "See our top courses",
+            "button_link": "courses"
+          }
+        },
+        "step_N7MwQg": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Need help? Get answers",
+            "text": "<p>Don't know where or how to get started? Submit your question and we'll be in touch right away!</p>",
+            "button_text": "Submit your question",
+            "button_link": "questions"
+          }
+        }
+      },
+      "block_order": [
+        "step_4xe9BU",
+        "step_9t3MNb",
+        "step_N7MwQg"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 44,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_XrAPbj": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Take the next step</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Why wait? It's time to seize the day. Take a look at our top rated courses below.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "courses",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_jzre7x": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-certificate-in-personal-training-l3",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "level-3-pilates-personal-trainer-bundle",
+          "level-3-sports-massage-and-personal-trainer-bundle",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "level-4-nutrition"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_iinX3B": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "career",
+        "custom_class_names": "questions",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_GzGMki",
+    "v2_header_aV8pQc",
+    "v2_hero_dKmyEE",
+    "v2_steps_e63nQr",
+    "v2_header_XrAPbj",
+    "v2_slideshow_jzre7x",
+    "v2_form_iinX3B"
+  ]
+}
