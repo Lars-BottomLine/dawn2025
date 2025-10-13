@@ -417,7 +417,11 @@
                         // update the sales prices (old price, percentage)
                         const sales_regular_price = Math.round( parseInt( selected_variant.compare_at_price ) / 100 );
                         ele_sales_regular_price.innerHTML =  currency_symbol + pt_formatPrice( sales_regular_price );
-                        ele_sales_save_percentage.innerHTML = Math.floor( (sales_regular_price / regular_price - 1 ) * 100 ) ;
+
+                        // calculate the percentage
+                        // (i know i know, believe me, not elegant at all, horrible even, but... but i am sooo tireeeeeed)
+                        const saving_percentage = ((regular_price / sales_regular_price * -1) + 1 ) * 100;
+                        ele_sales_save_percentage.innerHTML = Math.round(saving_percentage);
                     // no sales price
                     } else {
                         // hide sales prices
