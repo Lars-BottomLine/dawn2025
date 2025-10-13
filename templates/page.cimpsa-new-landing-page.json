@@ -26,7 +26,7 @@
           "settings": {
             "image": "shopify://shop_images/ptbrochure.png",
             "slide_type": "onecol",
-            "heading_text": "<p><em><strong>CIMSPA Accredited Fitness Courses </strong></em><em>for a Fulfilling Career</em></p>",
+            "heading_text": "<p><strong>CIMSPA Accredited Fitness Courses </strong>for a Fulfilling Career</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
