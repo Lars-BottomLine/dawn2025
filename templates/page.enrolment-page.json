@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "175508816307fb053e": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_7r7exL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BTWxXc": {
+          "type": "heading",
+          "settings": {
+            "heading": "You're on the brink of changing your life",
+            "heading_size": "h1"
+          }
+        },
+        "text_KUACbb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take our quick career quiz to discover the fitness path that fits your lifestyle, passions and goals. It could shape the rest of your career.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BTWxXc",
+        "text_KUACbb"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_HQRByQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div data-tf-live=\"01K2HMJNKXF4VDNSE608H5T8DM\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "175508816307fb053e",
+    "main",
+    "rich_text_7r7exL",
+    "custom_liquid_HQRByQ"
+  ]
+}
