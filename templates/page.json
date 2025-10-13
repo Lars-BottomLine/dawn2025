@@ -72,7 +72,7 @@
       "name": "t:lesections.v2_page.presets.name",
       "settings": {
         "page": "{{ page }}",
-        "gembuilder_fix": false,
+        "gembuilder_fix": true,
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
