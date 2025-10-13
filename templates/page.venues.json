@@ -147,46 +147,6 @@
     "v2_map_N66fed": {
       "type": "v2_map",
       "blocks": {
-        "marker_Eatpyb": {
-          "type": "marker",
-          "settings": {
-            "position": "50.9691645,-1.3736477",
-            "name": "Places Leisure Eastleigh",
-            "address": "Passfield Ave, Eastleigh, Hampshire, SO50 9NL",
-            "button_name": "View Venue",
-            "button_url": "https://www.placesleisure.org/centres/places-leisure-eastleigh/"
-          }
-        },
-        "marker_Vb8XmQ": {
-          "type": "marker",
-          "settings": {
-            "position": "51.3563194,1.3865922",
-            "name": "The Gym Group - Thanet Ramsgate",
-            "address": "1 Holmes Way Westwood Cross Ramsgate CT12 5FX",
-            "button_name": "View Venue",
-            "button_url": "https://www.thegymgroup.com/find-a-gym/ramsgate-gyms/thanet/"
-          }
-        },
-        "marker_VhxXME": {
-          "type": "marker",
-          "settings": {
-            "position": "52.3942097,-0.0325619",
-            "name": "Lakeside Lodge",
-            "address": "Lakeside Lodge Golf Centre\nPidley, Cambridgeshire",
-            "button_name": "View Venue",
-            "button_url": "https://lakeside-lodge.co.uk/"
-          }
-        },
-        "marker_bpcpPH": {
-          "type": "marker",
-          "settings": {
-            "position": "53.0409183,-1.2029324",
-            "name": "Hucknall Leisure Centre – Nottingham",
-            "address": "Everyone Active\nLinby Road, Hucknall NG15 7TX",
-            "button_name": "View Venue",
-            "button_url": "https://www.everyoneactive.com/centre/hucknall-leisure-centre/"
-          }
-        },
         "marker_YRCEqB": {
           "type": "marker",
           "settings": {
@@ -195,26 +155,6 @@
             "address": "Unit 54 The Howard Centre Welwyn Garden City AL8 6HA",
             "button_name": "View Venue",
             "button_url": "https://www.anytimefitness.co.uk/gyms/UK-0041/welwyn-garden-city-england-al8-6ha/"
-          }
-        },
-        "marker_9BbDze": {
-          "type": "marker",
-          "settings": {
-            "position": "52.4833302,-1.7457924",
-            "name": "North Solihull Everyone Active",
-            "address": "Conway Road Solihull B37 5LA",
-            "button_name": "View Venue",
-            "button_url": "https://www.everyoneactive.com/centre/north-solihull-sports-centre/"
-          }
-        },
-        "marker_iQHAfy": {
-          "type": "marker",
-          "settings": {
-            "position": "51.5084762,-0.2526842",
-            "name": "Mode Club",
-            "address": "36 Bromyard Avenue Acton London W3 7AU",
-            "button_name": "View Venue",
-            "button_url": "https://www.modeclub.co.uk/"
           }
         },
         "marker_WnH8a3": {
@@ -236,18 +176,78 @@
             "button_name": "View Venue",
             "button_url": "https://completefitnessltd.co.uk/"
           }
+        },
+        "marker_bpcpPH": {
+          "type": "marker",
+          "settings": {
+            "position": "53.0409183,-1.2029324",
+            "name": "Hucknall Leisure Centre – Nottingham",
+            "address": "Everyone Active\nLinby Road, Hucknall NG15 7TX",
+            "button_name": "View Venue",
+            "button_url": "https://www.everyoneactive.com/centre/hucknall-leisure-centre/"
+          }
+        },
+        "marker_VhxXME": {
+          "type": "marker",
+          "settings": {
+            "position": "52.3942097,-0.0325619",
+            "name": "Lakeside Lodge",
+            "address": "Lakeside Lodge Golf Centre\nPidley, Cambridgeshire",
+            "button_name": "View Venue",
+            "button_url": "https://lakeside-lodge.co.uk/"
+          }
+        },
+        "marker_iQHAfy": {
+          "type": "marker",
+          "settings": {
+            "position": "51.5084762,-0.2526842",
+            "name": "Mode Club",
+            "address": "36 Bromyard Avenue Acton London W3 7AU",
+            "button_name": "View Venue",
+            "button_url": "https://www.modeclub.co.uk/"
+          }
+        },
+        "marker_9BbDze": {
+          "type": "marker",
+          "settings": {
+            "position": "52.4833302,-1.7457924",
+            "name": "North Solihull Everyone Active",
+            "address": "Conway Road Solihull B37 5LA",
+            "button_name": "View Venue",
+            "button_url": "https://www.everyoneactive.com/centre/north-solihull-sports-centre/"
+          }
+        },
+        "marker_Vb8XmQ": {
+          "type": "marker",
+          "settings": {
+            "position": "51.3563194,1.3865922",
+            "name": "The Gym Group - Thanet Ramsgate",
+            "address": "1 Holmes Way Westwood Cross Ramsgate CT12 5FX",
+            "button_name": "View Venue",
+            "button_url": "https://www.thegymgroup.com/find-a-gym/ramsgate-gyms/thanet/"
+          }
+        },
+        "marker_Eatpyb": {
+          "type": "marker",
+          "settings": {
+            "position": "50.9691645,-1.3736477",
+            "name": "Places Leisure Eastleigh",
+            "address": "Passfield Ave, Eastleigh, Hampshire, SO50 9NL",
+            "button_name": "View Venue",
+            "button_url": "https://www.placesleisure.org/centres/places-leisure-eastleigh/"
+          }
         }
       },
       "block_order": [
-        "marker_Eatpyb",
-        "marker_Vb8XmQ",
-        "marker_VhxXME",
-        "marker_bpcpPH",
         "marker_YRCEqB",
-        "marker_9BbDze",
-        "marker_iQHAfy",
         "marker_WnH8a3",
-        "marker_efMV8z"
+        "marker_efMV8z",
+        "marker_bpcpPH",
+        "marker_VhxXME",
+        "marker_iQHAfy",
+        "marker_9BbDze",
+        "marker_Vb8XmQ",
+        "marker_Eatpyb"
       ],
       "name": "t:lesections.v2_map.presets.name",
       "settings": {
