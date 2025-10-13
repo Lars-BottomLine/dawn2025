@@ -424,10 +424,13 @@
       "type": "v2_slideshow",
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "slide_type": "bundle",
+        "slide_type": "product_manual",
         "blog": "",
         "blog_post_limit": 3,
-        "product_list": [],
+        "product_list": [
+          "l3_diploma_in_sports_massage_therapy",
+          "level-3-sports-massage-and-personal-trainer-bundle"
+        ],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
