@@ -139,6 +139,15 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "696392733514292510": {
+        "type": "shopify://apps/mega-callback/blocks/callback-embed/c7f19637-6981-41c6-b631-a40cf5974dba",
+        "disabled": false,
+        "settings": {
+          "translation": false
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
