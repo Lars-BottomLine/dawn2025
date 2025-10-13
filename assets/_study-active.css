@@ -3978,7 +3978,7 @@ a {
   letter-spacing: 0;
 }
 
-.v2-button, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-sa-form-wrapper form button {
+.v2-button, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, cart-notification button, .v2-sa-form-wrapper form button {
   text-decoration: none;
   background-color: transparent;
   position: relative;
@@ -3986,7 +3986,7 @@ a {
   width: auto;
   z-index: 1;
 }
-.v2-button span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-sa-form-wrapper form button span {
+.v2-button span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, cart-notification button span, .v2-sa-form-wrapper form button span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3999,21 +3999,21 @@ a {
   transition: transform 250ms;
   font-weight: 700;
 }
-.v2-button .v2-button-icon, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit .v2-button-icon, .v2-sa-form-wrapper form button .v2-button-icon {
+.v2-button .v2-button-icon, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit .v2-button-icon, cart-notification button .v2-button-icon, .v2-sa-form-wrapper form button .v2-button-icon {
   margin-right: 1.6rem;
   max-width: 4.4rem;
   max-height: 4.4rem;
   width: 100%;
 }
-.v2-button.-no-wrap, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-no-wrap#_form_1_submit, .v2-sa-form-wrapper form button.-no-wrap {
+.v2-button.-no-wrap, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-no-wrap#_form_1_submit, cart-notification button.-no-wrap, .v2-sa-form-wrapper form button.-no-wrap {
   white-space: nowrap;
 }
-.v2-button.-size-medium span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-size-medium#_form_1_submit span, .v2-sa-form-wrapper form button.-size-medium span {
+.v2-button.-size-medium span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-size-medium#_form_1_submit span, cart-notification button.-size-medium span, .v2-sa-form-wrapper form button.-size-medium span {
   padding: 1.6rem 2.8rem;
   font-size: 2.8rem;
   font-weight: 700;
 }
-.v2-button.-style-primary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit:before, .v2-sa-form-wrapper form button.-style-primary:before, .v2-button.-style-secondary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-secondary#_form_1_submit:before, .v2-sa-form-wrapper form button.-style-secondary:before {
+.v2-button.-style-primary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit:before, cart-notification button.-style-primary:before, .v2-sa-form-wrapper form button.-style-primary:before, .v2-button.-style-secondary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-secondary#_form_1_submit:before, cart-notification button.-style-secondary:before, .v2-sa-form-wrapper form button.-style-secondary:before {
   content: "";
   position: absolute;
   top: 0.8rem;
@@ -4023,90 +4023,90 @@ a {
   z-index: 1;
   transition: transform 250ms;
 }
-.v2-button.-style-primary span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit span, .v2-sa-form-wrapper form button.-style-primary span {
+.v2-button.-style-primary span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit span, cart-notification button.-style-primary span, .v2-sa-form-wrapper form button.-style-primary span {
   color: white;
   background-color: var(--color-primary);
 }
-.v2-button.-style-primary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit:before, .v2-sa-form-wrapper form button.-style-primary:before {
+.v2-button.-style-primary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit:before, cart-notification button.-style-primary:before, .v2-sa-form-wrapper form button.-style-primary:before {
   background-color: var(--color-secondary);
 }
-.v2-button.-style-secondary span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-secondary#_form_1_submit span, .v2-sa-form-wrapper form button.-style-secondary span {
+.v2-button.-style-secondary span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-secondary#_form_1_submit span, cart-notification button.-style-secondary span, .v2-sa-form-wrapper form button.-style-secondary span {
   color: var(--color-primary);
   background-color: var(--color-secondary);
 }
-.v2-button.-style-secondary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-secondary#_form_1_submit:before, .v2-sa-form-wrapper form button.-style-secondary:before {
+.v2-button.-style-secondary:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-secondary#_form_1_submit:before, cart-notification button.-style-secondary:before, .v2-sa-form-wrapper form button.-style-secondary:before {
   background-color: var(--color-dark-blue);
 }
-.v2-button.-style-plain span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-plain#_form_1_submit span, .v2-sa-form-wrapper form button.-style-plain span {
+.v2-button.-style-plain span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-plain#_form_1_submit span, cart-notification button.-style-plain span, .v2-sa-form-wrapper form button.-style-plain span {
   padding: 0 !important;
 }
-.v2-button.-hover-grow, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit, .v2-sa-form-wrapper form button.-hover-grow {
+.v2-button.-hover-grow, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit, cart-notification button.-hover-grow, .v2-sa-form-wrapper form button.-hover-grow {
   cursor: pointer;
 }
-.v2-button.-hover-grow span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit span, .v2-sa-form-wrapper form button.-hover-grow span, .v2-button.-hover-grow:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:before, .v2-sa-form-wrapper form button.-hover-grow:before {
+.v2-button.-hover-grow span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit span, cart-notification button.-hover-grow span, .v2-sa-form-wrapper form button.-hover-grow span, .v2-button.-hover-grow:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:before, cart-notification button.-hover-grow:before, .v2-sa-form-wrapper form button.-hover-grow:before {
   transition: all 250ms;
 }
-.v2-button.-hover-grow:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover span, .v2-sa-form-wrapper form button.-hover-grow:hover span {
+.v2-button.-hover-grow:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover span, cart-notification button.-hover-grow:hover span, .v2-sa-form-wrapper form button.-hover-grow:hover span {
   margin-right: -0.3rem;
   margin-top: -0.3rem;
   margin-bottom: -0.3rem;
   padding: 1.6rem 2.35rem;
 }
-.v2-button.-hover-grow:hover:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover:before, .v2-sa-form-wrapper form button.-hover-grow:hover:before {
+.v2-button.-hover-grow:hover:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover:before, cart-notification button.-hover-grow:hover:before, .v2-sa-form-wrapper form button.-hover-grow:hover:before {
   bottom: -0.3rem;
 }
-.v2-button.-hover-grow.-size-medium:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow.-size-medium#_form_1_submit:hover span, .v2-sa-form-wrapper form button.-hover-grow.-size-medium:hover span {
+.v2-button.-hover-grow.-size-medium:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow.-size-medium#_form_1_submit:hover span, cart-notification button.-hover-grow.-size-medium:hover span, .v2-sa-form-wrapper form button.-hover-grow.-size-medium:hover span {
   padding: 1.9rem 2.95rem;
 }
-.v2-button.-hover-translate, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-translate#_form_1_submit, .v2-sa-form-wrapper form button.-hover-translate {
+.v2-button.-hover-translate, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-translate#_form_1_submit, cart-notification button.-hover-translate, .v2-sa-form-wrapper form button.-hover-translate {
   cursor: pointer;
 }
-.v2-button.-hover-translate:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-translate#_form_1_submit:hover span, .v2-sa-form-wrapper form button.-hover-translate:hover span {
+.v2-button.-hover-translate:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-translate#_form_1_submit:hover span, cart-notification button.-hover-translate:hover span, .v2-sa-form-wrapper form button.-hover-translate:hover span {
   transform: translate(-0.2rem, -0.2rem);
 }
-.v2-button.-hover-translate:hover:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-translate#_form_1_submit:hover:before, .v2-sa-form-wrapper form button.-hover-translate:hover:before {
+.v2-button.-hover-translate:hover:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-translate#_form_1_submit:hover:before, cart-notification button.-hover-translate:hover:before, .v2-sa-form-wrapper form button.-hover-translate:hover:before {
   transform: translate(0.2rem, 0.2rem);
 }
-.v2-button.-disabled, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-disabled#_form_1_submit, .v2-sa-form-wrapper form button.-disabled, .v2-button[disabled=disabled], .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[disabled=disabled]#_form_1_submit, .v2-sa-form-wrapper form button[disabled=disabled] {
+.v2-button.-disabled, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-disabled#_form_1_submit, cart-notification button.-disabled, .v2-sa-form-wrapper form button.-disabled, .v2-button[disabled=disabled], .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[disabled=disabled]#_form_1_submit, cart-notification button[disabled=disabled], .v2-sa-form-wrapper form button[disabled=disabled] {
   pointer-events: none;
 }
-.v2-button.-disabled span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-disabled#_form_1_submit span, .v2-sa-form-wrapper form button.-disabled span, .v2-button[disabled=disabled] span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[disabled=disabled]#_form_1_submit span, .v2-sa-form-wrapper form button[disabled=disabled] span {
+.v2-button.-disabled span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-disabled#_form_1_submit span, cart-notification button.-disabled span, .v2-sa-form-wrapper form button.-disabled span, .v2-button[disabled=disabled] span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[disabled=disabled]#_form_1_submit span, cart-notification button[disabled=disabled] span, .v2-sa-form-wrapper form button[disabled=disabled] span {
   background-color: #4b4b4b;
 }
-.v2-button.-disabled:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-disabled#_form_1_submit:before, .v2-sa-form-wrapper form button.-disabled:before, .v2-button[disabled=disabled]:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[disabled=disabled]#_form_1_submit:before, .v2-sa-form-wrapper form button[disabled=disabled]:before {
+.v2-button.-disabled:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-disabled#_form_1_submit:before, cart-notification button.-disabled:before, .v2-sa-form-wrapper form button.-disabled:before, .v2-button[disabled=disabled]:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[disabled=disabled]#_form_1_submit:before, cart-notification button[disabled=disabled]:before, .v2-sa-form-wrapper form button[disabled=disabled]:before {
   background-color: #cccccc;
 }
-.v2-button[aria-disabled=true], .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[aria-disabled=true]#_form_1_submit, .v2-sa-form-wrapper form button[aria-disabled=true] {
+.v2-button[aria-disabled=true], .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[aria-disabled=true]#_form_1_submit, cart-notification button[aria-disabled=true], .v2-sa-form-wrapper form button[aria-disabled=true] {
   opacity: 0.75;
 }
-.v2-button[aria-disabled=true] span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[aria-disabled=true]#_form_1_submit span, .v2-sa-form-wrapper form button[aria-disabled=true] span {
+.v2-button[aria-disabled=true] span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[aria-disabled=true]#_form_1_submit span, cart-notification button[aria-disabled=true] span, .v2-sa-form-wrapper form button[aria-disabled=true] span {
   background-color: dimgrey;
 }
-.v2-button[aria-disabled=true]:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[aria-disabled=true]#_form_1_submit:before, .v2-sa-form-wrapper form button[aria-disabled=true]:before {
+.v2-button[aria-disabled=true]:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button[aria-disabled=true]#_form_1_submit:before, cart-notification button[aria-disabled=true]:before, .v2-sa-form-wrapper form button[aria-disabled=true]:before {
   background-color: lightgrey;
 }
-.v2-button.-align-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-align-left#_form_1_submit, .v2-sa-form-wrapper form button.-align-left {
+.v2-button.-align-left, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-align-left#_form_1_submit, cart-notification button.-align-left, .v2-sa-form-wrapper form button.-align-left {
   margin-left: 0;
   margin-right: auto;
 }
-.v2-button.-align-center, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-align-center#_form_1_submit, .v2-sa-form-wrapper form button.-align-center {
+.v2-button.-align-center, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-align-center#_form_1_submit, cart-notification button.-align-center, .v2-sa-form-wrapper form button.-align-center {
   margin-left: auto;
   margin-right: auto;
 }
-.v2-button.-align-right, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-align-right#_form_1_submit, .v2-sa-form-wrapper form button.-align-right {
+.v2-button.-align-right, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-align-right#_form_1_submit, cart-notification button.-align-right, .v2-sa-form-wrapper form button.-align-right {
   margin-left: auto;
   margin-right: 0;
 }
 @media (max-width: 640px) {
-  .v2-button, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-sa-form-wrapper form button {
+  .v2-button, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, cart-notification button, .v2-sa-form-wrapper form button {
     min-height: 4.2rem;
   }
-  .v2-button span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-sa-form-wrapper form button span {
+  .v2-button span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, cart-notification button span, .v2-sa-form-wrapper form button span {
     padding: 1rem 2.2rem !important;
     font-size: 1.8rem !important;
     font-weight: 700 !important;
   }
-  .v2-button.-hover-grow:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover span, .v2-sa-form-wrapper form button.-hover-grow:hover span {
+  .v2-button.-hover-grow:hover span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-hover-grow#_form_1_submit:hover span, cart-notification button.-hover-grow:hover span, .v2-sa-form-wrapper form button.-hover-grow:hover span {
     padding: 1.3rem 2.35rem !important;
   }
 }
@@ -4449,6 +4449,9 @@ a.v2-button span {
   background: var(--color-white);
 }
 
+sticky-header {
+  background: white;
+}
 sticky-header .cart-count-bubble {
   line-height: 1;
   padding-left: 0.1rem;
@@ -4589,7 +4592,7 @@ sticky-header .cart-count-bubble span {
   background: var(--color-light-blue) !important;
   border: none !important;
   padding: 0 !important;
-  margin-top: -2.5rem;
+  margin-top: -2.6rem;
   z-index: 1;
   background: transparent !important;
 }
@@ -4694,9 +4697,6 @@ sticky-header .cart-count-bubble span {
 .menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper ul {
   columns: 1;
 }
-.menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper a.font-bold {
-  font-weight: bold !important;
-}
 .menu-drawer__navigation .v2-header-megamenu .v2-mm-wrapper .v2-mm-heading {
   margin-bottom: 1rem;
 }
@@ -4750,7 +4750,7 @@ product-thumb.v2-product-thumb .product__info-wrapper:before {
   product-thumb.v2-product-thumb:hover .product__info-wrapper:before {
     background: var(--color-primary);
   }
-  product-thumb.v2-product-thumb:hover .v2-button.-style-primary span, product-thumb.v2-product-thumb:hover .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form product-thumb.v2-product-thumb:hover button.-style-primary#_form_1_submit span, product-thumb.v2-product-thumb:hover .v2-sa-form-wrapper form button.-style-primary span, .v2-sa-form-wrapper form product-thumb.v2-product-thumb:hover button.-style-primary span {
+  product-thumb.v2-product-thumb:hover .v2-button.-style-primary span, product-thumb.v2-product-thumb:hover .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button.-style-primary#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form product-thumb.v2-product-thumb:hover button.-style-primary#_form_1_submit span, product-thumb.v2-product-thumb:hover cart-notification button.-style-primary span, cart-notification product-thumb.v2-product-thumb:hover button.-style-primary span, product-thumb.v2-product-thumb:hover .v2-sa-form-wrapper form button.-style-primary span, .v2-sa-form-wrapper form product-thumb.v2-product-thumb:hover button.-style-primary span {
     background: var(--color-dark-blue);
   }
 }
@@ -5185,6 +5185,13 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   .sa-section-footer .footer__content-top .footer__logo {
     max-width: 100%;
   }
+}
+cart-notification {
+  color: var(--color-primary);
+}
+cart-notification #cart-notification,
+cart-notification h1, cart-notification h2, cart-notification h3, cart-notification h4, cart-notification h5, cart-notification h6 {
+  color: inherit !important;
 }
 :root {
   --swiper-theme-color: cyan !important;
@@ -5677,11 +5684,11 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
 .v2-section-cards.sa-bg-light-blue.-layout-wide_box .v2-cd-card, .v2-section-cards.sa-bg-primary.-layout-wide_box .v2-cd-card {
   color: var(--color-primary);
 }
-.v2-section-cards.sa-bg-primary .v2-button span, .v2-section-cards.sa-bg-primary .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-cards.sa-bg-primary button#_form_1_submit span, .v2-section-cards.sa-bg-primary .v2-sa-form-wrapper form button span, .v2-sa-form-wrapper form .v2-section-cards.sa-bg-primary button span {
+.v2-section-cards.sa-bg-primary .v2-button span, .v2-section-cards.sa-bg-primary .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-cards.sa-bg-primary button#_form_1_submit span, .v2-section-cards.sa-bg-primary .v2-sa-form-wrapper form button span, .v2-sa-form-wrapper form .v2-section-cards.sa-bg-primary button span, .v2-section-cards.sa-bg-primary cart-notification button span, cart-notification .v2-section-cards.sa-bg-primary button span {
   color: var(--color-primary);
   background: var(--color-secondary);
 }
-.v2-section-cards.sa-bg-primary .v2-button:before, .v2-section-cards.sa-bg-primary .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-cards.sa-bg-primary button#_form_1_submit:before, .v2-section-cards.sa-bg-primary .v2-sa-form-wrapper form button:before, .v2-sa-form-wrapper form .v2-section-cards.sa-bg-primary button:before {
+.v2-section-cards.sa-bg-primary .v2-button:before, .v2-section-cards.sa-bg-primary .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit:before, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-cards.sa-bg-primary button#_form_1_submit:before, .v2-section-cards.sa-bg-primary .v2-sa-form-wrapper form button:before, .v2-sa-form-wrapper form .v2-section-cards.sa-bg-primary button:before, .v2-section-cards.sa-bg-primary cart-notification button:before, cart-notification .v2-section-cards.sa-bg-primary button:before {
   background: var(--color-dark-blue);
 }
 .v2-section-cards.-layout-wide_box .v2-cd-content .v2-cd-card-container .v2-cd-image img {
@@ -6231,7 +6238,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   .v2-section-steps .v2-content .v2-step .v2-right > .gap-4 {
     gap: 0.7rem;
   }
-  .v2-section-steps .v2-content .v2-step .v2-right .v2-button, .v2-section-steps .v2-content .v2-step .v2-right .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-steps .v2-content .v2-step .v2-right button#_form_1_submit, .v2-section-steps .v2-content .v2-step .v2-right .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-steps .v2-content .v2-step .v2-right button {
+  .v2-section-steps .v2-content .v2-step .v2-right .v2-button, .v2-section-steps .v2-content .v2-step .v2-right .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-steps .v2-content .v2-step .v2-right button#_form_1_submit, .v2-section-steps .v2-content .v2-step .v2-right .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-steps .v2-content .v2-step .v2-right button, .v2-section-steps .v2-content .v2-step .v2-right cart-notification button, cart-notification .v2-section-steps .v2-content .v2-step .v2-right button {
     margin: 0;
   }
 }
@@ -6665,7 +6672,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   transform: none !important;
   box-shadow: none !important;
 }
-.v2-section-producthero product-thumb.v2-product-thumb:hover .v2-button span, .v2-section-producthero product-thumb.v2-product-thumb:hover .v2-sa-form-wrapper form button span, .v2-sa-form-wrapper form .v2-section-producthero product-thumb.v2-product-thumb:hover button span, .v2-section-producthero product-thumb.v2-product-thumb:hover .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-producthero product-thumb.v2-product-thumb:hover button#_form_1_submit span {
+.v2-section-producthero product-thumb.v2-product-thumb:hover .v2-button span, .v2-section-producthero product-thumb.v2-product-thumb:hover .v2-sa-form-wrapper form button span, .v2-sa-form-wrapper form .v2-section-producthero product-thumb.v2-product-thumb:hover button span, .v2-section-producthero product-thumb.v2-product-thumb:hover cart-notification button span, cart-notification .v2-section-producthero product-thumb.v2-product-thumb:hover button span, .v2-section-producthero product-thumb.v2-product-thumb:hover .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit span, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-producthero product-thumb.v2-product-thumb:hover button#_form_1_submit span {
   background: var(--color-primary) !important;
 }
 .v2-section-producthero .v2-pt-ribbon {
@@ -6868,7 +6875,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   gap: 2.4rem;
   flex-direction: column;
 }
-.v2-section-quickaccess .v2-qa-wrapper .v2-button, .v2-section-quickaccess .v2-qa-wrapper .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-quickaccess .v2-qa-wrapper button#_form_1_submit {
+.v2-section-quickaccess .v2-qa-wrapper .v2-button, .v2-section-quickaccess .v2-qa-wrapper .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper cart-notification button, cart-notification .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-quickaccess .v2-qa-wrapper button#_form_1_submit {
   margin-right: auto;
   margin-top: 1rem;
 }
@@ -6883,7 +6890,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   .v2-section-quickaccess .v2-qa-wrapper .v2-heading {
     margin-top: 0.4rem;
   }
-  .v2-section-quickaccess .v2-qa-wrapper .v2-button, .v2-section-quickaccess .v2-qa-wrapper .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-quickaccess .v2-qa-wrapper button#_form_1_submit {
+  .v2-section-quickaccess .v2-qa-wrapper .v2-button, .v2-section-quickaccess .v2-qa-wrapper .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper cart-notification button, cart-notification .v2-section-quickaccess .v2-qa-wrapper button, .v2-section-quickaccess .v2-qa-wrapper .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-quickaccess .v2-qa-wrapper button#_form_1_submit {
     margin-top: 0.2rem;
   }
   .v2-section-quickaccess .v2-qa-wrapper .v2-qa-box {
@@ -7101,7 +7108,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   color: inherit !important;
   margin: 0 !important;
 }
-.v2-article-template .v2-sa-comments .v2-button, .v2-article-template .v2-sa-comments .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-article-template .v2-sa-comments button, .v2-article-template .v2-sa-comments .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-article-template .v2-sa-comments button#_form_1_submit,
+.v2-article-template .v2-sa-comments .v2-button, .v2-article-template .v2-sa-comments .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-article-template .v2-sa-comments button, .v2-article-template .v2-sa-comments cart-notification button, cart-notification .v2-article-template .v2-sa-comments button, .v2-article-template .v2-sa-comments .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-article-template .v2-sa-comments button#_form_1_submit,
 .v2-article-template .v2-sa-comments .article-template__comment-warning {
   margin-top: 3.2rem;
 }
@@ -7193,7 +7200,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   flex-direction: column;
   align-items: flex-start;
 }
-.v2-section-map .v2-map-container .v2-button, .v2-section-map .v2-map-container .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-map .v2-map-container button, .v2-section-map .v2-map-container .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-map .v2-map-container button#_form_1_submit {
+.v2-section-map .v2-map-container .v2-button, .v2-section-map .v2-map-container .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-map .v2-map-container button, .v2-section-map .v2-map-container cart-notification button, cart-notification .v2-section-map .v2-map-container button, .v2-section-map .v2-map-container .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-map .v2-map-container button#_form_1_submit {
   margin-top: 0.4rem;
 }
 @media (max-width: 996px) {
