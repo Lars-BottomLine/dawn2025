@@ -1,0 +1,83 @@
+{% comment %}
+	GEMPAGES BUILDER (https://apps.shopify.com/gempages)
+
+	You SHOULD NOT modify source code in this file because
+	It is automatically generated from GEMPAGES BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
+
+        jQuery(function() {
+            var $module = jQuery('#m-1530129322743').children('.module');   
+            var navspeed = $module.data('navspeed'),
+                margin = parseInt($module.data('margin')),
+                autoplaytimeout = $module.data('autoplaytimeout'),
+                autoplayhoverpause = $module.data('autoplayhoverpause'),
+                navlg = $module.data('navlg'),
+                navmd = $module.data('navmd'),
+                navsm = $module.data('navsm'),
+                navxs = $module.data('navxs'),
+                collg = $module.data('collg'),
+                colmd = $module.data('colmd'),
+                colsm = $module.data('colsm'),
+                colxs = $module.data('colxs'),
+                dotslg = $module.data('dotslg'),
+                dotsmd = $module.data('dotsmd'),
+                dotssm = $module.data('dotssm'),
+                dotsxs = $module.data('dotsxs');
+
+            var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
+            if(mode == 'production') {
+                var autoplay = $module.data('autoplay'), 
+                    loop = $module.data('loop');
+            } else {
+                var autoplay = 0, 
+                    loop = 0;
+            }
+        
+            $module.owlCarousel({
+                margin: margin,
+                mouseDrag: false,
+                autoplayHoverPause: autoplayhoverpause,
+                autoplay: autoplay,
+                autoplayTimeout: autoplaytimeout,
+                loop: loop,
+                navSpeed: navspeed,
+                autoWidth: !1,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:colxs,
+                        nav: navxs,
+                        dots:dotsxs
+                    },
+                    768:{
+                        items:colsm,
+                        nav: navsm,
+                        dots:dotssm
+                    },
+                    992:{
+                        items:colmd,
+                        nav: navmd,
+                        dots:dotsmd
+                    },
+                    1200:{
+                        items:collg,
+                        nav: navlg,
+                        dots:dotslg
+                    }
+                }
+            }); 
+        }); 
+    
+    
+                          (function( jQuery ){
+                              try{
+                                  if(jQuery().gfV2Lazyload){
+                                      var $module = jQuery(window);
+                                      $module.gfV2Lazyload({delay:125})
+                                  }
+                              }catch(err){
+                                  console.error(err)
+                              }
+                          })( window.GemQuery || jQuery );
+                      
