@@ -74,7 +74,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/12.png",
-            "slide_type": "twocol",
+            "slide_type": "onecol",
             "heading_text": "<p>Frequently Asked </p><p>Questions</p>",
             "heading_type": "h1",
             "heading_size": "hero",
