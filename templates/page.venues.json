@@ -152,7 +152,7 @@
           "settings": {
             "position": "51.8015708,-0.2068188",
             "name": "Anytime Fitness",
-            "address": "Unit 54 The Howard Centre Welwyn Garden City AL8 6HA",
+            "address": "Unit 54 The Howard Centre Welwyn Garden City",
             "button_name": "View Venue",
             "button_url": "https://www.anytimefitness.co.uk/gyms/UK-0041/welwyn-garden-city-england-al8-6ha/"
           }
@@ -162,7 +162,7 @@
           "settings": {
             "position": "52.4754433,-1.4758102",
             "name": "Bedworth Leisure Centre",
-            "address": "Everyone Active, Coventry Road, Bedworth CV12 8NN",
+            "address": "Everyone Active, Coventry Road, Bedworth",
             "button_name": "View Venue",
             "button_url": "https://www.everyoneactive.com/centre/bedworth-leisure-centre/"
           }
@@ -172,7 +172,7 @@
           "settings": {
             "position": "52.6366505,1.2816386",
             "name": "Complete Fitness",
-            "address": "2 Marriott Close Heigham Street Norwich NR2 4UX",
+            "address": "2 Marriott Close Heigham Street Norwich",
             "button_name": "View Venue",
             "button_url": "https://completefitnessltd.co.uk/"
           }
@@ -192,7 +192,7 @@
           "settings": {
             "position": "52.3942097,-0.0325619",
             "name": "Lakeside Lodge",
-            "address": "Lakeside Lodge Golf Centre\nPidley, Cambridgeshire",
+            "address": "Lakeside Lodge Golf Centre Pidley, Cambridgeshire",
             "button_name": "View Venue",
             "button_url": "https://lakeside-lodge.co.uk/"
           }
@@ -202,7 +202,7 @@
           "settings": {
             "position": "51.5084762,-0.2526842",
             "name": "Mode Club",
-            "address": "36 Bromyard Avenue Acton London W3 7AU",
+            "address": "36 Bromyard Avenue Acton London",
             "button_name": "View Venue",
             "button_url": "https://www.modeclub.co.uk/"
           }
@@ -212,7 +212,7 @@
           "settings": {
             "position": "52.4833302,-1.7457924",
             "name": "North Solihull Everyone Active",
-            "address": "Conway Road Solihull B37 5LA",
+            "address": "Conway Road Solihull",
             "button_name": "View Venue",
             "button_url": "https://www.everyoneactive.com/centre/north-solihull-sports-centre/"
           }
@@ -222,7 +222,7 @@
           "settings": {
             "position": "51.3563194,1.3865922",
             "name": "The Gym Group - Thanet Ramsgate",
-            "address": "1 Holmes Way Westwood Cross Ramsgate CT12 5FX",
+            "address": "1 Holmes Way Westwood Cross Ramsgate",
             "button_name": "View Venue",
             "button_url": "https://www.thegymgroup.com/find-a-gym/ramsgate-gyms/thanet/"
           }
@@ -232,7 +232,7 @@
           "settings": {
             "position": "50.9691645,-1.3736477",
             "name": "Places Leisure Eastleigh",
-            "address": "Passfield Ave, Eastleigh, Hampshire, SO50 9NL",
+            "address": "Passfield Ave, Eastleigh, Hampshire",
             "button_name": "View Venue",
             "button_url": "https://www.placesleisure.org/centres/places-leisure-eastleigh/"
           }
