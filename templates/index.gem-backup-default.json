@@ -1,0 +1,1167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "v2_hero_jk6W8B": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_zzLjTp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Study_Active_Hero_4_1.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p>Want a career that <strong>changes lives?<\/strong><\/p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Change lives with wellness and fitness, <strong>starting with yours<\/strong>.<\/p>",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify:\/\/collections\/wellness-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_zLMkrC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Study_Active_Hero_2_1.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p>Pilates - <strong> <\/strong>movement<strong> meets mindfulness<\/strong><\/p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Move with purpose.<br\/><strong>Teach with passion.<\/strong><\/p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify:\/\/collections\/pilates-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_gP9gBY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pt_d128d2b6-7662-46a5-8242-a878252b64e4.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p><strong>Fast-track<\/strong> your career in fitness<\/p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Build you own path to success with the <strong>UK’s Top Personal Training Provider.<\/strong><\/p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify:\/\/collections\/personal-trainer-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_yMtA4W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Study_Active_Hero_3_1.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p>A calling that <strong>heals<\/strong><\/p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Turn setbacks into comebacks. <strong>Train to help others rise again.<\/strong><\/p>",
+            "text_size": "copy-xl",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify:\/\/collections\/sports-therapy-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_zzLjTp",
+        "slide_zLMkrC",
+        "slide_gP9gBY",
+        "slide_yMtA4W"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": true,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 140,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_PcfkMY": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/studyweights.png",
+        "heading_text": "<p>Let us do the heavy lifting<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p>This is your moment to do something that really moves you.<\/p>",
+        "subheadline_text_size": "copy-xl",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>With Study Active, you get everything you need to become a fully qualified fitness professional. Learn online, in your own time, with expert tutors by your side and real opportunities waiting at the finish line. We’ll guide you through every step, from your first login to guaranteed job interviews with top UK gyms. Bring your drive and passion, we’ve got the rest covered.<\/p>",
+        "text_size": "copy-m",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p><strong>The future won't wait.<\/strong><\/p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "Let's get started",
+        "button_url": "shopify:\/\/products\/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": -140,
+        "margin_bottom": -4
+      }
+    },
+    "v2_header_crfUaT": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Find your calling<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This is your moment to do something that really moves you.<\/p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "View all courses",
+        "button_url": "shopify:\/\/collections\/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": true,
+        "button_align": "right",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_xYpUTm": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_jANezi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0c19037975adb3d3623036a176a411774f676f2e.jpg",
+            "headline": "<p>Wellness Coach<\/p>",
+            "subheadline": "",
+            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.<\/p>",
+            "button_label": "Let's go",
+            "button_url": "shopify:\/\/products\/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+          }
+        },
+        "slide_eCjx47": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sports-massage.jpg",
+            "headline": "<p>Sports Massage Therapist<\/p>",
+            "subheadline": "",
+            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.<\/p>",
+            "button_label": "Let's go",
+            "button_url": "shopify:\/\/products\/level-3-sports-massage-and-personal-trainer-bundle"
+          }
+        },
+        "slide_BKBzMU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/723274426dc835e755179453ac455490f73f0626.jpg",
+            "headline": "<p>Group Exercise Instructor<\/p>",
+            "subheadline": "",
+            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.<\/p><p><\/p>",
+            "button_label": "Let's go",
+            "button_url": "shopify:\/\/products\/cimspa-certificate-in-personal-training-l3"
+          }
+        },
+        "slide_eBDWpy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
+            "headline": "<p>Gym Instructor<\/p>",
+            "subheadline": "<p>Former CBBC Television Presenter<\/p>",
+            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.<\/p>",
+            "button_label": "Let's go",
+            "button_url": "shopify:\/\/products\/cimspa-level-2-certificate-in-fitness-instruction"
+          }
+        }
+      },
+      "block_order": [
+        "slide_jANezi",
+        "slide_eCjx47",
+        "slide_BKBzMU",
+        "slide_eBDWpy"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_88cQaJ": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_EBXxjP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-heart-handshake-cyan_6500a2b5-dd58-4a73-95cc-19bad6911dd4.svg",
+            "title_text": "<p><strong>Guaranteed Interviews<\/strong><\/p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Benefit from our network of top UK gyms.<\/p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_tKGdHp": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-discount-check-cyan.svg",
+            "title_text": "<p><strong>Trusted Provider<\/strong><\/p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>An industry leader trusted by 1000s since 2012.<\/p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_6Tqicm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-globe-cyan.svg",
+            "title_text": "<p><strong>Flexible Study<\/strong><\/p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study on your own time, from anywhere.<\/p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_eAA4zM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-trending-up-cyan.svg",
+            "title_text": "<p><strong>Growing Career<\/strong><\/p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Jobs in a growing industry with top satisfaction.<\/p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_EBXxjP",
+        "card_tKGdHp",
+        "card_6Tqicm",
+        "card_eAA4zM"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why choose Study Active?<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.<\/p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify:\/\/collections\/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_6Yjp6r": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Excellent Rated on Trustpilot<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Don't just take our word for it, see what others have to say. <\/p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_trustpilot_KkRfr9": {
+      "type": "v2_trustpilot",
+      "name": "t:lesections.v2_trustpilot.presets.name",
+      "settings": {
+        "apply_filter": false,
+        "embed_code": "<!-- TrustBox script -->\n<script type=\"text\/javascript\" src=\"\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.bootstrap.min.js\" async><\/script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"240px\" data-style-width=\"100%\" data-token=\"3c5427b1-5f4c-4c66-8a6d-bbc089625435\" data-stars=\"4,5\" data-review-languages=\"en\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 24,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_i7HYVG": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Graduate success stories<\/p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Here are a few testimonials from former Study Active students<\/p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_4RTHyC": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_HfbbfH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg<\/p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd<\/p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”<\/p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_JM8hVg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New.png",
+            "headline": "<p>Julie Davis<\/p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete <\/p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” <\/p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_bPaqPa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon<\/p>",
+            "subheadline": "<p>Former CBBC Television Presenter<\/p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”<\/p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_MQmEd8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola<\/p>",
+            "subheadline": "<p>Professional Footballer<\/p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"<\/p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_aqVmYr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey<\/p>",
+            "subheadline": "<p>Actor <\/p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br\/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”<\/p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_HfbbfH",
+        "slide_JM8hVg",
+        "slide_bPaqPa",
+        "slide_MQmEd8",
+        "slide_aqVmYr"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_ayDGYf": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_RDc4Hz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elearning_Mock_up_Laptop_and_Phone_-_White_Background_1.png",
+            "title_text": "<p><strong>Flexible Blended Learning<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>A combination of <strong>online study<\/strong> and <strong>practical experience<\/strong>.<\/li><li>Interactive e-learning platform with <strong>engaging video lessons<\/strong>, <strong>interactive quizzes<\/strong>, and <strong>digital manuals<\/strong>.<\/li><li>You can <strong>study at your own pace<\/strong> – some students fast-track in ~4 months, while others spread learning over 6-12 months.<\/li><\/ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_iN3QLU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_6.png",
+            "title_text": "<p><strong>Interactive Content & Support<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>Support of <strong>live webinars<\/strong> and <strong>online workshops<\/strong> led by <strong>expert tutors<\/strong>.<\/li><li>Get <strong>one-on-one tutorial support<\/strong> via phone\/Zoom and email whenever you need it.<\/li><li>Our system <strong>keeps track of your progress<\/strong> and is <strong>accessible 24\/7,<\/strong> so you can train whenever it suits you.<\/li><\/ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_FRjWpM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/78211a0d7eb94d5e8940efd398566417b631ce7f.jpg",
+            "title_text": "<p><strong>Hands-On Practice<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>To <strong>build real skills<\/strong>, the diploma includes practical components. <\/li><li>Attend <strong>optional in-gym practical workshops<\/strong> for hands-on training, or <strong>submit video assessments<\/strong> from your own gym.<\/li><li>You’ll learn to <strong>conduct client consultations, demonstrate exercises, and lead training sessions confidently. <\/strong><\/li><\/ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_cxdGr7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e103586f7fbb77619fa69baa6369eef6adcf03fe.jpg",
+            "title_text": "<p><strong>What You’ll Learn<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>The curriculum covers <strong>11 modules<\/strong> spanning all essential fitness topics.<\/li><li>You’ll dive into <strong>Anatomy & Exercise Physiology, Nutrition and Weight Management, Client Programming & Coaching, Advanced Training Techniques, and Professional Conduct & Business Skill<\/strong>s for personal trainers.<\/li><\/ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_RDc4Hz",
+        "card_iN3QLU",
+        "card_FRjWpM",
+        "card_cxdGr7"
+      ],
+      "name": "v2 - Cards - Wide White",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide_box",
+        "heading_text": "<p>Learning Experience<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.<\/p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify:\/\/collections\/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "-anchor-step-3",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 64
+      }
+    },
+    "v2_hero_6e4NMx": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_j3U6gr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quote.jpg",
+            "slide_type": "onecol",
+            "heading_text": "<p>By the end, you’ll not only master personal training techniques, but also know how to motivate clients and even manage your own PT business.<\/p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": false,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "Discover Courses",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_j3U6gr"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 60,
+        "padding_bottom": 140,
+        "margin_top": -200,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_NkTwDC": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_4jFXj6": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Save money with our discounted full payment option<\/p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available<\/strong><\/p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_3VyYGW": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments<\/p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £29\/month available <\/strong><\/p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_jwQbMY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free<\/p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Terms and conditions apply<\/strong><\/p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_4jFXj6",
+        "card_3VyYGW",
+        "card_jwQbMY"
+      ],
+      "name": "v2 - Cards - Vertical Light Blue",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.<\/p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "shopify:\/\/blogs\/news\/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": true,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_AGmV8Q": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_Fqn8tU": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/symbol-handshake-blue.svg",
+            "title_text": "<p><strong>Interview guarantee<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Interview with top UK gyms<\/p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_JQfjnG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/symbol-article_person.svg",
+            "title_text": "<p><strong>CV writing support<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Learn how to stand out<\/p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_fWqbn7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/symbol-explore.svg",
+            "title_text": "<p><strong>Career guidance<\/strong><\/p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Find the right path for you<\/p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_Fqn8tU",
+        "card_JQfjnG",
+        "card_fWqbn7"
+      ],
+      "name": "v2 - Cards - Vertical Plus Light Blue",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "card_layout": "vertical",
+        "heading_text": "<p>Guaranteed job interview promise<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees. <\/p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "shopify:\/\/blogs\/news\/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": true,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_chDced": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Tips, trends and training advice<\/p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This is your moment to do something that really moves you.<\/p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_jPMWKQ": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blog",
+        "blog": "news",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_MwEKUC": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_6ye3He": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Alright, but what exactly do you do?",
+            "row_content": "<p>We provide some of the best personal training courses for people wanting to enter the exercise, health and physical activity sector.<br\/><br\/>We also offer flexible online personal training courses, which include recorded webinars, access to e-learning resources, and the ability to complete practical assessments at a local gym.<br\/><br\/>Not all PT course providers are the same.<br\/><br\/>If you are thinking about becoming a personal trainer or gym instructor.<br\/><br\/>One of the first things you should be looking out for is finding a CIMSPA-approved fitness education provider. CIMSPA are one of the most reputable awarding bodies in UK’s fitness sector. You can check out more about them on the CIMSPA website (please see our blog post here).<br\/><br\/>Another thing you should look for is what awarding body is attributed to each personal training course.<br\/><br\/>The largest and most recognisable of the professional bodies is Active IQ. Making sure that you pick an Active IQ course, is going to benefit you greatly as you progress from entry level to becoming a more specialist fitness instructor.<br\/><br\/>The next step is to get an entry level qualification by taking the Level 2 Certificate in Gym Instructing, which will allow you to qualify as a gym-based instructor. While, you might not be able to take part in teaching all the gym programmes, across all leisure centres, this course is the minimum entry requirement into the industry. Following this, you can do a Level 3 Diploma in Personal Training, which will open more doors for you and you can then start working as an independent Level 3 Personal Trainer.<br\/><br\/>You can do all of these steps with Study Active. We are one the most reputable fitness training providers in the UK. With us, you can study any of several gym instructor or personal training courses individually or opt to do these in larger combined course packages, to fast track your PT career. Check out the price guide shown in the personal trainer course package comparison section above to get an idea of the various payment options and what courses are available for you.<br\/><br\/>There is also the option to opt for a higher-level package which includes Level 4 Advanced Personal Training and\/or RSPH Level 4 Nutrition. While they are not essential to begin working as a PT, Level 4 qualifications are incredibly useful for your professional development and will help you build your confidence and passion for fitness. Have a browse, if you need more help, get in contact with us and we can help you figure out how to start your new career.<\/p>"
+          }
+        },
+        "accordion_row_yeYDPp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Are your personal trainer courses internationally recognised?",
+            "row_content": "<p>All our personal trainer courses are awarded by Active IQ, regulated by Ofqual and endorsed by CIMSPA. As all our personal training qualifications carry these prestigious internationally recognised accreditations and associations, many countries throughout the world will recognise these fitness qualifications (e.g. USA, Australia, NZ, Canada, Ireland and the rest of Europe).<br\/><br\/>For your peace of mind, it would be advised to check with the local fitness regulators for any of the specific countries you wish to work in.<\/p>"
+          }
+        },
+        "accordion_row_EkDWt4": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What courses do I need to complete to become a personal trainer?",
+            "row_content": "<p>To become a PT, you need to gain a gym instructor qualification (usually level 2), however, you can do both the level 2 gym instructing and the level 3 personal training courses in one combined course (usually level 3), this is our most popular course option with the next generation of personal trainers.<br\/><br\/>Once qualified as a PT, you then have the option to undertake additional fitness qualifications such as RSPH level 4 nutrition, which can unlock new doors for you to work with nutrition and more advanced fitness and exercise regiments. You can continue your professional development by taking on more qualifications like these such as 'Supporting clients with long-term conditions' or 'Pre & post natal exercise' which will help you support and work more effectively with clientele such as older adults or those suffering from health conditions.<\/p>"
+          }
+        },
+        "accordion_row_7aMC4V": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What previous experience do I need to become a personal trainer?",
+            "row_content": "<p>There isn't an official prerequisite, but it is highly recommended that an aspiring professional fitness instructor or PT has gained some experience in a gym.<br\/><br\/>Our students may opt to gain some paid or unpaid gym-based instructing experience whilst studying (this is not mandatory but could be incredibly useful when aiming to get into the industry) while, others, may choose to begin working in a gym as an instructor upon course completion.<br\/><br\/>There is no real hard and fast rule, and everyone is different. The main thing is that you as an individual feel comfortable in your knowledge and are equipped with the right tools and frame of mind, before starting work as a gym instructor. If you want to progress in the fitness industry, you can opt to take the additional fitness courses, we offer to advance your knowledge, if you're unsure you can ask your personal support tutor.<\/p>"
+          }
+        },
+        "accordion_row_VLEVif": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to complete one of your personal trainer courses?",
+            "row_content": "<p>The time taken to complete our personal trainer course is largely up to you. Some people can 'fast track' in as little as weeks and complete the gym instructor & PT course while others may need to part-time study over several months.<br\/><br\/>There is no set answer for how long it will take you, this can depend on the amount of hours to study you are able to commit to, and any existing fitness knowledge you have that might give you an edge to complete practical assessments and finish the online lessons quicker.<br\/><br\/>Generally, the majority of our students are studying part-time and gain their qualifications within 3-6 months. Do note, taking on additional fitness courses such as Nutrition to their package, will increase the amount of study time required to complete the courses.<\/p>"
+          }
+        },
+        "accordion_row_wCD8GX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Becoming a personal trainer: Do I need experience in the health or fitness industry?",
+            "row_content": "<p>The only entry requirements to join Study Active and take our gym instructor course is an active interest in fitness, fitness instruction, health and a positive attitude to learning.<br\/><br\/>Through one of many courses, you will learn all there is to know to become a fitness instructor, and gain the skills needed to help clients exercise and achieve their goals as a full time trainer.<br\/><br\/>While having prior experience in personal training is not a mandatory part of the qualification you will be taking (many of our students already have some form of experience under their belt), it is recommended that you get as much exposure to the health & fitness sector as possible to push your development and give you that extra edge when applying for interviews.<\/p>"
+          }
+        },
+        "accordion_row_Ezgrd3": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How much can I earn as a personal trainer?",
+            "row_content": "<p>This really does depend on many different factors.<br\/><br\/>Some key factors that you should consider as your career embarks are the area, demographic, services you offer, the specialisms you've mastered, and the experience you have and so forth.<br\/><br\/>A newly qualified PT or gym instructor may charge around £20-25 p\/h in certain locations, while a more established PT may start charging between £35-50 p\/h. Those who are nationally renowned or elite PTs can charge upwards of £60-80 p\/h (this is something that can take time and will not happen overnight!).<br\/><br\/>Do note, that these figures are based on self-employed income, you will not find a gym paying the above figures as a salary. These are the amounts that PTs will charge their clients on a self-employed basis. If you want to increase your potential as a personal trainer, it is worth considering some of our more advanced courses that can help you take on more specialised clients such as athletes or those suffering from health conditions.<\/p>"
+          }
+        },
+        "accordion_row_zGRNch": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long has Study Active been offering personal training courses?",
+            "row_content": "<p>Study Active started delivering personal training courses back in 2012 making us one of the longest-operating fitness training providers in the UK. Since then, the company has grown considerably to where it is today and we have given many students the personal trainer qualifications needed to break into the UK fitness industry. We recently won the 2023 UKActive Education Provider of the Year award and were rated at the very highest CIMSPA rank ''Enhancing'' by CIMPSA (a summary can be found as follows, the provider are seen to be offering the highest quality provision to its learners), so you can be sure you are in good hands.<br\/><br\/>From entry level qualifications to more specialised courses, you can check out what we offer and get your career moving!<br\/><\/p>"
+          }
+        },
+        "accordion_row_F4373Y": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do you provide personal training courses near me?",
+            "row_content": "<p>While we have a physical location, Study Active has students from all across the UK.<br\/><br\/>We provide the very best remote study via e-learning, digital resources, webinars, skype tutorials etc. Students can access our course material from all over the UK without needing to attend a physical location.<br\/><br\/>However, we recommend that students visit our base in Hertfordshire for their gym-based practical input & assessments. Alternatively, you can record your practical assessment in a nearby gym and send us your video. Those living around Hertfordshire, London and the surrounding areas may find it easier to come into the Study Active base for their practical assessments.<br\/><br\/>Our blended digital approach will give you much more flexibility in your fitness training and you won't have to miss any face to face tuition due to any other home, work or family commitments in your life. You set the training dates and study time and then you can get the qualifications needed to enter the industry.<\/p>"
+          }
+        },
+        "accordion_row_Cdkr8n": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I work as a PT in any gym with this personal training qualification?",
+            "row_content": "<p>Our PT course is awarded by Active IQ, regulated by Ofqual and endorsed by CIMSPA.<br\/><br\/>Within the UK, you will not find a more recognised PT qualification. You will be guaranteed interviews at any nationwide health club or gym as most gyms at home and abroad will accept our qualifications.<br\/><br\/>Some newly qualified PT's will look to become employed as a Level 2 Gym Instructor within a gym (on a salary) while they take on private clients from the same location. Other PTs or fitness instructors may decide to operate their PT business from a gym they have established a relationship with.<br\/><br\/>Usually being a personal trainer or fitness instructor is a self-employed position, so personal trainers will usually have to pay the gym rental fees to train their clients. So this is something that will need to be factored in when taking on clients and better understanding your business costs.<\/p>"
+          }
+        },
+        "accordion_row_RhiLtD": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Are your personal training courses online?",
+            "row_content": "<p>Our nationally recognised online courses are delivered via blended learning.<br\/><br\/>Most of our courses can be studied online using the wealth of digital resources we have provided. However, your online learning will be supplemented by remote support from an expert tutor who will teach and instruct you via webinars, Zoom (or similar), mobile tutorials or email contact.<br\/><br\/>For your practical assessment, you can either come into our study base in Hertfordshire or choose to record a video of your practical assessments which can then be sent to us.<br\/><br\/>Some of the courses we offer may involve some face-to-face training, so do read the course details, if you are unsure and would prefer mainly online-based learning.<\/p>"
+          }
+        },
+        "accordion_row_DbHHPP": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I study part-time to become a personal trainer?",
+            "row_content": "<p>All our blended style courses can be studied part or full time. Whether you choose to study full or part-time is completely up to you. Choosing full time study will help you get the skills you need to become a fully qualified fitness instructor much faster if you can allocate enough time each week.<br\/><br\/>Those who study for 40 hours a week, will likely be able to complete more practical courses and lessons within a few weeks, while, those doing 10 hours a week, may take a few months to complete their chosen gym instructor course. We understand that finding time to learn can sometimes be difficult, so it is completely up to individual students to set their own pace and use all the tools we have provided to qualify as a fitness instructor or PT.<br\/><br\/>If you have started a course and are finding it difficult to manage your time, do get in touch, one of our team or expert tutors may be able to help you.<\/p>"
+          }
+        },
+        "accordion_row_igAr3e": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What governing boards are your personal training courses accredited by?",
+            "row_content": "<p>Our PT qualifications are awarded by the most prestigious fitness awarding body, Active IQ. All of our courses are regulated by Ofqual and Study Active is a CIMSPA-endorsed training provider. Study Active are also a UK Active member and have close associations with the RSPH, Association for Nutrition and the National Register of Personal Trainer (NRPT).<br\/><br\/>If you have any other questions about our practical courses or about us, please feel free to reach out to find out more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_6ye3He",
+        "accordion_row_yeYDPp",
+        "accordion_row_EkDWt4",
+        "accordion_row_7aMC4V",
+        "accordion_row_VLEVif",
+        "accordion_row_wCD8GX",
+        "accordion_row_Ezgrd3",
+        "accordion_row_zGRNch",
+        "accordion_row_F4373Y",
+        "accordion_row_Cdkr8n",
+        "accordion_row_RhiLtD",
+        "accordion_row_DbHHPP",
+        "accordion_row_igAr3e"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently asked questions<\/p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_newsletter_EFqipn": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "newsletter",
+        "image": "shopify:\/\/shop_images\/trainers.jpg",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 152,
+        "padding_bottom": 40,
+        "margin_top": -136,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "v2_hero_jk6W8B",
+    "v2_text_plus_image_PcfkMY",
+    "v2_header_crfUaT",
+    "v2_slideshow_xYpUTm",
+    "v2_cards_88cQaJ",
+    "v2_header_6Yjp6r",
+    "v2_trustpilot_KkRfr9",
+    "v2_header_i7HYVG",
+    "v2_slideshow_4RTHyC",
+    "v2_cards_ayDGYf",
+    "v2_hero_6e4NMx",
+    "v2_cards_NkTwDC",
+    "v2_cards_AGmV8Q",
+    "v2_header_chDced",
+    "v2_slideshow_jPMWKQ",
+    "v2_accordion_MwEKUC",
+    "v2_newsletter_EFqipn"
+  ]
+}
