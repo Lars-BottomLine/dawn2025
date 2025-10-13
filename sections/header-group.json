@@ -81,7 +81,7 @@
           "settings": {
             "menu_index": 4,
             "left_heading": "Student Services",
-            "left_heading_url": "",
+            "left_heading_url": "shopify://pages/student-zone",
             "left_subheading": "",
             "left_submenu": "2025-mm-students",
             "right_heading": "",
