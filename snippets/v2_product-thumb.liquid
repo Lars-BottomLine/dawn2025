@@ -95,19 +95,34 @@
                     <div class="v2-pt-image">
                         {%- unless placeholder -%}
                             {% # TODO: set the correct sizes here depending on the use %}
-                            {% if product.media[0] != blank %}
+                            {% if template_type == 'product_thumb' %}
+                                {% if haz_featured %}
+                                        {{ product.metafields.custom.featured_image
+                                            | image_url: width: 800
+                                            | image_tag }}
+                                    {% else %}
+                                        {% if product.media[0] != blank %}
+                                            {% render 'v2-product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
+                                        {% endif %}
+                                    {% endif %}
+                            {% else %}
+                                {% if product.media[0] != blank %}
 
-                                {% render 'v2-product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
+                                    {% render 'v2-product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
 
-                                {% comment %}{% if haz_featured %}
-                                    {{ product.metafields.custom.featured_image
-                                        | image_url: width: 1500
-                                        | image_tag }}
-                                {% else %}
+                                    {% comment %}{% if haz_featured %}
+                                        {{ product.metafields.custom.featured_image
+                                            | image_url: width: 800
+                                            | image_tag }}
+                                    {% else %}
 
-                                {% endif %}{% endcomment %}
+                                    {% endif %}{% endcomment %}
+                                {% endif %}
+
                             {% endif %}
+
                             <a class="pt-image-link" href="{{ product.url }}"></a>
+
                         {%- else -%}
                             <div class="product__media-item">
                                 <div
