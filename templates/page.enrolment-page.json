@@ -57,7 +57,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div data-tf-live=\"01K2HMJNKXF4VDNSE608H5T8DM\"></div><script src=\"//embed.typeform.com/next/embed.js\"></script>",
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/252457839554066\"></script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
