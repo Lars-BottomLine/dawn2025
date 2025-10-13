@@ -383,13 +383,13 @@
                 }
 
                 function pt_setSoldOut( product_thumb ) {
-                    const button = product_thumb.querySelector('.sa-button');
+                    const button = product_thumb.querySelector('.v2-button');
                     button.querySelector('span').innerHTML = 'Sold Out';
                     button.classList.add('-disabled');
                 }
 
                 function pt_setAvailable( product_thumb ) {
-                    const button = product_thumb.querySelector('.sa-button');
+                    const button = product_thumb.querySelector('.v2-button');
                     button.querySelector('span').innerHTML = 'Add to cart';
                     button.classList.remove('-disabled');
                 }
@@ -400,7 +400,7 @@
                     const ele_sales_price = product_thumb.querySelector('.price-item.price-item--sale');
                     const ele_sales_regular_price = product_thumb.querySelector('.price__sale .price-item.price-item--regular');
                     const ele_sales_save_percentage = product_thumb.querySelector('.price__sale .price-save-percentage span');
-                    const ele_le_price = product_thumb.querySelector('.le_price');
+                    const ele_v2_price = product_thumb.querySelector('.v2_price');
 
                     const currency_symbol = ele_regular_price.innerHTML.replace(/[0-9.,]/g, '').trim();
                     const regular_price = Math.round( parseInt( selected_variant.price ) / 100 );
@@ -413,7 +413,7 @@
                     // we have a sales price
                     if ( selected_variant.compare_at_price ) {
                         // show sales prices
-                        ele_le_price.classList.add('price--on-sale');
+                        ele_v2_price.classList.add('price--on-sale');
                         // update the sales prices (old price, percentage)
                         const sales_regular_price = Math.round( parseInt( selected_variant.compare_at_price ) / 100 );
                         ele_sales_regular_price.innerHTML =  currency_symbol + pt_formatPrice( sales_regular_price );
@@ -421,7 +421,7 @@
                     // no sales price
                     } else {
                         // hide sales prices
-                        ele_le_price.classList.remove('price--on-sale');
+                        ele_v2_price.classList.remove('price--on-sale');
                         // reset the sales prices
                         ele_sales_regular_price.innerHTML = '';
                         ele_sales_save_percentage.innerHTML = '';
@@ -431,7 +431,7 @@
 
                 // add thousands separator to price string
                 function pt_formatPrice(price) {
-                    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 }
             }
         </script>
