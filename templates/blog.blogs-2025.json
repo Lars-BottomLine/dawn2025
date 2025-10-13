@@ -12,13 +12,22 @@
     "main": {
       "type": "main-blog",
       "settings": {
+        "heading_type": "h1",
+        "heading_size": "normal",
+        "no_decal": false,
+        "section_bkgr": "white",
         "layout": "collage",
         "show_image": true,
         "image_height": "medium",
         "show_date": true,
         "show_author": false,
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },

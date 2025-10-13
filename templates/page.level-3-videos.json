@@ -99,6 +99,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_d25c3f56-3a08-4c8f-8b88-09a866af9c49.png",
             "description": ""
           }
         }
@@ -126,6 +127,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_15_57d52bf9-e5cb-4a81-b850-cbe69d0129a4.png",
             "description": ""
           }
         },
@@ -134,6 +136,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_11_cca5e1ce-837c-418e-aadc-305e43597b59.png",
             "description": ""
           }
         }
@@ -162,6 +165,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_4_d2911204-a7c8-4c02-a311-e6aed35ebf86.png",
             "description": ""
           }
         },
@@ -170,6 +174,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_2_7509d06a-63b4-4adc-b199-c68eead53799.png",
             "description": ""
           }
         }
@@ -198,6 +203,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_10_916caa54-99a7-4098-8afa-86f48322f9ce.png",
             "description": ""
           }
         },
@@ -206,6 +212,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_12_44e83f01-e6ec-436d-96b7-9c13d98818d2.png",
             "description": ""
           }
         }
@@ -234,6 +241,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_3_66c099f6-d391-443d-91b0-b8c65ea662e6.png",
             "description": ""
           }
         },
@@ -242,6 +250,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_16.png",
             "description": ""
           }
         }
@@ -270,6 +279,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_17.png",
             "description": ""
           }
         },
@@ -278,6 +288,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_6_71e7c5fb-d611-43c2-8f69-30ddfb6ca2a9.png",
             "description": ""
           }
         }
@@ -306,6 +317,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_7_12a629d6-5b09-4e48-9fcc-aa603bedee7d.png",
             "description": ""
           }
         },
@@ -314,6 +326,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_14_2d90e099-58b6-4265-a257-e3d137229575.png",
             "description": ""
           }
         }
@@ -342,6 +355,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_9_0620de6b-5058-45ce-b1c8-89d298830353.png",
             "description": ""
           }
         },
@@ -350,6 +364,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_20.png",
             "description": ""
           }
         }
@@ -357,6 +372,82 @@
       "block_order": [
         "videoblock_bppmLr",
         "videoblock_VChtMj"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_pdXnXY": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_irwUjw": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_8_072a5751-a4b3-4405-8a8b-0be46e1155e3.png",
+            "description": ""
+          }
+        },
+        "videoblock_N9WFga": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_19.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_irwUjw",
+        "videoblock_N9WFga"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_yUMyGx": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_KtkJ7i": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_13_d6abc25f-1420-4891-94b1-2efb71faadd1.png",
+            "description": ""
+          }
+        },
+        "videoblock_Pzf6m6": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "",
+            "cover_image": "shopify://shop_images/Design_1_Title_5_1bf9d34f-11fd-4454-a158-877e3bc0bf30.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_KtkJ7i",
+        "videoblock_Pzf6m6"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
@@ -398,6 +489,8 @@
     "v2_video_M6dtHH",
     "v2_video_EMMEgc",
     "v2_video_4GKVMC",
+    "v2_video_pdXnXY",
+    "v2_video_yUMyGx",
     "v2_form_BwzHVR"
   ]
 }
