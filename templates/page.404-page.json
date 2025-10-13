@@ -152,8 +152,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Download The Brochure",
-            "text": "<p>Get more information on our course offering, career opportunities, and more.</p>",
+            "title": "Check out our blog",
+            "text": "<p>Tips, trends and training advice from our expert fitness tutors.</p>",
             "button_text": "Get your brochure",
             "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/NEW_Study_Active_Brochure_1_1.pdf?v=1756041307"
           }
@@ -200,7 +200,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
-        "heading_text": "<p>Take the next step</p>",
+        "heading_text": "<p>Check out our top courses</p>",
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": false,
