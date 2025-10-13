@@ -98,7 +98,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/875206612/e81751224b?share=copy",
             "cover_image": "shopify://shop_images/Design_1_Title_d25c3f56-3a08-4c8f-8b88-09a866af9c49.png",
             "description": ""
           }
