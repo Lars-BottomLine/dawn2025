@@ -120,7 +120,7 @@
                         {%- endunless -%}
                     </div>
 
-                    {% if template == 'product_hero' and media_image_count > 1 %}
+                    {% if template_type == 'product_hero' and media_image_count > 1 %}
                         <div class="v2-pt-thumblist">
                             <div class="">
                                 {% for image in product.media  %}
@@ -172,7 +172,7 @@
 
                             {% # RIBBON
                                # ----------------------- %}
-                            {% if template == 'product_hero' and product.metafields.custom.ribbon_text != blank %}
+                            {% if template_type == 'product_hero' and product.metafields.custom.ribbon_text != blank %}
                                 <div class="v2-pt-ribbon">
                                     {{ product.metafields.custom.ribbon_text | metafield_text }}
                                 </div>
@@ -230,7 +230,7 @@
                                 <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
                                     {%- render 'v2_price',
                                             product: product,
-                                            template: template,
+                                            template: template_type,
                                             placeholder: placeholder,
                                             use_variant: true,
                                             show_badges: true,
