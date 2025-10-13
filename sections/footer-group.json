@@ -26,6 +26,12 @@
             "image": "shopify://shop_images/CIMSPA.png"
           }
         },
+        "slide_craci7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
         "slide_NE7Xkr": {
           "type": "slide",
           "settings": {
@@ -54,6 +60,7 @@
       "block_order": [
         "slide_98DHVM",
         "slide_EN6KBX",
+        "slide_craci7",
         "slide_NE7Xkr",
         "slide_Eh9Let",
         "slide_FWpbLM",
