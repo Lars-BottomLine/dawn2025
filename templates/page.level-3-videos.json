@@ -287,7 +287,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686635433/110804dd57",
             "cover_image": "shopify://shop_images/Design_1_Title_6_71e7c5fb-d611-43c2-8f69-30ddfb6ca2a9.png",
             "description": ""
           }
@@ -316,7 +316,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686644867/f8f3fb71c7",
             "cover_image": "shopify://shop_images/Design_1_Title_7_12a629d6-5b09-4e48-9fcc-aa603bedee7d.png",
             "description": ""
           }
@@ -439,7 +439,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686635873/0819d6c8b7",
             "cover_image": "shopify://shop_images/Design_1_Title_5_1bf9d34f-11fd-4454-a158-877e3bc0bf30.png",
             "description": ""
           }
