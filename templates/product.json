@@ -402,7 +402,7 @@
         "heading_type": "h1",
         "heading_size": "h2",
         "heading_no_decal": false,
-        "heading_decal_left": true,
+        "heading_decal_left": false,
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
