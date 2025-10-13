@@ -147,6 +147,36 @@
     "v2_map_N66fed": {
       "type": "v2_map",
       "blocks": {
+        "marker_Eatpyb": {
+          "type": "marker",
+          "settings": {
+            "position": "50.9691645,-1.3736477",
+            "name": "Places Leisure Eastleigh",
+            "address": "Passfield Ave, Eastleigh, Hampshire, SO50 9NL",
+            "button_name": "View Venue",
+            "button_url": "https://www.placesleisure.org/centres/places-leisure-eastleigh/"
+          }
+        },
+        "marker_Vb8XmQ": {
+          "type": "marker",
+          "settings": {
+            "position": "51.3563194,1.3865922",
+            "name": "The Gym Group - Thanet Ramsgate",
+            "address": "1 Holmes Way Westwood Cross Ramsgate CT12 5FX",
+            "button_name": "View Venue",
+            "button_url": "https://www.thegymgroup.com/find-a-gym/ramsgate-gyms/thanet/"
+          }
+        },
+        "marker_VhxXME": {
+          "type": "marker",
+          "settings": {
+            "position": "52.3942097,-0.0325619",
+            "name": "Lakeside Lodge",
+            "address": "Lakeside Lodge Golf Centre\nPidley, Cambridgeshire",
+            "button_name": "View Venue",
+            "button_url": "https://lakeside-lodge.co.uk/"
+          }
+        },
         "marker_bpcpPH": {
           "type": "marker",
           "settings": {
@@ -154,7 +184,7 @@
             "name": "Hucknall Leisure Centre – Nottingham",
             "address": "Everyone Active\nLinby Road, Hucknall NG15 7TX",
             "button_name": "View Venue",
-            "button_url": "https://studyactive.co.uk"
+            "button_url": "https://www.everyoneactive.com/centre/hucknall-leisure-centre/"
           }
         },
         "marker_YRCEqB": {
@@ -209,6 +239,9 @@
         }
       },
       "block_order": [
+        "marker_Eatpyb",
+        "marker_Vb8XmQ",
+        "marker_VhxXME",
         "marker_bpcpPH",
         "marker_YRCEqB",
         "marker_9BbDze",
