@@ -84,7 +84,7 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "button_text": "Let's get started",
+        "button_text": "",
         "button_url": "",
         "button_style": "primary",
         "button_size": "small",
