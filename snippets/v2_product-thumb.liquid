@@ -293,11 +293,11 @@
             if (!(typeof window.pt_initProductThumbVariationListener === "function")) {
 
                 // setup the thumblist to be filled with the thumb_ids
-                var pt_variations_selector_list = pt_variations_selector_list || [];
+                window.pt_variations_selector_list = window.pt_variations_selector_list || [];
 
                 document.addEventListener("DOMContentLoaded", function () {
                     setTimeout(function () {
-                        pt_initProductThumbVariationListener(pt_variations_selector_list);
+                        pt_initProductThumbVariationListener( window.pt_variations_selector_list );
                     }, 250);
                 });
 
@@ -449,7 +449,7 @@
         {% endif %}
 
         <script>
-            pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
+            window.pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
         </script>
     {% else %}
         <div class="" style="padding: 1rem 2rem;background: #ff0000c2;color: white;border-radius: 0.5rem;display: inline-flex;">
