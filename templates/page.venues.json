@@ -84,7 +84,7 @@
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "button_text": "Enquire Today",
+            "button_text": "",
             "button_url": "#form",
             "button_style": "primary",
             "button_size": "small",
