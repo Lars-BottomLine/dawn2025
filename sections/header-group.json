@@ -43,6 +43,7 @@
     },
     "custom_liquid_kUctmb": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {background: #00badb;}"
       ],
