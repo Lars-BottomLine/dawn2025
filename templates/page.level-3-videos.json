@@ -363,7 +363,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/713237795/63d81eddcb",
             "cover_image": "shopify://shop_images/Design_1_Title_20.png",
             "description": ""
           }
@@ -401,7 +401,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/797127494/08fb610cc0",
             "cover_image": "shopify://shop_images/Design_1_Title_19.png",
             "description": ""
           }
@@ -461,6 +461,34 @@
         "margin_bottom": 0
       }
     },
+    "v2_video_xgpUWK": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_iGX7VH": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686645662/2844b7b0ab",
+            "cover_image": "shopify://shop_images/Design_1_Title_18.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_iGX7VH"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_form_BwzHVR": {
       "type": "v2_form",
       "name": "t:lesections.v2_form.presets.name",
@@ -491,6 +519,7 @@
     "v2_video_4GKVMC",
     "v2_video_pdXnXY",
     "v2_video_yUMyGx",
+    "v2_video_xgpUWK",
     "v2_form_BwzHVR"
   ]
 }
