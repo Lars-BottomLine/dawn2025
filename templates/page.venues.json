@@ -137,10 +137,94 @@
         "bkgr_color": "light-blue",
         "custom_class_names": "",
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": -140,
+        "margin_bottom": 0
+      }
+    },
+    "v2_map_N66fed": {
+      "type": "v2_map",
+      "blocks": {
+        "marker_bpcpPH": {
+          "type": "marker",
+          "settings": {
+            "position": "53.0409183,-1.2029324",
+            "name": "Hucknall Leisure Centre – Nottingham",
+            "address": "Everyone Active\nLinby Road, Hucknall NG15 7TX",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_YRCEqB": {
+          "type": "marker",
+          "settings": {
+            "position": "51.8015708,-0.2068188",
+            "name": "Anytime Fitness",
+            "address": "Unit 54 The Howard Centre Welwyn Garden City AL8 6HA",
+            "button_name": "View Venue",
+            "button_url": "https://www.anytimefitness.co.uk/gyms/UK-0041/welwyn-garden-city-england-al8-6ha/"
+          }
+        },
+        "marker_9BbDze": {
+          "type": "marker",
+          "settings": {
+            "position": "52.4833302,-1.7457924",
+            "name": "North Solihull Everyone Active",
+            "address": "Conway Road Solihull B37 5LA",
+            "button_name": "View Venue",
+            "button_url": "https://www.everyoneactive.com/centre/north-solihull-sports-centre/"
+          }
+        },
+        "marker_iQHAfy": {
+          "type": "marker",
+          "settings": {
+            "position": "51.5084762,-0.2526842",
+            "name": "Mode Club",
+            "address": "36 Bromyard Avenue Acton London W3 7AU",
+            "button_name": "View Venue",
+            "button_url": "https://www.modeclub.co.uk/"
+          }
+        },
+        "marker_WnH8a3": {
+          "type": "marker",
+          "settings": {
+            "position": "52.4754433,-1.4758102",
+            "name": "Bedworth Leisure Centre",
+            "address": "Everyone Active, Coventry Road, Bedworth CV12 8NN",
+            "button_name": "View Venue",
+            "button_url": "https://www.everyoneactive.com/centre/bedworth-leisure-centre/"
+          }
+        },
+        "marker_efMV8z": {
+          "type": "marker",
+          "settings": {
+            "position": "52.6366505,1.2816386",
+            "name": "Complete Fitness",
+            "address": "2 Marriott Close Heigham Street Norwich NR2 4UX",
+            "button_name": "View Venue",
+            "button_url": "https://completefitnessltd.co.uk/"
+          }
+        }
+      },
+      "block_order": [
+        "marker_bpcpPH",
+        "marker_YRCEqB",
+        "marker_9BbDze",
+        "marker_iQHAfy",
+        "marker_WnH8a3",
+        "marker_efMV8z"
+      ],
+      "name": "t:lesections.v2_map.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -165,6 +249,7 @@
     "image_banner_GzGMki",
     "v2_hero_dKmyEE",
     "v2_header_XrAPbj",
+    "v2_map_N66fed",
     "v2_form_j4EUVR"
   ]
 }
