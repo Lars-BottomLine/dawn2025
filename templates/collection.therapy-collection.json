@@ -393,7 +393,7 @@
           "type": "buttoncol",
           "settings": {
             "button_text": "View all courses",
-            "button_url": "",
+            "button_url": "shopify://collections/all-active-courses",
             "button_style": "primary",
             "button_size": "small",
             "button_new_window": false,
