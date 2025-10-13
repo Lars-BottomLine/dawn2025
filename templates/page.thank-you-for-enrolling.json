@@ -1,0 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_GzGMki": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FTBz73": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get started?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WG3THF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_n7nrY7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See current partner gyms",
+            "button_link_1": "shopify://pages/associations-and-partners",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a careers call",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBz73",
+        "text_WG3THF",
+        "buttons_n7nrY7"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-f8e2bb5d-4074-4ee9-8266-9f66fedda8e7",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "v2_page_HcxPMr": {
+      "type": "v2_page",
+      "name": "t:lesections.v2_page.presets.name",
+      "settings": {
+        "page": "{{ page }}",
+        "gembuilder_fix": true,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_GzGMki",
+    "v2_page_HcxPMr"
+  ]
+}
