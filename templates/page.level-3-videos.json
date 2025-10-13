@@ -392,7 +392,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686650366/b7c9260828",
             "cover_image": "shopify://shop_images/Design_1_Title_8_072a5751-a4b3-4405-8a8b-0be46e1155e3.png",
             "description": ""
           }
