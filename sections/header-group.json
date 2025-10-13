@@ -41,6 +41,19 @@
         "enable_language_selector": false
       }
     },
+    "custom_liquid_kUctmb": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {background: #00badb;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"dark\" data-token=\"5e298168-ee61-4b61-860b-06b6f49d6f5a\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "color_scheme": "scheme-1",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "header": {
       "type": "header",
       "blocks": {
@@ -134,25 +147,12 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "custom_liquid_kUctmb": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {background: #00badb;}"
-      ],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"dark\" data-token=\"5e298168-ee61-4b61-860b-06b6f49d6f5a\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
-        "color_scheme": "scheme-1",
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
     }
   },
   "order": [
     "1755084133c5eab34c",
     "announcement-bar",
-    "header",
-    "custom_liquid_kUctmb"
+    "custom_liquid_kUctmb",
+    "header"
   ]
 }
