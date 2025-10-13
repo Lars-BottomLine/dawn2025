@@ -59,15 +59,17 @@
         "marker_F6yLYm": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "Venue Name eouoe",
             "address": "Avenue\nroadHomestead\nPEJDGH",
             "button_name": "View Venue",
-            "button_url": "https://studyactive.co.uk"
+            "button_url": "steps-anchor"
           }
         },
         "marker_WPridh": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -77,6 +79,7 @@
         "marker_LtEiFH": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "eoiuieieii",
             "address": "Avenue roadHoue iueoi ei\nieu i\neuo i ieuiimesteadPEJDGH",
             "button_name": "i euieo iiei ueoi",
@@ -86,6 +89,7 @@
         "marker_Pn4H6V": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -95,6 +99,7 @@
         "marker_GHYGHW": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -104,6 +109,7 @@
         "marker_m9EJDU": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -113,6 +119,7 @@
         "marker_gy6C94": {
           "type": "marker",
           "settings": {
+            "position": "37.4220656,-122.0840897",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -478,7 +485,7 @@
       ],
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
-        "custom_class_names": "",
+        "custom_class_names": "steps-anchor",
         "bkgr_color": "primary",
         "decal_top": true,
         "decal_bottom": true,
