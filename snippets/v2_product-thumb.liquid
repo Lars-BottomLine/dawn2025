@@ -15,7 +15,7 @@
 
 {% liquid
     assign first_call_on_page = false
-    if loopindex == 1
+    if loopindex == 1 or loopindex == blank
         assign first_call_on_page = true
     endif
 
