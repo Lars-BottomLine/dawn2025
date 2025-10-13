@@ -1,0 +1,190 @@
+{% comment %}
+	GEMPAGES BUILDER (https://apps.shopify.com/gempages)
+
+	You SHOULD NOT modify source code in this file because
+	It is automatically generated from GEMPAGES BUILDER
+	Try to edit page with the live editor.
+{% endcomment %}
+
+        jQuery(function() {
+            var $hero = jQuery('#m-1526610100794');
+            var $module = jQuery('#m-1526610100794').children('.module');
+
+            var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
+            if(mode == 'dev') {
+                $module.children('.hero-link').hide();
+            }
+
+            var height = $.trim($module.attr('data-height'));
+            if(height == undefined || height == '') {
+                $hero.attr('style', 'height: auto!important');
+                jQuery(window).resize(function(){
+                    $hero.attr('style', 'height: auto!important');
+                });
+            } else {
+                $hero.removeAttr('style');
+            }
+
+            var effect = $module.attr('data-effect');
+            var transition = $module.attr('data-transition');
+
+            if(effect == 'effect-zoom') {   
+                $module.parent().addClass(effect);
+
+                var backgroundImage = $module.parent().css('background-image');
+                var backgroundSize = $module.parent().css('background-size');
+                var backgroundPosition = $module.parent().css('background-position');
+
+                $module.siblings('.gf_hero-bg-wrap').children('.gf_hero-bg').css({
+                    'background-image'      : backgroundImage,
+                    'background-size'       : backgroundSize,
+                    'background-position'   : backgroundPosition,
+                    '-webkit-transition'    : 'transform ' + transition + 's ease-in-out',
+                    '-moz-transition'       : 'transform ' + transition + 's ease-in-out',
+                    '-ms-transition'        : 'transform ' + transition + 's ease-in-out',
+                    '-o-transition'         : 'transform ' + transition + 's ease-in-out',
+                    'transition'            : 'transform ' + transition + 's ease-in-out'
+                });
+            }
+
+            if($module.attr('data-fixedMode') == '1'){
+                $module.parent().attr('style', 'padding-top: 0px!important; padding-bottom: 0px!important; height: auto!important; background-image: none!important;max-width: 100%!important;');
+
+                jQuery(window).resize(function(){
+                    var backgroundImage =  $module.parent().css('background-image');
+                    console.log('>> background image: ' + backgroundImage);
+
+                    $module.parent().attr('style', 'padding-top: 0px!important; padding-bottom: 0px!important; height: auto!important; background-image: none!important;max-width: 100%!important;');
+                });
+            } else {
+                $module.parent().removeAttr('style');
+            }
+        });
+    
+        jQuery(function() {
+            var $hero = jQuery('#m-1526610100755');
+            var $module = jQuery('#m-1526610100755').children('.module');
+
+            var mode = jQuery('.gryffeditor').hasClass('editing') ? 'dev' : 'production';
+            if(mode == 'dev') {
+                $module.children('.hero-link').hide();
+            }
+
+            var height = $.trim($module.attr('data-height'));
+            if(height == undefined || height == '') {
+                $hero.attr('style', 'height: auto!important');
+                jQuery(window).resize(function(){
+                    $hero.attr('style', 'height: auto!important');
+                });
+            } else {
+                $hero.removeAttr('style');
+            }
+
+            var effect = $module.attr('data-effect');
+            var transition = $module.attr('data-transition');
+
+            if(effect == 'effect-zoom') {   
+                $module.parent().addClass(effect);
+
+                var backgroundImage = $module.parent().css('background-image');
+                var backgroundSize = $module.parent().css('background-size');
+                var backgroundPosition = $module.parent().css('background-position');
+
+                $module.siblings('.gf_hero-bg-wrap').children('.gf_hero-bg').css({
+                    'background-image'      : backgroundImage,
+                    'background-size'       : backgroundSize,
+                    'background-position'   : backgroundPosition,
+                    '-webkit-transition'    : 'transform ' + transition + 's ease-in-out',
+                    '-moz-transition'       : 'transform ' + transition + 's ease-in-out',
+                    '-ms-transition'        : 'transform ' + transition + 's ease-in-out',
+                    '-o-transition'         : 'transform ' + transition + 's ease-in-out',
+                    'transition'            : 'transform ' + transition + 's ease-in-out'
+                });
+            }
+
+            if($module.attr('data-fixedMode') == '1'){
+                $module.parent().attr('style', 'padding-top: 0px!important; padding-bottom: 0px!important; height: auto!important; background-image: none!important;max-width: 100%!important;');
+
+                jQuery(window).resize(function(){
+                    var backgroundImage =  $module.parent().css('background-image');
+                    console.log('>> background image: ' + backgroundImage);
+
+                    $module.parent().attr('style', 'padding-top: 0px!important; padding-bottom: 0px!important; height: auto!important; background-image: none!important;max-width: 100%!important;');
+                });
+            } else {
+                $module.parent().removeAttr('style');
+            }
+        });
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707').children('.module');
+        }); 
+    
+    
+  
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child1').children('.module');
+            $module.gfV3Product();
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child1-0').children('.module');
+            var effect = $module.attr('data-effect');
+            $module.gfV3ProductImage({
+                'effect': effect
+            })
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child1-1').children('.module');
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child1-2').children('.module');
+            $module.gfV3ProductPrice();
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child2').children('.module');
+            $module.gfV3Product();
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child2-0').children('.module');
+            var effect = $module.attr('data-effect');
+            $module.gfV3ProductImage({
+                'effect': effect
+            })
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child2-1').children('.module');
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child2-2').children('.module');
+            $module.gfV3ProductPrice();
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child3').children('.module');
+            $module.gfV3Product();
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child3-0').children('.module');
+            var effect = $module.attr('data-effect');
+            $module.gfV3ProductImage({
+                'effect': effect
+            })
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child3-1').children('.module');
+        }); 
+    
+        jQuery(function() {
+            var $module = jQuery('#m-1526610100707-child3-2').children('.module');
+            $module.gfV3ProductPrice();
+        }); 
+    
