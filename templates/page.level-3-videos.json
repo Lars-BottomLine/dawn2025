@@ -126,7 +126,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686645227/25b2bd5c60",
             "cover_image": "shopify://shop_images/Design_1_Title_15_57d52bf9-e5cb-4a81-b850-cbe69d0129a4.png",
             "description": ""
           }
@@ -249,7 +249,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/779563106",
             "cover_image": "shopify://shop_images/Design_1_Title_16.png",
             "description": ""
           }
@@ -278,7 +278,7 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "",
+            "video_url": "https://vimeo.com/686645354/11e99b6d1f",
             "cover_image": "shopify://shop_images/Design_1_Title_17.png",
             "description": ""
           }
