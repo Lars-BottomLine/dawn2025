@@ -127,41 +127,6 @@
         </div>
         {% endif %}
 
-
-        <script>
-            if (!(typeof window.steps_initLinks === "function")) {
-
-                function steps_initLinks() {
-                    var links = document.querySelectorAll('.st-button .v2-button');
-                    for (var i = 0; i < links.length; i++) {
-                        var link = links[i];
-                        link.addEventListener('click', function (e) {
-                            e.preventDefault();
-                            const target = this.getAttribute('data-target');
-                            if (target.trim().startsWith('https://')) {
-                                window.open(target, '_blank');
-                                return;
-                            }
-                            const target_element = document.querySelector('.' + target);
-                            if (target_element) {
-                                scrollToTargetAdjusted( target_element );
-                            } else {
-                                console.info('StudyActive Section Steps > Target element not found: .' + target);
-                            }
-                        })
-                    }
-                }
-
-                document.addEventListener("DOMContentLoaded", function () {
-                    setTimeout(function () {
-                        steps_initLinks();
-                    }, 250);
-                });
-
-            }
-        </script>
-
-
     </div> {% # /PAGE WIDTH %}
 </div>
 
