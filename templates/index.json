@@ -201,7 +201,7 @@
             "subheadline": "",
             "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+            "button_url": "shopify://collections/wellness-pathway"
           }
         },
         "slide_eCjx47": {
@@ -212,7 +212,7 @@
             "subheadline": "",
             "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/level-3-sports-massage-and-personal-trainer-bundle"
+            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
           }
         },
         "slide_BKBzMU": {
@@ -223,7 +223,7 @@
             "subheadline": "",
             "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p><p></p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-certificate-in-personal-training-l3"
+            "button_url": "shopify://collections/personal-trainer-pathway"
           }
         },
         "slide_eBDWpy": {
@@ -231,7 +231,7 @@
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
             "headline": "<p>Gym Instructor</p>",
-            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "subheadline": "",
             "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
