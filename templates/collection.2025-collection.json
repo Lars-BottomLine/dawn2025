@@ -14,6 +14,9 @@
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "product",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -52,6 +55,7 @@
         "column_ppV3r3",
         "column_eDTUht"
       ],
+      "disabled": true,
       "name": "Step 4: Start earning",
       "settings": {
         "title": "<strong>Step 4:</strong> Start earning",
@@ -111,6 +115,6 @@
     "v2_slideshow_iWEHxP",
     "multicolumn_9fLMCE",
     "product-grid",
-    "banner",
+    "banner"
   ]
 }
