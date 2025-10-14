@@ -1,8 +1,3 @@
-<script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps,marker"
-        defer
-></script>
-
 {%- liquid
 
     assign section_classes = ''
@@ -97,7 +92,7 @@
 
         <div class="v2-map-container sa-col-primary">
 
-            <div class="v2-map-map">
+            <div id="venuemap" class="v2-map-map">
                 {% comment %}<gmp-map center="37.4220656,-122.0840897"
                          zoom="10" map-id="DEMO_MAP_ID"
                          style="height: 100%; width: 100%;">
@@ -139,6 +134,30 @@
 
     </div> {% # /PAGE WIDTH %}
 </div>
+
+
+<script>
+    window.map_data = {
+        'markers': [
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'marker' %}
+                {
+                    'position': '{{ block.settings.position }}',
+                    'name': '{{ block.settings.name }}',
+                    'address': '{{ block.settings.address | newline_to_br | strip_newlines }}',
+                    'button_name': '{{ block.settings.button_name }}',
+                    'button_url': '{{ block.settings.button_url }}'
+                },
+            {% endcase %}
+        {% endfor %}
+        ]
+    }
+    console.log(window.map_data);
+</script>
+<script type="module" src="{{ 'google-map.module.js' | asset_url }}"></script>
+<script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyAvzMF-ekIXGWxGWbHV7oSizbYWHA26PdQ", v: "weekly"});</script>
 
 {% schema %}
     {
