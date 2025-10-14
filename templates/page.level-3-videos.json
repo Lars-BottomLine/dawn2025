@@ -499,21 +499,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_form_BwzHVR": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
-      "settings": {
-        "form_type": "tutor",
-        "custom_class_names": "",
-        "bkgr_color": "primary",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_header_HdcyMt": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -533,7 +518,7 @@
         "text_align": "left",
         "text_width": "full",
         "button_text": "View Exercise Tutorials",
-        "button_url": "",
+        "button_url": "https://vimeo.com/showcase/9229505",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
@@ -543,6 +528,21 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_BwzHVR": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "tutor",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
