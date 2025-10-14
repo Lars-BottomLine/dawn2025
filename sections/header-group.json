@@ -119,7 +119,7 @@
             "right_subheading": "",
             "right_submenu": "2025-mm-courses-right",
             "footer_link_label": "All Courses",
-            "footer_link_url": "shopify://collections/all"
+            "footer_link_url": "shopify://collections/all-active-courses"
           }
         }
       },
