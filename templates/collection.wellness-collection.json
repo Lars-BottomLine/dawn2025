@@ -284,7 +284,7 @@
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Develop the skills and understanding needed to support women through all stages of life. Available programs:</p>",
+            "text": "<p>Develop the skills and understanding needed to support women through all stages of life. Available programmes:</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -340,7 +340,7 @@
           "type": "buttoncol",
           "settings": {
             "button_text": "View All Courses",
-            "button_url": "shopify://collections/all-active-courses",
+            "button_url": "",
             "button_style": "primary",
             "button_size": "small",
             "button_new_window": false,
@@ -413,7 +413,7 @@
           "type": "buttoncol",
           "settings": {
             "button_text": "View all courses",
-            "button_url": "shopify://collections/all-active-courses",
+            "button_url": "",
             "button_style": "primary",
             "button_size": "small",
             "button_new_window": false,
@@ -586,7 +586,7 @@
           "type": "buttoncol",
           "settings": {
             "button_text": "View All Courses",
-            "button_url": "shopify://collections/all-active-courses",
+            "button_url": "",
             "button_style": "primary",
             "button_size": "small",
             "button_new_window": false,
