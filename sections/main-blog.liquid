@@ -49,41 +49,33 @@
 
 {%- style -%}
     .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
     }
 
     @media screen and (min-width: 750px) {
-        .section-{{ section.id }}-padding {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
-        .section-{{ section.id }}-margin {
-            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
-        }
+    .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+    }
     }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
-    <div class="sa-section-mainblog
+{%- paginate blog.articles by 12 -%}
+    <div class="v2-section-mainblog
                 {{ section_classes }}">
 
         <div class="page-width">
 
-            {% # HEADING
-               # ---------------------- %}
-            <div class="mb-heading{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-                <{{ section.settings.heading_type }} class="tm-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
-                    {{ blog.title }}
-                </{{ section.settings.heading_type }}>
-            </div>
-
-            <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+            <div class="v2-blog-articles ">
                 {%- for article in blog.articles -%}
                     <div
                             class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -116,64 +108,13 @@
 
 {% schema %}
 {
-  "name": "t:sections.le_mainblog.name",
+  "name": "t:lesections.v2_mainblog.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
-
-    {
-      "type": "select",
-      "id": "heading_type",
-      "options": [
-        {
-          "value": "h1",
-          "label": "H1"
-        },
-        {
-          "value": "h2",
-          "label": "H2"
-        },
-        {
-          "value": "h3",
-          "label": "H3"
-        },
-        {
-          "value": "div",
-          "label": "DIV"
-        }
-      ],
-      "default": "h1",
-      "label": "Heading type"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "small",
-          "label": "Small"
-        },
-        {
-          "value": "normal",
-          "label": "Normal"
-        },
-        {
-          "value": "large",
-          "label": "Large"
-        }
-      ],
-      "default": "normal",
-      "label": "Heading font size"
-    },
-    {
-      "type": "checkbox",
-      "id": "no_decal",
-      "default": false,
-      "label": "No decals on 'Heading'"
-    },
 
     {
       "type": "select",
@@ -195,67 +136,6 @@
       ],
       "default": "white"
     },
-
-    {
-      "type": "select",
-      "id": "layout",
-      "options": [
-        {
-          "value": "grid",
-          "label": "t:sections.main-blog.settings.layout.options__1.label"
-        },
-        {
-          "value": "collage",
-          "label": "t:sections.main-blog.settings.layout.options__2.label"
-        }
-      ],
-      "default": "collage",
-      "label": "t:sections.main-blog.settings.layout.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_image",
-      "default": true,
-      "label": "t:sections.main-blog.settings.show_image.label"
-    },
-    {
-      "type": "select",
-      "id": "image_height",
-      "options": [
-        {
-          "value": "adapt",
-          "label": "t:sections.main-blog.settings.image_height.options__1.label"
-        },
-        {
-          "value": "small",
-          "label": "t:sections.main-blog.settings.image_height.options__2.label"
-        },
-        {
-          "value": "medium",
-          "label": "t:sections.main-blog.settings.image_height.options__3.label"
-        },
-        {
-          "value": "large",
-          "label": "t:sections.main-blog.settings.image_height.options__4.label"
-        }
-      ],
-      "default": "medium",
-      "label": "t:sections.main-blog.settings.image_height.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_date",
-      "default": true,
-      "label": "t:sections.main-blog.settings.show_date.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_author",
-      "default": false,
-      "label": "t:sections.main-blog.settings.show_author.label"
-    },
-
-
 
     {
       "type": "header",
@@ -333,6 +213,11 @@
       "unit": "px",
       "label": "t:sections.all.margin.margin_bottom",
       "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.v2_mainblog.presets.name"
     }
   ]
 }
