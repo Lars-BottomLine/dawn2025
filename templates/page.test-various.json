@@ -59,7 +59,7 @@
         "marker_F6yLYm": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "51.8015708,-0.2068188",
             "name": "Venue Name eouoe",
             "address": "Avenue\nroadHomestead\nPEJDGH",
             "button_name": "View Venue",
@@ -69,7 +69,7 @@
         "marker_WPridh": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "52.4754433,-1.4758102",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -79,7 +79,7 @@
         "marker_LtEiFH": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "52.6366505,1.2816386",
             "name": "eoiuieieii",
             "address": "Avenue roadHoue iueoi ei\nieu i\neuo i ieuiimesteadPEJDGH",
             "button_name": "i euieo iiei ueoi",
@@ -89,7 +89,7 @@
         "marker_Pn4H6V": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "53.0409183,-1.2029324",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -99,7 +99,7 @@
         "marker_GHYGHW": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "52.3942097,-0.0325619",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -109,7 +109,7 @@
         "marker_m9EJDU": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "51.5084762,-0.2526842",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
             "button_name": "View Venue",
@@ -119,9 +119,29 @@
         "marker_gy6C94": {
           "type": "marker",
           "settings": {
-            "position": "37.4220656,-122.0840897",
+            "position": "52.4833302,-1.7457924…",
             "name": "Venue Name",
             "address": "Avenue roadHomesteadPEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_8hf6wd": {
+          "type": "marker",
+          "settings": {
+            "position": "51.3563194,1.3865922",
+            "name": "Venue Name",
+            "address": "Avenue road<br>Homestead<br>PEJDGH",
+            "button_name": "View Venue",
+            "button_url": "https://studyactive.co.uk"
+          }
+        },
+        "marker_MDY4Ni": {
+          "type": "marker",
+          "settings": {
+            "position": "50.9691645,-1.3736477",
+            "name": "Venue Name",
+            "address": "Avenue road<br>Homestead<br>PEJDGH",
             "button_name": "View Venue",
             "button_url": "https://studyactive.co.uk"
           }
@@ -134,7 +154,9 @@
         "marker_Pn4H6V",
         "marker_GHYGHW",
         "marker_m9EJDU",
-        "marker_gy6C94"
+        "marker_gy6C94",
+        "marker_8hf6wd",
+        "marker_MDY4Ni"
       ],
       "name": "t:lesections.v2_map.presets.name",
       "settings": {
