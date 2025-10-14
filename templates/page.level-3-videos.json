@@ -347,6 +347,44 @@
         "margin_bottom": 0
       }
     },
+    "v2_video_EMMEgc": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_BjPebK": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/871080070/3090bc11da",
+            "cover_image": "shopify://shop_images/Design_1_Title_14_2d90e099-58b6-4265-a257-e3d137229575.png",
+            "description": ""
+          }
+        },
+        "videoblock_ED7mjk": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/686645227/25b2bd5c60",
+            "cover_image": "shopify://shop_images/Design_1_Title_15_57d52bf9-e5cb-4a81-b850-cbe69d0129a4.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_BjPebK",
+        "videoblock_ED7mjk"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_video_xpkqej": {
       "type": "v2_video",
       "blocks": {
@@ -372,44 +410,6 @@
       "block_order": [
         "videoblock_BPmCkU",
         "videoblock_QhAade"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_EMMEgc": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_ED7mjk": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/686644867/f8f3fb71c7",
-            "cover_image": "shopify://shop_images/Design_1_Title_7_12a629d6-5b09-4e48-9fcc-aa603bedee7d.png",
-            "description": ""
-          }
-        },
-        "videoblock_BjPebK": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/871080070/3090bc11da",
-            "cover_image": "shopify://shop_images/Design_1_Title_14_2d90e099-58b6-4265-a257-e3d137229575.png",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_ED7mjk",
-        "videoblock_BjPebK"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
@@ -516,8 +516,8 @@
     "v2_video_pdXnXY",
     "v2_video_Y33teU",
     "v2_video_yUMyGx",
-    "v2_video_xpkqej",
     "v2_video_EMMEgc",
+    "v2_video_xpkqej",
     "v2_video_4GKVMC",
     "v2_video_xgpUWK",
     "v2_form_BwzHVR"
