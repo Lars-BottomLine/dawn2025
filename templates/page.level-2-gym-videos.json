@@ -385,6 +385,41 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_UktRgk": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Further Learning</p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>For more videos on training techniques, you can explore our exercise tutorial library on our <a href=\"https://www.youtube.com/@StudyActiv3/playlists\" target=\"_blank\" title=\"https://www.youtube.com/@StudyActiv3/playlists\">YouTube playlist here</a>, or access additional videos through the link below.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "View Exercise Tutorials",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_form_BwzHVR": {
       "type": "v2_form",
       "name": "t:lesections.v2_form.presets.name",
@@ -413,6 +448,7 @@
     "v2_video_M6dtHH",
     "v2_video_EMMEgc",
     "v2_video_4GKVMC",
+    "v2_header_UktRgk",
     "v2_form_BwzHVR"
   ]
 }
