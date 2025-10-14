@@ -6,12 +6,12 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="cb564c8d-1821-4808-ac65-ef0ad7eba80e" />
+  <input type="hidden" name="or" value="87c48360-310c-4c58-9b19-4fe2ad58562e" />
   <div class="_form-content">
     <div class="_form_element _x40634032 _full_width _clear" >
-      <title class="_form-title">
+      <h2 class="_form-title">
         Not sure where to start?
-      </title>
+      </h2>
     </div>
     <div class="_form_element _x63892171 _full_width _clear" >
       <div class="_html-code">
@@ -73,6 +73,9 @@
     <option value="CPD Courses" >
       CPD Courses
     </option>
+    <option value="#REF!" >
+      #REF!
+    </option>
   </select>
 </div>
 </div>
@@ -109,6 +112,8 @@ window._show_thank_you = function(id, message, trackcmp_url, email) {
         _load_script(trackcmp_url);
     }
     if (typeof window._form_callback !== 'undefined') window._form_callback(id);
+    thank_you.setAttribute('tabindex', '-1');
+    thank_you.focus();
 };
 window._show_unsubscribe = function(id, message, trackcmp_url, email) {
     var form = document.getElementById('_form_' + id + '_'), unsub = form.querySelector('._form-thank-you');
@@ -349,6 +354,8 @@ window._load_script = function(url, callback, isSubmit) {
         var tooltip = document.createElement('div'),
             arrow = document.createElement('div'),
             inner = document.createElement('div'), new_tooltip = {};
+        tooltip.id = `${elem.id}-error`;
+        tooltip.setAttribute('role', 'alert')
         if (elem.type != 'radio' && (elem.type != 'checkbox' || elem.name === 'sms_consent')) {
             tooltip.className = '_error';
             arrow.className = '_error-arrow';
@@ -387,6 +394,8 @@ window._load_script = function(url, callback, isSubmit) {
     var validate_field = function(elem, remove) {
         var tooltip = null, value = elem.value, no_error = true;
         remove ? remove_tooltip(elem) : false;
+        elem.removeAttribute('aria-invalid');
+        elem.removeAttribute('aria-describedby');
         if (elem.type != 'checkbox') elem.className = elem.className.replace(/ ?_has_error ?/g, '');
         if (elem.getAttribute('required') !== null) {
             if (elem.type == 'radio' || (elem.type == 'checkbox' && /any/.test(elem.className))) {
@@ -486,6 +495,10 @@ window._load_script = function(url, callback, isSubmit) {
             }
         }
         tooltip ? resize_tooltip(tooltip) : false;
+        if (!no_error && elem.hasAttribute('id')) {
+            elem.setAttribute('aria-invalid', 'true');
+            elem.setAttribute('aria-describedby', `${elem.id}-error`);
+        }
         return no_error;
     };
     var needs_validate = function(el) {
@@ -553,6 +566,12 @@ window._load_script = function(url, callback, isSubmit) {
         }
         if (!no_error && e) {
             e.preventDefault();
+        }
+        if (!no_error) {
+            const firstFocusableError = form_to_submit.querySelector('._has_error:not([disabled])');
+            if (firstFocusableError && typeof firstFocusableError.focus === 'function') {
+                firstFocusableError.focus();
+            }
         }
         resize_tooltips();
         return no_error;
