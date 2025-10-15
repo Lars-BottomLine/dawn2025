@@ -314,6 +314,7 @@
         "slide_type": "blue",
         "blog": "",
         "blog_post_limit": 3,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -1298,96 +1299,6 @@
         "margin_bottom": 0
       }
     },
-    "le_text_and_background_gtyQwb": {
-      "type": "le_text-and-background",
-      "blocks": {
-        "row_heading_c4UhwE": {
-          "type": "row-heading",
-          "settings": {
-            "text": "<p>Quick links</p>",
-            "heading_type": "h2",
-            "heading_size": "large"
-          }
-        },
-        "row2col_y7Rqn7": {
-          "type": "row2col",
-          "settings": {
-            "text1": "<p>ouoaeuu</p>",
-            "text1_size": "medium",
-            "text2": "<p>eueoaueu</p>",
-            "text2_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "row_heading_c4UhwE",
-        "row2col_y7Rqn7"
-      ],
-      "name": "t:sections.le_tab.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/gym_workout.webp",
-        "stretch_image": true,
-        "section_bkgr": "primary",
-        "mobile_image": "medium",
-        "mobile_text": "default",
-        "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_featured_blog_phLeqa": {
-      "type": "le_featured-blog",
-      "name": "t:sections.le_featured-blog.presets.name",
-      "settings": {
-        "blog": "news",
-        "post_limit": 7,
-        "heading": "Tips, trends and training advice",
-        "show_view_all": false,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "le_image_with_text_HaCjqD": {
-      "type": "le_image-with-text",
-      "blocks": {
-        "newsletter_form_9VfPF6": {
-          "type": "newsletter_form",
-          "settings": {
-            "heading": "Want to stay informed about everything fitness?"
-          }
-        }
-      },
-      "block_order": [
-        "newsletter_form_9VfPF6"
-      ],
-      "name": "t:sections.le_imagentext.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/gym-trainer-explaining.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "right",
-        "mobile_content_alignment": "center",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_newsletter_EFqipn": {
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
@@ -1481,6 +1392,7 @@
         "slide_type": "dark",
         "blog": "",
         "blog_post_limit": 3,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -1500,6 +1412,7 @@
         "slide_type": "blog",
         "blog": "news",
         "blog_post_limit": 5,
+        "product_list": [],
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
@@ -1533,9 +1446,6 @@
     "v2_flexible_Xgp6a3",
     "v2_text_plus_image_PcfkMY",
     "v2_accordion_MwEKUC",
-    "le_text_and_background_gtyQwb",
-    "le_featured_blog_phLeqa",
-    "le_image_with_text_HaCjqD",
     "v2_newsletter_EFqipn",
     "v2_slideshow_QnTMb9",
     "v2_slideshow_dQQAPd"
