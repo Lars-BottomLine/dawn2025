@@ -67,39 +67,103 @@
         "show_text_below": true
       }
     },
-    "v2_header_aV8pQc": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
+    "v2_cards_NXqnHm": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_f6YTkB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Save money with our discounted full payment option</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_L6C4KH": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £29/month available </strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_zh4ADb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Terms and conditions apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_f6YTkB",
+        "card_L6C4KH",
+        "card_zh4ADb"
+      ],
+      "name": "v2 - Cards - Vertical Light Blue",
       "settings": {
-        "heading_text": "<p>Thank you!</p>",
-        "heading_type": "h1",
-        "heading_size": "hero",
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
         "heading_align": "center",
-        "heading_width": "full",
-        "text": "<p>We appreciate your interest in studying with us. </p>",
-        "text_size": "copy-l",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
         "text_align": "center",
-        "text_width": "full",
+        "text_width": "medium",
         "button_text": "",
-        "button_url": "",
+        "button_url": "shopify://blogs/news/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
         "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
+        "button_size": "medium",
+        "button_new_window": true,
         "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "courses",
+        "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 136,
-        "padding_bottom": 56,
-        "margin_top": 0,
-        "margin_bottom": -64
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 4,
+        "margin_bottom": 0
       }
     },
     "v2_hero_dKmyEE": {
@@ -148,26 +212,6 @@
     "v2_steps_e63nQr": {
       "type": "v2_steps",
       "blocks": {
-        "step_4xe9BU": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "Download The Brochure",
-            "text": "<p>Get more information on our course offering, career opportunities, and more.</p>",
-            "button_text": "Get your brochure",
-            "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/SA_Brochure_Update_13.10.2025.pdf?v=1760363136"
-          }
-        },
-        "step_9t3MNb": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "Don't wait - get started today!",
-            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
-            "button_text": "See our top courses",
-            "button_link": "courses_header"
-          }
-        },
         "step_N7MwQg": {
           "type": "step",
           "settings": {
@@ -177,18 +221,39 @@
             "button_text": "Submit your question",
             "button_link": "questions"
           }
+        },
+        "step_WBENiz": {
+          "type": "step",
+          "disabled": true,
+          "settings": {
+            "number": "",
+            "title": "ELCAS funding options",
+            "text": "<p>Discover an exclusive funding opportunity for Armed Forces personnel</p>",
+            "button_text": "Discover ELCAS funding",
+            "button_link": "questions"
+          }
+        },
+        "step_9t3MNb": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Get started today for as little as £29 per month",
+            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
+            "button_text": "See our top courses",
+            "button_link": "courses_header"
+          }
         }
       },
       "block_order": [
-        "step_4xe9BU",
-        "step_9t3MNb",
-        "step_N7MwQg"
+        "step_N7MwQg",
+        "step_WBENiz",
+        "step_9t3MNb"
       ],
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
         "custom_class_names": "",
         "bkgr_color": "light-blue",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -278,7 +343,7 @@
   "order": [
     "main",
     "image_banner_GzGMki",
-    "v2_header_aV8pQc",
+    "v2_cards_NXqnHm",
     "v2_hero_dKmyEE",
     "v2_steps_e63nQr",
     "v2_header_XrAPbj",
