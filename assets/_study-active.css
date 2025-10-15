@@ -4712,6 +4712,9 @@ sticky-header .cart-count-bubble span {
   position: relative;
   padding: 1rem 1.25rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .v2-tag span {
   position: relative;
@@ -6368,6 +6371,10 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
   display: flex;
   justify-content: flex-end;
 }
+.v2-section-newsletter .v2-nl-content input[type=text] {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
 .v2-section-newsletter .v2-nl-content .v2-nl-box {
   z-index: 1;
   background: var(--color-light-blue);
@@ -6395,7 +6402,7 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._html-code {
   color: inherit !important;
-  margin-bottom: 2.5rem !important;
+  margin-bottom: 3rem !important;
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._button-wrapper._full_width {
   display: flex;
