@@ -69,7 +69,7 @@
     }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 7 -%}
+{%- paginate blog.articles by section.settings.articles_per_page -%}
     <div class="v2-section-mainblog
                 {{ section_classes }}">
 
@@ -82,7 +82,9 @@
                         Filters
                     </div>
 
-                    <div class="v2-tag-wrapper sa-col-primary -size-medium">
+                    {% # FILTER: DESKTOP
+                       # ---------------------------------------- %}
+                    <div class="v2-tag-wrapper -desktop sa-col-primary -size-medium">
                         <a class="v2-tag {% if current_tags == blank %} -active {% endif %}" href="/blogs/news">
                             <span>All</span>
                         </a>
@@ -110,6 +112,27 @@
                         {% endfor %}
                     </div>
 
+                 {% # FILTER: MOBILE
+                    # ------------------------- %}
+                    <div class="v2-tag-filter-mobile v2-sa-form-wrapper flex justify-start items-center gap-4 _font-copy-m">
+                        <form class="w-full">
+                            <select name="filter_for">
+                                <option value="all">Choose topic</option>
+                                <option value="/blogs/news">All</option>
+                                {% for tag in blog.all_tags %}
+                                    {% assign tag_slug = tag | handle %}
+                                    <option
+                                            class="v2-tag-filter"
+                                            value="/blogs/news/tagged/{{ tag_slug }}"
+                                    >
+                                        {{ tag }}
+                                    </option>
+                                {% endfor %}
+
+                            </select>
+                        </form>
+                    </div>
+
                 </div>
             {% endif %}
 
@@ -132,12 +155,41 @@
             </div>
 
             {%- if paginate.pages > 1 -%}
-                {%- render 'pagination', paginate: paginate -%}
+                {%- render 'v2-pagination', paginate: paginate -%}
             {%- endif -%}
 
         </div>
 
     </div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                v2_main_blog_init();
+            }, 50);
+        });
+
+        // MOBILE
+        // ---------------------
+        function v2_main_blog_init() {
+            console.log(document.querySelector('.v2-tag-filter-mobile select'));
+            document.querySelector('.v2-tag-filter-mobile select').addEventListener('change', function (e) {
+                e.preventDefault();
+
+                const filter_slug = this.value;
+                const filter_name = this.options[this.selectedIndex].text;
+
+                // console.log('filter_slug', filter_slug, filter_name);
+
+                window.location.href = filter_slug;
+
+            })
+        }
+
+
+    </script>
+
 {%- endpaginate -%}
 
 {% schema %}
@@ -149,6 +201,17 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+
+    {
+      "type": "range",
+      "id": "articles_per_page",
+      "min": 1,
+      "max": 40,
+      "step": 3,
+      "unit": "art",
+      "label": "Articles per page",
+      "default": 13
+    },
 
     {
       "type": "select",

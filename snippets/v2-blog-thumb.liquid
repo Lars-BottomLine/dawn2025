@@ -95,8 +95,8 @@
         <div class="v2-row">
 
             <div class="v2-bt-meta {{ classes_meta }}">
-                <span>{{ article.published_at | time_tag: format: 'date' }} | </span>
-                <span>{{ article.author }}</span>
+                <span>{{ article.author }} | </span>
+                <span>{{ article.published_at | time_tag: format: 'date' }}</span>
             </div>
 
             {% if headline != blank %}
@@ -135,5 +135,21 @@
         </div>
 
     </div>
+
+    {% if iz_wide %}
+        <div class="v2-row v2-bt-wide-mobile-button">
+            <a href="{{ article.url }}" class="sa-swiper-button -hover-grow -medium">
+
+                    <span class="_font-copy-xl leading-none">
+                        Read more
+                    </span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none" class="sa-button-icon">
+                    <path d="M22.9873 17.2073H0.666504V13.5406H22.9873L12.7207 3.27394L15.3332 0.707275L29.9998 15.3739L15.3332 30.0406L12.7207 27.4739L22.9873 17.2073Z" fill="#00268B"/>
+                </svg>
+
+            </a>
+        </div>
+    {% endif %}
 
 </div>
