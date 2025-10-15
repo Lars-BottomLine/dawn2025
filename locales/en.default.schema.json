@@ -305,6 +305,14 @@
 
 
 
+    "v2_mainblog": {
+      "name": "v2 - Blogs Overview",
+      "presets": {
+        "name": "v2 - Blogs Overview"
+      }
+    },
+
+
 
 
     "hero": {
