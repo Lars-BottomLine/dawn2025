@@ -11,6 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/Study_Active_Logo.svg",
     "logo_width": 90,
+    "favicon": "{{ shop.brand.square_logo }}",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "poppins_n4",
