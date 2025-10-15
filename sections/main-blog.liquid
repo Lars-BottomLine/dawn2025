@@ -69,39 +69,65 @@
     }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
-    <div class="sa-section-mainblog
+{%- paginate blog.articles by 7 -%}
+    <div class="v2-section-mainblog
                 {{ section_classes }}">
 
-        <div class="page-width">
+        <div class="page-width -wide">
 
-            {% # HEADING
-               # ---------------------- %}
-            <div class="mb-heading{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-                <{{ section.settings.heading_type }} class="tm-headline {% if section.settings.no_decal %} -no-decal {% endif %} -h-text-{{ section.settings.heading_size }}">
-                    {{ blog.title }}
-                </{{ section.settings.heading_type }}>
-            </div>
+            {% if blog.tags != blank %}
+                <div class="v2-blog-tag-filter">
 
-            <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-                {%- for article in blog.articles -%}
-                    <div
-                            class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                            {% if settings.animations_reveal_on_scroll %}
-                                data-cascade
-                                style="--animation-order: {{ forloop.index }};"
-                            {% endif %}
-                    >
-                        {%- render 'article-card',
-                                article: article,
-                                media_height: section.settings.image_height,
-                                media_aspect_ratio: article.image.aspect_ratio,
-                                show_image: section.settings.show_image,
-                                show_date: section.settings.show_date,
-                                show_author: section.settings.show_author,
-                                show_excerpt: true
-                        -%}
+                    <div class="v2-btf-title _font-copy-xl">
+                        Filters
                     </div>
+
+                    <div class="v2-tag-wrapper sa-col-primary -size-medium">
+                        <a class="v2-tag {% if current_tags == blank %} -active {% endif %}" href="/blogs/news">
+                            <span>All</span>
+                        </a>
+                        {% for tag in blog.all_tags %}
+                            {% assign tag_classes = '' %}
+                            {%- if current_tags contains tag -%}
+                                {% assign tag_classes = ' -active ' %}
+                            {%- endif -%}
+                            {% comment %}{% liquid
+                                # Capitalizing every word
+                                assign tag_tmp = tag | split: ' '
+                                assign tag_name = ''
+                                for tt in tag_tmp
+                                    assign tt_cap = tt | capitalize
+                                    assign tag_name = tag_name | append: ' ' | append: tt_cap
+                                endfor
+                                if tag_name == 'Ai'
+                                    assign tag_name = 'AI'
+                                endif
+                            %}{% endcomment %}
+                            <a class="v2-tag {{ tag_classes }}" href="/blogs/news/tagged/{{ tag | handleize }}"
+                               data-tag="{{ tag | strip_html | strip_newlines | strip }}">
+                                <span>{{ tag | trim }}</span>
+                            </a>
+                        {% endfor %}
+                    </div>
+
+                </div>
+            {% endif %}
+
+            <div class="v2-bt-articles">
+                {%- for article in blog.articles -%}
+
+                    {% assign thumb_type = 'blog_thumb' %}
+                    {% if forloop.index == 1 %}
+                        {% assign thumb_type = 'blog_thumb_wide' %}
+                    {% endif %}
+
+                    {% render 'v2-blog-thumb',
+                            article: article,
+                            thumb_type: thumb_type,
+                            section_index: section.index,
+                            forloop: forloop
+                    %}
+
                 {%- endfor -%}
             </div>
 

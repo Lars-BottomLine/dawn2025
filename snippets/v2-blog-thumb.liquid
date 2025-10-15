@@ -1,0 +1,139 @@
+{% comment %}
+  Renders a Blog thumb
+
+  Accepts:
+  - section_index: {Int}
+  - forloop: {forloop}
+  - article: {Object} Blog article
+
+
+  Usage:
+  {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+{% endcomment %}
+
+{% liquid
+
+    assign iz_wide = false
+
+    assign classes_meta = ' _font-copy-xs'
+    assign classes_headline = ' _font-copy-l !font-bold '
+    assign classes_text = ' _font-copy-m '
+    assign classes_tag = ' -size-small -darker '
+
+    assign image = article.image
+    assign headline = article.title
+
+    assign tag_start = '<a class="v2-bt-left" href="' | append: article.url | append: '">'
+    assign tag_end = '</a>'
+
+    if thumb_type == 'blog_thumb_wide'
+        assign tag_start = '<div class="v2-bt-left">'
+        assign tag_end = '</div>'
+        assign iz_wide = true
+        assign classes_meta = ' _font-copy-m '
+        assign classes_headline = ' _font-h3 !font-bold -no-decal '
+        assign classes_text = ' _font-copy-l '
+        assign classes_tag = ' -size-medium '
+    endif
+
+    if slide_target_url == blank
+        assign slide_target_url = article.url
+    endif
+
+%}
+
+
+{%- if article.excerpt.size > 0 or article.content.size > 0 -%}
+    {%- if article.excerpt.size > 0 -%}
+        {%  assign article_text = article.excerpt | strip_html | truncatewords: 30 %}
+    {%- else -%}
+        {%  assign article_text = article.content | strip_html | truncatewords: 30 %}
+    {%- endif -%}
+{%- endif -%}
+
+<div class="v2-blog-thumb -hover-grow -type-{% if iz_wide %}wide{% else %}standard{% endif %} ">
+
+    {{ tag_start }}
+        <div class="v2-bt-media media">
+            {%- if image -%}
+                {%- liquid
+                    assign height = image.width | divided_by: image.aspect_ratio | round
+
+                    assign sizes = '100vw'
+                    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+
+                    assign fetch_priority = 'auto'
+                    if section_index == 1
+                        assign fetch_priority = 'high'
+                    endif
+                -%}
+                {%- if forloop.first %}
+                    {{
+                    image
+                        | image_url: width: 3840
+                        | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                {%- else -%}
+                    {{
+                    image
+                        | image_url: width: 3840
+                        | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                    }}
+                {%- endif -%}
+            {%- else -%}
+                {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                {%- if placeholder_slide == 1 -%}
+                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- else -%}
+                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            {%- endif -%}
+        </div>
+    {{ tag_end }}
+
+    <div class="v2-bt-right v2-bt-content">
+        <div class="v2-row">
+
+            <div class="v2-bt-meta {{ classes_meta }}">
+                <span>{{ article.published_at | time_tag: format: 'date' }} | </span>
+                <span>{{ article.author }}</span>
+            </div>
+
+            {% if headline != blank %}
+                <div class="v2-bt-headline {{ classes_headline }}">
+                    {{ headline | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </div>
+            {% endif %}
+
+            {% if article_text != blank %}
+                <div class="v2-bt-text {{ classes_text }}">
+                    {{ article_text | remove: "<p>" | replace: '</p>', '<br>' | remove_last: '<br>' }}
+                </div>
+            {% endif %}
+
+            {% if iz_wide %}
+            {% else %}
+                <a class="v2-invisible-link" href="{{ article.url }}"></a>
+            {% endif %}
+
+            {% if article.tags != blank %}
+                <div class="v2-tag-wrapper sa-col-primary -size-small">
+                    {% for tag in article.tags %}
+                        <a class="v2-tag  {{ classes_tag }}" href="/blogs/news/tagged/{{ tag | handleize }}" data-tag="{{ tag | strip_html | strip_newlines | strip }}">
+                            <span>{{ tag | trim }}</span>
+                        </a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if iz_wide %}
+                <a class="v2-button -style-primary -hover-grow" href="{{ article.url }}">
+                    <span>Read more</span>
+                </a>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
