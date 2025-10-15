@@ -6391,6 +6391,7 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title {
   color: inherit !important;
   max-width: 91%;
+  margin-bottom: 0.8rem;
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._form-title:before {
   top: 0 !important;
@@ -6406,6 +6407,7 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._button-wrapper._full_width {
   display: flex;
+  margin-top: 3rem;
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit {
   background-color: transparent !important;
@@ -6442,7 +6444,7 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
   background-color: var(--color-secondary) !important;
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._row._checkbox-radio {
-  margin-top: 1.75rem;
+  margin-top: 0.75rem;
 }
 .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form ._row._checkbox-radio input {
   min-height: 0 !important;
