@@ -224,13 +224,12 @@
         },
         "step_WBENiz": {
           "type": "step",
-          "disabled": true,
           "settings": {
             "number": "",
             "title": "ELCAS funding options",
             "text": "<p>Discover an exclusive funding opportunity for Armed Forces personnel</p>",
             "button_text": "Discover ELCAS funding",
-            "button_link": "questions"
+            "button_link": "https://studyactive.co.uk/pages/elcas-funding"
           }
         },
         "step_9t3MNb": {
