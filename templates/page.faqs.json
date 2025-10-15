@@ -339,7 +339,7 @@
           "type": "accordion_row",
           "settings": {
             "heading": "What is your refund policy for Study Active courses? ",
-            "row_content": "<p> You can find our full refund policy in our Terms and Conditions, and we are happy to answer any questions before you enrol.</p>"
+            "row_content": "<p>If you cancel within 14 days of enrolment, you may request a refund. Please note an administrative fee will be charged for access to any eLearning, which is non-refundable. After 14 days, no refunds are given.</p>"
           }
         },
         "accordion_row_4dy97D": {
@@ -348,18 +348,42 @@
             "heading": "What about courses delivered by partner providers? ",
             "row_content": "<p> If you enrol on a course delivered by one of our partner providers, then refunds and cancellations are handled by them directly. We will always give you their details, so you know exactly who to speak to.</p>"
           }
+        },
+        "accordion_row_FJQqMz": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "row_content": "<p>Payments can be made online with debit card, credit card, or PayPal. Alternatively, you can pay your first instalment online and the remaining payments are collected via GoCardless direct debits. Learn more about <a href=\"/pages/payment-plan-conditions\" title=\"Payment Plan Conditions\">GoCardless Terms</a> here.</p>"
+          }
+        },
+        "accordion_row_69zbAY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is my payment information secure?",
+            "row_content": "<p>Yes, all payments are processed securely through trusted payment gateways. Your payment details are protected and never stored by Study Active.</p>"
+          }
+        },
+        "accordion_row_dhK3K6": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What should I do if my payment fails?",
+            "row_content": "<p>Please contact our support team immediately so we can help resolve any payment issues and ensure your course access is uninterrupted. support@studyactive.co.uk </p>"
+          }
         }
       },
       "block_order": [
         "accordion_row_eT64aw",
         "accordion_row_NgeiCb",
         "accordion_row_x9QmVT",
-        "accordion_row_4dy97D"
+        "accordion_row_4dy97D",
+        "accordion_row_FJQqMz",
+        "accordion_row_69zbAY",
+        "accordion_row_dhK3K6"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
         "bkgr_color": "primary",
-        "heading_text": "<p><strong>Costs, Payment and Refunds</strong></p>",
+        "heading_text": "<p><strong>Costs, Payment Methods and Refunds</strong></p>",
         "heading_align": "center",
         "heading_type": "h2",
         "heading_size": "h2",
