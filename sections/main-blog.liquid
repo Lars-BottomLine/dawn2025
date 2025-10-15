@@ -49,51 +49,85 @@
 
 {%- style -%}
     .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
     .section-{{ section.id }}-margin {
-    margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
-    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-top: {% if decal_top %}{{ section.settings.margin_top | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_top | times: 0.75 | round: 0 }}{% endif %}px;
+        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 | plus: 105 }}{% else %}{{ section.settings.margin_bottom | times: 0.75 | round: 0 }}{% endif %}px;
     }
 
     @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-    .section-{{ section.id }}-margin {
-    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
-    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
-    }
+        .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+        .section-{{ section.id }}-margin {
+            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px;
+            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px;
+        }
     }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 12 -%}
+{%- paginate blog.articles by 7 -%}
     <div class="v2-section-mainblog
                 {{ section_classes }}">
 
-        <div class="page-width">
+        <div class="page-width -wide">
 
-            <div class="v2-blog-articles ">
-                {%- for article in blog.articles -%}
-                    <div
-                            class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                            {% if settings.animations_reveal_on_scroll %}
-                                data-cascade
-                                style="--animation-order: {{ forloop.index }};"
-                            {% endif %}
-                    >
-                        {%- render 'article-card',
-                                article: article,
-                                media_height: section.settings.image_height,
-                                media_aspect_ratio: article.image.aspect_ratio,
-                                show_image: section.settings.show_image,
-                                show_date: section.settings.show_date,
-                                show_author: section.settings.show_author,
-                                show_excerpt: true
-                        -%}
+            {% if blog.tags != blank %}
+                <div class="v2-blog-tag-filter">
+
+                    <div class="v2-btf-title _font-copy-xl">
+                        Filters
                     </div>
+
+                    <div class="v2-tag-wrapper sa-col-primary -size-medium">
+                        <a class="v2-tag {% if current_tags == blank %} -active {% endif %}" href="/blogs/news">
+                            <span>All</span>
+                        </a>
+                        {% for tag in blog.all_tags %}
+                            {% assign tag_classes = '' %}
+                            {%- if current_tags contains tag -%}
+                                {% assign tag_classes = ' -active ' %}
+                            {%- endif -%}
+                            {% comment %}{% liquid
+                                # Capitalizing every word
+                                assign tag_tmp = tag | split: ' '
+                                assign tag_name = ''
+                                for tt in tag_tmp
+                                    assign tt_cap = tt | capitalize
+                                    assign tag_name = tag_name | append: ' ' | append: tt_cap
+                                endfor
+                                if tag_name == 'Ai'
+                                    assign tag_name = 'AI'
+                                endif
+                            %}{% endcomment %}
+                            <a class="v2-tag {{ tag_classes }}" href="/blogs/news/tagged/{{ tag | handleize }}"
+                               data-tag="{{ tag | strip_html | strip_newlines | strip }}">
+                                <span>{{ tag | trim }}</span>
+                            </a>
+                        {% endfor %}
+                    </div>
+
+                </div>
+            {% endif %}
+
+            <div class="v2-bt-articles">
+                {%- for article in blog.articles -%}
+
+                    {% assign thumb_type = 'blog_thumb' %}
+                    {% if forloop.index == 1 %}
+                        {% assign thumb_type = 'blog_thumb_wide' %}
+                    {% endif %}
+
+                    {% render 'v2-blog-thumb',
+                            article: article,
+                            thumb_type: thumb_type,
+                            section_index: section.index,
+                            forloop: forloop
+                    %}
+
                 {%- endfor -%}
             </div>
 

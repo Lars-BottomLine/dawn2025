@@ -61,7 +61,10 @@
     # ---------------------------------
     # SECTION SPECIFIC STUFF
     # ---------------------------------
-    
+    assign page_classes = ''
+    if section.settings.page_wide
+        assign page_classes = ' -wide '
+    endif
 %}
 
 {%- style -%}
@@ -88,7 +91,7 @@
 
 <div class="v2-section-header
             {{ section_classes }}">
-    <div class="page-width">
+    <div class="page-width {{ page_classes }}">
 
         {% if section.settings.heading or section.settings.text %}
         <div class="v2-h-header">
@@ -146,6 +149,12 @@
         },
         "settings": [
 
+            {
+                "type": "checkbox",
+                "id": "page_wide",
+                "default": false,
+                "label": "Wide version"
+            },
 
             {
                 "type": "header",
