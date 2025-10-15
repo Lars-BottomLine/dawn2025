@@ -4708,6 +4708,55 @@ sticky-header .cart-count-bubble span {
   margin: 4rem 2rem 0;
 }
 
+.v2-tag {
+  position: relative;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+}
+.v2-tag span {
+  position: relative;
+  z-index: 2;
+}
+.v2-tag:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--color-light-blue);
+  transform: skewX(-13deg);
+  display: inline-block;
+  z-index: 1;
+  transition: background-color 0.125s, color 0.125s;
+}
+.v2-tag.-first-transparent:first-child:before {
+  display: none;
+}
+@media (min-width: 641px) {
+  .v2-tag.-selected span, .v2-tag:hover span {
+    color: white;
+  }
+  .v2-tag.-selected:before, .v2-tag:hover:before {
+    background: var(--color-primary);
+  }
+}
+
+.v2-tag-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.v2-tag-wrapper.-size-medium .v2-tag {
+  padding: 0.5rem 1.5rem;
+  min-height: 4.2rem;
+}
+.v2-tag-wrapper.-desktop {
+  display: flex;
+}
+.v2-tag-wrapper.-mobile {
+  display: none;
+}
+
 product-thumb.v2-product-thumb {
   transition: transform 0.25s, box-shadow 0.25s;
 }
@@ -7226,6 +7275,50 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
     grid-row-start: auto;
     grid-row-end: auto;
   }
+}
+
+.v2-section-mainblog .v2-bt-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.v2-blog-thumb:first-child {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.v2-blog-thumb .v2-bt-media {
+  padding-top: 66.366%;
+}
+.v2-blog-thumb.-type-wide {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  gap: 4rem;
+  box-shadow: 0 1px 8px 0 rgba(0, 38, 139, 0.08), 0 1px 8px 0 rgba(0, 38, 139, 0.08);
+}
+.v2-blog-thumb.-type-wide .v2-bt-left {
+  flex: 0 0 50%;
+}
+.v2-blog-thumb.-type-wide .v2-bt-right {
+  flex: 0 0 50%;
+}
+.v2-blog-thumb.-type-wide .v2-bt-media {
+  box-shadow: 6px 7px 0 0 #00268B;
+}
+.v2-blog-thumb.-type-wide .v2-bt-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.v2-blog-thumb.-type-wide .v2-bt-content .v2-bt-meta {
+  margin-bottom: 1.4rem;
+}
+.v2-blog-thumb.-type-wide .v2-bt-content .v2-bt-headline {
+  margin-bottom: 1.7rem;
+}
+.v2-blog-thumb.-type-wide .v2-bt-content .v2-bt-text {
+  margin-bottom: 2.3rem;
 }
 
 /*# sourceMappingURL=_study-active.css.map */
