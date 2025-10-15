@@ -4282,6 +4282,18 @@ a.v2-button span {
   padding: 0;
   min-height: 0;
 }
+.v2-sa-form-wrapper form ._row._checkbox-radio {
+  position: relative;
+  font-size: 1.8rem !important;
+  display: inline-block;
+  padding-left: 3.2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.v2-sa-form-wrapper form ._row._checkbox-radio > input {
+  top: 0.6rem;
+  left: 0;
+}
 .v2-sa-form-wrapper form label div {
   font-size: 1.8rem !important;
   display: inline-block;
@@ -6582,6 +6594,19 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
 }
 .v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(5) ._error {
   margin-top: -2.6rem;
+}
+.v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) {
+  width: 100% !important;
+}
+.v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) ._row._checkbox-radio {
+  margin-top: 0.4rem;
+}
+.v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) legend {
+  display: none;
+}
+.v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) label {
+  line-height: 1.25;
+  cursor: pointer;
 }
 
 .v2-section-producthero {
