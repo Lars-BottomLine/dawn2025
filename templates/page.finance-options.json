@@ -260,23 +260,106 @@
         "margin_bottom": 0
       }
     },
+    "v2_accordion_8UCMEt": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_mjimKA": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Why are your courses competitively priced? ",
+            "row_content": "<p>We deliver our courses through blended learning which keeps our overheads low. We pass those savings on to you while still providing the same high-quality tuition, full support and nationally recognised qualifications.</p>"
+          }
+        },
+        "accordion_row_UXrHXp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I have to pay in full upfront or are there other payment options? ",
+            "row_content": "<p>No. You can choose to pay in full or take advantage of our interest free monthly instalment plans if you are a UK learner. We can help you to set up a plan that fits your budget.</p>"
+          }
+        },
+        "accordion_row_ejHTEf": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is your refund policy for Study Active courses? ",
+            "row_content": "<p>If you cancel within 14 days of enrolment, you may request a refund. Please note an administrative fee will be charged for access to any eLearning, which is non-refundable. After 14 days, no refunds are given.</p>"
+          }
+        },
+        "accordion_row_6daXnw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What about courses delivered by partner providers? ",
+            "row_content": "<p> If you enrol on a course delivered by one of our partner providers, then refunds and cancellations are handled by them directly. We will always give you their details, so you know exactly who to speak to.</p>"
+          }
+        },
+        "accordion_row_UhxQUU": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "row_content": "<p>Payments can be made online with debit card, credit card, or PayPal. Alternatively, you can pay your first instalment online and the remaining payments are collected via GoCardless direct debits. Learn more about <a href=\"/pages/payment-plan-conditions\" title=\"Payment Plan Conditions\">GoCardless Terms</a> here.</p>"
+          }
+        },
+        "accordion_row_cghmBX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is my payment information secure?",
+            "row_content": "<p>Yes, all payments are processed securely through trusted payment gateways. Your payment details are protected and never stored by Study Active.</p>"
+          }
+        },
+        "accordion_row_mWdgg9": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What should I do if my payment fails?",
+            "row_content": "<p>Please contact our support team immediately so we can help resolve any payment issues and ensure your course access is uninterrupted. support@studyactive.co.uk </p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_mjimKA",
+        "accordion_row_UXrHXp",
+        "accordion_row_ejHTEf",
+        "accordion_row_6daXnw",
+        "accordion_row_UhxQUU",
+        "accordion_row_cghmBX",
+        "accordion_row_mWdgg9"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "heading_text": "<p><strong>Costs, Payment Methods and Refunds</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_XrAPbj": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "heading_text": "<p>Take the next step</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
+        "heading_type": "h2",
+        "heading_size": "h2",
         "heading_no_decal": false,
-        "heading_decal_left": false,
+        "heading_decal_left": true,
         "heading_strong_accented": false,
-        "heading_align": "center",
+        "heading_align": "left",
         "heading_width": "full",
         "text": "<p>Why wait? It's time to seize the day. Take a look at our top rated courses below.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "text_align": "center",
+        "text_align": "left",
         "text_width": "full",
         "button_text": "",
         "button_url": "",
@@ -284,8 +367,8 @@
         "button_size": "small",
         "button_new_window": false,
         "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
+        "button_align": "left",
+        "bkgr_color": "light-blue",
         "custom_class_names": "courses_header",
         "decal_top": true,
         "decal_bottom": false,
@@ -314,7 +397,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "custom_class_names": "",
-        "bkgr_color": "white",
+        "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
@@ -345,6 +428,7 @@
     "v2_cards_NXqnHm",
     "v2_hero_dKmyEE",
     "v2_steps_e63nQr",
+    "v2_accordion_8UCMEt",
     "v2_header_XrAPbj",
     "v2_slideshow_jzre7x",
     "v2_form_iinX3B"
