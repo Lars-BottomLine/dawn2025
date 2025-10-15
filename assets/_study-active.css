@@ -6601,10 +6601,15 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
 .v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) ._row._checkbox-radio {
   margin-top: 0.4rem;
 }
+.v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) ._row._checkbox-radio > input {
+  top: 0;
+  left: 0;
+}
 .v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) legend {
   display: none;
 }
 .v2-section-form .v2-form-content.-type-tutor ._form_element:nth-child(6) label {
+  display: inline-block;
   line-height: 1.25;
   cursor: pointer;
 }
