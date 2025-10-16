@@ -77,6 +77,26 @@
         "margin_bottom": 0
       }
     },
+    "custom_liquid_JxYr8i": {
+      "type": "custom-liquid",
+      "name": "Code: WhatsApp Widget",
+      "settings": {
+        "custom_liquid": "<script src=\"https://diffuser-cdn.app-us1.com/whatsapp/widget.cjs.production.min.js\" data-widget-id=\"068ed2dc-ff8e-7344-8000-1c783675b6d1\" data-account-id=\"255396319\"></script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_bJVt8L": {
+      "type": "custom-liquid",
+      "name": "Code: Active Campaign Tracking",
+      "settings": {
+        "custom_liquid": "<script>\n    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement(\"\"script\"\");r.src=o;r.async=true;i=t.getElementsByTagName(\"\"script\"\")[0];i.parentNode.insertBefore(r,i)})(window,document,\"\"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js\"\",\"\"vgo\"\");\n    vgo('setAccount', '255396319');\n    vgo('setTrackByDefault', true);\n\n    vgo('process');\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -138,6 +158,8 @@
   },
   "order": [
     "v2_image_slider_pEri8M",
+    "custom_liquid_JxYr8i",
+    "custom_liquid_bJVt8L",
     "footer"
   ]
 }

@@ -41,16 +41,6 @@
         "enable_language_selector": false
       }
     },
-    "custom_liquid_JgFj9G": {
-      "type": "custom-liquid",
-      "name": "WhatsApp Widget",
-      "settings": {
-        "custom_liquid": "<script src=\"https://diffuser-cdn.app-us1.com/whatsapp/widget.cjs.production.min.js\" data-widget-id=\"068ed2dc-ff8e-7344-8000-1c783675b6d1\" data-account-id=\"255396319\"></script>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "custom_liquid_kUctmb": {
       "type": "custom-liquid",
       "disabled": true,
@@ -163,7 +153,6 @@
   "order": [
     "1755084133c5eab34c",
     "announcement-bar",
-    "custom_liquid_JgFj9G",
     "custom_liquid_kUctmb",
     "header"
   ]
