@@ -6,7 +6,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="b520e293-021a-4992-bfc9-bc9a735def5f" />
+  <input type="hidden" name="or" value="1228b41c-a19f-4205-8e60-38ed354663e2" />
   <div class="_form-content">
     <div class="_form_element _x40634032 _full_width _clear" >
       <h2 class="_form-title">
@@ -72,9 +72,6 @@
     </option>
     <option value="CPD Courses" >
       CPD Courses
-    </option>
-    <option value="#REF!" >
-      #REF!
     </option>
   </select>
 </div>
@@ -227,7 +224,7 @@ window._load_script = function(url, callback, isSubmit) {
     if (window.location.search.search("excludeform") !== -1) return false;
     var getCookie = function(name) {
         var match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
-        return match ? match[2] : null;
+        return match ? match[2] : localStorage.getItem(name);
     }
     var setCookie = function(name, value) {
         var now = new Date();
@@ -235,6 +232,7 @@ window._load_script = function(url, callback, isSubmit) {
         var expireTime = time + 1000 * 60 * 60 * 24 * 365;
         now.setTime(expireTime);
         document.cookie = name + '=' + value + '; expires=' + now + ';path=/; Secure; SameSite=Lax;';
+        localStorage.setItem(name, value);
     }
     var addEvent = function(element, event, func) {
         if (element.addEventListener) {
