@@ -166,7 +166,7 @@
             "title": "Don't wait - get started today!",
             "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
             "button_text": "See our top courses",
-            "button_link": "courses"
+            "button_link": "courses_header"
           }
         },
         "step_N7MwQg": {
@@ -224,7 +224,7 @@
         "button_at_side": false,
         "button_align": "center",
         "bkgr_color": "white",
-        "custom_class_names": "courses",
+        "custom_class_names": "courses_header",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
