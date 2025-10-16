@@ -83,8 +83,8 @@
       "settings": {
         "custom_liquid": "<script src=\"https://diffuser-cdn.app-us1.com/whatsapp/widget.cjs.production.min.js\" data-widget-id=\"068ed2dc-ff8e-7344-8000-1c783675b6d1\" data-account-id=\"255396319\"></script>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "custom_liquid_bJVt8L": {
