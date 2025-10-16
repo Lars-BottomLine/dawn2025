@@ -12,6 +12,27 @@
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
+        "slide_gP9gBY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pt_d128d2b6-7662-46a5-8242-a878252b64e4.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p><strong>Fast-track</strong> your career in fitness</p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Build you own path to success with the <strong>UK’s Top Personal Training Provider.</strong></p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify://collections/personal-trainer-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
         "slide_zzLjTp": {
           "type": "slide",
           "settings": {
@@ -54,27 +75,6 @@
             "button_new_window": false
           }
         },
-        "slide_gP9gBY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pt_d128d2b6-7662-46a5-8242-a878252b64e4.jpg",
-            "slide_type": "twocol",
-            "heading_text": "<p><strong>Fast-track</strong> your career in fitness</p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Build you own path to success with the <strong>UK’s Top Personal Training Provider.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/personal-trainer-pathway",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
         "slide_yMtA4W": {
           "type": "slide",
           "settings": {
@@ -98,9 +98,9 @@
         }
       },
       "block_order": [
+        "slide_gP9gBY",
         "slide_zzLjTp",
         "slide_zLMkrC",
-        "slide_gP9gBY",
         "slide_yMtA4W"
       ],
       "name": "t:lesections.hero.presets.name",
@@ -159,6 +159,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Find your calling</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -385,6 +386,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Excellent Rated on Trustpilot</p>",
         "heading_type": "h2",
         "heading_size": "h3",
@@ -450,6 +452,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Graduate success stories</p>",
         "heading_type": "h1",
         "heading_size": "h1",
@@ -928,6 +931,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Tips, trends and training advice</p>",
         "heading_type": "h2",
         "heading_size": "h2",
