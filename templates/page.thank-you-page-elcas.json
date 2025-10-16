@@ -128,6 +128,7 @@
         },
         "step_ba7xRM": {
           "type": "step",
+          "disabled": true,
           "settings": {
             "number": "",
             "title": "Need help? Get answers",
