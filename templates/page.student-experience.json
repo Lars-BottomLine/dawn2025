@@ -1,0 +1,474 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_GzGMki": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FTBz73": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get started?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WG3THF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_n7nrY7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See current partner gyms",
+            "button_link_1": "shopify://pages/associations-and-partners",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a careers call",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBz73",
+        "text_WG3THF",
+        "buttons_n7nrY7"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "v2_hero_dKmyEE": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_Cnt7J7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Hero_Image_-_Associations_and_Partnerships.png",
+            "slide_type": "onecol",
+            "heading_text": "<p>Affordable Training to Start Your New Career</p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>We appreciate your interest in studying with us.</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "#form",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_Cnt7J7"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 276,
+        "margin_top": 0,
+        "margin_bottom": -200
+      }
+    },
+    "v2_text_plus_image_NKxUXa": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
+        "heading_text": "<p>Transform Your Future</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p><strong>with Career Focused Training and Budget-Friendly Payment Plans</strong></p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>We understand that retraining for a new career can feel like a big step, which is why at Study Active we focus on making the process as simple as possible. Our courses are designed to be flexible, both in how you study and how you pay. If you are based in the UK, you can spread the cost over ten months, starting from just £29 a month or £7.25 a week.</p><p>To give you even better value, we offer an automatic discount of 10% or more when you combine two or more courses. Our careers advisors can help you build a personalised bundle that matches your goals and sets you on the right path toward your new career.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_NXqnHm": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_f6YTkB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Save money with our discounted full payment option</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_L6C4KH": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £29/month available </strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_zh4ADb": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Terms and conditions apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_f6YTkB",
+        "card_L6C4KH",
+        "card_zh4ADb"
+      ],
+      "name": "v2 - Cards - Vertical Light Blue",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "shopify://blogs/news/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": true,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 4,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_e63nQr": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_N7MwQg": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Need help? Get answers",
+            "text": "<p>Don't know where or how to get started? Submit your question and we'll be in touch right away!</p>",
+            "button_text": "Submit your question",
+            "button_link": "questions"
+          }
+        },
+        "step_WBENiz": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "ELCAS funding options",
+            "text": "<p>Discover an exclusive funding opportunity for Armed Forces personnel</p>",
+            "button_text": "Discover ELCAS funding",
+            "button_link": "https://studyactive.co.uk/pages/elcas-funding"
+          }
+        },
+        "step_9t3MNb": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Get started today for as little as £29 per month",
+            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
+            "button_text": "See our top courses",
+            "button_link": "courses_header"
+          }
+        }
+      },
+      "block_order": [
+        "step_N7MwQg",
+        "step_WBENiz",
+        "step_9t3MNb"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 44,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_8UCMEt": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_mjimKA": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Why are your courses competitively priced? ",
+            "row_content": "<p>We deliver our courses through blended learning which keeps our overheads low. We pass those savings on to you while still providing the same high-quality tuition, full support and nationally recognised qualifications.</p>"
+          }
+        },
+        "accordion_row_UXrHXp": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I have to pay in full upfront or are there other payment options? ",
+            "row_content": "<p>No. You can choose to pay in full or take advantage of our interest free monthly instalment plans if you are a UK learner. We can help you to set up a plan that fits your budget.</p>"
+          }
+        },
+        "accordion_row_ejHTEf": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is your refund policy for Study Active courses? ",
+            "row_content": "<p>If you cancel within 14 days of enrolment, you may request a refund. Please note an administrative fee will be charged for access to any eLearning, which is non-refundable. After 14 days, no refunds are given.</p>"
+          }
+        },
+        "accordion_row_6daXnw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What about courses delivered by partner providers? ",
+            "row_content": "<p> If you enrol on a course delivered by one of our partner providers, then refunds and cancellations are handled by them directly. We will always give you their details, so you know exactly who to speak to.</p>"
+          }
+        },
+        "accordion_row_UhxQUU": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "row_content": "<p>Payments can be made online with debit card, credit card, or PayPal. Alternatively, you can pay your first instalment online and the remaining payments are collected via GoCardless direct debits. Learn more about <a href=\"/pages/payment-plan-conditions\" title=\"Payment Plan Conditions\">GoCardless Terms</a> here.</p>"
+          }
+        },
+        "accordion_row_cghmBX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is my payment information secure?",
+            "row_content": "<p>Yes, all payments are processed securely through trusted payment gateways. Your payment details are protected and never stored by Study Active.</p>"
+          }
+        },
+        "accordion_row_mWdgg9": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What should I do if my payment fails?",
+            "row_content": "<p>Please contact our support team immediately so we can help resolve any payment issues and ensure your course access is uninterrupted. support@studyactive.co.uk </p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_mjimKA",
+        "accordion_row_UXrHXp",
+        "accordion_row_ejHTEf",
+        "accordion_row_6daXnw",
+        "accordion_row_UhxQUU",
+        "accordion_row_cghmBX",
+        "accordion_row_mWdgg9"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "heading_text": "<p><strong>Costs, Payment Methods and Refunds</strong></p>",
+        "heading_align": "center",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_XrAPbj": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "heading_text": "<p>Take the next step</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Why wait? It's time to seize the day. Take a look at our top rated courses below.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "courses_header",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_jzre7x": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-certificate-in-personal-training-l3",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "level-3-pilates-personal-trainer-bundle",
+          "level-3-sports-massage-and-personal-trainer-bundle",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "level-4-nutrition"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_iinX3B": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "career",
+        "custom_class_names": "questions",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_GzGMki",
+    "v2_hero_dKmyEE",
+    "v2_text_plus_image_NKxUXa",
+    "v2_cards_NXqnHm",
+    "v2_steps_e63nQr",
+    "v2_accordion_8UCMEt",
+    "v2_header_XrAPbj",
+    "v2_slideshow_jzre7x",
+    "v2_form_iinX3B"
+  ]
+}
