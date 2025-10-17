@@ -5240,7 +5240,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper:before {
   display: none;
 }
 product-thumb.v2-product-thumb.-full-size .product__info-wrapper .price__sale {
-  gap: 1.1rem !important;
+  gap: 0.8rem !important;
 }
 product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-container .pt-footer {
   flex-grow: 1;
@@ -5250,7 +5250,7 @@ product-thumb.v2-product-thumb.-full-size .product__info-wrapper .product__info-
   margin: 1rem -4rem 0;
   padding: 4rem 4rem 0;
   flex-direction: column-reverse;
-  gap: 2.4rem;
+  gap: 3rem;
   align-items: start;
 }
 @media (min-width: 996px) {
