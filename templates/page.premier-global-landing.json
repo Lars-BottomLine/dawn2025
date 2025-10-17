@@ -93,10 +93,39 @@
         "margin_bottom": 0
       }
     },
+    "v2_video_R7t8m3": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_GtiirL": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://youtu.be/2Ho0ykmjKgw",
+            "cover_image": "shopify://shop_images/Thumbnail_-_New_Elearning_Video.jpg",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_GtiirL"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_AQGVxL": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>“I am thrilled to see that Study Active is aligning itself with such a strong and reputable brand name. This acquisition of the Premier Global brand name is a testament to Study Active's dedication to providing top-notch training and upholding the values of excellence and quality.” </p><p></p><p>- <strong>Debra Stuart, former CEO of Premier Global, now CEO of Study Active.</strong></p>",
         "heading_type": "div",
         "heading_size": "copy-l",
@@ -132,6 +161,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>See what they have to say about our certified courses</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -187,7 +217,7 @@
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": true,
-        "padding_top": 12,
+        "padding_top": 24,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -395,6 +425,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>What does this mean for you?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -544,6 +575,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Join the New Chapter of Fitness Education</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -604,6 +636,7 @@
     "main",
     "v2_hero_k3BEND",
     "v2_newsletter_WmBhQK",
+    "v2_video_R7t8m3",
     "v2_header_AQGVxL",
     "v2_header_BxVtpB",
     "v2_trustpilot_QzA9t3",
