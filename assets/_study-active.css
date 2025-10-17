@@ -27,7 +27,6 @@
     padding: 0 4rem;
   }
 }
-<<<<<<< HEAD
 #ac-whatsapp-widget-wrapper #ac-whatsapp-main-row {
   justify-content: space-between;
   align-items: center;
@@ -39,11 +38,6 @@
 #ac-whatsapp-widget-wrapper #ac-whatsapp-default-text,
 #ac-whatsapp-widget-wrapper .ac-whatsapp-reply-button {
   font-size: 1.4rem !important;
-=======
-#ac-whatsapp-default-text,
-.ac-whatsapp-reply-button {
-  font-size: 1.4rem;
->>>>>>> origin/dev
 }
 
 .sa-section-face2face.-img-shadow-light .f2f-image {
