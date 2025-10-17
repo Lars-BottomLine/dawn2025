@@ -51,6 +51,8 @@ function calculateMapCenter(marker_data) {
     };
 }
 
+const { InfoWindow } = await google.maps.importLibrary("maps");
+var infoWindow = new InfoWindow();
 
 /**
  * A marker with a custom inline SVG.
@@ -63,7 +65,7 @@ async function addMarker(map, marker_data) {
     if (location.length === 2) {
         const customMarkerString = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" fill="none"><g filter="url(#a)"><path fill="#00268B" d="M22.485 4.181a12 12 0 0 1 .271 16.692l-.27.28-5.658 5.656a4 4 0 0 1-5.463.18l-.192-.18-5.658-5.657a12 12 0 1 1 16.97-16.97ZM14 8.667a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/></g><defs><filter id="a" width="28" height="31.314" x="0" y=".667" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="2"/><feGaussianBlur stdDeviation="1"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_10433_8373"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_10433_8373" result="shape"/></filter></defs></svg>'
         const customMarkerSvg = parser.parseFromString(customMarkerString, 'image/svg+xml').documentElement;
-        const newMarker = new AdvancedMarkerElement({
+        const marker = new AdvancedMarkerElement({
             map,
             position: {lat: parseFloat(location[0]), lng: parseFloat(location[1])},
             content: customMarkerSvg,
@@ -71,15 +73,42 @@ async function addMarker(map, marker_data) {
             //@ts-ignore
             anchorLeft: "-50%",
             anchorTop: "-50%",
+            gmpClickable: true
         });
-        newMarker.addListener('click', () => {
-            console.log('marker clicked', marker_data);
-        })
-        return newMarker;
+
+        makeInfoWindowEvent(map, marker, marker_data);
+        marker.setAttribute('data-markerid', marker_data.markerid);
+
+        const marker_box = document.querySelector('.v2-map-venue[data-markerid="'+marker_data.markerid+'"]');
+        if (marker_box) {
+            marker_box.addEventListener('mouseenter', (e) => {
+                var markerid = e.target.getAttribute('data-markerid');
+                var marker = document.querySelector('gmp-advanced-marker[data-markerid="' + markerid + '"]')
+                console.log(e.target, markerid, marker);
+                marker.classList.add('-hover');
+            });
+            marker_box.addEventListener('mouseleave', (e) => {
+                var markerid = e.target.getAttribute('data-markerid');
+                var marker = document.querySelector('gmp-advanced-marker[data-markerid="' + markerid + '"]')
+                console.log(e.target, markerid, marker);
+                marker.classList.remove('-hover');
+            })
+        }
+        return marker;
     }
     return false;
 }
 
+
+function makeInfoWindowEvent(map, marker, marker_data) {
+    console.log('MarkerData: ', marker_data);
+    marker.addListener('click', ({ domEvent, latLng }) => {
+        const { target } = domEvent;
+        infoWindow.close();
+        infoWindow.setContent( '<div class="v2-map-popup"><a href="'+marker_data.button_url+'"><div class="v2-mp-title _font-copy-m">'+marker.title+'</div><div class="v2-mp-address _font-copy-xs">'+marker_data.address+'</div></a></div>' );
+        infoWindow.open(marker.map, marker);
+    });
+}
 async function initMap() {
 
     if (!window.map_data || !window.map_data.markers ) return;
@@ -99,16 +128,20 @@ async function initMap() {
 
     // fit markers into map
     const bounds = new window.google.maps.LatLngBounds();
-    window.map_data.markers.forEach(marker => {
-        addMarker(map, marker);
+    window.map_data.markers.forEach(marker_data => {
 
-        const location = marker.position.split(',');
+        let marker = addMarker(map, marker_data);
+
+        const location = marker_data.position.split(',');
         if (location.length === 2) {
             bounds.extend({
                 lat: parseFloat(location[0]),
                 lng: parseFloat(location[1]),
             });
         }
+
+        // makeInfoWindowEvent(map, infowindow, marker_data.name, marker);
+
     });
     map.fitBounds(bounds);
 

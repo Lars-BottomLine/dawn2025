@@ -112,7 +112,7 @@
             {% for block in section.blocks %}
                 {% case block.type %}
                     {% when 'marker' %}
-                        <div class="v2-map-venue" data-id="{{ forloop.index }}">
+                        <div class="v2-map-venue" data-id="{{ forloop.index }}" data-markerid="v2marker{{ forloop.index }}">
 
                             <div class="v2-map-venue-name _font-h3 -decal-right">
                                 {{ block.settings.name }}
@@ -122,7 +122,7 @@
                                 {{ block.settings.address | newline_to_br}}
                             </div>
 
-                            <a href="{{ block.settings.button_url }}" target="_blank" class="v2-button -style-primary">
+                            <a href="{{ block.settings.button_url }}" target="_blank" class="v2-button -style-primary -hover-grow">
                                 <span>{{ block.settings.button_name }}</span>
                             </a>
 
@@ -147,7 +147,8 @@
                     'name': '{{ block.settings.name }}',
                     'address': '{{ block.settings.address | newline_to_br | strip_newlines }}',
                     'button_name': '{{ block.settings.button_name }}',
-                    'button_url': '{{ block.settings.button_url }}'
+                    'button_url': '{{ block.settings.button_url }}',
+                    'markerid': 'v2marker{{ forloop.index }}'
                 },
             {% endcase %}
         {% endfor %}
