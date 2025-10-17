@@ -73,17 +73,17 @@
         "slide_Cnt7J7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Hero_Image_-_Associations_and_Partnerships.png",
+            "image": "shopify://shop_images/Blog_Image_-_Careers_In_Fitness.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Affordable Training to Start Your New Career</p>",
+            "heading_text": "<p>Study Anywhere, On Your Time</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>We appreciate your interest in studying with us.</p>",
+            "text": "<p>So, whether you want to <strong>fast-track your qualification or take your time</strong> — the journey fits around <em>your </em>lifestyle.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
-            "text_strong_accented": false,
+            "text_strong_accented": true,
             "button_text": "",
             "button_url": "#form",
             "button_style": "primary",
@@ -114,21 +114,21 @@
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
-        "heading_text": "<p>Transform Your Future</p>",
-        "heading_type": "h1",
+        "heading_text": "<p>Learning That Fits Around Life</p>",
+        "heading_type": "h2",
         "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p><strong>with Career Focused Training and Budget-Friendly Payment Plans</strong></p>",
+        "subheadline_text": "",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>We understand that retraining for a new career can feel like a big step, which is why at Study Active we focus on making the process as simple as possible. Our courses are designed to be flexible, both in how you study and how you pay. If you are based in the UK, you can spread the cost over ten months, starting from just £29 a month or £7.25 a week.</p><p>To give you even better value, we offer an automatic discount of 10% or more when you combine two or more courses. Our careers advisors can help you build a personalised bundle that matches your goals and sets you on the right path toward your new career.</p>",
+        "text": "<p><br/>Traditional classrooms don’t suit everyone — and that’s where our blended learning shines.<br/><br/>Through a mix of digital study, one-to-one support, and in-person practical sessions (available regionally across the UK), we give you flexibility <em>without compromise</em>.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "claim_text": "",
+        "claim_text": "<p>Many of our students record their gym assessments locally or attend one of our <a href=\"/pages/training-venues-and-locations\" title=\"Training Venues and Locations\">nationwide venues </a>— whichever suits you best.<br/><br/>Whether you live in the UK or overseas, you’re always connected to a dedicated support team ready to help you succeed.</p>",
         "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
@@ -147,77 +147,125 @@
         "margin_bottom": 0
       }
     },
-    "v2_cards_NXqnHm": {
+    "v2_video_9e6EMB": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_fpE9eG": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://youtu.be/2Ho0ykmjKgw",
+            "cover_image": "shopify://shop_images/Thumbnail_-_New_Elearning_Video.jpg",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_fpE9eG"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_9LUYMj": {
       "type": "v2_cards",
       "blocks": {
-        "card_f6YTkB": {
+        "card_bLLDmP": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-credit-card.svg",
-            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "image": "shopify://shop_images/Elearning_Mock_up_Laptop_and_Phone_-_White_Background_1.png",
+            "title_text": "<p><strong>Flexible Blended Learning</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Save money with our discounted full payment option</p>",
-            "text_size": "copy-l",
+            "text": "<ul><li>A combination of <strong>online study</strong> and <strong>practical experience</strong>.</li><li>Interactive e-learning platform with <strong>engaging video lessons</strong>, <strong>interactive quizzes</strong>, and <strong>digital manuals</strong>.</li><li>You can <strong>study at your own pace</strong> – some students fast-track in ~4 months, while others spread learning over 6-12 months.</li></ul>",
+            "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
+            "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
         },
-        "card_L6C4KH": {
+        "card_fgyfqH": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-calendar-event.svg",
-            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "image": "shopify://shop_images/Image_6.png",
+            "title_text": "<p><strong>Interactive Content & Support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Spread the cost with affordable monthly payments</p>",
-            "text_size": "copy-l",
+            "text": "<ul><li>Support of <strong>live webinars</strong> and <strong>online workshops</strong> led by <strong>expert tutors</strong>.</li><li>Get <strong>one-on-one tutorial support</strong> via phone/Zoom and email whenever you need it.</li><li>Our system <strong>keeps track of your progress</strong> and is <strong>accessible 24/7,</strong> so you can train whenever it suits you.</li></ul>",
+            "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>From £29/month available </strong></p>",
+            "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
         },
-        "card_zh4ADb": {
+        "card_PBe3qx": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-shield.svg",
-            "title_text": "<p><strong>0% Finance</strong></p>",
+            "image": "shopify://shop_images/78211a0d7eb94d5e8940efd398566417b631ce7f.jpg",
+            "title_text": "<p><strong>Hands-On Practice</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Subject to status, spread payments interest-free</p>",
-            "text_size": "copy-l",
+            "text": "<ul><li>To <strong>build real skills</strong>, the diploma includes practical components. </li><li>Attend <strong>optional in-gym practical workshops</strong> for hands-on training, or <strong>submit video assessments</strong> from your own gym.</li><li>You’ll learn to <strong>conduct client consultations, demonstrate exercises, and lead training sessions confidently. </strong></li></ul>",
+            "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>Terms and conditions apply</strong></p>",
+            "claim_text": "",
             "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_46CbXD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/e103586f7fbb77619fa69baa6369eef6adcf03fe.jpg",
+            "title_text": "<p><strong>What You’ll Learn</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>The curriculum covers <strong>11 modules</strong> spanning all essential fitness topics.</li><li>You’ll dive into <strong>Anatomy & Exercise Physiology, Nutrition and Weight Management, Client Programming & Coaching, Advanced Training Techniques, and Professional Conduct & Business Skill</strong>s for personal trainers.</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
         }
       },
       "block_order": [
-        "card_f6YTkB",
-        "card_L6C4KH",
-        "card_zh4ADb"
+        "card_bLLDmP",
+        "card_fgyfqH",
+        "card_PBe3qx",
+        "card_46CbXD"
       ],
-      "name": "v2 - Cards - Vertical Light Blue",
+      "name": "v2 - Cards - Wide White",
       "settings": {
         "bkgr_color": "white",
-        "card_layout": "vertical",
-        "heading_text": "<p>Flexible payment options</p>",
+        "card_layout": "wide_box",
+        "heading_text": "<p>Learning Experience</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -225,75 +273,108 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "medium",
-        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
         "text_align": "center",
         "text_width": "medium",
-        "button_text": "",
-        "button_url": "shopify://blogs/news/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
         "button_style": "primary",
-        "button_size": "medium",
-        "button_new_window": true,
+        "button_size": "small",
+        "button_new_window": false,
         "button_align": "center",
-        "custom_class_names": "",
+        "custom_class_names": "-anchor-step-3",
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 4,
-        "margin_bottom": 0
+        "margin_top": 0,
+        "margin_bottom": 64
       }
     },
-    "v2_steps_e63nQr": {
-      "type": "v2_steps",
+    "v2_slideshow_CegGJV": {
+      "type": "v2_slideshow",
       "blocks": {
-        "step_N7MwQg": {
-          "type": "step",
+        "slide_FU36Vn": {
+          "type": "slide",
           "settings": {
-            "number": "",
-            "title": "Need help? Get answers",
-            "text": "<p>Don't know where or how to get started? Submit your question and we'll be in touch right away!</p>",
-            "button_text": "Submit your question",
-            "button_link": "questions"
+            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
           }
         },
-        "step_WBENiz": {
-          "type": "step",
+        "slide_CcjLqD": {
+          "type": "slide",
           "settings": {
-            "number": "",
-            "title": "ELCAS funding options",
-            "text": "<p>Discover an exclusive funding opportunity for Armed Forces personnel</p>",
-            "button_text": "Discover ELCAS funding",
-            "button_link": "https://studyactive.co.uk/pages/elcas-funding"
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
           }
         },
-        "step_9t3MNb": {
-          "type": "step",
+        "slide_WHBxnA": {
+          "type": "slide",
           "settings": {
-            "number": "",
-            "title": "Get started today for as little as £29 per month",
-            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
-            "button_text": "See our top courses",
-            "button_link": "courses_header"
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_QUrN7z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_jfzCWi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>Actor </p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "button_label": "",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "step_N7MwQg",
-        "step_WBENiz",
-        "step_9t3MNb"
+        "slide_FU36Vn",
+        "slide_CcjLqD",
+        "slide_WHBxnA",
+        "slide_QUrN7z",
+        "slide_jfzCWi"
       ],
-      "name": "t:lesections.v2_steps.presets.name",
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "custom_class_names": "",
         "bkgr_color": "light-blue",
-        "decal_top": true,
+        "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 44,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -384,6 +465,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Take the next step</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -464,8 +546,9 @@
     "image_banner_GzGMki",
     "v2_hero_dKmyEE",
     "v2_text_plus_image_NKxUXa",
-    "v2_cards_NXqnHm",
-    "v2_steps_e63nQr",
+    "v2_video_9e6EMB",
+    "v2_cards_9LUYMj",
+    "v2_slideshow_CegGJV",
     "v2_accordion_8UCMEt",
     "v2_header_XrAPbj",
     "v2_slideshow_jzre7x",
