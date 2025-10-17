@@ -31,7 +31,7 @@
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>An exclusive opportunity for <strong>Armed Forces personnel</strong> to <strong>transform your future </strong></p>",
+            "text": "<p>An exclusive opportunity for <strong>Armed Forces personnel</strong> to <strong>transform your future. </strong></p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -102,6 +102,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>ELCAS Eligible Courses</p>",
         "heading_type": "h1",
         "heading_size": "h1",
@@ -230,6 +231,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Excellent Rated on Trustpilot</p>",
         "heading_type": "h2",
         "heading_size": "h2",
