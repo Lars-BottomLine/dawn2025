@@ -4679,6 +4679,9 @@ sticky-header .cart-count-bubble span {
 .v2-mm-container.page-width {
   padding: 0 6rem;
 }
+.v2-mm-container a.-active {
+  font-weight: bold;
+}
 
 .v2-header-megamenu {
   padding: 6.3rem 0 6rem;
