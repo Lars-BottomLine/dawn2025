@@ -7635,9 +7635,46 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
   gap: 2.4rem;
   flex-direction: column;
   align-items: flex-start;
+  transition: background 0.25s;
+}
+.v2-section-map .v2-map-container .v2-map-venue:hover {
+  background: #e9feff;
+}
+.v2-section-map .v2-map-container .v2-map-venue-name {
+  padding-right: 2rem;
 }
 .v2-section-map .v2-map-container .v2-button, .v2-section-map .v2-map-container .v2-sa-form-wrapper form button, .v2-sa-form-wrapper form .v2-section-map .v2-map-container button, .v2-section-map .v2-map-container cart-notification button, cart-notification .v2-section-map .v2-map-container button, .v2-section-map .v2-map-container .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form button#_form_1_submit, .v2-section-newsletter .v2-nl-box form#_form_1_._inline-form .v2-section-map .v2-map-container button#_form_1_submit {
   margin-top: 0.4rem;
+}
+.v2-section-map .v2-map-container .gm-style-iw-chr {
+  display: flex;
+  justify-content: end;
+}
+.v2-section-map .v2-map-container .gm-style-iw-chr button {
+  width: 3.2rem !important;
+  height: 3.2rem !important;
+}
+.v2-section-map .v2-map-container .gm-style-iw-chr button span {
+  margin: 0.4rem !important;
+}
+.v2-section-map .v2-map-container .v2-map-popup {
+  color: var(--color-primary) !important;
+}
+.v2-section-map .v2-map-container .v2-map-popup a {
+  color: var(--color-primary) !important;
+}
+.v2-section-map .v2-map-container .v2-map-popup a .v2-mp-title {
+  font-weight: bold;
+}
+.v2-section-map .v2-map-container .v2-map-popup a .v2-mp-address {
+  font-style: italic;
+}
+.v2-section-map .v2-map-container gmp-advanced-marker svg {
+  transition: transform 0.25s;
+  transform-origin: bottom center;
+}
+.v2-section-map .v2-map-container gmp-advanced-marker.-hover svg {
+  transform: scale(1.5);
 }
 @media (max-width: 996px) {
   .v2-section-map .v2-map-container {
