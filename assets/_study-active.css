@@ -27,6 +27,11 @@
     padding: 0 4rem;
   }
 }
+#ac-whatsapp-default-text,
+.ac-whatsapp-reply-button {
+  font-size: 1.4rem;
+}
+
 .sa-section-face2face.-img-shadow-light .f2f-image {
   filter: drop-shadow(6px 7px 0px #39EAF6) drop-shadow(6px 7px 0px rgba(57, 234, 246, 0.5));
 }
