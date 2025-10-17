@@ -12,27 +12,6 @@
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
-        "slide_gP9gBY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pt_d128d2b6-7662-46a5-8242-a878252b64e4.jpg",
-            "slide_type": "twocol",
-            "heading_text": "<p><strong>Fast-track</strong> your career in fitness</p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Build you own path to success with the <strong>UK’s Top Personal Training Provider.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/personal-trainer-pathway",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
         "slide_zzLjTp": {
           "type": "slide",
           "settings": {
@@ -49,6 +28,27 @@
             "text_strong_accented": false,
             "button_text": "Find your path",
             "button_url": "shopify://collections/wellness-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_gP9gBY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pt_d128d2b6-7662-46a5-8242-a878252b64e4.jpg",
+            "slide_type": "twocol",
+            "heading_text": "<p><strong>Fast-track</strong> your career in fitness</p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Build you own path to success with the <strong>UK’s Top Personal Training Provider.</strong></p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify://collections/personal-trainer-pathway",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
@@ -98,8 +98,8 @@
         }
       },
       "block_order": [
-        "slide_gP9gBY",
         "slide_zzLjTp",
+        "slide_gP9gBY",
         "slide_zLMkrC",
         "slide_yMtA4W"
       ],
