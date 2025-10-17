@@ -418,7 +418,7 @@
             "button_size": "small",
             "button_new_window": false,
             "button_align": "right",
-            "margin_top": 0,
+            "margin_top": 20,
             "margin_bottom": 0
           }
         }
