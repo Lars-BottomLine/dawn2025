@@ -305,9 +305,6 @@
       }
     </script>
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
-<!--Gem_Page_Header_Script-->
-{% render 'gem-app-header-scripts' %}
-<!--End_Gem_Page_Header_Script-->
 
       <script>
           !function(t, e) {var o, n, p, r;e.__SV || (window.entailInsights = e,e._i = [],e.init = function(i, s, a) {function g(t, e) {var o = e.split(".");2 == o.length && (t = t[o[0]],e = o[1]),t[e] = function() {t.push([e].concat(Array.prototype.slice.call(arguments, 0)))}}(p = t.createElement("script")).type = "text/javascript",p.async = !0,p.src = "https://cdn.entail-insights.com/js/entail.js",(r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r);var u = e;for (void 0 !== a ? u = e[a] = [] : a = "entailInsights",u.toString = function(t) {var e = "entailInsights";return "entailInsights" !== a && (e += "." + a),t || (e += " (stub)"),e},o = "trackEvent capture opt_out_capturing has_opted_out_capturing opt_in_capturing reset".split(" "),n = 0; n < o.length; n++)g(u, o[n]);e._i.push([i, s, a])},e.__SV = 1)}(document, window.entailInsights || []);
@@ -390,32 +387,6 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  <!--Gem_Page_Footer_Script-->
-  {%- liquid
-    assign gpTemplateSuffix = template.suffix
-    assign arrSplitSuffix = gpTemplateSuffix | split: '-'
-    if gpTemplateSuffix contains 'gem-' and gpTemplateSuffix contains '-template' and arrSplitSuffix.size == 3
-      assign isV6GpTemplate = true
-    endif
-    assign gpShopMeta = shop.metafields.gempages
-    if gpShopMeta
-      if gpShopMeta['productV6-default'] == 'true' and request.page_type == 'product'
-        assign isProductDefault = true
-      endif
-      if gpShopMeta['collectionV6-default'] == 'true' and request.page_type == 'collection'
-        assign isCollectionDefault = true
-      endif
-      if gpShopMeta['indexV6-default'] == 'true' and request.page_type == 'index'
-        assign isIndexDefault = true
-      endif
-      if isProductDefault or isCollectionDefault or isIndexDefault or isPreviewV6
-        assign isV6GpTemplate = true
-      endif
-    endif
-  %}
-  {% if isV6GpTemplate %}
-    {% render 'gem-app-footer-scripts', GEM_FOOTER_SCRIPT: GEM_FOOTER_SCRIPT %}
-  {% endif %}
-<!--End_Gem_Page_Footer_Script-->
+
 </body>
 </html>
