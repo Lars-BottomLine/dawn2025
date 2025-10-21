@@ -18,6 +18,42 @@
         "padding_bottom": 28
       }
     },
+    "v2_header_ydmTjE": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>A Team Dedicated <br/><strong>to Your Success</strong></p>",
+        "heading_type": "h1",
+        "heading_size": "hero",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "primary",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 172,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_hero_mrmGBP": {
       "type": "v2_hero",
       "blocks": {
@@ -26,12 +62,12 @@
           "settings": {
             "image": "shopify://shop_images/Team_Photo_-_Black_White_Colour.png",
             "slide_type": "onecol",
-            "heading_text": "<p>A team dedicated <br/><strong>to your success</strong></p>",
+            "heading_text": "",
             "heading_type": "h2",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p><strong>We’ve walked the same path as many of our learners</strong>, and we bring that experience into everything we do. Get to know the team that’s helping <strong>shape the next generation</strong> of fitness professionals.</p>",
+            "text": "",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -46,6 +82,7 @@
       "block_order": [
         "slide_cPhKgz"
       ],
+      "disabled": true,
       "name": "t:lesections.hero.presets.name",
       "settings": {
         "full_width": true,
@@ -395,6 +432,7 @@
   },
   "order": [
     "main",
+    "v2_header_ydmTjE",
     "v2_hero_mrmGBP",
     "v2_text_plus_image_ieWG7A",
     "v2_flexible_zr3zz6",
