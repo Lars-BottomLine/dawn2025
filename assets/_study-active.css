@@ -7520,6 +7520,13 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
   max-width: 100rem;
   display: flex;
 }
+.v2-article-template .article-template__back .article-template__link {
+  display: flex;
+  align-items: center;
+}
+.v2-article-template .article-template__back .icon-wrap {
+  display: flex;
+}
 .v2-article-template .article-template__back .svg-wrapper {
   margin-right: 1rem;
 }
@@ -7577,6 +7584,14 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
   .v2-article-template .v2-sa-comments .article-template__comment-fields {
     flex-direction: column;
   }
+}
+.v2-article-template > div {
+  font-size: 1.8rem;
+  line-height: 1.25;
+}
+.v2-article-template > ul li {
+  font-size: 1.8rem;
+  line-height: 1.25;
 }
 
 .v2-section-trustpilot .v2_tp-wrapper.-blue-filter iframe {
