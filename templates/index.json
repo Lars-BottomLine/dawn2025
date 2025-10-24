@@ -245,6 +245,91 @@
         "slide_BKBzMU",
         "slide_eBDWpy"
       ],
+      "disabled": true,
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_ayUBbY": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_r9JhiG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
+            "headline": "<p>Gym Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+          }
+        },
+        "slide_THrftb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
+            "headline": "<p>Personal Trainer</p>",
+            "subheadline": "",
+            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://collections/personal-trainer-pathway"
+          }
+        },
+        "slide_JkgpUp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sports-massage.jpg",
+            "headline": "<p>Sports Massage Therapist</p>",
+            "subheadline": "",
+            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
+          }
+        },
+        "slide_Jh4zgb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/100.png",
+            "headline": "<p>Pilates Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/level-3-pilates-personal-trainer-bundle"
+          }
+        },
+        "slide_nHtcYA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/73.png",
+            "headline": "<p>Wellness Coach</p>",
+            "subheadline": "",
+            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://collections/wellness-pathway"
+          }
+        }
+      },
+      "block_order": [
+        "slide_r9JhiG",
+        "slide_THrftb",
+        "slide_JkgpUp",
+        "slide_Jh4zgb",
+        "slide_nHtcYA"
+      ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "dark",
@@ -1154,6 +1239,7 @@
     "v2_text_plus_image_PcfkMY",
     "v2_header_crfUaT",
     "v2_slideshow_xYpUTm",
+    "v2_slideshow_ayUBbY",
     "v2_cards_88cQaJ",
     "v2_header_6Yjp6r",
     "v2_trustpilot_KkRfr9",
