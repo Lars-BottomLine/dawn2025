@@ -295,6 +295,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Your journey starts here</p>",
         "heading_type": "h2",
         "heading_size": "h1",
@@ -328,6 +329,7 @@
     },
     "v2_featured_imtjhU": {
       "type": "v2_featured",
+      "disabled": true,
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
         "product": "cimspa-certificate-in-personal-training-l3",
@@ -340,6 +342,126 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_header_dGCTCr": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Find your calling</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This is your moment to do something that really moves you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": true,
+        "button_align": "right",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_a6Npcz": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_T3RxGF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
+            "headline": "<p>Gym Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+          }
+        },
+        "slide_bj4n9M": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
+            "headline": "<p>Personal Trainer</p>",
+            "subheadline": "",
+            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://collections/personal-trainer-pathway"
+          }
+        },
+        "slide_8CC6RP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sports-massage.jpg",
+            "headline": "<p>Sports Massage Therapist</p>",
+            "subheadline": "",
+            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
+          }
+        },
+        "slide_R7ydxE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/100.png",
+            "headline": "<p>Pilates Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/level-3-pilates-personal-trainer-bundle"
+          }
+        },
+        "slide_Wy8NM7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/73.png",
+            "headline": "<p>Wellness Coach</p>",
+            "subheadline": "",
+            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://collections/wellness-pathway"
+          }
+        }
+      },
+      "block_order": [
+        "slide_T3RxGF",
+        "slide_bj4n9M",
+        "slide_8CC6RP",
+        "slide_R7ydxE",
+        "slide_Wy8NM7"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -349,6 +471,8 @@
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
-    "v2_featured_imtjhU"
+    "v2_featured_imtjhU",
+    "v2_header_dGCTCr",
+    "v2_slideshow_a6Npcz"
   ]
 }
