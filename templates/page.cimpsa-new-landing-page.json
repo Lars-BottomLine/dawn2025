@@ -135,6 +135,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>See what students have to say about our CIMSPA certified courses</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -398,6 +399,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Why Choose a CIMSPA-Endorsed Course with Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -451,7 +453,7 @@
           "type": "accordion_row",
           "settings": {
             "heading": "What is CIMSPA?",
-            "row_content": "<p>CIMSPA is the Chartered Institute for the<br/>Management of Sport and Physical Activity. They are the recognised professional<br/>development body for the UK’s fitness sector.</p>"
+            "row_content": "<p>CIMSPA is the Chartered Institute for the Management of Sport and Physical Activity. They are the recognised professional development body for the UK’s fitness sector.</p>"
           }
         },
         "accordion_row_Ecbk7a": {
@@ -547,6 +549,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>You bring the passion, we'll take care of everything else</p>",
         "heading_type": "h2",
         "heading_size": "h2",
