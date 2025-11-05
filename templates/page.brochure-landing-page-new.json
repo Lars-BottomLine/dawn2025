@@ -66,8 +66,8 @@
       "settings": {
         "form_type": "brochure",
         "heading_text": "<p>What you’ll get inside</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
+        "heading_type": "h2",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
@@ -88,6 +88,78 @@
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_T7x6Eg": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Student Testimonials</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 24,
+        "margin_top": 0,
+        "margin_bottom": 24
+      }
+    },
+    "v2_video_t83TWV": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_gkiJxq": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "description": ""
+          }
+        },
+        "videoblock_PdGiLi": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_gkiJxq",
+        "videoblock_PdGiLi"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 52,
         "padding_bottom": 40,
         "margin_top": -36,
         "margin_bottom": 0
@@ -159,119 +231,98 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_MCJdKL": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "page_wide": false,
-        "heading_text": "<p>Graduate success stories</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>Here are a few testimonials from former Study Active students</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_GzBdCc": {
-      "type": "v2_slideshow",
+    "v2_cards_xmbyLJ": {
+      "type": "v2_cards",
       "blocks": {
-        "slide_CQ7jTH": {
-          "type": "slide",
+        "card_kVQKgd": {
+          "type": "card",
           "settings": {
-            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
-            "headline": "<p>Michael Clegg</p>",
-            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
-            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
-            "button_label": "",
-            "button_url": ""
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "title_text": "<p><strong>Interview guarantee</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Interview with top UK gyms</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
           }
         },
-        "slide_zNDrNe": {
-          "type": "slide",
+        "card_46DTcr": {
+          "type": "card",
           "settings": {
-            "image": "shopify://shop_images/New.png",
-            "headline": "<p>Julie Davis</p>",
-            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
-            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
-            "button_label": "",
-            "button_url": ""
+            "image": "shopify://shop_images/symbol-article_person.svg",
+            "title_text": "<p><strong>CV writing support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Learn how to stand out</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
           }
         },
-        "slide_7H6e3E": {
-          "type": "slide",
+        "card_DKyDrj": {
+          "type": "card",
           "settings": {
-            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
-            "headline": "<p>Anne Nixon</p>",
-            "subheadline": "<p>Former CBBC Television Presenter</p>",
-            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_6GqrXD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/calvin-zola-504x251.avif",
-            "headline": "<p>Calvin Zola</p>",
-            "subheadline": "<p>Professional Footballer</p>",
-            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_wmUdLC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/giles-matthey-504x251.avif",
-            "headline": "<p>Giles Matthey</p>",
-            "subheadline": "<p>Actor </p>",
-            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
-            "button_label": "",
-            "button_url": ""
+            "image": "shopify://shop_images/symbol-explore.svg",
+            "title_text": "<p><strong>Career guidance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Find the right path for you</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
           }
         }
       },
       "block_order": [
-        "slide_CQ7jTH",
-        "slide_zNDrNe",
-        "slide_7H6e3E",
-        "slide_6GqrXD",
-        "slide_wmUdLC"
+        "card_kVQKgd",
+        "card_46DTcr",
+        "card_DKyDrj"
       ],
-      "name": "t:lesections.v2_slideshow.presets.name",
+      "name": "t:lesections.cards.presets.name",
       "settings": {
-        "slide_type": "blue",
-        "blog": "",
-        "blog_post_limit": 3,
-        "product_list": [],
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
         "bkgr_color": "light-blue",
-        "decal_top": false,
+        "card_layout": "vertical",
+        "heading_text": "<p>Guaranteed job interview promise</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -378,98 +429,119 @@
         "margin_bottom": 80
       }
     },
-    "v2_cards_xmbyLJ": {
-      "type": "v2_cards",
+    "v2_header_MCJdKL": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Graduate success stories</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Here are a few testimonials from former Study Active students</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_GzBdCc": {
+      "type": "v2_slideshow",
       "blocks": {
-        "card_kVQKgd": {
-          "type": "card",
+        "slide_6GqrXD": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/symbol-handshake-blue.svg",
-            "title_text": "<p><strong>Interview guarantee</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Interview with top UK gyms</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
           }
         },
-        "card_46DTcr": {
-          "type": "card",
+        "slide_zNDrNe": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/symbol-article_person.svg",
-            "title_text": "<p><strong>CV writing support</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Learn how to stand out</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
           }
         },
-        "card_DKyDrj": {
-          "type": "card",
+        "slide_CQ7jTH": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/symbol-explore.svg",
-            "title_text": "<p><strong>Career guidance</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Find the right path for you</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
+            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_7H6e3E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_wmUdLC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>Actor </p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "button_label": "",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "card_kVQKgd",
-        "card_46DTcr",
-        "card_DKyDrj"
+        "slide_6GqrXD",
+        "slide_zNDrNe",
+        "slide_CQ7jTH",
+        "slide_7H6e3E",
+        "slide_wmUdLC"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "bkgr_color": "light-blue",
-        "card_layout": "vertical",
-        "heading_text": "<p>Guaranteed job interview promise</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "medium",
-        "button_new_window": false,
-        "button_align": "center",
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "custom_class_names": "",
-        "decal_top": true,
+        "bkgr_color": "light-blue",
+        "decal_top": false,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -484,7 +556,7 @@
         "page_wide": false,
         "heading_text": "<p>Your journey starts here</p>",
         "heading_type": "h2",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
@@ -691,12 +763,14 @@
     "main",
     "v2_hero_k3BEND",
     "v2_newsletter_WmBhQK",
+    "v2_header_T7x6Eg",
+    "v2_video_t83TWV",
     "v2_header_yx6r89",
     "v2_trustpilot_Aa6Fc6",
+    "v2_cards_xmbyLJ",
+    "v2_cards_3FDg9r",
     "v2_header_MCJdKL",
     "v2_slideshow_GzBdCc",
-    "v2_cards_3FDg9r",
-    "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
     "v2_video_zRAPCJ",
     "v2_header_dGCTCr",
