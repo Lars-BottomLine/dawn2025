@@ -513,15 +513,37 @@
         "margin_bottom": 0
       }
     },
-    "v2_featured_imtjhU": {
-      "type": "v2_featured",
-      "disabled": true,
-      "name": "t:lesections.v2_featured.presets.name",
+    "v2_video_zRAPCJ": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_M7YKCz": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://youtu.be/2Ho0ykmjKgw",
+            "cover_image": "shopify://shop_images/Elearning_Website_Thumbnail_5_-_Repositioned.svg",
+            "description": ""
+          }
+        },
+        "videoblock_GpT9Fq": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=5LnU4xha7Z0&t=4s",
+            "cover_image": "shopify://shop_images/Screenshot_2025-10-10_122900.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_M7YKCz",
+        "videoblock_GpT9Fq"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
       "settings": {
-        "product": "cimspa-certificate-in-personal-training-l3",
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": true,
+        "bkgr_color": "white",
+        "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -661,7 +683,7 @@
     "v2_cards_3FDg9r",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
-    "v2_featured_imtjhU",
+    "v2_video_zRAPCJ",
     "v2_header_dGCTCr",
     "v2_slideshow_a6Npcz"
   ]
