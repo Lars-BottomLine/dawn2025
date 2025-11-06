@@ -137,7 +137,7 @@
           "settings": {
             "enable_video_looping": false,
             "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Lisa_Marley_-_Thumbnail_Video_Testimonal.jpg",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
             "description": ""
           }
         },
@@ -145,7 +145,8 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "video_url": "https://vimeo.com/1134134461",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
             "description": ""
           }
         }
