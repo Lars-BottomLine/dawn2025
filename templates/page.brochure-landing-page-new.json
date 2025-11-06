@@ -83,7 +83,7 @@
         "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
-        "custom_class_names": "",
+        "custom_class_names": "form",
         "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
