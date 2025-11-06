@@ -26,6 +26,7 @@
     assign class_title = '_font-copy-l'
     assign class_description = '_font-copy-m'
     assign class_description = ' _font-copy-l'
+    assign title_tag = 'h4'
     assign classes_button = ''
 
     case template_type
@@ -39,6 +40,7 @@
             assign class_title = '_font-h2'
             assign class_description = ' _font-copy-l'
             assign classes_button = ' -size-medium '
+            assign title_tag = 'h1'
         when 'product_thumb'
             assign class_title = ' _font-copy-l !font-bold '
             assign class_description = ' _font-copy-m '
@@ -58,6 +60,7 @@
         assign haz_featured = true
         assign not_haz_featured = false
     endif
+
 
 %}
 
@@ -195,14 +198,14 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <h4 class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
+                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
                                 {%- unless placeholder -%}
                                     {{ product.title | escape }}
 
                                 {%- else -%}
                                     {{ 'onboarding.product_title' | t }}
                                 {%- endunless -%}
-                            </h4>
+                            </{{ title_tag }}>
 
                             <div class="pt-description {{ class_description }}">
                                 {{ product.metafields.custom.short_description | metafield_tag }}
