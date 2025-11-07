@@ -270,32 +270,12 @@
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
-        },
-        "card_46CbXD": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/e103586f7fbb77619fa69baa6369eef6adcf03fe.jpg",
-            "title_text": "<p><strong>What You’ll Learn</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<ul><li>The curriculum covers <strong>11 modules</strong> spanning all essential fitness topics.</li><li>You’ll dive into <strong>Anatomy & Exercise Physiology, Nutrition and Weight Management, Client Programming & Coaching, Advanced Training Techniques, and Professional Conduct & Business Skill</strong>s for personal trainers.</li></ul>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
         }
       },
       "block_order": [
         "card_bLLDmP",
         "card_fgyfqH",
-        "card_PBe3qx",
-        "card_46CbXD"
+        "card_PBe3qx"
       ],
       "name": "v2 - Cards - Wide White",
       "settings": {
