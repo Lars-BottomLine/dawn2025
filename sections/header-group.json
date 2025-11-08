@@ -109,7 +109,7 @@
           "type": "megamenu",
           "settings": {
             "menu_index": 5,
-            "left_heading": "Foundational Courses",
+            "left_heading": "Qualifications",
             "left_heading_url": "shopify://collections/foundational-courses",
             "left_subheading": "",
             "left_submenu": "2025-mm-courses-left",
@@ -120,13 +120,30 @@
             "footer_link_label": "All Courses",
             "footer_link_url": "shopify://collections/all-active-courses"
           }
+        },
+        "megamenu_iMDkND": {
+          "type": "megamenu",
+          "settings": {
+            "menu_index": 1,
+            "left_heading": "SALE",
+            "left_heading_url": "https://studyactive.co.uk/collections/black-friday-sale",
+            "left_subheading": "",
+            "left_submenu": "",
+            "right_heading": "",
+            "right_heading_url": "",
+            "right_subheading": "",
+            "right_submenu": "",
+            "footer_link_label": "",
+            "footer_link_url": ""
+          }
         }
       },
       "block_order": [
         "megamenu_hmQVLb",
         "megamenu_mt3Xcj",
         "megamenu_jqN9PF",
-        "megamenu_g8KmbT"
+        "megamenu_g8KmbT",
+        "megamenu_iMDkND"
       ],
       "settings": {
         "logo_position": "middle-left",
