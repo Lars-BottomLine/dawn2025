@@ -14,6 +14,7 @@
       "blocks": {
         "slide_gP9gBY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PT_Hero_Image_6.png",
             "slide_type": "twocol",
@@ -33,8 +34,30 @@
             "button_new_window": false
           }
         },
+        "slide_iwDTHy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PT_Hero_Image_6.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Black Friday <strong>SALE</strong></p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Pay in full and get <strong>up to 30% off</strong> — our biggest-ever discount! Add to cart to automatically apply discount.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Shop SALE",
+            "button_url": "shopify://collections/black-friday-sale",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
         "slide_zzLjTp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_4_1.jpg",
             "slide_type": "twocol",
@@ -56,6 +79,7 @@
         },
         "slide_zLMkrC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_2_1.jpg",
             "slide_type": "twocol",
@@ -77,6 +101,7 @@
         },
         "slide_yMtA4W": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_3_1.jpg",
             "slide_type": "twocol",
@@ -99,6 +124,7 @@
       },
       "block_order": [
         "slide_gP9gBY",
+        "slide_iwDTHy",
         "slide_zzLjTp",
         "slide_zLMkrC",
         "slide_yMtA4W"
