@@ -75,12 +75,12 @@
           "settings": {
             "image": "shopify://shop_images/Hero_Image_-_Associations_and_Partnerships.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Affordable Training to Start Your New Career</p>",
+            "heading_text": "<p>Price Match Guarantee</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>We appreciate your interest in studying with us.</p>",
+            "text": "<p>Quality training at a price you can trust.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -124,7 +124,7 @@
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>We understand that retraining for a new career can feel like a big step, which is why at Study Active we focus on making the process as simple as possible. Our courses are designed to be flexible, both in how you study and how you pay. If you are based in the UK, you can spread the cost over ten months, starting from just £29 a month or £7.25 a week.</p><p>To give you even better value, we offer an automatic discount of 10% or more when you combine two or more courses. Our careers advisors can help you build a personalised bundle that matches your goals and sets you on the right path toward your new career.</p>",
+        "text": "<p>We understand that retraining for a new career can feel like a big step — that’s why at Study Active, we make the journey as simple and affordable as possible. Our courses are designed to be flexible, both in how you study and how you pay.<br/><br/>If you’re based in the UK, you can spread the cost over ten months, <strong>starting from just £29 a month (or £7.25 a week</strong>). Plus, to help you get even better value, we offer an automatic discount of 10% or more when you combine two or more courses.<br/><br/>And with our <strong>Price Match Guarantee</strong>, you’ll never pay more than you should. If another CIMSPA-Enhancing training provider offers the same course at a lower price, we’ll match it — guaranteed.<br/><br/>Our careers advisors are always on hand to help you build a personalised training bundle that fits your goals and sets you confidently on the path to your new career.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -147,29 +147,29 @@
         "margin_bottom": 0
       }
     },
-    "v2_cards_NXqnHm": {
+    "v2_cards_CNrGEY": {
       "type": "v2_cards",
       "blocks": {
-        "card_f6YTkB": {
+        "card_48hPqW": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-credit-card.svg",
-            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text": "<p><strong>Price Match Guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Save money with our discounted full payment option</p>",
+            "text": "<p>Find it cheaper with a CIMSPA-enhanced  status provider?</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>Up to 10% discount available</strong></p>",
+            "claim_text": "<p><strong>Not beaten on price</strong></p>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
         },
-        "card_L6C4KH": {
+        "card_PgmwWz": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-calendar-event.svg",
@@ -188,7 +188,7 @@
             "claim_text_strong_accented": false
           }
         },
-        "card_zh4ADb": {
+        "card_xDmkDr": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/symbol-shield.svg",
@@ -209,9 +209,9 @@
         }
       },
       "block_order": [
-        "card_f6YTkB",
-        "card_L6C4KH",
-        "card_zh4ADb"
+        "card_48hPqW",
+        "card_PgmwWz",
+        "card_xDmkDr"
       ],
       "name": "v2 - Cards - Vertical Light Blue",
       "settings": {
@@ -232,17 +232,17 @@
         "text_align": "center",
         "text_width": "medium",
         "button_text": "",
-        "button_url": "shopify://blogs/news/leg-machines-at-the-gym-why-you-should-never-skip-leg-day",
+        "button_url": "shopify://pages/personal-trainer-payment-plans",
         "button_style": "primary",
         "button_size": "medium",
         "button_new_window": true,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 4,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
@@ -465,7 +465,7 @@
     "image_banner_GzGMki",
     "v2_hero_dKmyEE",
     "v2_text_plus_image_NKxUXa",
-    "v2_cards_NXqnHm",
+    "v2_cards_CNrGEY",
     "v2_steps_e63nQr",
     "v2_accordion_8UCMEt",
     "v2_header_XrAPbj",
