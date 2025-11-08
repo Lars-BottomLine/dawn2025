@@ -529,7 +529,6 @@
         "videoblock_4khjcm",
         "videoblock_Xk8heb"
       ],
-      "disabled": true,
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
         "custom_class_names": "",
@@ -876,6 +875,7 @@
       "block_order": [
         "slide_j3U6gr"
       ],
+      "disabled": true,
       "name": "t:lesections.hero.presets.name",
       "settings": {
         "full_width": true,
@@ -887,6 +887,21 @@
         "padding_top": 60,
         "padding_bottom": 140,
         "margin_top": -200,
+        "margin_bottom": 0
+      }
+    },
+    "v2_form_k9hVPJ": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "career",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -1325,6 +1340,7 @@
     "v2_slideshow_4RTHyC",
     "v2_cards_ayDGYf",
     "v2_hero_6e4NMx",
+    "v2_form_k9hVPJ",
     "v2_cards_NkTwDC",
     "v2_cards_AGmV8Q",
     "v2_header_chDced",
