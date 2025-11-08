@@ -1236,7 +1236,7 @@
           "type": "accordion_row",
           "settings": {
             "heading": "Are your personal training courses online?",
-            "row_content": "<p>Our nationally recognised online courses are delivered via blended learning.<br/><br/>Most of our courses can be studied online using the wealth of digital resources we have provided. However, your online learning will be supplemented by remote support from an expert tutor who will teach and instruct you via webinars, Zoom (or similar), mobile tutorials or email contact.<br/><br/>For your practical assessment, you can either come into our study base in Hertfordshire or choose to record a video of your practical assessments which can then be sent to us.<br/><br/>Some of the courses we offer may involve some face-to-face training, so do read the course details, if you are unsure and would prefer mainly online-based learning.</p>"
+            "row_content": "<p>Our nationally recognised online courses are delivered via blended learning.<br/><br/>Most of our courses can be studied online using the wealth of digital resources we have provided. However, your online learning will be supplemented by remote support from an expert tutor who will teach and instruct you via webinars, Zoom (or similar), mobile tutorials or email contact.<br/><br/>For your practical assessment, you can either come into one of our <a href=\"/pages/training-venues-and-locations\" title=\"Training Venues and Locations\">venues</a> for assessment or choose to record a video of your practical assessments which can then be sent to us.<br/><br/>Some of the courses we offer may involve some face-to-face training, so do read the course details, if you are unsure and would prefer mainly online-based learning.</p>"
           }
         },
         "accordion_row_DbHHPP": {
@@ -1250,7 +1250,7 @@
           "type": "accordion_row",
           "settings": {
             "heading": "What governing boards are your personal training courses accredited by?",
-            "row_content": "<p>Our PT qualifications are awarded by the most prestigious fitness awarding body, Active IQ. All of our courses are regulated by Ofqual and Study Active is a CIMSPA-endorsed training provider. Study Active are also a UK Active member and have close associations with the RSPH, Association for Nutrition and the National Register of Personal Trainer (NRPT).<br/><br/>If you have any other questions about our practical courses or about us, please feel free to reach out to find out more.</p>"
+            "row_content": "<p>Our PT qualifications are awarded by the most prestigious fitness awarding organisations, Active IQ or Focus Awards. All of our courses are regulated by Ofqual and Study Active is a CIMSPA-endorsed training provider. Study Active are also a UK Active member and RSPH.<br/><br/>If you have any other questions about our practical courses or about us, please feel free to reach out to find out more.</p>"
           }
         }
       },
