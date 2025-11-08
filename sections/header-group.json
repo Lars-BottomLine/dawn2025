@@ -22,15 +22,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "BLACK FRIDAY SALE - Up to 30% off, discount automatically applied at checkout.*",
+            "link": "https://studyactive.co.uk/collections/black-friday-sale"
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
