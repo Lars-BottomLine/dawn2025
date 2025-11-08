@@ -332,29 +332,29 @@
         "margin_bottom": 0
       }
     },
-    "v2_cards_3FDg9r": {
+    "v2_cards_yW4Ccz": {
       "type": "v2_cards",
       "blocks": {
-        "card_XzC7Xx": {
+        "card_z7MhHD": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-credit-card.svg",
-            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text": "<p><strong>Price Match Guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Save money with our discounted full payment option</p>",
+            "text": "<p>Find it cheaper with a CIMSPA-enhanced  status provider?</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>Up to 10% discount available.</strong></p>",
+            "claim_text": "<p><strong>Not beaten on price</strong></p>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
         },
-        "card_WkzQ4P": {
+        "card_DEY7iY": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-calendar-event.svg",
@@ -366,14 +366,14 @@
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>From £49/month available</strong></p>",
+            "claim_text": "<p><strong>From £29/month available </strong></p>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
             "claim_text_strong_accented": false
           }
         },
-        "card_gEQATq": {
+        "card_9KGAg7": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/symbol-shield.svg",
@@ -385,7 +385,7 @@
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><a href=\"/pages/terms-and-conditions\" title=\"Terms and Conditions\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
+            "claim_text": "<p><strong>Terms and conditions apply</strong></p>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
@@ -394,11 +394,11 @@
         }
       },
       "block_order": [
-        "card_XzC7Xx",
-        "card_WkzQ4P",
-        "card_gEQATq"
+        "card_z7MhHD",
+        "card_DEY7iY",
+        "card_9KGAg7"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "name": "v2 - Cards - Vertical Light Blue",
       "settings": {
         "bkgr_color": "white",
         "card_layout": "vertical",
@@ -416,19 +416,19 @@
         "text_strong_accented": false,
         "text_align": "center",
         "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
+        "button_text": "Discover More",
+        "button_url": "shopify://pages/personal-trainer-payment-plans",
         "button_style": "primary",
         "button_size": "medium",
-        "button_new_window": false,
+        "button_new_window": true,
         "button_align": "center",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 80
+        "margin_top": -140,
+        "margin_bottom": 0
       }
     },
     "v2_header_MCJdKL": {
@@ -770,7 +770,7 @@
     "v2_header_yx6r89",
     "v2_trustpilot_Aa6Fc6",
     "v2_cards_xmbyLJ",
-    "v2_cards_3FDg9r",
+    "v2_cards_yW4Ccz",
     "v2_header_MCJdKL",
     "v2_slideshow_GzBdCc",
     "v2_header_mpfKMe",
