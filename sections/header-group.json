@@ -120,30 +120,13 @@
             "footer_link_label": "All Courses",
             "footer_link_url": "shopify://collections/all-active-courses"
           }
-        },
-        "megamenu_iMDkND": {
-          "type": "megamenu",
-          "settings": {
-            "menu_index": 1,
-            "left_heading": "SALE",
-            "left_heading_url": "https://studyactive.co.uk/collections/black-friday-sale",
-            "left_subheading": "",
-            "left_submenu": "",
-            "right_heading": "",
-            "right_heading_url": "",
-            "right_subheading": "",
-            "right_submenu": "",
-            "footer_link_label": "",
-            "footer_link_url": ""
-          }
         }
       },
       "block_order": [
         "megamenu_hmQVLb",
         "megamenu_mt3Xcj",
         "megamenu_jqN9PF",
-        "megamenu_g8KmbT",
-        "megamenu_iMDkND"
+        "megamenu_g8KmbT"
       ],
       "settings": {
         "logo_position": "middle-left",
