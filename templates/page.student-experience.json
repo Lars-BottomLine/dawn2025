@@ -111,6 +111,7 @@
     },
     "v2_text_plus_image_NKxUXa": {
       "type": "v2_text-plus-image",
+      "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
@@ -208,6 +209,80 @@
         "padding_top": 92,
         "padding_bottom": 40,
         "margin_top": -48,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_JCzT6a": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Real Stories. Real Success.</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Hear directly from our students about their experiences on the course.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 24,
+        "margin_top": 0,
+        "margin_bottom": 24
+      }
+    },
+    "v2_video_zfxht4": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_eEbaQU": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "description": ""
+          }
+        },
+        "videoblock_VJ3EF9": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1134134461",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_eEbaQU",
+        "videoblock_VJ3EF9"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
         "margin_bottom": 0
       }
     },
@@ -636,6 +711,8 @@
     "v2_text_plus_image_NKxUXa",
     "v2_header_dwQgQh",
     "v2_video_9e6EMB",
+    "v2_header_JCzT6a",
+    "v2_video_zfxht4",
     "v2_cards_9LUYMj",
     "v2_header_AtLiGj",
     "v2_slideshow_CegGJV",

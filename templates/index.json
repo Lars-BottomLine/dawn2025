@@ -529,6 +529,7 @@
         "videoblock_4khjcm",
         "videoblock_Xk8heb"
       ],
+      "disabled": true,
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
         "custom_class_names": "",
