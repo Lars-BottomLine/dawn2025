@@ -24,7 +24,7 @@
         "slide_dawMgW": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/iStock-1404513813.jpg",
+            "image": "shopify://shop_images/PT_Hero_Image_3.png",
             "slide_type": "onecol",
             "heading_text": "<p>Discover Our <strong>CPD Courses</strong></p>",
             "heading_type": "h1",
@@ -35,7 +35,7 @@
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "button_text": "Browse our CPD Courses",
+            "button_text": "",
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
