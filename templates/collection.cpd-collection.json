@@ -26,10 +26,10 @@
           "settings": {
             "image": "shopify://shop_images/iStock-1404513813.jpg",
             "slide_type": "onecol",
-            "heading_text": "<p>Discover Our CPD Courses</p>",
+            "heading_text": "<p>Discover Our <strong>CPD Courses</strong></p>",
             "heading_type": "h1",
             "heading_size": "h1",
-            "heading_strong_accented": false,
+            "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "<p>Whether you're a newly qualified personal trainer or an experienced coach looking to stay ahead, our CPD courses are designed to sharpen your skills, boost your confidence, and keep you at the forefront of the fitness industry.</p><p></p><p>Continuing Professional Development (CPD) is more than a box to tick. It is your opportunity to grow, specialise, and build a stronger, more rewarding fitness career. Start today and open the door to new ways to support your clients and increase your earning potential.</p>",
             "text_size": "copy-l",
