@@ -98,12 +98,72 @@
         "margin_top": -32,
         "margin_bottom": 0
       }
+    },
+    "v2_accordion_mrN9a6": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_4P4rgi": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What are CPD courses and why do they matter for PTs?",
+            "row_content": "<p>CPD (Continuing Professional Development) courses allow qualified fitness professionals to keep their skills current, deepen their expertise, and stay aligned with industry standards. They’re often required for maintaining CIMSPA membership and are widely recognised by employers and clients. Whether you're looking to refresh your knowledge or add new specialisms, CPD courses help you stand out in a competitive field.</p>"
+          }
+        },
+        "accordion_row_wTpxdc": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How do CPD courses help with CIMSPA membership?",
+            "row_content": "<p>CIMSPA requires members to regularly complete CPD points to maintain active status. Each Study Active CPD course contributes to your professional development portfolio, helping you meet annual requirements and demonstrate ongoing competence. Learn more about our CIMSPA-endorsed qualifications.</p>"
+          }
+        },
+        "accordion_row_6nm7yT": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I take multiple CPD courses at once to upskill faster?",
+            "row_content": "<p>Yes. Many of our learners complete several CPDs in parallel to gain a competitive edge. If you’re looking to expand your services or increase your value as a trainer, combining courses like Circuits, Kettlebells, and Nutrition Coaching can fast-track your development. Consider our Advanced Personal Trainer Course Bundle if you’re aiming for a broader qualification bundle.</p>"
+          }
+        },
+        "accordion_row_MDXnNf": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do CPD courses help me earn more as a personal trainer?",
+            "row_content": "<p>Absolutely. CPD qualifications not only improve your expertise but also expand the range of services you can offer. This allows you to attract more clients, raise your rates, and work in more varied settings like gyms, corporate wellness, or online coaching. According to industry surveys, PTs with specialist skills (e.g. kettlebell training or advanced nutrition) often command higher fees and enjoy better client retention.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_4P4rgi",
+        "accordion_row_wTpxdc",
+        "accordion_row_6nm7yT",
+        "accordion_row_MDXnNf"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "",
+        "heading_align": "center",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "banner",
     "v2_hero_9ctykV",
     "product-grid",
-    "v2_form_tpPiWT"
+    "v2_form_tpPiWT",
+    "v2_accordion_mrN9a6"
   ]
 }
