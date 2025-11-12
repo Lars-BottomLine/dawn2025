@@ -661,10 +661,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_a6Npcz": {
+    "v2_slideshow_PF7gBt": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_T3RxGF": {
+        "slide_3TG6PT": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
@@ -675,7 +675,7 @@
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
         },
-        "slide_bj4n9M": {
+        "slide_iTRxce": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
@@ -683,10 +683,10 @@
             "subheadline": "",
             "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://collections/personal-trainer-pathway"
+            "button_url": "shopify://products/cimspa-certificate-in-personal-training-l3"
           }
         },
-        "slide_8CC6RP": {
+        "slide_aAc8zg": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/sports-massage.jpg",
@@ -697,7 +697,7 @@
             "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
           }
         },
-        "slide_R7ydxE": {
+        "slide_cAmgm6": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/100.png",
@@ -705,10 +705,10 @@
             "subheadline": "",
             "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/level-3-pilates-personal-trainer-bundle"
+            "button_url": "shopify://products/active-iq-level-3-diploma-in-instructing-pilates-matwork"
           }
         },
-        "slide_Wy8NM7": {
+        "slide_7PmNtr": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/73.png",
@@ -721,11 +721,11 @@
         }
       },
       "block_order": [
-        "slide_T3RxGF",
-        "slide_bj4n9M",
-        "slide_8CC6RP",
-        "slide_R7ydxE",
-        "slide_Wy8NM7"
+        "slide_3TG6PT",
+        "slide_iTRxce",
+        "slide_aAc8zg",
+        "slide_cAmgm6",
+        "slide_7PmNtr"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -776,7 +776,7 @@
     "v2_header_mpfKMe",
     "v2_video_zRAPCJ",
     "v2_header_dGCTCr",
-    "v2_slideshow_a6Npcz",
+    "v2_slideshow_PF7gBt",
     "v2_form_Afgd4D"
   ]
 }
