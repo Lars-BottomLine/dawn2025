@@ -55,7 +55,7 @@
         "slide_autospeed": 5000,
         "custom_class_names": "",
         "padding_top": 40,
-        "padding_bottom": 140,
+        "padding_bottom": 172,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -78,9 +78,9 @@
         "enable_sorting": true,
         "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 36,
+        "padding_top": 4,
         "padding_bottom": 36,
-        "margin_top": -140,
+        "margin_top": -200,
         "margin_bottom": 0
       }
     },
