@@ -18,16 +18,21 @@
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
 
+    assign bkgr_color = section.settings.bkgr_color
+    # WORKAROUND BECAUSE NO BKGR CHECK
+    assign bkgr_color = 'white'
+
+
     # ---------------------------------
     # BACKGROUND + DECAL - colors
     # ---------------------------------
-    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
-    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
-    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
-    if section.settings.bkgr_color == 'primary'
+    assign section_classes = section_classes | append: ' sa-bg-' | append: bkgr_color
+    assign section_classes = section_classes | append: ' -dct-' | append: bkgr_color
+    assign section_classes = section_classes | append: ' -dcb-' | append: bkgr_color
+    if bkgr_color == 'primary'
         assign section_classes = section_classes | append: ' sa-col-white '
     endif
-    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+    if bkgr_color == 'light-blue' or bkgr_color == 'white'
         assign section_classes = section_classes | append: ' sa-col-primary '
     endif
 
