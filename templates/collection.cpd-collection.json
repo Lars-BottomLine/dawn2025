@@ -55,7 +55,7 @@
         "slide_autospeed": 5000,
         "custom_class_names": "",
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 140,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -76,11 +76,11 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "margin_top": -24,
+        "margin_top": -140,
         "margin_bottom": 0
       }
     },
