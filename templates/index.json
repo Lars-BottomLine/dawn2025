@@ -37,14 +37,14 @@
         "slide_iwDTHy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/PT_Hero_Image_6.png",
+            "image": "shopify://shop_images/Black_Friday_Website_Hero_Image.png",
             "slide_type": "twocol",
             "heading_text": "<p>Black Friday <strong>SALE</strong></p>",
             "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>Get <strong>up to 30% off</strong> — our biggest-ever discount! </p>",
+            "text": "<p>Get <strong>up to 30% off</strong> - Our biggest-ever Black Friday offer just expanded.</p><p></p><p><strong>CPD courses NOW included!</strong></p>",
             "text_size": "h2",
             "text_no_decal": true,
             "text_strong_accented": false,
