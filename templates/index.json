@@ -55,6 +55,28 @@
             "button_new_window": false
           }
         },
+        "slide_QtaAEj": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Cyber_MondayWeek_2025_4_-_Blue_overlay.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Cyber Week </p><p>is <strong>HERE</strong></p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>You asked - We listened.</p><p><br/>Get <strong>30% off for one more week</strong> and invest in your future self before the new year begins.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Shop SALE",
+            "button_url": "shopify://collections/black-friday-sale",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
         "slide_zzLjTp": {
           "type": "slide",
           "disabled": true,
@@ -125,6 +147,7 @@
       "block_order": [
         "slide_gP9gBY",
         "slide_iwDTHy",
+        "slide_QtaAEj",
         "slide_zzLjTp",
         "slide_zLMkrC",
         "slide_yMtA4W"
