@@ -14,6 +14,7 @@
       "blocks": {
         "slide_gP9gBY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PT_Hero_Image_6.png",
             "slide_type": "twocol",
@@ -57,7 +58,6 @@
         },
         "slide_QtaAEj": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Cyber_MondayWeek_2025_1.png",
             "slide_type": "twocol",
