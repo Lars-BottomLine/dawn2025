@@ -14,7 +14,6 @@
       "blocks": {
         "slide_gP9gBY": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PT_Hero_Image_6.png",
             "slide_type": "twocol",
@@ -36,6 +35,7 @@
         },
         "slide_iwDTHy": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Black_Friday_Website_Hero_Image.png",
             "slide_type": "twocol",
