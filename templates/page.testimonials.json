@@ -73,14 +73,14 @@
         "slide_PQwynq": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Hero_Image_-_Associations_and_Partnerships.png",
+            "image": "shopify://shop_images/SMT_Group_Photo.png",
             "slide_type": "onecol",
             "heading_text": "<p>Student Testimonials</p><p></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": false,
             "heading_no_decal": false,
-            "text": "",
+            "text": "<p>Don’t Just Take Our Word For It - <strong>Hear From the Students Who’ve Qualified With Us</strong></p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
