@@ -268,11 +268,21 @@
             "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
             "description": ""
           }
+        },
+        "videoblock_wqa3Fw": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1143893982?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Olivia_Colt.png",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "videoblock_eEbaQU",
-        "videoblock_VJ3EF9"
+        "videoblock_VJ3EF9",
+        "videoblock_wqa3Fw"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
