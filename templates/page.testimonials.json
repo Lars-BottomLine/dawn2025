@@ -176,6 +176,44 @@
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_gyfzcF": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_dURKdw": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1143893982?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Olivia_Colt.png",
+            "description": ""
+          }
+        },
+        "videoblock_VFfjW4": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1143898189?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Julie_Ter_Haar.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_dURKdw",
+        "videoblock_VFfjW4"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
         "decal_bottom": true,
         "padding_top": 52,
         "padding_bottom": 40,
@@ -436,6 +474,7 @@
     "v2_hero_KeXgkM",
     "v2_header_XNwDDJ",
     "v2_video_fakz39",
+    "v2_video_gyfzcF",
     "v2_header_camV7h",
     "v2_trustpilot_p6LAkQ",
     "v2_header_aUiNMg",
