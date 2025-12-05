@@ -7511,6 +7511,12 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
 .v2-article-template .v2-article-content.-blockquote-white blockquote {
   background: var(--color-white);
 }
+.v2-article-content iframe {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: auto;
+  display: block;
+}
 .v2-article-template .article-template__back {
   padding-top: 4rem;
   margin: auto;
