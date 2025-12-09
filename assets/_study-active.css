@@ -7516,6 +7516,7 @@ cart-notification h1, cart-notification h2, cart-notification h3, cart-notificat
   width: 100% !important;
   height: 100% !important;
   display: block;
+  position: absolute;
 }
 .v2-article-template .article-template__back {
   padding-top: 4rem;
