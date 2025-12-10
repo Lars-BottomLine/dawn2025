@@ -22,19 +22,18 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "BLACK FRIDAY SALE - Up to 30% off, discount automatically applied at checkout.*",
-            "link": "https://studyactive.co.uk/collections/black-friday-sale"
+            "text": "Unlock 20% Off Our Best-Selling Personal Trainer Diploma Today",
+            "link": "https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
