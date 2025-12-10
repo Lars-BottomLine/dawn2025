@@ -104,7 +104,7 @@
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "claim_text": "<p><strong>Get your brochure now!</strong></p>",
+        "claim_text": "",
         "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
@@ -245,7 +245,7 @@
         "subheadline_RJJJAL": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p>Think about what drives you – <strong>your passion for fitness, the ambition to move beyond an unfulfilling job, and the vision of becoming the trusted fitness coach people turn to</strong>. Decide which type of clients you want to support, then explore our courses to choose the pathway that gets you qualified quickly and helps you stand out.</p><p></p><p>Your journey can begin with the <a href=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\" title=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\"><strong>Level 3 Personal Training</strong> <strong>Course </strong></a>(for those who already hold a Level 2 Gym Instructing qualification) or the <a href=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\"><strong>Level 3 Gym Instructor and Personal Trainer Course</strong></a> (below) if you are starting at entry level. From there, you can build your expertise further by adding specialist CPD courses tailored to your career goals.</p>",
+            "text": "<p></p><p>Think about what drives you – <strong>your passion for fitness, the ambition to move beyond an unfulfilling job, and the vision of becoming the trusted fitness coach people turn to</strong>. Decide which type of clients you want to support, then explore our courses to choose the pathway that gets you qualified quickly and helps you stand out.</p><p></p><p>Your journey can begin with the <a href=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\" title=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\"><strong>Level 3 Personal Training</strong> <strong>Course </strong></a>(for those who already hold a Level 2 Gym Instructing qualification) or the <a href=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\"><strong>Level 3 Gym Instructor and Personal Trainer Course</strong></a> (<strong>below</strong>) if you are starting at entry level. From there, you can build your expertise further by adding specialist CPD courses tailored to your career goals.</p><ul><li>Train clients 1-1 in gyms, studios, or 100% online</li><li><strong>Earn £25–£75 per hour once fully qualified</strong></li><li>Add specialisations like strength, group fitness, nutrition, or kettlebell coaching</li><li>No degree needed – start with zero experience</li></ul><p></p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
