@@ -413,7 +413,7 @@
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 0,
-        "padding_bottom": 40,
+        "padding_bottom": 64,
         "margin_top": 28,
         "margin_bottom": 0
       }
@@ -612,9 +612,37 @@
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 0,
-        "padding_bottom": 40,
+        "padding_bottom": 116,
         "margin_top": -124,
         "margin_bottom": 16
+      }
+    },
+    "v2_video_QRMVYw": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_NdpCDL": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_NdpCDL"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
       }
     },
     "v2_flexible_cCmPQw": {
@@ -642,10 +670,10 @@
         "bkgr_color": "white",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
-        "margin_top": -12,
+        "margin_top": -44,
         "margin_bottom": 0
       }
     },
@@ -786,6 +814,7 @@
     "v2_flexible_KtNcez",
     "v2_slideshow_wB8mUH",
     "v2_cards_TWwNwh",
+    "v2_video_QRMVYw",
     "v2_flexible_cCmPQw",
     "v2_flexible_XDXkJK",
     "v2_accordion_BTGkUz",
