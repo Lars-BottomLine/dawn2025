@@ -15,6 +15,49 @@
         "slide_gP9gBY": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Image.png",
+            "slide_type": "twocol",
+            "heading_text": "<p><strong>New Year.</strong></p><p>New Ambition.</p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Kickstart your fitness career with our most popular qualification.</p><p><strong>Limited time offer.</strong></p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "Start Your Journey",
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_ff6DPb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Career_Quiz_7.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Not Sure </p><p><strong>Where to Start?</strong></p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Take our quick quiz to <strong>discover </strong>the fitness career that suits you best.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "Get Your Results",
+            "button_url": "shopify://pages/career-quiz",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_tEgBNj": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
             "image": "shopify://shop_images/PT_Hero_Image_6.png",
             "slide_type": "twocol",
             "heading_text": "<p><strong>Fast-track</strong> your career in fitness</p>",
@@ -35,6 +78,7 @@
         },
         "slide_zzLjTp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_4_1.jpg",
             "slide_type": "twocol",
@@ -56,6 +100,7 @@
         },
         "slide_zLMkrC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_2_1.jpg",
             "slide_type": "twocol",
@@ -77,6 +122,7 @@
         },
         "slide_yMtA4W": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Study_Active_Hero_3_1.jpg",
             "slide_type": "twocol",
@@ -121,6 +167,8 @@
       },
       "block_order": [
         "slide_gP9gBY",
+        "slide_ff6DPb",
+        "slide_tEgBNj",
         "slide_zzLjTp",
         "slide_zLMkrC",
         "slide_yMtA4W",
