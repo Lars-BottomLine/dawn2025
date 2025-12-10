@@ -117,50 +117,6 @@
             "button_size": "medium",
             "button_new_window": false
           }
-        },
-        "slide_iwDTHy": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Black_Friday_Website_Hero_Image.png",
-            "slide_type": "twocol",
-            "heading_text": "<p>Black Friday <strong>SALE</strong></p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Get <strong>up to 30% off</strong> - Our biggest-ever Black Friday offer just expanded.</p><p></p><p><strong>CPD courses NOW included!</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Shop SALE",
-            "button_url": "shopify://collections/black-friday-sale",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_QtaAEj": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Website_Hero_Banner_-_Cyber_MondayWeek_2025_1.png",
-            "slide_type": "twocol",
-            "heading_text": "<p>Cyber Week: </p><p><strong>Final Chance</strong></p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>By popular demand, you’ve got <strong>one extra week</strong> to save <strong>30%</strong> and set up your success for the new year.</p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Shop SALE",
-            "button_url": "shopify://collections/black-friday-sale",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
         }
       },
       "block_order": [
@@ -168,9 +124,7 @@
         "slide_zzLjTp",
         "slide_zLMkrC",
         "slide_yMtA4W",
-        "slide_LpYiac",
-        "slide_iwDTHy",
-        "slide_QtaAEj"
+        "slide_LpYiac"
       ],
       "name": "t:lesections.hero.presets.name",
       "settings": {

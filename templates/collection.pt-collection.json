@@ -51,12 +51,12 @@
           "settings": {
             "image": "shopify://shop_images/Hero_image_-_PT_Course_1.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Turn your <strong>passion for fitness</strong> into a career you love</p>",
+            "heading_text": "<p>Become a Confident,<strong> In-Demand Personal Trainer </strong>– Fast</p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>Build a career that fits your lifestyle, inspires others, and rewards your passion for fitness.<br/><br/><strong>Ready to begin?</strong></p>",
+            "text": "<p>Qualify in months, work in gyms or online, and build a £40k+ career doing what you love.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -90,17 +90,17 @@
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
         "form_type": "brochure",
-        "heading_text": "<p>What you’ll get inside</p>",
+        "heading_text": "<p>Discover the Personal Trainer Pathway</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p>See how Study Active can support your journey into the fitness industry</p>",
+        "subheadline_text": "<p>Start your career as a Personal Trainer today and discover how you can progress to become a:</p>",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<ul><li>A breakdown of <strong>all our available courses</strong></li><li>Study options and how <strong>flexible learning</strong> works</li><li>Step-by-step guide to <strong>becoming qualified</strong></li><li>Details on <strong>guaranteed interviews</strong> and <strong>career support</strong></li><li><strong>Testimonials</strong> from real Study Active graduates</li><li>Pricing options and how to <strong>spread the cost</strong></li></ul>",
+        "text": "<ul><li>Strength & Conditioning Coach</li><li>Group Exercise Instructor</li><li>Nutrition & Weight Management Coach</li><li>Online Transformation Specialist</li><li>Gym Manager or Studio Owner</li></ul><p></p><p></p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -245,7 +245,7 @@
         "subheadline_RJJJAL": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p>Think about what drives you – <strong>your passion for fitness, the ambition to move beyond an unfulfilling job, and the vision of becoming the trusted fitness coach people turn to</strong>. Decide which type of clients you want to support, then explore our courses to choose the pathway that gets you qualified quickly and helps you stand out.</p><p></p><p>Your journey can begin with the <strong>Level 3 Personal Training</strong> <strong>Course </strong>(for those who already hold a Level 2 Gym Instructing qualification) or the <strong>Level 3 Gym Instructor and Personal Trainer Course</strong> (below) if you are starting at entry level. From there, you can build your expertise further by adding specialist CPD courses tailored to your career goals.</p>",
+            "text": "<p></p><p>Think about what drives you – <strong>your passion for fitness, the ambition to move beyond an unfulfilling job, and the vision of becoming the trusted fitness coach people turn to</strong>. Decide which type of clients you want to support, then explore our courses to choose the pathway that gets you qualified quickly and helps you stand out.</p><p></p><p>Your journey can begin with the <a href=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\" title=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\"><strong>Level 3 Personal Training</strong> <strong>Course </strong></a>(for those who already hold a Level 2 Gym Instructing qualification) or the <a href=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\"><strong>Level 3 Gym Instructor and Personal Trainer Course</strong></a> (below) if you are starting at entry level. From there, you can build your expertise further by adding specialist CPD courses tailored to your career goals.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -290,6 +290,25 @@
     "v2_cards_M464RW": {
       "type": "v2_cards",
       "blocks": {
+        "card_tbjCBW": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "title_text": "<p><strong>Become a Strength and Conditioning Coach</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Ideal for a fitness professional who wants to apply sports science principles to improve an athlete's performance and reduce injury risk. </p><p></p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<ul><li>Focus on athletic performance</li><li>Emphasises injury prevention and rehabilitation</li><li><strong>Work with athletes and sports teams</strong></li></ul>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
         "card_DegNcF": {
           "type": "card",
           "settings": {
@@ -302,7 +321,7 @@
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<ul><li>McDonald Method Breathing Basics </li><li>McDonald Method Boxing Basics </li><li>RSPH Level 4 Award in Nutrition </li></ul>",
+            "claim_text": "<ul><li><a href=\"https://studyactive.co.uk/products/mcdonald-method-boxing-basics-online-course\" title=\"https://studyactive.co.uk/products/mcdonald-method-boxing-basics-online-course\"><strong>McDonald Method Breathing Basics </strong></a></li><li><a href=\"https://studyactive.co.uk/products/mcdonald-method-breathing-basics-online-course\" title=\"https://studyactive.co.uk/products/mcdonald-method-breathing-basics-online-course\"><strong>McDonald Method Boxing Basics </strong></a></li><li><a href=\"https://studyactive.co.uk/products/level-4-nutrition\" title=\"https://studyactive.co.uk/products/level-4-nutrition\"><strong>RSPH Level 4 Award in Nutrition </strong></a></li></ul>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
@@ -321,7 +340,7 @@
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<ul><li>Boxercise Instructor Training </li><li>Level 2 Award in Studio Cycling </li><li>Study Active's 2 Day GroupFit Workshop</li></ul>",
+            "claim_text": "<ul><li><a href=\"https://studyactive.co.uk/products/boxercise-instructor-course\" title=\"https://studyactive.co.uk/products/boxercise-instructor-course\"><strong>Boxercise Instructor </strong></a></li><li>Studio Cycling Instructor</li><li><a href=\"https://studyactive.co.uk/products/kettlebell-instructor-course\" title=\"https://studyactive.co.uk/products/kettlebell-instructor-course\"><strong>Kettlebell Instructor</strong></a></li></ul>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
@@ -330,6 +349,7 @@
         }
       },
       "block_order": [
+        "card_tbjCBW",
         "card_DegNcF",
         "card_89t4rF"
       ],
@@ -361,7 +381,7 @@
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 0,
+        "padding_bottom": 56,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -391,26 +411,11 @@
         "bkgr_color": "white",
         "custom_class_names": "",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 28,
         "margin_bottom": 0
-      }
-    },
-    "v2_form_HGWEx7": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
-      "settings": {
-        "form_type": "brochure",
-        "custom_class_names": "",
-        "bkgr_color": "primary",
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 0,
-        "padding_bottom": 28,
-        "margin_top": 0,
-        "margin_bottom": 56
       }
     },
     "v2_flexible_KtNcez": {
@@ -750,6 +755,21 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_form_HGWEx7": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "custom_class_names": "",
+        "bkgr_color": "primary",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 36,
+        "padding_bottom": 28,
+        "margin_top": 0,
+        "margin_bottom": 56
+      }
     }
   },
   "order": [
@@ -763,12 +783,12 @@
     "v2_featured_mjC9ge",
     "v2_cards_M464RW",
     "v2_flexible_WaYAaf",
-    "v2_form_HGWEx7",
     "v2_flexible_KtNcez",
     "v2_slideshow_wB8mUH",
     "v2_cards_TWwNwh",
     "v2_flexible_cCmPQw",
     "v2_flexible_XDXkJK",
-    "v2_accordion_BTGkUz"
+    "v2_accordion_BTGkUz",
+    "v2_form_HGWEx7"
   ]
 }
