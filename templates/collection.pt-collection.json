@@ -612,68 +612,128 @@
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 0,
-        "padding_bottom": 116,
+        "padding_bottom": 64,
         "margin_top": -124,
-        "margin_bottom": 16
+        "margin_bottom": 108
       }
     },
-    "v2_video_QRMVYw": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_NdpCDL": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_NdpCDL"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
+    "v2_header_Kpf3JB": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Graduate success stories</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Here are a few testimonials from former Study Active students</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
         "custom_class_names": "",
-        "bkgr_color": "white",
         "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 52,
-        "padding_bottom": 40,
-        "margin_top": -36,
+        "decal_bottom": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
-    "v2_flexible_cCmPQw": {
-      "type": "v2_flexible",
+    "v2_slideshow_Y3D3b8": {
+      "type": "v2_slideshow",
       "blocks": {
-        "buttoncol_PF9Mp9": {
-          "type": "buttoncol",
+        "slide_LqbncR": {
+          "type": "slide",
           "settings": {
-            "button_text": "View All Courses",
-            "button_url": "shopify://collections/all-active-courses",
-            "button_style": "primary",
-            "button_size": "small",
-            "button_new_window": false,
-            "button_align": "center",
-            "margin_top": 0,
-            "margin_bottom": 0
+            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_yyEXBP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_6DkxX8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_6wJV8p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_CREfXT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>Actor </p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "button_label": "",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "buttoncol_PF9Mp9"
+        "slide_LqbncR",
+        "slide_yyEXBP",
+        "slide_6DkxX8",
+        "slide_6wJV8p",
+        "slide_CREfXT"
       ],
-      "name": "t:lesections.flexible.presets.name",
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "bkgr_color": "white",
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "custom_class_names": "",
+        "bkgr_color": "light-blue",
         "decal_top": false,
         "decal_bottom": true,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 40,
-        "margin_top": -44,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -786,12 +846,13 @@
     },
     "v2_form_HGWEx7": {
       "type": "v2_form",
+      "disabled": true,
       "name": "t:lesections.v2_form.presets.name",
       "settings": {
         "form_type": "brochure",
         "custom_class_names": "",
         "bkgr_color": "primary",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 36,
         "padding_bottom": 28,
@@ -814,8 +875,8 @@
     "v2_flexible_KtNcez",
     "v2_slideshow_wB8mUH",
     "v2_cards_TWwNwh",
-    "v2_video_QRMVYw",
-    "v2_flexible_cCmPQw",
+    "v2_header_Kpf3JB",
+    "v2_slideshow_Y3D3b8",
     "v2_flexible_XDXkJK",
     "v2_accordion_BTGkUz",
     "v2_form_HGWEx7"
