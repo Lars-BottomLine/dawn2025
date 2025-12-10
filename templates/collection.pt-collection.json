@@ -619,6 +619,7 @@
     },
     "v2_header_Kpf3JB": {
       "type": "v2_header",
+      "disabled": true,
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "page_wide": false,
@@ -719,6 +720,7 @@
         "slide_6wJV8p",
         "slide_CREfXT"
       ],
+      "disabled": true,
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "blue",
