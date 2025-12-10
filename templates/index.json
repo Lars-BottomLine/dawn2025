@@ -96,6 +96,28 @@
             "button_new_window": false
           }
         },
+        "slide_LpYiac": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/PT_Hero_Image_6.png",
+            "slide_type": "twocol",
+            "heading_text": "<p><strong>New Year.</strong> </p><p>New Ambition.</p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Kickstart your fitness career with our most popular qualification. Limited time offer.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": false,
+            "button_text": "Find your path",
+            "button_url": "shopify://collections/personal-trainer-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
         "slide_iwDTHy": {
           "type": "slide",
           "disabled": true,
@@ -146,6 +168,7 @@
         "slide_zzLjTp",
         "slide_zLMkrC",
         "slide_yMtA4W",
+        "slide_LpYiac",
         "slide_iwDTHy",
         "slide_QtaAEj"
       ],
