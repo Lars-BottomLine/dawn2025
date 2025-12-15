@@ -323,20 +323,10 @@
             "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Julie_Ter_Haar.png",
             "description": ""
           }
-        },
-        "videoblock_Rd4fKa": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1134134461",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
-            "description": ""
-          }
         }
       },
       "block_order": [
-        "videoblock_aKEqHf",
-        "videoblock_Rd4fKa"
+        "videoblock_aKEqHf"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
