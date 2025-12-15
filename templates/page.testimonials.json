@@ -186,6 +186,15 @@
     "v2_video_gyfzcF": {
       "type": "v2_video",
       "blocks": {
+        "videoblock_yB6Jhp": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1146602485?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
+            "description": ""
+          }
+        },
         "videoblock_dURKdw": {
           "type": "videoblock",
           "settings": {
@@ -206,6 +215,7 @@
         }
       },
       "block_order": [
+        "videoblock_yB6Jhp",
         "videoblock_dURKdw",
         "videoblock_VFfjW4"
       ],
