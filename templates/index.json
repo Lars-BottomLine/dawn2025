@@ -594,11 +594,21 @@
             "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
             "description": ""
           }
+        },
+        "videoblock_r4T7Fg": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1146602485?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
+            "description": ""
+          }
         }
       },
       "block_order": [
         "videoblock_4khjcm",
-        "videoblock_Xk8heb"
+        "videoblock_Xk8heb",
+        "videoblock_r4T7Fg"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
