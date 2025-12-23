@@ -71,6 +71,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Thank you!</p>",
         "heading_type": "h1",
         "heading_size": "hero",
@@ -155,7 +156,7 @@
             "title": "Download The Brochure",
             "text": "<p>Get more information on our course offering, career opportunities, and more.</p>",
             "button_text": "Get your brochure",
-            "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/SA_Brochure_Update_13.10.2025.pdf?v=1760363136"
+            "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/SA_Brochure_Portrait_Design.pdf?v=1766507324"
           }
         },
         "step_9t3MNb": {
@@ -200,6 +201,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Take the next step</p>",
         "heading_type": "h1",
         "heading_size": "h1",
