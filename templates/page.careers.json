@@ -200,15 +200,60 @@
         "margin_bottom": -152
       }
     },
+    "v2_flexible_Na9aeA": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_h4zfN4": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Unmatched Career Support </p><p></p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h1",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_UHHWPE": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p></p><p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.<br/><br/></strong>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p><p></p><p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
+            "text_align": "center",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_h4zfN4",
+        "subheadline_UHHWPE"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_text_plus_image_PcPQtK": {
       "type": "v2_text-plus-image",
-      "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-12-30_at_16.13.05.png",
-        "heading_text": "",
-        "heading_type": "h2",
-        "heading_size": "h2",
+        "heading_text": "<p>Study. Qualify. Earn. Succeed.</p>",
+        "heading_type": "h3",
+        "heading_size": "hero",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": true,
@@ -228,59 +273,13 @@
         "button_text": "",
         "button_url": "",
         "button_style": "primary",
-        "button_size": "small",
+        "button_size": "medium",
         "button_new_window": false,
         "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_flexible_Na9aeA": {
-      "type": "v2_flexible",
-      "blocks": {
-        "headline_h4zfN4": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "<p>Unmatched Career Support </p><p></p>",
-            "heading_align": "center",
-            "heading_width": "full",
-            "heading_type": "h1",
-            "heading_size": "h1",
-            "heading_no_decal": false,
-            "heading_decal_left": false,
-            "heading_strong_accented": false
-          }
-        },
-        "subheadline_UHHWPE": {
-          "type": "subheadline",
-          "settings": {
-            "text": "<p></p><p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.<br/><br/></strong>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p><p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
-            "text_align": "left",
-            "text_width": "full",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "headline_h4zfN4",
-        "subheadline_UHHWPE"
-      ],
-      "name": "t:lesections.flexible.presets.name",
-      "settings": {
-        "bkgr_color": "white",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -486,8 +485,8 @@
     "v2_header_kUix7F",
     "v2_steps_x7M6WC",
     "v2_hero_8haDed",
-    "v2_text_plus_image_PcPQtK",
     "v2_flexible_Na9aeA",
+    "v2_text_plus_image_PcPQtK",
     "v2_cards_h7TQH6",
     "image_banner_zKy8Nk",
     "image_with_text_eYYbLg",
