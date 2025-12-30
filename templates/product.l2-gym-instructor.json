@@ -464,6 +464,48 @@
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -136
+      }
+    },
+    "v2_hero_Jrn8gX": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_QMkHY9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/44.png",
+            "slide_type": "onecol",
+            "heading_text": "",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": false,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_QMkHY9"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "white",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -501,7 +543,7 @@
         "decal_bottom": false,
         "padding_top": 36,
         "padding_bottom": 32,
-        "margin_top": 0,
+        "margin_top": -152,
         "margin_bottom": 0
       }
     },
@@ -626,6 +668,7 @@
     "v2_header_YGG9xm",
     "v2_cards_cLPG7m",
     "v2_accordion_r7M37d",
+    "v2_hero_Jrn8gX",
     "v2_header_rbrAHx",
     "v2_trustpilot_QJ8cqt",
     "v2_form_GmgNcE",
