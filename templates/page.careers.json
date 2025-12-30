@@ -208,7 +208,7 @@
           "settings": {
             "heading_text": "<p>Unmatched Career Support </p><p></p>",
             "heading_align": "center",
-            "heading_width": "full",
+            "heading_width": "mediumplus",
             "heading_type": "h1",
             "heading_size": "h2",
             "heading_no_decal": false,
@@ -221,7 +221,7 @@
           "settings": {
             "text": "<p></p><p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.<br/><br/></strong>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p><p></p><p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
             "text_align": "center",
-            "text_width": "full",
+            "text_width": "mediumplus",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -239,15 +239,58 @@
         "bkgr_color": "white",
         "custom_class_names": "",
         "decal_top": true,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
     },
+    "v2_hero_KtddY6": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_Tfg8GQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Graduate_Programme_5.png",
+            "slide_type": "onecol",
+            "heading_text": "",
+            "heading_type": "h3",
+            "heading_size": "h3",
+            "heading_strong_accented": true,
+            "heading_no_decal": true,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "shopify://collections/all",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_Tfg8GQ"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 80,
+        "padding_bottom": 140,
+        "margin_top": -152,
+        "margin_bottom": -152
+      }
+    },
     "v2_text_plus_image_PcPQtK": {
       "type": "v2_text-plus-image",
+      "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-12-30_at_16.13.05.png",
@@ -486,6 +529,7 @@
     "v2_steps_x7M6WC",
     "v2_hero_8haDed",
     "v2_flexible_Na9aeA",
+    "v2_hero_KtddY6",
     "v2_text_plus_image_PcPQtK",
     "v2_cards_h7TQH6",
     "image_banner_zKy8Nk",
