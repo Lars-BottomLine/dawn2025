@@ -211,11 +211,11 @@
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": true,
-        "subheadline_text": "<p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our accredited courses. Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.</strong></p>",
-        "subheadline_text_size": "copy-l",
+        "subheadline_text": "<p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. </p><p>Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.</strong></p>",
+        "subheadline_text_size": "copy-xl",
         "subheadline_text_no_decal": false,
-        "subheadline_text_strong_accented": true,
-        "text": "<p>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p><p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skill</strong>s—perfect for boosting your confidence and standing out in any professional setting.</p>",
+        "subheadline_text_strong_accented": false,
+        "text": "",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -231,8 +231,56 @@
         "button_new_window": false,
         "bkgr_color": "white",
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_Na9aeA": {
+      "type": "v2_flexible",
+      "blocks": {
+        "textcol_gNDhVb": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "subheadline_RT946K": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p></p><p></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "textcol_gNDhVb",
+        "subheadline_RT946K"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -297,6 +345,7 @@
     "v2_steps_x7M6WC",
     "v2_hero_8haDed",
     "v2_text_plus_image_PcPQtK",
+    "v2_flexible_Na9aeA",
     "v2_form_GwY9zG",
     "v2_header_PewxBe"
   ]
