@@ -215,15 +215,6 @@
             "info": "Ben is an international educator and consultant in the fitness, nutrition and wellness sectors, with over 20 years of experience in vocational health and fitness education. Holding an MSc in Holistic Nutrition and a BSc in Sports Science, he has authored numerous resources and developed accredited programmes in fitness coaching, personal training and nutrition. As founder of Fit2Succeed, Ben works with training providers and awarding bodies across the UK and Europe to deliver evidence-based education and e-learning. He has also contributed to the development of professional standards that continue to shape fitness education across Europe."
           }
         },
-        "member_hfCaGc": {
-          "type": "member",
-          "settings": {
-            "image": "shopify://shop_images/105.jpg",
-            "name": "Cara Standley",
-            "position": "Lead Internal Verification",
-            "info": "Cara’s passion for the fitness industry began in the 1990s when she qualified as a studio instructor. She progressed to personal training before discovering her enthusiasm for tutoring and joining a UK training provider. Her drive to raise the standard of fitness education took her to the Middle East, where she lived and worked for ten years and introduced regulated UK qualifications to the region. Now back in the UK, Cara continues to mentor fitness professionals who aspire to become tutors and delivers specialist qualifications such as Pre and Postnatal Fitness and Menopause Support. At Study Active, she is responsible for the Internal Verification strategy and standardisation."
-          }
-        },
         "member_PLYmqc": {
           "type": "member",
           "settings": {
@@ -375,7 +366,6 @@
         "member_rUVYCd",
         "member_7PaAJz",
         "member_M8fdKe",
-        "member_hfCaGc",
         "member_PLYmqc",
         "member_UQhanA",
         "member_XEVVDU",
@@ -418,6 +408,42 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_header_kxV9mf": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Qualifications Recognised by Everyone</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
     }
   },
   "order": [
@@ -426,6 +452,7 @@
     "v2_hero_mrmGBP",
     "v2_text_plus_image_ieWG7A",
     "v2_flexible_zr3zz6",
-    "v2_grid_WENFea"
+    "v2_grid_WENFea",
+    "v2_header_kxV9mf"
   ]
 }
