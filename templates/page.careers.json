@@ -202,16 +202,17 @@
     },
     "v2_text_plus_image_PcPQtK": {
       "type": "v2_text-plus-image",
+      "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-12-30_at_16.13.05.png",
-        "heading_text": "<p>Unmatched Career Support </p>",
+        "heading_text": "",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": true,
-        "subheadline_text": "<p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. </p><p>Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.</strong></p>",
+        "subheadline_text": "",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
@@ -241,25 +242,23 @@
     "v2_flexible_Na9aeA": {
       "type": "v2_flexible",
       "blocks": {
-        "textcol_gNDhVb": {
-          "type": "textcol",
+        "headline_h4zfN4": {
+          "type": "headline",
           "settings": {
-            "left_text": "<p>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p>",
-            "left_text_size": "copy-l",
-            "left_text_no_decal": false,
-            "left_text_strong_accented": false,
-            "right_text": "<p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
-            "right_text_size": "copy-l",
-            "right_text_no_decal": false,
-            "right_text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
+            "heading_text": "<p>Unmatched Career Support </p><p></p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
           }
         },
-        "subheadline_RT946K": {
+        "subheadline_UHHWPE": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p></p>",
+            "text": "<p></p><p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.<br/><br/></strong>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p><p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -271,16 +270,59 @@
         }
       },
       "block_order": [
-        "textcol_gNDhVb",
-        "subheadline_RT946K"
+        "headline_h4zfN4",
+        "subheadline_UHHWPE"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "white",
         "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": true,
+        "decal_top": true,
+        "decal_bottom": false,
         "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "image_banner_zKy8Nk": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-30_at_16.13.05.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_with_text_eYYbLg": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-30_at_16.13.05.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -346,6 +388,8 @@
     "v2_hero_8haDed",
     "v2_text_plus_image_PcPQtK",
     "v2_flexible_Na9aeA",
+    "image_banner_zKy8Nk",
+    "image_with_text_eYYbLg",
     "v2_form_GwY9zG",
     "v2_header_PewxBe"
   ]
