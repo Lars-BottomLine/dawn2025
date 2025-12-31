@@ -46,6 +46,7 @@
       "block_order": [
         "slide_D3F6QX"
       ],
+      "disabled": true,
       "name": "t:lesections.hero.presets.name",
       "settings": {
         "full_width": true,
@@ -220,6 +221,44 @@
       "block_order": [
         "videoblock_gkiJxq",
         "videoblock_PdGiLi"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_CVmkxi": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_TBKfpf": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1146602485?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
+            "description": ""
+          }
+        },
+        "videoblock_ypPdJF": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_TBKfpf",
+        "videoblock_ypPdJF"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
@@ -966,6 +1005,7 @@
     "v2_trustpilot_Aa6Fc6",
     "v2_header_T7x6Eg",
     "v2_video_t83TWV",
+    "v2_video_CVmkxi",
     "v2_hero_fj8N8n",
     "v2_cards_xmbyLJ",
     "v2_cards_yW4Ccz",
