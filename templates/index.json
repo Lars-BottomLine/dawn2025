@@ -262,83 +262,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_xYpUTm": {
+    "v2_slideshow_FqXf9k": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_jANezi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/0c19037975adb3d3623036a176a411774f676f2e.jpg",
-            "headline": "<p>Wellness Coach</p>",
-            "subheadline": "",
-            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://collections/wellness-pathway"
-          }
-        },
-        "slide_eCjx47": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/sports-massage.jpg",
-            "headline": "<p>Sports Massage Therapist</p>",
-            "subheadline": "",
-            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
-          }
-        },
-        "slide_BKBzMU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/723274426dc835e755179453ac455490f73f0626.jpg",
-            "headline": "<p>Group Exercise Instructor</p>",
-            "subheadline": "",
-            "text": "<p>Lead energising fitness classes that motivate groups to move, sweat, and feel great together.</p><p></p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://collections/personal-trainer-pathway"
-          }
-        },
-        "slide_eBDWpy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
-            "headline": "<p>Gym Instructor</p>",
-            "subheadline": "",
-            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
-          }
-        }
-      },
-      "block_order": [
-        "slide_jANezi",
-        "slide_eCjx47",
-        "slide_BKBzMU",
-        "slide_eBDWpy"
-      ],
-      "disabled": true,
-      "name": "t:lesections.v2_slideshow.presets.name",
-      "settings": {
-        "slide_type": "dark",
-        "blog": "",
-        "blog_post_limit": 3,
-        "product_list": [],
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 44,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_ayUBbY": {
-      "type": "v2_slideshow",
-      "blocks": {
-        "slide_r9JhiG": {
+        "slide_zTtGVN": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
@@ -349,7 +276,7 @@
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
         },
-        "slide_THrftb": {
+        "slide_Rd6neR": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
@@ -360,18 +287,18 @@
             "button_url": "shopify://products/cimspa-certificate-in-personal-training-l3"
           }
         },
-        "slide_JkgpUp": {
+        "slide_7xQwU3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/sports-massage.jpg",
-            "headline": "<p>Sports Massage Therapist</p>",
+            "image": "shopify://shop_images/Nutritionist_9.png",
+            "headline": "<p>Nutrition Coach</p>",
             "subheadline": "",
-            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
+            "text": "<p>Gain an accredited foundation in nutrition to coach clients toward healthier, sustainable habits.</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
+            "button_url": "shopify://products/level-4-nutrition"
           }
         },
-        "slide_Jh4zgb": {
+        "slide_DFk6qK": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/100.png",
@@ -382,7 +309,29 @@
             "button_url": "shopify://products/active-iq-level-3-diploma-in-instructing-pilates-matwork"
           }
         },
-        "slide_nHtcYA": {
+        "slide_jeVmDw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sports-massage.jpg",
+            "headline": "<p>Sports Massage Therapist</p>",
+            "subheadline": "",
+            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
+          }
+        },
+        "slide_y4HFjp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Blog_Image_-_Menopause.png",
+            "headline": "<p>Menopause Exercise Specialist</p>",
+            "subheadline": "",
+            "text": "<p>Specialist training to support women through menopause with safe, effective exercise programming.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/medfit-education-menopause-health-and-fitness-specialist-online-course"
+          }
+        },
+        "slide_aVgmML": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/73.png",
@@ -395,11 +344,13 @@
         }
       },
       "block_order": [
-        "slide_r9JhiG",
-        "slide_THrftb",
-        "slide_JkgpUp",
-        "slide_Jh4zgb",
-        "slide_nHtcYA"
+        "slide_zTtGVN",
+        "slide_Rd6neR",
+        "slide_7xQwU3",
+        "slide_DFk6qK",
+        "slide_jeVmDw",
+        "slide_y4HFjp",
+        "slide_aVgmML"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -1472,8 +1423,7 @@
     "v2_hero_jk6W8B",
     "v2_text_plus_image_PcfkMY",
     "v2_header_crfUaT",
-    "v2_slideshow_xYpUTm",
-    "v2_slideshow_ayUBbY",
+    "v2_slideshow_FqXf9k",
     "v2_cards_88cQaJ",
     "v2_header_dH7Pce",
     "v2_video_6jBcbr",
