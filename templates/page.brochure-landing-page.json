@@ -93,6 +93,23 @@
         "margin_bottom": 0
       }
     },
+    "apps_kNcNk9": {
+      "type": "apps",
+      "blocks": {
+        "gsc_instagram_feed_instafeed_nwifRH": {
+          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+          "settings": {
+            "widget_id": "GSC-PDRiAdCCIILDldo"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_instagram_feed_instafeed_nwifRH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "v2_cards_j334hg": {
       "type": "v2_cards",
       "blocks": {
@@ -469,6 +486,7 @@
     "v2_hero_k3BEND",
     "v2_newsletter_WmBhQK",
     "v2_cards_j334hg",
+    "apps_kNcNk9",
     "v2_cards_xmbyLJ",
     "v2_header_mpfKMe",
     "v2_featured_imtjhU",
