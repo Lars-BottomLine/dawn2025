@@ -158,6 +158,11 @@
         "type": "shopify://apps/discounts-max/blocks/banner/c66f47c5-e518-411e-8f55-2411fb2f0d04",
         "disabled": false,
         "settings": {}
+      },
+      "13305437469741356523": {
+        "type": "shopify://apps/gsc-instagram-feed/blocks/embed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
