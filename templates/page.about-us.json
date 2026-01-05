@@ -278,15 +278,6 @@
             "info": "Heather Walker is a tutor and assessor at Study Active and has been with the organisation since 2021. Fitness and movement have always been a central part of her life, from dance and gymnastics in her early years to aerial arts and pole fitness, where she has represented Great Britain three times in the World Pole Sport Championships. She holds a variety of instructor qualifications across personal training, dance, gymnastics, aerial arts, pole fitness, and bungee fitness, and owns her own aerial arts studio. Heather brings her extensive experience and passion for movement to every learner she supports."
           }
         },
-        "member_jePAtB": {
-          "type": "member",
-          "settings": {
-            "image": "shopify://shop_images/IMG_7919_1.jpg",
-            "name": "Jessica Hall",
-            "position": "Careers Advisor",
-            "info": "Jessica brings experience in coaching, fitness instruction and sales to her role as Careers Adviser. With a strong passion for supporting individuals to achieve their goals, she draws on her background as a coach and instructor to motivate and mentor learners. At Study Active, Jessica provides guidance and encouragement to help learners build confidence, make informed choices and take the next steps towards their careers in the fitness industry."
-          }
-        },
         "member_i6p3Qi": {
           "type": "member",
           "settings": {
@@ -373,7 +364,6 @@
         "member_7tkqRc",
         "member_JfdCqy",
         "member_WR3JVa",
-        "member_jePAtB",
         "member_i6p3Qi",
         "member_FReRKJ",
         "member_BL7RCd",
@@ -402,6 +392,44 @@
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_zjq6a9": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_29.png",
+        "heading_text": "<p><strong>Our Three Promises to You</strong></p>",
+        "heading_type": "h1",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<ul><li><strong>Unbeatable value </strong>– “We won’t be beaten on price. If you find the same course cheaper elsewhere, tell us before you enrol and we’ll beat it – plus you can spread the cost with 0% interest-free monthly payments.”</li><li><strong>Flexible, quality learning</strong> – “As a CIMSPA ‘Enhancing’ training provider and UKActive Education Provider of the Year, you can trust the quality of your learning, with flexible online and blended study options.” ​ </li><li><strong>Career-focused support </strong>– “From the first enquiry to your first role and beyond, you get ongoing support from experienced tutors and careers-focused staff who understand the fitness industry.\"</li></ul>",
+        "text_size": "copy-m",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p><strong>Graduate with skills, confidence, and support for the next stage of your career.</strong></p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "light-blue",
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -453,6 +481,7 @@
     "v2_text_plus_image_ieWG7A",
     "v2_flexible_zr3zz6",
     "v2_grid_WENFea",
+    "v2_text_plus_image_zjq6a9",
     "v2_header_kxV9mf"
   ]
 }
