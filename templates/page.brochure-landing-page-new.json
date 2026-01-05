@@ -155,7 +155,7 @@
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 24,
-        "padding_bottom": 40,
+        "padding_bottom": 4,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -355,8 +355,8 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "button_text": "Start Today",
-        "button_url": "shopify://collections/personal-trainer-pathway",
+        "button_text": "Enrol Today",
+        "button_url": "shopify://collections/all-active-courses",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
