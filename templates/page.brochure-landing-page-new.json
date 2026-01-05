@@ -160,6 +160,23 @@
         "margin_bottom": 0
       }
     },
+    "apps_4GBaW9": {
+      "type": "apps",
+      "blocks": {
+        "gsc_instagram_feed_instafeed_9TpHwd": {
+          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+          "settings": {
+            "widget_id": "GSC-PDRiAdCCIILDldo"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_instagram_feed_instafeed_9TpHwd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "v2_header_T7x6Eg": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -192,7 +209,7 @@
         "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 24,
-        "margin_top": -180,
+        "margin_top": 0,
         "margin_bottom": 24
       }
     },
@@ -312,6 +329,44 @@
         "padding_bottom": 140,
         "margin_top": -152,
         "margin_bottom": -152
+      }
+    },
+    "v2_text_plus_image_tP47UB": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/website_pic.png",
+        "heading_text": "<p>Why choose Study Active?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-xl",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<ul><li><strong>Affordability</strong> - Unbeatable prices, 0% interest-free monthly payments, and a clear price-beat guarantee on like-for-like courses.</li><li><strong>Quality & flexibility</strong> - Award winning, CIMSPA 'Enhancing' provider with flexible online and blended learning you can fit around work and family.</li><li><strong>Career Support </strong>- Graduate career support, CV and interview guidance, and exclusive discounts with leading fitness brands.</li></ul>",
+        "text_size": "copy-m",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "Start Today",
+        "button_url": "shopify://collections/personal-trainer-pathway",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -4
       }
     },
     "v2_cards_xmbyLJ": {
@@ -510,23 +565,6 @@
         "padding_bottom": 40,
         "margin_top": -140,
         "margin_bottom": 0
-      }
-    },
-    "apps_4GBaW9": {
-      "type": "apps",
-      "blocks": {
-        "gsc_instagram_feed_instafeed_9TpHwd": {
-          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
-          "settings": {
-            "widget_id": "GSC-PDRiAdCCIILDldo"
-          }
-        }
-      },
-      "block_order": [
-        "gsc_instagram_feed_instafeed_9TpHwd"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "v2_header_MCJdKL": {
@@ -1044,13 +1082,14 @@
     "v2_newsletter_WmBhQK",
     "v2_header_yx6r89",
     "v2_trustpilot_Aa6Fc6",
+    "apps_4GBaW9",
     "v2_header_T7x6Eg",
     "v2_video_t83TWV",
     "v2_video_CVmkxi",
     "v2_hero_fj8N8n",
+    "v2_text_plus_image_tP47UB",
     "v2_cards_xmbyLJ",
     "v2_cards_yW4Ccz",
-    "apps_4GBaW9",
     "v2_header_MCJdKL",
     "v2_slideshow_GzBdCc",
     "v2_cards_b6Qq8b",
