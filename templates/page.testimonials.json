@@ -122,7 +122,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "full",
-        "text": "<p>Discover why learners choose Study Active for flexible, accredited fitness education.</p>",
+        "text": "<p>Discover why learners choose Study Active for flexible, accredited fitness education. </p><p>Our students consistently highlight three things about Study Active: <strong>affordable courses with flexible payment options</strong>, the ability to study at their own pace around work and family, and <strong>outstanding tutor support </strong>that builds confidence for a long-term career in fitness.</p>",
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -325,8 +325,26 @@
         "margin_bottom": 0
       }
     },
+    "apps_NRfA4Y": {
+      "type": "apps",
+      "blocks": {
+        "gsc_instagram_feed_instafeed_KniQtU": {
+          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+          "settings": {
+            "widget_id": "GSC-PDRiAdCCIILDldo"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_instagram_feed_instafeed_KniQtU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "v2_header_aUiNMg": {
       "type": "v2_header",
+      "disabled": true,
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "page_wide": false,
@@ -427,6 +445,7 @@
         "slide_9YfNTb",
         "slide_ac8V39"
       ],
+      "disabled": true,
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
         "slide_type": "blue",
@@ -552,6 +571,7 @@
     "v2_video_gQnmBy",
     "v2_header_camV7h",
     "v2_trustpilot_p6LAkQ",
+    "apps_NRfA4Y",
     "v2_header_aUiNMg",
     "v2_slideshow_UnUwbQ",
     "v2_header_xNWwV8",
