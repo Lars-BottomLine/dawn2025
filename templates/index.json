@@ -12,6 +12,48 @@
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
+        "slide_tEgBNj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PT_Hero_Image_3.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Discover Your <strong>Career Path</strong> </p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Become a Qualified Fitness Professional with <strong>Unbeatable Prices, Flexible Study, </strong>and <strong>Ongoing Career Support</strong>.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "Find your path",
+            "button_url": "shopify://collections/personal-trainer-pathway",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_ff6DPb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Career_Quiz_7.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Not Sure </p><p><strong>Where to Start?</strong></p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Take our quick quiz to <strong>discover </strong>the fitness career that suits you best.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "Get Your Results",
+            "button_url": "shopify://pages/career-quiz",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
         "slide_gP9gBY": {
           "type": "slide",
           "settings": {
@@ -49,49 +91,6 @@
             "text_strong_accented": true,
             "button_text": "Start Your Journey",
             "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_ff6DPb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Website_Hero_Banner_-_Career_Quiz_7.png",
-            "slide_type": "twocol",
-            "heading_text": "<p>Not Sure </p><p><strong>Where to Start?</strong></p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Take our quick quiz to <strong>discover </strong>the fitness career that suits you best.</p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": true,
-            "button_text": "Get Your Results",
-            "button_url": "shopify://pages/career-quiz",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_tEgBNj": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PT_Hero_Image_6.png",
-            "slide_type": "twocol",
-            "heading_text": "<p><strong>Fast-track</strong> your career in fitness</p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Build you own path to success with the <strong>UK’s Top Personal Training Provider.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/personal-trainer-pathway",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
@@ -187,10 +186,10 @@
         }
       },
       "block_order": [
+        "slide_tEgBNj",
+        "slide_ff6DPb",
         "slide_gP9gBY",
         "slide_GXKX3a",
-        "slide_ff6DPb",
-        "slide_tEgBNj",
         "slide_zzLjTp",
         "slide_zLMkrC",
         "slide_yMtA4W",
@@ -215,17 +214,17 @@
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/studyweights.png",
-        "heading_text": "<p>Let us do the heavy lifting</p>",
+        "heading_text": "<p>Why choose Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p>This is your moment to do something that really moves you.</p>",
+        "subheadline_text": "",
         "subheadline_text_size": "copy-xl",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>With Study Active, you get everything you need to become a fully qualified fitness professional. Learn online, in your own time, with expert tutors by your side and real opportunities waiting at the finish line. We’ll guide you through every step, from your first login to guaranteed job interviews with top UK gyms. Bring your drive and passion, we’ve got the rest covered.</p>",
+        "text": "<ul><li><strong>Affordability</strong> - Unbeatable prices, 0% interest-free monthly payments, and a clear price-beat guarantee on like-for-like courses.</li><li><strong>Quality & flexibility</strong> - Award winning, CIMSPA 'Enhancing' provider with flexible online and blended learning you can fit around work and family.</li><li><strong>Career Support </strong>- Graduate career support, CV and interview guidance, and exclusive discounts with leading fitness brands.</li></ul>",
         "text_size": "copy-m",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -235,7 +234,7 @@
         "claim_text_strong_accented": false,
         "custom_class_names": "",
         "button_text": "Let's get started",
-        "button_url": "https://studyactive.co.uk/collections/personal-trainer-pathway",
+        "button_url": "shopify://collections/personal-trainer-pathway",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
@@ -1259,6 +1258,13 @@
     "v2_accordion_MwEKUC": {
       "type": "v2_accordion",
       "blocks": {
+        "accordion_row_gTrUUh": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Why choose Study Active?",
+            "row_content": "<p>Study Active combines unbeatable value, flexible online learning, and real career support. You get nationally recognised qualifications, 0% interest-free monthly payments, and tutors on hand by phone, email, and video – plus guidance to help you secure your first role in fitness.</p>"
+          }
+        },
         "accordion_row_6ye3He": {
           "type": "accordion_row",
           "settings": {
@@ -1352,6 +1358,7 @@
         }
       },
       "block_order": [
+        "accordion_row_gTrUUh",
         "accordion_row_6ye3He",
         "accordion_row_yeYDPp",
         "accordion_row_EkDWt4",
