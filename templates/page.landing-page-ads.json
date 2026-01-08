@@ -189,98 +189,27 @@
         "margin_bottom": 32
       }
     },
-    "v2_cards_w6dQqA": {
-      "type": "v2_cards",
-      "blocks": {
-        "card_YTynhw": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_tx3d8i": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_RiEm8a": {
-          "type": "card",
-          "settings": {
-            "title_text": "",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        }
-      },
-      "block_order": [
-        "card_YTynhw",
-        "card_tx3d8i",
-        "card_RiEm8a"
-      ],
-      "name": "t:lesections.cards.presets.name",
+    "v2_slideshow_7JLELd": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
-        "bkgr_color": "white",
-        "card_layout": "vertical",
-        "heading_text": "",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "medium",
-        "button_new_window": false,
-        "button_align": "center",
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-certificate-in-personal-training-l3",
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "cimspa-level-2-certificate-in-fitness-instruction"
+        ],
+        "auto_rotate": true,
+        "change_slides_speed": 5,
         "custom_class_names": "",
-        "decal_top": false,
+        "bkgr_color": "white",
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 44,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -376,7 +305,7 @@
     "v2_header_7jgy6z",
     "video_8tMTE6",
     "v2_cards_88eQJz",
-    "v2_cards_w6dQqA",
+    "v2_slideshow_7JLELd",
     "image_banner_GzGMki",
     "v2_header_7ixNqN"
   ]
