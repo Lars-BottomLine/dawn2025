@@ -207,8 +207,8 @@
           "type": "headline",
           "settings": {
             "heading_text": "<p>Unmatched Career Support </p><p></p>",
-            "heading_align": "center",
-            "heading_width": "mediumplus",
+            "heading_align": "left",
+            "heading_width": "full",
             "heading_type": "h1",
             "heading_size": "h2",
             "heading_no_decal": false,
@@ -220,8 +220,8 @@
           "type": "subheadline",
           "settings": {
             "text": "<p></p><p>Launching new for 2026, our <strong>Career Growth Accelerator Programme</strong> is designed exclusively for graduates of our Study Active accredited courses. Participants gain access to an <strong>exclusive discount platform, offering huge savings on leading health and fitness brands.<br/><br/></strong>But that’s just the beginning. We provide unparalleled career support: personal trainer graduates are <strong>guaranteed interviews with top gym chains</strong>, and we offer <strong>tailored CV and interview assistance</strong> to help you land your dream role. Freelancers also benefit from <strong>downloadable templates</strong> to streamline client management and enhance your professional offerings.</p><p></p><p>Our programme is continuously evolving, and as part of your enrolment onto the programme, you’ll receive a <strong>complimentary mini-course in presentation skills</strong>—perfect for boosting your confidence and standing out in any professional setting.</p>",
-            "text_align": "center",
-            "text_width": "mediumplus",
+            "text_align": "left",
+            "text_width": "full",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
