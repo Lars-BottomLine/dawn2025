@@ -406,6 +406,44 @@
         "margin_bottom": 24
       }
     },
+    "v2_video_nck3DW": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_6EiVRR": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "description": ""
+          }
+        },
+        "videoblock_jPz6Bb": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_6EiVRR",
+        "videoblock_jPz6Bb"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
     "image_banner_GzGMki": {
       "type": "image-banner",
       "blocks": {
@@ -504,6 +542,7 @@
     "v2_header_Tie84M",
     "v2_slideshow_7JLELd",
     "v2_header_na98Ce",
+    "v2_video_nck3DW",
     "image_banner_GzGMki",
     "v2_header_7ixNqN"
   ]
