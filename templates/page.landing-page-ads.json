@@ -18,6 +18,58 @@
         "padding_bottom": 28
       }
     },
+    "v2_header_7jgy6z": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Launch Your Fitness Career Today</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Qualify as a Gym Instructor or Personal Trainer with the UK's Award-Winning Provider. Our <strong>Combined Level 2/3 Diploma is the most popular choice</strong>– flexible, affordable, and job-ready.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -36
+      }
+    },
+    "video_8tMTE6": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/Blog_Post_-_Trainers_2.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-f8e2bb5d-4074-4ee9-8266-9f66fedda8e7",
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_GzGMki": {
       "type": "image-banner",
       "blocks": {
@@ -67,22 +119,6 @@
         "show_text_below": true
       }
     },
-    "v2_page_HcxPMr": {
-      "type": "v2_page",
-      "name": "t:lesections.v2_page.presets.name",
-      "settings": {
-        "page": "{{ page }}",
-        "gembuilder_fix": true,
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_header_7ixNqN": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -122,8 +158,9 @@
   },
   "order": [
     "main",
+    "v2_header_7jgy6z",
+    "video_8tMTE6",
     "image_banner_GzGMki",
-    "v2_page_HcxPMr",
     "v2_header_7ixNqN"
   ]
 }
