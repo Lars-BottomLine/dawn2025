@@ -444,6 +444,233 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_7WqPzX": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Graduate success stories</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Here are a few testimonials from former Study Active students</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_hg6Ra3": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_jUtGyT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_rxWVME": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_N83zWk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_PbWhWr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_QiY8jF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>Actor </p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_jUtGyT",
+        "slide_rxWVME",
+        "slide_N83zWk",
+        "slide_PbWhWr",
+        "slide_QiY8jF"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_DEq7km": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Already qualified?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Take your skills to the next level with one of our specialist courses — from Pilates and Sports Massage to Long-Term Conditions, Pre & Postnatal, and Menopause.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "View All Courses",
+        "button_url": "shopify://collections/all-active-courses",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_4fQP4X": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes",
+          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions",
+          "level-4-nutrition",
+          "kettlebell-instructor-course",
+          "l3_diploma_in_sports_massage_therapy",
+          "active-iq-level-2-award-in-mental-health-awareness",
+          "active-iq-level-3-award-in-nutrition-for-exercise-and-health",
+          "active-iq-level-3-diploma-in-instructing-pilates-matwork"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_hero_cJtgwB": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_ncQGY6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UPDATE_-_Unlock_Career_Accelerator_Programme_-_Website_Image.png",
+            "slide_type": "onecol",
+            "heading_text": "",
+            "heading_type": "h3",
+            "heading_size": "h3",
+            "heading_strong_accented": true,
+            "heading_no_decal": true,
+            "text": "",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "button_text": "",
+            "button_url": "shopify://collections/all",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_ncQGY6"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 80,
+        "padding_bottom": 140,
+        "margin_top": -152,
+        "margin_bottom": -152
+      }
+    },
     "image_banner_GzGMki": {
       "type": "image-banner",
       "blocks": {
@@ -528,6 +755,39 @@
         "margin_top": 0,
         "margin_bottom": -28
       }
+    },
+    "v2_newsletter_pVipQe": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "heading_text": "<p>Ready to Start Your Fitness Career?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p></p><p>Start your journey into fitness today. Train flexibly, pay monthly, and gain qualifications that support you for life. No prior experience required — just passion and commitment. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p>Prefer to speak to someone? Call us on <strong>01223 912122 </strong>or<strong> </strong>contact us on WhatsApp using the icon below.</p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -88,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -543,7 +803,13 @@
     "v2_slideshow_7JLELd",
     "v2_header_na98Ce",
     "v2_video_nck3DW",
+    "v2_header_7WqPzX",
+    "v2_slideshow_hg6Ra3",
+    "v2_header_DEq7km",
+    "v2_slideshow_4fQP4X",
+    "v2_hero_cJtgwB",
     "image_banner_GzGMki",
-    "v2_header_7ixNqN"
+    "v2_header_7ixNqN",
+    "v2_newsletter_pVipQe"
   ]
 }
