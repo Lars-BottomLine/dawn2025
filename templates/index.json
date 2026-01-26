@@ -95,105 +95,13 @@
             "button_size": "medium",
             "button_new_window": false
           }
-        },
-        "slide_zzLjTp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Study_Active_Hero_4_1.jpg",
-            "slide_type": "twocol",
-            "heading_text": "<p>Want a career that <strong>changes lives?</strong></p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Change lives with wellness and fitness, <strong>starting with yours</strong>.</p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/wellness-pathway",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_zLMkrC": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Study_Active_Hero_2_1.jpg",
-            "slide_type": "twocol",
-            "heading_text": "<p>Pilates - <strong> </strong>movement<strong> meets mindfulness</strong></p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Move with purpose.<br/><strong>Teach with passion.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/pilates-pathway",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_yMtA4W": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Study_Active_Hero_3_1.jpg",
-            "slide_type": "twocol",
-            "heading_text": "<p>A calling that <strong>heals</strong></p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Turn setbacks into comebacks. <strong>Train to help others rise again.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/sports-therapy-pathway",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_LpYiac": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/PT_Hero_Image_6.png",
-            "slide_type": "twocol",
-            "heading_text": "<p><strong>New Year.</strong> </p><p>New Ambition.</p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Kickstart your fitness career with our most popular qualification. Limited time offer.</p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": false,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/personal-trainer-pathway",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
         }
       },
       "block_order": [
         "slide_tEgBNj",
         "slide_ff6DPb",
         "slide_gP9gBY",
-        "slide_GXKX3a",
-        "slide_zzLjTp",
-        "slide_zLMkrC",
-        "slide_yMtA4W",
-        "slide_LpYiac"
+        "slide_GXKX3a"
       ],
       "name": "t:lesections.hero.presets.name",
       "settings": {
@@ -694,7 +602,7 @@
       "settings": {
         "page_wide": false,
         "heading_text": "<p>Graduate success stories</p>",
-        "heading_type": "h1",
+        "heading_type": "h2",
         "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": true,
