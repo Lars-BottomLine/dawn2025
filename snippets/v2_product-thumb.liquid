@@ -198,7 +198,8 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }} {{ product.metafields.custom.h1_heading | metafield_tag }}
+                            <{{ title_tag }}>
+                                    {{ product.metafields.custom.h1_heading | metafield_tag }}
                             </{{ title_tag }}>
 
                             <div class="pt-description {{ class_description }}">
