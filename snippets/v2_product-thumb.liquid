@@ -198,7 +198,7 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
+                            <{{ title_tag }} class="product__title -no-decal {{ class_title }}
                                 {%- unless placeholder -%}
                                     {{ product.metafields.custom.h1_heading | metafield_tag }}
 
