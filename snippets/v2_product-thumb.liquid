@@ -198,9 +198,18 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }} {{ class_title }} mb-4" {{ shopify_attributes }}>
+                            <{{ title_tag }} {{ class_title }} mb-0" {{ shopify_attributes }}>
                                 {%- unless placeholder -%}
                                     {{ product.metafields.custom.h1_heading | metafield_tag }}
+
+                                {%- else -%}
+                                    {{ 'onboarding.product_title' | t }}
+                                {%- endunless -%}
+                            </{{ title_tag }}>
+
+                            <{{ title_tag }} {{ class_title }} mb-0" {{ shopify_attributes }}>
+                                {%- unless placeholder -%}
+                                    {{ product.metafields.custom.course_title | metafield_tag }}
 
                                 {%- else -%}
                                     {{ 'onboarding.product_title' | t }}
