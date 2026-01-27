@@ -198,13 +198,11 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }}
-                                {%- unless placeholder -%}
-                                    {{ product.metafields.custom.h1_heading | metafield_tag }}
+                            <{{ product.metafields.custom.h1_heading | metafield_tag }}
 
                                 {%- else -%}
                                     {{ 'onboarding.product_title' | t }}
-                                {%- endunless -%}
+                                {%- endif -%}
                             </{{ title_tag }}>
 
                             <div class="pt-description {{ class_description }}">
@@ -454,9 +452,7 @@
         <script>
             window.pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
         </script>
-    {% else %}
         <div class="" style="padding: 1rem 2rem;background: #ff0000c2;color: white;border-radius: 0.5rem;display: inline-flex;">
             NO PRODUCT SELECTED
         </div>
-    {% endif %}
 </product-thumb>
