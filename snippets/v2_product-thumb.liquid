@@ -198,7 +198,7 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }} class="product__title -no-decal {{ class_title }}
+                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
                                 {%- unless placeholder -%}
                                     {{ product.metafields.custom.h1_heading | metafield_tag }}
 
@@ -206,11 +206,6 @@
                                     {{ 'onboarding.product_title' | t }}
                                 {%- endunless -%}
                             </{{ title_tag }}>
-
-                            <div class="pt-description {{ class_description }}">
-                                {{ product.metafields.custom.course_title | metafield_tag }}
-                            </div>
-
 
                             <div class="pt-description {{ class_description }}">
                                 {{ product.metafields.custom.short_description | metafield_tag }}
