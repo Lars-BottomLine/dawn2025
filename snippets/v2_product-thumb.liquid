@@ -208,6 +208,11 @@
                             </{{ title_tag }}>
 
                             <div class="pt-description {{ class_description }}">
+                                {{ product.metafields.custom.course_title | metafield_tag }}
+                            </div>
+
+
+                            <div class="pt-description {{ class_description }}">
                                 {{ product.metafields.custom.short_description | metafield_tag }}
                             </div>
 
