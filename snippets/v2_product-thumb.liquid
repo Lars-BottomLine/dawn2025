@@ -198,13 +198,13 @@
 
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }} class="product__title -no-decal {{ class_title }}" {{ shopify_attributes }}>
-  {{ product.metafields.custom.h1_heading.value }}
-</{{ title_tag }}>
+                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-0" {{ shopify_attributes }}>
+                                    {{ product.metafields.custom.h1_heading | metafield_tag }}
+                            </{{ title_tag }}>
 
-<div class="pt-description {{ class_description }}">
-  {{ product.metafields.custom.course_title.value }}
-</div>
+                            <div class="pt-description {{ class_description }}">
+                                {{ product.metafields.custom.course_title | metafield_tag }}
+                            </div>
 
 
                             <div class="pt-description {{ class_description }}">
