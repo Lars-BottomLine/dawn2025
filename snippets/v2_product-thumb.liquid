@@ -200,7 +200,7 @@
                                # ----------------------- %}
                             <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
                                 {%- unless placeholder -%}
-                                    {{ product.title | escape }}
+                                    {{ product.metafields.custom.h1_heading | metafield_tag }}
 
                                 {%- else -%}
                                     {{ 'onboarding.product_title' | t }}
