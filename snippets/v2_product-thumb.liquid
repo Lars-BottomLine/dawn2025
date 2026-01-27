@@ -195,9 +195,10 @@
                                     {{ product.metafields.custom.ribbon_text | metafield_text }}
                                 </div>
                             {% endif %}
+
                             {% # TITLE (done)
                                # ----------------------- %}
-                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
+                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} {{ shopify_attributes }}>
                                 {%- unless placeholder -%}
                                     {{ product.metafields.custom.h1_heading | metafield_tag }}
 
