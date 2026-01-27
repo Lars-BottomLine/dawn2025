@@ -94,7 +94,11 @@
 
                 {% # TOP: MEDIA
                    # ---------------------- %}
-                <div class="product__media-wrapper">
+                 <div class="pt-description {{ class_description }}">
+                                {{ product.metafields.custom.h1_heading | metafield_tag }}
+                            </div>
+                
+                   <div class="product__media-wrapper">
                     <div class="v2-pt-image">
                         {%- unless placeholder -%}
                             {% # TODO: set the correct sizes here depending on the use %}
