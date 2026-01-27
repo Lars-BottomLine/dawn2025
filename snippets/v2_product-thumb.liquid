@@ -201,15 +201,16 @@
                             <{{ title_tag }} {{ class_title }} mb-0" {{ shopify_attributes }}>
                                 {%- unless placeholder -%}
                                     {{ product.metafields.custom.h1_heading | metafield_tag }}
+                                      color: #0057b8;
 
                                 {%- else -%}
                                     {{ 'onboarding.product_title' | t }}
                                 {%- endunless -%}
                             </{{ title_tag }}>
-                            </div>
 
                             <div class="pt-description {{ class_description }}">
                                 {{ product.metafields.custom.course_title | metafield_tag }}
+                                  color: #0057b8;
                             </div>
 
                             <div class="pt-description {{ class_description }}">
