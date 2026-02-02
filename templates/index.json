@@ -77,6 +77,7 @@
         },
         "slide_GXKX3a": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Image.png",
             "slide_type": "twocol",
