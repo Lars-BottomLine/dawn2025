@@ -12,6 +12,28 @@
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
+        "slide_w3fMLD": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Plain_-_Valentines_Hero_Banner.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Build the Career<strong> You Love</strong></p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p><strong>Save up to 25% on selected courses.</strong> Ends 28 February.</p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "Enrol Now",
+            "button_url": "shopify://collections/february-flash-sale-up-to-25-off",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
         "slide_tEgBNj": {
           "type": "slide",
           "settings": {
@@ -99,6 +121,7 @@
         }
       },
       "block_order": [
+        "slide_w3fMLD",
         "slide_tEgBNj",
         "slide_ff6DPb",
         "slide_gP9gBY",
