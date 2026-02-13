@@ -14,7 +14,6 @@
       "blocks": {
         "slide_w3fMLD": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Plain_-_Valentines_Hero_Banner.png",
             "slide_type": "twocol",
@@ -36,6 +35,7 @@
         },
         "slide_tEgBNj": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PT_Hero_Image_3.png",
             "slide_type": "twocol",
@@ -57,6 +57,7 @@
         },
         "slide_ff6DPb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Career_Quiz_7.png",
             "slide_type": "twocol",
@@ -78,6 +79,7 @@
         },
         "slide_gP9gBY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Graduate_Programme_5.png",
             "slide_type": "twocol",
