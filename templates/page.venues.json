@@ -218,16 +218,6 @@
             "button_url": "https://www.everyoneactive.com/centre/north-solihull-sports-centre/"
           }
         },
-        "marker_Vb8XmQ": {
-          "type": "marker",
-          "settings": {
-            "position": "51.3563194,1.3865922",
-            "name": "The Gym Group - Thanet Ramsgate",
-            "address": "1 Holmes Way Westwood Cross Ramsgate",
-            "button_name": "View Venue",
-            "button_url": "https://www.thegymgroup.com/find-a-gym/ramsgate-gyms/thanet/"
-          }
-        },
         "marker_Eatpyb": {
           "type": "marker",
           "settings": {
@@ -247,7 +237,6 @@
         "marker_VhxXME",
         "marker_iQHAfy",
         "marker_9BbDze",
-        "marker_Vb8XmQ",
         "marker_Eatpyb"
       ],
       "name": "t:lesections.v2_map.presets.name",
