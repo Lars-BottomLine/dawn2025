@@ -14,6 +14,7 @@
       "blocks": {
         "slide_w3fMLD": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Plain_-_Valentines_Hero_Banner.png",
             "slide_type": "twocol",
@@ -35,21 +36,20 @@
         },
         "slide_tEgBNj": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/PT_Hero_Image_3.png",
+            "image": "shopify://shop_images/Blog_Post_-_Wellness_2.png",
             "slide_type": "twocol",
-            "heading_text": "<p>Discover Your <strong>Career Path</strong> </p>",
+            "heading_text": "<p>Jump-start your future this spring</p>",
             "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>Become a Qualified Fitness Professional with <strong>Unbeatable Prices, Flexible Study, </strong>and <strong>Ongoing Career Support</strong>.</p>",
+            "text": "<p>Become a Qualified Fitness Professional with <strong>Unbeatable Prices </strong>and <strong>Ongoing Career Support</strong>.</p>",
             "text_size": "h2",
             "text_no_decal": true,
             "text_strong_accented": true,
-            "button_text": "Find your path",
-            "button_url": "shopify://collections/how-to-become-a-personal-trainer",
+            "button_text": "Find your role",
+            "button_url": "shopify://collections/all-active-courses",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
@@ -98,36 +98,13 @@
             "button_size": "medium",
             "button_new_window": false
           }
-        },
-        "slide_GXKX3a": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Website_Hero_Banner_-_Image.png",
-            "slide_type": "twocol",
-            "heading_text": "<p><strong>New Year.</strong></p><p>New Ambition.</p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Kickstart your fitness career with our most popular qualification.</p><p><strong>Limited time offer.</strong></p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": true,
-            "button_text": "Start Your Journey",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
         }
       },
       "block_order": [
         "slide_w3fMLD",
         "slide_tEgBNj",
         "slide_ff6DPb",
-        "slide_gP9gBY",
-        "slide_GXKX3a"
+        "slide_gP9gBY"
       ],
       "name": "t:lesections.hero.presets.name",
       "settings": {
