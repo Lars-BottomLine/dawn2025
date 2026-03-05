@@ -18,53 +18,84 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_GzGMki": {
-      "type": "image-banner",
+    "v2_hero_xkK8jw": {
+      "type": "v2_hero",
       "blocks": {
-        "heading_FTBz73": {
-          "type": "heading",
+        "slide_g86J93": {
+          "type": "slide",
           "settings": {
-            "heading": "Ready to get started?",
-            "heading_size": "h1"
-          }
-        },
-        "text_WG3THF": {
-          "type": "text",
-          "settings": {
+            "image": "shopify://shop_images/Blog_Post_-_Top_10_Mistakes_New_PTs_Make_12.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>How to Become a Personal Trainer: <strong>Your Guide to a Rewarding Career in Fitness</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
             "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_n7nrY7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See current partner gyms",
-            "button_link_1": "shopify://pages/associations-and-partners",
-            "button_style_secondary_1": false,
-            "button_label_2": "Book a careers call",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text_size": "h3",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
       "block_order": [
-        "heading_FTBz73",
-        "text_WG3THF",
-        "buttons_n7nrY7"
+        "slide_g86J93"
       ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:lesections.hero.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-f8e2bb5d-4074-4ee9-8266-9f66fedda8e7",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 184,
+        "margin_top": 0,
+        "margin_bottom": -200
+      }
+    },
+    "v2_text_plus_image_BQ493J": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Banners.png",
+        "heading_text": "<p>Unlock your potential in the fitness industry with Study Active's CIMSPA accredited Personal Trainer courses. <strong>Start your journey today!</strong></p>",
+        "heading_type": "h2",
+        "heading_size": "copy-xl",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "<p>If you're passionate about fitness and enjoy helping others achieve their goals, becoming a personal trainer could be a rewarding career path. The UK fitness industry continues to grow as more people focus on improving their health, wellbeing, and physical performance.</p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>In this guide, you'll learn how to become a personal trainer in the UK, including the qualifications you'll need, the skills required to succeed, and the earning potential available in the fitness industry. Whether you're starting your career or considering a career change, becoming a personal trainer offers flexible working opportunities and the chance to make a real difference in people's lives.</p><p>We'll also explain the Level 3 Personal Trainer qualification, how long it takes to qualify, and how Study Active can support you on your journey into the fitness industry.<br/></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -16,
+        "margin_bottom": 0
       }
     },
     "v2_page_HcxPMr": {
@@ -122,7 +153,8 @@
   },
   "order": [
     "main",
-    "image_banner_GzGMki",
+    "v2_hero_xkK8jw",
+    "v2_text_plus_image_BQ493J",
     "v2_page_HcxPMr",
     "v2_header_7ixNqN"
   ]
