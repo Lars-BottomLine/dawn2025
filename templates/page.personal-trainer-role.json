@@ -539,6 +539,68 @@
         "margin_bottom": 0
       }
     },
+    "v2_flexible_UFPbM8": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xHiKaw": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Key Responsibilities of a Personal Trainer</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_Vnhqbt": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Personal trainers are responsible for helping clients improve their fitness, health, and overall wellbeing. Their role involves assessing individual needs, designing effective training programmes, and providing ongoing guidance and motivation.<br/></p><p>Some of the key responsibilities of a personal trainer include:<br/></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_7kaeFQ": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Client Assessments</strong><br/><br/>Evaluate a client’s current fitness level, goals, and health history before starting training.<br/><strong><br/>Programme Design</strong><br/><br/>Create personalised workout plans that may include strength training, cardio, mobility, and recovery.<br/><br/><strong>Exercise Instruction</strong><br/><br/>Demonstrate exercises safely and ensure clients use proper technique to reduce the risk of injury.</p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Progress Tracking</strong></p><p><br/>Monitor performance and adjust programmes based on results and feedback.<br/><br/><strong>Motivation & Support</strong></p><p></p><p>Encourage clients to stay consistent and maintain healthy habits.</p><p></p><p><strong>Basic Nutrition Guidance</strong></p><p></p><p>Provide general advice on healthy eating and lifestyle habits to support training goals.</p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_xHiKaw",
+        "subheadline_Vnhqbt",
+        "textcol_7kaeFQ"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_LEJNt7": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -591,6 +653,7 @@
     "v2_text_plus_image_TKtxGU",
     "v2_header_7ixNqN",
     "v2_flexible_zJ8C3Y",
+    "v2_flexible_UFPbM8",
     "v2_header_LEJNt7"
   ]
 }
