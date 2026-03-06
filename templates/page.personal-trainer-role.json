@@ -891,6 +891,27 @@
             "heading": "What if I want to specialise (e.g., in nutrition, sports performance, or older adults)?",
             "row_content": "<p>Start with your core Level 3 Personal Training qualification, then add Level 3 or 4 specialist diplomas (e.g., Sports Nutrition, Exercise for Long-term Conditions). These open higher-paying niches and allow premium pricing.</p><p><br/>Study Active offers pathways to these advanced qualifications, helping you stand out and increase earnings.<br/></p>"
           }
+        },
+        "accordion_row_Ra8WMq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I become aPersonal Trainer if I'm changing careers later in life?",
+            "row_content": "<p>Absolutely — many PTs start in their 30s, 40s, or beyond. No upper age limit exists, and life experience (communication, empathy) is a huge asset. Our courses are designed for career changers, with flexible pacing and supportive tutors.</p>"
+          }
+        },
+        "accordion_row_k8kfNx": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How do I get clients when I first qualify?",
+            "row_content": "<p>Build gradually:<br/><br/>•\tStart in a gym for built-in clients and mentorship.<br/>•\tUse social media, free trials, referrals, and local networking.<br/>•\tOffer packages, online sessions, or corporate wellness.<br/>•\tStudyActive provides business modules, marketing tips, and graduate support to help launch your career confidently.<br/></p>"
+          }
+        },
+        "accordion_row_iFRxiJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "",
+            "row_content": ""
+          }
         }
       },
       "block_order": [
@@ -900,7 +921,10 @@
         "accordion_row_h7qVTJ",
         "accordion_row_AXjDyG",
         "accordion_row_DkqUqw",
-        "accordion_row_CMxgmy"
+        "accordion_row_CMxgmy",
+        "accordion_row_Ra8WMq",
+        "accordion_row_k8kfNx",
+        "accordion_row_iFRxiJ"
       ],
       "name": "t:lesections.accordion.presets.name",
       "settings": {
