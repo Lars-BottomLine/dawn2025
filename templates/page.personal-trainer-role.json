@@ -582,12 +582,26 @@
             "margin_top": 0,
             "margin_bottom": 0
           }
+        },
+        "subheadline_LfcfkB": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Empathy, Exercise Science Knowledge, Creativity, Teaching, Patience, Analytical Thinking, Coaching, Communication, Knowledge of Nutrition</p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
         }
       },
       "block_order": [
         "headline_xHiKaw",
         "subheadline_Vnhqbt",
-        "textcol_7kaeFQ"
+        "textcol_7kaeFQ",
+        "subheadline_LfcfkB"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
