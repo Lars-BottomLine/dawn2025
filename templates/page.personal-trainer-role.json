@@ -621,7 +621,7 @@
         "card_YGfrYQ": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-heart-handshake-cyan_6500a2b5-dd58-4a73-95cc-19bad6911dd4.svg",
+            "image": "shopify://shop_images/1_c67cdbc2-c87b-4ff9-a709-b2afe954cabd.png",
             "title_text": "<p><strong>Fitness Expertise:</strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
@@ -640,7 +640,7 @@
         "card_UBGFPx": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-discount-check-cyan.svg",
+            "image": "shopify://shop_images/2_47393010-049c-416b-9380-c1403eabee91.png",
             "title_text": "<p><strong>Communication: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
@@ -659,7 +659,7 @@
         "card_7rK9hM": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-globe-cyan.svg",
+            "image": "shopify://shop_images/3_ff0c74f5-e32c-4ebf-9377-e9fc94962236.png",
             "title_text": "<p><strong>Empathy and Adaptability: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
@@ -678,7 +678,7 @@
         "card_AhbNA9": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-trending-up-cyan.svg",
+            "image": "shopify://shop_images/4_10bfd45d-387b-4077-977c-4192b810973f.png",
             "title_text": "<p><strong>Business Acumen: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
@@ -697,6 +697,7 @@
         "card_LXRiA3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/5_c5e01ffc-db4d-450c-9a85-8e6dad4a8528.png",
             "title_text": "<p><strong>Certifications: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
@@ -715,6 +716,7 @@
         "card_Lq9jgD": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/6_88dbb8a7-16d8-4306-a30e-0f453d707469.png",
             "title_text": "<p><strong>Passion:</strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
