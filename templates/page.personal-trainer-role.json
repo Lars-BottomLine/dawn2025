@@ -183,8 +183,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Gain Basic Qualifications:",
-            "text": "<p>Start with a <a href=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\">Level 2 Gym Instructing certificate</a> if you're new before progressing onto a <a href=\"/products/cimspa-certificate-in-personal-training-l3\" title=\"CIMSPA Endorsed Level 3 Certificate in Personal Training\">Level 3 Personal Trainer</a> or take the combined <a href=\"/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"CIMSPA Endorsed Level 3 Diploma Practitioner in Personal Training\">Level 3 Diploma Practitioner</a> in Personal Training that encompasses theLevel 2 Units.</p>",
+            "title": "Gain Foundational Qualifications:",
+            "text": "<p>Start with a <a href=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\">Level 2 Gym Instructing certificate</a> if you're new before progressing onto a <a href=\"/products/cimspa-certificate-in-personal-training-l3\" title=\"CIMSPA Endorsed Level 3 Certificate in Personal Training\">Level 3 Personal Trainer</a> or take the combined <a href=\"/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"CIMSPA Endorsed Level 3 Diploma Practitioner in Personal Training\">Level 3 Diploma Practitioner</a> in Personal Training that encompasses the Level 2 Units.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -452,7 +452,7 @@
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "claim_text": "<p><br/><br/><br/><br/></p>",
+        "claim_text": "",
         "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
