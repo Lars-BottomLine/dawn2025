@@ -23,7 +23,7 @@
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/FI_-_Personal_Training.png",
-        "heading_text": "<p>Welcome to your level 3 Personal Training course</p>",
+        "heading_text": "<p>Welcome to your Level 3 Active IQ Personal Training course</p>",
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": false,
@@ -69,7 +69,7 @@
         "heading_strong_accented": false,
         "heading_align": "left",
         "heading_width": "full",
-        "text": "<p>This following videos explain each step of the Level 3 Personal Training qualification and the assessment preparation.</p>",
+        "text": "<p>This following videos explain each step of the Level 3 Active IQ Personal Training qualification and the assessment preparation.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
