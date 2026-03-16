@@ -296,7 +296,7 @@
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>A <strong>personal trainer</strong> (PT) is a qualified fitness professional who works with individuals or small groups to help them achieve specific health and fitness goals. These goals may include weight loss, muscle building, improving strength and endurance, recovering from injury, or improving overall health and wellbeing.</p><p>Personal trainers assess a client’s current fitness level, discuss their goals, and create <strong>tailored exercise programmes </strong>designed to deliver safe and effective results. They also demonstrate correct exercise techniques, provide motivation and accountability, and help clients stay consistent with their training.</p><p>Most personal trainers work in <strong>gyms, health clubs, fitness studios</strong>, <strong>or as self-employed coaches</strong>, offering both in-person sessions and online coaching.<br/>To work professionally in the UK, personal trainers typically need a <strong>Level 3 Personal Trainer qualification</strong>, which provides the knowledge and skills required to train clients safely and effectively.<br/></p>",
+        "text": "<p>A <strong>personal trainer</strong> (PT) is a qualified fitness professional who works with individuals or small groups to help them achieve specific health and fitness goals. These goals may include weight loss, muscle building, improving strength and endurance, recovering from injury, or improving overall health and wellbeing.</p><p>Personal trainers assess a client’s current fitness level, discuss their goals, and create <strong>tailored exercise programmes</strong> designed to deliver safe and effective results. They also demonstrate correct exercise techniques, provide motivation and accountability, and help clients stay consistent with their training.</p><p>Most personal trainers work in <strong>gyms, health clubs, fitness studios, or as self-employed coaches</strong>, offering both in-person sessions and online coaching.</p><p>To work professionally in the UK, personal trainers typically need a <strong>Level 3 Personal Trainer qualification</strong>, which provides the knowledge and skills required to train clients safely and effectively.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -315,7 +315,7 @@
         "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 40,
-        "margin_top": -16,
+        "margin_top": -20,
         "margin_bottom": 0
       }
     },
