@@ -1,0 +1,988 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "v2_hero_xkK8jw": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_g86J93": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_How_to_Become_a_PT_1.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>How to Become a Personal Trainer: <strong>Your Guide to a Rewarding Career in Fitness</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "h3",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_g86J93"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 0,
+        "padding_bottom": 156,
+        "margin_top": -200,
+        "margin_bottom": -144
+      }
+    },
+    "v2_newsletter_nqhKx7": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "image": "shopify://shop_images/Blog_Post_-_International_Women_s_Day_3.png",
+        "heading_text": "<p></p><p></p>",
+        "heading_type": "h3",
+        "heading_size": "copy-xl",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p> </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>Unlock your potential in the fitness industry with Study Active's CIMSPA accredited Personal Trainer courses. <strong>Start your journey today!</strong></p><p>If you're passionate about fitness and enjoy helping others achieve their goals, becoming a personal trainer could be a rewarding career path. The UK fitness industry continues to grow as more people focus on improving their health, wellbeing, and physical performance.</p><p>In this guide, you'll learn <strong>how to become a personal trainer in the UK</strong>, including the qualifications you'll need, the skills required to succeed, and the earning potential available in the fitness industry. Whether you're starting your career or considering a career change, becoming a personal trainer offers flexible working opportunities and the chance to make a real difference in people's lives.</p><p>We'll also explain the <strong>Level 3 Personal Trainer qualification</strong>, how long it takes to qualify, and how Study Active can support you on your journey into the fitness industry.<br/></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_A8PdLY": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_zTLPTe": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>How to Become a Personal Trainer:</p><p>Step-by-Step Guide</p>",
+            "heading_align": "center",
+            "heading_width": "mediumplus",
+            "heading_type": "h2",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_HKyRTT": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Becoming a PT is straightforward with the right training. Here's your path:</p>",
+            "text_align": "center",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 20,
+            "margin_bottom": -40
+          }
+        }
+      },
+      "block_order": [
+        "headline_zTLPTe",
+        "subheadline_HKyRTT"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_6bd9tW": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_LLLMTK": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Gain Foundational Qualifications:",
+            "text": "<p>Start with a <a href=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\">Level 2 Gym Instructing certificate</a> if you're new before progressing onto a <a href=\"/products/cimspa-certificate-in-personal-training-l3\" title=\"CIMSPA Endorsed Level 3 Certificate in Personal Training\">Level 3 Personal Trainer</a> or take the combined <a href=\"/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"CIMSPA Endorsed Level 3 Diploma Practitioner in Personal Training\">Level 3 Diploma Practitioner</a> in Personal Training that encompasses the Level 2 Units.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_AbJtEA": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Practical Experience:",
+            "text": "<p>Shadow experienced trainers or volunteer at gyms. Study Active can support with interviews at a number nationwide gym chains.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_jihG8D": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Get Certified and Insured:",
+            "text": "<p>Pass assessments and <a href=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\" title=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\">obtain public liability insurance.</a></p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_4y9FGm": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Build Your Career:",
+            "text": "<p>Network,<a href=\"https://studyactive.co.uk/blogs/news/how-to-get-more-personal-training-clients\" title=\"https://studyactive.co.uk/blogs/news/how-to-get-more-personal-training-clients\"> build a client base</a>, specialise (e.g. Sports performance), and market your services, benefit from Study Active’s Career Growth Accelerator Programme.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_LLLMTK",
+        "step_AbJtEA",
+        "step_jihG8D",
+        "step_4y9FGm"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 132,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_Wpqgq9": {
+      "type": "v2_flexible",
+      "blocks": {
+        "subheadline_btTnb3": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>At <strong>Study Active,</strong> our Personal Trainer courses are flexible, online-blended, and recognised by CIMSPA. They cover everything from anatomy to business skills.</p>",
+            "text_align": "left",
+            "text_width": "mediumplus",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheadline_btTnb3"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -52,
+        "margin_bottom": 8
+      }
+    },
+    "v2_flexible_9fdaaj": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xrPDJz": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Enrol in Our Personal Trainer Course Today!</p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h3",
+            "heading_no_decal": true,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "headline_xrPDJz"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": -52
+      }
+    },
+    "v2_featured_whqQNK": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_Q3MpEb": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Feature_Images_-_How_to_Become_a_PT_2.png",
+        "heading_text": "<p>What is a Personal Trainer?</p>",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>A <strong>personal trainer</strong> (PT) is a qualified fitness professional who works with individuals or small groups to help them achieve specific health and fitness goals. These goals may include weight loss, muscle building, improving strength and endurance, recovering from injury, or improving overall health and wellbeing.</p><p>Personal trainers assess a client’s current fitness level, discuss their goals, and create <strong>tailored exercise programmes</strong> designed to deliver safe and effective results. They also demonstrate correct exercise techniques, provide motivation and accountability, and help clients stay consistent with their training.</p><p>Most personal trainers work in <strong>gyms, health clubs, fitness studios, or as self-employed coaches</strong>, offering both in-person sessions and online coaching.</p><p>To work professionally in the UK, personal trainers typically need a <strong>Level 3 Personal Trainer qualification</strong>, which provides the knowledge and skills required to train clients safely and effectively.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -20,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_TawhVX": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_AU8XkH": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Why Become a Personal Trainer?</p><p></p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_pwBQpL": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Becoming a <a href=\"https://studyactive.co.uk/blogs/news/11-reasons-why-you-should-become-a-personal-trainer\" title=\"https://studyactive.co.uk/blogs/news/11-reasons-why-you-should-become-a-personal-trainer\"><strong>personal trainer</strong></a> can be a rewarding career for people who are passionate about fitness and helping others improve their health. It offers flexibility, strong earning potential, and the opportunity to make a real impact on people's wellbeing.</p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_e4EdeH": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>High Demand for Fitness Professionals</strong><br/><br/>The UK fitness industry continues to grow as more people focus on improving their health and wellbeing. Gyms, studios, and online coaching platforms regularly look for qualified personal trainers to support their members.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Flexible Working Opportunities</strong></p><p></p><p>Personal trainers can work in gyms, run their own freelance business, or offer online coaching. This flexibility allows many trainers to set their own schedule and build a career around their lifestyle.<br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_A4w7Fw": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Rewarding Work</strong></p><p><br/>Helping clients achieve their fitness goals - whether it's losing weight, building strength, or improving confidence - can make personal training a highly fulfilling career.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Strong Earning Potential</strong></p><p><br/>Personal trainer earnings vary depending on experience and how you work. Newly qualified trainers may earn <strong>£20,000–£30,000 per year</strong>, while experienced trainers often earn <strong>£40,000–£60,000+. </strong><br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_AU8XkH",
+        "subheadline_pwBQpL",
+        "textcol_e4EdeH",
+        "textcol_A4w7Fw"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_TKtxGU": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Earnings_Level.png",
+        "heading_text": "<p>Personal Trainer Salary in the UK</p>",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "<p> </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p><a href=\"https://studyactive.co.uk/blogs/news/how-much-does-a-personal-trainer-earn\">Personal trainer salaries</a> in the UK can vary depending on experience, location, and whether you work for a gym or run your own business. Many trainers start in gym-employed roles before moving into freelance or self-employed work as they build their client base.</p><p>Most personal trainers earn income through one-to-one sessions, group training, or online coaching. As experience grows and client demand increases, earnings can rise significantly.</p><p>Typical<strong> personal trainer earnings</strong> in the UK include:</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -16,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_7ixNqN": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "mediumplus",
+        "text": "<p>Many personal trainers increase their earning potential by specialising in areas such as <a href=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\" title=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\">Level 4 Advanced Personal Training</a>, <a href=\"https://studyactive.co.uk/products/level-4-nutrition\">Level 4 Nutrition Coaching</a>, or through supplementary <a href=\"https://studyactive.co.uk/collections/cpd-courses\">CPD courses</a>.<br/><br/><br/><br/></p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
+    },
+    "v2_flexible_zJ8C3Y": {
+      "type": "v2_flexible",
+      "blocks": {
+        "buttoncol_KFUmdF": {
+          "type": "buttoncol",
+          "settings": {
+            "button_text": "Explore our Courses",
+            "button_url": "shopify://collections/all-active-courses",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false,
+            "button_align": "center",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "buttoncol_KFUmdF"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_UFPbM8": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xHiKaw": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Key Responsibilities of a Personal Trainer</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_Vnhqbt": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Personal trainers are responsible for helping clients improve their fitness, health, and overall wellbeing. Their role involves assessing individual needs, designing effective training programmes, and providing ongoing guidance and motivation.<br/></p><p>Some of the key responsibilities of a personal trainer include:<br/></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_7kaeFQ": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Client Assessments</strong><br/><br/>Evaluate a client’s current fitness level, goals, and health history before starting training.<br/><strong><br/>Programme Design</strong><br/><br/>Create personalised workout plans that may include strength training, cardio, mobility, and recovery.<br/><br/><strong>Exercise Instruction</strong><br/><br/>Demonstrate exercises safely and ensure clients use proper technique to reduce the risk of injury.</p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Progress Tracking</strong></p><p><br/>Monitor performance and adjust programmes based on results and feedback.<br/><br/><strong>Motivation & Support</strong></p><p></p><p>Encourage clients to stay consistent and maintain healthy habits.</p><p></p><p><strong>Basic Nutrition Guidance</strong></p><p></p><p>Provide general advice on healthy eating and lifestyle habits to support training goals.</p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "subheadline_LfcfkB": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Empathy, Exercise Science Knowledge, Creativity, Teaching, Patience, Analytical Thinking, Coaching, Communication, Knowledge of Nutrition</p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_xHiKaw",
+        "subheadline_Vnhqbt",
+        "textcol_7kaeFQ",
+        "subheadline_LfcfkB"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_zdnUPg": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_YGfrYQ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/1_c67cdbc2-c87b-4ff9-a709-b2afe954cabd.png",
+            "title_text": "<p><strong>Fitness Expertise:</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Understanding human anatomy, physiology, and exercise science.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_UBGFPx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/2_47393010-049c-416b-9380-c1403eabee91.png",
+            "title_text": "<p><strong>Communication: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Explaining concepts clearly and motivating clients</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_7rK9hM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/3_ff0c74f5-e32c-4ebf-9377-e9fc94962236.png",
+            "title_text": "<p><strong>Empathy and Adaptability: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Tailoring approaches to diverse needs, ages, and abilities.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_AhbNA9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/4_10bfd45d-387b-4077-977c-4192b810973f.png",
+            "title_text": "<p><strong>Business Acumen: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Marketing yourself and managing finances if self-employed.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_LXRiA3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/5_c5e01ffc-db4d-450c-9a85-8e6dad4a8528.png",
+            "title_text": "<p><strong>Certifications: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>CIMSPA recognised qualifications are essential for credibility and insurance.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_Lq9jgD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/6_88dbb8a7-16d8-4306-a30e-0f453d707469.png",
+            "title_text": "<p><strong>Passion:</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>An interest in health and fitness and desire to help others.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_YGfrYQ",
+        "card_UBGFPx",
+        "card_7rK9hM",
+        "card_AhbNA9",
+        "card_LXRiA3",
+        "card_Lq9jgD"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Essential Skills Needed to Become a Personal Trainer</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>To thrive, you'll need a mix of technical knowledge and soft skills:</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 32
+      }
+    },
+    "v2_header_eAYAHP": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Success Stories from Study Active Graduates</p>",
+        "heading_type": "h2",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Don't just take our word for it – hear from real Personal Trainers who've transformed their careers with us.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 16,
+        "margin_top": 0,
+        "margin_bottom": 24
+      }
+    },
+    "v2_trustpilot_P3cQrh": {
+      "type": "v2_trustpilot",
+      "name": "t:lesections.v2_trustpilot.presets.name",
+      "settings": {
+        "apply_filter": false,
+        "embed_code": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"240px\" data-style-width=\"100%\" data-token=\"3c5427b1-5f4c-4c66-8a6d-bbc089625435\" data-stars=\"4,5\" data-review-languages=\"en\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 24,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_QgWf3B": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_NTEyk8": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What qualifications do I need to become a Personal Trainer in the UK?",
+            "row_content": "<p>To work legally and professionally as a Personal Trainer in the UK, you need a Level 3 Diploma in Personal Training (or equivalent) that is Ofqual-regulated and endorsed by CIMSPA (Chartered Institute for the Management of Sport and Physical Activity), the leading professional body for the sector. Many providers (including StudyActive) bundle this with a Level 2 Certificate in Gym Instructing as a combined course, since Level 2 is the prerequisite for Level 3.<br/><br/>•\tNo prior degree or formal academic qualifications are required — just a passion for fitness and basic English/maths literacy.<br/>•\tCIMSPA endorsement ensures your qualification meets professional standards, making you eligible for gym employment, freelance work, and insurance.<br/>•\tOptional but highly recommended: Join CIMSPA as a member for CPD points, professional recognition, and networking (not mandatory for basic PT work).<br/><br/>Our Study Active Personal Trainer course meets these exact standards and prepares you fully for the industry.<br/></p>"
+          }
+        },
+        "accordion_row_w94eBY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need prior experience or a Level 2 qualification before starting a Personal Trainer course?",
+            "row_content": "<p>No prior fitness experience is required to enrol - many successful PTs start from scratch. However, most Level 3 courses (including ours) require or include a Level 2 Gym Instructing qualification as a foundation.</p><p><br/>If you're completely new, opt for a combined Level 2 + Level 3 package (like Study Active offers). This covers gym floor basics before advancing to client programming, assessments, and business skills. You can complete everything in one streamlined programme.<br/></p>"
+          }
+        },
+        "accordion_row_gjjh3n": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to qualify as a Personal Trainer?",
+            "row_content": "<p>Timelines vary by study mode and your availability:</p><p><br/>•\tFull-time/intensive: 4–12 weeks (classroom or accelerated online).<br/>•\tPart-time/flexible (most popular): 3–6 months (ideal for working adults).<br/>•\tSelf-paced online with practical workshops: Up to 9–12 months.</p><p><br/>Study Active's blended course typically takes 3–6 months, with lifetime resource access and tutor support to fit around your schedule. You'll complete theory online and attend practical assessments to gain hands-on confidence.<br/></p>"
+          }
+        },
+        "accordion_row_h7qVTJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is theaverage salary for a Personal Trainer in the UK in 2026?",
+            "row_content": "<p>Earnings can vary depending on experience, location, employment type, and client base:</p><p><br/>•\tEntry-level (gym-employed): £20,000–£30,000 per year (often with commission on sessions).<br/>•\tAverage across the UK: £27,000–£35,000 (employed or early freelance).<br/>•\tExperienced/self-employed: £40,000–£60,000+ (with a solid client roster).<br/>•\tTop earners (specialised, London-based, or high-end freelance): £60,000–£80,000+ (charging £50–£100+ per session).</p><p><br/>Freelance PTs often earn more overall (keeping 100% of session fees after expenses) but face variable income initially. Factors like location (higher in London/South East), specialisations (e.g., nutrition, pre/post-natal), and online training boost potential. Many Study Active graduates report doubling their previous salary within 1–2 years.<br/></p>"
+          }
+        },
+        "accordion_row_AXjDyG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I study the Personal Trainer course fully online?",
+            "row_content": "<p>Yes - Study Active offers flexible blended learning: comprehensive online theory modules (anatomy, programming, nutrition basics, business skills) plus optional in-person practical assessments for certification. This meets CIMSPA standards while allowing you to study around work or family.<br/><br/></p>"
+          }
+        },
+        "accordion_row_DkqUqw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need insurance to work as a Personal Trainer?",
+            "row_content": "<p>Yes - public liability insurance is essential (and often required by gyms or clients) to protect against claims of injury or negligence. Costs start around £50–£150/year depending on coverage.<br/>Most CIMSPA-endorsed qualifications make you eligible for affordable policies through specialist providers. Study Active guides graduates on insurance requirements during the course.<br/></p>"
+          }
+        },
+        "accordion_row_CMxgmy": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What if I want to specialise (e.g., in nutrition, sports performance, or older adults)?",
+            "row_content": "<p>Start with your core Level 3 Personal Training qualification, then add Level 3 or 4 specialist diplomas (e.g., Sports Nutrition, Exercise for Long-term Conditions). These open higher-paying niches and allow premium pricing.</p><p><br/>Study Active offers pathways to these advanced qualifications, helping you stand out and increase earnings.<br/></p>"
+          }
+        },
+        "accordion_row_Ra8WMq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I become aPersonal Trainer if I'm changing careers later in life?",
+            "row_content": "<p>Absolutely — many PTs start in their 30s, 40s, or beyond. No upper age limit exists, and life experience (communication, empathy) is a huge asset. Our courses are designed for career changers, with flexible pacing and supportive tutors.</p>"
+          }
+        },
+        "accordion_row_k8kfNx": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How do I get clients when I first qualify?",
+            "row_content": "<p>Build gradually:<br/><br/>•\tStart in a gym for built-in clients and mentorship.<br/>•\tUse social media, free trials, referrals, and local networking.<br/>•\tOffer packages, online sessions, or corporate wellness.<br/>•\tStudyActive provides business modules, marketing tips, and graduate support to help launch your career confidently.<br/></p>"
+          }
+        },
+        "accordion_row_iFRxiJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is the Personal Trainer qualification recognised internationally?",
+            "row_content": "<p>CIMSPA-endorsed and Ofqual-regulated qualifications (like Study Active's) are highly regarded in the UK and often accepted abroad (e.g., Europe, UAE via eREPs equivalents). For full international work, check local requirements, but our certification provides a strong global foundation.</p>"
+          }
+        },
+        "accordion_row_pExgKk": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need to be a member of CIMSPA or REPs?",
+            "row_content": "<p>CIMSPA membership isn't mandatory to work as a PT, but it's highly beneficial for CPD, professional standards, job listings, and credibility. REPs (legacy register) has largely transitioned to CIMSPA. Many gyms prefer or require CIMSPA affiliation.</p>"
+          }
+        },
+        "accordion_row_T9A4zX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What happens after I complete the course?",
+            "row_content": "<p>You'll receive your certificate, be eligible for insurance/CIMSPA, and can start working immediately. StudyActive offers ongoing support: CPD resources, alumni network, job guidance, and access to further courses.</p><p><br/>Still have questions? Contact our team for personalised advice!<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_NTEyk8",
+        "accordion_row_w94eBY",
+        "accordion_row_gjjh3n",
+        "accordion_row_h7qVTJ",
+        "accordion_row_AXjDyG",
+        "accordion_row_DkqUqw",
+        "accordion_row_CMxgmy",
+        "accordion_row_Ra8WMq",
+        "accordion_row_k8kfNx",
+        "accordion_row_iFRxiJ",
+        "accordion_row_pExgKk",
+        "accordion_row_T9A4zX"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently Asked Questions</p>",
+        "heading_align": "center",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_LEJNt7": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Qualifications Recognised by Everyone</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "v2_hero_xkK8jw",
+    "v2_newsletter_nqhKx7",
+    "v2_flexible_A8PdLY",
+    "v2_steps_6bd9tW",
+    "v2_flexible_Wpqgq9",
+    "v2_flexible_9fdaaj",
+    "v2_featured_whqQNK",
+    "v2_text_plus_image_Q3MpEb",
+    "v2_flexible_TawhVX",
+    "v2_text_plus_image_TKtxGU",
+    "v2_header_7ixNqN",
+    "v2_flexible_zJ8C3Y",
+    "v2_flexible_UFPbM8",
+    "v2_cards_zdnUPg",
+    "v2_header_eAYAHP",
+    "v2_trustpilot_P3cQrh",
+    "v2_accordion_QgWf3B",
+    "v2_header_LEJNt7"
+  ]
+}
