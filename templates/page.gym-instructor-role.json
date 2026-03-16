@@ -100,7 +100,7 @@
         "headline_zTLPTe": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>How to Become a Personal Trainer:</p><p>Step-by-Step Guide</p>",
+            "heading_text": "<p>How to Become a Gym Instructor:</p><p>Step-by-Step Guide</p>",
             "heading_align": "center",
             "heading_width": "mediumplus",
             "heading_type": "h2",
@@ -113,7 +113,7 @@
         "subheadline_HKyRTT": {
           "type": "subheadline",
           "settings": {
-            "text": "<p>Becoming a PT is straightforward with the right training. Here's your path:</p>",
+            "text": "<p>If you're wondering <strong>how to become a gym instructor in the UK</strong>, the process is straightforward. Most employers require a recognised <strong>Level 2 Gym Instructor qualification</strong>, which provides the knowledge and practical skills needed to work safely in a gym environment. </p><p></p><p>Follow these steps to start your career as a gym instructor. </p>",
             "text_align": "center",
             "text_width": "full",
             "text_size": "copy-l",
@@ -270,7 +270,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+        "product": "cimspa-level-2-certificate-in-fitness-instruction",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
@@ -286,7 +286,7 @@
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Feature_Images_-_How_to_Become_a_PT_2.png",
-        "heading_text": "<p>What is a Personal Trainer?</p>",
+        "heading_text": "<p>What is a Gym Instructor??</p>",
         "heading_type": "h3",
         "heading_size": "h3",
         "heading_no_decal": false,
@@ -296,7 +296,7 @@
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>A <strong>personal trainer</strong> (PT) is a qualified fitness professional who works with individuals or small groups to help them achieve specific health and fitness goals. These goals may include weight loss, muscle building, improving strength and endurance, recovering from injury, or improving overall health and wellbeing.</p><p>Personal trainers assess a client’s current fitness level, discuss their goals, and create <strong>tailored exercise programmes</strong> designed to deliver safe and effective results. They also demonstrate correct exercise techniques, provide motivation and accountability, and help clients stay consistent with their training.</p><p>Most personal trainers work in <strong>gyms, health clubs, fitness studios, or as self-employed coaches</strong>, offering both in-person sessions and online coaching.</p><p>To work professionally in the UK, personal trainers typically need a <strong>Level 3 Personal Trainer qualification</strong>, which provides the knowledge and skills required to train clients safely and effectively.</p>",
+        "text": "<p>A <strong>Gym Instructor (also known as a Fitness Instructor)</strong> is a qualified fitness professional who works on the gym floor helping members exercise safely and effectively. </p><p>Gym instructors play an important role in supporting people at the start of their fitness journey. They help members understand how to use equipment correctly, follow structured workout programmes, and build confidence in the gym environment. </p><p>Typical responsibilities of a gym instructor include: </p><ul><li><strong>Inducting new members</strong> and explaining how gym equipment works </li><li><strong>Demonstrating correct exercise technique</strong> for strength and cardio training </li><li><strong>Designing basic gym programmes</strong> tailored to beginner fitness goals </li><li><strong>Monitoring member safety and wellbeing</strong> on the gym floor </li><li><strong>Creating a motivating and welcoming gym environment</strong> </li></ul>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
