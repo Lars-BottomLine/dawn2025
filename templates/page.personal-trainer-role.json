@@ -100,7 +100,7 @@
         "headline_zTLPTe": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>How to Become a Personal Trainer: Step-by-Step Guide</p>",
+            "heading_text": "<p>How to Become a Personal Trainer:</p><p>Step-by-Step Guide</p>",
             "heading_align": "center",
             "heading_width": "mediumplus",
             "heading_type": "h2",
@@ -113,14 +113,14 @@
         "subheadline_HKyRTT": {
           "type": "subheadline",
           "settings": {
-            "text": "",
-            "text_align": "left",
+            "text": "<p>Becoming a PT is straightforward with the right training. Here's your path:</p>",
+            "text_align": "center",
             "text_width": "full",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
+            "margin_top": 20,
+            "margin_bottom": -40
           }
         }
       },
