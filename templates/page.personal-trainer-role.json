@@ -285,7 +285,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Blog_Post_-_Small_Group_Personal_Training_3.png",
+        "image": "shopify://shop_images/Feature_Images_-_How_to_Become_a_PT_2.png",
         "heading_text": "<p>What is a Personal Trainer?</p>",
         "heading_type": "h3",
         "heading_size": "h3",
