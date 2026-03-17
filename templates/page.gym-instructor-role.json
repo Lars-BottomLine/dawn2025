@@ -770,6 +770,44 @@
         "margin_bottom": 24
       }
     },
+    "v2_video_8ndN9i": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_7pD3GT": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
+            "description": ""
+          }
+        },
+        "videoblock_rwKkJp": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_7pD3GT",
+        "videoblock_rwKkJp"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_trustpilot_P3cQrh": {
       "type": "v2_trustpilot",
       "name": "t:lesections.v2_trustpilot.presets.name",
@@ -977,6 +1015,7 @@
     "v2_flexible_UFPbM8",
     "v2_cards_zdnUPg",
     "v2_header_eAYAHP",
+    "v2_video_8ndN9i",
     "v2_trustpilot_P3cQrh",
     "v2_accordion_QgWf3B",
     "v2_header_LEJNt7"
