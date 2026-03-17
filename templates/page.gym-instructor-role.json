@@ -158,7 +158,7 @@
           "settings": {
             "number": "",
             "title": "Complete Practical Assessments",
-            "text": "<p>During your course, you’ll complete practical assessments to demonstrate your ability to work with gym members. These typically include: </p><ul><li>Delivering gym inductions </li><li>Demonstrating exercise technique </li><li>Designing beginner gym programmes </li><li>Supporting members on the gym floor </li><li>These assessments ensure you are confident and capable in a real gym environment. </li></ul>",
+            "text": "<p>During your course, you’ll complete practical assessments to demonstrate your ability to work with gym members. These assessments ensure you are<strong> confident and capable in a real gym environment.</strong> These typically include: </p><ul><li>Delivering gym inductions </li><li>Demonstrating exercise technique </li><li>Designing beginner gym programmes </li><li>Supporting members on the gym floor </li></ul>",
             "button_text": "",
             "button_link": ""
           }
