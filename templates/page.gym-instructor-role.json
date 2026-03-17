@@ -325,7 +325,7 @@
         "headline_AU8XkH": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>Why Become a Personal Trainer?</p><p></p>",
+            "heading_text": "<p>Why Choose a Career as a Gym Instructor?</p><p></p>",
             "heading_align": "left",
             "heading_width": "full",
             "heading_type": "h3",
@@ -338,7 +338,7 @@
         "subheadline_pwBQpL": {
           "type": "subheadline",
           "settings": {
-            "text": "<p>Becoming a <a href=\"https://studyactive.co.uk/blogs/news/11-reasons-why-you-should-become-a-personal-trainer\" title=\"https://studyactive.co.uk/blogs/news/11-reasons-why-you-should-become-a-personal-trainer\"><strong>personal trainer</strong></a> can be a rewarding career for people who are passionate about fitness and helping others improve their health. It offers flexibility, strong earning potential, and the opportunity to make a real impact on people's wellbeing.</p>",
+            "text": "<p>Becoming a <a href=\"/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"CIMSPA Endorsed Level 2 Certificate in Fitness Instruction\"><strong>gym instructor</strong></a><strong> </strong>is a rewarding career choice for people who are passionate about fitness, health, and helping others achieve their goals. The fitness industry offers strong career prospects, flexible working environments, and opportunities for long-term progression.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -351,11 +351,11 @@
         "textcol_e4EdeH": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>High Demand for Fitness Professionals</strong><br/><br/>The UK fitness industry continues to grow as more people focus on improving their health and wellbeing. Gyms, studios, and online coaching platforms regularly look for qualified personal trainers to support their members.<br/></p>",
+            "left_text": "<p></p><p><strong>High Demand for Fitness Professionals</strong><br/><br/>The UK health and fitness industry continues to grow(with <a href=\"https://www.ukactive.com/news/uk-health-and-fitness-market-report-reveals-exponential-growth-as-penetration-rate-hits-16-9-and-revenue-grows-8-8/\" target=\"_blank\"><span style=\"text-decoration:underline\">annual revenue exceeding £5.7bn</span></a>) as more people prioritise <strong>physical health, mental wellbeing, and active lifestyles</strong>. Gyms, leisure centres, and health clubs regularly recruit qualified <strong>gym instructors and fitness instructors </strong>to support their members.<br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Flexible Working Opportunities</strong></p><p></p><p>Personal trainers can work in gyms, run their own freelance business, or offer online coaching. This flexibility allows many trainers to set their own schedule and build a career around their lifestyle.<br/></p>",
+            "right_text": "<p></p><p><strong>Entry-Level Pathway into the Fitness Industry</strong></p><p></p><p>Becoming a gym instructor is one of the <strong>most accessible ways to start a career in fitness</strong>. You don’t need previous industry experience - only a recognised qualification such as a <strong>Level 2 Certificate in Fitness Instruction</strong>. </p><p>This qualification allows you to work in gyms while building experience and progressing your career. <br/></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -366,11 +366,26 @@
         "textcol_A4w7Fw": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>Rewarding Work</strong></p><p><br/>Helping clients achieve their fitness goals - whether it's losing weight, building strength, or improving confidence - can make personal training a highly fulfilling career.<br/></p>",
+            "left_text": "<p></p><p><strong>Flexible Working Environment</strong></p><p><br/>Qualified gym instructors can work in a variety of environments, including: </p><ul><li>Commercial gyms </li><li>Leisure centres </li><li>Boutique fitness studios </li><li>Health clubs </li><li>Corporate wellness facilities </li></ul><p>Many roles also offer <strong>flexible hours</strong>, making it a great option for people seeking varied schedules. <br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Strong Earning Potential</strong></p><p><br/>Personal trainer earnings vary depending on experience and how you work. Newly qualified trainers may earn <strong>£20,000–£30,000 per year</strong>, while experienced trainers often earn <strong>£40,000–£60,000+. </strong><br/></p>",
+            "right_text": "<p></p><p><strong>Career Progression Opportunities</strong></p><p><br/>A <strong>Level 2 Gym Instructor qualification</strong> is often the first step in a long-term fitness career. Many instructors go on to progress into: </p><ul><li><strong>Level 3 Personal Training qualifications</strong> </li><li><a href=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Level 4 specialist fitness courses</strong></span></a> </li><li>Gym management or leadership roles </li><li>Strength and conditioning coaching <br/></li></ul>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_g9g9zN": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Make a Positive Impact</strong></p><p><br/>One of the most rewarding aspects of becoming a gym instructor is helping people improve their <strong>health, fitness, and confidence</strong>. From supporting beginners to encouraging long-term members, gym instructors play an important role in creating positive lifestyle change.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p><br/></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -383,7 +398,8 @@
         "headline_AU8XkH",
         "subheadline_pwBQpL",
         "textcol_e4EdeH",
-        "textcol_A4w7Fw"
+        "textcol_A4w7Fw",
+        "textcol_g9g9zN"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
