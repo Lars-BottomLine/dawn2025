@@ -525,7 +525,7 @@
         "headline_xHiKaw": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>Key Responsibilities of a Personal Trainer</p>",
+            "heading_text": "<p>Key Responsibilities of a Gym Instructor</p>",
             "heading_align": "left",
             "heading_width": "full",
             "heading_type": "h3",
@@ -538,7 +538,7 @@
         "subheadline_Vnhqbt": {
           "type": "subheadline",
           "settings": {
-            "text": "<p>Personal trainers are responsible for helping clients improve their fitness, health, and overall wellbeing. Their role involves assessing individual needs, designing effective training programmes, and providing ongoing guidance and motivation.<br/></p><p>Some of the key responsibilities of a personal trainer include:<br/></p>",
+            "text": "<p>Gym instructors are responsible for creating a <strong>safe, supportive, and motivating training environment</strong> for gym members. Their role involves supervising the gym floor, helping members use equipment correctly, and designing simple workout programmes for beginners. </p><p></p><p>Below are some of the <strong>main responsibilities of a gym instructor</strong> in a typical gym or health club environment. <br/></p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -551,11 +551,11 @@
         "textcol_7kaeFQ": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>Client Assessments</strong><br/><br/>Evaluate a client’s current fitness level, goals, and health history before starting training.<br/><strong><br/>Programme Design</strong><br/><br/>Create personalised workout plans that may include strength training, cardio, mobility, and recovery.<br/><br/><strong>Exercise Instruction</strong><br/><br/>Demonstrate exercises safely and ensure clients use proper technique to reduce the risk of injury.</p>",
+            "left_text": "<p></p><p><strong>Member Inductions</strong><br/><br/>Introduce new members to the gym, explain how equipment works, and demonstrate safe usage.<br/><strong><br/>Programme Design</strong><br/><br/>Create simple, structured gym programmes that help members achieve their fitness goals.<br/><br/><strong>Member Support and Motivation</strong><br/><br/>Provide guidance, encouragement, and ongoing support to help members stay consistent with their training.<br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Progress Tracking</strong></p><p><br/>Monitor performance and adjust programmes based on results and feedback.<br/><br/><strong>Motivation & Support</strong></p><p></p><p>Encourage clients to stay consistent and maintain healthy habits.</p><p></p><p><strong>Basic Nutrition Guidance</strong></p><p></p><p>Provide general advice on healthy eating and lifestyle habits to support training goals.</p>",
+            "right_text": "<p></p><p><strong>Exercise Demonstration</strong></p><p><br/>Show correct technique for strength training exercises and cardiovascular equipment.<br/><br/><strong>Health and Safety Supervision</strong></p><p></p><p>Monitor activity on the gym floor, ensure equipment is used correctly, and follow gym safety procedures.<br/></p><p></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -566,7 +566,7 @@
         "subheadline_LfcfkB": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Empathy, Exercise Science Knowledge, Creativity, Teaching, Patience, Analytical Thinking, Coaching, Communication, Knowledge of Nutrition</p>",
+            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Anatomy Knowledge, Observation, Interpersonal Skills etc.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -602,11 +602,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/1_c67cdbc2-c87b-4ff9-a709-b2afe954cabd.png",
-            "title_text": "<p><strong>Fitness Expertise:</strong></p>",
+            "title_text": "<p><strong>CIMSPA-Endorsed Qualifcation:</strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Understanding human anatomy, physiology, and exercise science.</p>",
+            "text": "<p>Our Level 2 Certificate in Fitness Instruction<strong> </strong>is endorsed by CIMSPA, ensuring your qualification meets recognised UK fitness industry standards.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -621,11 +621,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/2_47393010-049c-416b-9380-c1403eabee91.png",
-            "title_text": "<p><strong>Communication: </strong></p>",
+            "title_text": "<p><strong>Flexible Online Learning: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Explaining concepts clearly and motivating clients</p>",
+            "text": "<p>Study at your own pace with flexible online learning modules that allow you to fit your training around work, family, and other commitments.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -640,11 +640,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/3_ff0c74f5-e32c-4ebf-9377-e9fc94962236.png",
-            "title_text": "<p><strong>Empathy and Adaptability: </strong></p>",
+            "title_text": "<p><strong>Practical Workshop Support: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Tailoring approaches to diverse needs, ages, and abilities.</p>",
+            "text": "<p>Develop real coaching confidence through practical workshops and assessments that prepare you for working in a gym environment.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -659,11 +659,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/4_10bfd45d-387b-4077-977c-4192b810973f.png",
-            "title_text": "<p><strong>Business Acumen: </strong></p>",
+            "title_text": "<p><strong>Expert Tutor Guidance: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Marketing yourself and managing finances if self-employed.</p>",
+            "text": "<p>Our experienced tutors support you throughout your course, helping you build the skills and knowledge needed to become a successful gym instructor.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -678,30 +678,11 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/5_c5e01ffc-db4d-450c-9a85-8e6dad4a8528.png",
-            "title_text": "<p><strong>Certifications: </strong></p>",
+            "title_text": "<p><strong>Clear Career Progression Pathways: </strong></p>",
             "title_text_size": "inherit",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>CIMSPA recognised qualifications are essential for credibility and insurance.</p>",
-            "text_size": "copy-m",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": false,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
-          }
-        },
-        "card_Lq9jgD": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/6_88dbb8a7-16d8-4306-a30e-0f453d707469.png",
-            "title_text": "<p><strong>Passion:</strong></p>",
-            "title_text_size": "inherit",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>An interest in health and fitness and desire to help others.</p>",
+            "text": "<p>Many learners continue their fitness education by progressing to Level 3 Personal Training, expanding their career opportunities and earning potential.</p>",
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -718,14 +699,13 @@
         "card_UBGFPx",
         "card_7rK9hM",
         "card_AhbNA9",
-        "card_LXRiA3",
-        "card_Lq9jgD"
+        "card_LXRiA3"
       ],
       "name": "t:lesections.cards.presets.name",
       "settings": {
         "bkgr_color": "primary",
         "card_layout": "horizontal",
-        "heading_text": "<p>Essential Skills Needed to Become a Personal Trainer</p>",
+        "heading_text": "<p>Why Choose Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -733,7 +713,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "medium",
-        "text": "<p>To thrive, you'll need a mix of technical knowledge and soft skills:</p>",
+        "text": "<p>Choosing the right training provider is an important step when starting your career as a <strong>gym instructor</strong>. At Study Active, our courses are designed to give you the knowledge, confidence, and qualifications needed to succeed in the fitness industry. </p><p></p><p>Here’s why learners choose Study Active for their <strong>Level 2 Gym Instructor qualification</strong>. </p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
