@@ -852,7 +852,7 @@
           "type": "accordion_row",
           "settings": {
             "heading": "Do I need prior experience to start a Level 2 course?",
-            "row_content": "<p>No. A <strong>Level 2 Gym Instructor course</strong> is designed for beginners who want to start a career in the fitness industry. </p><p>You do not need previous gym employment or fitness qualifications to enrol - just a passion for fitness and a commitment to learning.</p>"
+            "row_content": "<p>No - A <strong>Level 2 Gym Instructor course</strong> is designed for beginners who want to start a career in the fitness industry. </p><p>You do not need previous gym employment or fitness qualifications to enrol - just a passion for fitness and a commitment to learning.</p>"
           }
         },
         "accordion_row_gjjh3n": {
@@ -897,17 +897,10 @@
             "row_content": "<p>After completing your <strong>Level 2 Gym Instructor qualification</strong>, you can apply for roles such as: </p><ul><li>Gym Instructor </li><li>Fitness Instructor </li><li>Leisure Centre Fitness Staff </li><li>Health Club Assistant </li></ul><p>Many instructors use this role to gain experience before progressing to <strong>personal training or specialist fitness careers</strong>. </p>"
           }
         },
-        "accordion_row_k8kfNx": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "How do I get clients when I first qualify?",
-            "row_content": "<p>Build gradually:<br/><br/>•\tStart in a gym for built-in clients and mentorship.<br/>•\tUse social media, free trials, referrals, and local networking.<br/>•\tOffer packages, online sessions, or corporate wellness.<br/>•\tStudyActive provides business modules, marketing tips, and graduate support to help launch your career confidently.<br/></p>"
-          }
-        },
         "accordion_row_iFRxiJ": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Is the Personal Trainer qualification recognised internationally?",
+            "heading": "Is the Gym Instructor qualification recognised internationally?",
             "row_content": "<p>CIMSPA-endorsed and Ofqual-regulated qualifications (like Study Active's) are highly regarded in the UK and often accepted abroad (e.g., Europe, UAE via eREPs equivalents). For full international work, check local requirements, but our certification provides a strong global foundation.</p>"
           }
         },
@@ -935,7 +928,6 @@
         "accordion_row_DkqUqw",
         "accordion_row_CMxgmy",
         "accordion_row_Ra8WMq",
-        "accordion_row_k8kfNx",
         "accordion_row_iFRxiJ",
         "accordion_row_pExgKk",
         "accordion_row_T9A4zX"
