@@ -835,6 +835,17 @@
         "slide_FHrErT": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_hfpJ9x": {
+          "type": "slide",
+          "settings": {
             "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
             "headline": "<p>Anne Nixon</p>",
             "subheadline": "<p>Former CBBC Television Presenter</p>",
@@ -871,6 +882,7 @@
         "slide_teGani",
         "slide_VJRNr3",
         "slide_FHrErT",
+        "slide_hfpJ9x",
         "slide_h6jWnC",
         "slide_C7pYGj"
       ],
