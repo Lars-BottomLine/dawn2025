@@ -647,6 +647,17 @@
             "button_url": ""
           }
         },
+        "slide_dbMmBJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
         "slide_JM8hVg": {
           "type": "slide",
           "settings": {
@@ -694,6 +705,7 @@
       },
       "block_order": [
         "slide_HfbbfH",
+        "slide_dbMmBJ",
         "slide_JM8hVg",
         "slide_bPaqPa",
         "slide_MQmEd8",
