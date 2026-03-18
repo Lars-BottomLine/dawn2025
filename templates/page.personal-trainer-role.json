@@ -163,6 +163,16 @@
             "button_link": ""
           }
         },
+        "step_CCnygQ": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Gain Practical Experience",
+            "text": "<p>Alongside your qualification, gaining <strong>real-world experience is key to building confidence and credibility. </strong>This hands-on experience helps you develop your coaching style and prepares you for working with paying clients. You can do this by:</p><ul><li>Shadowing experienced personal trainers<br/></li><li>Volunteering or working in a gym environment<br/></li><li>Supporting group training sessions<br/></li><li>Practising programme design and coaching with friends or family<br/></li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "step_jihG8D": {
           "type": "step",
           "settings": {
@@ -187,6 +197,7 @@
       "block_order": [
         "step_LLLMTK",
         "step_AbJtEA",
+        "step_CCnygQ",
         "step_jihG8D",
         "step_4y9FGm"
       ],
