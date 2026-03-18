@@ -177,8 +177,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Get Certified and Insured:",
-            "text": "<p>Pass assessments and <a href=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\" title=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\">obtain public liability insurance.</a></p>",
+            "title": "Get Certified and Insured",
+            "text": "<p>Once you’ve completed your qualification, you’ll need to: Ensure your qualification is fully certified and obtain <a href=\"/blogs/news/why-does-a-personal-trainer-need-insurance\" title=\"Why Does a Personal Trainer Need Insurance?\"><strong>public liability insurance.</strong></a><br/></p><p>Insurance is essential for protecting both you and your clients while delivering personal training sessions, whether in a gym, studio, or independently. Study Active can support you with this through our Career Growth Accelerator Platform.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -187,8 +187,18 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Build Your Career:",
+            "title": "Build Your Personal Training Career",
             "text": "<p>Network,<a href=\"https://studyactive.co.uk/blogs/news/how-to-get-more-personal-training-clients\" title=\"https://studyactive.co.uk/blogs/news/how-to-get-more-personal-training-clients\"> build a client base</a>, specialise (e.g. Sports performance), and market your services, benefit from Study Active’s Career Growth Accelerator Programme.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_BDxhTW": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Continue Learning and Progressing",
+            "text": "<p>The fitness industry is constantly evolving, so ongoing education is essential. Continuing to <strong>develop your skills will help you stand out, increase your earning potential, and deliver better results for your clients. </strong>You may choose to specialise in areas such as:</p><ul><li>Strength and conditioning<br/></li><li><a href=\"/products/active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes\" title=\"CIMSPA Endorsed Level 3 Award in Designing Pre and Post-Natal Exercise Programmes\">Pre and post-natal training</a><br/></li><li><a href=\"/products/active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions\" title=\"CIMSPA Endorsed Level 3 Online Diploma in Supporting Clients with Long-term Conditions\">Injury rehabilitation</a><br/></li><li><a href=\"/products/level-4-nutrition\" title=\"RSPH Level 4 Award in Nutrition\">Nutrition coaching</a><br/></li><li>Sports performance<br/></li></ul>",
             "button_text": "",
             "button_link": ""
           }
@@ -199,7 +209,8 @@
         "step_AbJtEA",
         "step_CCnygQ",
         "step_jihG8D",
-        "step_4y9FGm"
+        "step_4y9FGm",
+        "step_BDxhTW"
       ],
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
