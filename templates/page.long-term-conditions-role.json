@@ -328,7 +328,7 @@
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>A <strong>Long-Term Conditions Exercise Specialist</strong> is a qualified fitness professional who designs safe, tailored exercise programmes for individuals living with chronic health conditions such as diabetes, cardiovascular disease, arthritis and respiratory conditions. </p><p>Unlike standard personal trainers, these specialists have advanced knowledge of clinical considerations, including contraindications to exercise, risk stratification and programme adaptation for medically controlled conditions. </p><p>They work within a defined professional scope to help clients improve functional capacity, manage symptoms and enhance overall quality of life through structured physical activity. </p><p>Most professionals begin their journey with a <a href=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 2 Gym Instructor Course</span></a> or progress from a <a href=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 3 Personal Training Course</span></a> before specialising in long-term conditions. </p><p><strong>Common conditions you may work with include:</strong> </p><ul><li>Cardiovascular disease </li><li>Type 2 diabetes </li><li>Obesity and weight-related conditions </li><li>Arthritis and joint conditions </li><li>Respiratory conditions (e.g. COPD, asthma) </li><li>Osteoporosis </li></ul>",
+        "text": "<p>A <strong>Long-Term Conditions Exercise Specialist</strong> is a qualified fitness professional who designs safe, tailored exercise programmes for individuals living with chronic health conditions such as diabetes, cardiovascular disease, arthritis and respiratory conditions. </p><p>Unlike standard personal trainers, these specialists have advanced knowledge of clinical considerations, including contraindications to exercise, risk stratification and programme adaptation for medically controlled conditions. </p><p>They work within a defined professional scope to help clients improve functional capacity, manage symptoms and enhance overall quality of life through structured physical activity. </p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -354,7 +354,41 @@
     "v2_flexible_TawhVX": {
       "type": "v2_flexible",
       "blocks": {
-        "headline_AU8XkH": {
+        "textcol_ehwmiU": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p>Most professionals begin their journey with a <a href=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 2 Gym Instructor Course</span></a> or progress from a <a href=\"https://studyactive.co.uk/products/cimspa-certificate-in-personal-training-l3\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 3 Personal Training Course</span></a> before specialising in long-term conditions. </p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p><strong>Common conditions you may work with include:</strong> </p><ul><li>Cardiovascular disease </li><li>Type 2 diabetes </li><li>Obesity and weight-related conditions </li><li>Arthritis and joint conditions </li><li>Respiratory conditions (e.g. COPD, asthma) </li><li>Osteoporosis </li></ul>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "textcol_ehwmiU"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_pmWRpA": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_E3nxjd": {
           "type": "headline",
           "settings": {
             "heading_text": "<p>Why Choose a Career as a Long Term Conditions Exercise Specialist?</p><p></p>",
@@ -367,7 +401,7 @@
             "heading_strong_accented": false
           }
         },
-        "subheadline_pwBQpL": {
+        "subheadline_EhfiVj": {
           "type": "subheadline",
           "settings": {
             "text": "<p>Becoming a <strong>Long Term Conditions Exercise Specialis</strong>t<strong> </strong>is a rewarding career choice for people who are xxx.</p>",
@@ -380,7 +414,7 @@
             "margin_bottom": 0
           }
         },
-        "textcol_e4EdeH": {
+        "textcol_yRtRKz": {
           "type": "textcol",
           "settings": {
             "left_text": "<p></p><p><strong>Growing Industry Demand</strong><br/><br/>With <a href=\"https://www.theguardian.com/society/2024/oct/21/number-of-people-with-chronic-pain-in-england-to-rise-by-19m-by-2040\" title=\"https://www.theguardian.com/society/2024/oct/21/number-of-people-with-chronic-pain-in-england-to-rise-by-19m-by-2040\">rising rates of chronic illness</a> in the UK, there is increasing demand for qualified professionals who can safely support clients with long-term health conditions. Exercise referral and specialist roles are becoming more common across gyms, healthcare settings and community programmes.<br/></p><p></p>",
@@ -395,7 +429,7 @@
             "margin_bottom": 0
           }
         },
-        "textcol_A4w7Fw": {
+        "textcol_cb3YQx": {
           "type": "textcol",
           "settings": {
             "left_text": "<p></p><p><strong>Meaningful Client Impact</strong></p><p><br/>This is one of the most rewarding areas of the fitness industry. You’ll help clients regain confidence, improve mobility and take control of their health, often after years of inactivity or medical challenges.</p>",
@@ -412,10 +446,10 @@
         }
       },
       "block_order": [
-        "headline_AU8XkH",
-        "subheadline_pwBQpL",
-        "textcol_e4EdeH",
-        "textcol_A4w7Fw"
+        "headline_E3nxjd",
+        "subheadline_EhfiVj",
+        "textcol_yRtRKz",
+        "textcol_cb3YQx"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
@@ -1004,6 +1038,7 @@
     "v2_flexible_i4gD3m",
     "v2_text_plus_image_Q3MpEb",
     "v2_flexible_TawhVX",
+    "v2_flexible_pmWRpA",
     "v2_text_plus_image_TKtxGU",
     "v2_header_7ixNqN",
     "v2_flexible_zJ8C3Y",
