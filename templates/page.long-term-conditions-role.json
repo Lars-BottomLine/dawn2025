@@ -541,7 +541,7 @@
         "headline_xHiKaw": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>Key Responsibilities of a Gym Instructor</p>",
+            "heading_text": "<p>Key Responsibilities of a Long Term Conditions Exercise Specialist</p>",
             "heading_align": "left",
             "heading_width": "full",
             "heading_type": "h3",
@@ -554,7 +554,7 @@
         "subheadline_Vnhqbt": {
           "type": "subheadline",
           "settings": {
-            "text": "<p>Gym instructors are responsible for creating a <strong>safe, supportive, and motivating training environment</strong> for gym members. Their role involves supervising the gym floor, helping members use equipment correctly, and designing simple workout programmes for beginners. </p><p></p><p>Below are some of the <strong>main responsibilities of a gym instructor</strong> in a typical gym or health club environment. <br/></p>",
+            "text": "<p>A Long-Term Conditions Exercise Specialist has a higher level of responsibility than a standard fitness professional. The role focuses on delivering safe, effective exercise programmes for clients with medical conditions, while working within a clearly defined professional scope of practice.</p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
@@ -567,27 +567,14 @@
         "textcol_7kaeFQ": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>Member Inductions</strong><br/><br/>Introduce new members to the gym, explain how equipment works, and demonstrate safe usage.<br/><strong><br/>Programme Design</strong><br/><br/>Create simple, structured gym programmes that help members achieve their fitness goals.<br/><br/><strong>Member Support and Motivation</strong><br/><br/>Provide guidance, encouragement, and ongoing support to help members stay consistent with their training.<br/></p>",
+            "left_text": "<p></p><p><strong>Medical Screening & Risk Assessment</strong><br/><br/>Review client health information, interpret referral details and identify any contraindications to exercise. This ensures all activity is safe and appropriate for the individual.<br/><strong><br/>Monitoring & Supervision</strong><br/><br/>Observe how clients respond to exercise in real time, making adjustments to ensure safety, comfort and effectiveness throughout each session.<br/></p><p><br/><strong>Working Within Referral Frameworks</strong><br/><br/>Operate within GP referral schemes or healthcare pathways, communicating appropriately with medical professionals while staying within your professional scope.<br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Exercise Demonstration</strong></p><p><br/>Show correct technique for strength training exercises and cardiovascular equipment.<br/><br/><strong>Health and Safety Supervision</strong></p><p></p><p>Monitor activity on the gym floor, ensure equipment is used correctly, and follow gym safety procedures.<br/></p><p></p>",
+            "right_text": "<p></p><p><strong>Individualised Programme Design</strong></p><p><br/>Create structured, progressive exercise programmes tailored to each client’s condition, limitations and goals, adapting intensity and exercise selection as needed.<br/><br/><strong>Lifestyle & Behaviour Change Support</strong></p><p></p><p>Help clients build long-term healthy habits by providing guidance on physical activity, consistency and confidence alongside their medical management.<br/><br/><strong>Maintaining Professional Standards</strong><br/></p><p>Stay up to date with industry guidelines, complete continuing professional development (CPD), and ensure appropriate insurance is in place for working with higher-risk populations.<br/><br/></p><p></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
-        "subheadline_LfcfkB": {
-          "type": "subheadline",
-          "settings": {
-            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Anatomy Knowledge, Observation, Interpersonal Skills etc.</p>",
-            "text_align": "left",
-            "text_width": "full",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
             "margin_top": 0,
             "margin_bottom": 0
           }
@@ -596,8 +583,7 @@
       "block_order": [
         "headline_xHiKaw",
         "subheadline_Vnhqbt",
-        "textcol_7kaeFQ",
-        "subheadline_LfcfkB"
+        "textcol_7kaeFQ"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
