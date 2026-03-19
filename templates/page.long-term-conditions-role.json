@@ -240,7 +240,7 @@
         "headline_xrPDJz": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>Enrol in Our Gym Instructor Course Today!</p>",
+            "heading_text": "<p>Start Your Specialist Career Today</p>",
             "heading_align": "center",
             "heading_width": "full",
             "heading_type": "h3",
@@ -273,6 +273,38 @@
         "product": "cimspa-level-2-certificate-in-fitness-instruction",
         "custom_class_names": "",
         "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_i4gD3m": {
+      "type": "v2_flexible",
+      "blocks": {
+        "subheadline_zeYYPW": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>With <strong>Study Active</strong>, you can complete your qualification entirely online, with expert tutor support and flexible learning designed to fit around your schedule.</p>",
+            "text_align": "center",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheadline_zeYYPW"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
@@ -999,6 +1031,7 @@
     "v2_flexible_Wpqgq9",
     "v2_flexible_9fdaaj",
     "v2_featured_whqQNK",
+    "v2_flexible_i4gD3m",
     "v2_text_plus_image_Q3MpEb",
     "v2_flexible_TawhVX",
     "v2_text_plus_image_TKtxGU",
