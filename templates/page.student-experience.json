@@ -408,7 +408,7 @@
         "card_X74iRk": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Updated_Version_-_Website_CAP.png",
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Graduate_Programme_5.png",
             "title_text": "<p><strong>Unlock Unmatched Career Support and HUGE Discounts</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -500,9 +500,9 @@
         "slider_autoplay": false,
         "slide_autospeed": 5000,
         "custom_class_names": "",
-        "padding_top": 80,
+        "padding_top": 88,
         "padding_bottom": 140,
-        "margin_top": -152,
+        "margin_top": -200,
         "margin_bottom": -152
       }
     },
