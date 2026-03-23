@@ -12,7 +12,7 @@
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
-        "slide_XAGmMD": {
+        "slide_biXRCW": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Unlock_Your_Potential_PT_2.png",
@@ -23,10 +23,10 @@
             "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "<p>Gain the skills, knowledge, and communication to<strong> succeed </strong>as a fitness professional.</p>",
-            "text_size": "h3",
+            "text_size": "h2",
             "text_no_decal": true,
             "text_strong_accented": true,
-            "button_text": "Learn With Us",
+            "button_text": "Explore Courses",
             "button_url": "shopify://pages/how-to-become-a-personal-trainer",
             "button_style": "primary",
             "button_size": "medium",
@@ -99,7 +99,7 @@
         }
       },
       "block_order": [
-        "slide_XAGmMD",
+        "slide_biXRCW",
         "slide_ff6DPb",
         "slide_Cr6kGp",
         "slide_gP9gBY"
