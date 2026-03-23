@@ -12,50 +12,49 @@
     "v2_hero_jk6W8B": {
       "type": "v2_hero",
       "blocks": {
-        "slide_w3fMLD": {
+        "slide_XAGmMD": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Blog_Post_-_Build_Relationships.png",
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Unlock_Your_Potential_PT_2.png",
             "slide_type": "twocol",
-            "heading_text": "<p>Looks Like <strong>You've Struck Gold</strong></p>",
+            "heading_text": "<p>Coach with <strong>Confidence</strong></p>",
             "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p><br/>Use code <em><strong>LUCKY15</strong></em><strong> to get 15% off all courses</strong> - this week only. Ends Friday at 11:59 GMT.<br/></p>",
-            "text_size": "h2",
+            "text": "<p>Gain the skills, knowledge, and communication to<strong> succeed </strong>as a fitness professional.</p>",
+            "text_size": "h3",
             "text_no_decal": true,
             "text_strong_accented": true,
-            "button_text": "Claim Your 15% Off",
-            "button_url": "shopify://collections/all-active-courses",
-            "button_style": "primary",
-            "button_size": "medium",
-            "button_new_window": false
-          }
-        },
-        "slide_tEgBNj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Blog_Post_-_Wellness_2.png",
-            "slide_type": "twocol",
-            "heading_text": "<p>Jump-start your future this spring</p>",
-            "heading_type": "h3",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>Become a Qualified Fitness Professional with <strong>Unbeatable Prices </strong>and <strong>Ongoing Career Support</strong>.</p>",
-            "text_size": "h2",
-            "text_no_decal": true,
-            "text_strong_accented": true,
-            "button_text": "Find your role",
-            "button_url": "shopify://collections/all-active-courses",
+            "button_text": "Learn With Us",
+            "button_url": "shopify://pages/how-to-become-a-personal-trainer",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
           }
         },
         "slide_ff6DPb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Unlock_Your_Potential_PT_3.png",
+            "slide_type": "twocol",
+            "heading_text": "<p><strong>Level Up </strong>Your Fitness Career</p>",
+            "heading_type": "h3",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Whether you're just starting out or ready to progress, our courses give you the<strong> tools to earn more and impact more.</strong></p>",
+            "text_size": "h2",
+            "text_no_decal": true,
+            "text_strong_accented": true,
+            "button_text": "Explore Courses",
+            "button_url": "shopify://collections/all-active-courses",
+            "button_style": "primary",
+            "button_size": "medium",
+            "button_new_window": false
+          }
+        },
+        "slide_Cr6kGp": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Career_Quiz_New_7.png",
@@ -100,9 +99,9 @@
         }
       },
       "block_order": [
-        "slide_w3fMLD",
-        "slide_tEgBNj",
+        "slide_XAGmMD",
         "slide_ff6DPb",
+        "slide_Cr6kGp",
         "slide_gP9gBY"
       ],
       "name": "t:lesections.hero.presets.name",
