@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_Unlock_Your_Potential_PT_2.png",
             "slide_type": "twocol",
-            "heading_text": "<p>Coach with <strong>Confidence</strong></p>",
+            "heading_text": "<p>Coach with</p><p><strong>Confidence</strong></p>",
             "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": true,
