@@ -377,26 +377,11 @@
         "textcol_A4w7Fw": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>Flexible Working Environment</strong></p><p><br/>Many roles also offer flexible hours, making it a great option for people seeking varied schedules. </p><p>Qualified gym instructors can work in a variety of environments, including: </p><ul><li>Commercial gyms </li><li>Leisure centres </li><li>Boutique fitness studios </li><li>Health clubs </li><li>Corporate wellness facilities </li></ul><p><br/></p>",
+            "left_text": "<p></p><p><strong>Rewarding Client Impact</strong></p><p><br/>Helping clients improve their health, confidence, and relationship with food can be incredibly rewarding. As a Nutrition Coach, you play a key role in supporting long-term lifestyle change, making it more than just a job.<br/><br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Career Progression Opportunities</strong></p><p><br/>A Level 2 Gym Instructor qualification is often the first step in a long-term fitness career. Many instructors go on to progress into: </p><ul><li><a href=\"/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"CIMSPA Endorsed Level 3 Diploma Practitioner in Personal Training\">Level 3 Personal Training qualifications </a></li><li><a href=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\" title=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\">Level 4 specialist fitness courses</a></li><li>Gym management or leadership roles </li><li>Strength and conditioning coaching <br/></li></ul>",
-            "right_text_size": "copy-l",
-            "right_text_no_decal": false,
-            "right_text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
-        "textcol_g9g9zN": {
-          "type": "textcol",
-          "settings": {
-            "left_text": "<p></p><p><strong>Make a Positive Impact</strong></p><p><br/>One of the most rewarding aspects of becoming a gym instructor is helping people improve their health, fitness, and confidence. From supporting beginners to encouraging long-term members, gym instructors play an important role in creating positive lifestyle change.<br/></p>",
-            "left_text_size": "copy-l",
-            "left_text_no_decal": false,
-            "left_text_strong_accented": false,
-            "right_text": "<p><br/></p>",
+            "right_text": "<p></p><p><strong>Earning Potential</strong></p><p><br/>Entry-level Nutrition Coaches typically earn between <strong>£22,000–£30,000</strong> annually, with experienced online or freelance coaches earning <strong>£35,000–£60,000+</strong> depending on client base and specialisation.<br/></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -409,8 +394,7 @@
         "headline_AU8XkH",
         "subheadline_pwBQpL",
         "textcol_e4EdeH",
-        "textcol_A4w7Fw",
-        "textcol_g9g9zN"
+        "textcol_A4w7Fw"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
