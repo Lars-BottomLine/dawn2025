@@ -270,7 +270,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "cimspa-level-2-certificate-in-fitness-instruction",
+        "product": "level-4-nutrition",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
@@ -285,7 +285,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/How_to_Become_a_Gym_Instructor_-_Website_Page_Image.png",
+        "image": "shopify://shop_images/Role_Page_Website_Image_-_Nutrition_Coach.png",
         "heading_text": "<p>What is a Gym Instructor??</p>",
         "heading_type": "h3",
         "heading_size": "h3",
