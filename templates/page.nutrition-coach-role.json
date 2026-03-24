@@ -182,13 +182,24 @@
             "button_text": "",
             "button_link": ""
           }
+        },
+        "step_E4ELF4": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Start Coaching Clients",
+            "text": "<p>Once qualified, you can begin working with clients in a variety of settings. This might include gyms, alongside personal training, or building your own online nutrition coaching business.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "step_LLLMTK",
         "step_AbJtEA",
         "step_jihG8D",
-        "step_4y9FGm"
+        "step_4y9FGm",
+        "step_E4ELF4"
       ],
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
