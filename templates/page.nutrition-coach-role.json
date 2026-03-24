@@ -297,7 +297,7 @@
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Role_Page_Website_Image_-_Nutrition_Coach.png",
-        "heading_text": "<p>What is a Gym Instructor??</p>",
+        "heading_text": "<p>What is a Nutrition Coach?</p>",
         "heading_type": "h3",
         "heading_size": "h3",
         "heading_no_decal": false,
