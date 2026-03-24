@@ -1,0 +1,1015 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "v2_hero_xkK8jw": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_g86J93": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Website_Hero_Banner_-_How_to_Become_a_Gym_Instructor.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>How to Become a Gym Instructor in the UK: <strong>Qualifcations & Career Path</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "h3",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_g86J93"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 0,
+        "padding_bottom": 156,
+        "margin_top": -200,
+        "margin_bottom": -144
+      }
+    },
+    "v2_newsletter_nqhKx7": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "image": "shopify://shop_images/Blog_Post_-_International_Women_s_Day_3.png",
+        "heading_text": "<p></p><p></p>",
+        "heading_type": "h3",
+        "heading_size": "copy-xl",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p> </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>Start your career in the fitness industry by <strong>becoming a qualified gym instructor.</strong> In this guide, we explain the qualifications you need, the skills required, salary expectations, and the steps to become a gym instructor in the UK. </p><p>You’ll also learn how the CIMSPA-recognised<strong> Level 2 Gym Instructor qualification</strong> can help you start working in gyms, health clubs, and leisure centres. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_A8PdLY": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_zTLPTe": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>How to Become a Gym Instructor:</p><p>Step-by-Step Guide</p>",
+            "heading_align": "center",
+            "heading_width": "mediumplus",
+            "heading_type": "h2",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_HKyRTT": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>If you're wondering <strong>how to become a gym instructor in the UK</strong>, the process is straightforward. Most employers require a recognised <strong>Level 2 Gym Instructor qualification</strong>, which provides the knowledge and practical skills needed to work safely in a gym environment. </p><p></p><p>Follow these steps to start your career as a gym instructor. </p>",
+            "text_align": "center",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 20,
+            "margin_bottom": -40
+          }
+        }
+      },
+      "block_order": [
+        "headline_zTLPTe",
+        "subheadline_HKyRTT"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_6bd9tW": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_LLLMTK": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Complete a Level 2 Gym Instructor Qualification",
+            "text": "<p>The first step is to gain a recognised qualification such as the <a href=\"/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"CIMSPA Endorsed Level 2 Certificate in Fitness Instruction\"><strong>Level 2 Certificate in Fitness Instruction</strong>. </a>Most gyms in the UK require instructors to hold a <strong>CIMSPA-endorsed Level 2 qualification</strong> before they can work on the gym floor. </p><p>This qualification teaches the fundamentals of: </p><ul><li>Anatomy and physiology</li><li>Exercise technique</li><li>Gym inductions</li><li>Programme design</li><li>Health and safety procedures.</li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_AbJtEA": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Complete Practical Assessments",
+            "text": "<p>During your course, you’ll complete practical assessments to demonstrate your ability to work with gym members. These assessments ensure you are<strong> confident and capable in a real gym environment.</strong> These typically include: </p><ul><li>Delivering gym inductions </li><li>Demonstrating exercise technique </li><li>Designing beginner gym programmes </li><li>Supporting members on the gym floor </li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_jihG8D": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Obtain Insurance",
+            "text": "<p>Before working as a gym instructor, you will usually need <a href=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\" title=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\"><strong>public liability insurance</strong>.</a> This protects both you and your clients while working in a gym or fitness facility. </p><p>Once qualified, you will be eligible to apply for insurance through specialist fitness industry providers, Study Active can support you on this through out career accelerator platform.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_4y9FGm": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Start Working in a Gym",
+            "text": "<p>After qualifying, you can begin applying for <strong>gym instructor jobs</strong> in a variety of fitness environments, including: </p><ul><li>Commercial gyms </li><li>Leisure centres </li><li>Boutique fitness studios </li><li>Health clubs </li><li>Independent fitness facilities </li></ul><p></p><p>Many newly qualified instructors gain valuable experience on the gym floor before progressing into personal training or specialist fitness roles. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_LLLMTK",
+        "step_AbJtEA",
+        "step_jihG8D",
+        "step_4y9FGm"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 132,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_Wpqgq9": {
+      "type": "v2_flexible",
+      "blocks": {
+        "subheadline_btTnb3": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>At <strong>Study Active</strong>, our Level 2 Certificate in Fitness Instruction<strong> </strong>is flexible, blended, and fully endorsed by CIMSPA-giving you everything you need to launch your fitness career confidently.</p>",
+            "text_align": "left",
+            "text_width": "mediumplus",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheadline_btTnb3"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -52,
+        "margin_bottom": 8
+      }
+    },
+    "v2_flexible_9fdaaj": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xrPDJz": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Enrol in Our Gym Instructor Course Today!</p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h3",
+            "heading_no_decal": true,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "headline_xrPDJz"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": -52
+      }
+    },
+    "v2_featured_whqQNK": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "cimspa-level-2-certificate-in-fitness-instruction",
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_Q3MpEb": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/How_to_Become_a_Gym_Instructor_-_Website_Page_Image.png",
+        "heading_text": "<p>What is a Gym Instructor??</p>",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>A <strong>Gym Instructor (also known as a Fitness Instructor)</strong> is a qualified fitness professional who works on the gym floor helping members exercise safely and effectively. </p><p>Gym instructors play an important role in supporting people at the start of their fitness journey. They help members understand how to use equipment correctly, follow structured workout programmes, and build confidence in the gym environment. </p><p></p><p>Gym instructors are often the <strong>first point of contact for gym members</strong>, making strong communication and people skills essential. </p><p>In the UK, most gyms require instructors to hold a <a href=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"https://studyactive.co.uk/products/cimspa-level-2-certificate-in-fitness-instruction\"><strong>Level 2 Certificate in Fitness Instruction</strong></a>, which is the recognised entry-level qualification for working in the fitness industry. </p><p>This qualification is also the <strong>first step toward </strong><a href=\"https://studyactive.co.uk/pages/how-to-become-a-personal-trainer\" title=\"https://studyactive.co.uk/pages/how-to-become-a-personal-trainer\"><strong>becoming a Personal Trainer (Level 3)</strong></a><strong>,</strong> and progressing your fitness career. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -20,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_TawhVX": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_AU8XkH": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Why Choose a Career as a Gym Instructor?</p><p></p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_pwBQpL": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Becoming a <a href=\"/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"CIMSPA Endorsed Level 2 Certificate in Fitness Instruction\"><strong>gym instructor</strong></a><strong> </strong>is a rewarding career choice for people who are passionate about fitness, health, and helping others achieve their goals. The fitness industry offers strong career prospects, flexible working environments, and opportunities for long-term progression.</p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_e4EdeH": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>High Demand for Fitness Professionals</strong><br/><br/>The UK health and fitness industry continues to grow(with <a href=\"https://www.ukactive.com/news/uk-health-and-fitness-market-report-reveals-exponential-growth-as-penetration-rate-hits-16-9-and-revenue-grows-8-8/\" target=\"_blank\"><span style=\"text-decoration:underline\">annual revenue exceeding £5.7bn</span></a>) as more people prioritise physical health, mental wellbeing, and active lifestyles. Gyms, leisure centres, and health clubs regularly recruit qualified gym instructors and fitness instructors<strong> </strong>to support their members.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Entry-Level Pathway into the Fitness Industry</strong></p><p></p><p>Becoming a gym instructor is one of the most accessible ways to start a career in fitness. You don’t need previous industry experience - only a recognised qualification such as a <a href=\"/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"CIMSPA Endorsed Level 2 Certificate in Fitness Instruction\">Level 2 Certificate in Fitness Instruction. </a></p><p>This qualification allows you to work in gyms while building experience and progressing your career. <br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_A4w7Fw": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Flexible Working Environment</strong></p><p><br/>Many roles also offer flexible hours, making it a great option for people seeking varied schedules. </p><p>Qualified gym instructors can work in a variety of environments, including: </p><ul><li>Commercial gyms </li><li>Leisure centres </li><li>Boutique fitness studios </li><li>Health clubs </li><li>Corporate wellness facilities </li></ul><p><br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Career Progression Opportunities</strong></p><p><br/>A Level 2 Gym Instructor qualification is often the first step in a long-term fitness career. Many instructors go on to progress into: </p><ul><li><a href=\"/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"CIMSPA Endorsed Level 3 Diploma Practitioner in Personal Training\">Level 3 Personal Training qualifications </a></li><li><a href=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\" title=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\">Level 4 specialist fitness courses</a></li><li>Gym management or leadership roles </li><li>Strength and conditioning coaching <br/></li></ul>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_g9g9zN": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Make a Positive Impact</strong></p><p><br/>One of the most rewarding aspects of becoming a gym instructor is helping people improve their health, fitness, and confidence. From supporting beginners to encouraging long-term members, gym instructors play an important role in creating positive lifestyle change.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p><br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_AU8XkH",
+        "subheadline_pwBQpL",
+        "textcol_e4EdeH",
+        "textcol_A4w7Fw",
+        "textcol_g9g9zN"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_TKtxGU": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gym_Instructor_Salary_Expectation_Table_-_Website_Smaller_Size.png",
+        "heading_text": "<p>Gym Instructor Salary Expectations in the UK</p>",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "<p> </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>The <strong>average gym instructor salary in the UK</strong> varies depending on experience, location, and the type of gym you work for. Entry-level instructors typically begin working in commercial gyms or leisure centres, while experienced instructors may take on senior roles or combine their job with personal training. </p><p>Most gym instructors earn between <strong>£18,000 and £28,000 per year</strong>, with higher earnings possible when offering personal training sessions alongside gym floor duties. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -16,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_7ixNqN": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "mediumplus",
+        "text": "<p>Many fitness professionals increase their income by progressing to<a href=\"/products/cimspa-certificate-in-personal-training-l3\" title=\"CIMSPA Endorsed Level 3 Certificate in Personal Training\"> Level 3 Personal Training</a>, where they can charge clients per session and significantly increase their earning potential.<br/><br/><br/><br/></p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
+    },
+    "v2_flexible_zJ8C3Y": {
+      "type": "v2_flexible",
+      "blocks": {
+        "buttoncol_KFUmdF": {
+          "type": "buttoncol",
+          "settings": {
+            "button_text": "Explore our Courses",
+            "button_url": "shopify://collections/all-active-courses",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false,
+            "button_align": "center",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "buttoncol_KFUmdF"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_UFPbM8": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xHiKaw": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Key Responsibilities of a Gym Instructor</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_Vnhqbt": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Gym instructors are responsible for creating a <strong>safe, supportive, and motivating training environment</strong> for gym members. Their role involves supervising the gym floor, helping members use equipment correctly, and designing simple workout programmes for beginners. </p><p></p><p>Below are some of the <strong>main responsibilities of a gym instructor</strong> in a typical gym or health club environment. <br/></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_7kaeFQ": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Member Inductions</strong><br/><br/>Introduce new members to the gym, explain how equipment works, and demonstrate safe usage.<br/><strong><br/>Programme Design</strong><br/><br/>Create simple, structured gym programmes that help members achieve their fitness goals.<br/><br/><strong>Member Support and Motivation</strong><br/><br/>Provide guidance, encouragement, and ongoing support to help members stay consistent with their training.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Exercise Demonstration</strong></p><p><br/>Show correct technique for strength training exercises and cardiovascular equipment.<br/><br/><strong>Health and Safety Supervision</strong></p><p></p><p>Monitor activity on the gym floor, ensure equipment is used correctly, and follow gym safety procedures.<br/></p><p></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "subheadline_LfcfkB": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Anatomy Knowledge, Observation, Interpersonal Skills etc.</p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_xHiKaw",
+        "subheadline_Vnhqbt",
+        "textcol_7kaeFQ",
+        "subheadline_LfcfkB"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_zdnUPg": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_YGfrYQ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/5_c5e01ffc-db4d-450c-9a85-8e6dad4a8528.png",
+            "title_text": "<p><strong>CIMSPA-Endorsed Qualifcation:</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Our Level 2 Certificate in Fitness Instruction<strong> </strong>is endorsed by CIMSPA, ensuring your qualification meets recognised UK fitness industry standards.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_UBGFPx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Flexible_Online_Learning_Icon_98c61070-c2e0-4792-b20e-3b6370b0eb1a.png",
+            "title_text": "<p><strong>Flexible Online Learning: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study at your own pace with flexible online learning modules that allow you to fit your training around work, family, and other commitments.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_7rK9hM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/3_ff0c74f5-e32c-4ebf-9377-e9fc94962236.png",
+            "title_text": "<p><strong>Practical Workshop Support: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Develop real coaching confidence through practical workshops and assessments that prepare you for working in a gym environment.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_AhbNA9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Expert_Tutor_Guidance_Icon_7d972774-415b-4278-b2ce-cbe19941241e.png",
+            "title_text": "<p><strong>Expert Tutor Guidance: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Our experienced tutors support you throughout your course, helping you build the skills and knowledge needed to become a successful gym instructor.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_LXRiA3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Career_Progression_Icon_9450a108-b6ce-46d8-af20-8a49c43a921f.png",
+            "title_text": "<p><strong>Clear Career Progression Pathways: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Many learners continue their fitness education by progressing to Level 3 Personal Training, expanding their career opportunities and earning potential.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_YGfrYQ",
+        "card_UBGFPx",
+        "card_7rK9hM",
+        "card_AhbNA9",
+        "card_LXRiA3"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why Choose Study Active?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Choosing the right training provider is an important step when starting your career as a <strong>gym instructor</strong>. At Study Active, our courses are designed to give you the knowledge, confidence, and qualifications needed to succeed in the fitness industry. </p><p></p><p>Here’s why learners choose Study Active for their <strong>Level 2 Gym Instructor qualification</strong>. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 32
+      }
+    },
+    "v2_header_eAYAHP": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Success Stories from Study Active Graduates</p>",
+        "heading_type": "h2",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Don't just take our word for it – hear from real Personal Trainers who've transformed their careers with us.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 16,
+        "margin_top": 0,
+        "margin_bottom": 24
+      }
+    },
+    "v2_video_8ndN9i": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_7pD3GT": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
+            "description": ""
+          }
+        },
+        "videoblock_rwKkJp": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_7pD3GT",
+        "videoblock_rwKkJp"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_trustpilot_P3cQrh": {
+      "type": "v2_trustpilot",
+      "name": "t:lesections.v2_trustpilot.presets.name",
+      "settings": {
+        "apply_filter": false,
+        "embed_code": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"240px\" data-style-width=\"100%\" data-token=\"3c5427b1-5f4c-4c66-8a6d-bbc089625435\" data-stars=\"4,5\" data-review-languages=\"en\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 24,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_QgWf3B": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_NTEyk8": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What qualification do I need to become a Gym Instructor in the UK?",
+            "row_content": "<p>To work as a <strong>gym instructor in the UK</strong>, you need a <strong>Level 2 Certificate in Fitness Instruction</strong> that is Ofqual-regulated and endorsed by CIMSPA. No degree required – just commitment and a passion for fitness. </p><p>This qualification provides the knowledge and practical skills required to work safely on the gym floor, including exercise technique, programme design, and health and safety procedures. </p><p>Once qualified, you will be eligible to apply for <strong>gym instructor jobs in commercial gyms, leisure centres, and health clubs</strong>. </p>"
+          }
+        },
+        "accordion_row_w94eBY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need prior experience to start a Level 2 course?",
+            "row_content": "<p>No - A <strong>Level 2 Gym Instructor course</strong> is designed for beginners who want to start a career in the fitness industry. </p><p>You do not need previous gym employment or fitness qualifications to enrol - just a passion for fitness and a commitment to learning.</p>"
+          }
+        },
+        "accordion_row_gjjh3n": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to qualify? ",
+            "row_content": "<p>The time it takes to qualify as a gym instructor depends on the course format and study schedule. </p><p>Most learners complete their <strong>Level 2 Gym Instructor qualification</strong> within: </p><ul><li><strong>4–8 weeks</strong> for intensive courses </li><li><strong>2–4 months</strong> with flexible study options </li></ul><p>Study Active offers flexible learning so you can complete your course at a pace that suits your lifestyle. </p>"
+          }
+        },
+        "accordion_row_h7qVTJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I study the Gym Instructor course online? ",
+            "row_content": "<p>Yes - We at Study Active offer <strong>blended learning options</strong> for gym instructor qualifications. </p><p>This usually includes: </p><ul><li>Online theory modules </li><li>Practical workshops and assessments </li></ul><p>Blended learning allows you to gain both the <strong>theoretical knowledge and practical coaching experience</strong> required to work confidently in a gym. </p>"
+          }
+        },
+        "accordion_row_AXjDyG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need insurance to work as a Gym Instructor? ",
+            "row_content": "<p>Yes - Most gyms require instructors to have <strong>public liability insurance</strong> before working with members. </p><p>This insurance protects both you and your clients while delivering fitness guidance. Once you have completed your qualification, you will be able to apply for insurance through specialist fitness insurance providers. <br/><br/></p>"
+          }
+        },
+        "accordion_row_DkqUqw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is the difference between a Gym Instructor and a Personal Trainer? ",
+            "row_content": "<p>A <strong>Gym Instructor (Level 2)</strong> typically works on the gym floor supporting members by: </p><ul><li>Delivering gym inductions </li><li>Demonstrating exercise technique </li><li>Writing basic gym programmes </li></ul><p>A <strong>Personal Trainer (Level 3)</strong> works more closely with individual clients and usually: </p><ul><li>Delivers one-to-one coaching sessions </li><li>Designs advanced training programmes </li><li>Charges clients per session </li></ul><p>Most fitness professionals start as gym instructors before progressing to <strong>Level 3 Personal Training</strong>. </p>"
+          }
+        },
+        "accordion_row_CMxgmy": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I progress to Personal Training after Level 2? ",
+            "row_content": "<p>Yes. Completing a <strong>Level 2 Gym Instructor qualification</strong> allows you to progress to a <strong>Level 3 Diploma in Personal Training</strong>. </p><p>This qualification enables you to work as a personal trainer, train clients one-to-one, and increase your earning potential within the fitness industry. </p><p>An alternative is to complete the <a href=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 2 and Level 3 in one comprehensive course</span></a>. <br/></p>"
+          }
+        },
+        "accordion_row_Ra8WMq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What jobs can I apply for after qualifying? ",
+            "row_content": "<p>After completing your <strong>Level 2 Gym Instructor qualification</strong>, you can apply for roles such as: </p><ul><li>Gym Instructor </li><li>Fitness Instructor </li><li>Leisure Centre Fitness Staff </li><li>Health Club Assistant </li></ul><p>Many instructors use this role to gain experience before progressing to <strong>personal training or specialist fitness careers</strong>. </p>"
+          }
+        },
+        "accordion_row_iFRxiJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is the Gym Instructor qualification recognised internationally?",
+            "row_content": "<p>CIMSPA-endorsed and Ofqual-regulated qualifications (like Study Active's) are highly regarded in the UK and often accepted abroad (e.g., Europe, UAE via eREPs equivalents). For full international work, check local requirements, but our certification provides a strong global foundation.</p>"
+          }
+        },
+        "accordion_row_pExgKk": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need to be a member of CIMSPA or REPs?",
+            "row_content": "<p>CIMSPA membership isn't mandatory to work as a PT, but it's highly beneficial for CPD, professional standards, job listings, and credibility. REPs (legacy register) has largely transitioned to CIMSPA. Many gyms prefer or require CIMSPA affiliation.</p>"
+          }
+        },
+        "accordion_row_T9A4zX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What happens after I complete the course?",
+            "row_content": "<p>You'll receive your certificate, be eligible for insurance/CIMSPA, and can start working immediately. StudyActive offers ongoing support: CPD resources, alumni network, job guidance, and access to further courses.</p><p><br/>Still have questions? Contact our team for personalised advice!<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_NTEyk8",
+        "accordion_row_w94eBY",
+        "accordion_row_gjjh3n",
+        "accordion_row_h7qVTJ",
+        "accordion_row_AXjDyG",
+        "accordion_row_DkqUqw",
+        "accordion_row_CMxgmy",
+        "accordion_row_Ra8WMq",
+        "accordion_row_iFRxiJ",
+        "accordion_row_pExgKk",
+        "accordion_row_T9A4zX"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently Asked Questions</p>",
+        "heading_align": "center",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_LEJNt7": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Qualifications Recognised by Everyone</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "v2_hero_xkK8jw",
+    "v2_newsletter_nqhKx7",
+    "v2_flexible_A8PdLY",
+    "v2_steps_6bd9tW",
+    "v2_flexible_Wpqgq9",
+    "v2_flexible_9fdaaj",
+    "v2_featured_whqQNK",
+    "v2_text_plus_image_Q3MpEb",
+    "v2_flexible_TawhVX",
+    "v2_text_plus_image_TKtxGU",
+    "v2_header_7ixNqN",
+    "v2_flexible_zJ8C3Y",
+    "v2_flexible_UFPbM8",
+    "v2_cards_zdnUPg",
+    "v2_header_eAYAHP",
+    "v2_video_8ndN9i",
+    "v2_trustpilot_P3cQrh",
+    "v2_accordion_QgWf3B",
+    "v2_header_LEJNt7"
+  ]
+}
