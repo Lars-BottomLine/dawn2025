@@ -373,11 +373,11 @@
         "textcol_e4EdeH": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>High Demand for Fitness Professionals</strong><br/><br/>The UK health and fitness industry continues to grow(with <a href=\"https://www.ukactive.com/news/uk-health-and-fitness-market-report-reveals-exponential-growth-as-penetration-rate-hits-16-9-and-revenue-grows-8-8/\" target=\"_blank\"><span style=\"text-decoration:underline\">annual revenue exceeding £5.7bn</span></a>) as more people prioritise physical health, mental wellbeing, and active lifestyles. Gyms, leisure centres, and health clubs regularly recruit qualified gym instructors and fitness instructors<strong> </strong>to support their members.<br/></p>",
+            "left_text": "<p></p><p><strong>High Industry Demand</strong><br/><br/>Pilates has seen significant growth across the UK, particularly among clients seeking low-impact, effective training methods that support strength, mobility, and rehabilitation.</p><p></p><p>From beginners to athletes and those recovering from injury, a wide range of clients are turning to Pilates - creating consistent demand for qualified instructors in gyms, studios, and wellness settings.<br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Entry-Level Pathway into the Fitness Industry</strong></p><p></p><p>Becoming a gym instructor is one of the most accessible ways to start a career in fitness. You don’t need previous industry experience - only a recognised qualification such as a <a href=\"/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"CIMSPA Endorsed Level 2 Certificate in Fitness Instruction\">Level 2 Certificate in Fitness Instruction. </a></p><p>This qualification allows you to work in gyms while building experience and progressing your career. <br/></p>",
+            "right_text": "<p><br/><strong>Accessible Entry into a Specialist Fitness Career</strong></p><p></p><p>Becoming a Pilates instructor offers a clear pathway into a specialised area of the fitness industry. With a recognised qualification, such as a <a href=\"/products/active-iq-level-3-diploma-in-instructing-pilates-matwork\" title=\"CIMSPA Endorsed Level 3 Diploma in Instructing Pilates Matwork with 4-Day Immersive Residential\">Level 3 Diploma in Matwork Pilates</a>, you can begin teaching safely and effectively without needing prior industry experience.</p><p>This makes it an ideal option for those looking to enter the fitness space with a focused skill set.<br/></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -388,26 +388,11 @@
         "textcol_A4w7Fw": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>Flexible Working Environment</strong></p><p><br/>Many roles also offer flexible hours, making it a great option for people seeking varied schedules. </p><p>Qualified gym instructors can work in a variety of environments, including: </p><ul><li>Commercial gyms </li><li>Leisure centres </li><li>Boutique fitness studios </li><li>Health clubs </li><li>Corporate wellness facilities </li></ul><p><br/></p>",
+            "left_text": "<p></p><p></p><p><strong>Flexible Working Environment</strong></p><p><br/>Qualified Pilates instructors can work across a variety of settings, including:</p><ul><li>Boutique Pilates studios</li><li>Commercial gyms and health clubs</li><li>Private wellness centres</li><li>Freelance or self-employed settings</li><li>Online or virtual coaching platforms</li></ul><p><br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Career Progression Opportunities</strong></p><p><br/>A Level 2 Gym Instructor qualification is often the first step in a long-term fitness career. Many instructors go on to progress into: </p><ul><li><a href=\"/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" title=\"CIMSPA Endorsed Level 3 Diploma Practitioner in Personal Training\">Level 3 Personal Training qualifications </a></li><li><a href=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\" title=\"https://studyactive.co.uk/products/l2-gym-instruction-l3-personal-training-l4-nutrition\">Level 4 specialist fitness courses</a></li><li>Gym management or leadership roles </li><li>Strength and conditioning coaching <br/></li></ul>",
-            "right_text_size": "copy-l",
-            "right_text_no_decal": false,
-            "right_text_strong_accented": false,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
-        "textcol_g9g9zN": {
-          "type": "textcol",
-          "settings": {
-            "left_text": "<p></p><p><strong>Make a Positive Impact</strong></p><p><br/>One of the most rewarding aspects of becoming a gym instructor is helping people improve their health, fitness, and confidence. From supporting beginners to encouraging long-term members, gym instructors play an important role in creating positive lifestyle change.<br/></p>",
-            "left_text_size": "copy-l",
-            "left_text_no_decal": false,
-            "left_text_strong_accented": false,
-            "right_text": "<p><br/></p>",
+            "right_text": "<p></p><p></p><p><strong>Career Progression Opportunities</strong></p><p><br/>A Pilates qualification can open the door to further specialisation and career development. This allows you to expand your expertise and work with a broader range of clients.</p><p></p><p>Many instructors progress into:</p><ul><li>Advanced Pilates training (e.g. reformer, clinical Pilates)</li><li>Pre and postnatal exercise specialisms</li><li>Injury rehabilitation and corrective exercise</li><li>Holistic health and wellness coaching<br/></li></ul>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -420,8 +405,7 @@
         "headline_AU8XkH",
         "subheadline_pwBQpL",
         "textcol_e4EdeH",
-        "textcol_A4w7Fw",
-        "textcol_g9g9zN"
+        "textcol_A4w7Fw"
       ],
       "name": "t:lesections.flexible.presets.name",
       "settings": {
