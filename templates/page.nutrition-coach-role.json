@@ -729,34 +729,104 @@
         "margin_bottom": 24
       }
     },
-    "v2_video_8ndN9i": {
-      "type": "v2_video",
+    "v2_slideshow_h8hMKE": {
+      "type": "v2_slideshow",
       "blocks": {
-        "videoblock_7pD3GT": {
-          "type": "videoblock",
+        "slide_FmRAVa": {
+          "type": "slide",
           "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
-            "description": ""
+            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
           }
         },
-        "videoblock_rwKkJp": {
-          "type": "videoblock",
+        "slide_HE87tm": {
+          "type": "slide",
           "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
-            "description": ""
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_K6G9fc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_bhjRLN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_VVtjiq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_pFLdyr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_eaYTft": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>Actor </p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "button_label": "",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "videoblock_7pD3GT",
-        "videoblock_rwKkJp"
+        "slide_FmRAVa",
+        "slide_HE87tm",
+        "slide_K6G9fc",
+        "slide_bhjRLN",
+        "slide_VVtjiq",
+        "slide_pFLdyr",
+        "slide_eaYTft"
       ],
-      "name": "t:lesections.v2_video.presets.name",
+      "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
@@ -965,7 +1035,7 @@
     "v2_flexible_UFPbM8",
     "v2_cards_zdnUPg",
     "v2_header_eAYAHP",
-    "v2_video_8ndN9i",
+    "v2_slideshow_h8hMKE",
     "v2_trustpilot_P3cQrh",
     "v2_accordion_QgWf3B",
     "v2_header_LEJNt7"
