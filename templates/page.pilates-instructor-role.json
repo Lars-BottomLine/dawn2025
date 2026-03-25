@@ -747,24 +747,14 @@
           "type": "videoblock",
           "settings": {
             "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
-            "description": ""
-          }
-        },
-        "videoblock_rwKkJp": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "video_url": "https://vimeo.com/1162142779/7884e41570?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
             "description": ""
           }
         }
       },
       "block_order": [
-        "videoblock_7pD3GT",
-        "videoblock_rwKkJp"
+        "videoblock_7pD3GT"
       ],
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
