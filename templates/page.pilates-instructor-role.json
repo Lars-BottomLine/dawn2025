@@ -147,8 +147,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Complete a Level 2 Gym Instructor Qualification",
-            "text": "<p>The first step is to gain a recognised qualification such as the <a href=\"/products/cimspa-level-2-certificate-in-fitness-instruction\" title=\"CIMSPA Endorsed Level 2 Certificate in Fitness Instruction\"><strong>Level 2 Certificate in Fitness Instruction</strong>. </a>Most gyms in the UK require instructors to hold a <strong>CIMSPA-endorsed Level 2 qualification</strong> before they can work on the gym floor. </p><p>This qualification teaches the fundamentals of: </p><ul><li>Anatomy and physiology</li><li>Exercise technique</li><li>Gym inductions</li><li>Programme design</li><li>Health and safety procedures.</li></ul>",
+            "title": "Check You’re Ready to Start",
+            "text": "<p>You don’t need prior teaching experience to begin your journey as a <a href=\"/products/active-iq-level-3-diploma-in-instructing-pilates-matwork\" title=\"CIMSPA Endorsed Level 3 Diploma in Instructing Pilates Matwork with 4-Day Immersive Residential\">Pilates instructor. </a></p><p>To get the most from your course, it helps to have: </p><ul><li>A basic level of fitness  </li><li>An interest in movement, anatomy, and wellbeing  </li><li>Strong communication skills  </li></ul><p>With Study Active, you can start your Pilates instructor training without needing previous fitness qualifications. </p>",
             "button_text": "",
             "button_link": ""
           }
@@ -157,8 +157,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Complete Practical Assessments",
-            "text": "<p>During your course, you’ll complete practical assessments to demonstrate your ability to work with gym members. These assessments ensure you are<strong> confident and capable in a real gym environment.</strong> These typically include: </p><ul><li>Delivering gym inductions </li><li>Demonstrating exercise technique </li><li>Designing beginner gym programmes </li><li>Supporting members on the gym floor </li></ul>",
+            "title": "Enrol on a Recognised Level 3 Pilates course ",
+            "text": "<p>To become a Pilates instructor, you’ll need a regulated qualification such as the <strong>Active IQ Level 3 Diploma in Instructing Pilates Matwork</strong>. </p><p>Study Active delivers this course fully online, giving you the flexibility to study at your own pace while gaining industry-recognised certification. </p><p>You’ll cover: </p><ul><li>Pilates principles and techniques  </li><li>Functional anatomy and physiology  </li><li>Planning and delivering effective sessions  </li><li>Adapting exercises for different client needs  </li></ul>",
             "button_text": "",
             "button_link": ""
           }
@@ -167,8 +167,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Obtain Insurance",
-            "text": "<p>Before working as a gym instructor, you will usually need <a href=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\" title=\"https://studyactive.co.uk/blogs/news/why-does-a-personal-trainer-need-insurance\"><strong>public liability insurance</strong>.</a> This protects both you and your clients while working in a gym or fitness facility. </p><p>Once qualified, you will be eligible to apply for insurance through specialist fitness industry providers, Study Active can support you on this through out career accelerator platform.</p>",
+            "title": "Develop Your Practical Teaching Skills ",
+            "text": "<p>Becoming a great Pilates instructor isn’t just about theory - it’s about applying what you learn in real-world scenarios. </p><p>During your course, you’ll learn how to: </p><ul><li>Structure safe and engaging classes  </li><li>Demonstrate exercises with proper technique  </li><li>Use clear, effective cueing  </li><li>Adapt sessions for beginners through to advanced clients  </li></ul><p>You’ll also have access to tutor support from <strong>Study Active</strong> to help build your confidence as you progress. </p>",
             "button_text": "",
             "button_link": ""
           }
@@ -177,8 +177,28 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Start Working in a Gym",
-            "text": "<p>After qualifying, you can begin applying for <strong>gym instructor jobs</strong> in a variety of fitness environments, including: </p><ul><li>Commercial gyms </li><li>Leisure centres </li><li>Boutique fitness studios </li><li>Health clubs </li><li>Independent fitness facilities </li></ul><p></p><p>Many newly qualified instructors gain valuable experience on the gym floor before progressing into personal training or specialist fitness roles. </p>",
+            "title": "Complete your assessments ",
+            "text": "<p>To achieve your qualification, you’ll complete: </p><ul><li>Online theory coursework  </li><li>Practical assessments that demonstrate your ability to plan and deliver Pilates sessions  </li></ul><p>These ensure you meet industry standards and are ready to work with real clients. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_V7W7Xx": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Get insured and start teaching",
+            "text": "<p>Once qualified, you can gain instructor insurance and begin working as a Pilates instructor. </p><p>Typical career options include: </p><ul><li>Gyms and health clubs  </li><li>Pilates studios  </li><li>Freelance or self-employed work  </li><li>Online coaching  </li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_xm4ALy": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Continue building your career",
+            "text": "<p>As you gain experience, you can grow your career by: </p><ul><li>Offering 1-to-1 sessions  </li><li>Running group classes  </li><li>Developing specialist knowledge  </li><li>Building your own client base or brand  </li></ul><p>Study Active also provides ongoing support to help you take the next steps in your fitness career. </p>",
             "button_text": "",
             "button_link": ""
           }
@@ -188,7 +208,9 @@
         "step_LLLMTK",
         "step_AbJtEA",
         "step_jihG8D",
-        "step_4y9FGm"
+        "step_4y9FGm",
+        "step_V7W7Xx",
+        "step_xm4ALy"
       ],
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
