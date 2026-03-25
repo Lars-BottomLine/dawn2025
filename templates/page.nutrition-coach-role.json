@@ -912,32 +912,18 @@
             "row_content": "<p>A <strong>Nutrition Coach</strong> focuses on helping clients improve their eating habits through practical guidance, behaviour change, and ongoing support. They typically work with individuals looking to lose weight, build muscle, or improve overall health and performance.</p><p>A <strong>Nutritionist</strong>, on the other hand, usually has a more formal academic background in nutrition science and provides evidence-based advice on diet and health. They may specialise in areas such as public health or sports nutrition and offer more in-depth nutritional analysis.</p><p>It’s important to note that in the UK, neither title is strictly regulated, and only a <strong>Registered Dietitian</strong> is qualified to provide dietary advice for medical conditions.</p>"
           }
         },
-        "accordion_row_CMxgmy": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Can I progress to Personal Training after Level 2? ",
-            "row_content": "<p>Yes. Completing a <strong>Level 2 Gym Instructor qualification</strong> allows you to progress to a <strong>Level 3 Diploma in Personal Training</strong>. </p><p>This qualification enables you to work as a personal trainer, train clients one-to-one, and increase your earning potential within the fitness industry. </p><p>An alternative is to complete the <a href=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 2 and Level 3 in one comprehensive course</span></a>. <br/></p>"
-          }
-        },
         "accordion_row_Ra8WMq": {
           "type": "accordion_row",
           "settings": {
             "heading": "What jobs can I apply for after qualifying? ",
-            "row_content": "<p>After completing your <strong>Level 2 Gym Instructor qualification</strong>, you can apply for roles such as: </p><ul><li>Gym Instructor </li><li>Fitness Instructor </li><li>Leisure Centre Fitness Staff </li><li>Health Club Assistant </li></ul><p>Many instructors use this role to gain experience before progressing to <strong>personal training or specialist fitness careers</strong>. </p>"
+            "row_content": "<p>After qualifying as a <strong>Nutrition Coach</strong>, you can apply your skills across a wide range of health, fitness, and wellbeing roles. Common career options include:</p><ul><li><strong>Nutrition Coach / Weight Loss Coach</strong> – working 1:1 or online with clients to improve eating habits and achieve body composition goals<br/></li><li><strong>Personal Trainer with Nutrition Coaching</strong> – combining training and nutrition support for a more complete service<br/></li><li><strong>Online Coach</strong> – delivering remote coaching through apps and social media<br/></li><li><strong>Gym or Health Club Coach</strong> – supporting members with lifestyle and nutrition guidance<br/></li><li><strong>Corporate Wellness Coach</strong> – helping businesses improve employee health and productivity<br/></li><li><strong>Content Creator / Fitness Influencer</strong> – sharing nutrition advice through social media, blogs, or online platforms<br/></li><li><strong>Support roles in wellness clinics or fitness studios</strong><br/></li></ul><p>Many Nutrition Coaches also choose to <strong>work self-employed</strong>, building their own brand, online coaching business, or client base.</p><p>This qualification is a great stepping stone into the health and fitness industry and can also be combined with further study, such as personal training or specialist nutrition courses.</p>"
           }
         },
         "accordion_row_iFRxiJ": {
           "type": "accordion_row",
           "settings": {
-            "heading": "Is the Gym Instructor qualification recognised internationally?",
-            "row_content": "<p>CIMSPA-endorsed and Ofqual-regulated qualifications (like Study Active's) are highly regarded in the UK and often accepted abroad (e.g., Europe, UAE via eREPs equivalents). For full international work, check local requirements, but our certification provides a strong global foundation.</p>"
-          }
-        },
-        "accordion_row_pExgKk": {
-          "type": "accordion_row",
-          "settings": {
-            "heading": "Do I need to be a member of CIMSPA or REPs?",
-            "row_content": "<p>CIMSPA membership isn't mandatory to work as a PT, but it's highly beneficial for CPD, professional standards, job listings, and credibility. REPs (legacy register) has largely transitioned to CIMSPA. Many gyms prefer or require CIMSPA affiliation.</p>"
+            "heading": "Is the RSPH Nutrition Coach qualification recognised internationally?",
+            "row_content": "<p>Yes - the <strong>RSPH Nutrition Coach qualification</strong> is internationally recognised within the health and fitness industry.</p><p>It’s awarded by the <strong>Royal Society for Public Health (RSPH)</strong> and regulated by <strong>Ofqual</strong>, meaning it meets high UK education standards and is widely respected by employers globally.</p><p>This makes it suitable for roles in gyms, coaching, and online nutrition support worldwide. However, requirements can vary by country, especially for clinical roles, so it’s always worth checking local regulations.</p>"
           }
         },
         "accordion_row_T9A4zX": {
@@ -955,10 +941,8 @@
         "accordion_row_h7qVTJ",
         "accordion_row_AXjDyG",
         "accordion_row_DkqUqw",
-        "accordion_row_CMxgmy",
         "accordion_row_Ra8WMq",
         "accordion_row_iFRxiJ",
-        "accordion_row_pExgKk",
         "accordion_row_T9A4zX"
       ],
       "name": "t:lesections.accordion.presets.name",
