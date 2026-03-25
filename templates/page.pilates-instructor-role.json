@@ -230,7 +230,7 @@
         "subheadline_btTnb3": {
           "type": "subheadline",
           "settings": {
-            "text": "<p>At <strong>Study Active</strong>, our Level 2 Certificate in Fitness Instruction<strong> </strong>is flexible, blended, and fully endorsed by CIMSPA-giving you everything you need to launch your fitness career confidently.</p>",
+            "text": "<p>At <strong>Study Active</strong>, our Level 3 Certificate in Matwork Pilates<strong> </strong>is flexible, blended, and fully endorsed by CIMSPA-giving you everything you need to launch your fitness career confidently.</p>",
             "text_align": "left",
             "text_width": "mediumplus",
             "text_size": "copy-l",
@@ -262,7 +262,7 @@
         "headline_xrPDJz": {
           "type": "headline",
           "settings": {
-            "heading_text": "<p>Enrol in Our Gym Instructor Course Today!</p>",
+            "heading_text": "<p>Enrol in Our Pilates Instructor Course Today!</p>",
             "heading_align": "center",
             "heading_width": "full",
             "heading_type": "h3",
@@ -292,7 +292,7 @@
       "type": "v2_featured",
       "name": "t:lesections.v2_featured.presets.name",
       "settings": {
-        "product": "cimspa-level-2-certificate-in-fitness-instruction",
+        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": false,
