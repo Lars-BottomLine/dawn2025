@@ -521,11 +521,11 @@
         "textcol_7kaeFQ": {
           "type": "textcol",
           "settings": {
-            "left_text": "<p></p><p><strong>Member Inductions</strong><br/><br/>Introduce new members to the gym, explain how equipment works, and demonstrate safe usage.<br/><strong><br/>Programme Design</strong><br/><br/>Create simple, structured gym programmes that help members achieve their fitness goals.<br/><br/><strong>Member Support and Motivation</strong><br/><br/>Provide guidance, encouragement, and ongoing support to help members stay consistent with their training.<br/></p>",
+            "left_text": "<p></p><p><strong>Planning and Delivering Sessions</strong><br/><br/>You’ll be responsible for creating structured Pilates sessions that follow key principles and progress logically. This includes selecting appropriate exercises, sequencing movements, and ensuring each session is suitable for your clients’ ability levels.<br/><strong><br/>Adapting for Different Clients</strong><br/><br/>No two clients are the same. You’ll need to modify exercises to suit beginners, more advanced participants, and those with specific limitations, ensuring sessions remain inclusive and accessible.<br/><br/><strong>Creating a Positive Environment</strong><br/><br/>Beyond the technical side, you’ll also create a supportive and motivating atmosphere that encourages clients to stay engaged and consistent with their training.<br/></p>",
             "left_text_size": "copy-l",
             "left_text_no_decal": false,
             "left_text_strong_accented": false,
-            "right_text": "<p></p><p><strong>Exercise Demonstration</strong></p><p><br/>Show correct technique for strength training exercises and cardiovascular equipment.<br/><br/><strong>Health and Safety Supervision</strong></p><p></p><p>Monitor activity on the gym floor, ensure equipment is used correctly, and follow gym safety procedures.<br/></p><p></p>",
+            "right_text": "<p></p><p><strong>Demonstrating and Coaching Technique</strong></p><p><br/>A core part of the role is demonstrating exercises with correct form and providing clear instructions. You’ll guide clients through movements using both verbal and visual cueing to help them perform exercises safely and effectively.<br/><br/><strong>Monitoring Performance and Preventing Injury</strong></p><p></p><p>You’ll observe clients throughout each session, correcting technique where needed and helping to reduce the risk of injury. This requires a good understanding of movement and attention to detail.<br/></p><p></p>",
             "right_text_size": "copy-l",
             "right_text_no_decal": false,
             "right_text_strong_accented": false,
@@ -536,7 +536,7 @@
         "subheadline_LfcfkB": {
           "type": "subheadline",
           "settings": {
-            "text": "<p></p><p><strong>Key Skills Involved:</strong> Communication, Anatomy Knowledge, Observation, Interpersonal Skills etc.</p>",
+            "text": "<p></p><p><strong>Key Skills Involved:</strong> Session Planning, Technical Knowledge, Demonstration, Communication, Adaptability, Observation, Injury Prevention, Client Focus, Interpersonal Skills, Motivation etc.<br/></p>",
             "text_align": "left",
             "text_width": "full",
             "text_size": "copy-l",
