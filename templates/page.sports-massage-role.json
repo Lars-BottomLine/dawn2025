@@ -1,0 +1,974 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "v2_hero_xkK8jw": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_g86J93": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ProductMedia_3_-Pilates.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>How to Become a Pilates Instructor: <strong>Qualifications & Career Path</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "h1",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "",
+            "text_size": "h3",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_g86J93"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 0,
+        "padding_bottom": 156,
+        "margin_top": -200,
+        "margin_bottom": -144
+      }
+    },
+    "v2_newsletter_nqhKx7": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "image": "shopify://shop_images/Blog_Post_-_International_Women_s_Day_3.png",
+        "heading_text": "<p></p><p></p>",
+        "heading_type": "h3",
+        "heading_size": "copy-xl",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p> </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>Unlock your potential in the fitness industry with Study Active's accredited Pilates Instructor course. Start your journey today! </p><p>If you’re wondering how to become a Pilates instructor, the good news is that there is a clear path into this growing area of the fitness industry. With the right Pilates instructor course, you can gain the knowledge, practical skills, and recognised qualification needed to teach safe and effective mat-based Pilates sessions. </p><p>Pilates instructors help clients improve posture, core strength, flexibility, balance, and overall movement control. They work in gyms, health clubs, boutique studios, community settings, and online, making this a flexible and rewarding career choice for people who are passionate about fitness and wellbeing. </p><p>To become a Pilates instructor in the UK, you will typically need a recognised <a href=\"https://studyactive.co.uk/products/active-iq-level-3-diploma-in-instructing-pilates-matwork\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 3 Pilates qualification</span></a> that gives you the skills to plan, deliver, and adapt classes for a range of clients. In this guide, we’ll explain the qualifications you need, the skills that matter most, expected salaries, and the steps to start your career. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_A8PdLY": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_zTLPTe": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>How to Become a Pilates Instructor:</p><p>Step-by-Step Guide</p>",
+            "heading_align": "center",
+            "heading_width": "mediumplus",
+            "heading_type": "h2",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_HKyRTT": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Becoming a qualified <strong>Pilates instructor</strong> in the UK requires a recognised<strong> Level 3 qualification </strong>and the ability to confidently deliver safe, effective sessions.</p><p></p><p>Follow these steps to start your career as a gym instructor. </p>",
+            "text_align": "center",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 20,
+            "margin_bottom": -40
+          }
+        }
+      },
+      "block_order": [
+        "headline_zTLPTe",
+        "subheadline_HKyRTT"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_6bd9tW": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_LLLMTK": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Check You’re Ready to Start",
+            "text": "<p>You don’t need prior teaching experience to begin your journey as a <a href=\"/products/active-iq-level-3-diploma-in-instructing-pilates-matwork\" title=\"CIMSPA Endorsed Level 3 Diploma in Instructing Pilates Matwork with 4-Day Immersive Residential\">Pilates instructor. </a></p><p>To get the most from your course, it helps to have: </p><ul><li>A basic level of fitness  </li><li>An interest in movement, anatomy, and wellbeing  </li><li>Strong communication skills  </li></ul><p>With Study Active, you can start your Pilates instructor training without needing previous fitness qualifications. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_AbJtEA": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Enrol on a Recognised Level 3 Pilates course ",
+            "text": "<p>To become a Pilates instructor, you’ll need a regulated qualification such as the <strong>Active IQ Level 3 Diploma in Instructing Pilates Matwork</strong>. </p><p>Study Active delivers this course fully online, giving you the flexibility to study at your own pace while gaining industry-recognised certification. </p><p>You’ll cover: </p><ul><li>Pilates principles and techniques  </li><li>Functional anatomy and physiology  </li><li>Planning and delivering effective sessions  </li><li>Adapting exercises for different client needs  </li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_jihG8D": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Develop Your Practical Teaching Skills ",
+            "text": "<p>Becoming a great Pilates instructor isn’t just about theory - it’s about applying what you learn in real-world scenarios. </p><p>During your course, you’ll learn how to: </p><ul><li>Structure safe and engaging classes  </li><li>Demonstrate exercises with proper technique  </li><li>Use clear, effective cueing  </li><li>Adapt sessions for beginners through to advanced clients  </li></ul><p>You’ll also have access to tutor support from <strong>Study Active</strong> to help build your confidence as you progress. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_4y9FGm": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Complete your assessments ",
+            "text": "<p>To achieve your qualification, you’ll complete: </p><ul><li>Online theory coursework  </li><li>Practical assessments that demonstrate your ability to plan and deliver Pilates sessions  </li></ul><p>These ensure you meet industry standards and are ready to work with real clients. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_V7W7Xx": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Get insured and start teaching",
+            "text": "<p>Once qualified, you can gain instructor insurance and begin working as a Pilates instructor. </p><p>Typical career options include: </p><ul><li>Gyms and health clubs  </li><li>Pilates studios  </li><li>Freelance or self-employed work  </li><li>Online coaching  </li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_xm4ALy": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Continue building your career",
+            "text": "<p>As you gain experience, you can grow your career by: </p><ul><li>Offering 1-to-1 sessions  </li><li>Running group classes  </li><li>Developing specialist knowledge  </li><li>Building your own client base or brand  </li></ul><p>Study Active also provides ongoing support to help you take the next steps in your fitness career. </p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_LLLMTK",
+        "step_AbJtEA",
+        "step_jihG8D",
+        "step_4y9FGm",
+        "step_V7W7Xx",
+        "step_xm4ALy"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 132,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_Wpqgq9": {
+      "type": "v2_flexible",
+      "blocks": {
+        "subheadline_btTnb3": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>At <strong>Study Active</strong>, our Level 3 Certificate in Matwork Pilates<strong> </strong>is flexible, blended, and fully endorsed by CIMSPA-giving you everything you need to launch your fitness career confidently.</p>",
+            "text_align": "left",
+            "text_width": "mediumplus",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheadline_btTnb3"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -52,
+        "margin_bottom": 8
+      }
+    },
+    "v2_flexible_9fdaaj": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xrPDJz": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Enrol in Our Pilates Instructor Course Today!</p>",
+            "heading_align": "center",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h3",
+            "heading_no_decal": true,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "headline_xrPDJz"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": -52
+      }
+    },
+    "v2_featured_whqQNK": {
+      "type": "v2_featured",
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "active-iq-level-3-diploma-in-instructing-pilates-matwork",
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_Q3MpEb": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Blog_Post_-_Pilates_3.png",
+        "heading_text": "<p>What is a Pilates Instructor?</p>",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>A <strong>Pilates instructor</strong> teaches structured exercise sessions designed to improve core strength, flexibility, posture, and overall movement control. </p><p>Using a combination of controlled movements and breathing techniques, Pilates instructors help clients develop better body awareness and reduce the risk of injury. Sessions can be delivered in group classes or on a one-to-one basis, depending on the client’s goals and experience level. </p><p>Pilates instructors are responsible for planning safe and effective sessions, demonstrating exercises with correct technique, and adapting movements to suit different abilities. This includes supporting beginners, working with clients returning from injury, and helping more advanced participants progress their training. </p><p>As a qualified instructor, you can work in a variety of environments, including gyms, health clubs, boutique studios, and online platforms - giving you flexibility in how and where you build your career. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -20,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_TawhVX": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_AU8XkH": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Why Choose a Career as a Pilates Instructor?</p><p></p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_pwBQpL": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>Becoming a <a href=\"/products/active-iq-level-3-diploma-in-instructing-pilates-matwork\" title=\"CIMSPA Endorsed Level 3 Diploma in Instructing Pilates Matwork with 4-Day Immersive Residential\"><strong>Pilates instructor</strong></a> is a highly rewarding career choice for individuals passionate about movement, wellbeing, and helping others build strength from the inside out. With growing awareness around injury prevention, posture, and long-term health, Pilates continues to play a key role in the modern fitness industry.<br/></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_e4EdeH": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>High Industry Demand</strong><br/><br/>Pilates has seen significant growth across the UK, particularly among clients seeking low-impact, effective training methods that support strength, mobility, and rehabilitation.</p><p></p><p>From beginners to athletes and those recovering from injury, a wide range of clients are turning to Pilates - creating consistent demand for qualified instructors in gyms, studios, and wellness settings.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p><br/><strong>Accessible Entry into a Specialist Fitness Career</strong></p><p></p><p>Becoming a Pilates instructor offers a clear pathway into a specialised area of the fitness industry. With a recognised qualification, such as a <a href=\"/products/active-iq-level-3-diploma-in-instructing-pilates-matwork\" title=\"CIMSPA Endorsed Level 3 Diploma in Instructing Pilates Matwork with 4-Day Immersive Residential\">Level 3 Diploma in Matwork Pilates</a>, you can begin teaching safely and effectively without needing prior industry experience.</p><p>This makes it an ideal option for those looking to enter the fitness space with a focused skill set.<br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_A4w7Fw": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Flexible Working Environment</strong></p><p><br/>Qualified Pilates instructors can work across a variety of settings, including:</p><ul><li>Boutique Pilates studios</li><li>Commercial gyms and health clubs</li><li>Private wellness centres</li><li>Freelance or self-employed settings</li><li>Online or virtual coaching platforms</li></ul><p><br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Career Progression Opportunities</strong></p><p><br/>A Pilates qualification can open the door to further specialisation and career development. This allows you to expand your expertise and work with a broader range of clients.</p><p></p><p>Many instructors progress into:</p><ul><li>Advanced Pilates training (e.g. reformer, clinical Pilates)</li><li>Pre and postnatal exercise specialisms</li><li>Injury rehabilitation and corrective exercise</li><li>Holistic health and wellness coaching<br/></li></ul>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_AU8XkH",
+        "subheadline_pwBQpL",
+        "textcol_e4EdeH",
+        "textcol_A4w7Fw"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_text_plus_image_TKtxGU": {
+      "type": "v2_text-plus-image",
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gym_Instructor_Salary_Expectation_Table_-_Website_Smaller_Size.png",
+        "heading_text": "<p>Pilates Instructor Salary Expectations in the UK</p>",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "subheadline_text": "<p> </p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p>Your <strong>earning potential as a Pilates instructor</strong> will depend on several factors, including your location, experience level, and how you choose to work. Instructors who offer one-to-one sessions, specialise in niche areas, or build a strong personal brand often earn significantly more than those in entry-level employed roles. </p><p>With the right qualifications and support from Study Active, you can develop your skills and increase your earning potential as you progress in your career. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": -16,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_zJ8C3Y": {
+      "type": "v2_flexible",
+      "blocks": {
+        "buttoncol_KFUmdF": {
+          "type": "buttoncol",
+          "settings": {
+            "button_text": "Explore our Courses",
+            "button_url": "shopify://collections/all-active-courses",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false,
+            "button_align": "center",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "buttoncol_KFUmdF"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_flexible_UFPbM8": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_xHiKaw": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>Key Responsibilities of a Pilates Instructor</p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_Vnhqbt": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>As a <strong>Pilates instructor</strong>, your role is to deliver safe, effective sessions that help clients improve strength, mobility, and overall wellbeing. This involves more than just leading a class — it requires careful planning, strong communication, and the ability to adapt to different clients.</p><p></p><p>Below are some of the <strong>main responsibilities of a Pilates instructor</strong> in a typical gym or health club environment. <br/></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 16,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_7kaeFQ": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>Planning and Delivering Sessions</strong><br/><br/>You’ll be responsible for creating structured Pilates sessions that follow key principles and progress logically. This includes selecting appropriate exercises, sequencing movements, and ensuring each session is suitable for your clients’ ability levels.<br/><strong><br/>Adapting for Different Clients</strong><br/><br/>No two clients are the same. You’ll need to modify exercises to suit beginners, more advanced participants, and those with specific limitations, ensuring sessions remain inclusive and accessible.<br/><br/><strong>Creating a Positive Environment</strong><br/><br/>Beyond the technical side, you’ll also create a supportive and motivating atmosphere that encourages clients to stay engaged and consistent with their training.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>Demonstrating and Coaching Technique</strong></p><p><br/>A core part of the role is demonstrating exercises with correct form and providing clear instructions. You’ll guide clients through movements using both verbal and visual cueing to help them perform exercises safely and effectively.<br/><br/><strong>Monitoring Performance and Preventing Injury</strong></p><p></p><p>You’ll observe clients throughout each session, correcting technique where needed and helping to reduce the risk of injury. This requires a good understanding of movement and attention to detail.<br/></p><p></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "subheadline_LfcfkB": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p></p><p><strong>Key Skills Involved:</strong> Session Planning, Technical Knowledge, Demonstration, Communication, Adaptability, Observation, Injury Prevention, Client Focus, Interpersonal Skills, Motivation etc.<br/></p>",
+            "text_align": "left",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "headline_xHiKaw",
+        "subheadline_Vnhqbt",
+        "textcol_7kaeFQ",
+        "subheadline_LfcfkB"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_zdnUPg": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_YGfrYQ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/5_c5e01ffc-db4d-450c-9a85-8e6dad4a8528.png",
+            "title_text": "<p><strong>CIMSPA-Endorsed Qualifcation:</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Our Level 3 Diploma in Instructing Pilates Matwork is CIMSPA-endorsed and Active IQ accredited, ensuring your qualification meets recognised UK industry standards and qualifies you to teach professionally.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_UBGFPx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Flexible_Online_Learning_Icon_98c61070-c2e0-4792-b20e-3b6370b0eb1a.png",
+            "title_text": "<p><strong>Flexible Blended Learning: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study at your own pace with a blend of online learning and practical training, allowing you to fit your studies around work, family, and other commitments.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_7rK9hM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/3_ff0c74f5-e32c-4ebf-9377-e9fc94962236.png",
+            "title_text": "<p><strong>Hands-On Practical Experience:</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Build real teaching confidence through a four-day immersive workshop, where you’ll gain hands-on experience delivering Pilates sessions with expert guidance.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_AhbNA9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Expert_Tutor_Guidance_Icon_7d972774-415b-4278-b2ce-cbe19941241e.png",
+            "title_text": "<p><strong>Expert Tutor Guidance: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Receive ongoing support from experienced tutors, with one-to-one guidance, feedback, and mentoring throughout your journey to becoming a Pilates instructor.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_LXRiA3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Career_Progression_Icon_9450a108-b6ce-46d8-af20-8a49c43a921f.png",
+            "title_text": "<p><strong>Career-Ready Skills & Progression: </strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Graduate fully qualified to plan, deliver, and evaluate Pilates sessions in gyms, studios, or as a self-employed instructor, with clear pathways to advanced qualifications and specialisms.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_YGfrYQ",
+        "card_UBGFPx",
+        "card_7rK9hM",
+        "card_AhbNA9",
+        "card_LXRiA3"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why Choose Study Active?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Choosing the right training provider is an important step when starting your career as a <strong>Pilates instructor</strong>. At Study Active, our courses are designed to give you the knowledge, confidence, and qualifications needed to succeed in the fitness industry. </p><p></p><p>Here’s why learners choose Study Active for their <strong>Level 3 Matwork Pilates Instructor qualification</strong>. </p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 32
+      }
+    },
+    "v2_header_eAYAHP": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Success Stories from Study Active Graduates</p>",
+        "heading_type": "h2",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Don’t just take our word for it – hear from qualified instructors who have launched rewarding Pilates careers after completing their Level 3 Diploma.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 16,
+        "margin_top": 0,
+        "margin_bottom": 24
+      }
+    },
+    "v2_video_8ndN9i": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_7pD3GT": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1162142779/7884e41570?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_7pD3GT"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_trustpilot_P3cQrh": {
+      "type": "v2_trustpilot",
+      "name": "t:lesections.v2_trustpilot.presets.name",
+      "settings": {
+        "apply_filter": false,
+        "embed_code": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"240px\" data-style-width=\"100%\" data-token=\"3c5427b1-5f4c-4c66-8a6d-bbc089625435\" data-stars=\"4,5\" data-review-languages=\"en\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "heading_text": "",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": true,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 24,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_accordion_QgWf3B": {
+      "type": "v2_accordion",
+      "blocks": {
+        "accordion_row_NTEyk8": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What qualification do I need to become a Pilates Instructor in the UK? ",
+            "row_content": "<p>To work professionally as a Pilates Instructor in the UK, you need a<strong> Level 3 Diploma in Instructing Pilates Matwork</strong> that is Ofqual-regulated and CIMSPA endorsed. This ensures you meet industry standards and can obtain insurance. </p><p>No university degree is required - just a passion for movement and commitment to learning. </p>"
+          }
+        },
+        "accordion_row_w94eBY": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need prior experience before starting a Pilates course? ",
+            "row_content": "<p>No - prior teaching experience is required. However, a basic understanding of fitness or anatomy can be helpful. Many learners come from gym instructing, yoga, or complete career changes.</p>"
+          }
+        },
+        "accordion_row_gjjh3n": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "How long does it take to qualify as a Pilates Instructor? ",
+            "row_content": "<p>Timelines vary depending on study mode: </p><ul><li>Full-time/intensive: <strong>8–12 weeks</strong></li><li>Part-time/flexible: <strong>3–6 months</strong></li><li>Self-paced online: <strong>Up to 12 months </strong></li></ul><p>Study Active’s blended delivery model allows you to study around work and family commitments. </p>"
+          }
+        },
+        "accordion_row_h7qVTJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I teach online after qualifying? ",
+            "row_content": "<p>Yes - With a recognised Level 3 qualification and appropriate insurance, you can deliver online group classes, 1-1 sessions, or digital programmes.</p>"
+          }
+        },
+        "accordion_row_AXjDyG": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What is the difference between mat Pilates and reformer Pilates? ",
+            "row_content": "<p>Mat Pilates uses bodyweight exercises performed on the floor. Reformer Pilates uses specialist resistance equipment. A Level 3 Matwork qualification is the industry starting point before progressing to reformer-specific training.<br/><br/></p>"
+          }
+        },
+        "accordion_row_DkqUqw": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need insurance to work as a Pilates Instructor? ",
+            "row_content": "<p>Yes - public liability insurance is essential to protect against claims of injury or negligence. Most recognised qualifications make you eligible for specialist instructor insurance policies.</p>"
+          }
+        },
+        "accordion_row_CMxgmy": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Can I progress to Personal Training after Level 2? ",
+            "row_content": "<p>Yes. Completing a <strong>Level 2 Gym Instructor qualification</strong> allows you to progress to a <strong>Level 3 Diploma in Personal Training</strong>. </p><p>This qualification enables you to work as a personal trainer, train clients one-to-one, and increase your earning potential within the fitness industry. </p><p>An alternative is to complete the <a href=\"https://studyactive.co.uk/products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training\" target=\"_blank\"><span style=\"text-decoration:underline\">Level 2 and Level 3 in one comprehensive course</span></a>. <br/></p>"
+          }
+        },
+        "accordion_row_Ra8WMq": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What jobs can I apply for after qualifying? ",
+            "row_content": "<p>After completing your <strong>Level 2 Gym Instructor qualification</strong>, you can apply for roles such as: </p><ul><li>Gym Instructor </li><li>Fitness Instructor </li><li>Leisure Centre Fitness Staff </li><li>Health Club Assistant </li></ul><p>Many instructors use this role to gain experience before progressing to <strong>personal training or specialist fitness careers</strong>. </p>"
+          }
+        },
+        "accordion_row_iFRxiJ": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Is the Gym Instructor qualification recognised internationally?",
+            "row_content": "<p>CIMSPA-endorsed and Ofqual-regulated qualifications (like Study Active's) are highly regarded in the UK and often accepted abroad (e.g., Europe, UAE via eREPs equivalents). For full international work, check local requirements, but our certification provides a strong global foundation.</p>"
+          }
+        },
+        "accordion_row_pExgKk": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "Do I need to be a member of CIMSPA or REPs?",
+            "row_content": "<p>CIMSPA membership isn't mandatory to work as a PT, but it's highly beneficial for CPD, professional standards, job listings, and credibility. REPs (legacy register) has largely transitioned to CIMSPA. Many gyms prefer or require CIMSPA affiliation.</p>"
+          }
+        },
+        "accordion_row_T9A4zX": {
+          "type": "accordion_row",
+          "settings": {
+            "heading": "What happens after I complete the course?",
+            "row_content": "<p>You'll receive your certificate, be eligible for insurance/CIMSPA, and can start working immediately. StudyActive offers ongoing support: CPD resources, alumni network, job guidance, and access to further courses.</p><p><br/>Still have questions? Contact our team for personalised advice!<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_row_NTEyk8",
+        "accordion_row_w94eBY",
+        "accordion_row_gjjh3n",
+        "accordion_row_h7qVTJ",
+        "accordion_row_AXjDyG",
+        "accordion_row_DkqUqw",
+        "accordion_row_CMxgmy",
+        "accordion_row_Ra8WMq",
+        "accordion_row_iFRxiJ",
+        "accordion_row_pExgKk",
+        "accordion_row_T9A4zX"
+      ],
+      "name": "t:lesections.accordion.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "heading_text": "<p>Frequently Asked Questions</p>",
+        "heading_align": "center",
+        "heading_type": "h3",
+        "heading_size": "h3",
+        "heading_no_decal": false,
+        "heading_strong_accented": false,
+        "accordion_width": "narrow",
+        "items_to_show": 4,
+        "accordion_entries": [],
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_LEJNt7": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Qualifications Recognised by Everyone</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "v2_hero_xkK8jw",
+    "v2_newsletter_nqhKx7",
+    "v2_flexible_A8PdLY",
+    "v2_steps_6bd9tW",
+    "v2_flexible_Wpqgq9",
+    "v2_flexible_9fdaaj",
+    "v2_featured_whqQNK",
+    "v2_text_plus_image_Q3MpEb",
+    "v2_flexible_TawhVX",
+    "v2_text_plus_image_TKtxGU",
+    "v2_flexible_zJ8C3Y",
+    "v2_flexible_UFPbM8",
+    "v2_cards_zdnUPg",
+    "v2_header_eAYAHP",
+    "v2_video_8ndN9i",
+    "v2_trustpilot_P3cQrh",
+    "v2_accordion_QgWf3B",
+    "v2_header_LEJNt7"
+  ]
+}
