@@ -170,33 +170,6 @@
     "v2_grid_WENFea": {
       "type": "v2_grid",
       "blocks": {
-        "member_MYn4Mn": {
-          "type": "member",
-          "settings": {
-            "image": "shopify://shop_images/1739004541621.jpg",
-            "name": "Debra Stuart",
-            "position": "CEO",
-            "info": "Debra Stuart is the CEO of Study Active and a seasoned leader in the health and fitness industry with over 40 years of experience. Her career spans from hands-on roles as a fitness instructor and personal trainer to senior leadership positions shaping national training and education standards. A Chartered Director and Fellow of the Institute of Directors, Debra has played a pivotal role in developing high-quality qualifications and frameworks, including during her tenure as CEO of Premier Global and Treasurer of ukactive. At Study Active, she continues her mission to raise industry standards by promoting accessible, evidence-based education and supporting clear career pathways for future professionals."
-          }
-        },
-        "member_R4AhB8": {
-          "type": "member",
-          "settings": {
-            "image": "shopify://shop_images/JB_Image.jpg",
-            "name": "Julian Berriman",
-            "position": "Director of Education",
-            "info": "Julian Berriman is our Director of Education and brings over 30 years of experience in fitness education, curriculum design, and workforce development. He leads the design and delivery of training programmes that equip future fitness and wellness professionals with the skills, knowledge, and confidence needed to succeed in the industry. Julian also serves as Chair of EuropeActive’s Professional Standards Committee, overseeing the Sector Qualifications Framework and representing educational standards internationally. Alongside his role at Study Active, he continues to practise as an osteopath and personal trainer, maintaining his passion for health, fitness, and lifelong learning."
-          }
-        },
-        "member_rUVYCd": {
-          "type": "member",
-          "settings": {
-            "image": "shopify://shop_images/IMG_20200812_113842_1.jpg",
-            "name": "Carly Wallace",
-            "position": "Managing Director",
-            "info": "Carly began her career in health and fitness, working in business development across the UK and overseas with organisations such as Premier Training International, Active IQ, UFC Gyms and Les Mills. She later moved into senior eCommerce roles at global agencies, leading projects for major brands and specialising in growing online sales through Amazon and Shopify. At Study Active, Carly brings a wealth of commercial and digital expertise to her role as Managing Director, with a focus on enhancing the customer journey, supporting the team and driving sustainable growth for the business."
-          }
-        },
         "member_7PaAJz": {
           "type": "member",
           "settings": {
@@ -352,9 +325,6 @@
         }
       },
       "block_order": [
-        "member_MYn4Mn",
-        "member_R4AhB8",
-        "member_rUVYCd",
         "member_7PaAJz",
         "member_M8fdKe",
         "member_PLYmqc",
