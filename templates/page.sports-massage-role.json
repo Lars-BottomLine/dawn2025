@@ -167,8 +167,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Develop Your Practical Teaching Skills ",
-            "text": "<p>Becoming a great Pilates instructor isn’t just about theory - it’s about applying what you learn in real-world scenarios. </p><p>During your course, you’ll learn how to: </p><ul><li>Structure safe and engaging classes  </li><li>Demonstrate exercises with proper technique  </li><li>Use clear, effective cueing  </li><li>Adapt sessions for beginners through to advanced clients  </li></ul><p>You’ll also have access to tutor support from <strong>Study Active</strong> to help build your confidence as you progress. </p>",
+            "title": "Learn Through Flexible Study",
+            "text": "<p>With Study Active, you’ll complete your theory online at your own pace, allowing you to fit learning around work and other commitments.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -177,8 +177,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Complete your assessments ",
-            "text": "<p>To achieve your qualification, you’ll complete: </p><ul><li>Online theory coursework  </li><li>Practical assessments that demonstrate your ability to plan and deliver Pilates sessions  </li></ul><p>These ensure you meet industry standards and are ready to work with real clients. </p>",
+            "title": "Pass Your Practical Assessments",
+            "text": "<p>You’ll demonstrate your ability to carry out client assessments and deliver hands-on treatments safely and effectively, preparing you for real-world scenarios.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -187,18 +187,8 @@
           "type": "step",
           "settings": {
             "number": "",
-            "title": "Get insured and start teaching",
-            "text": "<p>Once qualified, you can gain instructor insurance and begin working as a Pilates instructor. </p><p>Typical career options include: </p><ul><li>Gyms and health clubs  </li><li>Pilates studios  </li><li>Freelance or self-employed work  </li><li>Online coaching  </li></ul>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "step_xm4ALy": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "Continue building your career",
-            "text": "<p>As you gain experience, you can grow your career by: </p><ul><li>Offering 1-to-1 sessions  </li><li>Running group classes  </li><li>Developing specialist knowledge  </li><li>Building your own client base or brand  </li></ul><p>Study Active also provides ongoing support to help you take the next steps in your fitness career. </p>",
+            "title": "Get Insured and Start Working",
+            "text": "<p>Once qualified, you can obtain insurance and begin working in gyms, clinics, or as a self-employed therapist building your own client base.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -209,8 +199,7 @@
         "step_AbJtEA",
         "step_jihG8D",
         "step_4y9FGm",
-        "step_V7W7Xx",
-        "step_xm4ALy"
+        "step_V7W7Xx"
       ],
       "name": "t:lesections.v2_steps.presets.name",
       "settings": {
@@ -230,7 +219,7 @@
         "subheadline_btTnb3": {
           "type": "subheadline",
           "settings": {
-            "text": "<p>At <strong>Study Active</strong>, our Level 3 Certificate in Matwork Pilates<strong> </strong>is flexible, blended, and fully endorsed by CIMSPA-giving you everything you need to launch your fitness career confidently.</p>",
+            "text": "<p>At <strong>Study Active</strong>, our Sports Massage qualification combines flexible online theory learning with practical assessment support, preparing you for real-world client scenarios.</p>",
             "text_align": "left",
             "text_width": "mediumplus",
             "text_size": "copy-l",
