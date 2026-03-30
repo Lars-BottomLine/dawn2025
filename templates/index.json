@@ -27,7 +27,7 @@
             "text_no_decal": true,
             "text_strong_accented": true,
             "button_text": "Start Now",
-            "button_url": "shopify://pages/how-to-become-a-personal-trainer",
+            "button_url": "shopify://collections/all-active-courses",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
