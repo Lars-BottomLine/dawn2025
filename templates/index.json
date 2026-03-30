@@ -131,8 +131,30 @@
         "slide_zTtGVN": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
+            "headline": "<p>Pro PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+          }
+        },
+        "slide_9d98FG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
+            "headline": "<p>Elite PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training with Level 4 Nutrition: turn your passion into a career by helping clients achieve their fitness goals through personalised training, nutrition coaching, and expert support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
+          }
+        },
+        "slide_3yM6Np": {
+          "type": "slide",
+          "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
-            "headline": "<p>Gym Instructor</p>",
+            "headline": "<p>L2 Gym Instructor</p>",
             "subheadline": "",
             "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
             "button_label": "Let's go",
@@ -143,7 +165,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
-            "headline": "<p>Personal Trainer</p>",
+            "headline": "<p>L3 Personal Trainer</p>",
             "subheadline": "",
             "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
             "button_label": "Let's go",
@@ -152,6 +174,7 @@
         },
         "slide_7xQwU3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Nutritionist_9.png",
             "headline": "<p>Nutrition Coach</p>",
@@ -212,6 +235,8 @@
       },
       "block_order": [
         "slide_zTtGVN",
+        "slide_9d98FG",
+        "slide_3yM6Np",
         "slide_Rd6neR",
         "slide_7xQwU3",
         "slide_DFk6qK",
