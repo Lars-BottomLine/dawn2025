@@ -15,7 +15,7 @@
         "slide_biXRCW": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Website_Hero_Banner_-_Unlock_Your_Potential_PT_4.png",
+            "image": "shopify://shop_images/Website_Hero_Banner_-_Personal_Trainer_Spring_Sale_Image_CIMSPA_Enhancing_2.png",
             "slide_type": "twocol",
             "heading_text": "<p><strong>30% OFF</strong></p><p>All Courses</p>",
             "heading_type": "h3",
@@ -163,6 +163,7 @@
         },
         "slide_DFk6qK": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/100.png",
             "headline": "<p>Pilates Instructor</p>",
@@ -174,6 +175,7 @@
         },
         "slide_jeVmDw": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/sports-massage.jpg",
             "headline": "<p>Sports Massage Therapist</p>",
@@ -185,6 +187,7 @@
         },
         "slide_y4HFjp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Blog_Image_-_Menopause.png",
             "headline": "<p>Menopause Exercise Specialist</p>",
@@ -196,6 +199,7 @@
         },
         "slide_aVgmML": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/73.png",
             "headline": "<p>Wellness Coach</p>",
