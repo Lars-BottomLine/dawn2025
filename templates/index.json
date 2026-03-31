@@ -27,7 +27,7 @@
             "text_no_decal": true,
             "text_strong_accented": true,
             "button_text": "View Deals",
-            "button_url": "shopify://collections/all-active-courses",
+            "button_url": "https://studyactive.co.uk/collections/spring-sale-30-study-active-courses",
             "button_style": "primary",
             "button_size": "medium",
             "button_new_window": false
