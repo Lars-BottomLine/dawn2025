@@ -498,10 +498,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_hg6Ra3": {
+    "v2_slideshow_FDWmQP": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_jUtGyT": {
+        "slide_Ygp4AP": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
@@ -512,7 +512,18 @@
             "button_url": ""
           }
         },
-        "slide_rxWVME": {
+        "slide_mzYEL8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_kazx7A": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/New.png",
@@ -523,7 +534,18 @@
             "button_url": ""
           }
         },
-        "slide_N83zWk": {
+        "slide_bFDDPi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_G9Nkzk": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
@@ -534,7 +556,7 @@
             "button_url": ""
           }
         },
-        "slide_PbWhWr": {
+        "slide_3fJXPq": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/calvin-zola-504x251.avif",
@@ -545,7 +567,7 @@
             "button_url": ""
           }
         },
-        "slide_QiY8jF": {
+        "slide_LDWcEH": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/giles-matthey-504x251.avif",
@@ -558,11 +580,13 @@
         }
       },
       "block_order": [
-        "slide_jUtGyT",
-        "slide_rxWVME",
-        "slide_N83zWk",
-        "slide_PbWhWr",
-        "slide_QiY8jF"
+        "slide_Ygp4AP",
+        "slide_mzYEL8",
+        "slide_kazx7A",
+        "slide_bFDDPi",
+        "slide_G9Nkzk",
+        "slide_3fJXPq",
+        "slide_LDWcEH"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -888,7 +912,7 @@
     "v2_header_na98Ce",
     "v2_video_nck3DW",
     "v2_header_7WqPzX",
-    "v2_slideshow_hg6Ra3",
+    "v2_slideshow_FDWmQP",
     "v2_header_DEq7km",
     "v2_slideshow_4fQP4X",
     "v2_hero_cJtgwB",
