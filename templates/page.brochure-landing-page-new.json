@@ -496,7 +496,7 @@
         "button_text": "Discover More",
         "button_url": "shopify://pages/personal-trainer-payment-plans",
         "button_style": "primary",
-        "button_size": "medium",
+        "button_size": "small",
         "button_new_window": true,
         "button_align": "center",
         "custom_class_names": "",
@@ -544,32 +544,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_GzBdCc": {
+    "v2_slideshow_hfAHRU": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_6GqrXD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/calvin-zola-504x251.avif",
-            "headline": "<p>Calvin Zola</p>",
-            "subheadline": "<p>Professional Footballer</p>",
-            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_zNDrNe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/New.png",
-            "headline": "<p>Julie Davis</p>",
-            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
-            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_CQ7jTH": {
+        "slide_f6JL6d": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
@@ -580,7 +558,40 @@
             "button_url": ""
           }
         },
-        "slide_7H6e3E": {
+        "slide_jkywfW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_hBBJBR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_cwd4pW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_i4EwQG": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
@@ -591,7 +602,18 @@
             "button_url": ""
           }
         },
-        "slide_wmUdLC": {
+        "slide_3tEXTU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_pmd6gx": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/giles-matthey-504x251.avif",
@@ -604,11 +626,13 @@
         }
       },
       "block_order": [
-        "slide_6GqrXD",
-        "slide_zNDrNe",
-        "slide_CQ7jTH",
-        "slide_7H6e3E",
-        "slide_wmUdLC"
+        "slide_f6JL6d",
+        "slide_jkywfW",
+        "slide_hBBJBR",
+        "slide_cwd4pW",
+        "slide_i4EwQG",
+        "slide_3tEXTU",
+        "slide_pmd6gx"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -874,95 +898,59 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_PF7gBt": {
+    "v2_slideshow_EQ8VQr": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_3TG6PT": {
+        "slide_Vc6tW7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
+            "headline": "<p>Pro PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+          }
+        },
+        "slide_J6nYy7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
+            "headline": "<p>Elite PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training with Level 4 Nutrition: turn your passion into a career by helping clients achieve their fitness goals through personalised training, nutrition coaching, and expert support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
+          }
+        },
+        "slide_RYJkGT": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
-            "headline": "<p>Gym Instructor</p>",
+            "headline": "<p>L2 Gym Instructor</p>",
             "subheadline": "",
             "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
         },
-        "slide_iTRxce": {
+        "slide_3hgaPR": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
-            "headline": "<p>Personal Trainer</p>",
+            "headline": "<p>L3 Personal Trainer</p>",
             "subheadline": "",
             "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-certificate-in-personal-training-l3"
-          }
-        },
-        "slide_EhEbEa": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Nutritionist_9.png",
-            "headline": "<p>Nutrition Coach</p>",
-            "subheadline": "",
-            "text": "<p>Gain an accredited foundation in nutrition to coach clients toward healthier, sustainable habits.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/level-4-nutrition"
-          }
-        },
-        "slide_cAmgm6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/100.png",
-            "headline": "<p>Pilates Instructor</p>",
-            "subheadline": "",
-            "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/active-iq-level-3-diploma-in-instructing-pilates-matwork"
-          }
-        },
-        "slide_aAc8zg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/sports-massage.jpg",
-            "headline": "<p>Sports Massage Therapist</p>",
-            "subheadline": "",
-            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
-          }
-        },
-        "slide_MJNNED": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Blog_Image_-_Menopause.png",
-            "headline": "<p>Menopause Exercise Specialist</p>",
-            "subheadline": "",
-            "text": "<p>Specialist training to support women through menopause with safe, effective exercise programming.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/medfit-education-menopause-health-and-fitness-specialist-online-course"
-          }
-        },
-        "slide_7PmNtr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/73.png",
-            "headline": "<p>Wellness Coach</p>",
-            "subheadline": "",
-            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://collections/wellness-pathway"
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         }
       },
       "block_order": [
-        "slide_3TG6PT",
-        "slide_iTRxce",
-        "slide_EhEbEa",
-        "slide_cAmgm6",
-        "slide_aAc8zg",
-        "slide_MJNNED",
-        "slide_7PmNtr"
+        "slide_Vc6tW7",
+        "slide_J6nYy7",
+        "slide_RYJkGT",
+        "slide_3hgaPR"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -982,11 +970,29 @@
         "margin_bottom": 0
       }
     },
-    "v2_form_Afgd4D": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
+    "v2_newsletter_aw4nWk": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "form_type": "career",
+        "form_type": "brochure",
+        "heading_text": "<p>Your Fitness Career Starts Here.</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p><br/>Explore our industry-leading qualifications designed to help you build a successful career in fitness.<br/><br/></p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p><strong>Not sure which course is right for you?</strong><br/><br/>Request a brochure below to explore your options and discover how Study Active can support your career.<br/><br/></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": true,
@@ -1113,14 +1119,14 @@
     "v2_cards_xmbyLJ",
     "v2_cards_yW4Ccz",
     "v2_header_MCJdKL",
-    "v2_slideshow_GzBdCc",
+    "v2_slideshow_hfAHRU",
     "v2_cards_b6Qq8b",
     "v2_header_mpfKMe",
     "v2_video_zRAPCJ",
     "apps_4GBaW9",
     "v2_header_dGCTCr",
-    "v2_slideshow_PF7gBt",
-    "v2_form_Afgd4D",
+    "v2_slideshow_EQ8VQr",
+    "v2_newsletter_aw4nWk",
     "v2_header_fQhg3k",
     "v2_image_slider_nEYJAW"
   ]

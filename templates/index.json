@@ -267,78 +267,13 @@
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
-        },
-        "slide_7xQwU3": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Nutritionist_9.png",
-            "headline": "<p>Nutrition Coach</p>",
-            "subheadline": "",
-            "text": "<p>Gain an accredited foundation in nutrition to coach clients toward healthier, sustainable habits.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/level-4-nutrition"
-          }
-        },
-        "slide_DFk6qK": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/100.png",
-            "headline": "<p>Pilates Instructor</p>",
-            "subheadline": "",
-            "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/active-iq-level-3-diploma-in-instructing-pilates-matwork"
-          }
-        },
-        "slide_jeVmDw": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/sports-massage.jpg",
-            "headline": "<p>Sports Massage Therapist</p>",
-            "subheadline": "",
-            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
-          }
-        },
-        "slide_y4HFjp": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Blog_Image_-_Menopause.png",
-            "headline": "<p>Menopause Exercise Specialist</p>",
-            "subheadline": "",
-            "text": "<p>Specialist training to support women through menopause with safe, effective exercise programming.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/medfit-education-menopause-health-and-fitness-specialist-online-course"
-          }
-        },
-        "slide_aVgmML": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/73.png",
-            "headline": "<p>Wellness Coach</p>",
-            "subheadline": "",
-            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://collections/wellness-pathway"
-          }
         }
       },
       "block_order": [
         "slide_zTtGVN",
         "slide_9d98FG",
         "slide_3yM6Np",
-        "slide_Rd6neR",
-        "slide_7xQwU3",
-        "slide_DFk6qK",
-        "slide_jeVmDw",
-        "slide_y4HFjp",
-        "slide_aVgmML"
+        "slide_Rd6neR"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
