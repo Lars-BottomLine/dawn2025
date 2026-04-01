@@ -11,72 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "v2_image_slider_pEri8M": {
-      "type": "v2_image-slider",
-      "blocks": {
-        "slide_98DHVM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
-          }
-        },
-        "slide_EN6KBX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_1.png"
-          }
-        },
-        "slide_craci7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Focus_Awards_Logo.png"
-          }
-        },
-        "slide_NE7Xkr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/associationfornutrition.png"
-          }
-        },
-        "slide_Eh9Let": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NCFE.jpg"
-          }
-        },
-        "slide_FWpbLM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/rsph2.png"
-          }
-        },
-        "slide_tk7gfR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/activeIQ.png"
-          }
-        }
-      },
-      "block_order": [
-        "slide_98DHVM",
-        "slide_EN6KBX",
-        "slide_craci7",
-        "slide_NE7Xkr",
-        "slide_Eh9Let",
-        "slide_FWpbLM",
-        "slide_tk7gfR"
-      ],
-      "name": "t:lesections.v2_image-slider.presets.name",
-      "settings": {
-        "slide_autospeed": 4000,
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 16,
-        "margin_bottom": 0
-      }
-    },
     "custom_liquid_JxYr8i": {
       "type": "custom-liquid",
       "name": "Code: WhatsApp Widget",
@@ -157,7 +91,6 @@
     }
   },
   "order": [
-    "v2_image_slider_pEri8M",
     "custom_liquid_JxYr8i",
     "custom_liquid_bJVt8L",
     "footer"
