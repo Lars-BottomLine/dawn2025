@@ -97,6 +97,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>How to become a personal trainer in three simple steps.</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -132,6 +133,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>See what our students are saying</p>",
         "heading_type": "h1",
         "heading_size": "h2",
@@ -395,6 +397,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p><strong>Becoming a Personal Trainer is easy!</strong></p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -552,6 +555,7 @@
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
+        "page_wide": false,
         "heading_text": "<p>Become a Personal Trainer</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -606,6 +610,72 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "v2_image_slider_eVDqPY": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_LVfVta": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_UjgFmW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_Lz3Tpa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_MKbBxT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_xHH3Wj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NCFE.jpg"
+          }
+        },
+        "slide_MwziQ8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_6WET7M": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_LVfVta",
+        "slide_UjgFmW",
+        "slide_Lz3Tpa",
+        "slide_MKbBxT",
+        "slide_xHH3Wj",
+        "slide_MwziQ8",
+        "slide_6WET7M"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 4000,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -621,6 +691,7 @@
     "v2_featured_imtjhU",
     "v2_accordion_k4RYCF",
     "v2_header_yNGXnN",
-    "v2_slideshow_mp9DLi"
+    "v2_slideshow_mp9DLi",
+    "v2_image_slider_eVDqPY"
   ]
 }
