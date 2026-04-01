@@ -450,6 +450,72 @@
         "margin_top": 0,
         "margin_bottom": -28
       }
+    },
+    "v2_image_slider_RkDPEM": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_QrU66q": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_wxzKFc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_Lpyke4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_8TzjAD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_3gGqAC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NCFE.jpg"
+          }
+        },
+        "slide_h6D8pd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_P4tkq6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_QrU66q",
+        "slide_wxzKFc",
+        "slide_Lpyke4",
+        "slide_8TzjAD",
+        "slide_3gGqAC",
+        "slide_h6D8pd",
+        "slide_P4tkq6"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 4000,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -459,6 +525,7 @@
     "v2_cards_4N9LRb",
     "v2_cards_pRM7HR",
     "v2_cards_BVjQ9z",
-    "v2_header_Xr9Pzj"
+    "v2_header_Xr9Pzj",
+    "v2_image_slider_RkDPEM"
   ]
 }
