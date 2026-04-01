@@ -474,118 +474,6 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 32
-      }
-    },
-    "v2_header_dH7Pce": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "page_wide": false,
-        "heading_text": "<p>Real Stories. Real Success.</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "full",
-        "text": "<p>Hear directly from our students about their experiences on the course.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 24,
-        "margin_top": -180,
-        "margin_bottom": 24
-      }
-    },
-    "v2_video_6jBcbr": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_t3hLH8": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
-            "description": ""
-          }
-        },
-        "videoblock_dK73ak": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1134134461",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_t3hLH8",
-        "videoblock_dK73ak"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 52,
-        "padding_bottom": 40,
-        "margin_top": -36,
-        "margin_bottom": 0
-      }
-    },
-    "v2_video_6UedP3": {
-      "type": "v2_video",
-      "blocks": {
-        "videoblock_r4T7Fg": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1146602485?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
-            "description": ""
-          }
-        },
-        "videoblock_Xk8heb": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
-            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "videoblock_r4T7Fg",
-        "videoblock_Xk8heb"
-      ],
-      "name": "t:lesections.v2_video.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 52,
-        "padding_bottom": 40,
-        "margin_top": -36,
         "margin_bottom": 0
       }
     },
@@ -1415,9 +1303,6 @@
     "v2_header_crfUaT",
     "v2_slideshow_FqXf9k",
     "v2_cards_88cQaJ",
-    "v2_header_dH7Pce",
-    "v2_video_6jBcbr",
-    "v2_video_6UedP3",
     "v2_header_i7HYVG",
     "v2_slideshow_4RTHyC",
     "v2_cards_ayDGYf",
