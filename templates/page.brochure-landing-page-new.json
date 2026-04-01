@@ -86,11 +86,77 @@
         "claim_text_strong_accented": false,
         "custom_class_names": "",
         "bkgr_color": "white",
-        "decal_top": true,
-        "decal_bottom": true,
+        "decal_top": false,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_image_slider_nEYJAW": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_YWqwKd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_wYLymg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_zCBd9G": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_k7ageF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_yWhr4B": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NCFE.jpg"
+          }
+        },
+        "slide_AfiYUg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_zqxrrz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_YWqwKd",
+        "slide_wYLymg",
+        "slide_zCBd9G",
+        "slide_k7ageF",
+        "slide_yWhr4B",
+        "slide_AfiYUg",
+        "slide_zqxrrz"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 4000,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
         "margin_bottom": 0
       }
     },
@@ -122,7 +188,7 @@
         "button_align": "center",
         "bkgr_color": "white",
         "custom_class_names": "",
-        "decal_top": true,
+        "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 24,
@@ -1038,78 +1104,13 @@
         "margin_top": 0,
         "margin_bottom": -28
       }
-    },
-    "v2_image_slider_nEYJAW": {
-      "type": "v2_image-slider",
-      "blocks": {
-        "slide_YWqwKd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
-          }
-        },
-        "slide_wYLymg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_1.png"
-          }
-        },
-        "slide_zCBd9G": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Focus_Awards_Logo.png"
-          }
-        },
-        "slide_k7ageF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/associationfornutrition.png"
-          }
-        },
-        "slide_yWhr4B": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NCFE.jpg"
-          }
-        },
-        "slide_AfiYUg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/rsph2.png"
-          }
-        },
-        "slide_zqxrrz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/activeIQ.png"
-          }
-        }
-      },
-      "block_order": [
-        "slide_YWqwKd",
-        "slide_wYLymg",
-        "slide_zCBd9G",
-        "slide_k7ageF",
-        "slide_yWhr4B",
-        "slide_AfiYUg",
-        "slide_zqxrrz"
-      ],
-      "name": "t:lesections.v2_image-slider.presets.name",
-      "settings": {
-        "slide_autospeed": 4000,
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 16,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
     "main",
     "v2_hero_k3BEND",
     "v2_newsletter_WmBhQK",
+    "v2_image_slider_nEYJAW",
     "v2_header_yx6r89",
     "v2_trustpilot_Aa6Fc6",
     "v2_header_T7x6Eg",
@@ -1127,7 +1128,6 @@
     "v2_header_dGCTCr",
     "v2_slideshow_EQ8VQr",
     "v2_newsletter_aw4nWk",
-    "v2_header_fQhg3k",
-    "v2_image_slider_nEYJAW"
+    "v2_header_fQhg3k"
   ]
 }
