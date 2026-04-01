@@ -86,28 +86,77 @@
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": -36,
         "margin_bottom": 0
       }
     },
-    "apps_kNcNk9": {
-      "type": "apps",
+    "v2_image_slider_QATqhh": {
+      "type": "v2_image-slider",
       "blocks": {
-        "gsc_instagram_feed_instafeed_nwifRH": {
-          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+        "slide_atxi3W": {
+          "type": "slide",
           "settings": {
-            "widget_id": "GSC-PDRiAdCCIILDldo"
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_4CRTHz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_3rqeVL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_z6paMA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_8RpeaH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NCFE.jpg"
+          }
+        },
+        "slide_apdLKy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_rafxFC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
           }
         }
       },
       "block_order": [
-        "gsc_instagram_feed_instafeed_nwifRH"
+        "slide_atxi3W",
+        "slide_4CRTHz",
+        "slide_3rqeVL",
+        "slide_z6paMA",
+        "slide_8RpeaH",
+        "slide_apdLKy",
+        "slide_rafxFC"
       ],
+      "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
-        "include_margins": true
+        "slide_autospeed": 4000,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0
       }
     },
     "v2_cards_j334hg": {
@@ -207,6 +256,23 @@
         "padding_bottom": 40,
         "margin_top": -140,
         "margin_bottom": 0
+      }
+    },
+    "apps_kNcNk9": {
+      "type": "apps",
+      "blocks": {
+        "gsc_instagram_feed_instafeed_nwifRH": {
+          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+          "settings": {
+            "widget_id": "GSC-PDRiAdCCIILDldo"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_instagram_feed_instafeed_nwifRH"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "v2_cards_xmbyLJ": {
@@ -485,6 +551,7 @@
     "main",
     "v2_hero_k3BEND",
     "v2_newsletter_WmBhQK",
+    "v2_image_slider_QATqhh",
     "v2_cards_j334hg",
     "apps_kNcNk9",
     "v2_cards_xmbyLJ",
