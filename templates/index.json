@@ -822,11 +822,29 @@
         "margin_bottom": 64
       }
     },
-    "v2_form_k9hVPJ": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
+    "v2_newsletter_rwcpPA": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "form_type": "career",
+        "form_type": "brochure",
+        "heading_text": "<p>Your Fitness Career Starts Here.</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p><br/>Explore our industry-leading qualifications designed to help you build a successful career in fitness.<br/><br/></p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p><strong>Not sure which course is right for you?</strong><br/><br/>Request a brochure below to explore your options and discover how Study Active can support your career.<br/><br/></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
         "custom_class_names": "",
         "bkgr_color": "primary",
         "decal_top": true,
@@ -1289,23 +1307,22 @@
         "margin_bottom": 0
       }
     },
-    "v2_newsletter_EFqipn": {
+    "v2_newsletter_cAPLpN": {
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "form_type": "newsletter",
-        "image": "shopify://shop_images/trainers.jpg",
-        "heading_text": "",
+        "form_type": "brochure",
+        "heading_text": "<p>Your Fitness Career Starts Here.</p>",
         "heading_type": "h1",
         "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
-        "subheadline_text": "",
+        "subheadline_text": "<p><br/>Explore our industry-leading qualifications designed to help you build a successful career in fitness.<br/><br/></p>",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "",
+        "text": "<p><strong>Not sure which course is right for you?</strong><br/><br/>Request a brochure below to explore your options and discover how Study Active can support your career.<br/><br/></p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -1314,12 +1331,12 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "bkgr_color": "primary",
-        "decal_top": false,
+        "bkgr_color": "white",
+        "decal_top": true,
         "decal_bottom": false,
-        "padding_top": 152,
-        "padding_bottom": 0,
-        "margin_top": -136,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -1374,7 +1391,7 @@
     "v2_header_i7HYVG",
     "v2_slideshow_4RTHyC",
     "v2_cards_ayDGYf",
-    "v2_form_k9hVPJ",
+    "v2_newsletter_rwcpPA",
     "v2_cards_NkTwDC",
     "v2_hero_6e4NMx",
     "v2_cards_AGmV8Q",
@@ -1382,7 +1399,7 @@
     "v2_slideshow_jPMWKQ",
     "1767362271f05bf1bd",
     "v2_accordion_MwEKUC",
-    "v2_newsletter_EFqipn",
+    "v2_newsletter_cAPLpN",
     "v2_header_EEhVam"
   ]
 }
