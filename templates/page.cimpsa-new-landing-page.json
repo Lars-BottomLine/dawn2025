@@ -668,12 +668,6 @@
             "image": "shopify://shop_images/associationfornutrition.png"
           }
         },
-        "slide_qy6Xfh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NCFE.jpg"
-          }
-        },
         "slide_HafLKc": {
           "type": "slide",
           "settings": {
@@ -692,13 +686,12 @@
         "slide_PmcYcG",
         "slide_97XNjq",
         "slide_3HWjyx",
-        "slide_qy6Xfh",
         "slide_HafLKc",
         "slide_UQ6aAM"
       ],
       "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
-        "slide_autospeed": 4000,
+        "slide_autospeed": 9500,
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
