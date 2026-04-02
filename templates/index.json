@@ -795,7 +795,7 @@
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 60,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -894,7 +894,7 @@
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_bottom": 60,
         "margin_top": 0,
         "margin_bottom": 0
       }
