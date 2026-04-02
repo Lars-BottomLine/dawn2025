@@ -89,7 +89,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
@@ -124,9 +124,9 @@
         "button_new_window": false,
         "button_at_side": true,
         "button_align": "left",
-        "bkgr_color": "white",
+        "bkgr_color": "light-blue",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -444,12 +444,6 @@
             "image": "shopify://shop_images/associationfornutrition.png"
           }
         },
-        "slide_fX8Wey": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NCFE.jpg"
-          }
-        },
         "slide_nkpt3U": {
           "type": "slide",
           "settings": {
@@ -468,13 +462,12 @@
         "slide_WpYCRf",
         "slide_qBaerx",
         "slide_RmzgnY",
-        "slide_fX8Wey",
         "slide_nkpt3U",
         "slide_bLgy8M"
       ],
       "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
-        "slide_autospeed": 4000,
+        "slide_autospeed": 9500,
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
