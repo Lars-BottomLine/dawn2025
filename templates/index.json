@@ -116,12 +116,6 @@
             "image": "shopify://shop_images/associationfornutrition.png"
           }
         },
-        "slide_zjHU8W": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NCFE.jpg"
-          }
-        },
         "slide_EGQRXg": {
           "type": "slide",
           "settings": {
@@ -140,7 +134,6 @@
         "slide_mVCTdH",
         "slide_TgpcyN",
         "slide_7nL9Ci",
-        "slide_zjHU8W",
         "slide_EGQRXg",
         "slide_EUiLVf"
       ],
