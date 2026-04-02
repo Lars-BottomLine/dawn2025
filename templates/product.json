@@ -485,12 +485,12 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
+        "padding_bottom": 60,
+        "margin_top": -68,
         "margin_bottom": 0
       }
     },
