@@ -665,7 +665,7 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 64
+        "margin_bottom": 40
       }
     },
     "v2_newsletter_rwcpPA": {
@@ -692,7 +692,7 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
@@ -769,7 +769,7 @@
       ],
       "name": "v2 - Cards - Vertical Light Blue",
       "settings": {
-        "bkgr_color": "white",
+        "bkgr_color": "light-blue",
         "card_layout": "vertical",
         "heading_text": "<p>Flexible payment options</p>",
         "heading_type": "h2",
@@ -794,10 +794,10 @@
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0,
-        "margin_top": -140,
-        "margin_bottom": -152
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "v2_cards_AGmV8Q": {
@@ -806,7 +806,7 @@
         "card_Fqn8tU": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "image": "shopify://shop_images/Interview_Guarantee_Icon_White.png",
             "title_text": "<p><strong>Interview guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -825,7 +825,7 @@
         "card_JQfjnG": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-article_person.svg",
+            "image": "shopify://shop_images/CV_writing_support_icon_white.png",
             "title_text": "<p><strong>CV writing support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -844,7 +844,7 @@
         "card_fWqbn7": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-explore.svg",
+            "image": "shopify://shop_images/Career_Guidance.png",
             "title_text": "<p><strong>Career guidance</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -868,7 +868,7 @@
       ],
       "name": "v2 - Cards - Vertical Plus Light Blue",
       "settings": {
-        "bkgr_color": "light-blue",
+        "bkgr_color": "primary",
         "card_layout": "vertical",
         "heading_text": "<p>Guaranteed job interview promise</p>",
         "heading_type": "h2",
