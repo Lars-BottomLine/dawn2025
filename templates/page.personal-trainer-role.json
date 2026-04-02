@@ -1092,6 +1092,65 @@
         "margin_top": 0,
         "margin_bottom": -28
       }
+    },
+    "v2_image_slider_zbpTKA": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_dPdePq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_eT4DEz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_mtAe7L": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_GBFiEE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_HMKbQB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_FHUmmz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_dPdePq",
+        "slide_eT4DEz",
+        "slide_mtAe7L",
+        "slide_GBFiEE",
+        "slide_HMKbQB",
+        "slide_FHUmmz"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 9500,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -1114,6 +1173,7 @@
     "v2_slideshow_8Gf3g9",
     "v2_trustpilot_P3cQrh",
     "v2_accordion_QgWf3B",
-    "v2_header_LEJNt7"
+    "v2_header_LEJNt7",
+    "v2_image_slider_zbpTKA"
   ]
 }
