@@ -32,7 +32,7 @@
             "button_size": "medium",
             "button_new_window": false,
             "second_button_text": "Get Info",
-            "second_button_url": "shopify://pages/about-us",
+            "second_button_url": "https://studyactive.co.uk/pages/course-brochure",
             "second_button_style": "primary",
             "second_button_size": "small",
             "second_button_new_window": false
