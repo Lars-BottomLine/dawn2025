@@ -155,7 +155,10 @@
                                 {% render 'v2-text', data: block.settings, classes: "" %}
                             </div>
 
-                            {% render 'v2-button', data: block.settings, classes: " -hover-grow " %}
+                            <div class="slider-buttons">
+                              {% render 'v2-button', data: block.settings, classes: ' -hover-grow ' %}
+                              {% render 'v2-button', data: block.settings, classes: ' -hover-grow ', prefix: 'second_' %}
+                            </div>
 
                         </div>
                     </div>
@@ -586,7 +589,54 @@
           "id": "button_new_window",
           "default": false,
           "label": "t:lebase.global.button.new_window"
-        }
+        },
+
+        {
+  "type": "header",
+  "content": "Second Button"
+},
+{
+  "type": "text",
+  "id": "second_button_text",
+  "label": "Second Button Text"
+},
+{
+  "type": "url",
+  "id": "second_button_url",
+  "label": "Second Button URL"
+},
+{
+  "type": "select",
+  "id": "second_button_style",
+  "default": "primary",
+  "label": "Second Button Style",
+  "options": [
+    { "value": "primary", "label": "Primary" },
+    { "value": "secondary", "label": "Secondary" },
+    { "value": "plain", "label": "Plain" }
+  ]
+},
+{
+  "type": "image_picker",
+  "id": "second_button_icon",
+  "label": "Second Button Icon"
+},
+{
+  "type": "select",
+  "id": "second_button_size",
+  "default": "small",
+  "label": "Second Button Size",
+  "options": [
+    { "value": "small", "label": "Small" },
+    { "value": "medium", "label": "Medium" }
+  ]
+},
+{
+  "type": "checkbox",
+  "id": "second_button_new_window",
+  "default": false,
+  "label": "Open in new window"
+}
 
       ]
     }
