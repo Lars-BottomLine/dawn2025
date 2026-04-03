@@ -159,6 +159,18 @@
                               {% render 'v2-button', data: block.settings, classes: ' -hover-grow ' %}
                               {% render 'v2-button', data: block.settings, classes: ' -hover-grow ', prefix: 'second_' %}
                             </div>
+                            <style>
+                                .slider-buttons {
+                                  display: flex;
+                                  align-items: center;
+                                  gap: 12px; /* space between buttons */
+                                }
+
+                                .slider-buttons .v2-button {
+                                  display: inline-flex;
+                                  height: 60px;
+                                }
+                              </style>
 
                         </div>
                     </div>
