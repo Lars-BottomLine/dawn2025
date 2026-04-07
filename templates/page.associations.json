@@ -39,7 +39,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -179,6 +184,7 @@
         },
         "card_V9JJG9": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/NCFE_Logo.png",
             "title_text": "<p><strong>NCFE</strong></p>",
@@ -303,6 +309,7 @@
         "card_qLxQd7",
         "card_qqLJAH"
       ],
+      "disabled": true,
       "name": "t:lesections.cards.presets.name",
       "settings": {
         "bkgr_color": "white",
