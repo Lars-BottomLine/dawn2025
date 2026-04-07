@@ -1,3 +1,102 @@
+
+<form autocomplete="on" method="post" action="https://onboarding.studenttrack.co.uk" class="SA-form" accept-charset="utf-8" style="display:none">
+<input style="color: #575757;" type="hidden" class="source" name="contact[source]" value="" id="source_url"><input style="color: #575757;" type="hidden" class="landing_url" name="contact[landing_url]" value="" id="landing_url"><input value="" required="required" aria-labelledby="label_1" data-component="textbox" placeholder="Full Name" data-defaultvalue="" class="form-textbox" data-type="input-textbox" name="q1" type="text"><input value="" required="required" aria-labelledby="label_2" data-component="textbox" placeholder="Email Address" data-defaultvalue="" class="form-textbox" data-type="input-textbox" name="q2" type="email"><input id="intTextBox" value="" required="required" aria-labelledby="label_3" data-component="textbox" placeholder="Phone" data-defaultvalue="" class="form-textbox numeric" data-type="input-textbox" name="q3" type="tel" onchange="checkPattern(this)"><p style="margin-bottom: 3px;"><span style="color: rgb(255, 255, 255);">Click to choose course</span></p>
+<select aria-label="" required="required" data-component="dropdown" name="q4" class="form-textbox"><option value="">Choose Course</option>
+<option value="PRO PT">PRO PT</option>
+<option value="ELITE PT Nutrition">ELITE PT Nutrition</option>
+<option value="ELITE PT Advanced Training">ELITE PT Advanced Training</option>
+<option value="MASTER PT">MASTER PT</option>
+<option value="L2 Gym Instructing">L2 Gym Instructing</option>
+<option value="L3 Personal Training">L3 Personal Training</option>
+<option value="L4 Advanced Personal Training">L4 Advanced Personal Training</option>
+<option value="L4 Nutrition">L4 Nutrition</option>
+<option value="L3 Pre &amp; Post Natal Exercise &amp; Nutrition">L3 Pre &amp; Post Natal Exercise &amp; Nutrition</option>
+<option value="L3 Supporting Client LT Conditions">L3 Supporting Client LT Conditions</option>
+<option value="Other">Other</option></select><input value="" aria-labelledby="label_5" data-component="textbox" placeholder="Subject" data-defaultvalue="" class="form-textbox" data-type="input-textbox" name="q5" tabindex="-1" type="text"><button aria-live="polite" data-content="" data-component="button" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" type="submit" id="input_2">Submit Now</button>
+</form>
+
+
+<!--Cookie Code start-->
+<script>
+    console.log("test");
+    var referrer = document.referrer;
+    console.log(referrer);
+    console.log(document.location.href);
+    
+    var l_p = getCookie('custom_landing_page_url');
+    if(l_p=="")
+      setCookie("custom_landing_page_url",document.location.href,7);
+    
+    
+    var thisHostname = document.location.hostname;
+    var thisDomain = getDomain_(thisHostname);
+    console.log("This domain: " + thisDomain);
+    var referringDomain = getDomain_(document.referrer);
+    console.log("Referring domain: " + document.referrer);
+
+    if(typeof referringDomain != 'undefined' && thisDomain!=referringDomain)
+    {
+      setCookie("custom_refer_url",document.referrer,7);
+    }
+    var x = getCookie('custom_refer_url');
+    /*document.referrer;*/
+    document.getElementsByClassName("source")[0].value=x;
+    
+    var clpu = getCookie('custom_landing_page_url');
+    classValueUpdate("landingurl",clpu);
+
+    function getDomain_(url) {
+
+      if (!url) return;
+
+      var a = document.createElement('a');
+      a.href = url;
+
+      try {
+        return a.hostname;
+        //return a.hostname.match(/[^.]*\.[^.]{2,3}(?:\.[^.]{2,3})?$/)[0];
+
+      } catch(squelch) {}
+
+     }
+
+
+
+    function setCookie(cname,cvalue,exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      var expires = "expires=" + d.toGMTString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+    
+    function classValueUpdate(className, changedElem)
+    {
+        var x = document.getElementsByClassName(className);
+        //var temp = changedElem.value;
+        for(var i = 0; i < x.length; i++) { 
+            x[i].value = changedElem;
+          console.log("changedElem:"+changedElem);
+        }
+    }
+  </script>
+
+
 <form method="POST" action="https://studyactive.activehosted.com/proc.php" id="_form_3_" class="_form _form_3 _inline-form  _dark" novalidate data-styles-version="5">
   <input type="hidden" name="u" value="3" />
   <input type="hidden" name="f" value="3" />
