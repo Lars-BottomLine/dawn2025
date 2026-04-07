@@ -12,70 +12,390 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "name": "Careers",
+      "name": "About Us",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "image_banner_GzGMki": {
-      "type": "image-banner",
+    "v2_hero_k3BEND": {
+      "type": "v2_hero",
       "blocks": {
-        "heading_FTBz73": {
-          "type": "heading",
+        "slide_D3F6QX": {
+          "type": "slide",
           "settings": {
-            "heading": "Ready to get started?",
-            "heading_size": "h1"
-          }
-        },
-        "text_WG3THF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_n7nrY7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See current partner gyms",
-            "button_link_1": "shopify://pages/associations-and-partners",
-            "button_style_secondary_1": false,
-            "button_label_2": "Book a careers call",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/ptbrochure.png",
+            "slide_type": "onecol",
+            "heading_text": "<p>Get your free<strong> Study Active brochure</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>This is your moment to <strong>turn passion into purpose</strong>. Learn online at your pace, get expert support and land guaranteed interviews when you qualify. <strong>You bring the drive, we’ll handle the rest.</strong></p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false
           }
         }
       },
       "block_order": [
-        "heading_FTBz73",
-        "text_WG3THF",
-        "buttons_n7nrY7"
+        "slide_D3F6QX"
       ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:lesections.hero.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-f8e2bb5d-4074-4ee9-8266-9f66fedda8e7",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 40,
+        "padding_bottom": 188,
+        "margin_top": -4,
+        "margin_bottom": -140
       }
     },
-    "v2_page_HcxPMr": {
-      "type": "v2_page",
-      "name": "t:lesections.v2_page.presets.name",
+    "v2_newsletter_WmBhQK": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "page": "{{ page }}",
-        "gembuilder_fix": true,
+        "form_type": "brochure",
+        "heading_text": "<p>What you’ll get inside</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p>See how Study Active can support your journey into the fitness industry</p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<ul><li>A breakdown of all our available courses</li><li>Study options and how flexible learning works</li><li>Step-by-step guide to becoming qualified</li><li>Details on guaranteed interviews and career support</li><li>Testimonials from real Study Active graduates</li><li>Pricing options and how to spread the cost</li></ul>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p><strong>Get your brochure now!</strong></p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
         "custom_class_names": "",
         "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_image_slider_QATqhh": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_atxi3W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_4CRTHz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_3rqeVL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_z6paMA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_apdLKy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_rafxFC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_atxi3W",
+        "slide_4CRTHz",
+        "slide_3rqeVL",
+        "slide_z6paMA",
+        "slide_apdLKy",
+        "slide_rafxFC"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 9500,
         "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_j334hg": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_MyG4xe": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Price Match Guarantee</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Find it cheaper with a CIMSPA-enhanced  status provider?</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Not beaten on price</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_GgzrJP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £29/month available </strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_GX6CLk": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Terms and conditions apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_MyG4xe",
+        "card_GgzrJP",
+        "card_GX6CLk"
+      ],
+      "name": "v2 - Cards - Vertical Light Blue",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "Discover More",
+        "button_url": "shopify://pages/personal-trainer-payment-plans",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": true,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "apps_kNcNk9": {
+      "type": "apps",
+      "blocks": {
+        "gsc_instagram_feed_instafeed_nwifRH": {
+          "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+          "settings": {
+            "widget_id": "GSC-PDRiAdCCIILDldo"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_instagram_feed_instafeed_nwifRH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "v2_cards_xmbyLJ": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_kVQKgd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "title_text": "<p><strong>Interview guarantee</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Interview with top UK gyms</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_46DTcr": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-article_person.svg",
+            "title_text": "<p><strong>CV writing support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Learn how to stand out</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_DKyDrj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-explore.svg",
+            "title_text": "<p><strong>Career guidance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Find the right path for you</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_kVQKgd",
+        "card_46DTcr",
+        "card_DKyDrj"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "card_layout": "vertical",
+        "heading_text": "<p>Guaranteed job interview promise</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_mpfKMe": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Your journey starts here</p>",
+        "heading_type": "h2",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>It all starts here. In just a few simple steps, you’ll go from exploring your options to gaining a recognised qualification, and stepping into your first role in the fitness industry.</p><p><br/></p><p><strong>1. Get the brochure</strong> – Request your free Study Active brochure and explore your options.</p><p><strong>2. Choose your course</strong> – Find the perfect training pathway to match your goals.</p><p><strong>3. Start learning</strong> – Begin your studies online with expert support every step of the way. </p><p><strong>4. Begin your fitness career</strong> – Graduate fully qualified and ready for guaranteed interviews.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "Get the brochure",
+        "button_url": "#form",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
@@ -83,47 +403,154 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_7ixNqN": {
+    "v2_featured_imtjhU": {
+      "type": "v2_featured",
+      "disabled": true,
+      "name": "t:lesections.v2_featured.presets.name",
+      "settings": {
+        "product": "cimspa-certificate-in-personal-training-l3",
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_dGCTCr": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "page_wide": false,
-        "heading_text": "<p>Qualifications Recognised by Everyone</p>",
+        "heading_text": "<p>Find your calling</p>",
         "heading_type": "h2",
         "heading_size": "h2",
-        "heading_no_decal": true,
-        "heading_decal_left": false,
+        "heading_no_decal": false,
+        "heading_decal_left": true,
         "heading_strong_accented": false,
-        "heading_align": "center",
+        "heading_align": "left",
         "heading_width": "full",
-        "text": "",
+        "text": "<p>This is your moment to do something that really moves you.</p>",
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
         "text_align": "left",
         "text_width": "full",
-        "button_text": "",
-        "button_url": "",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "white",
+        "button_at_side": true,
+        "button_align": "right",
+        "bkgr_color": "light-blue",
         "custom_class_names": "",
-        "decal_top": false,
+        "decal_top": true,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 0,
         "margin_top": 0,
-        "margin_bottom": -28
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_a6Npcz": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_T3RxGF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
+            "headline": "<p>Gym Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+          }
+        },
+        "slide_bj4n9M": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
+            "headline": "<p>Personal Trainer</p>",
+            "subheadline": "",
+            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://collections/how-to-become-a-personal-trainer"
+          }
+        },
+        "slide_8CC6RP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sports-massage.jpg",
+            "headline": "<p>Sports Massage Therapist</p>",
+            "subheadline": "",
+            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
+          }
+        },
+        "slide_R7ydxE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/100.png",
+            "headline": "<p>Pilates Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/level-3-pilates-personal-trainer-bundle"
+          }
+        },
+        "slide_Wy8NM7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/73.png",
+            "headline": "<p>Wellness Coach</p>",
+            "subheadline": "",
+            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://collections/wellness-pathway"
+          }
+        }
+      },
+      "block_order": [
+        "slide_T3RxGF",
+        "slide_bj4n9M",
+        "slide_8CC6RP",
+        "slide_R7ydxE",
+        "slide_Wy8NM7"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },
   "order": [
     "main",
-    "image_banner_GzGMki",
-    "v2_page_HcxPMr",
-    "v2_header_7ixNqN"
+    "v2_hero_k3BEND",
+    "v2_newsletter_WmBhQK",
+    "v2_image_slider_QATqhh",
+    "v2_cards_j334hg",
+    "apps_kNcNk9",
+    "v2_cards_xmbyLJ",
+    "v2_header_mpfKMe",
+    "v2_featured_imtjhU",
+    "v2_header_dGCTCr",
+    "v2_slideshow_a6Npcz"
   ]
 }
