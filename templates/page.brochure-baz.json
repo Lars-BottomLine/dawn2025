@@ -62,7 +62,7 @@
     },
     "v2_newsletter_WmBhQK2": {
       "type": "v2_newsletter",
-      "name": "t:lesections.v2_newsletter.presets.name",
+      "name": "t:lesections.brochure_baz.presets.name",
       "settings": {
         "form_type": "brochure",
         "heading_text": "<p>What you’ll get inside</p>",
