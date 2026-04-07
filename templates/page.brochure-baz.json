@@ -26,7 +26,7 @@
           "settings": {
             "image": "shopify://shop_images/ptbrochure.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Get your free<strong>Study Active brochure</strong></p>",
+            "heading_text": "<p>Get your free<strong> Study Active brochure</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
