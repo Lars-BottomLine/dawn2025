@@ -73,22 +73,6 @@
             "footer_link_url": ""
           }
         },
-        "megamenu_kXYBKe": {
-          "type": "megamenu",
-          "settings": {
-            "menu_index": 1,
-            "left_heading": "Courses",
-            "left_heading_url": "shopify://collections/all-active-courses",
-            "left_subheading": "",
-            "left_submenu": "2026-mm-courses",
-            "right_heading": "",
-            "right_heading_url": "",
-            "right_subheading": "",
-            "right_submenu": "",
-            "footer_link_label": "",
-            "footer_link_url": ""
-          }
-        },
         "megamenu_mt3Xcj": {
           "type": "megamenu",
           "settings": {
@@ -140,7 +124,6 @@
       },
       "block_order": [
         "megamenu_hmQVLb",
-        "megamenu_kXYBKe",
         "megamenu_mt3Xcj",
         "megamenu_jqN9PF",
         "megamenu_g8KmbT"
