@@ -88,3 +88,86 @@
 
 
 
+
+<!--Cookie Code start-->
+<script>
+    console.log("test");
+    var referrer = document.referrer;
+    console.log(referrer);
+    console.log(document.location.href);
+    
+    var l_p = getCookie('custom_landing_page_url');
+    if(l_p=="")
+      setCookie("custom_landing_page_url",document.location.href,7);
+    
+    
+    var thisHostname = document.location.hostname;
+    var thisDomain = getDomain_(thisHostname);
+    console.log("This domain: " + thisDomain);
+    var referringDomain = getDomain_(document.referrer);
+    console.log("Referring domain: " + document.referrer);
+
+    if(typeof referringDomain != 'undefined' && thisDomain!=referringDomain)
+    {
+      setCookie("custom_refer_url",document.referrer,7);
+    }
+    var x = getCookie('custom_refer_url');
+    /*document.referrer;*/
+    document.getElementsByClassName("source")[0].value=x;
+    
+    var clpu = getCookie('custom_landing_page_url');
+    classValueUpdate("landingurl",clpu);
+
+    function getDomain_(url) {
+
+      if (!url) return;
+
+      var a = document.createElement('a');
+      a.href = url;
+
+      try {
+        return a.hostname;
+        //return a.hostname.match(/[^.]*\.[^.]{2,3}(?:\.[^.]{2,3})?$/)[0];
+
+      } catch(squelch) {}
+
+     }
+
+
+
+    function setCookie(cname,cvalue,exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      var expires = "expires=" + d.toGMTString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+    
+    function classValueUpdate(className, changedElem)
+    {
+        var x = document.getElementsByClassName(className);
+        //var temp = changedElem.value;
+        for(var i = 0; i < x.length; i++) { 
+            x[i].value = changedElem;
+          console.log("changedElem:"+changedElem);
+        }
+    }
+  </script>
+
+
+
