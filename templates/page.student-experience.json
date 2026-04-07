@@ -88,7 +88,12 @@
             "button_url": "#form",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -485,7 +490,12 @@
             "button_url": "shopify://collections/all",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -857,7 +867,7 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
@@ -896,7 +906,7 @@
         "custom_class_names": "",
         "decal_top": false,
         "decal_bottom": false,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": 0,
         "margin_bottom": -28
