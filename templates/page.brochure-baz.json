@@ -60,7 +60,7 @@
         "margin_bottom": -140
       }
     },
-    "v2_newsletter_WmBhQK": {
+    "v2_newsletter_WmBhQK2": {
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
@@ -543,7 +543,7 @@
   "order": [
     "main",
     "v2_hero_k3BEND",
-    "v2_newsletter_WmBhQK",
+    "v2_newsletter_WmBhQK2",
     "v2_image_slider_QATqhh",
     "v2_cards_j334hg",
     "apps_kNcNk9",
