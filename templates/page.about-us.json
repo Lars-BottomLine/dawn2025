@@ -75,7 +75,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -171,6 +176,24 @@
       "type": "v2_grid",
       "blocks": {
         "member_7PaAJz": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1_88230593-654a-4757-ad94-39d5c398d707.png",
+            "name": "James Luscombe",
+            "position": "Founder & Education Director",
+            "info": "James is a genuine expert in fitness education and is extensively qualified and experienced in both the fitness and education sectors. In addition to over a decades experience as a Sports Science Lecturer, James has previously managed fitness for the Fire Service as well as managing Gyms and of course being a successful Personal Trainer! James has a first-class honours degree as well as a masters degree in sports science and is passionate about using technology to help students learn and training the next generation of fitness professionals. James is responsible for all education content, internal quality assurance and staff training within Study Active and also plays a very active role in ensuring links with fitness organisations throughout the UK to enable our courses to reflect the latest industry demands."
+          }
+        },
+        "member_Aigi7h": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_2.png",
+            "name": "Justine Luscombe",
+            "position": "Operations Director",
+            "info": "As a qualified and experienced tutor, assessor and internal quality assurer, Justine has a true passion in helping students achieve their goals. In addition to her education roles Justine also has significant experience working in the Health Club and Holistic Therapy sector and has a very up to date knowledge of trends in these areas. Justine's role with Study Active is to manage and coordinate all levels of support that students receive on their learning journey. Justine also leads up on overseeing student assessments and manages a team of assessors, all who provide ongoing help and support to our students at every stage of their learning."
+          }
+        },
+        "member_inMVny": {
           "type": "member",
           "settings": {
             "image": "shopify://shop_images/DSCN0725.jpg",
@@ -272,6 +295,8 @@
       },
       "block_order": [
         "member_7PaAJz",
+        "member_Aigi7h",
+        "member_inMVny",
         "member_PLYmqc",
         "member_XEVVDU",
         "member_7tkqRc",
