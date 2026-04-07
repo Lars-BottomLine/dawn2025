@@ -60,39 +60,7 @@
         "margin_bottom": -140
       }
     },
-    "v2_newsletter_WmBhQK2": {
-      "type": "v2_newsletter",
-      "name": "t:lesections.v2_newsletter.presets.name",
-      "settings": {
-        "form_type": "brochure",
-        "heading_text": "<p>What you’ll get inside</p>",
-        "heading_type": "h1",
-        "heading_size": "h1",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "subheadline_text": "<p>See how Study Active can support your journey into the fitness industry</p>",
-        "subheadline_text_size": "copy-l",
-        "subheadline_text_no_decal": false,
-        "subheadline_text_strong_accented": false,
-        "text": "<ul><li>A breakdown of all our available courses</li><li>Study options and how flexible learning works</li><li>Step-by-step guide to becoming qualified</li><li>Details on guaranteed interviews and career support</li><li>Testimonials from real Study Active graduates</li><li>Pricing options and how to spread the cost</li></ul>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "claim_text": "<p><strong>Get your brochure now!</strong></p>",
-        "claim_text_size": "copy-l",
-        "claim_text_no_decal": false,
-        "claim_text_strong_accented": false,
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": -36,
-        "margin_bottom": 0
-      }
-    },
+    
     "v2_image_slider_QATqhh": {
       "type": "v2_image-slider",
       "blocks": {
@@ -543,7 +511,6 @@
   "order": [
     "main",
     "v2_hero_k3BEND",
-    "v2_newsletter_WmBhQK2",
     "v2_image_slider_QATqhh",
     "v2_cards_j334hg",
     "apps_kNcNk9",
