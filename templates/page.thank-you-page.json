@@ -247,12 +247,13 @@
         "blog_post_limit": 3,
         "product_list": [
           "cimspa-level-2-certificate-in-fitness-instruction",
+          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions",
           "cimspa-certificate-in-personal-training-l3",
           "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "level-3-pilates-personal-trainer-bundle",
-          "level-3-sports-massage-and-personal-trainer-bundle",
+          "active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes",
           "l2-gym-instruction-l3-personal-training-l4-nutrition",
-          "level-4-nutrition"
+          "level-4-nutrition",
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
         ],
         "auto_rotate": false,
         "change_slides_speed": 5,
