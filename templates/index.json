@@ -472,17 +472,6 @@
             "button_url": ""
           }
         },
-        "slide_dbMmBJ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
-            "headline": "<p>Pip Drake</p>",
-            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
-            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
         "slide_JM8hVg": {
           "type": "slide",
           "settings": {
@@ -490,17 +479,6 @@
             "headline": "<p>Julie Davis</p>",
             "subheadline": "<p>Powerlifting World Championship Athlete </p>",
             "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_bPr9wk": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
-            "headline": "<p>Sajan Bal Lama</p>",
-            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
-            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
             "button_label": "",
             "button_url": ""
           }
@@ -537,16 +515,38 @@
             "button_label": "",
             "button_url": ""
           }
+        },
+        "slide_dbMmBJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_bPr9wk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
         "slide_HfbbfH",
-        "slide_dbMmBJ",
         "slide_JM8hVg",
-        "slide_bPr9wk",
         "slide_bPaqPa",
         "slide_MQmEd8",
-        "slide_aqVmYr"
+        "slide_aqVmYr",
+        "slide_dbMmBJ",
+        "slide_bPr9wk"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
