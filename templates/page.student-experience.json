@@ -469,53 +469,6 @@
         "margin_bottom": 64
       }
     },
-    "v2_hero_QPgF6M": {
-      "type": "v2_hero",
-      "blocks": {
-        "slide_LnfaJA": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/UPDATE_-_Unlock_Career_Accelerator_Programme_-_Website_Image.png",
-            "slide_type": "onecol",
-            "heading_text": "",
-            "heading_type": "h3",
-            "heading_size": "h3",
-            "heading_strong_accented": true,
-            "heading_no_decal": true,
-            "text": "",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "button_text": "",
-            "button_url": "shopify://collections/all",
-            "button_style": "primary",
-            "button_size": "small",
-            "button_new_window": false,
-            "second_button_text": "",
-            "second_button_url": "",
-            "second_button_style": "primary",
-            "second_button_size": "small",
-            "second_button_new_window": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_LnfaJA"
-      ],
-      "name": "t:lesections.hero.presets.name",
-      "settings": {
-        "full_width": true,
-        "bkgr_color": "primary",
-        "slider_effect": "fade",
-        "slider_autoplay": false,
-        "slide_autospeed": 5000,
-        "custom_class_names": "",
-        "padding_top": 88,
-        "padding_bottom": 140,
-        "margin_top": -200,
-        "margin_bottom": -152
-      }
-    },
     "v2_header_AtLiGj": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -566,17 +519,6 @@
             "button_url": ""
           }
         },
-        "slide_n6pMxi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
-            "headline": "<p>Pip Drake</p>",
-            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
-            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
         "slide_CcjLqD": {
           "type": "slide",
           "settings": {
@@ -584,17 +526,6 @@
             "headline": "<p>Julie Davis</p>",
             "subheadline": "<p>Powerlifting World Championship Athlete </p>",
             "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
-            "button_label": "",
-            "button_url": ""
-          }
-        },
-        "slide_wzHUyA": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
-            "headline": "<p>Sajan Bal Lama</p>",
-            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
-            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
             "button_label": "",
             "button_url": ""
           }
@@ -631,16 +562,38 @@
             "button_label": "",
             "button_url": ""
           }
+        },
+        "slide_n6pMxi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_wzHUyA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
         }
       },
       "block_order": [
         "slide_FU36Vn",
-        "slide_n6pMxi",
         "slide_CcjLqD",
-        "slide_wzHUyA",
         "slide_WHBxnA",
         "slide_QUrN7z",
-        "slide_jfzCWi"
+        "slide_jfzCWi",
+        "slide_n6pMxi",
+        "slide_wzHUyA"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -983,7 +936,6 @@
     "v2_video_zfxht4",
     "v2_video_3Exfi9",
     "v2_cards_9LUYMj",
-    "v2_hero_QPgF6M",
     "v2_header_AtLiGj",
     "v2_slideshow_CegGJV",
     "v2_cards_6EytYd",
