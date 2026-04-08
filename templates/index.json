@@ -244,6 +244,17 @@
             "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
           }
         },
+        "slide_ewBUzR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
+            "headline": "<p>Master PT</p>",
+            "subheadline": "",
+            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
+          }
+        },
         "slide_3yM6Np": {
           "type": "slide",
           "settings": {
@@ -270,6 +281,7 @@
       "block_order": [
         "slide_zTtGVN",
         "slide_9d98FG",
+        "slide_ewBUzR",
         "slide_3yM6Np",
         "slide_Rd6neR"
       ],
