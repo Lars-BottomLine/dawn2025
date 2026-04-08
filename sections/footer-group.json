@@ -13,6 +13,7 @@
   "sections": {
     "custom_liquid_JxYr8i": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Code: WhatsApp Widget",
       "settings": {
         "custom_liquid": "<script src=\"https://diffuser-cdn.app-us1.com/whatsapp/widget.cjs.production.min.js\" data-widget-id=\"068ed2dc-ff8e-7344-8000-1c783675b6d1\" data-account-id=\"255396319\"></script>",
