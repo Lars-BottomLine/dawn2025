@@ -432,12 +432,24 @@
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
+        },
+        "slide_847QYF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_Pre_and_Post_2.png",
+            "headline": "<p>Level 3 Award in Pre & Postnatal Exercise & Nutrition</p>",
+            "subheadline": "",
+            "text": "<p>Designing Pre and Post-Natal Exercise Programmes teaches fitness professionals how to safely adapt training for pregnancy and postnatal clients with personalised programmes.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+          }
         }
       },
       "block_order": [
         "slide_LpmUz3",
         "slide_ryLi6J",
-        "slide_dGMjrE"
+        "slide_dGMjrE",
+        "slide_847QYF"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
