@@ -903,10 +903,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_EQ8VQr": {
+    "v2_slideshow_NMyRfq": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_Vc6tW7": {
+        "slide_JqEx9i": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
@@ -917,7 +917,7 @@
             "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         },
-        "slide_J6nYy7": {
+        "slide_yQkELa": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
@@ -928,7 +928,18 @@
             "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
           }
         },
-        "slide_RYJkGT": {
+        "slide_CtkDdK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
+            "headline": "<p>Master PT</p>",
+            "subheadline": "",
+            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
+          }
+        },
+        "slide_APnzTw": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
@@ -939,7 +950,7 @@
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
         },
-        "slide_3hgaPR": {
+        "slide_rgiBKC": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
@@ -952,10 +963,11 @@
         }
       },
       "block_order": [
-        "slide_Vc6tW7",
-        "slide_J6nYy7",
-        "slide_RYJkGT",
-        "slide_3hgaPR"
+        "slide_JqEx9i",
+        "slide_yQkELa",
+        "slide_CtkDdK",
+        "slide_APnzTw",
+        "slide_rgiBKC"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -1123,7 +1135,7 @@
     "v2_video_zRAPCJ",
     "apps_4GBaW9",
     "v2_header_dGCTCr",
-    "v2_slideshow_EQ8VQr",
+    "v2_slideshow_NMyRfq",
     "v2_newsletter_aw4nWk",
     "v2_header_fQhg3k",
     "v2_image_slider_dgbyMz"
