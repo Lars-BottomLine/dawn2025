@@ -103,54 +103,6 @@
         "margin_bottom": -64
       }
     },
-    "v2_hero_dKmyEE": {
-      "type": "v2_hero",
-      "blocks": {
-        "slide_Cnt7J7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ptbrochure.png",
-            "slide_type": "onecol",
-            "heading_text": "<p>Thank you!</p>",
-            "heading_type": "h1",
-            "heading_size": "hero",
-            "heading_strong_accented": true,
-            "heading_no_decal": false,
-            "text": "<p>We appreciate your interest in studying with us.</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "button_text": "",
-            "button_url": "#form",
-            "button_style": "primary",
-            "button_size": "small",
-            "button_new_window": false,
-            "second_button_text": "",
-            "second_button_url": "",
-            "second_button_style": "primary",
-            "second_button_size": "small",
-            "second_button_new_window": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_Cnt7J7"
-      ],
-      "disabled": true,
-      "name": "t:lesections.hero.presets.name",
-      "settings": {
-        "full_width": true,
-        "bkgr_color": "primary",
-        "slider_effect": "fade",
-        "slider_autoplay": false,
-        "slide_autospeed": 5000,
-        "custom_class_names": "",
-        "padding_top": 40,
-        "padding_bottom": 276,
-        "margin_top": 0,
-        "margin_bottom": -100
-      }
-    },
     "v2_steps_e63nQr": {
       "type": "v2_steps",
       "blocks": {
@@ -246,14 +198,14 @@
         "blog": "",
         "blog_post_limit": 3,
         "product_list": [
-          "cimspa-level-2-certificate-in-fitness-instruction",
-          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions",
-          "cimspa-certificate-in-personal-training-l3",
           "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes",
           "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition",
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-certificate-in-personal-training-l3",
           "level-4-nutrition",
-          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
+          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions",
+          "active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes"
         ],
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -367,7 +319,6 @@
     "main",
     "image_banner_GzGMki",
     "v2_header_aV8pQc",
-    "v2_hero_dKmyEE",
     "v2_steps_e63nQr",
     "v2_header_XrAPbj",
     "v2_slideshow_jzre7x",
