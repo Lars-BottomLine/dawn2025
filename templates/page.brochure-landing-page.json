@@ -39,7 +39,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -455,71 +460,71 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_a6Npcz": {
+    "v2_slideshow_9hg3Pe": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_T3RxGF": {
+        "slide_wiM3Yb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
+            "headline": "<p>Pro PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+          }
+        },
+        "slide_pd47GF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
+            "headline": "<p>Elite PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training with Level 4 Nutrition: turn your passion into a career by helping clients achieve their fitness goals through personalised training, nutrition coaching, and expert support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
+          }
+        },
+        "slide_HVERJ3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
+            "headline": "<p>Master PT</p>",
+            "subheadline": "",
+            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
+          }
+        },
+        "slide_aFXheK": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
-            "headline": "<p>Gym Instructor</p>",
+            "headline": "<p>L2 Gym Instructor</p>",
             "subheadline": "",
             "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
         },
-        "slide_bj4n9M": {
+        "slide_bAnQTi": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
-            "headline": "<p>Personal Trainer</p>",
+            "headline": "<p>L3 Personal Trainer</p>",
             "subheadline": "",
             "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://collections/how-to-become-a-personal-trainer"
-          }
-        },
-        "slide_8CC6RP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/sports-massage.jpg",
-            "headline": "<p>Sports Massage Therapist</p>",
-            "subheadline": "",
-            "text": "<p>Use hands-on techniques to reduce pain, aid recovery, and prevent injury.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l3_diploma_in_sports_massage_therapy"
-          }
-        },
-        "slide_R7ydxE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/100.png",
-            "headline": "<p>Pilates Instructor</p>",
-            "subheadline": "",
-            "text": "<p>Teach controlled movements and breathing techniques to help clients improve strength, flexibility, posture, and body awareness.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/level-3-pilates-personal-trainer-bundle"
-          }
-        },
-        "slide_Wy8NM7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/73.png",
-            "headline": "<p>Wellness Coach</p>",
-            "subheadline": "",
-            "text": "<p>Combine fitness training with lifestyle coaching to promote holistic health and wellbeing.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://collections/wellness-pathway"
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         }
       },
       "block_order": [
-        "slide_T3RxGF",
-        "slide_bj4n9M",
-        "slide_8CC6RP",
-        "slide_R7ydxE",
-        "slide_Wy8NM7"
+        "slide_wiM3Yb",
+        "slide_pd47GF",
+        "slide_HVERJ3",
+        "slide_aFXheK",
+        "slide_bAnQTi"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -532,7 +537,7 @@
         "custom_class_names": "",
         "bkgr_color": "light-blue",
         "decal_top": false,
-        "decal_bottom": false,
+        "decal_bottom": true,
         "padding_top": 40,
         "padding_bottom": 44,
         "margin_top": 0,
@@ -551,6 +556,6 @@
     "v2_header_mpfKMe",
     "v2_featured_imtjhU",
     "v2_header_dGCTCr",
-    "v2_slideshow_a6Npcz"
+    "v2_slideshow_9hg3Pe"
   ]
 }
