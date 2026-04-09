@@ -292,6 +292,15 @@
             "description": ""
           }
         },
+        "videoblock_C6FMF7": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://www.youtube.com/watch?v=Ujl1i-03ZU0",
+            "cover_image": "shopify://shop_images/Thumbnail_-_YouTube_Video_Website.png",
+            "description": ""
+          }
+        },
         "videoblock_6RDxHG": {
           "type": "videoblock",
           "settings": {
@@ -304,6 +313,7 @@
       },
       "block_order": [
         "videoblock_itV77E",
+        "videoblock_C6FMF7",
         "videoblock_6RDxHG"
       ],
       "name": "t:lesections.v2_video.presets.name",
