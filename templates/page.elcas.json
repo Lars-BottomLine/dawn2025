@@ -39,7 +39,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -134,37 +139,10 @@
         "margin_bottom": 0
       }
     },
-    "v2_slideshow_34jixx": {
-      "type": "v2_slideshow",
-      "disabled": true,
-      "name": "t:lesections.v2_slideshow.presets.name",
-      "settings": {
-        "slide_type": "product_manual",
-        "blog": "",
-        "blog_post_limit": 3,
-        "product_list": [
-          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "level-3-sports-massage-and-personal-trainer-bundle",
-          "level-3-pilates-personal-trainer-bundle",
-          "l2-gym-instruction-l3-personal-training-l4-nutrition",
-          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions"
-        ],
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "white",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_DNwpcQ": {
+    "v2_slideshow_8DwJ4b": {
       "type": "v2_slideshow",
       "blocks": {
-        "slide_89XnWV": {
+        "slide_LpmUz3": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
@@ -175,7 +153,7 @@
             "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         },
-        "slide_tczFWL": {
+        "slide_aWELx6": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
@@ -186,7 +164,18 @@
             "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
           }
         },
-        "slide_8afz9V": {
+        "slide_m4FPBt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
+            "headline": "<p>Master PT</p>",
+            "subheadline": "",
+            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
+          }
+        },
+        "slide_dGMjrE": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
@@ -197,7 +186,7 @@
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
         },
-        "slide_mYfcUr": {
+        "slide_ryLi6J": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
@@ -210,10 +199,11 @@
         }
       },
       "block_order": [
-        "slide_89XnWV",
-        "slide_tczFWL",
-        "slide_8afz9V",
-        "slide_mYfcUr"
+        "slide_LpmUz3",
+        "slide_aWELx6",
+        "slide_m4FPBt",
+        "slide_dGMjrE",
+        "slide_ryLi6J"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
@@ -482,8 +472,7 @@
     "v2_hero_t7FKK3",
     "v2_text_plus_image_NzBRjH",
     "v2_header_7EpEGA",
-    "v2_slideshow_34jixx",
-    "v2_slideshow_DNwpcQ",
+    "v2_slideshow_8DwJ4b",
     "v2_accordion_eFYqQT",
     "v2_header_A7DBDJ",
     "v2_trustpilot_dQ3g84",
