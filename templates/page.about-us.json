@@ -202,6 +202,15 @@
             "info": "Ali began her career in the active leisure industry in 2002, gaining experience in a range of gym roles as well as working as a tutor and assessor for training providers. She has since moved into senior leadership positions within the awarding and healthcare sectors, leading initiatives across customer experience, operations and service delivery. At Study Active, Ali uses her sector expertise and passion for continuous improvement to optimise business processes, enhance performance and deliver excellent student support services."
           }
         },
+        "member_UhVqqj": {
+          "type": "member",
+          "settings": {
+            "image": "shopify://shop_images/DSCN0733.jpg",
+            "name": "Rebecca Ireland",
+            "position": "Fitness Education Manager",
+            "info": "With 14 years of experience in the fitness industry, Rebecca Ireland is the Lead Tutor Assessor at Study Active. Originally beginning in group fitness classes, she became qualified to teach Group Exercise and Personal Training, and has spent the last decade sharing her knowledge and passion for fitness with others. Outside of work, Rebecca stays active by competing in Ultra Challenges, playing netball, weight training, and running outdoors with her two energetic children."
+          }
+        },
         "member_PLYmqc": {
           "type": "member",
           "settings": {
@@ -274,15 +283,6 @@
             "info": "Lucinda Thiara has a career rooted in finance and accounting, where she has developed strong skills in problem solving and organisation while embracing creativity outside of work. She is a proud mother of three boys and enjoys staying active through walking and hiking, exploring trails in the UK and abroad. In her free time, Lucinda enjoys baking and painting with her youngest son, socialising with friends, and working on home improvement projects. She balances family life with a passion for discovering new experiences through nature and everyday moments."
           }
         },
-        "member_UhVqqj": {
-          "type": "member",
-          "settings": {
-            "image": "shopify://shop_images/DSCN0733.jpg",
-            "name": "Rebecca Ireland",
-            "position": "Lead Tutor and Assessor",
-            "info": "With 14 years of experience in the fitness industry, Rebecca Ireland is the Lead Tutor Assessor at Study Active. Originally beginning in group fitness classes, she became qualified to teach Group Exercise and Personal Training, and has spent the last decade sharing her knowledge and passion for fitness with others. Outside of work, Rebecca stays active by competing in Ultra Challenges, playing netball, weight training, and running outdoors with her two energetic children."
-          }
-        },
         "member_CArk9h": {
           "type": "member",
           "settings": {
@@ -297,6 +297,7 @@
         "member_7PaAJz",
         "member_Aigi7h",
         "member_inMVny",
+        "member_UhVqqj",
         "member_PLYmqc",
         "member_XEVVDU",
         "member_7tkqRc",
@@ -305,7 +306,6 @@
         "member_BL7RCd",
         "member_iU4cRU",
         "member_RYqJQb",
-        "member_UhVqqj",
         "member_CArk9h"
       ],
       "name": "t:lesections.v2_grid.presets.name",
