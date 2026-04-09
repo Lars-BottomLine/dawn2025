@@ -18,139 +18,18 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_GzGMki": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_FTBz73": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ready to get started?",
-            "heading_size": "h1"
-          }
-        },
-        "text_WG3THF": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_n7nrY7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See current partner gyms",
-            "button_link_1": "shopify://pages/associations-and-partners",
-            "button_style_secondary_1": false,
-            "button_label_2": "Book a careers call",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_FTBz73",
-        "text_WG3THF",
-        "buttons_n7nrY7"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
+    "v2_form_jR4NPi": {
+      "type": "v2_form",
+      "name": "t:lesections.v2_form.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "v2_header_aV8pQc": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "page_wide": false,
-        "heading_text": "<p>Thank you!</p>",
-        "heading_type": "h1",
-        "heading_size": "hero",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "full",
-        "text": "<p>We appreciate your interest in studying with us. </p>",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": false,
-        "button_align": "center",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "courses",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 136,
-        "padding_bottom": 56,
-        "margin_top": 0,
-        "margin_bottom": -64
-      }
-    },
-    "v2_steps_e63nQr": {
-      "type": "v2_steps",
-      "blocks": {
-        "step_4xe9BU": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "Download The Brochure",
-            "text": "<p>Get more information on our course offering, career opportunities, and more.</p>",
-            "button_text": "Get your brochure",
-            "button_link": "https://cdn.shopify.com/s/files/1/1785/5867/files/NEW_2026_SA_Brochure_Online_-_Compressed_File.pdf?v=1770656877"
-          }
-        },
-        "step_9t3MNb": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "Don't wait - get started today!",
-            "text": "<p>Ready to take the next step? Take a look at our top courses below.</p>",
-            "button_text": "See our top courses",
-            "button_link": "courses_header"
-          }
-        },
-        "step_N7MwQg": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "Need help? Get answers",
-            "text": "<p>Don't know where or how to get started? Submit your question and we'll be in touch right away!</p>",
-            "button_text": "Submit your question",
-            "button_link": "questions"
-          }
-        }
-      },
-      "block_order": [
-        "step_4xe9BU",
-        "step_9t3MNb",
-        "step_N7MwQg"
-      ],
-      "name": "t:lesections.v2_steps.presets.name",
-      "settings": {
+        "form_type": "tutor",
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "primary",
         "decal_top": false,
         "decal_bottom": true,
-        "padding_top": 40,
+        "padding_top": 64,
         "padding_bottom": 40,
-        "margin_top": 44,
+        "margin_top": 0,
         "margin_bottom": 0
       }
     },
@@ -317,9 +196,7 @@
   },
   "order": [
     "main",
-    "image_banner_GzGMki",
-    "v2_header_aV8pQc",
-    "v2_steps_e63nQr",
+    "v2_form_jR4NPi",
     "v2_header_XrAPbj",
     "v2_slideshow_jzre7x",
     "v2_header_KzLizz",
