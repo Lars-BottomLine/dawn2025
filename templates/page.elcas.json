@@ -103,6 +103,264 @@
         "margin_bottom": 0
       }
     },
+    "v2_flexible_kfJFY9": {
+      "type": "v2_flexible",
+      "blocks": {
+        "headline_7W3UFw": {
+          "type": "headline",
+          "settings": {
+            "heading_text": "<p>How We Work with ELCAS Students</p>",
+            "heading_align": "center",
+            "heading_width": "mediumplus",
+            "heading_type": "h2",
+            "heading_size": "h2",
+            "heading_no_decal": false,
+            "heading_decal_left": false,
+            "heading_strong_accented": false
+          }
+        },
+        "subheadline_3FdxbV": {
+          "type": "subheadline",
+          "settings": {
+            "text": "<p>We’ve streamlined the process to make using your ELCAS funding with us as simple as possible:</p>",
+            "text_align": "center",
+            "text_width": "full",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "margin_top": 12,
+            "margin_bottom": -40
+          }
+        }
+      },
+      "block_order": [
+        "headline_7W3UFw",
+        "subheadline_3FdxbV"
+      ],
+      "name": "t:lesections.flexible.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_steps_4fWReJ": {
+      "type": "v2_steps",
+      "blocks": {
+        "step_B7yKDX": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Choose Your Course",
+            "text": "<p><strong>Select from our range of ELCAS-approved qualifications - </strong>All are nationally recognised at Level 3 and above, designed to support your resettlement and career progression.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_f3hdiR": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Submit Your ELC Claim",
+            "text": "<p><strong>Apply via the ELCAS portal and list Study Active as your chosen provider. - </strong>Once approved, you will receive a Claim Authorisation Note (CAN) from ELCAS.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_689VG7": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Send Us Your CAN",
+            "text": "<p>Once approved, you will receive a Claim Authorisation Note (CAN) from ELCAS.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_rLrkye": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Forward your CAN to our ELCAS coordinator",
+            "text": "<p>They will:</p><ul><li>Generate your invoice for the 20% student contribution.</li><li>Raise the ELCAS invoice for the remaining balance.</li><li>Upload everything directly to the ELCAS portal on your behalf.</li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "step_rznhYc": {
+          "type": "step",
+          "settings": {
+            "number": "",
+            "title": "Start Your Course",
+            "text": "<p>Once payment is confirmed, you’ll be ready to begin your training with full support from our expert tutors.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_B7yKDX",
+        "step_f3hdiR",
+        "step_689VG7",
+        "step_rLrkye",
+        "step_rznhYc"
+      ],
+      "name": "t:lesections.v2_steps.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 60,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_HUcYH6": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_XXGa4A": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/5_c5e01ffc-db4d-450c-9a85-8e6dad4a8528.png",
+            "title_text": "<p><strong>MOD-Approved Training Provider</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Gain peace of mind knowing you’re studying with an officially approved provider (No. 10278), meeting the standards required for ELCAS-funded qualifications.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_pzxmrz": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/1_2feb0b91-8da7-4388-ad4e-543f090851a1.png",
+            "title_text": "<p><strong>Specialists in Fitness Careers</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>We focus exclusively on fitness, coaching, and professional development - giving you industry-relevant skills that translate directly into employment.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_RVRXKd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Flexible_Online_Learning_Icon_98c61070-c2e0-4792-b20e-3b6370b0eb1a.png",
+            "title_text": "<p><strong>Flexible Study Options</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study online at your own pace, combined with practical training, making it easy to balance your course alongside service or resettlement.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_xaatGw": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/2_3a312a90-a955-4bca-bdc1-bb73a1edb9d7.png",
+            "title_text": "<p><strong>Proud Armed Forces Covenant Signatory</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>We are committed to supporting the Armed Forces community, recognising the value of service personnel and veterans.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_GPUTMd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Career_Progression_Icon_9450a108-b6ce-46d8-af20-8a49c43a921f.png",
+            "title_text": "<p><strong>Dedicated Support for Career Transition</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>With experience supporting serving personnel and veterans, we help you confidently transition into a new career in the fitness industry.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_XXGa4A",
+        "card_pzxmrz",
+        "card_RVRXKd",
+        "card_xaatGw",
+        "card_GPUTMd"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why Choose Us for ELCAS?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Choosing the right training provider is a key step in your transition to civilian life. At Study Active, we provide the qualifications, flexibility, and support you need to build a successful career in the fitness industry.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_7EpEGA": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -471,6 +729,9 @@
     "main",
     "v2_hero_t7FKK3",
     "v2_text_plus_image_NzBRjH",
+    "v2_flexible_kfJFY9",
+    "v2_steps_4fWReJ",
+    "v2_cards_HUcYH6",
     "v2_header_7EpEGA",
     "v2_slideshow_8DwJ4b",
     "v2_accordion_eFYqQT",
