@@ -88,7 +88,12 @@
             "button_url": "#form",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -424,13 +429,15 @@
         "blog": "",
         "blog_post_limit": 3,
         "product_list": [
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition",
           "cimspa-level-2-certificate-in-fitness-instruction",
           "cimspa-certificate-in-personal-training-l3",
-          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "level-3-pilates-personal-trainer-bundle",
-          "level-3-sports-massage-and-personal-trainer-bundle",
-          "l2-gym-instruction-l3-personal-training-l4-nutrition",
-          "level-4-nutrition"
+          "level-4-nutrition",
+          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions",
+          "active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes",
+          "active-iq-level-2-award-in-mental-health-awareness"
         ],
         "auto_rotate": false,
         "change_slides_speed": 5,
