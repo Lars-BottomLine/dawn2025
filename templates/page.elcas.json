@@ -404,64 +404,40 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
-            "headline": "<p>Pro PT</p>",
+            "headline": "<p>Level 3 Gym Instructing & Personal Training</p>",
             "subheadline": "",
             "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         },
-        "slide_aWELx6": {
+        "slide_ryLi6J": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
-            "headline": "<p>Elite PT</p>",
+            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
+            "headline": "<p>Level 3 Diploma in Personal Training</p>",
             "subheadline": "",
-            "text": "<p>Combined Level 2 & 3 Personal Training with Level 4 Nutrition: turn your passion into a career by helping clients achieve their fitness goals through personalised training, nutrition coaching, and expert support.</p>",
+            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
             "button_label": "Let's go",
-            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
-          }
-        },
-        "slide_m4FPBt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
-            "headline": "<p>Master PT</p>",
-            "subheadline": "",
-            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
           }
         },
         "slide_dGMjrE": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
-            "headline": "<p>L2 Gym Instructor</p>",
+            "headline": "<p>Level 3 Diploma in Supporting Clients with Long Term Conditions</p>",
             "subheadline": "",
             "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
-        },
-        "slide_ryLi6J": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
-            "headline": "<p>L3 Personal Trainer</p>",
-            "subheadline": "",
-            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
-          }
         }
       },
       "block_order": [
         "slide_LpmUz3",
-        "slide_aWELx6",
-        "slide_m4FPBt",
-        "slide_dGMjrE",
-        "slide_ryLi6J"
+        "slide_ryLi6J",
+        "slide_dGMjrE"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
