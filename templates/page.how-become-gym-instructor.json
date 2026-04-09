@@ -39,7 +39,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -606,7 +611,9 @@
         "product_list": [
           "cimspa-level-2-certificate-in-fitness-instruction",
           "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "cimspa-certificate-in-personal-training-l3"
+          "cimspa-certificate-in-personal-training-l3",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
         ],
         "auto_rotate": false,
         "change_slides_speed": 5,
