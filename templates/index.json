@@ -15,14 +15,14 @@
         "slide_biXRCW": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Website_Hero_Banner_-_Personal_Trainer_Spring_Sale_Image_CIMSPA_Enhancing_2.png",
+            "image": "shopify://shop_images/Website_Hero_Banner_-_New_Hero_Image_1.png",
             "slide_type": "twocol",
             "heading_text": "<p><strong>30% OFF</strong></p><p>All Courses</p>",
             "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>Become a qualified Personal Trainer with industry-recognised courses. <strong>Study your way</strong> - pay in full or spread the cost.</p>",
+            "text": "<p>UK Leading Provider of Personal Training Courses & Fitness Qualification</p>",
             "text_size": "h2",
             "text_no_decal": true,
             "text_strong_accented": true,
