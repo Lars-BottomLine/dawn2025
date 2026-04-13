@@ -381,7 +381,7 @@
         "text_align": "left",
         "text_width": "full",
         "button_text": "View ELCAS courses",
-        "button_url": "shopify://collections/all-active-courses",
+        "button_url": "https://studyactive.co.uk/collections/elcas-eligible-courses",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
