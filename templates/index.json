@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/Website_Hero_Banner_-_New_Hero_Image_Resized.png",
             "slide_type": "twocol",
-            "heading_text": "<p><strong>30% OFF</strong></p><p>All Courses</p>",
+            "heading_text": "<p><strong>30% OFF</strong></p><p>All PT Courses</p>",
             "heading_type": "h3",
             "heading_size": "hero",
             "heading_strong_accented": true,
