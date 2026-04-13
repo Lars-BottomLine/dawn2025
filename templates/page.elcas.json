@@ -407,8 +407,8 @@
             "headline": "<p>Level 3 Gym Instructing & Personal Training</p>",
             "subheadline": "",
             "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+            "button_label": "",
+            "button_url": ""
           }
         },
         "slide_ryLi6J": {
@@ -418,8 +418,8 @@
             "headline": "<p>Level 3 Diploma in Personal Training</p>",
             "subheadline": "",
             "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+            "button_label": "",
+            "button_url": ""
           }
         },
         "slide_dGMjrE": {
@@ -428,9 +428,9 @@
             "image": "shopify://shop_images/FI_-_Long_term_condition.png",
             "headline": "<p>Level 3 Diploma in Supporting Clients with Long Term Conditions</p>",
             "subheadline": "",
-            "text": "<p>Supporting Clients with Long-Term Conditions teaches fitness professionals how to adapt exercise, manage risk, and support clients with chronic conditions through personalised training and behaviour change.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+            "text": "<p>Supporting Clients with Long-Term Conditions teaches fitness professionals how to adapt exercise, manage risk, and support clients with chronic conditions through personalised training and behaviour change.<br/><br/></p>",
+            "button_label": "",
+            "button_url": ""
           }
         },
         "slide_847QYF": {
@@ -440,8 +440,8 @@
             "headline": "<p>Level 3 Award in Pre & Postnatal Exercise & Nutrition</p>",
             "subheadline": "",
             "text": "<p>Designing Pre and Post-Natal Exercise Programmes teaches fitness professionals how to safely adapt training for pregnancy and postnatal clients with personalised programmes.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+            "button_label": "",
+            "button_url": ""
           }
         },
         "slide_rmJQpP": {
@@ -451,8 +451,8 @@
             "headline": "<p>RSPH Level 4 Award in Nutrition</p>",
             "subheadline": "",
             "text": "<p>A nationally recognised Level 4 nutrition qualification that helps you specialise in client nutrition, work with more advanced needs, and boost your earning potential as a high-value coach.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/level-4-nutrition"
+            "button_label": "",
+            "button_url": ""
           }
         }
       },
