@@ -69,7 +69,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ELCAS_Logo.jpg",
+        "image": "shopify://shop_images/Elcas_Website_Image.png",
         "heading_text": "<p>Why choose ELCAS Funding with Study Active?</p>",
         "heading_type": "h1",
         "heading_size": "h1",
