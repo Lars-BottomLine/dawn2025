@@ -16,6 +16,31 @@
       "disabled": true,
       "settings": {}
     },
+    "announcement_bar_3zK9j3": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_yB4FKW": {
+          "type": "announcement",
+          "settings": {
+            "text": "Contact Us: 0345 017 8733",
+            "link": "tel:0345 017 8733"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_yB4FKW"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-f8e2bb5d-4074-4ee9-8266-9f66fedda8e7",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -151,6 +176,7 @@
   },
   "order": [
     "1755084133c5eab34c",
+    "announcement_bar_3zK9j3",
     "announcement-bar",
     "custom_liquid_kUctmb",
     "header"
