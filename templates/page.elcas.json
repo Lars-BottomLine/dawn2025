@@ -443,13 +443,25 @@
             "button_label": "Let's go",
             "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
           }
+        },
+        "slide_rmJQpP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L4_Nutritionist.png",
+            "headline": "<p>RSPH Level 4 Award in Nutrition</p>",
+            "subheadline": "",
+            "text": "<p>A nationally recognised Level 4 nutrition qualification that helps you specialise in client nutrition, work with more advanced needs, and boost your earning potential as a high-value coach.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/level-4-nutrition"
+          }
         }
       },
       "block_order": [
         "slide_LpmUz3",
         "slide_ryLi6J",
         "slide_dGMjrE",
-        "slide_847QYF"
+        "slide_847QYF",
+        "slide_rmJQpP"
       ],
       "name": "t:lesections.v2_slideshow.presets.name",
       "settings": {
