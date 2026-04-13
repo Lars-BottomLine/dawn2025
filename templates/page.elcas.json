@@ -380,7 +380,7 @@
         "text_strong_accented": false,
         "text_align": "left",
         "text_width": "full",
-        "button_text": "View all courses",
+        "button_text": "View ELCAS courses",
         "button_url": "shopify://collections/all-active-courses",
         "button_style": "primary",
         "button_size": "small",
