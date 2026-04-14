@@ -630,7 +630,7 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/Updated_Version_-_Website_CAP.png",
-            "title_text": "<p><strong>Unlock Unmatched Career Support and HUGE Discounts</strong></p>",
+            "title_text": "<p><strong>Unlock Unmatched Career Support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
@@ -638,7 +638,7 @@
             "text_size": "copy-m",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<ul><li><strong>Exclusive Savings</strong>: Unlock MASSIVE discounts across top health and fitness brands, including equipment, accessories, and clothing.</li><li><strong>Personalised Career Support:</strong> One-on-one guidance with CV coaching, interview prep, and career planning.</li><li><strong>Freelancer Resources</strong>: Access free downloadable templates to streamline admin tasks and boost your business.</li></ul>",
+            "claim_text": "<p></p><ul><li><strong>Personalised Career Support:</strong> One-on-one guidance with CV coaching, interview prep, and career planning.</li><li><strong>Freelancer Resources</strong>: Access free downloadable templates to streamline admin tasks and boost your business.</li></ul>",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": false,
             "claim_text_no_decal": false,
