@@ -7,7 +7,7 @@
   <input type="hidden" name="m" value="0" />
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
-  <input type="hidden" name="or" value="c00a3359-8916-468d-855a-aa6d37cc184a" />
+  <input type="hidden" name="or" value="2d67809f-82fb-4be0-962e-f6dff8914783" />
   <div class="_form-content">
     <div class="_form_element _x40634032 _full_width _clear" >
       <h2 class="_form-title">
@@ -51,28 +51,40 @@
   <input type="text" id="phone" name="phone" placeholder="Type your phone number" required/>
 </div>
 </div>
-<div class="_form_element _x88132323 _full_width " >
-<label for="field[33]" class="_form-label">
-  Interested in
+<div class="_form_element _x09599575 _full_width " >
+<label for="field[43]" class="_form-label">
+  Course of Interest
 </label>
 <div class="_field-wrapper">
-  <select name="field[33]" id="field[33]" >
+  <select name="field[43]" id="field[43]" >
     <option selected>
     </option>
-    <option value="Gym Instructing" >
-      Gym Instructing
+    <option value="Pro PT" >
+      Pro PT
     </option>
-    <option value="Personal Training" selected>
-      Personal Training
+    <option value="Elite PT Nutrition" >
+      Elite PT Nutrition
     </option>
-    <option value="Sports Massage" >
-      Sports Massage
+    <option value="Master PT" >
+      Master PT
     </option>
-    <option value="Pilates" >
-      Pilates
+    <option value="L2 Gym Instructing" >
+      L2 Gym Instructing
     </option>
-    <option value="CPD Courses" >
-      CPD Courses
+    <option value="L3 Personal Training" >
+      L3 Personal Training
+    </option>
+    <option value="L3 Long Term Conditions" >
+      L3 Long Term Conditions
+    </option>
+    <option value="L3 Pre &amp; Post Natal" >
+      L3 Pre &amp; Post Natal
+    </option>
+    <option value="L4 Nutrition" >
+      L4 Nutrition
+    </option>
+    <option value="Other" >
+      Other
     </option>
   </select>
 </div>
@@ -80,7 +92,7 @@
 <div class="_form_element _x71073663 _full_width _clear" >
 <div class="_html-code">
   <p>
-    *By submitting this form you agree to Study Active processing your data regarding your enquiry in accordance with our privacy policy
+    *By submitting this form you agree to Study Active processing your data regarding your enquiry in accordance with our <a href="https://studyactive.co.uk/pages/privacy-policy?_pos=1&amp;_psq=privac&amp;_ss=e&amp;_v=1.0" target="_blank">privacy policy</a>
   </p>
 </div>
 </div>
@@ -95,7 +107,7 @@
 <div class="_form-thank-you" style="display:none;">
 </div>
 </form><script>
-window.cfields = {"33":"interested_in"};
+window.cfields = {"43":"course_of_interested"};
 window._show_thank_you = function(id, message, trackcmp_url, email) {
     var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
     form.querySelector('._form-content').style.display = 'none';
@@ -483,9 +495,7 @@ window._load_script = function(url, callback, isSubmit) {
         }
 
         if (no_error && elem.name === 'sms_consent') {
-            const phoneInput = document.getElementById('phone');
-            const consentRequired = phoneInput.attributes.required || phoneInput.value.length > 0;
-            const showError =  (consentRequired || !!elem.attributes.required) && !elem.checked;
+            const showError = !!elem.attributes.required && !elem.checked;
             if (showError) {
                 elem.className = elem.className + ' _has_error';
                 no_error = false;
