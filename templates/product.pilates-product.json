@@ -154,6 +154,7 @@
       "type": "v2_producthero",
       "name": "t:lesections.v2_producthero.presets.name",
       "settings": {
+        "h1_tag_value": "{{ product.metafields.custom.h1_text.value }}",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": true,
