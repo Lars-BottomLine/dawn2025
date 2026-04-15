@@ -78,7 +78,6 @@
     .section-{{ section.id }}-hero-heading .product__title {
         color: #fff;
         margin: 0;
-        max-width: 20rem;
     }
 
     .section-{{ section.id }}-hero-card-wrap {
@@ -86,13 +85,8 @@
         z-index: 3;
     }
 
-    .section-{{ section.id }} .v2-ph-background {
-        position: relative;
-        padding-bottom: 10rem;
-    }
-
     .section-{{ section.id }}-hero-card-wrap .v2-product-thumb {
-        margin-top: -6rem;
+        margin-top: 6rem;
     }
 
     @media screen and (min-width: 750px) {
@@ -103,7 +97,7 @@
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
         .section-{{ section.id }}-margin {
-            margin-top: {{ section.settings.margin_top }}px;
+            margin-top:{{ section.settings.margin_top }}px;
             margin-bottom: {{ section.settings.margin_bottom }}px;
         }
 
@@ -111,12 +105,8 @@
             padding-top: 20rem;
         }
 
-        .section-{{ section.id }} .v2-ph-background {
-            padding-bottom: 0;
-        }
-
         .section-{{ section.id }}-hero-card-wrap .v2-product-thumb {
-            margin-top: -51rem;
+            margin-top: 0;
         }
     }
 {%- endstyle -%}
