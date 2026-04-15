@@ -118,7 +118,6 @@
         "subheadline_iixxw4",
         "buttoncol_QKCcVg"
       ],
-      "disabled": true,
       "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "white",
@@ -172,9 +171,10 @@
     },
     "v2_text_plus_image_qHYMgV": {
       "type": "v2_text-plus-image",
+      "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Website_Home_Page_Image_Study_Active_Image.png",
+        "image": "shopify://shop_images/Logo_Website_Homepage_Image_47a5739e-a4ac-4051-bc93-d3d66e2b5e6b.svg",
         "heading_text": "<p>Why choose Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
