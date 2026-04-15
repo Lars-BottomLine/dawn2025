@@ -328,21 +328,6 @@
         "margin_bottom": 0
       }
     },
-    "v2_form_kDNa3t": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
-      "settings": {
-        "form_type": "tutor",
-        "custom_class_names": "",
-        "bkgr_color": "primary",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_header_Qn8TJE": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -447,7 +432,6 @@
     "v2_accordion_kPQHkE",
     "v2_header_yG88eV",
     "v2_video_PDcnGU",
-    "v2_form_kDNa3t",
     "v2_header_Qn8TJE",
     "v2_image_slider_fbmCfc"
   ]
