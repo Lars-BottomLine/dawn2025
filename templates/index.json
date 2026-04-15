@@ -174,7 +174,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/CIMSPA_Logo_Home_Page_Slant.svg",
+        "image": "shopify://shop_images/CIMSPA_Logo_Home_Page_Slant_top.svg",
         "heading_text": "<p>Why choose Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
