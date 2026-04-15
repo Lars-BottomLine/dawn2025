@@ -2,9 +2,6 @@
 
     assign section_classes = ''
 
-    # ---------------------------------
-    # DECALS
-    # ---------------------------------
     assign decal_top = false
     assign decal_bottom = false
 
@@ -18,9 +15,6 @@
         assign section_classes = section_classes | append: ' -decal-bottom '
     endif
 
-    # ---------------------------------
-    # BACKGROUND + DECAL - colors
-    # ---------------------------------
     assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
     assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
     assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
@@ -31,20 +25,11 @@
         assign section_classes = section_classes | append: ' sa-col-primary '
     endif
 
-    # ---------------------------------
-    # PADDING + MARGIN
-    # ---------------------------------
     assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
     assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
 
-    # ---------------------------------
-    # CUSTOM CLASSES
-    # ---------------------------------
     assign section_classes = section_classes | append: section.settings.custom_class_names
 
-    # ---------------------------------
-    # CHECK VIEW MODE
-    # ---------------------------------
     assign mode_live = true
     assign mode_preview = false
     assign mode_customizer = false
@@ -58,11 +43,12 @@
         assign mode_customizer = true
     endif
 
-    # ---------------------------------
-    # SECTION SPECIFIC STUFF
-    # ---------------------------------
-    # TEMPLATE
     assign section_classes = section_classes | append: ' -template-' | append: template
+
+    assign product_page_h1 = section.settings.h1_tag_value | strip
+    if product_page_h1 == blank
+        assign product_page_h1 = product.title
+    endif
 %}
 
 {%- style -%}
@@ -77,6 +63,29 @@
         margin-bottom: {{ section.settings.margin_bottom }}px;
     }
 
+    .section-{{ section.id }}-hero-heading-wrap {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .section-{{ section.id }}-hero-heading {
+        color: #fff;
+        padding-top: 3rem;
+    }
+
+    .section-{{ section.id }}-hero-heading .product__title {
+        color: #fff;
+        margin: 0;
+        max-width: 900px;
+    }
+
+    .section-{{ section.id }}-hero-card-wrap {
+        position: relative;
+        z-index: 3;
+    }
+
     @media screen and (min-width: 750px) {
         .section-{{ section.id }}-padding-top {
             padding-top: {{ section.settings.padding_top }}px;
@@ -88,24 +97,21 @@
             margin-top:{{ section.settings.margin_top }}px;
             margin-bottom: {{ section.settings.margin_bottom }}px;
         }
+
+        .section-{{ section.id }}-hero-heading {
+            padding-top: 4rem;
+        }
     }
 {%- endstyle -%}
 
-<div class="v2-section-producthero
-            {{ section_classes }}">
+<div class="v2-section-producthero {{ section_classes }}">
 
-    {% # BACKGROUND: IMAGE
-       # ---------------------------------------- %}
     <div class="v2-ph-background">
         <div class="media">
-            {% # IMAGE SET, DEFINE SIZES  %}
             {% assign img = product.metafields.custom.hero_image | default: blank %}
             {%- if img != blank -%}
                 {%- assign widths = '1200, 1500' -%}
                 {%- capture sizes -%}
-                    {% comment %}
-                    ToDo: check the resulting image size, should be big enough but not too big...
-                    {% endcomment %}
                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                     (min-width: 900px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
@@ -116,23 +122,30 @@
                         widths: widths,
                         fetchpriority: fetch_priority
                 }}
-
-                {% # NO IMAGE GIVE, SO DEFAULT PLACEHOLDER %}
             {%- else -%}
                 {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
         </div>
+
+        <div class="section-{{ section.id }}-hero-heading-wrap">
+            <div class="page-width">
+                <div class="section-{{ section.id }}-hero-heading">
+                    <h1 class="product__title -no-decal _font-h2">
+                        {{ product_page_h1 | escape }}
+                    </h1>
+                </div>
+            </div>
+        </div>
     </div>
 
-    {% # BACKGROUND: SHADOW
-       # ---------------------------------------- %}
     <div class="slide-shadow"></div>
 
     <div class="sa-bg-{{ section.settings.bkgr_color }} relative">
 
         <div class="page-width
                     section-{{ section.id }}-padding-top
-                    section-{{ section.id }}-padding-bottom">
+                    section-{{ section.id }}-padding-bottom
+                    section-{{ section.id }}-hero-card-wrap">
 
             {% render 'v2_product-thumb',
                     section_id: section.id,
@@ -142,7 +155,7 @@
                     shopify_attributes: ''
             %}
 
-        </div> {% # /PAGE WIDTH %}
+        </div>
 
     </div>
 
@@ -157,8 +170,16 @@
             "groups": ["header", "footer"]
         },
         "settings": [
-
-
+            {
+                "type": "header",
+                "content": "Product page heading"
+            },
+            {
+                "type": "text",
+                "id": "h1_tag_value",
+                "label": "H1 tag value",
+                "info": "Leave blank to use the product name"
+            },
 
             {
                 "type": "header",
@@ -171,8 +192,6 @@
                 "placeholder": "test_class"
             },
 
-
-
             {
                 "type": "header",
                 "content": "t:lebase.global.background.header"
@@ -184,21 +203,19 @@
                 "default": "primary",
                 "options": [
                     {
-                    "value": "primary",
-                    "label": "t:lebase.global.bkgr_color.primary"
+                        "value": "primary",
+                        "label": "t:lebase.global.bkgr_color.primary"
                     },
                     {
-                    "value": "light-blue",
-                    "label": "t:lebase.global.bkgr_color.light-blue"
+                        "value": "light-blue",
+                        "label": "t:lebase.global.bkgr_color.light-blue"
                     },
                     {
-                    "value": "white",
-                    "label": "t:lebase.global.bkgr_color.white"
+                        "value": "white",
+                        "label": "t:lebase.global.bkgr_color.white"
                     }
                 ]
             },
-
-
 
             {
                 "type": "header",
@@ -216,8 +233,6 @@
                 "label": "t:lebase.global.skewed_border.label_bottom",
                 "default": false
             },
-
-
 
             {
                 "type": "header",
@@ -244,7 +259,6 @@
                 "default": 40
             },
 
-
             {
                 "type": "header",
                 "content": "t:lebase.global.margin.header"
@@ -268,14 +282,13 @@
                 "unit": "px",
                 "label": "t:lebase.global.margin.label_bottom",
                 "default": 0
-            },
-
+            }
         ],
 
-         "presets": [
-        {
-          "name": "t:lesections.v2_producthero.presets.name"
-        }
-    ]
+        "presets": [
+            {
+                "name": "t:lesections.v2_producthero.presets.name"
+            }
+        ]
     }
 {% endschema %}
