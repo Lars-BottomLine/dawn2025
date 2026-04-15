@@ -9,7 +9,6 @@
     - template_type: string ( full_size, normal, product_hero, product_thumb )
     - shopify_attributes: '',
     - extra_classes: string
-    - product_page_h1: string
   Usage:
   {% render 'card-product', section_id: section.id %}
 {% endcomment %}
@@ -28,9 +27,7 @@
     assign class_description = '_font-copy-m'
     assign class_description = ' _font-copy-l'
     assign title_tag = 'h4'
-    assign product_title_tag = blank
     assign classes_button = ''
-    assign resolved_product_page_h1 = product_page_h1 | default: product.title
 
     case template_type
         when 'full_size'
@@ -43,8 +40,7 @@
             assign class_title = '_font-h2'
             assign class_description = ' _font-copy-l'
             assign classes_button = ' -size-medium '
-            assign title_tag = 'h2'
-            assign product_title_tag = 'h1'
+            assign title_tag = 'h1'
         when 'product_thumb'
             assign class_title = ' _font-copy-l !font-bold '
             assign class_description = ' _font-copy-m '
@@ -64,6 +60,8 @@
         assign haz_featured = true
         assign not_haz_featured = false
     endif
+
+
 %}
 
 {% if first_call_on_page %}
@@ -94,9 +92,12 @@
 
             <div class="product-content">
 
+                {% # TOP: MEDIA
+                   # ---------------------- %}
                 <div class="product__media-wrapper">
                     <div class="v2-pt-image">
                         {%- unless placeholder -%}
+                            {% # TODO: set the correct sizes here depending on the use %}
                             {% if template_type == 'product_thumb' %}
                                 {% if haz_featured %}
                                         {{ product.metafields.custom.featured_image
@@ -109,8 +110,18 @@
                                     {% endif %}
                             {% else %}
                                 {% if product.media[0] != blank %}
+
                                     {% render 'v2-product-media', media: product.media[0], variant_images: variant_images, limit: 1 %}
+
+                                    {% comment %}{% if haz_featured %}
+                                        {{ product.metafields.custom.featured_image
+                                            | image_url: width: 800
+                                            | image_tag }}
+                                    {% else %}
+
+                                    {% endif %}{% endcomment %}
                                 {% endif %}
+
                             {% endif %}
 
                             <a class="pt-image-link" href="{{ product.url }}"></a>
@@ -161,84 +172,88 @@
                     {% endif %}
                 </div>
 
+                {% # BOTTOM: INFO
+                   # ---------------------- %}
                 <div class="product__info-wrapper
                             sa-bg-dark-blue sa-col-white
                             {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                     <section
-                            id="ProductInfo-{{ section_id }}"
+                            id="Prod uctInfo-{{ section_id }}"
                             class="product__info-container"
-                            data-section="{{ section_id }}"
+                            data-sect ion="{{ section_id }}"
                             data-url="{{ product.url }}"
                     >
                         {%- assign product_form_id = 'product-form-' | append: section_id -%}
 
                         <a class="pt-content" href="{{ product.url }}">
+
+
+                            {% # RIBBON
+                               # ----------------------- %}
                             {% if template_type == 'product_hero' and product.metafields.custom.ribbon_text != blank %}
                                 <div class="v2-pt-ribbon">
                                     {{ product.metafields.custom.ribbon_text | metafield_text }}
                                 </div>
                             {% endif %}
 
-                            {% if template_type == 'product_hero' %}
-                                <{{ product_title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
-                                    {%- unless placeholder -%}
-                                        {{ resolved_product_page_h1 | escape }}
-                                    {%- else -%}
-                                        {{ 'onboarding.product_title' | t }}
-                                    {%- endunless -%}
-                                </{{ product_title_tag }}>
+                            {% # TITLE (done)
+                               # ----------------------- %}
+                            <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
+                                {%- unless placeholder -%}
+                                    {{ product.title | escape }}
 
-                                <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
-                                    {%- unless placeholder -%}
-                                        {{ product.title | escape }}
-                                    {%- else -%}
-                                        {{ 'onboarding.product_title' | t }}
-                                    {%- endunless -%}
-                                </{{ title_tag }}>
-                            {% else %}
-                                <{{ title_tag }} class="product__title -no-decal {{ class_title }} mb-4" {{ shopify_attributes }}>
-                                    {%- unless placeholder -%}
-                                        {{ product.title | escape }}
-                                    {%- else -%}
-                                        {{ 'onboarding.product_title' | t }}
-                                    {%- endunless -%}
-                                </{{ title_tag }}>
-                            {% endif %}
+                                {%- else -%}
+                                    {{ 'onboarding.product_title' | t }}
+                                {%- endunless -%}
+                            </{{ title_tag }}>
 
                             <div class="pt-description {{ class_description }}">
                                 {{ product.metafields.custom.short_description | metafield_tag }}
                             </div>
+
                         </a>
 
                         <div class="pt-footer">
+
                             <div class="ptf-top">
-                                {% render 'v2_product-variant-picker',
+
+                            {% # VARIANT PICKER (done)
+                               # ----------------------- %}
+                            {% render 'v2_product-variant-picker',
                                     product: product,
                                     swatch_shape: 'none',
                                     picker_type: 'dropdown',
                                     shopify_attributes: shopify_attributes,
-                                    product_form_id: product_form_id
+
+                                        product_form_id: product_form_id
                                 %}
+
                             </div>
 
                             <div class="ptf-bottom">
+
+                                {% # BUY BUTTONS
+                                   # ----------------------- %}
                                 {%- render 'v2_buy-buttons',
-                                    block: block,
-                                    product: product,
-                                    product_form_id: product_form_id,
-                                    section_id: section_id,
-                                    classes_button: classes_button
+                                        block: block,
+                                        product: product,
+                                        product_form_id: product_form_id,
+                                        section_id: section_id,
+                                        classes_button: classes_button
                                 -%}
 
+
+                                {% # PRICE (done?)
+                                   # ----------------------- %}
                                 <div id="price-{{ section_id }}" role="status" {{ shopify_attributes }}>
                                     {%- render 'v2_price',
-                                        product: product,
-                                        template: template_type,
-                                        placeholder: placeholder,
-                                        use_variant: true,
-                                        show_badges: true,
-                                        price_class: 'price--large',
-                                        show_compare_at_price: true
+                                            product: product,
+                                            template: template_type,
+                                            placeholder: placeholder,
+                                            use_variant: true,
+                                            show_badges: true,
+                                            price_class: 'price--large',
+                                            show_compare_at_price: true
                                     -%}
                                 </div>
 
@@ -247,8 +262,11 @@
                                         <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                                     </div>
                                 {%- endif -%}
+
                             </div>
+
                         </div>
+
                     </section>
 
                     {%- unless placeholder -%}
@@ -259,6 +277,7 @@
                             {%- endform -%}
                         </div>
                     {%- endunless -%}
+
                 </div>
             </div>
 
@@ -268,20 +287,29 @@
           {{ product | structured_data }}
         </script>
 
+        {% # only load once per section %}
         {% if first_call_on_page %}
         <script>
+            // TODO: replace #Option-template--25326316388729__product-grid-0 with sth unique
+
+            // only enter here if we have not added the js before in another section
             if (!(typeof window.pt_initProductThumbVariationListener === "function")) {
+
+                // setup the thumblist to be filled with the thumb_ids
                 window.pt_variations_selector_list = window.pt_variations_selector_list || [];
 
                 document.addEventListener("DOMContentLoaded", function () {
                     setTimeout(function () {
-                        pt_initProductThumbVariationListener(window.pt_variations_selector_list);
+                        pt_initProductThumbVariationListener( window.pt_variations_selector_list );
                     }, 250);
                 });
 
                 function pt_initProductThumbVariationListener(pt_variations_selector_list) {
+
                     if (pt_variations_selector_list && pt_variations_selector_list.length) {
                         pt_variations_selector_list.forEach(variant_selector => {
+
+                            // EVENT: selected variations have changed
                             var varsel = document.querySelector(variant_selector);
                             if (varsel) {
                                 varsel.addEventListener('change', function (event) {
@@ -294,6 +322,7 @@
                                         const options = [];
                                         const selected_product_variant_input = product_thumb.querySelector('.product-variant-id');
 
+                                        // get selected values
                                         product_thumb.querySelectorAll('select').forEach((sel, index) => {
                                             options[index] = sel.value;
                                             if (debug) console.log(index, sel, sel.value);
@@ -306,9 +335,11 @@
                                             console.log('options', options);
                                         }
 
+                                        // get product information (could be cached, but meeeh, not worth it)
                                         fetch(product_url + '.js')
                                             .then(response => response.json())
                                             .then(product => {
+
                                                 if (debug) console.log('product', product, product.variants);
 
                                                 let selected_variant = product.variants.filter(variant => {
@@ -325,8 +356,10 @@
                                                     selected_variant = selected_variant[0];
                                                     if (debug) console.log('selected_variant', selected_variant);
 
+                                                    // set selected
                                                     selected_product_variant_input.value = selected_variant.id;
 
+                                                    // set price
                                                     pt_setProductThumbPrice(selected_variant, product, product_thumb);
 
                                                     if (selected_variant.available) {
@@ -352,19 +385,20 @@
                     }
                 }
 
-                function pt_setSoldOut(product_thumb) {
+                function pt_setSoldOut( product_thumb ) {
                     const button = product_thumb.querySelector('.v2-button');
                     button.querySelector('span').innerHTML = 'Sold Out';
                     button.classList.add('-disabled');
                 }
 
-                function pt_setAvailable(product_thumb) {
+                function pt_setAvailable( product_thumb ) {
                     const button = product_thumb.querySelector('.v2-button');
                     button.querySelector('span').innerHTML = 'Add to cart';
                     button.classList.remove('-disabled');
                 }
 
                 function pt_setProductThumbPrice(selected_variant, product, product_thumb) {
+
                     const ele_regular_price = product_thumb.querySelector('.price-item.price-item--regular');
                     const ele_sales_price = product_thumb.querySelector('.price-item.price-item--sale');
                     const ele_sales_regular_price = product_thumb.querySelector('.price__sale .price-item.price-item--regular');
@@ -372,26 +406,37 @@
                     const ele_v2_price = product_thumb.querySelector('.v2_price');
 
                     const currency_symbol = ele_regular_price.innerHTML.replace(/[0-9.,]/g, '').trim();
-                    const regular_price = Math.round(parseInt(selected_variant.price) / 100);
-                    const str_regular_price = currency_symbol + pt_formatPrice(regular_price);
+                    const regular_price = Math.round( parseInt( selected_variant.price ) / 100 );
+                    const str_regular_price = currency_symbol + pt_formatPrice( regular_price );
 
+                    // set regular price for both cases
                     ele_regular_price.innerHTML = str_regular_price;
                     ele_sales_price.innerHTML = str_regular_price;
 
-                    if (selected_variant.compare_at_price) {
+                    // we have a sales price
+                    if ( selected_variant.compare_at_price ) {
+                        // show sales prices
                         ele_v2_price.classList.add('price--on-sale');
-                        const sales_regular_price = Math.round(parseInt(selected_variant.compare_at_price) / 100);
-                        ele_sales_regular_price.innerHTML = currency_symbol + pt_formatPrice(sales_regular_price);
+                        // update the sales prices (old price, percentage)
+                        const sales_regular_price = Math.round( parseInt( selected_variant.compare_at_price ) / 100 );
+                        ele_sales_regular_price.innerHTML =  currency_symbol + pt_formatPrice( sales_regular_price );
 
-                        const saving_percentage = ((regular_price / sales_regular_price * -1) + 1) * 100;
+                        // calculate the percentage
+                        // (i know i know, believe me, not elegant at all, horrible even, but... but i am sooo tireeeeeed)
+                        const saving_percentage = ((regular_price / sales_regular_price * -1) + 1 ) * 100;
                         ele_sales_save_percentage.innerHTML = Math.round(saving_percentage);
+                    // no sales price
                     } else {
+                        // hide sales prices
                         ele_v2_price.classList.remove('price--on-sale');
+                        // reset the sales prices
                         ele_sales_regular_price.innerHTML = '';
                         ele_sales_save_percentage.innerHTML = '';
                     }
+
                 }
 
+                // add thousands separator to price string
                 function pt_formatPrice(price) {
                     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 }
@@ -399,11 +444,15 @@
         </script>
 
         <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-        <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
+
+        {% comment %}{% if product.media.size > 0 %}{% endcomment %}
+            <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
+        {% comment %}{% endif %}{% endcomment %}
+
         {% endif %}
 
         <script>
-            window.pt_variations_selector_list.push('#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects');
+            window.pt_variations_selector_list.push( '#shopify-section-{{ section.id }} product-thumb[data-product-id="{{ product.id }}"] variant-selects' );
         </script>
     {% else %}
         <div class="" style="padding: 1rem 2rem;background: #ff0000c2;color: white;border-radius: 0.5rem;display: inline-flex;">
