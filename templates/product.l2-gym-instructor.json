@@ -154,6 +154,7 @@
       "type": "v2_producthero",
       "name": "t:lesections.v2_producthero.presets.name",
       "settings": {
+        "h1_tag_value": "{{ product.metafields.custom.h1_text.value }}",
         "custom_class_names": "",
         "bkgr_color": "white",
         "decal_top": true,
@@ -490,7 +491,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
