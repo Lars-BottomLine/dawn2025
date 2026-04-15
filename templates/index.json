@@ -806,7 +806,7 @@
       "settings": {
         "form_type": "brochure",
         "heading_text": "<p>Your Fitness Career Starts Here.</p>",
-        "heading_type": "h1",
+        "heading_type": "h2",
         "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": false,
@@ -1249,7 +1249,7 @@
       "settings": {
         "form_type": "brochure",
         "heading_text": "<p>Your Fitness Career Starts Here.</p>",
-        "heading_type": "h1",
+        "heading_type": "h2",
         "heading_size": "h1",
         "heading_no_decal": false,
         "heading_decal_left": false,
