@@ -59,6 +59,23 @@
         margin-bottom: {{ section.settings.margin_bottom }}px;
     }
 
+    .section-{{ section.id }}-hero-heading {
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        margin-bottom: 32px;
+    }
+
+    .section-{{ section.id }}-hero-heading h1 {
+        margin: 0;
+        color: inherit;
+    }
+
+    .section-{{ section.id }}-thumb-wrap {
+        position: relative;
+        z-index: 2;
+    }
+
     @media screen and (min-width: 750px) {
         .section-{{ section.id }}-padding-top {
             padding-top: {{ section.settings.padding_top }}px;
@@ -69,6 +86,10 @@
         .section-{{ section.id }}-margin {
             margin-top:{{ section.settings.margin_top }}px;
             margin-bottom: {{ section.settings.margin_bottom }}px;
+        }
+
+        .section-{{ section.id }}-hero-heading {
+            margin-bottom: 48px;
         }
     }
 {%- endstyle -%}
@@ -100,14 +121,21 @@
 
     <div class="sa-bg-{{ section.settings.bkgr_color }} relative">
         <div class="page-width section-{{ section.id }}-padding-top section-{{ section.id }}-padding-bottom">
-            {% render 'v2_product-thumb',
-                section_id: section.id,
-                product: product,
-                template_type: 'product_hero',
-                loopindex: 1,
-                shopify_attributes: '',
-                product_page_h1: product_page_h1
-            %}
+            <div class="section-{{ section.id }}-hero-heading">
+                <h1 class="product__title -no-decal _font-h2">
+                    {{ product_page_h1 | escape }}
+                </h1>
+            </div>
+
+            <div class="section-{{ section.id }}-thumb-wrap">
+                {% render 'v2_product-thumb',
+                    section_id: section.id,
+                    product: product,
+                    template_type: 'product_hero',
+                    loopindex: 1,
+                    shopify_attributes: ''
+                %}
+            </div>
         </div>
     </div>
 </div>
