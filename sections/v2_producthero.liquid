@@ -51,45 +51,61 @@
     .section-{{ section.id }}-padding-top {
         padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     }
+
     .section-{{ section.id }}-padding-bottom {
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
+
     .section-{{ section.id }}-margin {
         margin-top: {{ section.settings.margin_top }}px;
         margin-bottom: {{ section.settings.margin_bottom }}px;
     }
 
-    .section-{{ section.id }}-hero-heading {
+    .section-{{ section.id }}-hero-content {
         position: relative;
-        z-index: 2;
+    }
+
+    .section-{{ section.id }}-hero-heading {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        z-index: 3;
         color: #fff;
-        margin-bottom: 32px;
     }
 
     .section-{{ section.id }}-hero-heading h1 {
         margin: 0;
         color: inherit;
+        max-width: 760px;
     }
 
     .section-{{ section.id }}-thumb-wrap {
         position: relative;
         z-index: 2;
+        padding-top: 180px;
     }
 
     @media screen and (min-width: 750px) {
         .section-{{ section.id }}-padding-top {
             padding-top: {{ section.settings.padding_top }}px;
         }
+
         .section-{{ section.id }}-padding-bottom {
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
+
         .section-{{ section.id }}-margin {
-            margin-top:{{ section.settings.margin_top }}px;
+            margin-top: {{ section.settings.margin_top }}px;
             margin-bottom: {{ section.settings.margin_bottom }}px;
         }
 
         .section-{{ section.id }}-hero-heading {
-            margin-bottom: 48px;
+            top: 60px;
+        }
+
+        .section-{{ section.id }}-thumb-wrap {
+            padding-top: 220px;
         }
     }
 {%- endstyle -%}
@@ -120,7 +136,7 @@
     <div class="slide-shadow"></div>
 
     <div class="sa-bg-{{ section.settings.bkgr_color }} relative">
-        <div class="page-width section-{{ section.id }}-padding-top section-{{ section.id }}-padding-bottom">
+        <div class="page-width section-{{ section.id }}-padding-top section-{{ section.id }}-padding-bottom section-{{ section.id }}-hero-content">
             <div class="section-{{ section.id }}-hero-heading">
                 <h1 class="product__title -no-decal _font-h2">
                     {{ product_page_h1 | escape }}
