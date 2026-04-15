@@ -118,6 +118,7 @@
         "subheadline_iixxw4",
         "buttoncol_QKCcVg"
       ],
+      "disabled": true,
       "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "white",
@@ -171,7 +172,6 @@
     },
     "v2_text_plus_image_qHYMgV": {
       "type": "v2_text-plus-image",
-      "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Logo_Website_Homepage_Image_47a5739e-a4ac-4051-bc93-d3d66e2b5e6b.svg",
@@ -213,12 +213,14 @@
       "blocks": {
         "slide_z39j6g": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
           }
         },
         "slide_mVCTdH": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitled_design_1.png"
           }
