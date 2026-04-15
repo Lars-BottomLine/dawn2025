@@ -78,12 +78,15 @@
     .section-{{ section.id }}-hero-heading .product__title {
         color: #fff;
         margin: 0;
-        
     }
 
     .section-{{ section.id }}-hero-card-wrap {
         position: relative;
         z-index: 3;
+    }
+
+    .section-{{ section.id }}-hero-card-wrap .v2-product-thumb {
+        margin-top: 6rem;
     }
 
     @media screen and (min-width: 750px) {
@@ -100,6 +103,10 @@
 
         .section-{{ section.id }}-hero-heading {
             padding-top: 20rem;
+        }
+
+        .section-{{ section.id }}-hero-card-wrap .v2-product-thumb {
+            margin-top: 0;
         }
     }
 {%- endstyle -%}
