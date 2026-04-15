@@ -1,4 +1,4 @@
-<form method="POST" action="https://studyactive.activehosted.com/proc.php" id="_form_1_" class="_form _form_1 _inline-form  _dark" novalidate data-styles-version="5">
+<form method="POST" action="https://studyactive.activehosted.com/proc.php" id="_form_1_" class="_form _form_1 _inline-form _dark" novalidate data-styles-version="5">
   <input type="hidden" name="u" value="1" />
   <input type="hidden" name="f" value="1" />
   <input type="hidden" name="s" />
@@ -7,18 +7,36 @@
   <input type="hidden" name="act" value="sub" />
   <input type="hidden" name="v" value="2" />
   <input type="hidden" name="or" value="0f14f62b-cedd-45df-8667-845c498ec800" />
+
+  <style>
+    .form-terms {
+      margin-top: 0.75rem;
+      font-size: 0.75rem;
+      line-height: 1.4;
+      color: #666;
+      text-align: center;
+    }
+
+    .form-terms a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  </style>
+
   <div class="_form-content">
-    <div class="_form_element _x21646864 _full_width _clear" >
+    <div class="_form_element _x21646864 _full_width _clear">
       <h2 class="_form-title">
         Want to stay informed about everything fitness?
       </h2>
     </div>
-    <div class="_form_element _x70774122 _full_width _clear" >
+
+    <div class="_form_element _x70774122 _full_width _clear">
       <div class="_html-code">
         Join our newsletter to receive news, updates and offers.
       </div>
     </div>
-    <div class="_form_element _x31922278 _full_width " >
+
+    <div class="_form_element _x31922278 _full_width">
       <label for="fullname" class="_form-label">
         Full Name
       </label>
@@ -26,45 +44,53 @@
         <input type="text" id="fullname" name="fullname" placeholder="Type your name" />
       </div>
     </div>
-    <div class="_form_element _x94418312 _full_width " >
+
+    <div class="_form_element _x94418312 _full_width">
       <label for="email" class="_form-label">
-        Email<span class="field-required">
-        *
-      </span>
-    </label>
-    <div class="_field-wrapper">
-      <input type="text" id="email" name="email" placeholder="Type your email" required/>
+        Email<span class="field-required">*</span>
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" id="email" name="email" placeholder="Type your email" required />
+      </div>
     </div>
-  </div>
-  <div class="_form_element _x44245931 _full_width " >
-    <fieldset class="_form-fieldset">
-      <div class="_row">
-        <legend for="field[35][]" class="_form-label">
-        </legend>
+
+    <div class="_form_element _x44245931 _full_width">
+      <fieldset class="_form-fieldset">
+        <div class="_row">
+          <legend for="field[35][]" class="_form-label"></legend>
+        </div>
+        <input data-autofill="false" type="hidden" id="field[35][]" name="field[35][]" value="~|">
+        <div class="_row _checkbox-radio">
+          <input id="field_35Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details."
+            type="checkbox"
+            name="field[35][]"
+            value="Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details.">
+          <span>
+            <label for="field_35Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details.">
+              Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details.
+            </label>
+          </span>
+        </div>
+      </fieldset>
+    </div>
+
+    <div class="_button-wrapper _full_width">
+      <button id="_form_1_submit" class="_submit" type="submit">
+        Submit
+      </button>
+
+      <div class="form-terms">
+        By submitting this form, you agree for Study Active to process your data in order to respond to your request, in accordance with their
+        <a href="/privacy-policy" target="_blank" rel="noopener">privacy policy</a>.
       </div>
-      <input data-autofill="false" type="hidden" id="field[35][]" name="field[35][]" value="~|">
-      <div class="_row _checkbox-radio">
-        <input id="field_35Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details." type="checkbox" name="field[35][]"
-        value="Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details."                                                                                                                 >
-        <span>
-          <label for="field_35Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details.">
-            Yes, I’d like to receive news, updates, and offers from Study Active by email. I understand I can unsubscribe at any time. See our Privacy Policy for details.
-          </label>
-        </span>
-      </div>
-    </fieldset>
+    </div>
+
+    <div class="_clear-element"></div>
   </div>
-  <div class="_button-wrapper _full_width">
-    <button id="_form_1_submit" class="_submit" type="submit">
-      Submit
-    </button>
-  </div>
-  <div class="_clear-element">
-  </div>
-</div>
-<div class="_form-thank-you" style="display:none;">
-</div>
-</form><script>
+
+  <div class="_form-thank-you" style="display:none;"></div>
+</form>
+<script>
 window.cfields = {"35":"opt_in"};
 window._show_thank_you = function(id, message, trackcmp_url, email) {
     var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
