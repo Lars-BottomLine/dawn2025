@@ -461,7 +461,7 @@
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/website_pic.png",
+        "image": "shopify://shop_images/Laptop_Mock_Up_Elearning.svg",
         "heading_text": "<p>Why choose Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
