@@ -225,6 +225,126 @@
         "margin_bottom": 0
       }
     },
+    "v2_header_dGCTCr": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Find your calling</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>This is your moment to do something that really moves you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": true,
+        "button_align": "right",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_NMyRfq": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_JqEx9i": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
+            "headline": "<p>Pro PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+          }
+        },
+        "slide_yQkELa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
+            "headline": "<p>Elite PT</p>",
+            "subheadline": "",
+            "text": "<p>Combined Level 2 & 3 Personal Training with Level 4 Nutrition: turn your passion into a career by helping clients achieve their fitness goals through personalised training, nutrition coaching, and expert support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
+          }
+        },
+        "slide_CtkDdK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
+            "headline": "<p>Master PT</p>",
+            "subheadline": "",
+            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
+          }
+        },
+        "slide_APnzTw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
+            "headline": "<p>L2 Gym Instructor</p>",
+            "subheadline": "",
+            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
+          }
+        },
+        "slide_rgiBKC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
+            "headline": "<p>L3 Personal Trainer</p>",
+            "subheadline": "",
+            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
+            "button_label": "Let's go",
+            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JqEx9i",
+        "slide_yQkELa",
+        "slide_CtkDdK",
+        "slide_APnzTw",
+        "slide_rgiBKC"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "dark",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 44,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_T7x6Eg": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -251,7 +371,7 @@
         "button_new_window": false,
         "button_at_side": false,
         "button_align": "center",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": false,
@@ -290,7 +410,7 @@
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 52,
@@ -328,7 +448,7 @@
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
         "custom_class_names": "",
-        "bkgr_color": "light-blue",
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 52,
@@ -366,7 +486,7 @@
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
-        "bkgr_color": "white",
+        "bkgr_color": "light-blue",
         "decal_top": true,
         "decal_bottom": true,
         "padding_top": 40,
@@ -381,7 +501,7 @@
         "card_kVQKgd": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "image": "shopify://shop_images/Interview_Guarantee_Icon_White.png",
             "title_text": "<p><strong>Interview guarantee</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -400,7 +520,7 @@
         "card_46DTcr": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-article_person.svg",
+            "image": "shopify://shop_images/CV_writing_support_icon_white.png",
             "title_text": "<p><strong>CV writing support</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -419,7 +539,7 @@
         "card_DKyDrj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-explore.svg",
+            "image": "shopify://shop_images/Career_Guidance.png",
             "title_text": "<p><strong>Career guidance</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -443,7 +563,7 @@
       ],
       "name": "t:lesections.cards.presets.name",
       "settings": {
-        "bkgr_color": "light-blue",
+        "bkgr_color": "primary",
         "card_layout": "vertical",
         "heading_text": "<p>Guaranteed job interview promise</p>",
         "heading_type": "h2",
@@ -927,126 +1047,6 @@
         "include_margins": true
       }
     },
-    "v2_header_dGCTCr": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
-      "settings": {
-        "page_wide": false,
-        "heading_text": "<p>Find your calling</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "<p>This is your moment to do something that really moves you.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "View all courses",
-        "button_url": "shopify://collections/all",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "button_at_side": true,
-        "button_align": "right",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_slideshow_NMyRfq": {
-      "type": "v2_slideshow",
-      "blocks": {
-        "slide_JqEx9i": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/FI_-_L3_Personal_Training.png",
-            "headline": "<p>Pro PT</p>",
-            "subheadline": "",
-            "text": "<p>Combined Level 2 & 3 Personal Training: find your calling by guiding and empowering clients to achieve their fitness goals through personalised training and expert coaching.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
-          }
-        },
-        "slide_yQkELa": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
-            "headline": "<p>Elite PT</p>",
-            "subheadline": "",
-            "text": "<p>Combined Level 2 & 3 Personal Training with Level 4 Nutrition: turn your passion into a career by helping clients achieve their fitness goals through personalised training, nutrition coaching, and expert support.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l2-gym-instruction-l3-personal-training-l4-nutrition"
-          }
-        },
-        "slide_CtkDdK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Feature_Images_-_Master_PT_Bundle_4.png",
-            "headline": "<p>Master PT</p>",
-            "subheadline": "",
-            "text": "<p>Level 2, 3 & 4 Personal Trainer Qualification with Level 4 Nutrition: build a rewarding fitness career by coaching clients with tailored training plans, advanced nutrition guidance, and expert-led support.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition"
-          }
-        },
-        "slide_APnzTw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/b852b79637aa62352f0e121eadc9624afc8a76ef.jpg",
-            "headline": "<p>L2 Gym Instructor</p>",
-            "subheadline": "",
-            "text": "<p>Support members with equipment use, proper technique, and a safe, welcoming workout environment.</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-level-2-certificate-in-fitness-instruction"
-          }
-        },
-        "slide_rgiBKC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/FI_-_L4_Personal_Training.png",
-            "headline": "<p>L3 Personal Trainer</p>",
-            "subheadline": "",
-            "text": "<p>Guide and motivate clients to achieve their fitness goals through personalised exercise programmes and lifestyle support</p>",
-            "button_label": "Let's go",
-            "button_url": "shopify://products/cimspa-endorsed-level-3-diploma-practitioner-in-personal-training"
-          }
-        }
-      },
-      "block_order": [
-        "slide_JqEx9i",
-        "slide_yQkELa",
-        "slide_CtkDdK",
-        "slide_APnzTw",
-        "slide_rgiBKC"
-      ],
-      "name": "t:lesections.v2_slideshow.presets.name",
-      "settings": {
-        "slide_type": "dark",
-        "blog": "",
-        "blog_post_limit": 3,
-        "product_list": [],
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 44,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
     "v2_newsletter_aw4nWk": {
       "type": "v2_newsletter",
       "name": "t:lesections.v2_newsletter.presets.name",
@@ -1125,6 +1125,8 @@
     "v2_image_slider_dgbyMz",
     "v2_header_yx6r89",
     "v2_trustpilot_Aa6Fc6",
+    "v2_header_dGCTCr",
+    "v2_slideshow_NMyRfq",
     "v2_header_T7x6Eg",
     "v2_video_t83TWV",
     "v2_video_CVmkxi",
@@ -1137,8 +1139,6 @@
     "v2_header_mpfKMe",
     "v2_video_zRAPCJ",
     "apps_4GBaW9",
-    "v2_header_dGCTCr",
-    "v2_slideshow_NMyRfq",
     "v2_newsletter_aw4nWk",
     "v2_header_fQhg3k"
   ]
