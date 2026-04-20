@@ -309,7 +309,7 @@
         "decal_bottom": false,
         "padding_top": 0,
         "padding_bottom": 24,
-        "margin_top": -180,
+        "margin_top": -40,
         "margin_bottom": 24
       }
     },
@@ -484,6 +484,7 @@
             "heading_strong_accented": false,
             "heading_no_decal": false,
             "text": "",
+            "text_type": "div",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -583,17 +584,35 @@
         "margin_bottom": -68
       }
     },
-    "v2_form_GmgNcE": {
-      "type": "v2_form",
-      "name": "t:lesections.v2_form.presets.name",
+    "v2_newsletter_UtFnbV": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
       "settings": {
-        "form_type": "career",
+        "form_type": "brochure",
+        "heading_text": "<p>Download your <strong>FREE </strong>Study Active Prospectus!</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<ul><li>View PT course packages</li><li>See full course info</li><li>Discover latest prices</li><li>Unlock discounts!</li><li>And MUCH more!</li></ul><p></p><p></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p>Ready to chat about your fitness career plan? Call us on <a href=\"tel:0345 017 8733\" title=\"tel:0345 017 8733\"><strong>0345 017 8733</strong></a><br/><br/></p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "bkgr_color": "primary",
+        "bkgr_color": "white",
         "decal_top": true,
-        "decal_bottom": true,
+        "decal_bottom": false,
         "padding_top": 40,
-        "padding_bottom": 92,
+        "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
@@ -630,7 +649,7 @@
         "decal_bottom": false,
         "padding_top": 92,
         "padding_bottom": 0,
-        "margin_top": -200,
+        "margin_top": -40,
         "margin_bottom": 0
       }
     },
@@ -713,7 +732,7 @@
     "v2_hero_Jrn8gX",
     "v2_header_rbrAHx",
     "v2_trustpilot_QJ8cqt",
-    "v2_form_GmgNcE",
+    "v2_newsletter_UtFnbV",
     "v2_header_t4cJDF",
     "v2_slideshow_DFpN3n",
     "v2_header_h7ziWR"
