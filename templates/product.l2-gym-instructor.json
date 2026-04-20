@@ -662,12 +662,9 @@
         "blog_post_limit": 3,
         "product_list": [
           "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
-          "l3_diploma_in_sports_massage_therapy",
-          "cimspa-certificate-in-personal-training-l3",
-          "level-3-sports-massage-and-personal-trainer-bundle",
-          "level-3-pilates-personal-trainer-bundle",
           "l2-gym-instruction-l3-personal-training-l4-nutrition",
-          "active-iq-level-3-diploma-in-instructing-pilates-matwork"
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition",
+          "cimspa-certificate-in-personal-training-l3"
         ],
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -716,6 +713,65 @@
         "margin_top": 0,
         "margin_bottom": -28
       }
+    },
+    "v2_image_slider_JViCbF": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_ApzzRr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+          }
+        },
+        "slide_KdkEBA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png"
+          }
+        },
+        "slide_iGjA3b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+          }
+        },
+        "slide_7h9cQi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png"
+          }
+        },
+        "slide_7w4bGG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png"
+          }
+        },
+        "slide_qiNAch": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ApzzRr",
+        "slide_KdkEBA",
+        "slide_iGjA3b",
+        "slide_7h9cQi",
+        "slide_7w4bGG",
+        "slide_qiNAch"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "slide_autospeed": 9500,
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -735,6 +791,7 @@
     "v2_newsletter_UtFnbV",
     "v2_header_t4cJDF",
     "v2_slideshow_DFpN3n",
-    "v2_header_h7ziWR"
+    "v2_header_h7ziWR",
+    "v2_image_slider_JViCbF"
   ]
 }
