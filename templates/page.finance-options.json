@@ -81,6 +81,7 @@
             "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "<p>Uncompromised quality, Unbeatable prices</p>",
+            "text_type": "div",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -256,6 +257,7 @@
       "blocks": {
         "step_N7MwQg": {
           "type": "step",
+          "disabled": true,
           "settings": {
             "number": "",
             "title": "Need help? Get answers",
