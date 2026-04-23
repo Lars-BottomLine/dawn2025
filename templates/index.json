@@ -574,6 +574,34 @@
         "margin_bottom": 0
       }
     },
+    "v2_video_VeyBLG": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_rCHFJ7": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1185909551?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Website_Promo_Video_Image_Turn_your_passion_into_a_career_2.svg",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_rCHFJ7"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_i7HYVG": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -1325,6 +1353,7 @@
     "v2_header_aiHgdX",
     "v2_trustpilot_KkRfr9",
     "v2_cards_88cQaJ",
+    "v2_video_VeyBLG",
     "v2_header_i7HYVG",
     "v2_slideshow_4RTHyC",
     "v2_cards_ayDGYf",
