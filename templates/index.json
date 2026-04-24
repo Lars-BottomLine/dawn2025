@@ -132,12 +132,12 @@
         "margin_bottom": -4
       }
     },
-    "v2_text_plus_image_PcfkMY": {
+    "v2_text_plus_image_qHYMgV": {
       "type": "v2_text-plus-image",
       "disabled": true,
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Website_Home_Page_Image_Study_Active_Image.png",
+        "image": "shopify://shop_images/Quality_Assured_Enhancing_CIMSPA_logo.svg",
         "heading_text": "<p>Why choose Study Active?</p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -171,12 +171,12 @@
         "margin_bottom": -4
       }
     },
-    "v2_text_plus_image_qHYMgV": {
+    "v2_text_plus_image_4XMUh9": {
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
         "image": "shopify://shop_images/Quality_Assured_Enhancing_CIMSPA_logo.svg",
-        "heading_text": "<p>Why choose Study Active?</p>",
+        "heading_text": "<p>Study Active - The UK's Trusted Choice!</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -186,11 +186,11 @@
         "subheadline_text_size": "copy-xl",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<ul><li><strong>Affordability</strong> - Unbeatable prices, 0% interest-free monthly payments, and a clear price-beat guarantee on like-for-like courses.</li><li><strong>Quality & flexibility</strong> - Award winning, CIMSPA 'Enhancing' provider with flexible online and blended learning you can fit around work and family.</li><li><strong>Career Support </strong>- Ongoing support for graduates, including expert CV guidance, interview preparation, and practical advice to help you confidently step into your new career.<br/></li></ul>",
+        "text": "<ul><li><strong>Internationally Recognised</strong> - CIMSPA 'Enhancing', UK Active Education Provider of Year, Ofqual Regulated.</li><li><strong>Study 100% Online!</strong> - Digital learning, ongoing support, video or in-person exams, fast-track option!</li><li><strong>Price Match Guarantee  </strong>- We will match the price of any like-for-like course. Plus pay via 0% Instalments!</li><li><strong>Guaranteed Interview</strong> - Get a career head start at a top UK Gym such as The Gym Group.<br/></li></ul>",
         "text_size": "copy-m",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "claim_text": "<p><strong>The future won't wait.</strong></p>",
+        "claim_text": "<p><strong>STOP dreaming - START training!</strong></p>",
         "claim_text_size": "copy-l",
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
@@ -1345,8 +1345,8 @@
   "order": [
     "v2_hero_jk6W8B",
     "v2_flexible_gGRXbX",
-    "v2_text_plus_image_PcfkMY",
     "v2_text_plus_image_qHYMgV",
+    "v2_text_plus_image_4XMUh9",
     "v2_image_slider_VwtXmG",
     "v2_header_crfUaT",
     "v2_slideshow_FqXf9k",
