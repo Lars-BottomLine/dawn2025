@@ -123,9 +123,10 @@
     Static logo grid
     ----------------------------
     Uses flexbox so incomplete final rows are centred.
+
     Example with 5 logos and 3 columns:
     item | item | item
-        item | item
+         item | item
   */
   #LogoGrid-{{ section.id }} {
     display: flex;
@@ -147,34 +148,13 @@
     );
   }
 
-  /*
-    Static logo grid: incomplete final row handling - mobile
-    -------------------------------------------------------
-    The final row is spread evenly across the selected column count.
-  */
-
-  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-1 .v2-logo-grid-item:nth-last-child(1) {
-    grid-column: 1 / -1;
-  }
-
-  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-2 .v2-logo-grid-item:nth-last-child(2) {
-    grid-column: 1 / 2;
-  }
-
-  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-2 .v2-logo-grid-item:nth-last-child(1) {
-    grid-column: {{ static_columns_mobile }} / {{ static_columns_mobile | plus: 1 }};
-  }
-
-  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-3 .v2-logo-grid-item:nth-last-child(3) {
-    grid-column: 1 / 2;
-  }
-
-  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-3 .v2-logo-grid-item:nth-last-child(2) {
-    grid-column: 2 / 3;
-  }
-
-  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-3 .v2-logo-grid-item:nth-last-child(1) {
-    grid-column: {{ static_columns_mobile }} / {{ static_columns_mobile | plus: 1 }};
+  #LogoGrid-{{ section.id }} .v2-logo-grid-item img,
+  #LogoGrid-{{ section.id }} .v2-logo-grid-item svg {
+    display: block;
+    width: 100%;
+    max-width: {{ section.settings.logo_max_width_mobile }}px;
+    height: auto;
+    margin: 0 auto;
   }
 
   /*
@@ -213,138 +193,20 @@
     }
 
     #LogoGrid-{{ section.id }} {
-      grid-template-columns: repeat({{ static_columns_desktop }}, minmax(0, 1fr));
-      gap: {{ section.settings.static_gap_desktop }}px;
+      column-gap: {{ section.settings.static_gap_desktop }}px;
+      row-gap: {{ section.settings.static_gap_desktop }}px;
     }
 
-    /*
-      Reset mobile incomplete-row positioning before applying desktop rules.
-    */
     #LogoGrid-{{ section.id }} .v2-logo-grid-item {
-      grid-column: auto;
+      width: calc(
+        (100% - ({{ static_columns_desktop | minus: 1 }} * {{ section.settings.static_gap_desktop }}px))
+        / {{ static_columns_desktop }}
+      );
     }
 
     #LogoGrid-{{ section.id }} .v2-logo-grid-item img,
     #LogoGrid-{{ section.id }} .v2-logo-grid-item svg {
       max-width: {{ section.settings.logo_max_width_desktop }}px;
-    }
-
-    /*
-      Static logo grid: incomplete final row handling - desktop
-      --------------------------------------------------------
-      The final row is spread evenly across the selected column count.
-    */
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-1 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: 1 / -1;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-2 .v2-logo-grid-item:nth-last-child(2) {
-      grid-column: 1 / 2;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-2 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-3 .v2-logo-grid-item:nth-last-child(3) {
-      grid-column: 1 / 2;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-3 .v2-logo-grid-item:nth-last-child(2) {
-      grid-column: {{ static_columns_desktop | divided_by: 2 | plus: 1 }} / {{ static_columns_desktop | divided_by: 2 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-3 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(4) {
-      grid-column: 1 / 2;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(3) {
-      grid-column: {{ static_columns_desktop | divided_by: 3 | plus: 1 }} / {{ static_columns_desktop | divided_by: 3 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(2) {
-      grid-column: {{ static_columns_desktop | times: 2 | divided_by: 3 | plus: 1 }} / {{ static_columns_desktop | times: 2 | divided_by: 3 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(5) {
-      grid-column: 1 / 2;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(4) {
-      grid-column: {{ static_columns_desktop | divided_by: 4 | plus: 1 }} / {{ static_columns_desktop | divided_by: 4 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(3) {
-      grid-column: {{ static_columns_desktop | divided_by: 2 | plus: 1 }} / {{ static_columns_desktop | divided_by: 2 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(2) {
-      grid-column: {{ static_columns_desktop | times: 3 | divided_by: 4 | plus: 1 }} / {{ static_columns_desktop | times: 3 | divided_by: 4 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(6) {
-      grid-column: 1 / 2;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(5) {
-      grid-column: {{ static_columns_desktop | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | divided_by: 5 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(4) {
-      grid-column: {{ static_columns_desktop | times: 2 | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | times: 2 | divided_by: 5 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(3) {
-      grid-column: {{ static_columns_desktop | times: 3 | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | times: 3 | divided_by: 5 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(2) {
-      grid-column: {{ static_columns_desktop | times: 4 | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | times: 4 | divided_by: 5 | plus: 2 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(7) {
-      grid-column: 1 / 2;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(6) {
-      grid-column: 2 / 3;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(5) {
-      grid-column: 3 / 4;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(4) {
-      grid-column: 4 / 5;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(3) {
-      grid-column: 5 / 6;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(2) {
-      grid-column: 6 / 7;
-    }
-
-    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(1) {
-      grid-column: 7 / 8;
     }
 
     #swiper-{{ section.id }} .swiper-slide img,
