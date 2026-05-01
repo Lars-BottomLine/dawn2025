@@ -122,12 +122,18 @@
   /*
     Static logo grid
     ----------------------------
+    Uses flexbox so incomplete final rows are centred.
+    Example with 5 logos and 3 columns:
+    item | item | item
+        item | item
   */
   #LogoGrid-{{ section.id }} {
-    display: grid;
-    grid-template-columns: repeat({{ static_columns_mobile }}, minmax(0, 1fr));
-    gap: {{ section.settings.static_gap_mobile }}px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    column-gap: {{ section.settings.static_gap_mobile }}px;
+    row-gap: {{ section.settings.static_gap_mobile }}px;
   }
 
   #LogoGrid-{{ section.id }} .v2-logo-grid-item {
@@ -135,15 +141,10 @@
     align-items: center;
     justify-content: center;
     min-width: 0;
-  }
-
-  #LogoGrid-{{ section.id }} .v2-logo-grid-item img,
-  #LogoGrid-{{ section.id }} .v2-logo-grid-item svg {
-    display: block;
-    width: 100%;
-    max-width: {{ section.settings.logo_max_width_mobile }}px;
-    height: auto;
-    margin: 0 auto;
+    width: calc(
+      (100% - ({{ static_columns_mobile | minus: 1 }} * {{ section.settings.static_gap_mobile }}px))
+      / {{ static_columns_mobile }}
+    );
   }
 
   /*
