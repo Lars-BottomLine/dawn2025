@@ -271,7 +271,7 @@
         "slider_space_between": 42,
         "slider_allow_touch": false,
         "static_columns_mobile": 3,
-        "static_columns_desktop": 3,
+        "static_columns_desktop": 6,
         "static_gap_mobile": 24,
         "static_gap_desktop": 32,
         "logo_max_width_mobile": 104,
