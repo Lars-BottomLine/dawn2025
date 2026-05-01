@@ -398,47 +398,76 @@
                 }
 
                 function pt_setProductThumbPrice(selected_variant, product, product_thumb) {
-
                     const ele_regular_price = product_thumb.querySelector('.price-item.price-item--regular');
                     const ele_sales_price = product_thumb.querySelector('.price-item.price-item--sale');
                     const ele_sales_regular_price = product_thumb.querySelector('.price__sale .price-item.price-item--regular');
                     const ele_sales_save_percentage = product_thumb.querySelector('.price__sale .price-save-percentage span');
+                    const ele_sales_save_percentage_wrapper = product_thumb.querySelector('.price__sale .price-save-percentage');
                     const ele_v2_price = product_thumb.querySelector('.v2_price');
 
-                    const currency_symbol = ele_regular_price.innerHTML.replace(/[0-9.,]/g, '').trim();
-                    const regular_price = Math.round( parseInt( selected_variant.price ) / 100 );
-                    const str_regular_price = currency_symbol + pt_formatPrice( regular_price );
+                    if (!ele_regular_price || !ele_sales_price || !ele_v2_price) {
+                        return;
+                    }
 
-                    // set regular price for both cases
+                    const currency_symbol = pt_getCurrencySymbol(ele_regular_price);
+                    const regular_price = Number(selected_variant.price) / 100;
+                    const str_regular_price = currency_symbol + pt_formatPrice(regular_price);
+
+                    // Set current variant price for both regular and sale price locations
                     ele_regular_price.innerHTML = str_regular_price;
                     ele_sales_price.innerHTML = str_regular_price;
 
-                    // we have a sales price
-                    if ( selected_variant.compare_at_price ) {
-                        // show sales prices
+                    // Variant has a compare-at price, so show sale state
+                    if (
+                        selected_variant.compare_at_price &&
+                        Number(selected_variant.compare_at_price) > Number(selected_variant.price)
+                    ) {
                         ele_v2_price.classList.add('price--on-sale');
-                        // update the sales prices (old price, percentage)
-                        const sales_regular_price = Math.round( parseInt( selected_variant.compare_at_price ) / 100 );
-                        ele_sales_regular_price.innerHTML =  currency_symbol + pt_formatPrice( sales_regular_price );
 
-                        // calculate the percentage
-                        // (i know i know, believe me, not elegant at all, horrible even, but... but i am sooo tireeeeeed)
-                        const saving_percentage = ((regular_price / sales_regular_price * -1) + 1 ) * 100;
-                        ele_sales_save_percentage.innerHTML = Math.round(saving_percentage);
-                    // no sales price
+                        const compare_at_price = Number(selected_variant.compare_at_price) / 100;
+                        const str_compare_at_price = currency_symbol + pt_formatPrice(compare_at_price);
+
+                        if (ele_sales_regular_price) {
+                            ele_sales_regular_price.innerHTML = str_compare_at_price;
+                        }
+
+                        if (ele_sales_save_percentage) {
+                            const saving_percentage = ((compare_at_price - regular_price) / compare_at_price) * 100;
+                            ele_sales_save_percentage.innerHTML = Math.round(saving_percentage);
+                        }
+
+                        if (ele_sales_save_percentage_wrapper) {
+                            ele_sales_save_percentage_wrapper.style.display = '';
+                        }
+
                     } else {
-                        // hide sales prices
                         ele_v2_price.classList.remove('price--on-sale');
-                        // reset the sales prices
-                        ele_sales_regular_price.innerHTML = '';
-                        ele_sales_save_percentage.innerHTML = '';
-                    }
 
+                        if (ele_sales_regular_price) {
+                            ele_sales_regular_price.innerHTML = '';
+                        }
+
+                        if (ele_sales_save_percentage) {
+                            ele_sales_save_percentage.innerHTML = '';
+                        }
+
+                        if (ele_sales_save_percentage_wrapper) {
+                            ele_sales_save_percentage_wrapper.style.display = 'none';
+                        }
+                    }
                 }
 
-                // add thousands separator to price string
+                function pt_getCurrencySymbol(price_element) {
+                    const text = price_element.innerText || price_element.textContent || '';
+
+                    return text.replace(/[0-9.,\s]/g, '').trim() || '£';
+                }
+
                 function pt_formatPrice(price) {
-                    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                    return Number(price).toLocaleString('en-GB', {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2
+                    });
                 }
             }
         </script>
