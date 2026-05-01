@@ -221,7 +221,6 @@
         },
         "slide_mVCTdH": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitled_design_1.png",
             "image_alt": ""
