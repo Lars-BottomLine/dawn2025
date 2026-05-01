@@ -1,180 +1,340 @@
-{{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-{{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
+{% comment %}
+  Renders an image/logo bank section.
+
+  Supports:
+  - Static grid
+  - Slider / marquee
+
+  Static mode is intended for logo banks where all logos should be visible,
+  especially on mobile.
+{% endcomment %}
 
 {%- liquid
+  assign display_type = section.settings.display_type | default: 'slider'
 
-    assign section_classes = ''
+  if display_type == 'slider'
+    assign is_slider = true
+  else
+    assign is_slider = false
+  endif
+-%}
 
-    # ---------------------------------
-    # DECALS
-    # ---------------------------------
-    assign decal_top = false
-    assign decal_bottom = false
+{%- if is_slider -%}
+  {{ 'le_swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+  {{ 'le_swiper-bundle.min.js' | asset_url | script_tag }}
+{%- endif -%}
 
-    if section.settings.decal_top
-        assign decal_top = true
-        assign section_classes = section_classes | append: ' -decal-top '
-    endif
+{%- liquid
+  assign section_classes = ''
 
-    if section.settings.decal_bottom
-        assign decal_bottom = true
-        assign section_classes = section_classes | append: ' -decal-bottom '
-    endif
+  # ---------------------------------
+  # DECALS
+  # ---------------------------------
+  assign decal_top = false
+  assign decal_bottom = false
 
-    # ---------------------------------
-    # BACKGROUND + DECAL - colors
-    # ---------------------------------
-    assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
-    assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
-    assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
-    if section.settings.bkgr_color == 'primary'
-        assign section_classes = section_classes | append: ' sa-col-white '
-    endif
-    if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
-        assign section_classes = section_classes | append: ' sa-col-primary '
-    endif
+  if section.settings.decal_top
+    assign decal_top = true
+    assign section_classes = section_classes | append: ' -decal-top '
+  endif
 
-    # ---------------------------------
-    # PADDING + MARGIN
-    # ---------------------------------
-    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
-    assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+  if section.settings.decal_bottom
+    assign decal_bottom = true
+    assign section_classes = section_classes | append: ' -decal-bottom '
+  endif
 
-    # ---------------------------------
-    # CUSTOM CLASSES
-    # ---------------------------------
-    assign section_classes = section_classes | append: section.settings.custom_class_names
+  # ---------------------------------
+  # BACKGROUND + DECAL - colors
+  # ---------------------------------
+  assign section_classes = section_classes | append: ' sa-bg-' | append: section.settings.bkgr_color
+  assign section_classes = section_classes | append: ' -dct-' | append: section.settings.bkgr_color
+  assign section_classes = section_classes | append: ' -dcb-' | append: section.settings.bkgr_color
 
-    # ---------------------------------
-    # CHECK VIEW MODE
-    # ---------------------------------
-    assign mode_live = true
-    assign mode_preview = false
-    assign mode_customizer = false
-    if content_for_header contains "previewBarInjector.init();"
-        assign mode_live = false
-        assign mode_preview = true
-        assign mode_customizer = false
-    elsif content_for_header contains "Shopify.designMode"
-        assign mode_live = false
-        assign mode_preview = false
-        assign mode_customizer = true
-    endif
+  if section.settings.bkgr_color == 'primary'
+    assign section_classes = section_classes | append: ' sa-col-white '
+  endif
 
-    # ---------------------------------
-    # SECTION SPECIFIC STUFF
-    # ---------------------------------
+  if section.settings.bkgr_color == 'light-blue' or section.settings.bkgr_color == 'white'
+    assign section_classes = section_classes | append: ' sa-col-primary '
+  endif
 
-%}
+  # ---------------------------------
+  # PADDING + MARGIN
+  # ---------------------------------
+  assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-margin '
+  assign section_classes = section_classes | append: ' section-' | append: section.id | append: '-padding '
+
+  # ---------------------------------
+  # CUSTOM CLASSES
+  # ---------------------------------
+  assign section_classes = section_classes | append: ' ' | append: section.settings.custom_class_names
+
+  # ---------------------------------
+  # DISPLAY TYPE CLASSES
+  # ---------------------------------
+  assign section_classes = section_classes | append: ' -display-' | append: display_type
+-%}
 
 {%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .section-{{ section.id }}-margin {
+    margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+    margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+  }
+
+  .v2-section-image-slider.section-{{ section.id }}-padding {
+    overflow: hidden;
+  }
+
+  .v2-section-image-slider .v2-slider-wrapper {
+    width: 100%;
+  }
+
+  /*
+    Static logo grid
+    ----------------------------
+  */
+  #LogoGrid-{{ section.id }} {
+    display: grid;
+    grid-template-columns: repeat({{ section.settings.static_columns_mobile }}, minmax(0, 1fr));
+    gap: {{ section.settings.static_gap_mobile }}px;
+    align-items: center;
+  }
+
+  #LogoGrid-{{ section.id }} .v2-logo-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+  }
+
+  #LogoGrid-{{ section.id }} .v2-logo-grid-item img,
+  #LogoGrid-{{ section.id }} .v2-logo-grid-item svg {
+    display: block;
+    width: 100%;
+    max-width: {{ section.settings.logo_max_width_mobile }}px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /*
+    Slider / marquee
+    ----------------------------
+  */
+  #swiper-{{ section.id }} .swiper-wrapper {
+    align-items: center;
+    transition-timing-function: linear;
+  }
+
+  #swiper-{{ section.id }} .swiper-slide {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #swiper-{{ section.id }} .swiper-slide img,
+  #swiper-{{ section.id }} .swiper-slide svg {
+    display: block;
+    width: auto;
+    max-width: {{ section.settings.logo_max_width_mobile }}px;
+    height: auto;
+  }
+
+  @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    }
-    .section-{{ section.id }}-margin {
-        margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
-        margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 | times: 0.75 | round: 0 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
     }
 
-    @media screen and (min-width: 750px) {
-        .section-{{ section.id }}-padding {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
-        .section-{{ section.id }}-margin {
-            margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
-            margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
-        }
+    .section-{{ section.id }}-margin {
+      margin-top: {% if decal_top %}{{ section.settings.margin_top | plus: 140 }}{% else %}{{ section.settings.margin_top }}{% endif %}px !important;
+      margin-bottom: {% if decal_bottom %}{{ section.settings.margin_bottom | plus: 140 }}{% else %}{{ section.settings.margin_bottom }}{% endif %}px !important;
     }
+
+    #LogoGrid-{{ section.id }} {
+      grid-template-columns: repeat({{ section.settings.static_columns_desktop }}, minmax(0, 1fr));
+      gap: {{ section.settings.static_gap_desktop }}px;
+    }
+
+    #LogoGrid-{{ section.id }} .v2-logo-grid-item img,
+    #LogoGrid-{{ section.id }} .v2-logo-grid-item svg {
+      max-width: {{ section.settings.logo_max_width_desktop }}px;
+    }
+
+    #swiper-{{ section.id }} .swiper-slide img,
+    #swiper-{{ section.id }} .swiper-slide svg {
+      max-width: {{ section.settings.logo_max_width_desktop }}px;
+    }
+  }
 {%- endstyle -%}
 
-<div class="v2-section-image-slider
-            {{ section_classes }}">
-    <div class="v2-slider-wrapper page-widt">
+<div class="v2-section-image-slider {{ section_classes }}">
+  <div class="v2-slider-wrapper page-width">
 
-        <div id="swiper-{{ section.id }}" class="swiper sa-slider">
-            <div class="swiper-wrapper">
+    {%- if is_slider -%}
 
-                {% for i in (1..2) %}
-                    {%- for block in section.blocks -%}
-                        {% assign offset = i | times: forloop.length %}
+      <div id="swiper-{{ section.id }}" class="swiper sa-slider">
+        <div class="swiper-wrapper">
 
-                        <div id="Slide-{{ section.id }}-{{ forloop.index | plus: i }}"
-                             class="swiper-slide"
-                             role="group"
-                             aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                             tabindex="-1" >
+          {% for i in (1..2) %}
+            {%- for block in section.blocks -%}
+              <div
+                id="Slide-{{ section.id }}-{{ forloop.index }}-{{ i }}"
+                class="swiper-slide"
+                role="group"
+                aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                tabindex="-1"
+                {{ block.shopify_attributes }}
+              >
+                {%- if block.settings.image -%}
+                  {%- liquid
+                    assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                    assign sizes = '100vw'
+                    assign widths = '120, 180, 240, 320, 375, 550, 750'
+                    assign fetch_priority = 'auto'
 
-                            {%- if block.settings.image -%}
+                    if section.index == 1 and forloop.first
+                      assign fetch_priority = 'high'
+                    endif
 
-                                {%- liquid
-                                    assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                    assign image_alt = block.settings.image_alt | default: block.settings.image.alt | default: shop.name
+                  -%}
 
-                                    assign sizes = '100vw'
-                                    assign widths = '375, 550, 750'
-
-                                    assign fetch_priority = 'auto'
-                                    if section.index == 1
-                                        assign fetch_priority = 'high'
-                                    endif
-                                -%}
-                                {%- if forloop.first %}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 800
-                                    | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                    }}
-                                {%- else -%}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 800
-                                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                    }}
-                                {%- endif -%}
-                            {%- else -%}
-                                {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-                                {%- if placeholder_slide == 1 -%}
-                                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-                                {%- else -%}
-                                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                                {%- endif -%}
-                            {%- endif -%}
-
-                        </div>
-
-                    {% endfor %}
-                {% endfor %}
-
-            </div>
+                  {%- if forloop.first and i == 1 -%}
+                    {{
+                      block.settings.image
+                      | image_url: width: 800
+                      | image_tag:
+                        alt: image_alt,
+                        height: height,
+                        sizes: sizes,
+                        widths: widths,
+                        fetchpriority: fetch_priority
+                    }}
+                  {%- else -%}
+                    {{
+                      block.settings.image
+                      | image_url: width: 800
+                      | image_tag:
+                        alt: image_alt,
+                        loading: 'lazy',
+                        height: height,
+                        sizes: sizes,
+                        widths: widths
+                    }}
+                  {%- endif -%}
+                {%- else -%}
+                  {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                  {%- if placeholder_slide == 1 -%}
+                    {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- else -%}
+                    {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
+            {%- endfor -%}
+          {% endfor %}
 
         </div>
+      </div>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var swiper = new Swiper("#swiper-{{ section.id }}", {
-                    direction: 'horizontal',
-                    loop: true,
-                    slidesPerView: 'auto',
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var swiperElement = document.querySelector("#swiper-{{ section.id }}");
 
-                    speed: {{ section.settings.slide_autospeed }},
-                    autoplay: {
-                        delay: 0
-                    },
-                    spaceBetween: 42,
+          if (!swiperElement || typeof Swiper === "undefined") {
+            return;
+          }
 
-                });
-            });
+          new Swiper("#swiper-{{ section.id }}", {
+            direction: "horizontal",
+            loop: true,
+            slidesPerView: "auto",
+            speed: {{ section.settings.slide_autospeed }},
+            autoplay: {
+              delay: 0,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: false
+            },
+            spaceBetween: {{ section.settings.slider_space_between }},
+            allowTouchMove: {{ section.settings.slider_allow_touch }},
+            watchOverflow: true
+          });
+        });
+      </script>
 
-            // TODO: start on resize if not enough space to show all items
+    {%- else -%}
 
-        </script>
+      <div
+        id="LogoGrid-{{ section.id }}"
+        class="v2-logo-grid"
+        role="list"
+      >
+        {%- for block in section.blocks -%}
+          <div
+            class="v2-logo-grid-item"
+            role="listitem"
+            {{ block.shopify_attributes }}
+          >
+            {%- if block.settings.image -%}
+              {%- liquid
+                assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                assign sizes = '(max-width: 749px) 33vw, 16vw'
+                assign widths = '120, 180, 240, 320, 375, 550, 750'
+                assign fetch_priority = 'auto'
 
-    </div>
+                if section.index == 1 and forloop.first
+                  assign fetch_priority = 'high'
+                endif
 
+                assign image_alt = block.settings.image_alt | default: block.settings.image.alt | default: shop.name
+              -%}
+
+              {%- if forloop.first -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 800
+                  | image_tag:
+                    alt: image_alt,
+                    height: height,
+                    sizes: sizes,
+                    widths: widths,
+                    fetchpriority: fetch_priority
+                }}
+              {%- else -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 800
+                  | image_tag:
+                    alt: image_alt,
+                    loading: 'lazy',
+                    height: height,
+                    sizes: sizes,
+                    widths: widths
+                }}
+              {%- endif -%}
+            {%- else -%}
+              {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+              {%- if placeholder_slide == 1 -%}
+                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- else -%}
+                {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+
+    {%- endif -%}
+
+  </div>
 </div>
-
 
 {% schema %}
 {
@@ -185,7 +345,26 @@
     "groups": ["header"]
   },
   "settings": [
-
+    {
+      "type": "select",
+      "id": "display_type",
+      "label": "Display type",
+      "default": "slider",
+      "options": [
+        {
+          "value": "slider",
+          "label": "Slider"
+        },
+        {
+          "value": "static",
+          "label": "Static grid"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Slider settings"
+    },
     {
       "type": "range",
       "id": "slide_autospeed",
@@ -196,7 +375,112 @@
       "label": "t:lebase.global.slider.autospeed",
       "default": 4000
     },
-
+    {
+      "type": "range",
+      "id": "slider_space_between",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Slider spacing",
+      "default": 42
+    },
+    {
+      "type": "checkbox",
+      "id": "slider_allow_touch",
+      "label": "Allow touch dragging",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Static grid settings"
+    },
+    {
+      "type": "range",
+      "id": "static_columns_mobile",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Columns on mobile",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "static_columns_desktop",
+      "min": 3,
+      "max": 8,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "static_gap_mobile",
+      "min": 8,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile logo spacing",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "static_gap_desktop",
+      "min": 8,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop logo spacing",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "logo_max_width_mobile",
+      "min": 40,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "Logo max width on mobile",
+      "default": 104
+    },
+    {
+      "type": "range",
+      "id": "logo_max_width_desktop",
+      "min": 60,
+      "max": 260,
+      "step": 4,
+      "unit": "px",
+      "label": "Logo max width on desktop",
+      "default": 160
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "select",
+      "id": "bkgr_color",
+      "label": "Background colour",
+      "default": "white",
+      "options": [
+        {
+          "value": "white",
+          "label": "White"
+        },
+        {
+          "value": "primary",
+          "label": "Primary"
+        },
+        {
+          "value": "light-blue",
+          "label": "Light blue"
+        },
+        {
+          "value": "dark-blue",
+          "label": "Dark blue"
+        }
+      ]
+    },
     {
       "type": "checkbox",
       "id": "decal_top",
@@ -209,7 +493,6 @@
       "label": "Skewed on bottom",
       "default": false
     },
-
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
@@ -234,7 +517,6 @@
       "label": "t:sections.all.padding.padding_bottom",
       "default": 40
     },
-
     {
       "type": "header",
       "content": "t:sections.all.margin.section_margin_heading"
@@ -258,6 +540,11 @@
       "unit": "px",
       "label": "t:sections.all.margin.margin_bottom",
       "default": 0
+    },
+    {
+      "type": "text",
+      "id": "custom_class_names",
+      "label": "Custom class names"
     }
   ],
   "blocks": [
@@ -270,6 +557,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image alt text"
         }
       ]
     }
@@ -277,7 +569,24 @@
   "presets": [
     {
       "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "display_type": "static",
+        "static_columns_mobile": 3,
+        "static_columns_desktop": 6
+      },
       "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
         {
           "type": "slide"
         },
