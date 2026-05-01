@@ -32,6 +32,7 @@
             "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "<p><strong>You’ve got the skills. We’ll help you turn them into a career. </strong>Our career support is built around three pillars: interview guarantee, CV writing support, and ongoing guidance.</p>",
+            "text_type": "div",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
@@ -466,37 +467,43 @@
         "slide_riVk6q": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png",
+            "image_alt": ""
           }
         },
         "slide_ADGHRM": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_1.png"
+            "image": "shopify://shop_images/Untitled_design_1.png",
+            "image_alt": ""
           }
         },
         "slide_RpFpcp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+            "image": "shopify://shop_images/Focus_Awards_Logo.png",
+            "image_alt": ""
           }
         },
         "slide_hVMNNx": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/associationfornutrition.png"
+            "image": "shopify://shop_images/associationfornutrition.png",
+            "image_alt": ""
           }
         },
         "slide_MdKTEy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/rsph2.png"
+            "image": "shopify://shop_images/rsph2.png",
+            "image_alt": ""
           }
         },
         "slide_VbNAw4": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/activeIQ.png"
+            "image": "shopify://shop_images/activeIQ.png",
+            "image_alt": ""
           }
         }
       },
@@ -510,13 +517,24 @@
       ],
       "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
+        "display_type": "static",
         "slide_autospeed": 9500,
+        "slider_space_between": 42,
+        "slider_allow_touch": true,
+        "static_columns_mobile": 3,
+        "static_columns_desktop": 6,
+        "static_gap_mobile": 24,
+        "static_gap_desktop": 32,
+        "logo_max_width_mobile": 104,
+        "logo_max_width_desktop": 200,
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 16,
-        "margin_bottom": 0
+        "margin_bottom": 0,
+        "custom_class_names": ""
       }
     }
   },
