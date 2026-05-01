@@ -30,9 +30,9 @@
     # assign money_price = price | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
     # assign money_price_min = price_min | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
     # assign money_price_max = price_max | money_without_trailing_zeros | replace: ',', 'X' | replace: '.', ',' | replace: 'X', '.'
-    assign money_price = price | money
-    assign money_price_min = price_min | money
-    assign money_price_max = price_max | money
+    assign money_price = price | money_without_trailing_zeros
+    assign money_price_min = price_min | money_without_trailing_zeros
+    assign money_price_max = price_max | money_without_trailing_zeros
 
     if settings.currency_code_enabled
         assign money_price = price | money_with_currency
@@ -45,7 +45,7 @@
         assign show_compare_price = true
     endif
 
-    assign price2 = price | money_without_trailing_zeros
+    assign price2 = price | money
 
     if target == product and product.price_varies
         assign money_price = 'products.product.price.from_price_html' | t: price: money_price
