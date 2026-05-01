@@ -139,7 +139,7 @@
         {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <s class="price-item price-item--regular -no-decal {{ class_regular }}">
-          {{ compare_at_price | money_without_trailing_zeros }}
+          {{ compare_at_price | money }}
         </s>
         {%- endunless -%}
 
