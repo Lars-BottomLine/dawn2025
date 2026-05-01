@@ -7,6 +7,11 @@
 
   Static mode is intended for logo banks where all logos should be visible,
   especially on mobile.
+
+  Static grid behaviour:
+  - Full rows use the selected column count.
+  - If the final row is incomplete, remaining items are distributed evenly
+    across the row instead of bunching to the left.
 {% endcomment %}
 
 {%- liquid
@@ -16,6 +21,26 @@
     assign is_slider = true
   else
     assign is_slider = false
+  endif
+
+  assign static_block_count = section.blocks.size
+
+  assign static_columns_mobile = section.settings.static_columns_mobile | default: 3
+  assign static_columns_desktop = section.settings.static_columns_desktop | default: 6
+
+  assign mobile_remainder = static_block_count | modulo: static_columns_mobile
+  assign desktop_remainder = static_block_count | modulo: static_columns_desktop
+
+  assign static_grid_classes = 'v2-logo-grid'
+
+  if mobile_remainder > 0
+    assign static_grid_classes = static_grid_classes | append: ' -mobile-incomplete-row'
+    assign static_grid_classes = static_grid_classes | append: ' -mobile-remainder-' | append: mobile_remainder
+  endif
+
+  if desktop_remainder > 0
+    assign static_grid_classes = static_grid_classes | append: ' -desktop-incomplete-row'
+    assign static_grid_classes = static_grid_classes | append: ' -desktop-remainder-' | append: desktop_remainder
   endif
 -%}
 
@@ -100,7 +125,7 @@
   */
   #LogoGrid-{{ section.id }} {
     display: grid;
-    grid-template-columns: repeat({{ section.settings.static_columns_mobile }}, minmax(0, 1fr));
+    grid-template-columns: repeat({{ static_columns_mobile }}, minmax(0, 1fr));
     gap: {{ section.settings.static_gap_mobile }}px;
     align-items: center;
   }
@@ -119,6 +144,36 @@
     max-width: {{ section.settings.logo_max_width_mobile }}px;
     height: auto;
     margin: 0 auto;
+  }
+
+  /*
+    Static logo grid: incomplete final row handling - mobile
+    -------------------------------------------------------
+    The final row is spread evenly across the selected column count.
+  */
+
+  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-1 .v2-logo-grid-item:nth-last-child(1) {
+    grid-column: 1 / -1;
+  }
+
+  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-2 .v2-logo-grid-item:nth-last-child(2) {
+    grid-column: 1 / 2;
+  }
+
+  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-2 .v2-logo-grid-item:nth-last-child(1) {
+    grid-column: {{ static_columns_mobile }} / {{ static_columns_mobile | plus: 1 }};
+  }
+
+  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-3 .v2-logo-grid-item:nth-last-child(3) {
+    grid-column: 1 / 2;
+  }
+
+  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-3 .v2-logo-grid-item:nth-last-child(2) {
+    grid-column: 2 / 3;
+  }
+
+  #LogoGrid-{{ section.id }}.-mobile-incomplete-row.-mobile-remainder-3 .v2-logo-grid-item:nth-last-child(1) {
+    grid-column: {{ static_columns_mobile }} / {{ static_columns_mobile | plus: 1 }};
   }
 
   /*
@@ -157,13 +212,138 @@
     }
 
     #LogoGrid-{{ section.id }} {
-      grid-template-columns: repeat({{ section.settings.static_columns_desktop }}, minmax(0, 1fr));
+      grid-template-columns: repeat({{ static_columns_desktop }}, minmax(0, 1fr));
       gap: {{ section.settings.static_gap_desktop }}px;
+    }
+
+    /*
+      Reset mobile incomplete-row positioning before applying desktop rules.
+    */
+    #LogoGrid-{{ section.id }} .v2-logo-grid-item {
+      grid-column: auto;
     }
 
     #LogoGrid-{{ section.id }} .v2-logo-grid-item img,
     #LogoGrid-{{ section.id }} .v2-logo-grid-item svg {
       max-width: {{ section.settings.logo_max_width_desktop }}px;
+    }
+
+    /*
+      Static logo grid: incomplete final row handling - desktop
+      --------------------------------------------------------
+      The final row is spread evenly across the selected column count.
+    */
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-1 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: 1 / -1;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-2 .v2-logo-grid-item:nth-last-child(2) {
+      grid-column: 1 / 2;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-2 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-3 .v2-logo-grid-item:nth-last-child(3) {
+      grid-column: 1 / 2;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-3 .v2-logo-grid-item:nth-last-child(2) {
+      grid-column: {{ static_columns_desktop | divided_by: 2 | plus: 1 }} / {{ static_columns_desktop | divided_by: 2 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-3 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(4) {
+      grid-column: 1 / 2;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(3) {
+      grid-column: {{ static_columns_desktop | divided_by: 3 | plus: 1 }} / {{ static_columns_desktop | divided_by: 3 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(2) {
+      grid-column: {{ static_columns_desktop | times: 2 | divided_by: 3 | plus: 1 }} / {{ static_columns_desktop | times: 2 | divided_by: 3 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-4 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(5) {
+      grid-column: 1 / 2;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(4) {
+      grid-column: {{ static_columns_desktop | divided_by: 4 | plus: 1 }} / {{ static_columns_desktop | divided_by: 4 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(3) {
+      grid-column: {{ static_columns_desktop | divided_by: 2 | plus: 1 }} / {{ static_columns_desktop | divided_by: 2 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(2) {
+      grid-column: {{ static_columns_desktop | times: 3 | divided_by: 4 | plus: 1 }} / {{ static_columns_desktop | times: 3 | divided_by: 4 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-5 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(6) {
+      grid-column: 1 / 2;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(5) {
+      grid-column: {{ static_columns_desktop | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | divided_by: 5 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(4) {
+      grid-column: {{ static_columns_desktop | times: 2 | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | times: 2 | divided_by: 5 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(3) {
+      grid-column: {{ static_columns_desktop | times: 3 | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | times: 3 | divided_by: 5 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(2) {
+      grid-column: {{ static_columns_desktop | times: 4 | divided_by: 5 | plus: 1 }} / {{ static_columns_desktop | times: 4 | divided_by: 5 | plus: 2 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-6 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: {{ static_columns_desktop }} / {{ static_columns_desktop | plus: 1 }};
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(7) {
+      grid-column: 1 / 2;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(6) {
+      grid-column: 2 / 3;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(5) {
+      grid-column: 3 / 4;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(4) {
+      grid-column: 4 / 5;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(3) {
+      grid-column: 5 / 6;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(2) {
+      grid-column: 6 / 7;
+    }
+
+    #LogoGrid-{{ section.id }}.-desktop-incomplete-row.-desktop-remainder-7 .v2-logo-grid-item:nth-last-child(1) {
+      grid-column: 7 / 8;
     }
 
     #swiper-{{ section.id }} .swiper-slide img,
@@ -273,7 +453,7 @@
 
       <div
         id="LogoGrid-{{ section.id }}"
-        class="v2-logo-grid"
+        class="{{ static_grid_classes }}"
         role="list"
       >
         {%- for block in section.blocks -%}
