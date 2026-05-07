@@ -1012,15 +1012,6 @@
     "v2_video_zRAPCJ": {
       "type": "v2_video",
       "blocks": {
-        "videoblock_M7YKCz": {
-          "type": "videoblock",
-          "settings": {
-            "enable_video_looping": false,
-            "video_url": "https://youtu.be/2Ho0ykmjKgw",
-            "cover_image": "shopify://shop_images/Elearning_Website_Thumbnail_5_-_Repositioned.svg",
-            "description": ""
-          }
-        },
         "videoblock_GpT9Fq": {
           "type": "videoblock",
           "settings": {
@@ -1032,7 +1023,6 @@
         }
       },
       "block_order": [
-        "videoblock_M7YKCz",
         "videoblock_GpT9Fq"
       ],
       "name": "t:lesections.v2_video.presets.name",
