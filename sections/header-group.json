@@ -30,6 +30,7 @@
       "block_order": [
         "announcement_yB4FKW"
       ],
+      "disabled": true,
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "auto_rotate": false,
@@ -63,6 +64,18 @@
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false
+      }
+    },
+    "v2_custom_trustpilot_phone_bar_imMQkK": {
+      "type": "v2_custom_trustpilot_phone_bar",
+      "name": "Trustpilot phone bar",
+      "settings": {
+        "show_trustpilot": true,
+        "phone_number": "0345 017 8733",
+        "phone_link": "03450178733",
+        "background_color": "#00268b",
+        "text_color": "#ffffff",
+        "disable_trustpilot_script": false
       }
     },
     "custom_liquid_kUctmb": {
@@ -178,6 +191,7 @@
     "1755084133c5eab34c",
     "announcement_bar_3zK9j3",
     "announcement-bar",
+    "v2_custom_trustpilot_phone_bar_imMQkK",
     "custom_liquid_kUctmb",
     "header"
   ]
