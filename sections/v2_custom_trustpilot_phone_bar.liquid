@@ -1,0 +1,330 @@
+{% comment %}
+  Custom Trustpilot + Phone Announcement Bar
+  - Desktop: Trustpilot left, phone right
+  - Mobile: compact stacked layout
+{% endcomment %}
+
+{%- liquid
+    assign phone_number = section.settings.phone_number | default: '0345 017 8733'
+    assign phone_link = section.settings.phone_link | default: '03450178733'
+-%}
+
+<section
+        class="custom-trust-phone-bar"
+        style="
+                background: {{ section.settings.background_color }};
+                color: {{ section.settings.text_color }};
+                "
+>
+    <div class="custom-trust-phone-bar__inner">
+
+        <div class="custom-trust-phone-bar__trustpilot">
+            {% if section.settings.show_trustpilot %}
+                <!-- TrustBox widget - Micro Star -->
+                <div
+                        class="trustpilot-widget"
+                        data-locale="en-GB"
+                        data-template-id="5419b732fbfb950b10de65e5"
+                        data-businessunit-id="59ac1c690000ff0005aa5112"
+                        data-style-height="24px"
+                        data-style-width="100%"
+                        data-theme="dark"
+                        data-token="5e298168-ee61-4b61-860b-06b6f49d6f5a"
+                >
+                    <a
+                            href="https://uk.trustpilot.com/review/studyactive.co.uk"
+                            target="_blank"
+                            rel="noopener"
+                    >
+                        Trustpilot
+                    </a>
+                </div>
+                <!-- End TrustBox widget -->
+            {% endif %}
+        </div>
+
+        <div class="custom-trust-phone-bar__phone">
+            <a
+                    href="tel:{{ phone_link | remove: ' ' }}"
+                    class="custom-trust-phone-bar__phone-link"
+                    style="color: {{ section.settings.text_color }};"
+                    aria-label="Call us on {{ phone_number }}"
+            >
+        <span class="custom-trust-phone-bar__phone-icon" aria-hidden="true">
+          <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+                    d="M6.62 10.79C8.06 13.62 10.38 15.93 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.69 6.45 9.06 7.57C9.17 7.92 9.09 8.31 8.81 8.59L6.62 10.79Z"
+                    fill="currentColor"
+            />
+          </svg>
+        </span>
+
+                <span class="custom-trust-phone-bar__phone-text">
+          {{ phone_number }}
+        </span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+{% unless section.settings.disable_trustpilot_script %}
+    <!-- TrustBox script -->
+    <script
+            type="text/javascript"
+            src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+            async
+    ></script>
+    <!-- End TrustBox script -->
+{% endunless %}
+
+<style>
+    .custom-trust-phone-bar {
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.2;
+        z-index: 5;
+        overflow: hidden;
+    }
+
+    .custom-trust-phone-bar__inner {
+        width: 100%;
+        min-height: 38px;
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        box-sizing: border-box;
+    }
+
+    .custom-trust-phone-bar__trustpilot {
+        flex: 0 1 330px;
+        width: 330px;
+        max-width: 330px;
+        min-width: 0;
+        height: 24px;
+        max-height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    .custom-trust-phone-bar__trustpilot .trustpilot-widget {
+        width: 100%;
+        height: 24px !important;
+        min-height: 24px;
+        max-height: 24px;
+        overflow: hidden;
+    }
+
+    .custom-trust-phone-bar__trustpilot iframe {
+        display: block !important;
+        height: 24px !important;
+        max-height: 24px !important;
+        width: 100% !important;
+        border: 0 !important;
+        overflow: hidden !important;
+    }
+
+    .custom-trust-phone-bar__phone {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    .custom-trust-phone-bar__phone-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 7px;
+        text-decoration: none;
+        font-weight: 600;
+        white-space: nowrap;
+        letter-spacing: 0.02em;
+    }
+
+    .custom-trust-phone-bar__phone-link:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .custom-trust-phone-bar__phone-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+    }
+
+    .custom-trust-phone-bar__phone-icon svg {
+        display: block;
+        width: 16px;
+        height: 16px;
+    }
+
+    @media screen and (max-width: 989px) {
+        .custom-trust-phone-bar__inner {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    }
+
+    @media screen and (max-width: 749px) {
+        .custom-trust-phone-bar {
+            font-size: 12px;
+        }
+
+        .custom-trust-phone-bar__inner {
+            min-height: 60px;
+            padding: 8px 16px 8px;
+            gap: 5px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .custom-trust-phone-bar__trustpilot {
+            flex: 0 0 auto;
+            width: 100%;
+            max-width: 260px;
+            height: 24px;
+            max-height: 24px;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .custom-trust-phone-bar__trustpilot .trustpilot-widget {
+            width: 100%;
+            height: 24px !important;
+            min-height: 24px;
+            max-height: 24px !important;
+            overflow: hidden;
+        }
+
+        .custom-trust-phone-bar__trustpilot iframe {
+            height: 24px !important;
+            max-height: 24px !important;
+            overflow: hidden !important;
+        }
+
+        .custom-trust-phone-bar__phone {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 18px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .custom-trust-phone-bar__phone-link {
+            font-size: 13px;
+            gap: 6px;
+            justify-content: center;
+            line-height: 1;
+            font-weight: 700;
+        }
+
+        .custom-trust-phone-bar__phone-icon svg {
+            width: 13px;
+            height: 13px;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        .custom-trust-phone-bar__inner {
+            min-height: 58px;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        .custom-trust-phone-bar__trustpilot {
+            max-width: 245px;
+        }
+
+        .custom-trust-phone-bar__phone-link {
+            font-size: 12px;
+        }
+
+        .custom-trust-phone-bar__phone-icon svg {
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .custom-trust-phone-bar__trustpilot {
+            max-width: 230px;
+        }
+
+        .custom-trust-phone-bar__phone-link {
+            font-size: 11px;
+        }
+
+        .custom-trust-phone-bar__phone-icon svg {
+            width: 11px;
+            height: 11px;
+        }
+    }
+</style>
+
+{% schema %}
+{
+  "name": "Trustpilot phone bar",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_trustpilot",
+      "label": "Show Trustpilot widget",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "Phone number text",
+      "default": "0345 017 8733"
+    },
+    {
+      "type": "text",
+      "id": "phone_link",
+      "label": "Phone number link",
+      "info": "Use digits only where possible, for example 03450178733",
+      "default": "03450178733"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background colour",
+      "default": "#00268b"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text/icon colour",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_trustpilot_script",
+      "label": "Disable Trustpilot script in this section",
+      "info": "Enable this only if the Trustpilot script is already loaded elsewhere in the theme.",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trustpilot phone bar"
+    }
+  ]
+}
+{% endschema %}
