@@ -1,7 +1,7 @@
 {% comment %}
   Custom Trustpilot + Phone Announcement Bar
   - Desktop: Trustpilot left, phone right
-  - Mobile: compact stacked layout
+  - Mobile: configurable stacked or side-by-side layout
 {% endcomment %}
 
 {%- liquid
@@ -10,7 +10,7 @@
 -%}
 
 <section
-        class="custom-trust-phone-bar"
+        class="custom-trust-phone-bar custom-trust-phone-bar--mobile-{{ section.settings.mobile_layout }}"
         style="
                 background: {{ section.settings.background_color }};
                 color: {{ section.settings.text_color }};
@@ -149,7 +149,7 @@
         justify-content: flex-end;
         gap: 7px;
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 400;
         white-space: nowrap;
         letter-spacing: 0.02em;
     }
@@ -179,29 +179,17 @@
         }
     }
 
+    /*
+      Mobile shared styles
+    */
     @media screen and (max-width: 749px) {
         .custom-trust-phone-bar {
             font-size: 12px;
         }
 
-        .custom-trust-phone-bar__inner {
-            min-height: 60px;
-            padding: 8px 16px 8px;
-            gap: 5px;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-        }
-
         .custom-trust-phone-bar__trustpilot {
-            flex: 0 0 auto;
-            width: 100%;
-            max-width: 260px;
             height: 24px;
             max-height: 24px;
-            justify-content: center;
             overflow: hidden;
         }
 
@@ -219,20 +207,9 @@
             overflow: hidden !important;
         }
 
-        .custom-trust-phone-bar__phone {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 18px;
-            justify-content: center;
-            text-align: center;
-        }
-
         .custom-trust-phone-bar__phone-link {
-            font-size: 13px;
-            gap: 6px;
-            justify-content: center;
+            font-weight: 400;
             line-height: 1;
-            font-weight: 700;
         }
 
         .custom-trust-phone-bar__phone-icon svg {
@@ -241,39 +218,167 @@
         }
     }
 
-    @media screen and (max-width: 420px) {
-        .custom-trust-phone-bar__inner {
-            min-height: 58px;
-            padding-left: 14px;
-            padding-right: 14px;
+    /*
+      Mobile stacked layout
+    */
+    @media screen and (max-width: 749px) {
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__inner {
+            min-height: 60px;
+            padding: 6px 16px 8px;
+            gap: 5px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
         }
 
-        .custom-trust-phone-bar__trustpilot {
-            max-width: 245px;
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__trustpilot {
+            flex: 0 0 auto;
+            width: 100%;
+            max-width: 260px;
+            justify-content: center;
         }
 
-        .custom-trust-phone-bar__phone-link {
-            font-size: 12px;
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__phone {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 18px;
+            justify-content: center;
+            text-align: center;
         }
 
-        .custom-trust-phone-bar__phone-icon svg {
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__phone-link {
+            font-size: 13px;
+            gap: 6px;
+            justify-content: center;
+        }
+    }
+
+    /*
+      Mobile side-by-side layout
+      Height is slightly taller than desktop to avoid the Trustpilot iframe
+      and phone number looking cramped on small screens.
+    */
+    @media screen and (max-width: 749px) {
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__inner {
+            min-height: 46px;
+            padding: 8px 14px;
+            gap: 10px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__trustpilot {
+            flex: 1 1 auto;
+            width: auto;
+            max-width: 205px;
+            justify-content: flex-start;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone {
+            flex: 0 0 auto;
+            width: auto;
+            min-height: 18px;
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone-link {
+            font-size: 11px;
+            gap: 5px;
+            justify-content: flex-end;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone-icon svg {
             width: 12px;
             height: 12px;
         }
     }
 
+    /*
+      Small mobile adjustments - stacked
+    */
+    @media screen and (max-width: 420px) {
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__inner {
+            min-height: 58px;
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__trustpilot {
+            max-width: 245px;
+        }
+
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__phone-link {
+            font-size: 12px;
+        }
+
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__phone-icon svg {
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    /*
+      Small mobile adjustments - side by side
+    */
+    @media screen and (max-width: 420px) {
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__inner {
+            min-height: 46px;
+            padding-left: 12px;
+            padding-right: 12px;
+            gap: 8px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__trustpilot {
+            max-width: 190px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone-link {
+            font-size: 10px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone-icon svg {
+            width: 11px;
+            height: 11px;
+        }
+    }
+
     @media screen and (max-width: 360px) {
-        .custom-trust-phone-bar__trustpilot {
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__trustpilot {
             max-width: 230px;
         }
 
-        .custom-trust-phone-bar__phone-link {
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__phone-link {
             font-size: 11px;
         }
 
-        .custom-trust-phone-bar__phone-icon svg {
+        .custom-trust-phone-bar--mobile-stacked .custom-trust-phone-bar__phone-icon svg {
             width: 11px;
             height: 11px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__inner {
+            min-height: 48px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__trustpilot {
+            max-width: 168px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone-link {
+            font-size: 9px;
+        }
+
+        .custom-trust-phone-bar--mobile-side_by_side .custom-trust-phone-bar__phone-icon svg {
+            width: 10px;
+            height: 10px;
         }
     }
 </style>
@@ -287,6 +392,22 @@
       "id": "show_trustpilot",
       "label": "Show Trustpilot widget",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "label": "Mobile layout",
+      "default": "stacked",
+      "options": [
+        {
+          "value": "stacked",
+          "label": "Stacked"
+        },
+        {
+          "value": "side_by_side",
+          "label": "Side by side"
+        }
+      ]
     },
     {
       "type": "text",
