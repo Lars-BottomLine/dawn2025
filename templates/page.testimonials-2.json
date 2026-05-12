@@ -1,0 +1,969 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Careers",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_GzGMki": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FTBz73": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to get started?",
+            "heading_size": "h1"
+          }
+        },
+        "text_WG3THF": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_n7nrY7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See current partner gyms",
+            "button_link_1": "shopify://pages/associations-and-partners",
+            "button_style_secondary_1": false,
+            "button_label_2": "Book a careers call",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBz73",
+        "text_WG3THF",
+        "buttons_n7nrY7"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "v2_hero_dKmyEE": {
+      "type": "v2_hero",
+      "blocks": {
+        "slide_Cnt7J7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Blog_Image_-_Careers_In_Fitness.png",
+            "slide_type": "twocol",
+            "heading_text": "<p>Study Anywhere, <strong>Anytime</strong></p>",
+            "heading_type": "h1",
+            "heading_size": "hero",
+            "heading_strong_accented": true,
+            "heading_no_decal": false,
+            "text": "<p>Study anywhere, anytime, at your own pace – <strong>without compromising on quality</strong>. Our <strong>award-winning</strong> online and blended learning model lets you fit your course around work and family, with full tutor support by email, phone, video, and at assessment <strong>venues across the UK</strong>.</p>",
+            "text_type": "div",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": true,
+            "button_text": "",
+            "button_url": "#form",
+            "button_style": "primary",
+            "button_size": "small",
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_Cnt7J7"
+      ],
+      "name": "t:lesections.hero.presets.name",
+      "settings": {
+        "full_width": true,
+        "bkgr_color": "primary",
+        "slider_effect": "fade",
+        "slider_autoplay": false,
+        "slide_autospeed": 5000,
+        "custom_class_names": "",
+        "padding_top": 128,
+        "padding_bottom": 276,
+        "margin_top": 0,
+        "margin_bottom": -200
+      }
+    },
+    "v2_text_plus_image_NKxUXa": {
+      "type": "v2_text-plus-image",
+      "disabled": true,
+      "name": "t:lesections.textplusimage.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pt_0d1689ce-236c-43a2-b733-9c0e24351c1d.png",
+        "heading_text": "<p>Learning That Fits Around Life</p>",
+        "heading_type": "h2",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "subheadline_text": "",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p><br/>Traditional classrooms don’t suit everyone — and that’s where our blended learning shines.<br/><br/>Through a mix of digital study, one-to-one support, and in-person practical sessions (available regionally across the UK), we give you flexibility <em>without compromise</em>.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "<p>Many of our students record their gym assessments locally or attend one of our <a href=\"/pages/training-venues-and-locations\" title=\"Training Venues and Locations\">nationwide venues </a>— whichever suits you best.<br/><br/>Whether you live in the UK or overseas, you’re always connected to a dedicated support team ready to help you succeed.</p>",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "bkgr_color": "light-blue",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_dwQgQh": {
+      "type": "v2_header",
+      "disabled": true,
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Achieve the Career of Your Dreams</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>With our cutting-edge online learning platform, you can access lessons, videos, and resources whenever it works for you — from home, the gym, or on the go. With <strong>0% interest-free monthly payments</strong> and a <strong>price-beat guarantee</strong> on like-for-like courses, getting qualified is more affordable than you might think.<br/></p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 28,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_9e6EMB": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_fpE9eG": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://youtu.be/2Ho0ykmjKgw",
+            "cover_image": "shopify://shop_images/Elearning_Website_Thumbnail_5_-_Repositioned.svg",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_fpE9eG"
+      ],
+      "disabled": true,
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 92,
+        "padding_bottom": 40,
+        "margin_top": -48,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_JCzT6a": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Real Stories. Real Success.</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Hear directly from our students about their experiences on the course.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 24,
+        "margin_top": 0,
+        "margin_bottom": 24
+      }
+    },
+    "v2_video_zfxht4": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_eEbaQU": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1133856214?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Lisa_Marley.png",
+            "description": ""
+          }
+        },
+        "videoblock_VJ3EF9": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1134134461",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_John_White.png",
+            "description": ""
+          }
+        },
+        "videoblock_wqa3Fw": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1143893982?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_Olivia_Colt.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_eEbaQU",
+        "videoblock_VJ3EF9",
+        "videoblock_wqa3Fw"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_video_3Exfi9": {
+      "type": "v2_video",
+      "blocks": {
+        "videoblock_JBLkqC": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1146602485?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Bonnie_Simpson_-_Thumbnail_-_Video_Testimonals.png",
+            "description": ""
+          }
+        },
+        "videoblock_ybDtCm": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1172531889?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Bradley_Jurkowski.png",
+            "description": ""
+          }
+        },
+        "videoblock_hmB6gX": {
+          "type": "videoblock",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https://vimeo.com/1150322708?share=copy&fl=sv&fe=ci",
+            "cover_image": "shopify://shop_images/Thumbnail_-_Video_Testimonals_-_Ciara_Baugh.png",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "videoblock_JBLkqC",
+        "videoblock_ybDtCm",
+        "videoblock_hmB6gX"
+      ],
+      "name": "t:lesections.v2_video.presets.name",
+      "settings": {
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 52,
+        "padding_bottom": 40,
+        "margin_top": -36,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_9LUYMj": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_bLLDmP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Online_eLearning_Website_General_Image_2.svg",
+            "title_text": "<p><strong>Flexible Blended Learning</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>A combination of <strong>online study</strong> and <strong>practical experience</strong>.</li><li>Interactive e-learning platform with <strong>engaging video lessons</strong>, <strong>interactive quizzes</strong>, and <strong>digital manuals</strong>.</li><li>You can <strong>study at your own pace</strong> – some students fast-track in ~4 months, while others spread learning over 6-12 months.</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_fgyfqH": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Interactive_Content_Website_General_Image.svg",
+            "title_text": "<p><strong>Interactive Content & Support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>Support of <strong>live webinars</strong> and <strong>online workshops</strong> led by <strong>expert tutors</strong>.</li><li>Get <strong>one-on-one tutorial support</strong> via phone/Zoom and email whenever you need it.</li><li>Our system <strong>keeps track of your progress</strong> and is <strong>accessible 24/7,</strong> so you can train whenever it suits you.</li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_PBe3qx": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/78211a0d7eb94d5e8940efd398566417b631ce7f.jpg",
+            "title_text": "<p><strong>Hands-On Practice</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<ul><li>To <strong>build real skills</strong>, the diploma includes practical components. </li><li>Attend <strong>optional in-gym practical workshops</strong> for hands-on training, or <strong>submit video assessments</strong> from your own gym.</li><li>You’ll learn to <strong>conduct client consultations, demonstrate exercises, and lead training sessions confidently. </strong></li></ul>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_X74iRk": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Career_Growth_Accelerator_Image_New_Website_May_2026_2_Zoomed_in_version_92e896bb-81f7-4cbf-931d-8f699dea377f.svg",
+            "title_text": "<p><strong>Unlock Unmatched Career Support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>FREE Access to the Career Growth Accelerator Programme for graduates of any Study Active accredited course.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p></p><ul><li><strong>Personalised Career Support:</strong> One-on-one guidance with CV coaching, interview prep, and career planning.</li><li><strong>Freelancer Resources</strong>: Access free downloadable templates to streamline admin tasks and boost your business.</li></ul>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_bLLDmP",
+        "card_fgyfqH",
+        "card_PBe3qx",
+        "card_X74iRk"
+      ],
+      "name": "v2 - Cards - Wide White",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "wide_box",
+        "heading_text": "<p>Learning Experience</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all-active-courses",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "-anchor-step-3",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 64
+      }
+    },
+    "v2_header_AtLiGj": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Real Success, Real Stories</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Here are a few testimonials from former Study Active students</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_CegGJV": {
+      "type": "v2_slideshow",
+      "blocks": {
+        "slide_FU36Vn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_0b560b70-da6e-44e3-9fb3-a6a04cde6bca.png",
+            "headline": "<p>Michael Clegg</p>",
+            "subheadline": "<p>Former Premier League Footballer & current S&C Coach for Man Utd</p>",
+            "text": "<p>“Following a successful career as a Professional Footballer and later as a Strength & Conditioning Coach, I studied this course to expand my  skills set and put my knowledge of professional sport into practice as a Personal Trainer.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_CcjLqD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New.png",
+            "headline": "<p>Julie Davis</p>",
+            "subheadline": "<p>Powerlifting World Championship Athlete </p>",
+            "text": "<p>\"In addition to being a Powerlifting World Championship Athlete I also work as a Senior Manager for the NHS. This obviously means that things have been very busy, so a flexible solution was my preference.” </p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_WHBxnA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/New_d27b6ac9-2110-4427-a16b-6d67832e246d.png",
+            "headline": "<p>Anne Nixon</p>",
+            "subheadline": "<p>Former CBBC Television Presenter</p>",
+            "text": "<p>“I found Study Active after hours of browsing various course providers online. The moment I had my first phone call I knew they were one to trust... the level of support is exceptional.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_QUrN7z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/calvin-zola-504x251.avif",
+            "headline": "<p>Calvin Zola</p>",
+            "subheadline": "<p>Professional Footballer</p>",
+            "text": "<p>“... I highly recommend them to anyone looking for a highly professional and competent L2, L3 and L4 course provider. I can not recommend them enough. The level of support is second to none and the teaching is easy to understand and follow. The prompt response to any questions that you may have is also very much appreciated. Thank you again Study Active.\"</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_jfzCWi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/giles-matthey-504x251.avif",
+            "headline": "<p>Giles Matthey</p>",
+            "subheadline": "<p>Actor </p>",
+            "text": "<p>“I had a wonderful experience getting my level 2 Gym Instructor and Level 3 Personal Trainer qualifications with Study Active.<br/>The online support and tutors were so helpful and professional, making it all very clear and they were always quick at responding. I did a lot of research before choosing Study Active and I’m so glad I chose them. If you have any interest in getting qualified as a Personal Trainer, Study Active are the ones to talk to!”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_n6pMxi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pip_Drake_-_Website_Image_Rectangle.png",
+            "headline": "<p>Pip Drake</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“Studying with Study Active was a genuine win for me. I’d spent my whole career in offices, behind a desk, and shifting into the fitness industry felt like stepping into a completely different world. What made that transition not just possible, but successful, was how clear, structured and supportive the Study Active experience was from start to finish.”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
+        "slide_wzHUyA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Sajan_Bal_Lama.jpg",
+            "headline": "<p>Sajan Bal Lama</p>",
+            "subheadline": "<p>Qualified Personal Trainer Graduate</p>",
+            "text": "<p>“I can honestly say that my time with Study Active has been my best educational experience so far. From the very beginning, every single person I interacted with from the tutors to the receptionists was incredibly friendly and helpful. They never left me feeling confused; instead, they consistently guided me on the right path and provided the clarity I needed to succeed. I felt supported every step of the way. A special thank you to Kelly and the rest of the team for all the support”</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_FU36Vn",
+        "slide_CcjLqD",
+        "slide_WHBxnA",
+        "slide_QUrN7z",
+        "slide_jfzCWi",
+        "slide_n6pMxi",
+        "slide_wzHUyA"
+      ],
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "blue",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_cards_6EytYd": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_DH9Qia": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-heart-handshake-cyan_6500a2b5-dd58-4a73-95cc-19bad6911dd4.svg",
+            "title_text": "<p><strong>Guaranteed Interviews</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Benefit from our network of top UK gyms.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_jeQwFG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-discount-check-cyan.svg",
+            "title_text": "<p><strong>Trusted Provider</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>An industry leader trusted by 1000s since 2012.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_bkKgbD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-globe-cyan.svg",
+            "title_text": "<p><strong>Flexible Study</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Study on your own time, from anywhere.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_7QnFAL": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-trending-up-cyan.svg",
+            "title_text": "<p><strong>Growing Career</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Jobs in a growing industry with top satisfaction.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_DH9Qia",
+        "card_jeQwFG",
+        "card_bkKgbD",
+        "card_7QnFAL"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why choose Study Active?</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>Join thousands of successful graduates who transformed their careers with our award-winning training programs.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all-active-courses",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_XrAPbj": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Take the next step</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": true,
+        "heading_strong_accented": false,
+        "heading_align": "left",
+        "heading_width": "full",
+        "text": "<p>Why wait? It's time to seize the day. Take a look at our top rated courses below.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "left",
+        "bkgr_color": "white",
+        "custom_class_names": "courses_header",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_jzre7x": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition",
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-certificate-in-personal-training-l3",
+          "level-4-nutrition",
+          "active-iq-level-3-online-diploma-in-supporting-clients-with-long-term-conditions",
+          "active-iq-level-3-award-in-designing-pre-and-post-natal-exercise-programmes"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_newsletter_yxmkXP": {
+      "type": "v2_newsletter",
+      "name": "t:lesections.v2_newsletter.presets.name",
+      "settings": {
+        "form_type": "brochure",
+        "heading_text": "<p>Your Fitness Career Starts Here.</p>",
+        "heading_type": "h1",
+        "heading_size": "h1",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "subheadline_text": "<p><br/>Explore our industry-leading qualifications designed to help you build a successful career in fitness.<br/><br/></p>",
+        "subheadline_text_size": "copy-l",
+        "subheadline_text_no_decal": false,
+        "subheadline_text_strong_accented": false,
+        "text": "<p><strong>Not sure which course is right for you?</strong><br/><br/>Request a brochure below to explore your options and discover how Study Active can support your career.<br/><br/></p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "claim_text": "",
+        "claim_text_size": "copy-l",
+        "claim_text_no_decal": false,
+        "claim_text_strong_accented": false,
+        "custom_class_names": "",
+        "bkgr_color": "white",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_zkW8XC": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Qualifications Recognised by Everyone</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": true,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "left",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "white",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": -28
+      }
+    },
+    "v2_image_slider_hhUgzw": {
+      "type": "v2_image-slider",
+      "blocks": {
+        "slide_WjKLiB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png",
+            "image_alt": ""
+          }
+        },
+        "slide_Yy8Xna": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_1.png",
+            "image_alt": ""
+          }
+        },
+        "slide_nERWTf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Focus_Awards_Logo.png",
+            "image_alt": ""
+          }
+        },
+        "slide_jLfKR8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/associationfornutrition.png",
+            "image_alt": ""
+          }
+        },
+        "slide_kEVKAE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/rsph2.png",
+            "image_alt": ""
+          }
+        },
+        "slide_Fa4CDe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/activeIQ.png",
+            "image_alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_WjKLiB",
+        "slide_Yy8Xna",
+        "slide_nERWTf",
+        "slide_jLfKR8",
+        "slide_kEVKAE",
+        "slide_Fa4CDe"
+      ],
+      "name": "t:lesections.v2_image-slider.presets.name",
+      "settings": {
+        "display_type": "static",
+        "slide_autospeed": 9500,
+        "slider_space_between": 42,
+        "slider_allow_touch": true,
+        "static_columns_mobile": 3,
+        "static_columns_desktop": 6,
+        "static_gap_mobile": 24,
+        "static_gap_desktop": 32,
+        "logo_max_width_mobile": 104,
+        "logo_max_width_desktop": 200,
+        "bkgr_color": "white",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 16,
+        "margin_bottom": 0,
+        "custom_class_names": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_GzGMki",
+    "v2_hero_dKmyEE",
+    "v2_text_plus_image_NKxUXa",
+    "v2_header_dwQgQh",
+    "v2_video_9e6EMB",
+    "v2_header_JCzT6a",
+    "v2_video_zfxht4",
+    "v2_video_3Exfi9",
+    "v2_cards_9LUYMj",
+    "v2_header_AtLiGj",
+    "v2_slideshow_CegGJV",
+    "v2_cards_6EytYd",
+    "v2_header_XrAPbj",
+    "v2_slideshow_jzre7x",
+    "v2_newsletter_yxmkXP",
+    "v2_header_zkW8XC",
+    "v2_image_slider_hhUgzw"
+  ]
+}
