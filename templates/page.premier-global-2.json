@@ -602,7 +602,7 @@
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 0,
-        "margin_top": 0,
+        "margin_top": 40,
         "margin_bottom": -28
       }
     },
