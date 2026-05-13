@@ -77,11 +77,11 @@
         "heading_no_decal": false,
         "heading_decal_left": true,
         "heading_strong_accented": false,
-        "subheadline_text": "<p>Study Active is proud to be the official custodian of the Premier Global brand and its world-renowned legacy.<br/></p>",
+        "subheadline_text": "<p>Study Active is proud to be the official custodian of the Premier Global brand and its world-renowned legacy.<br/></p><p>By uniting the heritage of the industry’s most prestigious name with our own innovative, award-winning approach to education, we are driving a new era of innovation for fitness professionals worldwide.<br/></p>",
         "subheadline_text_size": "copy-l",
         "subheadline_text_no_decal": false,
         "subheadline_text_strong_accented": false,
-        "text": "<p>By uniting the heritage of the industry’s most prestigious name with our own innovative, award-winning approach to education, we are driving a new era of innovation for fitness professionals worldwide.<br/></p>",
+        "text": "",
         "text_size": "copy-m",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -98,143 +98,8 @@
         "bkgr_color": "white",
         "decal_top": true,
         "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": -140,
-        "margin_bottom": 0
-      }
-    },
-    "v2_flexible_ygqzdn": {
-      "type": "v2_flexible",
-      "blocks": {
-        "headline_x4A9fQ": {
-          "type": "headline",
-          "settings": {
-            "heading_text": "<p>The Next Generation of Excellence</p>",
-            "heading_align": "center",
-            "heading_width": "mediumplus",
-            "heading_type": "h2",
-            "heading_size": "h2",
-            "heading_no_decal": false,
-            "heading_decal_left": false,
-            "heading_strong_accented": false
-          }
-        },
-        "subheadline_EA8H8Y": {
-          "type": "subheadline",
-          "settings": {
-            "text": "<p>Study Active is combining Premier Global’s historic \"gold standard\" reputation with the cutting-edge technology and student-first flexibility that earned us <strong>UK Active Education Provider of the Year.</strong></p>",
-            "text_align": "center",
-            "text_width": "full",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "margin_top": 20,
-            "margin_bottom": -40
-          }
-        }
-      },
-      "block_order": [
-        "headline_x4A9fQ",
-        "subheadline_EA8H8Y"
-      ],
-      "name": "t:lesections.flexible.presets.name",
-      "settings": {
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_steps_Jkqk8z": {
-      "type": "v2_steps",
-      "blocks": {
-        "step_3rdmqM": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "For our Alumni",
-            "text": "<p>Your legacy is protected. We are here to honour the high standards you achieved and provide a home for your continued professional growth.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "step_BTNGt6": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "For our Current Students",
-            "text": "<p>You’re getting the best of both worlds - the weight of a global brand powered by the industry’s most agile and innovative training provider.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "step_LcpUKH": {
-          "type": "step",
-          "settings": {
-            "number": "",
-            "title": "For the Future",
-            "text": "<p>We aren’t just teaching fitness; we’re defining the modern professional. Expect smarter tools, deeper industry links, and a qualification that carries unmatched prestige.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "step_3rdmqM",
-        "step_BTNGt6",
-        "step_LcpUKH"
-      ],
-      "name": "t:lesections.v2_steps.presets.name",
-      "settings": {
-        "custom_class_names": "",
-        "bkgr_color": "light-blue",
-        "decal_top": false,
-        "decal_bottom": false,
-        "padding_top": 40,
-        "padding_bottom": 132,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_text_plus_image_rpM39k": {
-      "type": "v2_text-plus-image",
-      "name": "t:lesections.textplusimage.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/CIMSPA_Logo_Home_Page_4.svg",
-        "heading_text": "<p><strong>Why This Matters</strong></p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": true,
-        "heading_strong_accented": false,
-        "subheadline_text": "<p>This is more than a transition; it’s a <strong>fitness education powerhouse.</strong> We are revitalising the Premier Global spirit to ensure it remains the benchmark for quality in a rapidly evolving market.</p>",
-        "subheadline_text_size": "copy-l",
-        "subheadline_text_no_decal": false,
-        "subheadline_text_strong_accented": false,
-        "text": "",
-        "text_size": "copy-m",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "claim_text": "",
-        "claim_text_size": "copy-m",
-        "claim_text_no_decal": false,
-        "claim_text_strong_accented": false,
-        "custom_class_names": "",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "small",
-        "button_new_window": false,
-        "bkgr_color": "white",
-        "decal_top": true,
-        "decal_bottom": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 12,
+        "padding_bottom": 12,
         "margin_top": -140,
         "margin_bottom": 0
       }
@@ -246,15 +111,15 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-credit-card.svg",
-            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text": "<p><strong>For our Alumni</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Save money with our discounted full payment option</p>",
+            "text": "<p>Your legacy is protected. We are here to honour the high standards you achieved and provide a home for your continued professional growth.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>Up to 10% discount available.</strong></p>",
+            "claim_text": "",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
@@ -265,15 +130,15 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/icon-calendar-event.svg",
-            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text": "<p><strong>For Our Current Students</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text": "<p>You’re getting the best of both worlds - the weight of a global brand powered by the industry’s most agile and innovative training provider.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><strong>From £49/month available</strong></p>",
+            "claim_text": "",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
@@ -284,15 +149,15 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/symbol-shield.svg",
-            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text": "<p><strong>For the Future</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
             "title_text_strong_accented": false,
-            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text": "<p>We aren’t just teaching fitness; we’re defining the modern professional. Expect smarter tools, deeper industry links, and a qualification that carries unmatched prestige.</p>",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "<p><a href=\"/pages/terms-and-conditions\" title=\"Terms and Conditions\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
+            "claim_text": "",
             "claim_text_size": "copy-m",
             "claim_text_highlighted": true,
             "claim_text_no_decal": false,
@@ -307,9 +172,9 @@
       ],
       "name": "t:lesections.cards.presets.name",
       "settings": {
-        "bkgr_color": "white",
+        "bkgr_color": "light-blue",
         "card_layout": "vertical",
-        "heading_text": "<p>Flexible payment options</p>",
+        "heading_text": "<p>The Next Generation of Excellence</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
@@ -317,7 +182,7 @@
         "heading_strong_accented": false,
         "heading_align": "center",
         "heading_width": "medium",
-        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text": "<p>Study Active is combining Premier Global’s historic \"Gold Standard\" reputation with the cutting-edge technology and student-first flexibility that earned us <strong>UK Active Education Provider of the Year.</strong></p>",
         "text_size": "copy-xl",
         "text_no_decal": false,
         "text_strong_accented": false,
@@ -330,104 +195,84 @@
         "button_new_window": false,
         "button_align": "center",
         "custom_class_names": "",
-        "decal_top": false,
-        "decal_bottom": false,
+        "decal_top": true,
+        "decal_bottom": true,
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 16
       }
     },
-    "v2_cards_ibygGT": {
-      "type": "v2_cards",
+    "v2_flexible_c8fb6D": {
+      "type": "v2_flexible",
       "blocks": {
-        "card_bdW8AC": {
-          "type": "card",
+        "headline_rDFXF3": {
+          "type": "headline",
           "settings": {
-            "image": "shopify://shop_images/symbol-handshake-blue.svg",
-            "title_text": "<p><strong>Interview guarantee</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Interview with top UK gyms</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
+            "heading_text": "<p>The Next Generation of Excellence</p><p></p>",
+            "heading_align": "left",
+            "heading_width": "full",
+            "heading_type": "h3",
+            "heading_size": "h1",
+            "heading_no_decal": false,
+            "heading_decal_left": true,
+            "heading_strong_accented": false
           }
         },
-        "card_exjx3Q": {
-          "type": "card",
+        "subheadline_Vac9AH": {
+          "type": "subheadline",
           "settings": {
-            "image": "shopify://shop_images/symbol-article_person.svg",
-            "title_text": "<p><strong>CV writing support</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Learn how to stand out</p>",
+            "text": "<p>Study Active is combining Premier Global’s historic \"Gold Standard\" reputation with the cutting-edge technology and student-first flexibility that earned us <strong>UK Active Education Provider of the Year.</strong></p>",
+            "text_align": "left",
+            "text_width": "full",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
+            "margin_top": 16,
+            "margin_bottom": 0
           }
         },
-        "card_YHbaGQ": {
-          "type": "card",
+        "textcol_qtBn3z": {
+          "type": "textcol",
           "settings": {
-            "image": "shopify://shop_images/symbol-explore.svg",
-            "title_text": "<p><strong>Career guidance</strong></p>",
-            "title_text_size": "copy-xl",
-            "title_text_no_decal": false,
-            "title_text_strong_accented": false,
-            "text": "<p>Find the right path for you</p>",
-            "text_size": "copy-l",
-            "text_no_decal": false,
-            "text_strong_accented": false,
-            "claim_text": "",
-            "claim_text_size": "copy-m",
-            "claim_text_highlighted": true,
-            "claim_text_no_decal": false,
-            "claim_text_strong_accented": false
+            "left_text": "<p></p><p><strong>For our Alumni</strong><br/><br/>Your legacy is protected. We are here to honour the high standards you achieved and provide a home for your continued professional growth.<br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>For Our Current Students</strong></p><p></p><p>You’re getting the best of both worlds - the weight of a global brand powered by the industry’s most agile and innovative training provider.<br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "textcol_WdQJEk": {
+          "type": "textcol",
+          "settings": {
+            "left_text": "<p></p><p><strong>For the Future</strong></p><p><br/>We aren’t just teaching fitness; we’re defining the modern professional. Expect smarter tools, deeper industry links, and a qualification that carries unmatched prestige.<br/><br/></p>",
+            "left_text_size": "copy-l",
+            "left_text_no_decal": false,
+            "left_text_strong_accented": false,
+            "right_text": "<p></p><p><strong>For the Industry</strong></p><p><br/>This partnership raises the standard of fitness education - bringing together decades of trusted expertise with modern learning experiences built for today’s professionals.<br/></p>",
+            "right_text_size": "copy-l",
+            "right_text_no_decal": false,
+            "right_text_strong_accented": false,
+            "margin_top": 0,
+            "margin_bottom": 0
           }
         }
       },
       "block_order": [
-        "card_bdW8AC",
-        "card_exjx3Q",
-        "card_YHbaGQ"
+        "headline_rDFXF3",
+        "subheadline_Vac9AH",
+        "textcol_qtBn3z",
+        "textcol_WdQJEk"
       ],
-      "name": "t:lesections.cards.presets.name",
+      "disabled": true,
+      "name": "t:lesections.flexible.presets.name",
       "settings": {
         "bkgr_color": "light-blue",
-        "card_layout": "vertical",
-        "heading_text": "<p>Guaranteed job interview promise</p>",
-        "heading_type": "h2",
-        "heading_size": "h2",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "center",
-        "heading_width": "medium",
-        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.</p>",
-        "text_size": "copy-xl",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "center",
-        "text_width": "medium",
-        "button_text": "",
-        "button_url": "",
-        "button_style": "primary",
-        "button_size": "medium",
-        "button_new_window": false,
-        "button_align": "center",
         "custom_class_names": "",
         "decal_top": true,
         "decal_bottom": true,
@@ -437,70 +282,123 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_bCnJUn": {
-      "type": "v2_header",
-      "name": "t:lesections.v2_header.presets.name",
+    "v2_cards_8trT96": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_Jy6dqG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Industry_Leading_Education_-_Icon_Website_f84a478c-92ea-4c94-a608-e690c33a7912.svg",
+            "title_text": "<p><strong>Industry-Leading Education</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Setting the standard for modern fitness qualifications and learning experiences.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_4Va6e9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Future_Focused_Innovation_-_Icon_Website_Resized.svg",
+            "title_text": "<p><strong>Future Focused Innovation</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Evolving with the industry to equip fitness professionals for tomorrow’s market.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_kqAd7R": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Trusted_Legacy_-_Icon_Website_3.svg",
+            "title_text": "<p><strong>Trusted Legacy, Renewed Vision</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Combining Premier Global’s heritage with a fresh direction for growth.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_NwYYLN": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Stronger_Industry_Impact_-_Icon_Website_Resized_4d3d84e9-6de6-493c-8786-60b2f9e2255f.svg",
+            "title_text": "<p><strong>Stronger Industry Impact</strong></p>",
+            "title_text_size": "inherit",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Creating opportunities for learners, coaches, and partners across the fitness sector.</p>",
+            "text_size": "copy-m",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": false,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_Jy6dqG",
+        "card_4Va6e9",
+        "card_kqAd7R",
+        "card_NwYYLN"
+      ],
+      "name": "t:lesections.cards.presets.name",
       "settings": {
-        "page_wide": false,
-        "heading_text": "<p>See what they have to say about our certified courses</p>",
+        "bkgr_color": "primary",
+        "card_layout": "horizontal",
+        "heading_text": "<p>Why This Matters</p>",
         "heading_type": "h2",
         "heading_size": "h2",
         "heading_no_decal": false,
         "heading_decal_left": false,
         "heading_strong_accented": false,
         "heading_align": "center",
-        "heading_width": "full",
-        "text": "",
+        "heading_width": "medium",
+        "text": "<p>This is more than a transition; it’s a<strong> fitness education powerhouse.</strong> We are revitalising the Premier Global spirit to ensure it remains the benchmark for quality in a rapidly evolving market.</p>",
         "text_size": "copy-l",
         "text_no_decal": false,
         "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "button_text": "",
-        "button_url": "",
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "View all courses",
+        "button_url": "shopify://collections/all",
         "button_style": "primary",
         "button_size": "small",
         "button_new_window": false,
-        "button_at_side": false,
         "button_align": "center",
-        "bkgr_color": "light-blue",
         "custom_class_names": "",
         "decal_top": true,
-        "decal_bottom": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "v2_trustpilot_THHGjF": {
-      "type": "v2_trustpilot",
-      "name": "t:lesections.v2_trustpilot.presets.name",
-      "settings": {
-        "apply_filter": false,
-        "embed_code": "<!-- TrustBox script -->\n<script type=\"text/javascript\" src=\"//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js\" async></script>\n<!-- End TrustBox script -->\n\n<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"59ac1c690000ff0005aa5112\" data-style-height=\"240px\" data-style-width=\"100%\" data-token=\"3c5427b1-5f4c-4c66-8a6d-bbc089625435\" data-stars=\"4,5\" data-review-languages=\"en\">\n  <a href=\"https://uk.trustpilot.com/review/studyactive.co.uk\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
-        "heading_text": "",
-        "heading_type": "h1",
-        "heading_size": "h1",
-        "heading_no_decal": false,
-        "heading_decal_left": false,
-        "heading_strong_accented": false,
-        "heading_align": "left",
-        "heading_width": "full",
-        "text": "",
-        "text_size": "copy-l",
-        "text_no_decal": false,
-        "text_strong_accented": false,
-        "text_align": "left",
-        "text_width": "full",
-        "bkgr_color": "light-blue",
-        "custom_class_names": "",
-        "decal_top": false,
         "decal_bottom": true,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 0
+        "margin_bottom": 32
       }
     },
     "v2_header_NB9RNM": {
@@ -565,7 +463,7 @@
         "margin_bottom": 0
       }
     },
-    "v2_header_Xr9Pzj": {
+    "v2_header_hDbpkW": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
@@ -682,16 +580,12 @@
     "main",
     "v2_hero_NXWzxn",
     "v2_text_plus_image_NKhePQ",
-    "v2_flexible_ygqzdn",
-    "v2_steps_Jkqk8z",
-    "v2_text_plus_image_rpM39k",
     "v2_cards_nc7nWq",
-    "v2_cards_ibygGT",
-    "v2_header_bCnJUn",
-    "v2_trustpilot_THHGjF",
+    "v2_flexible_c8fb6D",
+    "v2_cards_8trT96",
     "v2_header_NB9RNM",
     "v2_slideshow_7i6eej",
-    "v2_header_Xr9Pzj",
+    "v2_header_hDbpkW",
     "v2_image_slider_RkDPEM"
   ]
 }
