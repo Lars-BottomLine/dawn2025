@@ -32,6 +32,7 @@
             "heading_strong_accented": true,
             "heading_no_decal": false,
             "text": "<p>Study Active is proud to announce that we are now the new home of <strong>Premier Global</strong>. We now carry the Premier Global name forward with the same passion, quality, and commitment that made it a household name.</p><p></p><p></p>",
+            "text_type": "div",
             "text_size": "copy-l",
             "text_no_decal": false,
             "text_strong_accented": true,
@@ -39,7 +40,12 @@
             "button_url": "",
             "button_style": "primary",
             "button_size": "small",
-            "button_new_window": false
+            "button_new_window": false,
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "primary",
+            "second_button_size": "small",
+            "second_button_new_window": false
           }
         }
       },
@@ -109,6 +115,7 @@
       "block_order": [
         "videoblock_GtiirL"
       ],
+      "disabled": true,
       "name": "t:lesections.v2_video.presets.name",
       "settings": {
         "custom_class_names": "",
@@ -123,6 +130,7 @@
     },
     "v2_header_AQGVxL": {
       "type": "v2_header",
+      "disabled": true,
       "name": "t:lesections.v2_header.presets.name",
       "settings": {
         "page_wide": false,
@@ -673,37 +681,43 @@
         "slide_yf4QqL": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png"
+            "image": "shopify://shop_images/UKactive_bac00723-e18a-4903-ac0e-94c82ffd5616.png",
+            "image_alt": ""
           }
         },
         "slide_U8xHgF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_1.png"
+            "image": "shopify://shop_images/Untitled_design_1.png",
+            "image_alt": ""
           }
         },
         "slide_QEftxf": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Focus_Awards_Logo.png"
+            "image": "shopify://shop_images/Focus_Awards_Logo.png",
+            "image_alt": ""
           }
         },
         "slide_gxgyVY": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/associationfornutrition.png"
+            "image": "shopify://shop_images/associationfornutrition.png",
+            "image_alt": ""
           }
         },
         "slide_GRhpjt": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/rsph2.png"
+            "image": "shopify://shop_images/rsph2.png",
+            "image_alt": ""
           }
         },
         "slide_yHnjPP": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/activeIQ.png"
+            "image": "shopify://shop_images/activeIQ.png",
+            "image_alt": ""
           }
         }
       },
@@ -717,13 +731,24 @@
       ],
       "name": "t:lesections.v2_image-slider.presets.name",
       "settings": {
+        "display_type": "slider",
         "slide_autospeed": 9500,
+        "slider_space_between": 42,
+        "slider_allow_touch": true,
+        "static_columns_mobile": 3,
+        "static_columns_desktop": 6,
+        "static_gap_mobile": 24,
+        "static_gap_desktop": 32,
+        "logo_max_width_mobile": 104,
+        "logo_max_width_desktop": 160,
+        "bkgr_color": "white",
         "decal_top": false,
         "decal_bottom": false,
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 16,
-        "margin_bottom": 0
+        "margin_bottom": 0,
+        "custom_class_names": ""
       }
     }
   },

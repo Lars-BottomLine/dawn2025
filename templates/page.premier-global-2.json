@@ -18,24 +18,24 @@
         "padding_bottom": 28
       }
     },
-    "v2_hero_k3BEND": {
+    "v2_hero_NXWzxn": {
       "type": "v2_hero",
       "blocks": {
-        "slide_D3F6QX": {
+        "slide_amMwxJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Website_Hero_Banner_-_New_Hero_Image_2.png",
+            "image": "shopify://shop_images/ptbrochure.png",
             "slide_type": "onecol",
-            "heading_text": "<p>Study Active:<br/><strong>The Home of Premier Global</strong></p>",
+            "heading_text": "<p>Premier Global Lives On - <strong>Now Powered by Study Active</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "",
+            "text": "<p>Study Active is proud to be the official custodian of the <strong>Premier Global</strong> brand and its world-renowned legacy.</p><p></p><p></p>",
             "text_type": "div",
             "text_size": "copy-l",
             "text_no_decal": false,
-            "text_strong_accented": false,
+            "text_strong_accented": true,
             "button_text": "",
             "button_url": "",
             "button_style": "primary",
@@ -50,7 +50,7 @@
         }
       },
       "block_order": [
-        "slide_D3F6QX"
+        "slide_amMwxJ"
       ],
       "name": "t:lesections.hero.presets.name",
       "settings": {
@@ -60,17 +60,17 @@
         "slider_autoplay": false,
         "slide_autospeed": 5000,
         "custom_class_names": "",
-        "padding_top": 40,
-        "padding_bottom": 188,
-        "margin_top": -4,
-        "margin_bottom": -8
+        "padding_top": 144,
+        "padding_bottom": 200,
+        "margin_top": 0,
+        "margin_bottom": -92
       }
     },
     "v2_text_plus_image_NKhePQ": {
       "type": "v2_text-plus-image",
       "name": "t:lesections.textplusimage.presets.name",
       "settings": {
-        "image": "shopify://shop_images/FI_-_L2_Gym_Instructor.png",
+        "image": "shopify://shop_images/Premier_Global_x_Study_Active_Website_Page_Logo.svg",
         "heading_text": "<p><strong>The Gold Standard, Reimagined.</strong></p>",
         "heading_type": "h2",
         "heading_size": "h2",
@@ -90,7 +90,7 @@
         "claim_text_no_decal": false,
         "claim_text_strong_accented": false,
         "custom_class_names": "",
-        "button_text": "",
+        "button_text": "Button",
         "button_url": "",
         "button_style": "primary",
         "button_size": "small",
@@ -239,6 +239,204 @@
         "margin_bottom": 0
       }
     },
+    "v2_cards_nc7nWq": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_kEAAyV": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-credit-card.svg",
+            "title_text": "<p><strong>Pay in Full</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Save money with our discounted full payment option</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>Up to 10% discount available.</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_RiCkDx": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "title_text": "<p><strong>Monthly Payments</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Spread the cost with affordable monthly payments</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><strong>From £49/month available</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_KYFhbG": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-shield.svg",
+            "title_text": "<p><strong>0% Finance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Subject to status, spread payments interest-free</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "<p><a href=\"/pages/terms-and-conditions\" title=\"Terms and Conditions\"><strong>Terms and conditions</strong></a><strong> apply</strong></p>",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_kEAAyV",
+        "card_RiCkDx",
+        "card_KYFhbG"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "white",
+        "card_layout": "vertical",
+        "heading_text": "<p>Flexible payment options</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We believe finance shouldn’t be a barrier to your career transformation. Choose the payment option that works best for you.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 16
+      }
+    },
+    "v2_cards_ibygGT": {
+      "type": "v2_cards",
+      "blocks": {
+        "card_bdW8AC": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-handshake-blue.svg",
+            "title_text": "<p><strong>Interview guarantee</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Interview with top UK gyms</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_exjx3Q": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-article_person.svg",
+            "title_text": "<p><strong>CV writing support</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Learn how to stand out</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        },
+        "card_YHbaGQ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/symbol-explore.svg",
+            "title_text": "<p><strong>Career guidance</strong></p>",
+            "title_text_size": "copy-xl",
+            "title_text_no_decal": false,
+            "title_text_strong_accented": false,
+            "text": "<p>Find the right path for you</p>",
+            "text_size": "copy-l",
+            "text_no_decal": false,
+            "text_strong_accented": false,
+            "claim_text": "",
+            "claim_text_size": "copy-m",
+            "claim_text_highlighted": true,
+            "claim_text_no_decal": false,
+            "claim_text_strong_accented": false
+          }
+        }
+      },
+      "block_order": [
+        "card_bdW8AC",
+        "card_exjx3Q",
+        "card_YHbaGQ"
+      ],
+      "name": "t:lesections.cards.presets.name",
+      "settings": {
+        "bkgr_color": "light-blue",
+        "card_layout": "vertical",
+        "heading_text": "<p>Guaranteed job interview promise</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "medium",
+        "text": "<p>We’re so confident in our training that we guarantee you’ll get job interviews upon successful completion of your course. If not, we’ll refund your course fees.</p>",
+        "text_size": "copy-xl",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "medium",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "medium",
+        "button_new_window": false,
+        "button_align": "center",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "v2_header_bCnJUn": {
       "type": "v2_header",
       "name": "t:lesections.v2_header.presets.name",
@@ -300,6 +498,68 @@
         "decal_top": false,
         "decal_bottom": true,
         "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "v2_header_NB9RNM": {
+      "type": "v2_header",
+      "name": "t:lesections.v2_header.presets.name",
+      "settings": {
+        "page_wide": false,
+        "heading_text": "<p>Join the New Chapter of Fitness Education</p>",
+        "heading_type": "h2",
+        "heading_size": "h2",
+        "heading_no_decal": false,
+        "heading_decal_left": false,
+        "heading_strong_accented": false,
+        "heading_align": "center",
+        "heading_width": "full",
+        "text": "<p>Premier Global's legacy continues - only now with the award-winning structure, support, and innovation of Study Active.</p>",
+        "text_size": "copy-l",
+        "text_no_decal": false,
+        "text_strong_accented": false,
+        "text_align": "center",
+        "text_width": "full",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "primary",
+        "button_size": "small",
+        "button_new_window": false,
+        "button_at_side": false,
+        "button_align": "center",
+        "bkgr_color": "light-blue",
+        "custom_class_names": "",
+        "decal_top": true,
+        "decal_bottom": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": -32,
+        "margin_bottom": 0
+      }
+    },
+    "v2_slideshow_7i6eej": {
+      "type": "v2_slideshow",
+      "name": "t:lesections.v2_slideshow.presets.name",
+      "settings": {
+        "slide_type": "product_manual",
+        "blog": "",
+        "blog_post_limit": 3,
+        "product_list": [
+          "cimspa-endorsed-level-3-diploma-practitioner-in-personal-training",
+          "l2-gym-instruction-l3-personal-training-l4-nutrition",
+          "l2-gym-instruction-l3-pt-l4-personal-training-l4-nutrition",
+          "cimspa-level-2-certificate-in-fitness-instruction",
+          "cimspa-certificate-in-personal-training-l3"
+        ],
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "custom_class_names": "",
+        "bkgr_color": "light-blue",
+        "decal_top": false,
+        "decal_bottom": false,
+        "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
@@ -420,13 +680,17 @@
   },
   "order": [
     "main",
-    "v2_hero_k3BEND",
+    "v2_hero_NXWzxn",
     "v2_text_plus_image_NKhePQ",
     "v2_flexible_ygqzdn",
     "v2_steps_Jkqk8z",
     "v2_text_plus_image_rpM39k",
+    "v2_cards_nc7nWq",
+    "v2_cards_ibygGT",
     "v2_header_bCnJUn",
     "v2_trustpilot_THHGjF",
+    "v2_header_NB9RNM",
+    "v2_slideshow_7i6eej",
     "v2_header_Xr9Pzj",
     "v2_image_slider_RkDPEM"
   ]
