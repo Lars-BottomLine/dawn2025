@@ -24,14 +24,14 @@
         "slide_amMwxJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ptbrochure.png",
+            "image": "shopify://shop_images/Premier_Global_-_Website_Hero_Banner_1.svg",
             "slide_type": "onecol",
             "heading_text": "<p>Premier Global Lives On - <strong>Now Powered by Study Active</strong></p>",
             "heading_type": "h1",
             "heading_size": "hero",
             "heading_strong_accented": true,
             "heading_no_decal": false,
-            "text": "<p>Study Active is proud to be the official custodian of the <strong>Premier Global</strong> brand and its world-renowned legacy.</p><p></p><p></p>",
+            "text": "<p>Building on the trusted legacy of <strong>Premier Global </strong>- Study Active is shaping the future of fitness education worldwide.</p><p></p><p></p>",
             "text_type": "div",
             "text_size": "copy-l",
             "text_no_decal": false,
