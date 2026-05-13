@@ -110,7 +110,7 @@
         "card_kEAAyV": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-credit-card.svg",
+            "image": "shopify://shop_images/Alumni_-_Icon_Website.svg",
             "title_text": "<p><strong>For our Alumni</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -129,7 +129,7 @@
         "card_RiCkDx": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/icon-calendar-event.svg",
+            "image": "shopify://shop_images/Current_Students_-_Icon_Website.svg",
             "title_text": "<p><strong>For Our Current Students</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -148,7 +148,7 @@
         "card_KYFhbG": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/symbol-shield.svg",
+            "image": "shopify://shop_images/Future_-_Icon_Website.svg",
             "title_text": "<p><strong>For the Future</strong></p>",
             "title_text_size": "copy-xl",
             "title_text_no_decal": false,
@@ -200,7 +200,7 @@
         "padding_top": 0,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 16
+        "margin_bottom": 0
       }
     },
     "v2_flexible_c8fb6D": {
@@ -398,7 +398,7 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 0,
-        "margin_bottom": 32
+        "margin_bottom": 0
       }
     },
     "v2_header_NB9RNM": {
